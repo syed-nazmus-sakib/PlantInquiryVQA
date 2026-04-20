@@ -1,0 +1,135 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "lemon.unknown.leaf_curl",
+  "aliases": [
+    "citrus leaf curl",
+    "lemon leaf distortion",
+    "leaf puckering"
+  ],
+  "crop": {
+    "common_name": "lemon",
+    "scientific_name": "Citrus limon",
+    "family": "Rutaceae"
+  },
+  "condition": {
+    "common_name": "leaf curl",
+    "scientific_name": "",
+    "alt_names": [
+      "leaf distortion",
+      "leaf puckering"
+    ],
+    "pathogen": {
+      "type": "unknown",
+      "taxonomy": {
+        "kingdom": "",
+        "phylum": "",
+        "class": "",
+        "order": "",
+        "family": "",
+        "genus": "",
+        "species": ""
+      }
+    }
+  },
+  "issue_type": "unknown",
+  "transmission": {
+    "vectors": [
+      "aphids",
+      "whiteflies"
+    ],
+    "dispersal": [
+      "insect movement",
+      "wind"
+    ],
+    "overwintering": [
+      "on alternate hosts",
+      "as eggs on woody tissue",
+      "in infected plant debris"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "rapid new growth (flush)",
+      "high aphid populations",
+      "mild, humid weather",
+      "drought stress"
+    ],
+    "temp_c_day": [
+      18,
+      28
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      60,
+      90
+    ],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "1-10% of leaves on the plant are curled or distorted.",
+    "moderate": "11-40% of leaves are affected, with some stunting of new shoots.",
+    "severe": ">40% of leaves are curled, with significant stunting and reduced plant vigor.",
+    "notes": "Severity is assessed as the percentage of total leaves on the plant showing curling, twisting, or distortion symptoms. Symptoms are often most prominent on new growth."
+  },
+  "symptoms": {
+    "leaves": [
+      "Leaves curl downwards or upwards along the midrib.",
+      "Affected leaves appear thickened, puckered, or blistered.",
+      "Leaf color may be pale green or yellowish.",
+      "Young, developing leaves are the most commonly and severely affected.",
+      "Leaves may be smaller than normal size.",
+      "A sticky 'honeydew' or black sooty mold may be present on the leaf surface if caused by insects."
+    ],
+    "stems": [
+      "Internodes on new shoots may be shortened, leading to a 'rosette' appearance.",
+      "Affected shoots may appear stunted or twisted."
+    ],
+    "fruit": [
+      "Fruit production and quality may be reduced on severely affected branches."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Overall plant vigor is reduced, especially in young trees."
+    ],
+    "signs_microscopic_or_visible": [
+      "Small insects (e.g., aphids) may be visible in clusters on the underside of new leaves or on stems."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "citrus leafminer",
+      "condition_id": "lemon.pest.citrus_leafminer",
+      "key_differences": [
+        "Leafminer damage appears as silvery, serpentine 'tunnels' or 'mines' inside the leaf tissue, which are absent in leaf curl.",
+        "Leafminer causes a tight rolling or folding of the leaf margin over the mine, distinct from the broader puckering or cupping of leaf curl.",
+        "Small larvae can be seen inside the translucent mines upon close inspection."
+      ]
+    },
+    {
+      "condition_name": "nutritional deficiency",
+      "condition_id": "lemon.abiotic.nutritional_deficiency",
+      "key_differences": [
+        "Nutrient deficiencies often cause distinct, often symmetrical, chlorosis patterns (e.g., interveinal yellowing, mottled patterns) that may or may not be accompanied by curling.",
+        "Leaf distortion from deficiencies (e.g., zinc) often results in abnormally small, narrow leaves ('little leaf') rather than the puckering and blistering typical of pest/pathogen-induced curl.",
+        "Deficiency symptoms typically appear uniformly on either old or new growth, depending on the nutrient, whereas pest-induced curl is often patchily distributed on the newest flush."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Monitor new growth for sap-sucking insects like aphids, especially in spring.",
+      "Prune and destroy heavily affected shoots to reduce inoculum or pest load.",
+      "Maintain consistent watering and balanced nutrition to promote plant vigor and reduce stress.",
+      "Encourage natural predators like ladybugs and lacewings by avoiding broad-spectrum insecticides."
+    ],
+    "biological": [
+      "Introduce or conserve beneficial insects such as lacewings, lady beetles, and parasitic wasps."
+    ],
+    "chemical": [
+      "Apply insecticidal soaps or horticultural oils to control aphid populations, ensuring thorough coverage of leaf undersides.",
+      "If pest pressure is severe, consider targeted systemic or contact insecticides, following all label directions."
+    ],
+    "notes": "The primary management step is to identify the cause. If pests like aphids are present, focus on their control. If no pests are visible, evaluate for environmental stressors like drought or waterlogging."
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "cucumber.healthy.healthy",
+  "aliases": [
+    "normal",
+    "unaffected",
+    "symptom-free"
+  ],
+  "crop": {
+    "common_name": "Cucumber",
+    "scientific_name": "Cucumis sativus",
+    "family": "Cucurbitaceae"
+  },
+  "condition": {
+    "common_name": "Healthy",
+    "scientific_name": null,
+    "alt_names": [],
+    "pathogen": {
+      "type": "none",
+      "taxonomy": {
+        "kingdom": "",
+        "phylum": "",
+        "class": "",
+        "order": "",
+        "family": "",
+        "genus": "",
+        "species": ""
+      }
+    }
+  },
+  "issue_type": "healthy",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [],
+    "overwintering": []
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "Optimal growing conditions are maintained, including proper light, water, and nutrition."
+    ],
+    "temp_c_day": [
+      24,
+      29
+    ],
+    "temp_c_night": [
+      18,
+      21
+    ],
+    "relative_humidity_pct": [
+      60,
+      70
+    ],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "qualitative",
+    "mild": "No visible symptoms of disease or significant stress. May have minor, non-pathogenic physical blemishes on <1% of plant surface.",
+    "moderate": "Not applicable. The presence of moderate symptoms would indicate a non-healthy condition.",
+    "severe": "Not applicable. The presence of severe symptoms would indicate a non-healthy condition.",
+    "notes": "This rubric assesses the absence of disease. 'Mild' allows for trivial mechanical damage or cosmetic imperfections that do not impact plant health. Any rating beyond 'mild' signifies a deviation from the 'healthy' state."
+  },
+  "symptoms": {
+    "leaves": [
+      "Uniformly green color, consistent with the cultivar.",
+      "Leaves are fully expanded, turgid, and appropriately sized.",
+      "Surfaces are free of spots, lesions, yellowing (chlorosis), or necrosis.",
+      "No powdery, downy, or sooty mold growth is visible on either leaf surface.",
+      "Leaf margins are intact and show no signs of browning or curling."
+    ],
+    "stems": [
+      "Stems and vines are firm, turgid, and typically light to medium green.",
+      "No cankers, lesions, discoloration, or gummy ooze is present.",
+      "Vines exhibit active, vigorous growth at the terminals."
+    ],
+    "fruit": [
+      "Fruit is firm to the touch with a consistent shape and size typical for the cultivar.",
+      "Skin color is uniform and unblemished, typically green but varies by cultivar.",
+      "No soft spots, water-soaked areas, sunken lesions, or mold growth.",
+      "Blossom end is firm and dry."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Exhibits a vigorous, upright or vining growth habit.",
+      "Plant does not show signs of wilting, especially during cooler parts of the day.",
+      "Overall appearance is robust with normal flower and fruit production."
+    ],
+    "signs_microscopic_or_visible": []
+  },
+  "lookalikes": [
+    {
+      "condition_name": "downy_mildew",
+      "condition_id": "cucumber.fungal.downy_mildew",
+      "key_differences": [
+        "Healthy leaves have a uniform green color, whereas downy mildew causes angular, yellow to brownish lesions on the upper leaf surface.",
+        "The underside of a healthy leaf is clean, while downy mildew-infected leaves often show a purplish-grey, fuzzy mold on the underside, especially in humid conditions.",
+        "Healthy leaves remain turgid and flat, whereas leaves with advanced downy mildew become necrotic and may curl."
+      ]
+    },
+    {
+      "condition_name": "bacterial_wilt",
+      "condition_id": "cucumber.bacterial.bacterial_wilt",
+      "key_differences": [
+        "A healthy plant is turgid and upright, while bacterial wilt causes rapid, irreversible wilting of entire vines, often starting with a single leaf, without any yellowing.",
+        "The stem of a healthy plant is firm and shows no internal discoloration. A stem infected with bacterial wilt, when cut, will exude a sticky, stringy bacterial ooze when the cut ends are pulled apart.",
+        "Wilting from bacterial wilt is permanent, whereas a healthy plant might show temporary wilting on a very hot day but recovers overnight."
+      ]
+    },
+    {
+      "condition_name": "anthracnose",
+      "condition_id": "cucumber.fungal.anthracnose",
+      "key_differences": [
+        "Healthy fruit has smooth, unblemished skin. Anthracnose on fruit appears as circular, sunken, water-soaked spots that turn black and may develop a pinkish center.",
+        "Healthy leaves are whole and uniformly colored. Anthracnose causes round, water-soaked spots on leaves that enlarge, turn dark brown or black, and may drop out, creating a 'shot-hole' effect."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Provide consistent and adequate watering, avoiding overhead irrigation to keep foliage dry.",
+      "Ensure proper plant spacing to promote good air circulation.",
+      "Maintain a balanced soil fertility program based on soil testing.",
+      "Practice crop rotation with non-cucurbit crops.",
+      "Select cultivars that are well-suited to the local growing conditions."
+    ],
+    "biological": [],
+    "chemical": [],
+    "notes": "Management for a healthy plant focuses on preventative care and maintaining optimal growing conditions to prevent the onset of diseases and disorders."
+  }
+}

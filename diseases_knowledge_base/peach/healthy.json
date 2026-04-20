@@ -1,0 +1,118 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "peach.healthy.healthy",
+  "aliases": [
+    "Normal peach",
+    "Asymptomatic peach",
+    "Unaffected peach"
+  ],
+  "crop": {
+    "common_name": "Peach",
+    "scientific_name": "Prunus persica",
+    "family": "Rosaceae"
+  },
+  "condition": {
+    "common_name": "Healthy",
+    "scientific_name": null,
+    "alt_names": [
+      "Normal",
+      "Asymptomatic"
+    ],
+    "pathogen": {
+      "type": "none",
+      "taxonomy": {
+        "kingdom": "",
+        "phylum": "",
+        "class": "",
+        "order": "",
+        "family": "",
+        "genus": "",
+        "species": ""
+      }
+    }
+  },
+  "issue_type": "healthy",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [],
+    "overwintering": []
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "Optimal sunlight exposure (full sun)",
+      "Good air circulation through the canopy",
+      "Well-drained soil to prevent root stress",
+      "Balanced nutrition and appropriate soil pH",
+      "Sufficient and regular watering without waterlogging"
+    ],
+    "temp_c_day": [
+      24,
+      29
+    ],
+    "temp_c_night": [
+      15,
+      21
+    ],
+    "relative_humidity_pct": [
+      50,
+      70
+    ],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "qualitative",
+    "mild": "Not applicable.",
+    "moderate": "Not applicable.",
+    "severe": "Not applicable.",
+    "notes": "Severity is not applicable for a healthy condition. The plant is considered healthy if it exhibits no visible signs of disease, pest damage, or significant abiotic stress."
+  },
+  "symptoms": {
+    "leaves": [
+      "Uniformly green color, consistent with the cultivar.",
+      "No spots, lesions, discoloration, or necrosis.",
+      "Leaves are fully expanded, turgid, and have a smooth surface.",
+      "No evidence of puckering, curling, or distortion.",
+      "Petioles are firm and securely attached to the stem."
+    ],
+    "stems": [
+      "Current season's growth is vigorous with smooth, appropriately colored bark.",
+      "No cankers, gummosis (oozing sap), cracks, or swelling.",
+      "Buds appear well-formed and viable."
+    ],
+    "fruit": [
+      "Skin is smooth (may have natural fuzz) and unblemished.",
+      "Color is uniform and appropriate for the cultivar and stage of maturity.",
+      "No spots, cracks, sunken areas, or signs of rot."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Exhibits a vigorous, well-structured growth habit.",
+      "A dense, full canopy of leaves is present during the growing season."
+    ],
+    "signs_microscopic_or_visible": []
+  },
+  "lookalikes": [
+    {
+      "condition_name": "Bacterial Spot",
+      "condition_id": "peach.bacterial.bacterial_spot",
+      "key_differences": [
+        "Healthy leaves are uniformly green, whereas bacterial spot causes small, angular, water-soaked lesions that turn dark purple or black.",
+        "With bacterial spot, the center of leaf lesions often falls out, creating a 'shot-hole' appearance, which is absent in healthy leaves.",
+        "Healthy fruit skin is smooth and unblemished, while bacterial spot causes small, circular, pitted lesions on the fruit surface, sometimes with cracking.",
+        "Bacterial spot can cause twig dieback and cankers on young shoots, which are not present on healthy stems."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Planting in sites with full sun, good air circulation, and well-drained soil.",
+      "Implementing a balanced fertilizer program based on soil testing.",
+      "Pruning annually during dormancy to maintain an open canopy structure.",
+      "Providing consistent irrigation, especially during dry periods, to avoid plant stress.",
+      "Practicing orchard sanitation, such as removing fallen leaves and mummified fruit."
+    ],
+    "biological": [],
+    "chemical": [],
+    "notes": "Management for a healthy plant focuses on proactive cultural practices that promote vigor and minimize environmental stress, making the plant less susceptible to future infections."
+  }
+}

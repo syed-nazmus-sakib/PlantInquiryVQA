@@ -1,0 +1,126 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "lemon.physiological_symptom.senescence_or_dry",
+  "aliases": [
+    "drought stress",
+    "water stress",
+    "leaf drying",
+    "natural leaf aging"
+  ],
+  "crop": {
+    "common_name": "Lemon",
+    "scientific_name": "Citrus limon",
+    "family": "Rutaceae"
+  },
+  "condition": {
+    "common_name": "Senescence or Dry",
+    "scientific_name": null,
+    "alt_names": [
+      "Drought stress",
+      "Water stress",
+      "Natural leaf aging"
+    ],
+    "pathogen": {
+      "type": "abiotic",
+      "taxonomy": {
+        "kingdom": "",
+        "phylum": "",
+        "class": "",
+        "order": "",
+        "family": "",
+        "genus": "",
+        "species": ""
+      }
+    }
+  },
+  "issue_type": "physiological_symptom",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [],
+    "overwintering": []
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "Insufficient or inconsistent watering",
+      "Prolonged periods of drought",
+      "High ambient temperatures and low humidity",
+      "Poorly draining soil leading to root damage",
+      "Container-grown plants becoming root-bound"
+    ],
+    "temp_c_day": [
+      30,
+      45
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      0,
+      40
+    ],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "1-10% of total leaf area shows yellowing or browning, primarily on older, lower leaves. No significant wilting.",
+    "moderate": "11-40% of total leaf area affected. Symptoms include noticeable leaf curling, wilting, and crisping of margins. Some premature leaf drop may occur.",
+    "severe": ">40% of total leaf area is brown, dry, and brittle. Widespread wilting of stems and significant leaf drop, leading to a sparse canopy.",
+    "notes": "Severity is assessed as the percentage of the plant's total foliage showing symptoms. The degree of wilting and leaf drop are also key indicators."
+  },
+  "symptoms": {
+    "leaves": [
+      "Uniform yellowing (chlorosis) that lacks a distinct pattern, often starting on older leaves.",
+      "Leaf margins and tips turn brown, become brittle, and feel dry or crispy.",
+      "Leaves appear dull, wilted, or curled downwards.",
+      "In severe cases, the entire leaf turns brown and desiccated.",
+      "Premature shedding of leaves, particularly older ones."
+    ],
+    "stems": [
+      "Young, succulent stems may droop or wilt.",
+      "In prolonged, severe cases, twig and branch dieback can occur."
+    ],
+    "fruit": [
+      "Fruit may fail to develop to full size.",
+      "Premature fruit drop can occur under severe stress."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "The entire plant appears droopy, wilted, and lacks vigor.",
+      "The plant canopy may look thin or sparse due to significant leaf loss."
+    ],
+    "signs_microscopic_or_visible": [
+      "Absence of any fungal structures (e.g., pustules, mycelium), bacterial ooze, or insect trails."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "Nutritional Deficiency",
+      "condition_id": "lemon.physiological_symptom.nutritional_deficiency",
+      "key_differences": [
+        "Nutrient deficiencies often create distinct patterns like interveinal chlorosis (green veins, yellow tissue) or specific yellowing of new vs. old leaves, while drought stress causes a more uniform yellowing or marginal browning.",
+        "Leaves affected by drought stress are typically wilted and curled, which is less common for most nutrient deficiencies.",
+        "Drought stress is often accompanied by a dry soil environment, whereas nutrient issues can occur even with proper watering."
+      ]
+    },
+    {
+      "condition_name": "Citrus Leafminer",
+      "condition_id": "lemon.pest_damage.citrus_leafminer",
+      "key_differences": [
+        "Leafminer damage presents as silvery, serpentine trails (mines) within the leaf tissue; senescence does not create trails.",
+        "Leafminer damage causes severe twisting and distortion of new, young growth, whereas drought stress typically affects older leaves first with wilting and browning.",
+        "Small black specks of frass (insect excrement) may be visible within the leafminer trails."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Provide deep, consistent watering, allowing the top layer of soil to dry out between sessions.",
+      "Apply a 2-3 inch layer of organic mulch around the base of the plant to conserve soil moisture and regulate temperature.",
+      "Ensure the plant is in well-draining soil to prevent root rot, which can impair water uptake.",
+      "For potted plants, re-pot into a larger container if they become root-bound."
+    ],
+    "biological": [],
+    "chemical": [
+      "In commercial settings, anti-transpirants may be applied before heatwaves to reduce water loss from leaves."
+    ],
+    "notes": "The primary goal is to identify and correct the underlying cause of water stress, whether it is insufficient water, poor root health, or excessive water loss."
+  }
+}

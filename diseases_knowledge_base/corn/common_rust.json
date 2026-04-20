@@ -1,0 +1,134 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "corn.disease_fungal.common_rust",
+  "aliases": [
+    "maize common rust",
+    "Puccinia sorghi rust"
+  ],
+  "crop": {
+    "common_name": "Corn",
+    "scientific_name": "Zea mays",
+    "family": "Poaceae"
+  },
+  "condition": {
+    "common_name": "Common Rust",
+    "scientific_name": "Puccinia sorghi",
+    "alt_names": [
+      "Maize Rust"
+    ],
+    "pathogen": {
+      "type": "disease_fungal",
+      "taxonomy": {
+        "kingdom": "Fungi",
+        "phylum": "Basidiomycota",
+        "class": "Pucciniomycetes",
+        "order": "Pucciniales",
+        "family": "Pucciniaceae",
+        "genus": "Puccinia",
+        "species": "sorghi"
+      }
+    }
+  },
+  "issue_type": "disease_fungal",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [
+      "Wind-borne urediniospores"
+    ],
+    "overwintering": [
+      "On alternate hosts (Oxalis spp.)",
+      "In southern regions on corn debris or volunteer corn"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "High humidity",
+      "Cool to moderate temperatures",
+      "Frequent dews or light rains",
+      "Susceptible hybrid planted"
+    ],
+    "temp_c_day": [
+      16,
+      25
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      95,
+      100
+    ],
+    "leaf_wetness_hours_threshold": 6
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "1-5% of leaf area covered in pustules. Pustules are scattered and infrequent.",
+    "moderate": "6-25% of leaf area covered. Pustules are numerous on multiple leaves, some may be coalescing.",
+    "severe": ">25% of leaf area covered. Pustules are dense, covering large portions of leaves, leading to chlorosis, necrosis, and premature leaf death.",
+    "notes": "Severity is often assessed on the ear leaf at the R3 (milk) to R5 (dent) growth stage. Percentage refers to the symptomatic leaf area, not the whole plant."
+  },
+  "symptoms": {
+    "leaves": [
+      "Small, circular to oval, cinnamon-brown pustules (uredinia) appear on both upper and lower leaf surfaces.",
+      "Pustules are typically scattered randomly across the leaf, not limited by veins.",
+      "The pustules rupture the epidermis, creating a powdery, rust-colored deposit of spores.",
+      "A faint yellow or chlorotic halo may surround individual pustules.",
+      "As pustules age, they turn darker, becoming brownish-black (telia formation) late in the season.",
+      "In severe infections, leaves may become covered in pustules, leading to yellowing and premature drying."
+    ],
+    "stems": [
+      "Pustules can occasionally appear on the husk and stalk, but are most common on leaves."
+    ],
+    "fruit": [],
+    "roots": [],
+    "whole_plant": [
+      "In highly susceptible hybrids, severe infections can cause reduced vigor and yield loss."
+    ],
+    "signs_microscopic_or_visible": [
+      "Cinnamon-brown, powdery urediniospores visible when pustules rupture.",
+      "Dark brown to black teliospores in older pustules (telia)."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "Gray Leaf Spot",
+      "condition_id": "corn.disease_fungal.gray_leaf_spot",
+      "key_differences": [
+        "Gray leaf spot lesions are rectangular and vein-limited, while common rust pustules are oval to circular and scattered.",
+        "Common rust pustules are raised and rupture to release powdery spores; gray leaf spot lesions are flat and tan-to-gray.",
+        "Gray leaf spot lesions are typically gray or tan, not cinnamon-brown like active rust pustules."
+      ]
+    },
+    {
+      "condition_name": "Northern Leaf Blight",
+      "condition_id": "corn.disease_fungal.northern_leaf_blight",
+      "key_differences": [
+        "Northern leaf blight causes large, cigar-shaped, tan lesions, which are much larger than individual rust pustules.",
+        "Common rust features small, raised, powdery pustules, whereas NLB lesions are flat and necrotic.",
+        "NLB lesions do not rupture the epidermis to release powdery spores."
+      ]
+    },
+    {
+      "condition_name": "Bacterial Leaf Streak",
+      "condition_id": "corn.disease_bacterial.bacterial_leaf_streak",
+      "key_differences": [
+        "Bacterial leaf streak lesions are narrow, wavy-edged, and often appear water-soaked or greasy, unlike the dry, powdery rust pustules.",
+        "Bacterial lesions are translucent and yellow to brown, not the distinct cinnamon-brown of common rust.",
+        "Bacterial leaf streak does not produce raised pustules that rupture the epidermis."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Planting resistant or tolerant corn hybrids.",
+      "Managing alternate hosts like Oxalis spp. (wood sorrel).",
+      "Early planting to avoid high spore loads later in the season."
+    ],
+    "biological": [
+      "Some bio-fungicides containing Bacillus species may offer suppression but are generally less effective than chemical options for severe disease pressure."
+    ],
+    "chemical": [
+      "Application of foliar fungicides (e.g., strobilurins, triazoles, SDHIs) based on scouting and economic thresholds.",
+      "Seed treatments may provide limited early-season protection."
+    ],
+    "notes": "Fungicide application is most effective when applied early in the disease cycle, often between the VT (tasseling) and R2 (blister) growth stages, to protect the ear leaf and upper canopy."
+  }
+}

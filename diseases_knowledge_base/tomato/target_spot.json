@@ -1,0 +1,149 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "tomato.disease_fungal.target_spot",
+  "aliases": [
+    "Corynespora leaf spot"
+  ],
+  "crop": {
+    "common_name": "Tomato",
+    "scientific_name": "Solanum lycopersicum",
+    "family": "Solanaceae"
+  },
+  "condition": {
+    "common_name": "Target Spot",
+    "scientific_name": "Corynespora cassiicola",
+    "alt_names": [
+      "Corynespora leaf spot"
+    ],
+    "pathogen": {
+      "type": "disease_fungal",
+      "taxonomy": {
+        "kingdom": "Fungi",
+        "phylum": "Ascomycota",
+        "class": "Dothideomycetes",
+        "order": "Pleosporales",
+        "family": "Corynesporascaceae",
+        "genus": "Corynespora",
+        "species": "cassiicola"
+      }
+    }
+  },
+  "issue_type": "disease_fungal",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [
+      "Wind",
+      "Water splash (rain, irrigation)",
+      "Contaminated tools",
+      "Infected seed"
+    ],
+    "overwintering": [
+      "Infected plant debris",
+      "On alternative weed hosts",
+      "In soil"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "High humidity",
+      "Poor air circulation",
+      "Overhead irrigation",
+      "Warm temperatures",
+      "Extended periods of leaf wetness"
+    ],
+    "temp_c_day": [
+      24,
+      32
+    ],
+    "temp_c_night": [
+      20,
+      26
+    ],
+    "relative_humidity_pct": [
+      80,
+      100
+    ],
+    "leaf_wetness_hours_threshold": 8
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "1-10% of leaf area affected. Few, scattered lesions, primarily on lower leaves.",
+    "moderate": "11-40% of leaf area affected. Numerous lesions on lower and mid-canopy leaves. Some yellowing and minor defoliation may be present.",
+    "severe": ">40% of leaf area affected. Widespread lesions on leaves, stems, and fruit. Significant defoliation and yellowing.",
+    "notes": "Severity is estimated as the percentage of total foliage showing symptoms. Assess multiple leaves from different parts of the plant (lower, middle, upper canopy) for an average rating."
+  },
+  "symptoms": {
+    "leaves": [
+      "Starts as small, water-soaked spots on older, lower leaves.",
+      "Lesions expand into circular spots, 1-10 mm in diameter, with a 'target' or 'bulls-eye' appearance.",
+      "Mature lesions exhibit distinct concentric rings.",
+      "Lesion centers are typically tan or light gray with a dark brown to black border.",
+      "A yellow halo often surrounds the lesions.",
+      "Spots can merge, creating large, irregular blighted areas.",
+      "Infected leaves turn yellow, wither, and drop prematurely, starting from the bottom of the plant."
+    ],
+    "stems": [
+      "Elongated, dark, and slightly sunken lesions can form on stems and petioles."
+    ],
+    "fruit": [
+      "On green fruit, symptoms are small, dark, slightly sunken pits.",
+      "On ripe fruit, lesions become larger, more sunken, and may show concentric rings.",
+      "A velvety, dark fungal growth may appear on fruit lesions under high humidity."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Defoliation progresses from the lower canopy upwards, potentially leading to sunscald on fruit."
+    ],
+    "signs_microscopic_or_visible": [
+      "Under magnification or high humidity, a dark, fuzzy mold (conidia and conidiophores) may be visible in the center of lesions."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "Early Blight",
+      "condition_id": "tomato.disease_fungal.early_blight",
+      "key_differences": [
+        "Early blight lesions are typically larger (>10 mm), more leathery, and more angular than the finer, more circular target spot lesions.",
+        "The concentric rings in early blight are often fewer, coarser, and more pronounced.",
+        "Early blight frequently causes a distinct 'collar rot' lesion at the soil line on stems, which is not characteristic of target spot."
+      ]
+    },
+    {
+      "condition_name": "Septoria Leaf Spot",
+      "condition_id": "tomato.disease_fungal.septoria_leaf_spot",
+      "key_differences": [
+        "Septoria lesions are much smaller (2-5 mm) and more numerous than target spot lesions.",
+        "Septoria lesions lack the distinct concentric 'target' rings.",
+        "The centers of Septoria lesions contain tiny, visible black specks (pycnidia), which are absent in target spot."
+      ]
+    },
+    {
+      "condition_name": "Bacterial Spot",
+      "condition_id": "tomato.disease_bacterial.bacterial_spot",
+      "key_differences": [
+        "Bacterial spot lesions are often angular (vein-limited) and initially appear dark and water-soaked.",
+        "Bacterial spot lesions do not have the concentric ring pattern of target spot.",
+        "The centers of bacterial spots may fall out, creating a 'shot-hole' appearance, which is uncommon for target spot."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Use certified disease-free seed and transplants.",
+      "Rotate crops with non-solanaceous plants for at least two years.",
+      "Improve air circulation via staking, pruning, and adequate plant spacing.",
+      "Avoid overhead watering to minimize leaf wetness; use drip irrigation.",
+      "Remove and destroy infected plant debris after harvest.",
+      "Control solanaceous weeds which may act as alternative hosts."
+    ],
+    "biological": [
+      "Application of bio-fungicides containing strains of *Bacillus subtilis* or *Trichoderma* spp. may provide some suppression if applied preventatively."
+    ],
+    "chemical": [
+      "Apply preventative fungicides, especially during warm, humid weather.",
+      "Effective contact fungicides include those with active ingredients like chlorothalonil, mancozeb, or copper.",
+      "Rotate systemic fungicides from different FRAC groups (e.g., strobilurins, SDHIs) to prevent resistance."
+    ],
+    "notes": "Chemical control is most effective when used preventatively. Always follow pesticide label instructions for application rates and timing."
+  }
+}

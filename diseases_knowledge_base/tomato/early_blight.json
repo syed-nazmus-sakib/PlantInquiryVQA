@@ -1,0 +1,159 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "tomato.disease_fungal.early_blight",
+  "aliases": [
+    "Alternaria leaf spot",
+    "target spot of tomato"
+  ],
+  "crop": {
+    "common_name": "tomato",
+    "scientific_name": "Solanum lycopersicum",
+    "family": "Solanaceae"
+  },
+  "condition": {
+    "common_name": "early blight",
+    "scientific_name": "Alternaria solani",
+    "alt_names": [
+      "Alternaria tomatophila"
+    ],
+    "pathogen": {
+      "type": "disease_fungal",
+      "taxonomy": {
+        "kingdom": "Fungi",
+        "phylum": "Ascomycota",
+        "class": "Dothideomycetes",
+        "order": "Pleosporales",
+        "family": "Pleosporaceae",
+        "genus": "Alternaria",
+        "species": "solani"
+      }
+    }
+  },
+  "issue_type": "disease_fungal",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [
+      "wind",
+      "rain splash",
+      "irrigation water",
+      "contaminated equipment",
+      "infected seed"
+    ],
+    "overwintering": [
+      "infected plant debris",
+      "soil",
+      "infected seed",
+      "solanaceous weeds"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "high humidity",
+      "prolonged leaf wetness",
+      "warm temperatures",
+      "plant stress (e.g., nutrient deficiency, heavy fruit load)"
+    ],
+    "temp_c_day": [
+      24,
+      29
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      85,
+      100
+    ],
+    "leaf_wetness_hours_threshold": 9
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "< 5% of total foliage affected; few, small lesions, primarily on lower leaves.",
+    "moderate": "5-25% of foliage affected; lesions present on lower and middle leaves, some leaf yellowing and drop.",
+    "severe": "> 25% of foliage affected; extensive lesion development, significant defoliation, stem and fruit lesions common.",
+    "notes": "Severity is assessed based on the percentage of symptomatic leaf area across the entire plant. Stem and fruit symptoms contribute to a higher severity rating."
+  },
+  "symptoms": {
+    "leaves": [
+      "Starts as small, dark brown to black spots on lower, older leaves.",
+      "Lesions enlarge to 0.5-1.5 cm in diameter.",
+      "Lesions develop characteristic concentric rings, creating a 'target' or 'bull's-eye' appearance.",
+      "A distinct yellow halo often surrounds the dark lesion.",
+      "Affected leaves turn yellow (chlorotic) and may drop prematurely, starting from the bottom of the plant.",
+      "Lesions can merge, causing large blighted areas."
+    ],
+    "stems": [
+      "Dark, slightly sunken, oval-shaped lesions can form on stems, often near the soil line (collar rot).",
+      "Stem lesions also exhibit the characteristic concentric rings."
+    ],
+    "fruit": [
+      "Dark, leathery, sunken lesions form on the fruit, typically at the stem end (calyx).",
+      "Fruit lesions also show concentric rings.",
+      "In humid conditions, a velvety black mass of fungal spores may cover fruit lesions."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Progressive defoliation from the bottom of the plant upwards.",
+      "Reduced plant vigor and yield."
+    ],
+    "signs_microscopic_or_visible": [
+      "Velvety, dark brown or black fungal growth (spores) may be visible in the center of lesions under high humidity."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "septoria_leaf_spot",
+      "condition_id": "tomato.disease_fungal.septoria_leaf_spot",
+      "key_differences": [
+        "Septoria lesions are smaller (1-3 mm) and more numerous than early blight lesions.",
+        "Septoria lesions have a tan or gray center with a dark brown border, but lack the distinct concentric rings of early blight.",
+        "Tiny black specks (pycnidia) are often visible in the center of Septoria lesions."
+      ]
+    },
+    {
+      "condition_name": "late_blight",
+      "condition_id": "tomato.disease_oomycete.late_blight",
+      "key_differences": [
+        "Late blight lesions are larger, water-soaked, and irregularly shaped with a greasy appearance.",
+        "Late blight lesions lack the 'target' or 'bull's-eye' rings of early blight.",
+        "A white, fuzzy mold (sporangia) often develops on the underside of late blight lesions in cool, moist conditions.",
+        "Late blight progresses much more rapidly, capable of destroying a plant in days."
+      ]
+    },
+    {
+      "condition_name": "target_spot",
+      "condition_id": "tomato.disease_fungal.target_spot",
+      "key_differences": [
+        "Target spot lesions often have a lighter tan center with more defined, darker concentric rings than early blight.",
+        "Lesions may have a 'shot-hole' appearance as the center falls out.",
+        "Target spot lesions tend to be smaller and more numerous than classic early blight lesions."
+      ]
+    },
+    {
+      "condition_name": "bacterial_spot",
+      "condition_id": "tomato.disease_bacterial.bacterial_spot",
+      "key_differences": [
+        "Bacterial spot lesions are typically small, angular (limited by leaf veins), and initially water-soaked.",
+        "Lesions lack the concentric rings of early blight and often have a greasy appearance.",
+        "Bacterial spots may not have a prominent yellow halo."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Use certified disease-free seed and transplants.",
+      "Rotate crops, avoiding solanaceous plants for 2-3 years.",
+      "Maintain proper plant spacing for good air circulation.",
+      "Use mulch to reduce soil splash onto lower leaves.",
+      "Prune and remove lower, infected leaves.",
+      "Avoid overhead irrigation; use drip irrigation instead.",
+      "Ensure balanced plant nutrition."
+    ],
+    "biological": [
+      "Application of bio-fungicides containing Bacillus subtilis or Trichoderma species."
+    ],
+    "chemical": [
+      "Application of preventative or curative fungicides containing active ingredients like chlorothalonil, mancozeb, or copper-based compounds.",
+      "Follow label instructions and alternate fungicide classes to prevent resistance."
+    ],
+    "notes": "Integrated pest management (IPM) combining cultural, biological, and chemical strategies is most effective. Fungicide applications are most effective when applied preventatively based on weather forecasts."
+  }
+}

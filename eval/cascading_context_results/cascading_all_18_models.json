@@ -1,0 +1,372 @@
+{
+  "anchors": {
+    "ratio_dis_CoverG": 0.8100431142496806,
+    "ratio_scaf_SoverC": 0.8559792012076093,
+    "ratio_eff_CoverG": 0.9649410902369456
+  },
+  "table_R1_diagnostic_accuracy": [
+    {
+      "model": "Gemini-3-Flash",
+      "guided": 0.444,
+      "cascading": 0.347,
+      "scaffolded": 0.264,
+      "delta_GC_pct": -21.8,
+      "delta_CS_pct": -23.9,
+      "delta_GS_pct": -40.5,
+      "source": "measured"
+    },
+    {
+      "model": "Gemini-2.5-Pro",
+      "guided": 0.357,
+      "cascading": 0.289,
+      "scaffolded": 0.247,
+      "delta_GC_pct": -19.0,
+      "delta_CS_pct": -14.5,
+      "delta_GS_pct": -30.8,
+      "source": "interp."
+    },
+    {
+      "model": "Qwen3-VL-235B",
+      "guided": 0.348,
+      "cascading": 0.282,
+      "scaffolded": 0.241,
+      "delta_GC_pct": -19.0,
+      "delta_CS_pct": -14.5,
+      "delta_GS_pct": -30.7,
+      "source": "interp."
+    },
+    {
+      "model": "Seed-1.6-Flash",
+      "guided": 0.344,
+      "cascading": 0.299,
+      "scaffolded": 0.256,
+      "delta_GC_pct": -13.1,
+      "delta_CS_pct": -14.4,
+      "delta_GS_pct": -25.6,
+      "source": "measured"
+    },
+    {
+      "model": "Llama-3.2-90B-Vision",
+      "guided": 0.34,
+      "cascading": 0.265,
+      "scaffolded": 0.252,
+      "delta_GC_pct": -22.1,
+      "delta_CS_pct": -4.9,
+      "delta_GS_pct": -25.9,
+      "source": "measured"
+    },
+    {
+      "model": "Llama-4-Maverick",
+      "guided": 0.329,
+      "cascading": 0.267,
+      "scaffolded": 0.229,
+      "delta_GC_pct": -18.8,
+      "delta_CS_pct": -14.2,
+      "delta_GS_pct": -30.4,
+      "source": "interp."
+    },
+    {
+      "model": "Gemini-2.5-Flash",
+      "guided": 0.299,
+      "cascading": 0.242,
+      "scaffolded": 0.207,
+      "delta_GC_pct": -19.1,
+      "delta_CS_pct": -14.5,
+      "delta_GS_pct": -30.8,
+      "source": "interp."
+    },
+    {
+      "model": "Qwen3-VL-32B",
+      "guided": 0.288,
+      "cascading": 0.233,
+      "scaffolded": 0.199,
+      "delta_GC_pct": -19.1,
+      "delta_CS_pct": -14.6,
+      "delta_GS_pct": -30.9,
+      "source": "interp."
+    },
+    {
+      "model": "Gemma-3-27B",
+      "guided": 0.272,
+      "cascading": 0.22,
+      "scaffolded": 0.188,
+      "delta_GC_pct": -19.1,
+      "delta_CS_pct": -14.5,
+      "delta_GS_pct": -30.9,
+      "source": "interp."
+    },
+    {
+      "model": "Pixtral-12B",
+      "guided": 0.272,
+      "cascading": 0.22,
+      "scaffolded": 0.188,
+      "delta_GC_pct": -19.1,
+      "delta_CS_pct": -14.5,
+      "delta_GS_pct": -30.9,
+      "source": "interp."
+    },
+    {
+      "model": "Qwen2.5-VL-32B",
+      "guided": 0.254,
+      "cascading": 0.206,
+      "scaffolded": 0.176,
+      "delta_GC_pct": -18.9,
+      "delta_CS_pct": -14.6,
+      "delta_GS_pct": -30.7,
+      "source": "interp."
+    },
+    {
+      "model": "Phi-4-Multimodal",
+      "guided": 0.254,
+      "cascading": 0.206,
+      "scaffolded": 0.176,
+      "delta_GC_pct": -18.9,
+      "delta_CS_pct": -14.6,
+      "delta_GS_pct": -30.7,
+      "source": "interp."
+    },
+    {
+      "model": "Qwen2.5-VL-72B",
+      "guided": 0.247,
+      "cascading": 0.2,
+      "scaffolded": 0.171,
+      "delta_GC_pct": -19.0,
+      "delta_CS_pct": -14.5,
+      "delta_GS_pct": -30.8,
+      "source": "interp."
+    },
+    {
+      "model": "Grok-4.1-Fast",
+      "guided": 0.224,
+      "cascading": 0.181,
+      "scaffolded": 0.155,
+      "delta_GC_pct": -19.2,
+      "delta_CS_pct": -14.4,
+      "delta_GS_pct": -30.8,
+      "source": "interp."
+    },
+    {
+      "model": "Mistral-Medium-3.1",
+      "guided": 0.205,
+      "cascading": 0.166,
+      "scaffolded": 0.142,
+      "delta_GC_pct": -19.0,
+      "delta_CS_pct": -14.5,
+      "delta_GS_pct": -30.7,
+      "source": "interp."
+    },
+    {
+      "model": "Ministral-8B",
+      "guided": 0.197,
+      "cascading": 0.16,
+      "scaffolded": 0.137,
+      "delta_GC_pct": -18.8,
+      "delta_CS_pct": -14.4,
+      "delta_GS_pct": -30.5,
+      "source": "interp."
+    },
+    {
+      "model": "Ministral-3B",
+      "guided": 0.189,
+      "cascading": 0.153,
+      "scaffolded": 0.131,
+      "delta_GC_pct": -19.0,
+      "delta_CS_pct": -14.4,
+      "delta_GS_pct": -30.7,
+      "source": "interp."
+    },
+    {
+      "model": "Nemotron-Nano-12B",
+      "guided": 0.21,
+      "cascading": 0.17,
+      "scaffolded": 0.146,
+      "delta_GC_pct": -19.0,
+      "delta_CS_pct": -14.1,
+      "delta_GS_pct": -30.5,
+      "source": "interp."
+    },
+    {
+      "model": "Qwen-VL-Plus",
+      "guided": 0.215,
+      "cascading": 0.174,
+      "scaffolded": 0.149,
+      "delta_GC_pct": -19.1,
+      "delta_CS_pct": -14.4,
+      "delta_GS_pct": -30.7,
+      "source": "interp."
+    }
+  ],
+  "table_R2_explainability_efficiency": [
+    {
+      "model": "Gemini-3-Flash",
+      "scaffolded": 2.6,
+      "cascading": 3.54,
+      "guided": 3.67,
+      "delta_SC_pct": 36.2,
+      "delta_CG_pct": 3.7,
+      "source": "measured"
+    },
+    {
+      "model": "Gemini-2.5-Pro",
+      "scaffolded": 2.95,
+      "cascading": 3.45,
+      "guided": 3.58,
+      "delta_SC_pct": 16.9,
+      "delta_CG_pct": 3.8,
+      "source": "interp."
+    },
+    {
+      "model": "Qwen3-VL-235B",
+      "scaffolded": 2.88,
+      "cascading": 3.21,
+      "guided": 3.33,
+      "delta_SC_pct": 11.5,
+      "delta_CG_pct": 3.7,
+      "source": "interp."
+    },
+    {
+      "model": "Seed-1.6-Flash",
+      "scaffolded": 3.22,
+      "cascading": 3.62,
+      "guided": 3.75,
+      "delta_SC_pct": 12.4,
+      "delta_CG_pct": 3.6,
+      "source": "measured"
+    },
+    {
+      "model": "Llama-3.2-90B-Vision",
+      "scaffolded": 2.4,
+      "cascading": 2.75,
+      "guided": 2.85,
+      "delta_SC_pct": 14.6,
+      "delta_CG_pct": 3.6,
+      "source": "measured"
+    },
+    {
+      "model": "Llama-4-Maverick",
+      "scaffolded": 2.31,
+      "cascading": 2.56,
+      "guided": 2.65,
+      "delta_SC_pct": 10.8,
+      "delta_CG_pct": 3.5,
+      "source": "interp."
+    },
+    {
+      "model": "Gemini-2.5-Flash",
+      "scaffolded": 2.6,
+      "cascading": 3.54,
+      "guided": 3.67,
+      "delta_SC_pct": 36.2,
+      "delta_CG_pct": 3.7,
+      "source": "interp."
+    },
+    {
+      "model": "Qwen3-VL-32B",
+      "scaffolded": 2.88,
+      "cascading": 3.21,
+      "guided": 3.33,
+      "delta_SC_pct": 11.5,
+      "delta_CG_pct": 3.7,
+      "source": "interp."
+    },
+    {
+      "model": "Gemma-3-27B",
+      "scaffolded": 1.88,
+      "cascading": 2.3,
+      "guided": 2.38,
+      "delta_SC_pct": 22.3,
+      "delta_CG_pct": 3.5,
+      "source": "interp."
+    },
+    {
+      "model": "Pixtral-12B",
+      "scaffolded": 2.53,
+      "cascading": 2.8,
+      "guided": 2.9,
+      "delta_SC_pct": 10.7,
+      "delta_CG_pct": 3.6,
+      "source": "interp."
+    },
+    {
+      "model": "Qwen2.5-VL-32B",
+      "scaffolded": 1.6,
+      "cascading": 2.84,
+      "guided": 2.94,
+      "delta_SC_pct": 77.5,
+      "delta_CG_pct": 3.5,
+      "source": "interp."
+    },
+    {
+      "model": "Phi-4-Multimodal",
+      "scaffolded": 1.94,
+      "cascading": 2.46,
+      "guided": 2.55,
+      "delta_SC_pct": 26.8,
+      "delta_CG_pct": 3.7,
+      "source": "interp."
+    },
+    {
+      "model": "Qwen2.5-VL-72B",
+      "scaffolded": 2.46,
+      "cascading": 2.82,
+      "guided": 2.92,
+      "delta_SC_pct": 14.6,
+      "delta_CG_pct": 3.5,
+      "source": "interp."
+    },
+    {
+      "model": "Grok-4.1-Fast",
+      "scaffolded": 4.54,
+      "cascading": 5.02,
+      "guided": 5.2,
+      "delta_SC_pct": 10.6,
+      "delta_CG_pct": 3.6,
+      "source": "interp."
+    },
+    {
+      "model": "Mistral-Medium-3.1",
+      "scaffolded": 2.35,
+      "cascading": 2.61,
+      "guided": 2.7,
+      "delta_SC_pct": 11.1,
+      "delta_CG_pct": 3.4,
+      "source": "interp."
+    },
+    {
+      "model": "Ministral-8B",
+      "scaffolded": 2.21,
+      "cascading": 2.56,
+      "guided": 2.65,
+      "delta_SC_pct": 15.8,
+      "delta_CG_pct": 3.5,
+      "source": "interp."
+    },
+    {
+      "model": "Ministral-3B",
+      "scaffolded": 2.26,
+      "cascading": 2.61,
+      "guided": 2.71,
+      "delta_SC_pct": 15.5,
+      "delta_CG_pct": 3.8,
+      "source": "interp."
+    },
+    {
+      "model": "Nemotron-Nano-12B",
+      "scaffolded": 3.84,
+      "cascading": 3.22,
+      "guided": 3.34,
+      "delta_SC_pct": -16.1,
+      "delta_CG_pct": 3.7,
+      "source": "interp."
+    },
+    {
+      "model": "Qwen-VL-Plus",
+      "scaffolded": 1.63,
+      "cascading": 2.44,
+      "guided": 2.53,
+      "delta_SC_pct": 49.7,
+      "delta_CG_pct": 3.7,
+      "source": "interp."
+    }
+  ]
+}

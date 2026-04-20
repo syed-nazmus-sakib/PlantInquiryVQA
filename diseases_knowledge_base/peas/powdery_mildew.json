@@ -1,0 +1,130 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "peas.disease_fungal.powdery_mildew",
+  "aliases": [
+    "Pea powdery mildew"
+  ],
+  "crop": {
+    "common_name": "Peas",
+    "scientific_name": "Pisum sativum",
+    "family": "Fabaceae"
+  },
+  "condition": {
+    "common_name": "Powdery Mildew",
+    "scientific_name": "Erysiphe pisi",
+    "alt_names": [],
+    "pathogen": {
+      "type": "fungus",
+      "taxonomy": {
+        "kingdom": "Fungi",
+        "phylum": "Ascomycota",
+        "class": "Leotiomycetes",
+        "order": "Erysiphales",
+        "family": "Erysiphaceae",
+        "genus": "Erysiphe",
+        "species": "pisi"
+      }
+    }
+  },
+  "issue_type": "disease_fungal",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [
+      "Windborne conidia",
+      "Infected crop debris"
+    ],
+    "overwintering": [
+      "As dormant mycelium on infected plant debris",
+      "As chasmothecia (sexual fruiting bodies) on crop residue"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "High relative humidity (but dry leaf surfaces)",
+      "Moderate temperatures",
+      "Dense plant canopies with poor air circulation",
+      "Late-sown crops"
+    ],
+    "temp_c_day": [
+      15,
+      25
+    ],
+    "temp_c_night": [
+      10,
+      20
+    ],
+    "relative_humidity_pct": [
+      70,
+      95
+    ],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "1-10% of upper leaf surface covered by sparse, discrete, white mycelial patches.",
+    "moderate": "11-40% of leaf surface covered; patches are coalescing and denser; some lower leaf chlorosis may be present.",
+    "severe": ">40% of leaf surface covered; dense, felt-like mycelial mats cover leaves, stems, and pods; significant chlorosis, necrosis, and premature defoliation is visible.",
+    "notes": "Severity is assessed on the upper surfaces of photosynthetically active leaves. Pod infection should also be noted as it impacts yield and quality. Unlike many other fungal diseases, powdery mildew does not require free water on the leaf surface for infection, hence the threshold of 0 hours."
+  },
+  "symptoms": {
+    "leaves": [
+      "Small, discrete, white spots with a talc-like texture appear first on the upper surface of older, lower leaves.",
+      "Spots expand and coalesce to form a dense, white to grayish, powdery mat.",
+      "Infected leaves may turn yellow (chlorotic), then brown (necrotic), and senesce prematurely.",
+      "Tiny, black specks (chasmothecia) may be visible embedded in the white mycelium late in the season.",
+      "The white powdery growth can be rubbed off with a finger, revealing relatively undamaged tissue underneath in early stages."
+    ],
+    "stems": [
+      "White, powdery patches can develop on stems and petioles, especially in severe infections."
+    ],
+    "fruit": [
+      "Powdery white patches can form on the surface of pods, sometimes referred to as 'fuzzy pods'.",
+      "Severe pod infection can cause distortion, reduced seed size, and marketability issues."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Infected plants may appear stunted or less vigorous than healthy plants.",
+      "Severe infections give the entire plant canopy a whitewashed or dusty appearance."
+    ],
+    "signs_microscopic_or_visible": [
+      "Visible white to grayish superficial mycelium and conidia (asexual spores) on plant surfaces."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "Downy Mildew",
+      "condition_id": "peas.disease_fungal.downy_mildew",
+      "key_differences": [
+        "Powdery mildew is white and powdery, primarily on the *upper* leaf surface; downy mildew is grayish-purple and fuzzy, primarily on the *lower* leaf surface.",
+        "Powdery mildew spots are superficial; downy mildew causes systemic yellow to brownish lesions visible on *both* leaf surfaces.",
+        "Powdery mildew thrives in high humidity but dry leaves; downy mildew requires high humidity *and* leaf wetness for infection."
+      ]
+    },
+    {
+      "condition_name": "Ascochyta Blight",
+      "condition_id": "peas.disease_fungal.ascochyta_blight",
+      "key_differences": [
+        "Powdery mildew is a superficial white powder; Ascochyta blight causes distinct, sunken, tan-to-brown lesions, often with a dark border.",
+        "Ascochyta lesions contain tiny black dots (pycnidia) within the necrotic tissue, which are absent in powdery mildew.",
+        "Ascochyta blight often causes stem lesions near the soil line ('foot rot'), a symptom not caused by powdery mildew."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Plant resistant or tolerant pea varieties.",
+      "Ensure good air circulation through wider row spacing and weed control.",
+      "Avoid excessive nitrogen fertilization, which promotes lush, susceptible growth.",
+      "Rotate crops with non-hosts for at least 2 years.",
+      "Incorporate or remove infected crop debris after harvest to reduce overwintering inoculum."
+    ],
+    "biological": [
+      "Application of bio-fungicides containing *Bacillus subtilis* or potassium bicarbonate can suppress the disease."
+    ],
+    "chemical": [
+      "Apply registered fungicides (e.g., sulfur-based, strobilurins, DMIs) at the first sign of disease.",
+      "Ensure thorough spray coverage, as the fungus can be protected within the dense plant canopy."
+    ],
+    "notes": "Early detection is crucial. Fungicide applications are most effective when applied preventatively or at the very early stages of an epidemic."
+  }
+}

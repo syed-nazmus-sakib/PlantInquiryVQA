@@ -1,0 +1,147 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "rice.disease_bacterial.bacterial_leaf_blight",
+  "aliases": [
+    "BLB",
+    "Kresek"
+  ],
+  "crop": {
+    "common_name": "rice",
+    "scientific_name": "Oryza sativa",
+    "family": "Poaceae"
+  },
+  "condition": {
+    "common_name": "bacterial leaf blight",
+    "scientific_name": "Xanthomonas oryzae pv. oryzae",
+    "alt_names": [
+      "BLB",
+      "Kresek disease"
+    ],
+    "pathogen": {
+      "type": "disease_bacterial",
+      "taxonomy": {
+        "kingdom": "Bacteria",
+        "phylum": "Pseudomonadota",
+        "class": "Gammaproteobacteria",
+        "order": "Xanthomonadales",
+        "family": "Xanthomonadaceae",
+        "genus": "Xanthomonas",
+        "species": "Xanthomonas oryzae"
+      }
+    }
+  },
+  "issue_type": "disease_bacterial",
+  "transmission": {
+    "vectors": [
+      "wind-driven rain",
+      "irrigation water"
+    ],
+    "dispersal": [
+      "water splash",
+      "mechanical contact (tools, workers)",
+      "seed transmission"
+    ],
+    "overwintering": [
+      "infected crop stubble and straw",
+      "infected seeds",
+      "rhizomes of perennial weed hosts"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "high nitrogen fertilizer application",
+      "high relative humidity",
+      "warm temperatures",
+      "frequent rainfall and windy conditions",
+      "susceptible rice varieties",
+      "close plant spacing"
+    ],
+    "temp_c_day": [
+      25,
+      30
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      70,
+      100
+    ],
+    "leaf_wetness_hours_threshold": 6
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "1-5% of leaf area affected. Lesions are small, often confined to the tips or margins of a few leaves.",
+    "moderate": "6-25% of leaf area affected. Lesions have elongated and cover a significant portion of multiple leaf blades. Some yellowing is apparent.",
+    "severe": ">25% of leaf area affected. Large, straw-colored lesions have coalesced, causing entire leaves to dry out and die. Wilting ('Kresek') may be present.",
+    "notes": "Severity is estimated as the percentage of the total foliage area showing symptoms. This aligns with the Standard Evaluation System (SES) for rice."
+  },
+  "symptoms": {
+    "leaves": [
+      "Begins as water-soaked, linear streaks on leaf tips or margins.",
+      "Streaks enlarge into yellow to grayish-white lesions with characteristic wavy or undulating margins.",
+      "Lesions can extend downwards, covering the entire leaf blade.",
+      "Infected leaves turn straw-colored, wilt, and die.",
+      "In high humidity, milky or opaque bacterial ooze (exudate) appears on lesions, especially in the morning.",
+      "This ooze dries into small, hard, yellowish, bead-like crusts on the leaf surface."
+    ],
+    "stems": [
+      "In the 'Kresek' phase, systemic infection causes the entire tiller to wilt and die, resembling drought stress."
+    ],
+    "fruit": [],
+    "roots": [],
+    "whole_plant": [
+      "Infected fields may appear blighted or scorched from a distance.",
+      "Young seedlings infected with the 'Kresek' strain wilt completely and die.",
+      "Panicles of severely infected plants may be sterile or have partially filled grains."
+    ],
+    "signs_microscopic_or_visible": [
+      "Visible milky bacterial ooze on lesions.",
+      "Dried, yellowish, bead-like bacterial exudate on leaf surfaces."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "leaf scald",
+      "condition_id": "rice.disease_fungal.leaf_scald",
+      "key_differences": [
+        "Leaf scald lesions have a distinct zonate or chevron pattern with alternating light and dark brown bands; BLB lesions are uniformly straw-colored with wavy margins.",
+        "Leaf scald lesions are typically grayish-green to tan with a dark brown border; BLB lesions lack this distinct border.",
+        "Bacterial ooze is a key sign of BLB in humid conditions and is absent in leaf scald."
+      ]
+    },
+    {
+      "condition_name": "narrow brown leaf spot",
+      "condition_id": "rice.disease_fungal.narrow_brown_leaf_spot",
+      "key_differences": [
+        "Narrow brown leaf spot causes short, linear, reddish-brown lesions parallel to the veins; BLB lesions are much wider, longer, and straw-colored.",
+        "BLB lesions start at the leaf margin or tip and have wavy edges; narrow brown leaf spots can appear anywhere on the blade and have straight edges.",
+        "BLB can cause entire leaves to blight and wilt; narrow brown leaf spot typically remains as small, discrete lesions."
+      ]
+    },
+    {
+      "condition_name": "tungro",
+      "condition_id": "rice.disease_viral.tungro",
+      "key_differences": [
+        "Tungro causes a general yellow to orange-yellow discoloration, often starting from the leaf tip, without distinct water-soaked lesions or wavy margins.",
+        "Tungro-infected plants are severely stunted, which is the primary symptom; stunting in BLB is secondary to severe leaf damage.",
+        "Bacterial ooze is absent in Tungro."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Planting of resistant or tolerant rice varieties.",
+      "Balanced nutrient management, especially avoiding excessive nitrogen.",
+      "Proper water management to avoid prolonged flooding.",
+      "Removal of weed hosts and infected crop debris after harvest.",
+      "Maintaining optimal plant spacing to promote air circulation."
+    ],
+    "biological": [
+      "Use of antagonistic bacteria like Pseudomonas fluorescens is under research but not widely practiced."
+    ],
+    "chemical": [
+      "Application of copper-based bactericides can offer some protection but is often not economically viable for field crops.",
+      "Use of antibiotics is restricted in many regions due to resistance concerns."
+    ],
+    "notes": "An integrated approach combining resistant varieties and sound cultural practices is the most effective and sustainable management strategy."
+  }
+}

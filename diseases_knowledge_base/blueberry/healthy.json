@@ -1,0 +1,114 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "blueberry.healthy.healthy",
+  "aliases": [
+    "normal",
+    "asymptomatic",
+    "unaffected"
+  ],
+  "crop": {
+    "common_name": "blueberry",
+    "scientific_name": "Vaccinium corymbosum",
+    "family": "Ericaceae"
+  },
+  "condition": {
+    "common_name": "healthy",
+    "scientific_name": "",
+    "alt_names": [
+      "asymptomatic",
+      "normal growth"
+    ],
+    "pathogen": {
+      "type": "none",
+      "taxonomy": {
+        "kingdom": "",
+        "phylum": "",
+        "class": "",
+        "order": "",
+        "family": "",
+        "genus": "",
+        "species": ""
+      }
+    }
+  },
+  "issue_type": "healthy",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [],
+    "overwintering": []
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "Optimal sunlight exposure (6-8 hours/day)",
+      "Well-drained, acidic soil (pH 4.5-5.5)",
+      "Consistent soil moisture without waterlogging",
+      "Good air circulation through and around the plant canopy"
+    ],
+    "temp_c_day": [
+      20,
+      27
+    ],
+    "temp_c_night": [
+      10,
+      18
+    ],
+    "relative_humidity_pct": [
+      50,
+      70
+    ],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "qualitative",
+    "mild": "Not applicable.",
+    "moderate": "Not applicable.",
+    "severe": "Not applicable.",
+    "notes": "For a 'healthy' condition, there is no severity scale. Any presence of symptoms would classify the plant under a different condition (e.g., a disease or disorder)."
+  },
+  "symptoms": {
+    "leaves": [
+      "Uniformly deep green color, though new growth can be reddish.",
+      "Leaves are fully expanded, smooth, and have a slightly waxy surface.",
+      "No spots, lesions, discoloration, or signs of necrosis.",
+      "Leaf margins are smooth and intact.",
+      "Seasonal color change to red or orange in autumn is normal."
+    ],
+    "stems": [
+      "New stems (canes) are smooth, flexible, and green or reddish.",
+      "Older stems are woody, gray-brown, and firm.",
+      "No cankers, galls, cracks, or dieback is visible."
+    ],
+    "fruit": [
+      "Developing fruit is small, firm, and green.",
+      "Mature fruit is plump, firm, and has a uniform dark blue color.",
+      "A waxy, silvery-white coating ('bloom') is present on mature berries.",
+      "No signs of shriveling, mold, or spots."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Exhibits vigorous, upright growth.",
+      "Possesses a full, dense canopy of leaves appropriate for the season.",
+      "Shows active new growth on cane tips during the growing season."
+    ],
+    "signs_microscopic_or_visible": [
+      "No visible fungal structures (e.g., mycelium, spores), bacterial ooze, or insect colonies."
+    ]
+  },
+  "lookalikes": [],
+  "management": {
+    "cultural": [
+      "Plant in well-drained, acidic soil rich in organic matter.",
+      "Ensure full sun exposure for optimal photosynthesis and fruit production.",
+      "Provide consistent irrigation, especially during fruit development.",
+      "Apply a layer of mulch (e.g., pine bark, sawdust) to conserve moisture and suppress weeds.",
+      "Conduct annual dormant pruning to remove dead/weak wood and improve air circulation."
+    ],
+    "biological": [
+      "Promote biodiversity to support natural predators of common pests."
+    ],
+    "chemical": [
+      "Not applicable for maintaining health; chemical controls are reactive measures for specific issues."
+    ],
+    "notes": "Maintaining plant health is primarily achieved through proactive and consistent cultural practices tailored to the crop's needs."
+  }
+}

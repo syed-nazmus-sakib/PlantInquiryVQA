@@ -1,0 +1,133 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "rubber.physiological_symptom.senescence_or_dry",
+  "aliases": [
+    "drought stress",
+    "leaf yellowing",
+    "seasonal leaf fall",
+    "wintering"
+  ],
+  "crop": {
+    "common_name": "rubber",
+    "scientific_name": "Hevea brasiliensis",
+    "family": "Euphorbiaceae"
+  },
+  "condition": {
+    "common_name": "Senescence or Dry",
+    "scientific_name": null,
+    "alt_names": [
+      "Water stress",
+      "Seasonal leaf drop",
+      "Abiotic stress"
+    ],
+    "pathogen": {
+      "type": "abiotic",
+      "taxonomy": {
+        "kingdom": "",
+        "phylum": "",
+        "class": "",
+        "order": "",
+        "family": "",
+        "genus": "",
+        "species": ""
+      }
+    }
+  },
+  "issue_type": "physiological_symptom",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [],
+    "overwintering": []
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "Prolonged dry season",
+      "Low soil moisture",
+      "High ambient temperatures",
+      "Low relative humidity",
+      "Poorly draining or sandy soils",
+      "Seasonal change leading to dormancy ('wintering')"
+    ],
+    "temp_c_day": [
+      30,
+      40
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      0,
+      50
+    ],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "qualitative",
+    "mild": "A few scattered yellow or browning leaves, primarily older, lower leaves. No significant leaf drop or wilting.",
+    "moderate": "Widespread yellowing and browning across 25-50% of the canopy. Noticeable leaf drop and some wilting of younger leaves.",
+    "severe": "Majority (>50%) of the canopy is yellow, brown, or has dropped. Significant wilting and potential branch dieback is visible.",
+    "notes": "Severity is assessed based on the proportion of the canopy showing symptoms of uniform chlorosis, necrosis, and defoliation. This can be a natural seasonal process."
+  },
+  "symptoms": {
+    "leaves": [
+      "Uniform yellowing (chlorosis) that often begins on older, lower leaves and progresses upwards.",
+      "Leaf margins turn brown, dry, and may curl upwards or inwards.",
+      "Leaves become brittle and desiccated.",
+      "Widespread, even leaf drop across the entire tree, which can be seasonal.",
+      "General wilting or drooping of leaves, especially during the hottest part of the day.",
+      "Overall leaf color fades from vibrant green to a dull pale green or yellow.",
+      "In severe drought, leaves may turn completely brown while still attached before falling."
+    ],
+    "stems": [
+      "Young, succulent stems and petioles may droop or wilt."
+    ],
+    "fruit": [],
+    "roots": [],
+    "whole_plant": [
+      "Canopy appears thin, sparse, or defoliated.",
+      "Reduced growth rate or stunted appearance.",
+      "In production trees, latex flow is significantly reduced."
+    ],
+    "signs_microscopic_or_visible": []
+  },
+  "lookalikes": [
+    {
+      "condition_name": "anthracnose",
+      "condition_id": "rubber.fungal.anthracnose",
+      "key_differences": [
+        "Anthracnose causes distinct, irregular lesions or spots with dark brown or black borders, not uniform yellowing.",
+        "Senescence affects the entire leaf lamina uniformly, while anthracnose lesions are localized.",
+        "Anthracnose lesions may contain tiny black fruiting bodies (acervuli), which are absent in physiological stress.",
+        "Leaf drop from anthracnose is often patchy, whereas seasonal senescence is more uniform across the canopy."
+      ]
+    },
+    {
+      "condition_name": "leaf_spot_generic",
+      "condition_id": "rubber.fungal.leaf_spot_generic",
+      "key_differences": [
+        "Leaf spots are discrete, often circular spots with defined margins, sometimes with a yellow halo.",
+        "Senescence is a generalized, even discoloration of the entire leaf, not localized spots.",
+        "Spots may be scattered randomly, whereas senescence typically starts on older leaves and progresses.",
+        "While spots can merge (coalesce), the initial symptom is clearly spots, unlike the diffuse yellowing of senescence."
+      ]
+    },
+    {
+      "condition_name": "healthy",
+      "condition_id": "rubber.healthy.healthy",
+      "key_differences": [
+        "Healthy leaves are uniformly deep green, turgid, and glossy.",
+        "A healthy canopy is dense and full with no widespread discoloration or leaf drop.",
+        "Senescent leaves are yellow or brown, wilted, and brittle, unlike firm healthy leaves."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Provide supplemental irrigation during extended dry periods.",
+      "Apply organic mulch around the tree base to conserve soil moisture and moderate soil temperature.",
+      "Ensure proper soil drainage to encourage deep root growth.",
+      "Avoid excessive nitrogen fertilization, which can increase water demand."
+    ],
+    "biological": [],
+    "chemical": [],
+    "notes": "Management is focused on mitigating water stress. Note that seasonal leaf drop ('wintering') is a natural physiological process for rubber trees and does not require intervention."
+  }
+}

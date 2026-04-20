@@ -1,0 +1,147 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "lemon.disease_fungal.leaf_spot",
+  "aliases": [
+    "citrus greasy spot",
+    "alternaria brown spot",
+    "cercospora leaf spot"
+  ],
+  "crop": {
+    "common_name": "lemon",
+    "scientific_name": "Citrus limon",
+    "family": "Rutaceae"
+  },
+  "condition": {
+    "common_name": "leaf spot",
+    "scientific_name": "Mycosphaerella citri",
+    "alt_names": [
+      "Greasy Spot"
+    ],
+    "pathogen": {
+      "type": "disease_fungal",
+      "taxonomy": {
+        "kingdom": "Fungi",
+        "phylum": "Ascomycota",
+        "class": "Dothideomycetes",
+        "order": "Capnodiales",
+        "family": "Mycosphaerellaceae",
+        "genus": "Mycosphaerella",
+        "species": "citri"
+      }
+    }
+  },
+  "issue_type": "disease_fungal",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [
+      "wind-driven rain",
+      "water splash",
+      "airborne ascospores"
+    ],
+    "overwintering": [
+      "on fallen, decomposing leaves",
+      "in lesions on living leaves and twigs"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "high humidity",
+      "prolonged leaf wetness",
+      "warm temperatures",
+      "dense canopy with poor air circulation"
+    ],
+    "temp_c_day": [
+      25,
+      32
+    ],
+    "temp_c_night": [
+      20,
+      25
+    ],
+    "relative_humidity_pct": [
+      90,
+      100
+    ],
+    "leaf_wetness_hours_threshold": 8
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "< 5% of leaf area affected on symptomatic leaves.",
+    "moderate": "5-25% of leaf area affected, some premature leaf drop may be visible.",
+    "severe": "> 25% of leaf area affected, significant defoliation and yellowing.",
+    "notes": "Severity is assessed on the most affected leaves in the image. It reflects the total area covered by lesions and any associated chlorosis (yellowing)."
+  },
+  "symptoms": {
+    "leaves": [
+      "Initial symptoms appear as small, slightly raised, yellowish-brown blisters, typically on the underside of leaves.",
+      "Lesions darken over time to become dark brown or black and may feel greasy or waxy.",
+      "A corresponding yellow mottle or spot appears on the upper leaf surface directly above the lesion.",
+      "Lesions are often circular or irregular, ranging from 1-5 mm in diameter.",
+      "Multiple spots can coalesce to form larger, irregular blotches.",
+      "Infected leaves often show premature yellowing (chlorosis), especially around the spots.",
+      "Severe infections lead to significant premature leaf drop (defoliation), particularly of older leaves."
+    ],
+    "stems": [
+      "Stem lesions are not a typical symptom of most fungal leaf spots on lemon."
+    ],
+    "fruit": [
+      "Small, black, speckled blotches (greasy spot rind blotch) can appear on the fruit rind.",
+      "Fruit symptoms are generally less common and less severe than leaf symptoms."
+    ],
+    "roots": [
+      "No direct symptoms on roots."
+    ],
+    "whole_plant": [
+      "Reduced vigor and a thinning canopy due to defoliation in chronic or severe cases."
+    ],
+    "signs_microscopic_or_visible": [
+      "Under moist conditions, fungal structures (e.g., pseudothecia) may develop in fallen leaf litter, appearing as tiny black specks."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "bacterial canker",
+      "condition_id": "lemon.disease_bacterial.bacterial_canker",
+      "key_differences": [
+        "Canker lesions are distinctly raised, corky, and often have a crater-like center, unlike the flatter, greasy fungal spots.",
+        "Canker lesions are typically surrounded by a prominent, bright yellow halo and a water-soaked margin.",
+        "Bacterial canker also causes significant lesions on stems and twigs, which is rare for fungal leaf spot."
+      ]
+    },
+    {
+      "condition_name": "nutritional deficiency",
+      "condition_id": "lemon.disorder_abiotic.nutritional_deficiency",
+      "key_differences": [
+        "Deficiency symptoms create symmetrical patterns (e.g., interveinal chlorosis, inverted 'V'), not discrete, randomly scattered spots.",
+        "Fungal spots are distinct lesions, whereas deficiencies are patterns of discoloration in the leaf tissue itself.",
+        "Deficiency patterns often affect leaves of a certain age group uniformly (e.g., all new growth or all old growth)."
+      ]
+    },
+    {
+      "condition_name": "citrus leafminer",
+      "condition_id": "lemon.pest_insect.citrus_leafminer",
+      "key_differences": [
+        "Leafminer damage appears as silvery, winding, serpentine trails (tunnels) within the leaf.",
+        "Fungal leaf spot causes circular or irregular blotches, not linear trails.",
+        "Leafminer damage causes severe twisting and curling of young, tender leaves."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Prune the tree canopy to improve air circulation and promote faster drying of leaves.",
+      "Rake and destroy fallen leaves to reduce the overwintering fungal inoculum.",
+      "Use micro-sprinkler irrigation instead of overhead sprinklers to avoid wetting foliage.",
+      "Maintain optimal plant health with balanced fertilization to improve natural resistance."
+    ],
+    "biological": [
+      "The use of commercial biological control agents is not a primary management strategy for this disease."
+    ],
+    "chemical": [
+      "Apply preventative fungicides, such as copper-based products or petroleum oils, before or during high-risk periods.",
+      "Timing is critical; applications are often recommended during summer leaf flushes when leaves are most susceptible.",
+      "Always consult local agricultural extension services for recommended products, rates, and spray schedules."
+    ],
+    "notes": "An integrated approach combining cultural practices to reduce inoculum and environmental risk with timely chemical applications provides the most effective control."
+  }
+}

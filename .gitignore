@@ -1,0 +1,55 @@
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+
+# Claude Code / coding-agent local config
+.claude/
+.claude-code/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg
+*.egg-info/
+*.pyc
+build/
+dist/
+.venv/
+venv/
+env/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Large data (live on HuggingFace, not GitHub)
+images/
+*.jpg
+*.jpeg
+*.png
+!paper/**/*.png
+!paper/**/*.jpg
+
+# Large per-request NLTK data downloaded at runtime
+nltk_data/
+
+# Generated analysis artefacts that we intentionally commit are whitelisted below;
+# everything else under eval/*_tmp/ and eval/*_scratch/ is discarded
+eval/*_tmp/
+eval/*_scratch/
+
+# Python distribution & caches
+*.log
+pip-log.txt
+pip-delete-this-directory.txt
+
+

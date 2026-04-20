@@ -1,0 +1,150 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "pepper.pest_insect.thrips",
+  "aliases": [
+    "Thrips feeding injury",
+    "Thrips damage on pepper"
+  ],
+  "crop": {
+    "common_name": "Pepper",
+    "scientific_name": "Capsicum annuum",
+    "family": "Solanaceae"
+  },
+  "condition": {
+    "common_name": "Thrips",
+    "scientific_name": "Frankliniella occidentalis, Thrips tabaci, et al.",
+    "alt_names": [
+      "Western flower thrips",
+      "Onion thrips",
+      "Chilli thrips"
+    ],
+    "pathogen": {
+      "type": "insect",
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Arthropoda",
+        "class": "Insecta",
+        "order": "Thysanoptera",
+        "family": "Thripidae",
+        "genus": "",
+        "species": ""
+      }
+    }
+  },
+  "issue_type": "pest_insect",
+  "transmission": {
+    "vectors": [
+      "Thrips can vector tospoviruses (e.g., Tomato spotted wilt virus, Impatiens necrotic spot virus)."
+    ],
+    "dispersal": [
+      "Wind currents",
+      "Movement of infested plants or soil",
+      "Adult flight between plants"
+    ],
+    "overwintering": [
+      "As pupae in soil or leaf litter",
+      "As adults on weed hosts or in crop debris",
+      "In protected environments like greenhouses"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "Hot, dry weather conditions",
+      "Presence of alternative weed hosts (e.g., pigweed, nightshade)",
+      "High nitrogen fertilization leading to succulent growth",
+      "Unscreened vents in greenhouses"
+    ],
+    "temp_c_day": [
+      25,
+      32
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      40,
+      60
+    ],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "1-10% of leaf surface shows stippling or a silvery sheen. A few thrips may be visible upon close inspection.",
+    "moderate": "11-40% of leaf surface affected. Obvious silvery patches and black frass specks are present. Leaf distortion may be visible on new growth.",
+    "severe": ">40% of leaf surface affected. Widespread silvering, stunting of new growth, leaf curling, and visible scarring on fruit.",
+    "notes": "Severity measures the visual impact of feeding damage (stippling, silvering) on leaves and fruit. It does not directly count the number of thrips, which can be difficult to assess from a typical image."
+  },
+  "symptoms": {
+    "leaves": [
+      "Fine, whitish or silvery stippling on the leaf surface where cells have been punctured.",
+      "Affected leaves develop a distinct silvery or bronze sheen.",
+      "Small, black, varnish-like specks (frass or excrement) are visible on damaged areas.",
+      "New leaves may appear distorted, cupped, or curled upwards.",
+      "In severe cases, leaves can become brittle, wilt, and drop prematurely."
+    ],
+    "stems": [
+      "Feeding on young stems and growing points can cause stunting."
+    ],
+    "fruit": [
+      "Silvery or tan-colored scars, often in a circular 'halo' pattern around the calyx (stem end).",
+      "Surface bronzing or development of a corky, rough texture on the fruit skin.",
+      "Deformation or stunting of young, developing fruit."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Stunted overall growth and reduced plant vigor.",
+      "Flower drop and reduced fruit set in heavy infestations."
+    ],
+    "signs_microscopic_or_visible": [
+      "Tiny, slender insects (1-2 mm long), pale yellow to dark brown, are visible on leaf undersides or in flowers.",
+      "Larvae are smaller, often yellowish or whitish, and wingless."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "Mites",
+      "condition_id": "pepper.pest_arachnid.mites",
+      "key_differences": [
+        "Mite damage often includes fine, silky webbing, which is absent with thrips.",
+        "Mite stippling is typically finer and more yellow/bronze, while thrips damage is often more silvery.",
+        "Mites are tiny, dot-like arachnids (8 legs), whereas adult thrips are slender insects (6 legs).",
+        "Thrips leave characteristic black frass specks; mites do not."
+      ]
+    },
+    {
+      "condition_name": "Virus",
+      "condition_id": "pepper.disease_viral.virus",
+      "key_differences": [
+        "Viral symptoms often form systemic mosaic, mottled, or ring spot patterns, unlike the surface-level feeding damage of thrips.",
+        "Thrips damage includes visible black frass specks and often the insects themselves; these signs are absent in a primary viral infection.",
+        "Virus-induced leaf curling is often more uniform and severe than the localized distortion from thrips feeding on new growth."
+      ]
+    },
+    {
+      "condition_name": "Bacterial Spot",
+      "condition_id": "pepper.disease_bacterial.bacterial_spot",
+      "key_differences": [
+        "Bacterial spots are discrete, often water-soaked lesions that turn dark, unlike the diffuse stippling or silvering from thrips.",
+        "Bacterial spots on fruit are typically raised, scabby, or cracked, while thrips scarring is smoother or has a corky texture.",
+        "Bacterial leaf spots may have a yellow halo and the centers can fall out, creating a 'shot-hole' effect not seen with thrips."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Use reflective mulches (e.g., silver plastic) to disorient and deter thrips.",
+      "Remove and destroy weed hosts in and around the growing area.",
+      "Avoid over-fertilizing with nitrogen, which promotes succulent growth favored by thrips.",
+      "Install fine-mesh screening on greenhouse vents and doorways."
+    ],
+    "biological": [
+      "Release of predatory mites (e.g., Amblyseius swirskii, Neoseiulus cucumeris).",
+      "Introduction of minute pirate bugs (Orius spp.) or green lacewing larvae.",
+      "Application of entomopathogenic fungi like Beauveria bassiana or Isaria fumosorosea."
+    ],
+    "chemical": [
+      "Application of insecticidal soaps or horticultural oils for suppression, ensuring thorough coverage.",
+      "Use of targeted insecticides such as spinosad or acetamiprid.",
+      "Rotate chemical classes (modes of action) to prevent or delay insecticide resistance."
+    ],
+    "notes": "Integrated Pest Management (IPM) is crucial. Monitor populations using blue or yellow sticky cards to detect adults and guide treatment timing."
+  }
+}

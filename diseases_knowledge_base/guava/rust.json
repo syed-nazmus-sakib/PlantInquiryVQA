@@ -1,0 +1,136 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "guava.disease_fungal.rust",
+  "aliases": [
+    "myrtle rust",
+    "eucalyptus rust"
+  ],
+  "crop": {
+    "common_name": "guava",
+    "scientific_name": "Psidium guajava",
+    "family": "Myrtaceae"
+  },
+  "condition": {
+    "common_name": "rust",
+    "scientific_name": "Austropuccinia psidii",
+    "alt_names": [
+      "Puccinia psidii"
+    ],
+    "pathogen": {
+      "type": "disease_fungal",
+      "taxonomy": {
+        "kingdom": "Fungi",
+        "phylum": "Basidiomycota",
+        "class": "Pucciniomycetes",
+        "order": "Pucciniales",
+        "family": "Sphaerophragmiaceae",
+        "genus": "Austropuccinia",
+        "species": "psidii"
+      }
+    }
+  },
+  "issue_type": "disease_fungal",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [
+      "wind-borne spores",
+      "water splash",
+      "contaminated tools",
+      "movement of infected plant material"
+    ],
+    "overwintering": [
+      "on infected leaves and stems in mild climates",
+      "on alternate hosts within the Myrtaceae family"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "high humidity",
+      "prolonged leaf wetness",
+      "presence of young, susceptible tissue (new growth)",
+      "poor air circulation"
+    ],
+    "temp_c_day": [
+      15,
+      25
+    ],
+    "temp_c_night": [
+      10,
+      20
+    ],
+    "relative_humidity_pct": [
+      85,
+      100
+    ],
+    "leaf_wetness_hours_threshold": 6
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "1-10% of leaf area affected with visible pustules. Little to no leaf distortion.",
+    "moderate": "11-30% of leaf area affected. Some leaf curling, distortion, or minor premature leaf drop may be present.",
+    "severe": ">30% of leaf area affected. Significant leaf distortion, shoot dieback, and/or widespread defoliation.",
+    "notes": "Severity is measured as the percentage of total leaf surface area on the plant (or in the image frame) covered by active, sporulating pustules. Also consider impact on new growth and fruit."
+  },
+  "symptoms": {
+    "leaves": [
+      "Initial small, chlorotic (yellow) flecks on upper and lower leaf surfaces.",
+      "Development of bright yellow to orange, powdery pustules (uredinia), especially on the underside of young leaves.",
+      "Pustules may be surrounded by a purple or dark red halo on some hosts.",
+      "Infected leaves become twisted, distorted, and may fall prematurely.",
+      "Older lesions may turn dark brown or black as spores are released and tissue dies."
+    ],
+    "stems": [
+      "Pustules can form on young, succulent stems and shoots.",
+      "Severe infection can lead to stem distortion, stunting, or dieback."
+    ],
+    "fruit": [
+      "Pustules develop on young, developing fruit.",
+      "Infected fruit may become malformed, cracked, or stop developing."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Stunted growth of new shoots.",
+      "Severe infections can lead to significant defoliation and reduced plant vigor."
+    ],
+    "signs_microscopic_or_visible": [
+      "Presence of bright yellow-orange powdery spore masses (urediniospores) that can be wiped off the leaf surface."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "leaf_spot",
+      "condition_id": "guava.disease_fungal.leaf_spot",
+      "key_differences": [
+        "Leaf spots are typically necrotic (tan, brown, or black), not bright yellow/orange.",
+        "Leaf spots are flat or slightly sunken, whereas rust forms raised, powdery pustules.",
+        "Leaf spots often have a distinct, darker border; rust pustules are more diffuse initially.",
+        "Leaf spots do not produce a powder that can be wiped off."
+      ]
+    },
+    {
+      "condition_name": "nutritional_deficiency",
+      "condition_id": "guava.nutrient_deficiency.iron",
+      "key_differences": [
+        "Nutrient deficiency causes chlorosis (yellowing) in patterns (e.g., interveinal), not in discrete, circular spots.",
+        "Deficiency symptoms do not include raised, powdery pustules.",
+        "Deficiency yellowing affects the leaf tissue itself, while rust is a fungal growth on the surface."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Prune to improve air circulation within the canopy.",
+      "Remove and destroy infected plant parts to reduce inoculum.",
+      "Avoid overhead irrigation to minimize periods of leaf wetness.",
+      "Plant resistant or less susceptible cultivars if available."
+    ],
+    "biological": [
+      "Mycoparasites like Sphaerellopsis filum are natural enemies but commercial options are limited."
+    ],
+    "chemical": [
+      "Application of protective or systemic fungicides (e.g., copper-based, strobilurins, triazoles).",
+      "Follow label instructions and rotate fungicide classes to prevent resistance."
+    ],
+    "notes": "Management is most effective when started early, before the disease becomes widespread. Focus on protecting new, susceptible growth during favorable environmental conditions."
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "tomato.physiological_symptom.yellowing_symptom",
+  "aliases": [
+    "chlorosis",
+    "tomato chlorosis",
+    "nutrient deficiency yellowing"
+  ],
+  "crop": {
+    "common_name": "tomato",
+    "scientific_name": "Solanum lycopersicum",
+    "family": "Solanaceae"
+  },
+  "condition": {
+    "common_name": "Yellowing Symptom",
+    "scientific_name": "",
+    "alt_names": [
+      "Chlorosis",
+      "Nutrient Deficiency"
+    ],
+    "pathogen": {
+      "type": "physiological_disorder",
+      "taxonomy": {
+        "kingdom": "",
+        "phylum": "",
+        "class": "",
+        "order": "",
+        "family": "",
+        "genus": "",
+        "species": ""
+      }
+    }
+  },
+  "issue_type": "physiological_symptom",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [],
+    "overwintering": []
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "Low soil nitrogen",
+      "Low soil magnesium",
+      "Low soil iron",
+      "High soil pH (alkaline)",
+      "Waterlogged soil (poor drainage)",
+      "Drought stress",
+      "Compacted soil"
+    ],
+    "temp_c_day": [],
+    "temp_c_night": [],
+    "relative_humidity_pct": [],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "1-10% of the total leaf area on the plant is yellow.",
+    "moderate": "11-40% of the total leaf area on the plant is yellow.",
+    "severe": ">40% of the total leaf area on the plant is yellow, often with some browning or necrosis.",
+    "notes": "Severity is measured as the percentage of total plant foliage showing yellowing (chlorosis). Assess the whole plant, not just a single leaf."
+  },
+  "symptoms": {
+    "leaves": [
+      "Uniform yellowing of older, lower leaves, while new growth remains green (classic nitrogen deficiency).",
+      "Yellowing between the veins (interveinal chlorosis) on older, lower leaves, sometimes with a 'Christmas tree' pattern (magnesium deficiency).",
+      "Interveinal chlorosis primarily on new, upper leaves (iron deficiency).",
+      "General, pale green to yellow discoloration across the entire plant.",
+      "Leaf margins turn yellow and may become necrotic.",
+      "In severe cases, yellowed leaves may wilt, dry up, and drop from the plant."
+    ],
+    "stems": [
+      "Stems may appear thin, spindly, or stunted."
+    ],
+    "fruit": [
+      "Fruit may be smaller than expected or fail to develop properly.",
+      "Poor or uneven ripening, such as 'blotchy ripening' or 'green shoulders'."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Overall stunted growth.",
+      "Reduced plant vigor and productivity."
+    ],
+    "signs_microscopic_or_visible": []
+  },
+  "lookalikes": [
+    {
+      "condition_name": "Fusarium Wilt",
+      "condition_id": "tomato.fungal_disease.fusarium_wilt",
+      "key_differences": [
+        "Fusarium often causes yellowing and wilting on only one side of the plant or even one side of a leaf.",
+        "A key diagnostic is the brown vascular discoloration visible when the lower stem is cut open.",
+        "Wilting is a primary symptom, often severe and preceding widespread yellowing."
+      ]
+    },
+    {
+      "condition_name": "Spider Mites",
+      "condition_id": "tomato.pest_damage.spider_mites",
+      "key_differences": [
+        "Yellowing is composed of tiny, fine yellow or white dots (stippling) on the leaf surface.",
+        "Fine webbing is often visible on the undersides of leaves or between stems and petioles.",
+        "Close inspection of the leaf underside may reveal tiny, moving mites."
+      ]
+    },
+    {
+      "condition_name": "Mosaic Virus",
+      "condition_id": "tomato.viral_disease.mosaic_virus",
+      "key_differences": [
+        "Yellowing appears as a mottled or mosaic pattern of light green and yellow patches, not uniform or interveinal.",
+        "Leaves are often distorted, puckered, or have a fern-like shape.",
+        "Overall plant growth is typically severely stunted in a way not typical for early-stage nutrient issues."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Conduct a soil test to determine pH and nutrient levels before planting.",
+      "Apply balanced fertilizers or specific nutrient supplements based on deficiency symptoms and soil tests.",
+      "Improve soil drainage to prevent waterlogging and root rot.",
+      "Ensure consistent and adequate watering to avoid drought stress.",
+      "Incorporate compost or other organic matter to improve soil structure and nutrient availability."
+    ],
+    "biological": [],
+    "chemical": [
+      "Use foliar sprays of specific nutrients (e.g., chelated iron, Epsom salts for magnesium) for a quick but temporary correction.",
+      "Adjust soil pH using lime (to raise pH) or sulfur (to lower pH) as recommended by a soil test."
+    ],
+    "notes": "Identifying the specific cause of yellowing is crucial for effective management. Start with a soil test and observation of the yellowing pattern (e.g., old vs. new leaves, interveinal vs. uniform)."
+  }
+}

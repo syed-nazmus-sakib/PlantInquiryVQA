@@ -1,0 +1,141 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "papaya.disease_viral.ringspot_virus",
+  "aliases": [
+    "PRSV",
+    "Papaya ringspot"
+  ],
+  "crop": {
+    "common_name": "papaya",
+    "scientific_name": "Carica papaya",
+    "family": "Caricaceae"
+  },
+  "condition": {
+    "common_name": "ringspot virus",
+    "scientific_name": "Papaya ringspot virus",
+    "alt_names": [
+      "PRSV"
+    ],
+    "pathogen": {
+      "type": "virus",
+      "taxonomy": {
+        "kingdom": "Orthornavirae",
+        "phylum": "Pisuviricota",
+        "class": "Stelpaviricetes",
+        "order": "Patatavirales",
+        "family": "Potyviridae",
+        "genus": "Potyvirus",
+        "species": "Papaya ringspot virus"
+      }
+    }
+  },
+  "issue_type": "disease_viral",
+  "transmission": {
+    "vectors": [
+      "aphids (e.g., Myzus persicae, Aphis gossypii)"
+    ],
+    "dispersal": [
+      "Insect vectors (aphids) in a non-persistent manner",
+      "Mechanical transmission via contaminated tools or human activity"
+    ],
+    "overwintering": [
+      "Infected perennial papaya plants",
+      "Infected alternative weed and crop hosts (e.g., cucurbits)"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "High aphid populations",
+      "Proximity to infected papaya orchards or cucurbit fields",
+      "Warm, dry conditions that favor aphid flight and dispersal"
+    ],
+    "temp_c_day": [
+      20,
+      30
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "qualitative",
+    "mild": "Faint yellow mosaic or mottling on a few young leaves. No significant stunting or fruit symptoms.",
+    "moderate": "Distinct mosaic, leaf yellowing, and some leaf distortion (fern-leaf). Plant shows some stunting. Fruit may show faint rings.",
+    "severe": "Severe mosaic, prominent 'fern-leaf' symptoms or shoestringing of leaves. Significant plant stunting, and distinctive, dark ringspots on fruit and oily streaks on stems.",
+    "notes": "Severity is based on the systemic progression of symptoms. It is most accurately judged by observing the youngest leaves for mosaic and mature fruit for ringspots. A value of 0 for leaf wetness indicates it is not a primary driver for this viral disease."
+  },
+  "symptoms": {
+    "leaves": [
+      "Yellow mosaic or mottling patterns, especially on young, expanding leaves.",
+      "Initial symptoms include vein-clearing on young leaves.",
+      "Leaf lamina is distorted, creating a 'fern-leaf' appearance.",
+      "Overall leaf size is significantly reduced.",
+      "In severe cases, leaf lobes are reduced to narrow, strap-like structures ('shoestringing')."
+    ],
+    "stems": [
+      "Dark green, oily or water-soaked streaks appear on petioles and the upper part of the trunk.",
+      "Internode length is shortened, contributing to a stunted appearance."
+    ],
+    "fruit": [
+      "Distinctive concentric rings or C-shaped markings develop on the fruit surface.",
+      "Ringspots are typically dark green on green fruit and turn yellow or brown as the fruit ripens.",
+      "Fruit size and quality are reduced, and flavor can be insipid.",
+      "Fruit surface may be bumpy or deformed."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Noticeable stunting, especially if infection occurs at a young stage.",
+      "The plant canopy becomes sparse and reduced in size.",
+      "Yield is severely reduced or completely eliminated."
+    ],
+    "signs_microscopic_or_visible": [
+      "No visible signs of the pathogen itself (e.g., fungal growth, spores, bacterial ooze)."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "mosaic virus",
+      "condition_id": "papaya.disease_viral.mosaic_virus",
+      "key_differences": [
+        "Ringspot virus (PRSV) causes distinctive rings on the fruit, which are absent in Papaya Mosaic Virus (PapMV) infections.",
+        "PRSV typically causes more severe leaf distortion ('fern-leaf' or 'shoestringing') compared to the milder mosaic of PapMV.",
+        "The oily, water-soaked streaks on stems and petioles are characteristic of PRSV, not PapMV."
+      ]
+    },
+    {
+      "condition_name": "leaf curl virus",
+      "condition_id": "papaya.disease_viral.leaf_curl_virus",
+      "key_differences": [
+        "Leaf curl causes severe upward or downward curling of the entire leaf blade, creating a cup shape, whereas ringspot causes a mosaic pattern and lamina reduction.",
+        "In leaf curl, veins become thickened and often remain green, while ringspot causes vein-clearing or mosaic patterns across the veins.",
+        "Ringspot virus causes rings on the fruit, a symptom not associated with leaf curl virus."
+      ]
+    },
+    {
+      "condition_name": "spider_mites",
+      "condition_id": "papaya.pest.spider_mites",
+      "key_differences": [
+        "Spider mite damage appears as fine, yellow or whitish stippling on the leaf surface, not a broad mosaic or mottled pattern.",
+        "Fine webbing is often present on the underside of leaves infested with spider mites, which is absent in viral infections.",
+        "The cause of spider mite damage (tiny, moving mites) may be visible with magnification on the leaf underside.",
+        "PRSV symptoms are systemic and most prominent on new growth, while spider mite damage can be localized on older leaves initially."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Use certified virus-free seedlings for planting.",
+      "Immediately remove and destroy (rogue) any infected plants to reduce the source of inoculum.",
+      "Maintain a weed-free orchard, as many weeds can host the virus and its aphid vectors.",
+      "Planting of resistant or genetically modified (GM) tolerant cultivars where available and permitted."
+    ],
+    "biological": [
+      "Conserve and encourage natural predators of aphids, such as lady beetles, lacewings, and hoverflies."
+    ],
+    "chemical": [
+      "Application of insecticides to manage aphid vector populations, though this may have limited success due to the rapid transmission time.",
+      "Spraying horticultural or mineral oils can interfere with aphid feeding and reduce virus transmission."
+    ],
+    "notes": "Once a plant is infected with PRSV, it cannot be cured. Management focuses entirely on preventing infection by controlling aphid vectors and removing infected plants."
+  }
+}

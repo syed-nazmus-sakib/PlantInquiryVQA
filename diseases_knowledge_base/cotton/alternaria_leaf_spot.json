@@ -1,0 +1,147 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "cotton.disease_fungal.alternaria_leaf_spot",
+  "aliases": [
+    "Alternaria leaf blight",
+    "Target spot of cotton"
+  ],
+  "crop": {
+    "common_name": "cotton",
+    "scientific_name": "Gossypium hirsutum",
+    "family": "Malvaceae"
+  },
+  "condition": {
+    "common_name": "alternaria leaf spot",
+    "scientific_name": "Alternaria macrospora, Alternaria alternata",
+    "alt_names": [
+      "Alternaria leaf blight"
+    ],
+    "pathogen": {
+      "type": "disease_fungal",
+      "taxonomy": {
+        "kingdom": "Fungi",
+        "phylum": "Ascomycota",
+        "class": "Dothideomycetes",
+        "order": "Pleosporales",
+        "family": "Pleosporaceae",
+        "genus": "Alternaria",
+        "species": "macrospora, alternata"
+      }
+    }
+  },
+  "issue_type": "disease_fungal",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [
+      "wind",
+      "rain-splash",
+      "infected seed",
+      "contaminated farm equipment"
+    ],
+    "overwintering": [
+      "infected crop debris",
+      "volunteer cotton plants",
+      "weed hosts"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "high humidity",
+      "frequent rainfall or overhead irrigation",
+      "prolonged leaf wetness",
+      "potassium deficiency",
+      "plant stress from other diseases or pests",
+      "late-season plant senescence"
+    ],
+    "temp_c_day": [
+      20,
+      30
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      85,
+      100
+    ],
+    "leaf_wetness_hours_threshold": 8
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "1-5% of leaf area is affected. A few small, scattered lesions, primarily on lower leaves.",
+    "moderate": "6-25% of leaf area is affected. Lesions are numerous, may be coalescing, and some defoliation of lower leaves is evident.",
+    "severe": ">25% of leaf area is affected. Widespread lesion coalescence, significant defoliation extending into the mid and upper canopy, and potential boll lesions.",
+    "notes": "Severity is assessed on the most affected leaves to represent the disease pressure. The disease typically progresses from the bottom of the plant upwards."
+  },
+  "symptoms": {
+    "leaves": [
+      "Initial lesions are small (1-2 mm), circular, grey-brown to reddish-brown spots.",
+      "Lesions expand to 0.5-2 cm, developing a classic 'target spot' or 'bull's-eye' appearance with distinct concentric rings.",
+      "A dark purple or brown border often surrounds mature lesions.",
+      "A yellow halo may appear around the lesion, especially on younger leaves.",
+      "Lesion centers can become necrotic and brittle, sometimes falling out to create a 'shot-hole' effect.",
+      "Under severe pressure, multiple lesions coalesce, causing large blighted areas.",
+      "Premature defoliation occurs, starting with the oldest, lowest leaves.",
+      "Infection is often more severe on plants under nutrient stress, particularly potassium deficiency."
+    ],
+    "stems": [
+      "Stem lesions are uncommon but can occur as elongated, dark, slightly sunken areas in severe infections."
+    ],
+    "fruit": [
+      "Lesions on bolls appear as circular, sunken, dark brown to black spots.",
+      "Boll infections can lead to premature opening and lint staining."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Infected plants show reduced vigor and premature senescence.",
+      "Disease is often first observed and most severe in the lower canopy."
+    ],
+    "signs_microscopic_or_visible": [
+      "Under high humidity, a dark, velvety or sooty mold (fungal spores and conidiophores) may be visible in the center of older lesions, often requiring a hand lens."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "bacterial blight",
+      "condition_id": "cotton.disease_bacterial.bacterial_blight",
+      "key_differences": [
+        "Bacterial blight lesions are angular and vein-limited, while Alternaria spots are circular with concentric rings.",
+        "Bacterial blight spots often appear water-soaked initially and turn black, lacking the distinct 'target' pattern.",
+        "Bacterial blight can cause long, black lesions on stems ('blackarm'), a symptom not typical of Alternaria."
+      ]
+    },
+    {
+      "condition_name": "leaf reddening",
+      "condition_id": "cotton.physiological_symptom.leaf_reddening",
+      "key_differences": [
+        "Leaf reddening is a diffuse discoloration (red, purple) across the leaf lamina, not discrete, circular spots with necrotic centers.",
+        "Reddening lacks the concentric rings and defined borders characteristic of Alternaria lesions.",
+        "Alternaria causes distinct spots of dead tissue, whereas reddening is a change in leaf pigment due to stress or senescence."
+      ]
+    },
+    {
+      "condition_name": "herbicide growth damage",
+      "condition_id": "cotton.herbicide_injury.herbicide_growth_damage",
+      "key_differences": [
+        "Herbicide spots (from contact types) are often irregular in shape with bleached white or tan centers and lack organized concentric rings.",
+        "Herbicide damage may follow a distinct spray pattern on the plant or in the field, unlike the more random distribution of a fungal disease.",
+        "Other signs of herbicide injury, such as leaf cupping, strapping, or stunting, may be present on the plant."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Plant resistant or tolerant cotton varieties.",
+      "Maintain balanced plant nutrition, especially adequate potassium levels.",
+      "Practice crop rotation with non-host crops.",
+      "Manage irrigation to minimize leaf wetness duration.",
+      "Destroy crop residue after harvest to reduce pathogen inoculum."
+    ],
+    "biological": [
+      "Use of registered bio-fungicides containing Bacillus species may offer some suppression."
+    ],
+    "chemical": [
+      "Apply foliar fungicides (e.g., strobilurins, triazoles) preventatively or at first sign of disease, especially during favorable weather conditions.",
+      "Consult local extension recommendations for effective and registered products and timing."
+    ],
+    "notes": "An integrated approach combining cultural practices and chemical control when necessary is most effective."
+  }
+}

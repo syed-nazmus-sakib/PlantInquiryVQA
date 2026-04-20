@@ -1,0 +1,126 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "rice.pest_insect.hispa",
+  "aliases": [
+    "rice hispa",
+    "rice hispid",
+    "spiny beetle"
+  ],
+  "crop": {
+    "common_name": "rice",
+    "scientific_name": "Oryza sativa",
+    "family": "Poaceae"
+  },
+  "condition": {
+    "common_name": "hispa",
+    "scientific_name": "Dicladispa armigera",
+    "alt_names": [],
+    "pathogen": {
+      "type": "Insect",
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Arthropoda",
+        "class": "Insecta",
+        "order": "Coleoptera",
+        "family": "Chrysomelidae",
+        "genus": "Dicladispa",
+        "species": "armigera"
+      }
+    }
+  },
+  "issue_type": "pest_insect",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [
+      "Adult flight"
+    ],
+    "overwintering": [
+      "Adults overwinter in grasses on bunds and in stubble."
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "High humidity and intermittent rainfall",
+      "Overcast days",
+      "Presence of alternate grass hosts on bunds",
+      "Excessive nitrogen fertilizer application"
+    ],
+    "temp_c_day": [
+      25,
+      32
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      80,
+      95
+    ],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "<10% of leaf area shows white streaks or larval mines.",
+    "moderate": "10-30% of leaf area is damaged; some leaves may start to dry at the tips.",
+    "severe": ">30% of leaf area is damaged; fields may appear whitish or scorched from a distance.",
+    "notes": "Severity is assessed by estimating the percentage of the total leaf surface area covered by the characteristic white streaks from adult feeding and white blotches from larval mining. A value of 0 indicates the factor is not a primary driver for this insect pest."
+  },
+  "symptoms": {
+    "leaves": [
+      "Presence of long, narrow, parallel white streaks on the upper leaf surface, where adults have scraped the green tissue.",
+      "Leaves appear skeletonized between the veins.",
+      "Presence of irregular, translucent white patches or blisters, which are mines created by larvae feeding inside the leaf.",
+      "Leaf tips may become dry, withered, and turn brown.",
+      "In severe infestations, entire leaves turn whitish and dry up.",
+      "Affected fields can have a scorched or dried-up appearance from a distance."
+    ],
+    "stems": [],
+    "fruit": [],
+    "roots": [],
+    "whole_plant": [
+      "Stunted growth in young plants due to heavy feeding pressure.",
+      "Reduced plant vigor and tillering."
+    ],
+    "signs_microscopic_or_visible": [
+      "Presence of small (3-5 mm), spiny, bluish-black adult beetles on the leaves.",
+      "Presence of small, yellowish grubs (larvae) inside the leaf mines if dissected.",
+      "Presence of small, brown, oval pupae attached to the leaf surface, often near the base."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "leaffolder",
+      "condition_id": "rice.pest_insect.leaffolder",
+      "key_differences": [
+        "Hispa creates narrow, parallel white streaks from adult feeding; leaffolder damage is broader white patches scraped from within a folded leaf.",
+        "Hispa larvae create mines (tunnels) within the leaf tissue; leaffolder larvae fold the leaf longitudinally and feed inside the fold.",
+        "With hispa, the leaf remains flat; with leaffolder, the key sign is the folded or rolled leaf blade.",
+        "The hispa adult is a small, spiny black beetle; the leaffolder adult is a yellowish-brown moth."
+      ]
+    },
+    {
+      "condition_name": "leaf_scald",
+      "condition_id": "rice.disease.leaf_scald",
+      "key_differences": [
+        "Hispa damage consists of dry, white, scraped streaks; leaf scald lesions are initially water-soaked and have distinct, alternating light and dark brown bands (zonation).",
+        "Hispa damage can occur anywhere on the leaf blade; leaf scald typically starts at the leaf tip or margins and progresses downwards.",
+        "Hispa is caused by an insect, and the beetle may be visible; leaf scald is a fungal disease with no visible pest."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Clipping and destroying the top portion of seedlings before transplanting to remove eggs.",
+      "Maintaining clean bunds by removing weeds and alternate grass hosts.",
+      "Avoiding over-application of nitrogen fertilizers.",
+      "Flooding the nursery or field for a day to dislodge and drown adults."
+    ],
+    "biological": [
+      "Conservation of natural enemies like small wasps (e.g., Eulophid wasp) that parasitize larvae and pupae.",
+      "Use of bio-pesticides based on fungi like Beauveria bassiana."
+    ],
+    "chemical": [
+      "Application of recommended systemic or contact insecticides when pest populations exceed economic thresholds.",
+      "Seed treatment with appropriate insecticides in endemic areas."
+    ],
+    "notes": "Integrated Pest Management (IPM) combining cultural, biological, and need-based chemical methods is the most effective approach."
+  }
+}

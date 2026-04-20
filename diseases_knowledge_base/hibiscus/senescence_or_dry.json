@@ -1,0 +1,118 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "hibiscus.physiological_symptom.senescence_or_dry",
+  "aliases": [
+    "hibiscus leaf yellowing",
+    "hibiscus drying out",
+    "natural aging hibiscus",
+    "water stress hibiscus"
+  ],
+  "crop": {
+    "common_name": "hibiscus",
+    "scientific_name": "Hibiscus rosa-sinensis",
+    "family": "Malvaceae"
+  },
+  "condition": {
+    "common_name": "Senescence or Dryness",
+    "scientific_name": null,
+    "alt_names": [
+      "water stress",
+      "natural leaf drop",
+      "leaf aging",
+      "drought stress"
+    ],
+    "pathogen": {
+      "type": "abiotic",
+      "taxonomy": {
+        "kingdom": "",
+        "phylum": "",
+        "class": "",
+        "order": "",
+        "family": "",
+        "genus": "",
+        "species": ""
+      }
+    }
+  },
+  "issue_type": "physiological_symptom",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [],
+    "overwintering": []
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "inconsistent or insufficient watering",
+      "low ambient humidity",
+      "pot-bound root system",
+      "high temperatures and excessive direct sun exposure",
+      "end of natural leaf lifecycle (older leaves)",
+      "poorly draining soil"
+    ],
+    "temp_c_day": [
+      28,
+      40
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      0,
+      40
+    ],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "qualitative",
+    "mild": "One to a few lower leaves are uniformly yellow. No significant wilting or leaf drop.",
+    "moderate": "Multiple lower and mid-plant leaves are yellow or brown and crispy. Some leaves have dropped. Minor wilting of upper foliage may be visible.",
+    "severe": "Widespread yellowing and browning across the plant. Significant leaf drop resulting in a sparse appearance. Stems are visibly wilted or drooping.",
+    "notes": "Severity is assessed based on the proportion and location of affected leaves on the whole plant, as well as the degree of wilting and leaf loss. Symptoms typically progress from the bottom of the plant upwards."
+  },
+  "symptoms": {
+    "leaves": [
+      "Lower, older leaves turn a solid, uniform yellow without distinct spots.",
+      "Yellowing progresses to browning as the leaf tissue desiccates.",
+      "Affected leaves become dry, brittle, and crispy to the touch.",
+      "Leaf margins may curl inwards or appear scorched from dryness.",
+      "The entire plant may show signs of wilting, with leaves drooping, especially during the day.",
+      "Affected leaves detach easily from the stem and fall off (abscission).",
+      "Unlike nutrient deficiencies, the yellowing is typically uniform across the leaf blade, not patterned along veins."
+    ],
+    "stems": [
+      "In severe cases, younger, green stems may lose turgidity and droop.",
+      "Stems of chronically stressed plants may appear woody and less vigorous."
+    ],
+    "fruit": [
+      "Flower buds may turn yellow and drop before they have a chance to open."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Overall plant appears sparse or thin due to leaf loss.",
+      "General lack of vigor and reduced flowering.",
+      "Plant may appear wilted or droopy."
+    ],
+    "signs_microscopic_or_visible": []
+  },
+  "lookalikes": [
+    {
+      "condition_name": "Healthy",
+      "condition_id": "hibiscus.physiological_symptom.healthy",
+      "key_differences": [
+        "Healthy leaves are uniformly green and turgid, while senescent/dry leaves are yellow, brown, and may be wilted or crispy.",
+        "A healthy plant has dense foliage, whereas a dry plant often has significant leaf drop, especially from the lower sections.",
+        "Healthy stems are firm and upright, but stems on a severely dry plant may droop."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Provide consistent watering; check soil moisture 1-2 inches deep before watering again.",
+      "Ensure the pot has adequate drainage holes to prevent waterlogging, which can also cause similar symptoms.",
+      "If root-bound, repot into a slightly larger container with fresh, well-draining soil.",
+      "Move the plant to a location with bright, indirect light to avoid scorching from intense, direct sun.",
+      "Increase humidity around the plant by misting or using a pebble tray with water."
+    ],
+    "biological": [],
+    "chemical": [],
+    "notes": "Management is focused on identifying and correcting the abiotic stressor. It is not a disease and does not require pesticides."
+  }
+}

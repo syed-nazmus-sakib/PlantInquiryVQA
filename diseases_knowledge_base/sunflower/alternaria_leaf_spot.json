@@ -1,0 +1,137 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "sunflower.disease_fungal.alternaria_leaf_spot",
+  "aliases": [
+    "alternaria leaf blight",
+    "alternaria blight",
+    "alternaria spot"
+  ],
+  "crop": {
+    "common_name": "sunflower",
+    "scientific_name": "Helianthus annuus",
+    "family": "Asteraceae"
+  },
+  "condition": {
+    "common_name": "alternaria leaf spot",
+    "scientific_name": "Alternaria helianthi",
+    "alt_names": [
+      "alternaria leaf blight"
+    ],
+    "pathogen": {
+      "type": "disease_fungal",
+      "taxonomy": {
+        "kingdom": "Fungi",
+        "phylum": "Ascomycota",
+        "class": "Dothideomycetes",
+        "order": "Pleosporales",
+        "family": "Pleosporaceae",
+        "genus": "Alternaria",
+        "species": "helianthi"
+      }
+    }
+  },
+  "issue_type": "disease_fungal",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [
+      "wind",
+      "rain splash",
+      "contaminated seed",
+      "infected crop debris"
+    ],
+    "overwintering": [
+      "infected crop residue",
+      "on or in seeds",
+      "on volunteer sunflowers"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "high humidity",
+      "prolonged leaf wetness",
+      "warm temperatures",
+      "dense plant canopy",
+      "poor air circulation"
+    ],
+    "temp_c_day": [
+      25,
+      30
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      80,
+      100
+    ],
+    "leaf_wetness_hours_threshold": 8
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "1-5% of leaf area affected; few, scattered lesions, primarily on lower leaves.",
+    "moderate": "6-25% of leaf area affected; multiple lesions on lower and mid-canopy leaves, some lesions may be coalescing.",
+    "severe": ">25% of leaf area affected; extensive lesion coverage and coalescence, significant defoliation of lower leaves, lesions present on upper leaves, stems, or head.",
+    "notes": "Severity is assessed as the percentage of photosynthetic area lost to lesions on the most affected leaves, typically starting from the plant's base."
+  },
+  "symptoms": {
+    "leaves": [
+      "Initial small, circular, dark green to black water-soaked spots.",
+      "Lesions enlarge to become circular to angular, dark brown to black, and necrotic, often 0.5 to 2.5 cm in diameter.",
+      "Mature lesions frequently display a characteristic 'target spot' or 'bull's-eye' pattern of concentric rings.",
+      "A distinct, chlorotic (yellow) halo often surrounds the necrotic lesion.",
+      "In severe infections, multiple lesions coalesce, causing large blighted areas.",
+      "Affected leaves become brittle, wither, and drop prematurely, starting from the bottom of the plant."
+    ],
+    "stems": [
+      "Elongated, dark brown or black streaks or sunken lesions can appear on stems and petioles.",
+      "Severe stem lesions may girdle the plant, causing wilting and lodging."
+    ],
+    "fruit": [
+      "Dark, sunken lesions can develop on the back of the flower head (receptacle).",
+      "Infected seeds may be discolored, shriveled, or show poor development."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Stunted growth if infection occurs early and is severe.",
+      "Progressive defoliation from the bottom of the plant upwards."
+    ],
+    "signs_microscopic_or_visible": [
+      "Under high humidity, a dark, velvety or fuzzy fungal growth (conidia) may be visible in the center of older lesions."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "downy mildew",
+      "condition_id": "sunflower.disease_oomycete.downy_mildew",
+      "key_differences": [
+        "Downy mildew lesions are angular and vein-limited, appearing as pale green or yellow patches on the upper leaf surface, not circular 'target spots'.",
+        "A white to purplish downy growth is visible on the *underside* of downy mildew lesions, whereas Alternaria's fungal growth is dark and on the lesion surface.",
+        "Systemic downy mildew causes severe stunting and a thickened, upright leaf posture not typical of Alternaria."
+      ]
+    },
+    {
+      "condition_name": "powdery mildew",
+      "condition_id": "sunflower.disease_fungal.powdery_mildew",
+      "key_differences": [
+        "Powdery mildew presents as white, superficial, powdery patches that can be rubbed off, unlike Alternaria's embedded, necrotic tissue.",
+        "Alternaria causes distinct, dark, circular lesions with yellow halos, not a diffuse white coating.",
+        "Powdery mildew typically appears on upper leaf surfaces in drier conditions, while Alternaria thrives in high humidity and causes tissue death."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Use certified disease-free seed.",
+      "Rotate crops with non-host plants for at least 2-3 years.",
+      "Manage crop residue by tillage to encourage decomposition.",
+      "Optimize plant spacing and row orientation to improve air circulation and reduce leaf wetness duration.",
+      "Control volunteer and wild sunflowers which can act as a disease reservoir."
+    ],
+    "biological": [
+      "Use of bio-fungicides containing strains of Bacillus or Trichoderma may offer some suppression."
+    ],
+    "chemical": [
+      "Apply foliar fungicides (e.g., strobilurins, triazoles) preventatively or at first sign of disease, especially during flowering stages if conditions are favorable for disease.",
+      "Seed treatments with appropriate fungicides can reduce seed-borne inoculum."
+    ],
+    "notes": "An integrated approach combining cultural practices with timely fungicide applications is most effective for managing Alternaria leaf spot."
+  }
+}

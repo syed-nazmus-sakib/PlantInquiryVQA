@@ -1,0 +1,134 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "cotton.healthy.healthy",
+  "aliases": [
+    "normal cotton",
+    "unaffected cotton",
+    "healthy growth"
+  ],
+  "crop": {
+    "common_name": "cotton",
+    "scientific_name": "Gossypium hirsutum",
+    "family": "Malvaceae"
+  },
+  "condition": {
+    "common_name": "healthy",
+    "scientific_name": "",
+    "alt_names": [
+      "normal"
+    ],
+    "pathogen": {
+      "type": "physiological",
+      "taxonomy": {
+        "kingdom": "",
+        "phylum": "",
+        "class": "",
+        "order": "",
+        "family": "",
+        "genus": "",
+        "species": ""
+      }
+    }
+  },
+  "issue_type": "healthy",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [],
+    "overwintering": []
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "Optimal growing conditions",
+      "Adequate sunlight (6+ hours direct)",
+      "Balanced soil nutrition (especially Nitrogen, Phosphorus, Potassium)",
+      "Consistent and adequate water supply",
+      "Well-drained soil"
+    ],
+    "temp_c_day": [
+      25,
+      35
+    ],
+    "temp_c_night": [
+      18,
+      24
+    ],
+    "relative_humidity_pct": [
+      50,
+      70
+    ],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "qualitative",
+    "mild": "Not applicable. Plant is healthy.",
+    "moderate": "Not applicable. Plant is healthy.",
+    "severe": "Not applicable. Plant is healthy.",
+    "notes": "Severity is not applicable for a healthy condition. This rubric is a placeholder. Any visible defect would classify the plant as having a different condition."
+  },
+  "symptoms": {
+    "leaves": [
+      "Uniformly green color, without spots, lesions, or discoloration.",
+      "Fully expanded and turgid, showing no signs of wilting or drooping.",
+      "Characteristic palmate shape with 3-5 lobes, free from distortion, cupping, or puckering.",
+      "Smooth leaf surfaces and margins, without pustules, webbing, or frass.",
+      "Veins and interveinal areas are the same shade of green."
+    ],
+    "stems": [
+      "Sturdy, upright, and typically green to reddish-brown.",
+      "Free of cankers, galls, lesions, or unusual swelling."
+    ],
+    "fruit": [
+      "Squares (flower buds) are green, firm, and well-formed without spots or insect damage.",
+      "Flowers open as creamy-white or yellow and senesce to pink/purple normally.",
+      "Bolls (fruit) are green, firm, and uniformly shaped, free from spots, rot, or staining."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Exhibits vigorous, upright growth appropriate for its developmental stage.",
+      "Appears well-hydrated and robust.",
+      "Produces squares, flowers, and bolls in a normal developmental sequence."
+    ],
+    "signs_microscopic_or_visible": []
+  },
+  "lookalikes": [
+    {
+      "condition_name": "leaf_reddening",
+      "condition_id": "cotton.physiological.leaf_reddening",
+      "key_differences": [
+        "Healthy leaves are uniformly green, while reddened leaves display a distinct reddish-purple discoloration, often starting at the margins.",
+        "In reddening, interveinal areas turn red while veins may remain green; healthy leaves have uniform color across both.",
+        "Reddening is a sign of stress (e.g., nutrient deficiency, cool temperatures), whereas healthy plants show no stress symptoms."
+      ]
+    },
+    {
+      "condition_name": "herbicide_growth_damage",
+      "condition_id": "cotton.abiotic.herbicide_growth_damage",
+      "key_differences": [
+        "Healthy leaves have a normal, well-defined palmate shape; herbicide damage often causes distorted, cupped, or strapped (narrowed) leaves.",
+        "Healthy growth is uniform and upright; herbicide damage can cause twisted stems and abnormal growth, especially at the terminals.",
+        "Healthy leaves are uniformly green; some herbicide damage can cause chlorosis (yellowing) or bleaching, particularly on new growth."
+      ]
+    },
+    {
+      "condition_name": "leaf_variegation",
+      "condition_id": "cotton.genetic.leaf_variegation",
+      "key_differences": [
+        "Healthy leaves have a solid, uniform green color, while variegated leaves show stable, patterned patches of white, yellow, or light green.",
+        "Variegation is typically a genetic trait with a distinct, often symmetrical pattern; a healthy leaf's color is homogenous.",
+        "The boundary between colors is sharp in variegation, unlike the diffuse discoloration from disease or deficiency."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Plant certified, high-quality seed of an appropriate variety.",
+      "Maintain optimal soil fertility based on soil testing.",
+      "Provide consistent and timely irrigation to avoid water stress.",
+      "Implement effective weed management to reduce competition.",
+      "Monitor for pests and diseases regularly."
+    ],
+    "biological": [],
+    "chemical": [],
+    "notes": "Management for a healthy crop focuses on proactive cultural practices that provide optimal growing conditions and minimize plant stress."
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "cotton.unknown.herbicide_growth_damage",
+  "aliases": [
+    "herbicide injury",
+    "herbicide drift damage",
+    "2,4-D damage",
+    "dicamba damage",
+    "phenoxy herbicide injury"
+  ],
+  "crop": {
+    "common_name": "Cotton",
+    "scientific_name": "Gossypium hirsutum",
+    "family": "Malvaceae"
+  },
+  "condition": {
+    "common_name": "Herbicide Growth Damage",
+    "scientific_name": null,
+    "alt_names": [
+      "Herbicide phytotoxicity",
+      "Phenoxy herbicide injury"
+    ],
+    "pathogen": {
+      "type": "abiotic",
+      "taxonomy": {
+        "kingdom": null,
+        "phylum": null,
+        "class": null,
+        "order": null,
+        "family": null,
+        "genus": null,
+        "species": null
+      }
+    }
+  },
+  "issue_type": "unknown",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [
+      "Wind drift (spray particles)",
+      "Vapor drift (volatilization)"
+    ],
+    "overwintering": []
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "High wind speeds during application (>10 mph)",
+      "High temperatures causing volatilization",
+      "Low humidity",
+      "Temperature inversions",
+      "Proximity to fields where phenoxy or other susceptible herbicides are applied"
+    ],
+    "temp_c_day": [
+      29
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "qualitative",
+    "mild": "Slight cupping or strapping on a few new leaves; plant growth is not significantly stunted.",
+    "moderate": "Pronounced cupping, strapping, and distortion on most new growth; some stunting of the plant is visible.",
+    "severe": "Severe distortion, epinasty, and 'strapping' of most leaves; significant stunting or death of the terminal growing point.",
+    "notes": "Severity is assessed based on the degree of malformation of new growth and overall plant stunting, as damage typically affects the growing points active at the time of exposure."
+  },
+  "symptoms": {
+    "leaves": [
+      "Newest leaves are malformed, often cupped downwards or upwards.",
+      "Leaves appear narrow and elongated, a symptom known as 'strapping'.",
+      "Leaf veins appear parallel and closely spaced, resembling 'parallel veining' of a monocot.",
+      "Leaf margins are crinkled, puckered, or have a savoyed (bumpy) texture.",
+      "Petioles are twisted or bent downwards (epinasty)."
+    ],
+    "stems": [
+      "Stems, especially near the terminal, may be twisted, bent, or brittle.",
+      "Callus tissue or swelling may form on the stem."
+    ],
+    "fruit": [
+      "Young squares (flower buds) may be deformed, turn yellow, and be shed from the plant.",
+      "Bolls that form after exposure may be small, misshapen, or fail to develop properly."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Overall plant growth is stunted compared to healthy plants.",
+      "Symptoms are most prominent on the newest growth that was developing at the time of exposure.",
+      "Damage may appear in a pattern across the field (e.g., on the edge) corresponding to drift direction."
+    ],
+    "signs_microscopic_or_visible": []
+  },
+  "lookalikes": [
+    {
+      "condition_name": "Leaf Curl",
+      "condition_id": "cotton.viral.leaf_curl",
+      "key_differences": [
+        "Viral leaf curl often causes upward leaf curling and prominent, thickened, darkened veins on the underside of leaves.",
+        "Herbicide damage causes strapping (narrowing) and parallel-looking veins, which are not typical of leaf curl virus.",
+        "Viral leaf curl may be accompanied by small, leaf-like outgrowths (enations) on the veins, which are absent in herbicide damage.",
+        "The presence of whiteflies, the vector for the virus, may suggest leaf curl as a possibility."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Avoid spraying phenoxy-type herbicides near susceptible cotton fields, especially during windy conditions.",
+      "Use drift-reducing nozzles, lower spray pressure, and appropriate boom height.",
+      "Follow herbicide label instructions regarding wind speed, temperature, and required buffer zones.",
+      "If damage is suspected, document it with photos and collect tissue samples promptly for residue analysis."
+    ],
+    "biological": [],
+    "chemical": [
+      "There is no chemical treatment to reverse herbicide damage.",
+      "Applying supplemental nutrients or biostimulants may help the plant mitigate stress and recover, but will not cure the damage."
+    ],
+    "notes": "Management is entirely preventative. Once damage has occurred, the focus is on mitigating stress to encourage new, unaffected growth, assuming the growing point survives."
+  }
+}

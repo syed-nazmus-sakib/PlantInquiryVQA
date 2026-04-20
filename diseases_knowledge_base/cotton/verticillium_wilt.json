@@ -1,0 +1,143 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "cotton.disease_fungal.verticillium_wilt",
+  "aliases": [
+    "vert wilt",
+    "cotton wilt"
+  ],
+  "crop": {
+    "common_name": "cotton",
+    "scientific_name": "Gossypium hirsutum",
+    "family": "Malvaceae"
+  },
+  "condition": {
+    "common_name": "Verticillium wilt",
+    "scientific_name": "Verticillium dahliae",
+    "alt_names": [],
+    "pathogen": {
+      "type": "fungus",
+      "taxonomy": {
+        "kingdom": "Fungi",
+        "phylum": "Ascomycota",
+        "class": "Sordariomycetes",
+        "order": "Glomerellales",
+        "family": "Plectosphaerellaceae",
+        "genus": "Verticillium",
+        "species": "dahliae"
+      }
+    }
+  },
+  "issue_type": "disease_fungal",
+  "transmission": {
+    "vectors": [
+      "contaminated farm equipment",
+      "irrigation water"
+    ],
+    "dispersal": [
+      "soilborne microsclerotia",
+      "infected plant debris",
+      "windblown soil"
+    ],
+    "overwintering": [
+      "microsclerotia in soil",
+      "infected crop residue"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "cool soil temperatures during early season growth",
+      "excessive nitrogen fertilization",
+      "high soil moisture or poor drainage",
+      "co-infection with nematodes"
+    ],
+    "temp_c_day": [
+      22,
+      28
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "qualitative",
+    "mild": "Scattered lower leaves show marginal or interveinal chlorosis. No significant stunting or wilting.",
+    "moderate": "Widespread chlorosis and necrosis on lower and mid-canopy leaves. Some defoliation and moderate stunting are visible. Wilting may occur during peak heat.",
+    "severe": "Extensive defoliation, severe stunting, and permanent wilting of the entire plant, often leading to plant death. Bolls are small, fail to open, or are shed.",
+    "notes": "Severity is best assessed at the whole-plant level, focusing on the extent of wilting, defoliation, and stunting. Vascular staining in the stem is a key diagnostic but requires destructive sampling. Leaf wetness is not a primary driver for this soilborne disease."
+  },
+  "symptoms": {
+    "leaves": [
+      "Interveinal chlorosis (yellowing between veins), often starting on lower leaves.",
+      "Chlorotic areas develop into necrotic (brown, dead) tissue, creating a mottled or 'tiger-stripe' pattern.",
+      "Symptoms often appear on only one side of a leaf or one side of the plant (sectoring).",
+      "Affected leaves may wilt and curl upwards at the margins.",
+      "Premature shedding of symptomatic leaves, starting from the bottom of the plant."
+    ],
+    "stems": [
+      "Dark brown to black discoloration of the vascular tissue (xylem) visible when the stem is cut longitudinally or in cross-section.",
+      "Stunting of the main stem and branches, leading to a compressed plant structure."
+    ],
+    "fruit": [
+      "Bolls may be smaller than normal or fail to develop.",
+      "Premature opening of bolls, resulting in low-quality, discolored lint."
+    ],
+    "roots": [
+      "Vascular discoloration from the stem often extends into the taproot."
+    ],
+    "whole_plant": [
+      "General stunting and reduced vigor compared to healthy plants.",
+      "Wilting during the hottest part of the day, which may recover overnight in early stages.",
+      "Asymmetrical growth or dieback on one side of the plant."
+    ],
+    "signs_microscopic_or_visible": [
+      "Microsclerotia (small, black, persistent fungal structures) may form in dead plant tissue but are difficult to see without magnification."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "Fusarium wilt",
+      "condition_id": "cotton.disease_fungal.fusarium_wilt",
+      "key_differences": [
+        "Fusarium wilt is favored by warmer temperatures (>29\u00b0C), while Verticillium prefers cooler temperatures (<28\u00b0C).",
+        "Fusarium wilt often causes a more rapid, uniform yellowing and wilting of the entire plant, whereas Verticillium symptoms can be one-sided (sectoring).",
+        "Vascular discoloration in Fusarium is typically a lighter brown, whereas Verticillium causes a very dark brown or black discoloration.",
+        "Fusarium wilt is almost always associated with root-knot nematode damage, which causes galls on roots."
+      ]
+    },
+    {
+      "condition_name": "Bacterial blight",
+      "condition_id": "cotton.disease_bacterial.bacterial_blight",
+      "key_differences": [
+        "Bacterial blight lesions are distinctly angular and water-soaked, confined by leaf veins, unlike the interveinal pattern of Verticillium.",
+        "Bacterial blight does not cause systemic wilting or internal vascular discoloration of the main stem.",
+        "Bacterial blight can also cause black, elongated lesions on stems ('blackarm') and water-soaked spots on bolls."
+      ]
+    },
+    {
+      "condition_name": "Leaf reddening",
+      "condition_id": "cotton.physiological_disorder.leaf_reddening",
+      "key_differences": [
+        "Leaf reddening is characterized by a red or purple pigmentation, not the yellow (chlorosis) and brown (necrosis) of Verticillium.",
+        "Reddening is a physiological response (e.g., to nutrient deficiency, cool nights) and does not involve wilting or vascular discoloration.",
+        "The discoloration in leaf reddening often starts at the leaf margin and progresses inward, affecting the entire leaf."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Planting resistant or tolerant cultivars is the primary management strategy.",
+      "Crop rotation with non-host crops like sorghum or wheat for at least two years.",
+      "Manage irrigation to prevent waterlogging and reduce soil moisture stress.",
+      "Maintain balanced soil fertility, avoiding excessive nitrogen.",
+      "Sanitation by shredding and incorporating crop residue deeply to speed decomposition."
+    ],
+    "biological": [
+      "Application of soil amendments or beneficial microbes (e.g., Trichoderma spp.) may help suppress the pathogen, but results can be inconsistent."
+    ],
+    "chemical": [
+      "Pre-plant soil fumigation in severely infested fields, though often not economically feasible.",
+      "Fungicide seed treatments can provide some early-season suppression but do not offer season-long control."
+    ],
+    "notes": "Effective management requires an integrated approach centered on cultivar resistance and cultural practices. In-season fungicide applications are not effective for controlling this soilborne disease."
+  }
+}

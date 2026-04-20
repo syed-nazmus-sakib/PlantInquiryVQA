@@ -1,0 +1,129 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "peas.pest_insect.pod_borer_damage",
+  "aliases": [
+    "pea moth damage",
+    "pea pod borer",
+    "podworm damage"
+  ],
+  "crop": {
+    "common_name": "Pea",
+    "scientific_name": "Pisum sativum",
+    "family": "Fabaceae"
+  },
+  "condition": {
+    "common_name": "Pod Borer Damage",
+    "scientific_name": "Cydia nigricana",
+    "alt_names": [
+      "Pea Moth"
+    ],
+    "pathogen": {
+      "type": "insect",
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Arthropoda",
+        "class": "Insecta",
+        "order": "Lepidoptera",
+        "family": "Tortricidae",
+        "genus": "Cydia",
+        "species": "nigricana"
+      }
+    }
+  },
+  "issue_type": "pest_insect",
+  "transmission": {
+    "vectors": [
+      "Adult moth"
+    ],
+    "dispersal": [
+      "Adult moth flight"
+    ],
+    "overwintering": [
+      "Pupae overwinter in silk cocoons in the soil."
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "Warm, dry weather during flowering and pod set",
+      "Fields with a history of infestation",
+      "Proximity to alternative hosts like vetch"
+    ],
+    "temp_c_day": [
+      18,
+      28
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "qualitative",
+    "mild": "1-10% of pods show signs of entry holes or damage.",
+    "moderate": "11-40% of pods show damage; some pods may contain larvae.",
+    "severe": ">40% of pods are damaged; widespread presence of larvae and frass.",
+    "notes": "Severity is assessed by the percentage of pods affected on the plant or in a sample. Damage includes entry/exit holes, internal feeding, and presence of frass or larvae."
+  },
+  "symptoms": {
+    "leaves": [
+      "Leaves are generally unaffected by direct pod borer feeding."
+    ],
+    "stems": [
+      "Stems are typically not damaged."
+    ],
+    "fruit": [
+      "Small, circular entry or exit holes on the surface of pea pods.",
+      "Holes may have a small, discolored ring around them.",
+      "Internal feeding damage visible when pods are opened.",
+      "Developing peas (seeds) are partially or fully eaten.",
+      "Brown, granular insect excrement (frass) is present inside the pod.",
+      "Pods may appear distorted, yellowed, or ripen prematurely.",
+      "Silken webbing may be present on or inside the pod."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Plant health is often unaffected, with damage localized to the pods."
+    ],
+    "signs_microscopic_or_visible": [
+      "Visible pale yellow to greenish-white caterpillars (larvae) inside pods.",
+      "Visible frass (insect excrement) inside pods."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "Ascochyta Blight",
+      "condition_id": "peas.fungal.ascochyta_blight",
+      "key_differences": [
+        "Ascochyta lesions are sunken, purplish-black spots, not clean-cut holes.",
+        "Ascochyta blight also causes distinct lesions on leaves and stems, whereas pod borer damage is confined to pods.",
+        "No larvae, webbing, or frass are present inside pods with Ascochyta blight.",
+        "Ascochyta lesions on pods often have a target-like appearance with tiny black dots (pycnidia)."
+      ]
+    },
+    {
+      "condition_name": "Anthracnose",
+      "condition_id": "peas.fungal.anthracnose",
+      "key_differences": [
+        "Anthracnose causes dark, sunken, circular lesions, not small, drilled holes.",
+        "Lesions from anthracnose have a raised, dark border and a lighter center, which may contain pinkish spore masses in moist conditions.",
+        "Damage is a necrotic lesion, not a physical hole leading to an eaten-out interior.",
+        "No internal frass or larvae are associated with anthracnose."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Crop rotation with non-legume crops for at least 3 years.",
+      "Post-harvest tillage to expose overwintering pupae to predators and weather.",
+      "Planting early-maturing varieties to escape peak moth populations.",
+      "Remove and destroy infested pods and crop debris."
+    ],
+    "biological": [
+      "Conservation and encouragement of natural enemies like parasitic wasps."
+    ],
+    "chemical": [
+      "Application of registered insecticides timed with moth flight and egg-laying.",
+      "Use of pheromone traps to monitor adult moth populations and determine optimal spray timing."
+    ],
+    "notes": "Effective management relies heavily on monitoring adult moth populations with pheromone traps to time interventions precisely before larvae enter the pods."
+  }
+}

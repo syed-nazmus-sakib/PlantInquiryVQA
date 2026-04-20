@@ -1,0 +1,142 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "grape.disease_fungal.esca_black_measles",
+  "aliases": [
+    "Esca disease complex",
+    "Black measles",
+    "Apoplexy",
+    "Tiger stripe disease"
+  ],
+  "crop": {
+    "common_name": "grape",
+    "scientific_name": "Vitis vinifera",
+    "family": "Vitaceae"
+  },
+  "condition": {
+    "common_name": "Esca (Black Measles)",
+    "scientific_name": "Phaeomoniella chlamydospora, Phaeoacremonium minimum, Fomitiporia mediterranea, and others",
+    "alt_names": [
+      "Grape apoplexy",
+      "Young esca",
+      "Esca proper"
+    ],
+    "pathogen": {
+      "type": "fungal_complex",
+      "taxonomy": {
+        "kingdom": "Fungi",
+        "phylum": "Basidiomycota",
+        "class": "Agaricomycetes",
+        "order": "Hymenochaetales",
+        "family": "Hymenochaetaceae",
+        "genus": "Fomitiporia",
+        "species": "mediterranea"
+      }
+    }
+  },
+  "issue_type": "disease_fungal",
+  "transmission": {
+    "vectors": [
+      "Contaminated pruning tools"
+    ],
+    "dispersal": [
+      "Rain splash (of spores from fungal conks)",
+      "Infected propagation material (cuttings, rootstock)"
+    ],
+    "overwintering": [
+      "As mycelium within the permanent woody structures (trunk, cordons) of infected vines"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "Mature vines (>8 years old)",
+      "Large pruning wounds made during high rainfall periods",
+      "Drought stress or other environmental stressors",
+      "Vineyards with a history of the disease"
+    ],
+    "temp_c_day": [
+      25,
+      35
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "qualitative",
+    "mild": "Scattered leaves with characteristic 'tiger-stripe' symptoms on one or two shoots; no visible dieback.",
+    "moderate": "Multiple shoots or a single cordon show distinct foliar symptoms; minor shoot wilting may be present.",
+    "severe": "Widespread foliar symptoms across the vine, significant dieback of cordons, or sudden collapse of the entire vine (apoplexy).",
+    "notes": "Severity is based on external symptom expression in the canopy, as the internal wood infection is not visible. Symptom expression can be erratic from year to year."
+  },
+  "symptoms": {
+    "leaves": [
+      "Distinctive 'tiger-stripe' pattern: interveinal areas turn yellow (chlorotic) then brown (necrotic).",
+      "Necrotic areas are often bordered by a dark red or purplish margin.",
+      "Leaf margins may look scorched or burnt.",
+      "In the acute 'apoplexy' form, leaves suddenly wilt, dry out, and remain attached to the shoot."
+    ],
+    "stems": [
+      "Internally, a cross-section of the trunk or cordon reveals dark brown to black spots ('black goo') in the xylem.",
+      "In older infections, a central column of soft, spongy, yellowish-white wood rot is present.",
+      "Affected shoots may show stunted growth or wilt during hot periods."
+    ],
+    "fruit": [
+      "Small, dark purple to black, circular spots ('measles') develop on the berry skin.",
+      "The spots may be surrounded by a slightly lighter halo.",
+      "In severe cases, berries can crack, shrivel, or have a bitter taste."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Chronic form shows a gradual decline in vine vigor over several years.",
+      "Acute form ('apoplexy') involves the sudden death of part or all of the vine in mid-summer."
+    ],
+    "signs_microscopic_or_visible": [
+      "In mature infections, shelf-like fungal conks (fruiting bodies) of *Fomitiporia* may emerge from old, large pruning wounds on the trunk."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "Black Rot",
+      "condition_id": "grape.disease_fungal.black_rot",
+      "key_differences": [
+        "Black rot leaf spots are circular and tan with tiny black pycnidia (dots) inside, unlike Esca's interveinal stripes.",
+        "Black rot causes entire berries to shrivel into hard, black 'mummies', whereas Esca causes distinct 'measles' spots on otherwise intact berries.",
+        "Esca is a systemic wood-decaying disease; Black rot is primarily a foliar and fruit disease without internal trunk rot."
+      ]
+    },
+    {
+      "condition_name": "Pest Damage",
+      "condition_id": "grape.pest.unspecified",
+      "key_differences": [
+        "Leafhopper damage causes stippling or angular yellowing, not the broad interveinal 'tiger stripes' of Esca.",
+        "Mite damage may cause bronzing or yellowing and often includes fine webbing, which is absent in Esca.",
+        "Pest damage does not cause internal wood decay, 'black measles' on fruit, or sudden vine apoplexy."
+      ]
+    },
+    {
+      "condition_name": "Downy Mildew",
+      "condition_id": "grape.disease_fungal.downy_mildew",
+      "key_differences": [
+        "Downy mildew lesions are yellowish, oily-looking, angular spots, not the striped necrosis of Esca.",
+        "In humid weather, downy mildew produces a distinct white, fuzzy fungal growth on the underside of leaf spots; Esca does not.",
+        "Downy mildew primarily affects young, growing tissues, while Esca is a disease of mature, woody trunks and cordons."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Practice delayed pruning (late winter/early spring) to allow for faster wound healing.",
+      "Avoid making large pruning cuts, or protect them with a wound sealant.",
+      "Sanitize pruning tools (e.g., with alcohol or bleach solution) between vines, especially after cutting infected wood.",
+      "Remove and destroy dead vines or arms to reduce inoculum sources."
+    ],
+    "biological": [
+      "Application of Trichoderma-based bio-pesticides to fresh pruning wounds can help prevent colonization by pathogens."
+    ],
+    "chemical": [
+      "Use of registered fungicidal paints or sealants on large pruning wounds immediately after cutting.",
+      "Some trunk-injected fungicides (e.g., phosphonates) are used with variable success to manage symptoms."
+    ],
+    "notes": "Management is primarily preventative. There are no curative treatments for vines with established internal wood decay."
+  }
+}

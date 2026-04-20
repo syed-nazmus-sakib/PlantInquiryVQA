@@ -1,0 +1,138 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "corn.disease_bacterial.bacterial_leaf_streak",
+  "aliases": [
+    "Xanthomonas leaf streak",
+    "bacterial streak"
+  ],
+  "crop": {
+    "common_name": "corn",
+    "scientific_name": "Zea mays",
+    "family": "Poaceae"
+  },
+  "condition": {
+    "common_name": "bacterial leaf streak",
+    "scientific_name": "Xanthomonas vasicola pv. vasculorum",
+    "alt_names": [
+      "BLS"
+    ],
+    "pathogen": {
+      "type": "disease_bacterial",
+      "taxonomy": {
+        "kingdom": "Bacteria",
+        "phylum": "Pseudomonadota",
+        "class": "Gammaproteobacteria",
+        "order": "Lysobacterales",
+        "family": "Lysobacteraceae",
+        "genus": "Xanthomonas",
+        "species": "vasicola"
+      }
+    }
+  },
+  "issue_type": "disease_bacterial",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [
+      "wind-driven rain",
+      "sprinkler irrigation",
+      "movement of contaminated equipment",
+      "infected crop residue"
+    ],
+    "overwintering": [
+      "infected crop residue",
+      "weedy grass hosts"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "high humidity and rainfall",
+      "warm temperatures",
+      "overhead irrigation",
+      "continuous corn or corn-on-corn rotation",
+      "susceptible hybrids",
+      "no-till or minimum tillage systems"
+    ],
+    "temp_c_day": [
+      25,
+      30
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      80,
+      100
+    ],
+    "leaf_wetness_hours_threshold": 6
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "1-5% of leaf area affected. Lesions are small, scattered, and primarily on lower leaves.",
+    "moderate": "6-25% of leaf area affected. Lesions are more numerous, beginning to coalesce, and present on middle leaves.",
+    "severe": ">25% of leaf area affected. Extensive lesion coalescence, large necrotic areas, and symptoms present on upper leaves and husks.",
+    "notes": "Severity is typically assessed on the ear leaf and the leaves above it at the R3-R5 (milk to dent) growth stages. The value represents the percentage of leaf surface covered by symptomatic tissue."
+  },
+  "symptoms": {
+    "leaves": [
+      "Initial lesions are narrow, water-soaked streaks between leaf veins.",
+      "Streaks elongate to become tan, brown, or bright orange.",
+      "Lesion margins are wavy and irregular, not sharply defined like fungal diseases.",
+      "When held to light, lesions appear translucent or greasy.",
+      "Lesions range from less than an inch to several inches in length.",
+      "Multiple streaks can coalesce to form large, irregular blotches of dead tissue.",
+      "Symptoms typically appear first on lower leaves and progress up the plant.",
+      "Unlike gray leaf spot, lesions are not perfectly rectangular or vein-limited."
+    ],
+    "stems": [],
+    "fruit": [],
+    "roots": [],
+    "whole_plant": [],
+    "signs_microscopic_or_visible": [
+      "In high humidity, tiny droplets of sticky bacterial ooze may be visible on lesion surfaces.",
+      "This ooze dries into small, yellow, crystalline flakes on the leaf."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "gray leaf spot",
+      "condition_id": "corn.disease_fungal.gray_leaf_spot",
+      "key_differences": [
+        "Lesion Shape: Gray leaf spot lesions are distinctly rectangular with straight, parallel sides, strictly limited by leaf veins.",
+        "Lesion Margin: Bacterial leaf streak lesions have wavy, irregular margins.",
+        "Lesion Appearance: Gray leaf spot lesions are opaque and grayish-tan, while bacterial streak lesions can appear greasy or translucent when backlit."
+      ]
+    },
+    {
+      "condition_name": "northern leaf blight",
+      "condition_id": "corn.disease_fungal.northern_leaf_blight",
+      "key_differences": [
+        "Lesion Size & Shape: Northern leaf blight produces very large (up to 6 inches), cigar-shaped, elliptical lesions.",
+        "Lesion Appearance: Bacterial leaf streak lesions are much narrower, streak-like, and lack the distinct concentric zones sometimes seen in NLB.",
+        "Lesion Color: NLB lesions are typically tan or grayish, while BLS can have a more vibrant orange or yellowish hue."
+      ]
+    },
+    {
+      "condition_name": "common rust",
+      "condition_id": "corn.disease_fungal.common_rust",
+      "key_differences": [
+        "Symptom Type: Common rust produces raised, circular-to-oval pustules that rupture the leaf epidermis.",
+        "Texture: Rust pustules are powdery and release cinnamon-brown spores when touched.",
+        "Appearance: Bacterial leaf streak lesions are flat, non-powdery streaks within the leaf tissue."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Select resistant or tolerant corn hybrids.",
+      "Rotate to non-host crops like soybeans or alfalfa.",
+      "Use tillage to bury and encourage decomposition of infected crop residue.",
+      "Manage grassy weeds that can serve as alternative hosts."
+    ],
+    "biological": [
+      "Efficacy of biological control agents is not well-established for this disease."
+    ],
+    "chemical": [
+      "Foliar fungicides are ineffective as this is a bacterial disease.",
+      "Copper-based bactericides may provide some suppression if applied preventatively, but efficacy is often inconsistent and may not be economical."
+    ],
+    "notes": "Preventative management through hybrid selection and cultural practices is the most effective strategy."
+  }
+}

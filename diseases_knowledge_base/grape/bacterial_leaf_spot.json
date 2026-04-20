@@ -1,0 +1,142 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "grape.disease_bacterial.bacterial_leaf_spot",
+  "aliases": [
+    "Grape bacterial spot",
+    "Xanthomonas leaf spot",
+    "Grape bacterial blight"
+  ],
+  "crop": {
+    "common_name": "grape",
+    "scientific_name": "Vitis vinifera",
+    "family": "Vitaceae"
+  },
+  "condition": {
+    "common_name": "bacterial leaf spot",
+    "scientific_name": "Xanthomonas campestris pv. viticola",
+    "alt_names": [],
+    "pathogen": {
+      "type": "disease_bacterial",
+      "taxonomy": {
+        "kingdom": "Bacteria",
+        "phylum": "Pseudomonadota",
+        "class": "Gammaproteobacteria",
+        "order": "Lysobacterales",
+        "family": "Lysobacteraceae",
+        "genus": "Xanthomonas",
+        "species": "X. campestris pv. viticola"
+      }
+    }
+  },
+  "issue_type": "disease_bacterial",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [
+      "rain_splash",
+      "wind_driven_rain",
+      "contaminated_tools",
+      "infected_cuttings"
+    ],
+    "overwintering": [
+      "infected_canes",
+      "dormant_buds",
+      "plant_debris"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "high_humidity",
+      "frequent_rainfall",
+      "warm_temperatures",
+      "poor_air_circulation",
+      "overhead_irrigation"
+    ],
+    "temp_c_day": [
+      25,
+      30
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      80,
+      100
+    ],
+    "leaf_wetness_hours_threshold": 4
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "1-10% of leaf area affected with scattered, small lesions.",
+    "moderate": "11-40% of leaf area affected; lesions may be coalescing, some yellowing present.",
+    "severe": ">40% of leaf area affected; extensive lesion coalescence, significant yellowing, and potential defoliation.",
+    "notes": "Severity is estimated as the percentage of a single, representative leaf's surface area covered by lesions and associated chlorosis. This is a practical method for image labeling."
+  },
+  "symptoms": {
+    "leaves": [
+      "Small, angular, water-soaked lesions appear first, often limited by leaf veins.",
+      "Lesions darken over time to dark brown or black.",
+      "A distinct chlorotic (yellow) halo frequently surrounds the dark lesions.",
+      "Lesions can merge (coalesce) to form larger, irregular necrotic patches.",
+      "The center of older lesions may fall out, creating a 'shot-hole' appearance.",
+      "Infected leaves may become distorted, turn yellow, and drop prematurely."
+    ],
+    "stems": [
+      "Elongated, dark brown to black, slightly sunken cankers can form on young shoots.",
+      "In severe cases, shoot tips may die back."
+    ],
+    "fruit": [
+      "Small, circular, sunken, dark brown spots may appear on berries, though this is less common."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Reduced plant vigor and defoliation in severe infections."
+    ],
+    "signs_microscopic_or_visible": [
+      "Under very high humidity, shiny bacterial ooze may be visible on the surface of lesions."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "black rot",
+      "condition_id": "grape.disease_fungal.black_rot",
+      "key_differences": [
+        "Black rot lesions are circular with tan centers, whereas bacterial spots are angular and uniformly dark.",
+        "Black rot lesions contain tiny black dots (pycnidia) in a ring, which are absent in bacterial spot.",
+        "The halo around black rot lesions is typically a less distinct, brownish border, not a bright yellow halo."
+      ]
+    },
+    {
+      "condition_name": "anthracnose",
+      "condition_id": "grape.disease_fungal.anthracnose",
+      "key_differences": [
+        "Anthracnose lesions are circular and sunken with a distinct gray-white center and a dark, raised border ('bird's-eye' spot).",
+        "Bacterial spots are angular, not circular, and lack the gray center and raised border.",
+        "Anthracnose often causes more severe and numerous 'shot-holes' than bacterial spot."
+      ]
+    },
+    {
+      "condition_name": "isariopsis leaf spot",
+      "condition_id": "grape.disease_fungal.isariopsis_leaf_spot",
+      "key_differences": [
+        "Isariopsis lesions are reddish-brown and angular but often have a more diffuse, less defined border.",
+        "The underside of Isariopsis lesions may show a whitish-gray moldy growth (fungal structures), which is absent in bacterial spot.",
+        "The bright yellow halo is a much more consistent and prominent feature of bacterial leaf spot."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Plant resistant or less susceptible grape cultivars.",
+      "Prune to improve air circulation and promote faster drying of foliage.",
+      "Avoid overhead irrigation; use drip irrigation instead.",
+      "Remove and destroy infected canes and fallen leaves during dormancy.",
+      "Use certified, disease-free planting material."
+    ],
+    "biological": [
+      "Applications of microbial products containing *Bacillus subtilis* may provide some suppression when used preventatively."
+    ],
+    "chemical": [
+      "Apply copper-based bactericides preventatively before rainy, warm periods.",
+      "Consult local extension services for recommended and registered products and application timing."
+    ],
+    "notes": "Management relies heavily on preventative cultural practices. Chemical controls are most effective when applied before infection becomes established."
+  }
+}

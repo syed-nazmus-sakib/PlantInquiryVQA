@@ -1,0 +1,120 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "tea.healthy.healthy",
+  "aliases": [
+    "Normal tea plant",
+    "Undiseased tea"
+  ],
+  "crop": {
+    "common_name": "tea",
+    "scientific_name": "Camellia sinensis",
+    "family": "Theaceae"
+  },
+  "condition": {
+    "common_name": "Healthy",
+    "scientific_name": null,
+    "alt_names": [
+      "Normal",
+      "No disease"
+    ],
+    "pathogen": {
+      "type": "physiological",
+      "taxonomy": {
+        "kingdom": "",
+        "phylum": "",
+        "class": "",
+        "order": "",
+        "family": "",
+        "genus": "",
+        "species": ""
+      }
+    }
+  },
+  "issue_type": "healthy",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [],
+    "overwintering": []
+  },
+  "environmental_risk": {
+    "risk_factors": [],
+    "temp_c_day": [],
+    "temp_c_night": [],
+    "relative_humidity_pct": [],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "qualitative",
+    "mild": "Not applicable. Plant is either healthy or exhibits symptoms of a condition.",
+    "moderate": "Not applicable.",
+    "severe": "Not applicable.",
+    "notes": "Healthy is a binary state defined by the absence of disease, pest, or abiotic stress symptoms. Any deviation would classify the plant as unhealthy."
+  },
+  "symptoms": {
+    "leaves": [
+      "Leaves are uniformly green, ranging from light green on new growth (flush) to a deep, dark green on mature leaves.",
+      "Leaf surface is smooth, often with a waxy or glossy appearance.",
+      "Leaf margins are intact and typically serrated, not ragged, torn, or necrotic.",
+      "No visible spots, lesions, discoloration, stippling, or pustules are present.",
+      "Leaves are turgid and appropriately shaped, not wilted, curled, or distorted.",
+      "Venation pattern is normal for the cultivar without discoloration."
+    ],
+    "stems": [
+      "Young stems and shoots are green, supple, and vigorous.",
+      "Older stems are woody, brown or grayish, and firm.",
+      "No cankers, galls, dieback, or unusual growths are visible."
+    ],
+    "fruit": [
+      "Flowers, if present, are typically white with bright yellow stamens and show no signs of blight or malformation.",
+      "Seed capsules, if present, are green to brown, firm, and free of lesions."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Exhibits a dense, bushy growth habit with vigorous new shoots.",
+      "Overall appearance is uniform in color and density."
+    ],
+    "signs_microscopic_or_visible": [
+      "Absence of any visible signs of pathogens or pests, such as fungal mycelium, spores, webbing, insect frass, or insect bodies."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "algal_leaf_spot",
+      "condition_id": "tea.fungal.algal_leaf_spot",
+      "key_differences": [
+        "Healthy leaves have a smooth, uniform surface, whereas algal leaf spot presents as distinct, slightly raised, circular spots.",
+        "The spots from algal leaf spot have a velvety texture and are typically gray-green, later turning orange-red.",
+        "Healthy leaves lack the defined border that often characterizes algal spots."
+      ]
+    },
+    {
+      "condition_name": "spider_mites",
+      "condition_id": "tea.pest.spider_mites",
+      "key_differences": [
+        "Healthy leaves have a uniform green color, while mite damage causes a fine, pale yellow or whitish stippling on the leaf surface.",
+        "In severe cases, mite damage can lead to a bronze or grayish cast on the leaves, which is absent in healthy plants.",
+        "The underside of mite-infested leaves may have fine silk webbing, which is never present on healthy leaves."
+      ]
+    },
+    {
+      "condition_name": "helopeltis_damage",
+      "condition_id": "tea.pest.helopeltis_damage",
+      "key_differences": [
+        "Healthy leaves are whole and unblemished.",
+        "Helopeltis damage is characterized by distinct, angular, dark brown to black necrotic spots where the insect has fed.",
+        "Feeding spots from Helopeltis often cause the leaf to become distorted or curled as it grows, a feature absent in healthy leaves."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Maintain balanced soil fertility through appropriate nutrient management.",
+      "Ensure proper soil drainage and consistent irrigation to avoid water stress.",
+      "Regularly prune plants to encourage vigorous new growth and improve air circulation.",
+      "Practice good field sanitation to remove potential sources of inoculum or pests."
+    ],
+    "biological": [],
+    "chemical": [],
+    "notes": "Management for a healthy plant focuses on preventative care and maintaining optimal growing conditions to prevent stress, which can predispose the plant to diseases and pests."
+  }
+}

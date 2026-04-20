@@ -1,0 +1,113 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "rice.unknown.stripes",
+  "aliases": [
+    "Rice striping",
+    "Chlorotic stripes on rice",
+    "Leaf striping"
+  ],
+  "crop": {
+    "common_name": "Rice",
+    "scientific_name": "Oryza sativa",
+    "family": "Poaceae"
+  },
+  "condition": {
+    "common_name": "Stripes",
+    "scientific_name": "",
+    "alt_names": [
+      "Striping",
+      "Chlorotic striping"
+    ],
+    "pathogen": {
+      "type": "unknown",
+      "taxonomy": {
+        "kingdom": "",
+        "phylum": "",
+        "class": "",
+        "order": "",
+        "family": "",
+        "genus": "",
+        "species": ""
+      }
+    }
+  },
+  "issue_type": "unknown",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [],
+    "overwintering": []
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "Nutrient imbalances (e.g., zinc, iron, magnesium deficiency)",
+      "Soil pH extremes affecting nutrient uptake",
+      "Possible viral infection",
+      "Genetic disorders or mutations"
+    ],
+    "temp_c_day": [],
+    "temp_c_night": [],
+    "relative_humidity_pct": [],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "1-10% of the leaf area on affected leaves shows distinct stripes.",
+    "moderate": "11-40% of the leaf area shows prominent, often coalescing stripes.",
+    "severe": ">40% of leaf area is affected, with widespread chlorosis or necrosis, potentially leading to stunting.",
+    "notes": "Severity is assessed on representative, symptomatic leaves. The percentage reflects the total surface area covered by stripes relative to the total leaf area."
+  },
+  "symptoms": {
+    "leaves": [
+      "Displays distinct, linear stripes running parallel to the leaf veins.",
+      "Stripes are typically chlorotic (yellow to whitish).",
+      "Less commonly, stripes can become necrotic (brown) in severe cases.",
+      "The pattern can be continuous lines or broken/dashed stripes.",
+      "Stripe width can be uniform or variable along the leaf blade.",
+      "Symptoms can appear on new growth (suggesting nutrient immobility) or older leaves.",
+      "Leaf tissue between the stripes may remain green or become pale green.",
+      "The overall leaf may appear pale with faint green stripes in some manifestations."
+    ],
+    "stems": [],
+    "fruit": [],
+    "roots": [],
+    "whole_plant": [
+      "Affected plants may exhibit stunting or reduced vigor if the condition is severe.",
+      "Tillering can be reduced compared to healthy plants."
+    ],
+    "signs_microscopic_or_visible": []
+  },
+  "lookalikes": [
+    {
+      "condition_name": "Tungro",
+      "condition_id": "rice.virus.tungro",
+      "key_differences": [
+        "Tungro causes more mottled or blotchy yellow-to-orange discoloration, not sharply defined parallel stripes.",
+        "Tungro discoloration often starts from the leaf tip and progresses downwards, whereas stripes can appear anywhere.",
+        "Severe stunting and reduced tillering are hallmark symptoms of Tungro, often more pronounced than with striping."
+      ]
+    },
+    {
+      "condition_name": "Narrow Brown Leaf Spot",
+      "condition_id": "rice.fungus.narrow_brown_leaf_spot",
+      "key_differences": [
+        "This disease causes short, linear, necrotic (reddish-brown) lesions, not long chlorotic stripes.",
+        "Lesions are distinct, sunken, and clearly delimited, unlike the systemic discoloration of stripes.",
+        "The background leaf tissue around the spots remains green, whereas striping affects the entire leaf's color pattern."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Ensure balanced fertilization, paying close attention to micronutrients like zinc, iron, and magnesium.",
+      "Test soil pH and amend if it is outside the optimal range for rice (5.5-6.5).",
+      "Use high-quality, certified seed from reputable sources to avoid genetic or seed-borne issues.",
+      "Monitor fields for potential insect vectors that could transmit viruses."
+    ],
+    "biological": [],
+    "chemical": [
+      "If a nutrient deficiency is suspected, conduct a tissue analysis and apply a corrective foliar spray (e.g., zinc sulfate).",
+      "Avoid prophylactic application of pesticides or fungicides until the cause is identified."
+    ],
+    "notes": "Accurate diagnosis is critical. Submit plant and soil samples to a diagnostic laboratory to determine if the cause is nutritional, viral, genetic, or other before taking corrective action."
+  }
+}

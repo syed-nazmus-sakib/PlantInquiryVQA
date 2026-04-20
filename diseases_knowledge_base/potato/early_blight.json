@@ -1,0 +1,140 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "potato.disease_fungal.early_blight",
+  "aliases": [
+    "target spot",
+    "alternaria blight"
+  ],
+  "crop": {
+    "common_name": "potato",
+    "scientific_name": "Solanum tuberosum",
+    "family": "Solanaceae"
+  },
+  "condition": {
+    "common_name": "early blight",
+    "scientific_name": "Alternaria solani",
+    "alt_names": [
+      "target spot"
+    ],
+    "pathogen": {
+      "type": "disease_fungal",
+      "taxonomy": {
+        "kingdom": "Fungi",
+        "phylum": "Ascomycota",
+        "class": "Dothideomycetes",
+        "order": "Pleosporales",
+        "family": "Pleosporaceae",
+        "genus": "Alternaria",
+        "species": "solani"
+      }
+    }
+  },
+  "issue_type": "disease_fungal",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [
+      "wind",
+      "rain splash",
+      "irrigation water",
+      "infected equipment"
+    ],
+    "overwintering": [
+      "infected plant debris",
+      "soil",
+      "infected tubers",
+      "solanaceous weeds"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "high humidity",
+      "frequent rainfall or overhead irrigation",
+      "plant stress (e.g., nutrient deficiency, insect damage)",
+      "older, senescing leaves"
+    ],
+    "temp_c_day": [
+      24,
+      29
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      90,
+      100
+    ],
+    "leaf_wetness_hours_threshold": 9
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "< 5% of total foliage area affected by lesions.",
+    "moderate": "5-25% of total foliage area affected, some leaf yellowing and minor defoliation.",
+    "severe": "> 25% of total foliage area affected, significant defoliation, stem lesions present, reduced plant vigor.",
+    "notes": "Severity is assessed by estimating the percentage of the total plant canopy showing symptoms, not just a single leaf. This metric is practical for image labeling and is used in disease forecasting."
+  },
+  "symptoms": {
+    "leaves": [
+      "Small, dark brown to black spots, initially on lower, older leaves.",
+      "Lesions enlarge into circular or irregular shapes, often up to 1.5 cm in diameter.",
+      "Classic 'target spot' or 'bull's-eye' pattern with concentric rings within the lesion.",
+      "A distinct yellow halo often surrounds the dark lesion.",
+      "Lesions can merge, causing large blighted areas.",
+      "Affected leaves turn yellow, wither, and eventually die, but often remain attached to the plant."
+    ],
+    "stems": [
+      "Dark, sunken, and elongated lesions can form on stems, sometimes with concentric rings.",
+      "Stem lesions can girdle the plant, especially near the soil line (collar rot on seedlings)."
+    ],
+    "fruit": [
+      "Tubers develop dark, circular to irregular, slightly sunken lesions on the surface.",
+      "The underlying tuber flesh is dry, leathery, or corky and brownish in color.",
+      "Tuber lesions are usually sharply defined from healthy tissue."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Premature defoliation, starting from the bottom of the plant and moving upwards.",
+      "Reduced plant vigor and overall stunting in severe cases."
+    ],
+    "signs_microscopic_or_visible": [
+      "In humid conditions, a velvety, dark brown or black sporulation may be visible on the surface of lesions with a hand lens."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "late blight",
+      "condition_id": "potato.disease_fungal.late_blight",
+      "key_differences": [
+        "Late blight lesions are water-soaked and irregular with fuzzy white mold on the leaf underside; early blight lesions are dry with distinct concentric rings.",
+        "Early blight lesions have a sharp, defined border and a yellow halo; late blight lesions have an indistinct, pale green border.",
+        "Early blight prefers warmer temperatures and affects lower leaves first; late blight thrives in cool, moist conditions and can appear anywhere on the plant.",
+        "Late blight causes a rapid, wet rot of the entire plant; early blight progresses more slowly, causing gradual defoliation."
+      ]
+    },
+    {
+      "condition_name": "healthy",
+      "condition_id": "potato.healthy",
+      "key_differences": [
+        "Healthy leaves are uniformly green without any spots, lesions, or yellowing halos.",
+        "Healthy stems are green and turgid, lacking any dark, sunken, or elongated lesions.",
+        "Healthy plants exhibit a full, vigorous canopy appropriate for their developmental stage."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Use certified disease-free seed tubers.",
+      "Practice crop rotation with non-solanaceous crops for at least 2-3 years.",
+      "Maintain adequate plant nutrition to reduce stress.",
+      "Promote good air circulation through proper plant spacing and weed control.",
+      "Remove and destroy infected plant debris after harvest.",
+      "Avoid overhead irrigation or time it to allow foliage to dry quickly."
+    ],
+    "biological": [
+      "Application of bio-fungicides containing *Bacillus subtilis* can suppress pathogen growth."
+    ],
+    "chemical": [
+      "Apply preventative fungicides before disease onset, especially when weather is favorable.",
+      "Use curative fungicides with different modes of action (e.g., chlorothalonil, mancozeb, azoxystrobin, pyraclostrobin) to manage disease and prevent resistance.",
+      "Follow local extension recommendations for timing and product selection."
+    ],
+    "notes": "An integrated pest management (IPM) approach is most effective, combining cultural practices, resistant varieties (if available), and judicious fungicide use based on disease forecasting models."
+  }
+}

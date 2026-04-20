@@ -1,0 +1,140 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "rice.disease_fungal.sheath_blight",
+  "aliases": [
+    "banded leaf and sheath blight",
+    "oriental leaf and sheath blight"
+  ],
+  "crop": {
+    "common_name": "rice",
+    "scientific_name": "Oryza sativa",
+    "family": "Poaceae"
+  },
+  "condition": {
+    "common_name": "sheath blight",
+    "scientific_name": "Rhizoctonia solani",
+    "alt_names": [],
+    "pathogen": {
+      "type": "disease_fungal",
+      "taxonomy": {
+        "kingdom": "Fungi",
+        "phylum": "Basidiomycota",
+        "class": "Agaricomycetes",
+        "order": "Cantharellales",
+        "family": "Ceratobasidiaceae",
+        "genus": "Rhizoctonia",
+        "species": "solani"
+      }
+    }
+  },
+  "issue_type": "disease_fungal",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [
+      "Sclerotia in soil and irrigation water",
+      "Plant-to-plant contact through mycelial growth",
+      "Infected crop debris"
+    ],
+    "overwintering": [
+      "As sclerotia in soil",
+      "As mycelium in infected crop residue (stubble)"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "High nitrogen fertilization",
+      "Dense planting or high tiller density",
+      "High relative humidity",
+      "High temperatures",
+      "Closed crop canopy"
+    ],
+    "temp_c_day": [
+      28,
+      32
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      85,
+      100
+    ],
+    "leaf_wetness_hours_threshold": 10
+  },
+  "severity_rubric": {
+    "unit": "qualitative",
+    "mild": "Lesions are confined to the lower leaf sheaths, below the top 2-3 leaves.",
+    "moderate": "Lesions have spread vertically to the upper leaf sheaths, but have not reached the flag leaf sheath.",
+    "severe": "Lesions have reached and infected the flag leaf sheath and/or panicle, causing significant blighting.",
+    "notes": "Severity is often measured professionally by Relative Lesion Height (RLH), the ratio of maximum lesion height to plant height. This qualitative rubric approximates low, medium, and high RLH."
+  },
+  "symptoms": {
+    "leaves": [
+      "Initial lesions are oval, grayish-green, and water-soaked on the leaf sheath near the waterline.",
+      "Lesions enlarge to become grayish-white or tan in the center with a distinct, irregular, dark brown or purplish-brown border.",
+      "Lesions often merge, creating large, irregular patches with a characteristic 'snakeskin' or 'banded' pattern.",
+      "Infection can progress from the sheath to the leaf blade, causing similar lesions and eventual leaf death."
+    ],
+    "stems": [
+      "The primary site of infection is the leaf sheath, which wraps the stem (culm).",
+      "Infection progresses vertically up the tiller from one sheath to the next.",
+      "Severe infection of the sheaths can weaken the underlying culm, contributing to lodging."
+    ],
+    "fruit": [
+      "Infection of the flag leaf sheath can disrupt nutrient flow, leading to incomplete grain filling and 'chalky' grains.",
+      "In severe cases, the panicle can become directly infected, causing discoloration and sterility."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Affected tillers may die, creating patches of dead plants ('hotspots') in the field.",
+      "The disease typically spreads from plant to plant, creating expanding circular patches of infection."
+    ],
+    "signs_microscopic_or_visible": [
+      "White, web-like fungal strands (mycelium) may be visible on the lesion surface, especially under high humidity.",
+      "Small, brown to black, irregularly shaped sclerotia, resembling mustard seeds, may form on the surface of infected sheaths."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "bacterial leaf blight",
+      "condition_id": "rice.disease_bacterial.bacterial_leaf_blight",
+      "key_differences": [
+        "Sheath blight lesions are oval/elliptical on the sheath; bacterial blight lesions are wavy-margined, water-soaked stripes starting from leaf tips/margins.",
+        "Sheath blight starts near the waterline and moves up; bacterial blight starts at the leaf tip and moves down.",
+        "Sheath blight may show fungal mycelium or sclerotia; bacterial blight may produce milky bacterial ooze when cut leaves are placed in water."
+      ]
+    },
+    {
+      "condition_name": "leaf scald",
+      "condition_id": "rice.disease_fungal.leaf_scald",
+      "key_differences": [
+        "Sheath blight affects the sheath primarily; leaf scald is on the leaf blade.",
+        "Sheath blight lesions have a grayish-white center and brown border; leaf scald lesions have a distinct zonate or chevron ('V'-shaped) pattern of alternating light and dark brown bands.",
+        "Sheath blight progresses vertically up the tiller; leaf scald progresses from the leaf tip or margin inward."
+      ]
+    },
+    {
+      "condition_name": "blast",
+      "condition_id": "rice.disease_fungal.blast",
+      "key_differences": [
+        "Sheath blight lesions are large and banded on the sheath; leaf blast lesions are smaller, diamond-shaped with gray centers, and primarily on the leaf blade.",
+        "Sheath blight infection moves up from the waterline; blast can infect leaves, nodes (node blast), and the panicle base (neck blast), with neck blast being particularly distinct and damaging.",
+        "The 'snakeskin' pattern of coalesced sheath blight lesions is not present in blast."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Use optimal plant spacing to improve air circulation and reduce humidity within the canopy.",
+      "Avoid excessive nitrogen fertilizer, which promotes lush, susceptible growth.",
+      "Plow under or remove infected crop residue after harvest to reduce sclerotia in the soil.",
+      "Plant less susceptible or resistant rice varieties."
+    ],
+    "biological": [
+      "Application of soil or foliar biocontrol agents like *Trichoderma* species or *Pseudomonas fluorescens* can suppress the pathogen."
+    ],
+    "chemical": [
+      "Apply fungicides from the strobilurin (e.g., azoxystrobin) or triazole (e.g., propiconazole) classes.",
+      "Timing is critical; applications are most effective between late booting and early heading stages."
+    ],
+    "notes": "An integrated pest management (IPM) approach combining resistant cultivars, cultural practices, and judicious fungicide use is the most effective and sustainable strategy."
+  }
+}

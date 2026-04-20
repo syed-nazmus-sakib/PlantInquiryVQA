@@ -1,0 +1,142 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "rice.disease_fungal.narrow_brown_leaf_spot",
+  "aliases": [
+    "Cercospora leaf spot",
+    "Narrow brown spot"
+  ],
+  "crop": {
+    "common_name": "rice",
+    "scientific_name": "Oryza sativa",
+    "family": "Poaceae"
+  },
+  "condition": {
+    "common_name": "narrow brown leaf spot",
+    "scientific_name": "Cercospora janseana",
+    "alt_names": [
+      "Cercospora leaf spot"
+    ],
+    "pathogen": {
+      "type": "disease_fungal",
+      "taxonomy": {
+        "kingdom": "Fungi",
+        "phylum": "Ascomycota",
+        "class": "Dothideomycetes",
+        "order": "Capnodiales",
+        "family": "Mycosphaerellaceae",
+        "genus": "Cercospora",
+        "species": "janseana"
+      }
+    }
+  },
+  "issue_type": "disease_fungal",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [
+      "wind-borne conidia",
+      "rain splash",
+      "infected seeds"
+    ],
+    "overwintering": [
+      "infected crop debris (stubble, straw)",
+      "infected seeds",
+      "weedy hosts"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "high humidity",
+      "potassium deficiency",
+      "high nitrogen fertilization",
+      "susceptible cultivars",
+      "late-planted crops"
+    ],
+    "temp_c_day": [
+      25,
+      30
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      85,
+      100
+    ],
+    "leaf_wetness_hours_threshold": 10
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "< 5% of flag leaf area affected, lesions are discrete.",
+    "moderate": "5-25% of flag leaf area affected, some lesions may begin to coalesce.",
+    "severe": "> 25% of flag leaf area affected, significant lesion coalescence causing premature leaf browning and senescence.",
+    "notes": "Severity is best assessed on the upper leaves (especially the flag leaf) during the grain-filling stage, as this has the most significant impact on yield."
+  },
+  "symptoms": {
+    "leaves": [
+      "Short, linear, reddish-brown to dark brown lesions.",
+      "Lesions are typically narrow, about 1-2 mm wide and 2-10 mm long.",
+      "Lesions are oriented parallel to the leaf veins, appearing as fine streaks.",
+      "Symptoms are more prominent on mature, older leaves but can occur on flag leaves late in the season.",
+      "In severe infections, lesions can merge (coalesce), leading to widespread browning and death of the leaf.",
+      "Lesions generally lack a distinct yellow halo, distinguishing them from brown spot.",
+      "The color of the lesions is relatively uniform, without a gray center."
+    ],
+    "stems": [
+      "Lesions can appear on the leaf sheaths, similar in appearance to those on the leaf blades."
+    ],
+    "fruit": [
+      "Small, brown, necrotic spots can develop on the glumes and panicle branches."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "In highly susceptible varieties, severe infections can cause premature ripening and reduced grain weight and quality."
+    ],
+    "signs_microscopic_or_visible": [
+      "Under very high humidity, a hand lens may reveal sparse, grayish fungal growth (conidiophores and conidia) on the surface of older lesions."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "brown_spot",
+      "condition_id": "rice.disease_fungal.brown_spot",
+      "key_differences": [
+        "Lesion Shape: Brown spot lesions are distinctly oval or circular, not long and linear.",
+        "Lesion Center: Mature brown spot lesions often have a gray or whitish center, which is absent in narrow brown leaf spot.",
+        "Halo: Brown spot lesions are typically surrounded by a prominent yellow halo.",
+        "Size: Brown spot lesions are generally wider than the narrow, streak-like lesions of narrow brown spot."
+      ]
+    },
+    {
+      "condition_name": "blast",
+      "condition_id": "rice.disease_fungal.blast",
+      "key_differences": [
+        "Lesion Shape: Leaf blast lesions are characteristically diamond-shaped or spindle-shaped (wider in the middle, pointed at both ends).",
+        "Lesion Center: Blast lesions have a distinct grayish or whitish center.",
+        "Lesion Border: Blast lesions have a dark brown or reddish-brown border, creating a more defined pattern than the uniform streak of narrow brown spot."
+      ]
+    },
+    {
+      "condition_name": "bacterial_leaf_blight",
+      "condition_id": "rice.disease_bacterial.bacterial_leaf_blight",
+      "key_differences": [
+        "Symptom Progression: Bacterial blight typically starts at the leaf tip or margins and progresses downwards in large, wavy, water-soaked streaks.",
+        "Lesion Appearance: Blight lesions are initially grayish-green and water-soaked, later turning yellow or straw-colored, not discrete brown lines.",
+        "Bacterial Ooze: In the morning, small, milky or yellowish droplets of bacterial ooze may be visible on the surface of blight lesions."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Plant resistant or tolerant rice varieties.",
+      "Ensure balanced soil fertility, particularly adequate potassium (K) levels.",
+      "Remove or plow under infected crop residue to reduce primary inoculum.",
+      "Maintain appropriate plant density to ensure good air circulation."
+    ],
+    "biological": [
+      "No widely adopted commercial biological control agents are currently available for this specific disease."
+    ],
+    "chemical": [
+      "Foliar application of fungicides can be effective, especially during the booting to heading stages.",
+      "Commonly used fungicide classes include strobilurins, triazoles, and dithiocarbamates (e.g., mancozeb)."
+    ],
+    "notes": "Chemical control is usually only economically justified on susceptible varieties under disease-favorable conditions, with applications timed to protect the flag leaf."
+  }
+}

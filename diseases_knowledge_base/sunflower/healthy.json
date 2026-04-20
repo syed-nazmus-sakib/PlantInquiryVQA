@@ -1,0 +1,116 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "sunflower.healthy.healthy",
+  "aliases": [
+    "normal",
+    "asymptomatic",
+    "no disease"
+  ],
+  "crop": {
+    "common_name": "sunflower",
+    "scientific_name": "Helianthus annuus",
+    "family": "Asteraceae"
+  },
+  "condition": {
+    "common_name": "Healthy",
+    "scientific_name": null,
+    "alt_names": [],
+    "pathogen": {
+      "type": "none",
+      "taxonomy": {
+        "kingdom": "",
+        "phylum": "",
+        "class": "",
+        "order": "",
+        "family": "",
+        "genus": "",
+        "species": ""
+      }
+    }
+  },
+  "issue_type": "healthy",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [],
+    "overwintering": []
+  },
+  "environmental_risk": {
+    "risk_factors": [],
+    "temp_c_day": [],
+    "temp_c_night": [],
+    "relative_humidity_pct": [],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "qualitative",
+    "mild": "No visible symptoms of stress or disease.",
+    "moderate": "Not applicable.",
+    "severe": "Not applicable.",
+    "notes": "This is a binary state; the plant is either healthy or it is not. Any deviation from the 'mild' description would be classified under a different condition (e.g., a specific disease or stressor)."
+  },
+  "symptoms": {
+    "leaves": [
+      "Uniformly green color, varying from light to dark green depending on age and variety.",
+      "Turgid, firm, and appropriately expanded for the growth stage.",
+      "Absence of spots, lesions, chlorosis, necrosis, or pustules.",
+      "Surfaces are clean, without any powdery, sooty, or fuzzy growth.",
+      "Leaf margins are intact and show no signs of scorching or irregular patterns."
+    ],
+    "stems": [
+      "Sturdy, erect, and capable of supporting the leaves and head.",
+      "Typically green to light-green and may be covered in coarse hairs (trichomes).",
+      "No cankers, galls, streaks, or discoloration."
+    ],
+    "fruit": [
+      "The developing head (capitulum) is symmetrical and well-formed.",
+      "Bracts surrounding the head are green and show no signs of necrosis or spotting.",
+      "Florets appear vibrant and normal for the specific growth stage (e.g., yellow ray florets, disc florets not discolored)."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Exhibits vigorous growth appropriate for its age and variety.",
+      "Maintains an upright, turgid posture without drooping or wilting."
+    ],
+    "signs_microscopic_or_visible": []
+  },
+  "lookalikes": [
+    {
+      "condition_name": "wilted",
+      "condition_id": "sunflower.abiotic.wilted",
+      "key_differences": [
+        "Healthy leaves are turgid and held upright or outwards; wilted leaves are limp, drooping, and may appear flaccid.",
+        "The neck (peduncle) of a healthy plant is strong and supports the head; in a wilted plant, it may bend or droop significantly.",
+        "Wilting is a systemic response to water stress, affecting the entire plant's posture, whereas a healthy plant is uniformly erect."
+      ]
+    },
+    {
+      "condition_name": "powdery_mildew",
+      "condition_id": "sunflower.fungal.powdery_mildew",
+      "key_differences": [
+        "Healthy leaves have a clean, uniform green surface; powdery mildew presents as distinct white, talc-like patches on leaf surfaces.",
+        "The white mycelial growth of powdery mildew can often be wiped off, revealing the green leaf tissue underneath, which is not a feature of a healthy leaf.",
+        "A healthy plant has no surface growth, whereas powdery mildew is a clear sign (fungal growth) on the plant."
+      ]
+    },
+    {
+      "condition_name": "alternaria_leaf_spot",
+      "condition_id": "sunflower.fungal.alternaria_leaf_spot",
+      "key_differences": [
+        "Healthy leaves are uniformly green and unblemished; Alternaria causes distinct dark brown to black circular spots.",
+        "Spots from Alternaria often have a characteristic 'target-like' or zonate pattern, which is completely absent on healthy leaves.",
+        "Affected leaves may show yellow halos (chlorosis) around the spots, while healthy leaves maintain a consistent green color."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Maintain optimal soil moisture through consistent and appropriate irrigation.",
+      "Ensure adequate plant spacing to promote good air circulation and light penetration.",
+      "Provide balanced nutrition based on soil tests to support vigorous growth.",
+      "Practice crop rotation to avoid soil-borne pathogen buildup."
+    ],
+    "biological": [],
+    "chemical": [],
+    "notes": "Management for a healthy plant focuses on preventative care and maintaining optimal growing conditions to minimize stress and prevent disease onset."
+  }
+}

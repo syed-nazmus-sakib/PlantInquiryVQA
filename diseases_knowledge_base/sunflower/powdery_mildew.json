@@ -1,0 +1,129 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "sunflower.disease_fungal.powdery_mildew",
+  "aliases": [
+    "sunflower powdery mildew"
+  ],
+  "crop": {
+    "common_name": "sunflower",
+    "scientific_name": "Helianthus annuus",
+    "family": "Asteraceae"
+  },
+  "condition": {
+    "common_name": "powdery mildew",
+    "scientific_name": "Golovinomyces cichoracearum",
+    "alt_names": [],
+    "pathogen": {
+      "type": "fungus",
+      "taxonomy": {
+        "kingdom": "Fungi",
+        "phylum": "Ascomycota",
+        "class": "Leotiomycetes",
+        "order": "Erysiphales",
+        "family": "Erysiphaceae",
+        "genus": "Golovinomyces",
+        "species": "cichoracearum"
+      }
+    }
+  },
+  "issue_type": "disease_fungal",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [
+      "Wind-dispersed conidia"
+    ],
+    "overwintering": [
+      "Infected plant debris",
+      "On volunteer sunflowers or alternate weed hosts",
+      "As chasmothecia (sexual fruiting bodies) on plant residue"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "High relative humidity (without free water on leaves)",
+      "Moderate temperatures",
+      "Dense plant canopies with poor air circulation",
+      "Shaded conditions",
+      "Excessive nitrogen fertilization"
+    ],
+    "temp_c_day": [
+      20,
+      26
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      70,
+      95
+    ],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "1-10% of the upper leaf surface is covered by sparse, white mycelial colonies.",
+    "moderate": "11-40% of the upper leaf surface is covered; colonies are larger and beginning to coalesce.",
+    "severe": ">40% of the upper leaf surface is covered by a dense mat of white mycelium, often accompanied by underlying leaf chlorosis or necrosis.",
+    "notes": "Severity is typically assessed on the most affected leaves, which are usually in the lower to mid-canopy. The percentage refers to the area of the leaf's upper surface obscured by the white fungal growth."
+  },
+  "symptoms": {
+    "leaves": [
+      "Begins as small, circular, white spots with a talcum-powder-like appearance on upper leaf surfaces.",
+      "Spots expand and merge (coalesce) to form a dense, white-to-light-gray mat of mycelium.",
+      "Symptoms are most prominent on the upper leaf surface, but can appear on the lower surface in severe cases.",
+      "Infection typically starts on older, lower leaves and progresses up the plant.",
+      "Underlying leaf tissue may turn yellow (chlorotic) as the infection progresses.",
+      "In severe cases, infected leaves can become brittle, curl, and senesce prematurely."
+    ],
+    "stems": [
+      "White mycelial growth can occasionally be observed on petioles and upper stems."
+    ],
+    "fruit": [
+      "Infection of the bracts surrounding the flower head can occur, but direct infection of the head or seeds is uncommon."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Overall plant vigor may be reduced, but severe stunting is rare unless infection occurs very early."
+    ],
+    "signs_microscopic_or_visible": [
+      "Visible white, powdery fungal growth (mycelium and conidia) that can be rubbed off the leaf surface.",
+      "Late in the season, tiny black specks (chasmothecia, the sexual fruiting bodies) may be visible embedded in the white mycelial mats."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "downy mildew",
+      "condition_id": "sunflower.disease_fungal.downy_mildew",
+      "key_differences": [
+        "Location: Powdery mildew signs are white and primarily on the *upper* leaf surface; downy mildew signs are grayish-purple and on the *lower* surface.",
+        "Lesion Type: Powdery mildew forms superficial, circular white spots; downy mildew causes pale green/yellow, angular lesions on the upper surface, bounded by veins.",
+        "Texture: Powdery mildew looks like flour; downy mildew has a fuzzy or downy texture.",
+        "Moisture: Powdery mildew is inhibited by free water on leaves; downy mildew requires leaf wetness to sporulate."
+      ]
+    },
+    {
+      "condition_name": "alternaria leaf spot",
+      "condition_id": "sunflower.disease_fungal.alternaria_leaf_spot",
+      "key_differences": [
+        "Color and Type: Alternaria causes dark brown to black necrotic lesions; powdery mildew is a white, superficial fungal growth.",
+        "Pattern: Alternaria lesions often have a characteristic 'target-like' pattern of concentric rings; powdery mildew growth is uniform.",
+        "Effect on Tissue: Alternaria lesions are dead tissue that can create a 'shot-hole' effect; powdery mildew grows on top of living tissue, causing it to yellow later."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Plant resistant or tolerant sunflower hybrids.",
+      "Optimize plant spacing and row orientation to promote air circulation and reduce humidity within the canopy.",
+      "Avoid excessive nitrogen fertilization, which promotes lush, susceptible growth.",
+      "Manage volunteer sunflowers and weed hosts that can harbor the pathogen."
+    ],
+    "biological": [
+      "Applications of bio-fungicides containing *Bacillus subtilis* or neem oil may provide some suppression."
+    ],
+    "chemical": [
+      "Apply foliar fungicides (e.g., strobilurins, DMIs, sulfur-based products) when conditions are favorable or at first sign of disease.",
+      "Ensure thorough spray coverage, especially in the lower canopy where the disease starts.",
+      "Rotate fungicide modes of action to mitigate the risk of developing fungicide resistance."
+    ],
+    "notes": "Fungicide applications are most effective when applied preventatively or early in the disease cycle. Economic benefit is greatest when disease appears before or during flowering on susceptible hybrids."
+  }
+}

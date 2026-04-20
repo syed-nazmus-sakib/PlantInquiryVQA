@@ -1,0 +1,147 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "litchi.disease_fungal.leaf_blight",
+  "aliases": [
+    "litchi anthracnose leaf blight",
+    "pestalotiopsis leaf blight"
+  ],
+  "crop": {
+    "common_name": "litchi",
+    "scientific_name": "Litchi chinensis",
+    "family": "Sapindaceae"
+  },
+  "condition": {
+    "common_name": "leaf blight",
+    "scientific_name": "Colletotrichum gloeosporioides, Pestalotiopsis spp.",
+    "alt_names": [
+      "anthracnose",
+      "leaf spot"
+    ],
+    "pathogen": {
+      "type": "disease_fungal",
+      "taxonomy": {
+        "kingdom": "Fungi",
+        "phylum": "Ascomycota",
+        "class": "Sordariomycetes",
+        "order": "Glomerellales",
+        "family": "Glomerellaceae",
+        "genus": "Colletotrichum",
+        "species": ""
+      }
+    }
+  },
+  "issue_type": "disease_fungal",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [
+      "rain splash",
+      "wind-driven rain",
+      "contaminated pruning tools",
+      "infected nursery stock"
+    ],
+    "overwintering": [
+      "infected plant debris on the ground",
+      "cankers on twigs and branches",
+      "mummified fruit"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "prolonged leaf wetness (>8 hours)",
+      "high relative humidity",
+      "warm temperatures",
+      "dense canopy with poor air circulation",
+      "new, tender leaf flushes"
+    ],
+    "temp_c_day": [
+      24,
+      30
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      85,
+      100
+    ],
+    "leaf_wetness_hours_threshold": 8
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "1-10% of the leaf surface is covered in lesions. Spots are few and mostly discrete.",
+    "moderate": "11-40% of the leaf surface is affected. Multiple lesions are present, some may be coalescing.",
+    "severe": ">40% of the leaf surface is necrotic. Large blighted areas are present, often leading to leaf distortion and defoliation.",
+    "notes": "Severity is estimated based on the percentage of symptomatic leaf area on a representative leaf or branch. It reflects the total area covered by lesions, not just the number of lesions."
+  },
+  "symptoms": {
+    "leaves": [
+      "Begins as small, circular or irregular, water-soaked spots on young leaves.",
+      "Spots enlarge to become tan, light brown, or dark brown necrotic lesions.",
+      "Lesions often develop a distinct, dark brown or purplish-black border.",
+      "A yellow halo may surround the necrotic spot.",
+      "Multiple lesions frequently merge (coalesce) to form large, irregular dead patches, creating a 'blighted' appearance.",
+      "The center of older lesions may become gray or tan and drop out, creating a 'shot-hole' effect.",
+      "Severely infected leaves become twisted, curled, and may fall off prematurely.",
+      "Under humid conditions, tiny pinkish-orange spore masses (acervuli) may be visible in concentric rings within the lesions."
+    ],
+    "stems": [
+      "On young, green twigs, can cause elongated, sunken, dark-colored lesions (cankers).",
+      "Severe infection can lead to twig dieback from the tip downwards."
+    ],
+    "fruit": [
+      "Can infect flowers, causing blossom blight and poor fruit set.",
+      "On fruit, appears as small, dark, sunken spots that can enlarge and lead to rot (anthracnose)."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "In severe cases, the tree shows significant defoliation, reduced vigor, and a sparse canopy."
+    ],
+    "signs_microscopic_or_visible": [
+      "Pinkish to orange gelatinous spore masses (acervuli) emerging from the center of lesions during wet weather."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "burned_leaf",
+      "condition_id": "litchi.abiotic.burned_leaf",
+      "key_differences": [
+        "Burn damage is typically confined to leaf tips and margins, appearing as uniform tan/brown necrosis.",
+        "Leaf blight lesions are distinct spots that can appear anywhere on the leaf blade, not just the edges.",
+        "Burned areas lack the characteristic dark borders, yellow halos, or fungal spore masses seen in blight.",
+        "Burn damage often follows a pattern related to exposure (e.g., sun-facing side of the tree), while blight is driven by moisture."
+      ]
+    },
+    {
+      "condition_name": "senescence_or_dry",
+      "condition_id": "litchi.abiotic.senescence_or_dry",
+      "key_differences": [
+        "Senescence involves uniform yellowing (chlorosis) of the entire leaf, usually starting with older, lower leaves.",
+        "Drought stress causes wilting followed by browning from the tip/margins inward, without discrete spots.",
+        "Leaf blight presents as localized, well-defined necrotic spots or patches, not a gradual, uniform discoloration of the whole leaf."
+      ]
+    },
+    {
+      "condition_name": "red_rust_disease",
+      "condition_id": "litchi.disease_algal.red_rust_disease",
+      "key_differences": [
+        "Red rust spots are distinctly raised, velvety in texture, and orange to reddish-brown in color.",
+        "Leaf blight lesions are sunken or flat, necrotic (tan to black), and not velvety.",
+        "Red rust spots tend to remain as small, discrete circular patches, whereas blight lesions can expand and coalesce into large, irregular shapes."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Prune trees annually to remove dead wood and open the canopy for better air circulation and light penetration.",
+      "Collect and destroy fallen leaves and pruned branches to reduce pathogen inoculum.",
+      "Use drip or micro-sprinkler irrigation instead of overhead sprinklers to keep foliage dry.",
+      "Maintain balanced plant nutrition to promote tree vigor and resistance."
+    ],
+    "biological": [
+      "Applications of products containing *Bacillus subtilis* or *Trichoderma* spp. may help suppress the pathogen as part of an integrated management program."
+    ],
+    "chemical": [
+      "Apply protective fungicides (e.g., copper-based products, mancozeb) prior to periods of high risk (e.g., rainy season, new leaf flush).",
+      "Systemic fungicides may be used for curative action but should be rotated to prevent resistance."
+    ],
+    "notes": "Consult local agricultural extension services for recommended fungicides and optimal application timing for your region."
+  }
+}

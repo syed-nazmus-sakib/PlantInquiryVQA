@@ -1,0 +1,109 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "apple.disease_fungal.cedar_apple_rust",
+  "aliases": [
+    "CAR",
+    "apple rust"
+  ],
+  "crop": {
+    "common_name": "apple",
+    "scientific_name": "Malus domestica",
+    "family": "Rosaceae"
+  },
+  "condition": {
+    "common_name": "cedar apple rust",
+    "scientific_name": "Gymnosporangium juniperi-virginianae",
+    "alt_names": [],
+    "pathogen": {
+      "type": "disease_fungal",
+      "taxonomy": {
+        "kingdom": "Fungi",
+        "phylum": "Basidiomycota",
+        "class": "Pucciniomycetes",
+        "order": "Pucciniales",
+        "family": "Pucciniaceae",
+        "genus": "Gymnosporangium",
+        "species": "juniperi-virginianae"
+      }
+    }
+  },
+  "issue_type": "disease_fungal",
+  "transmission": {
+    "vectors": [
+      "wind"
+    ],
+    "dispersal": [
+      "aeciospores from apple to cedar/juniper",
+      "basidiospores from cedar/juniper to apple"
+    ],
+    "overwintering": [
+      "as mycelium in galls on the alternate host, Eastern red cedar (Juniperus virginiana) and other susceptible junipers"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "proximity to alternate host (Eastern red cedar)",
+      "prolonged spring rain events",
+      "mild temperatures (7-25\u00b0C) during early leaf development"
+    ],
+    "temp_c_day": [
+      7,
+      25
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      85,
+      100
+    ],
+    "leaf_wetness_hours_threshold": 4
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "< 5% of leaf area affected with pale yellow to small orange spots. No aecia visible.",
+    "moderate": "5-25% of leaf area affected. Spots are bright orange-yellow, some with central black dots (spermogonia). Aecia may be developing on the underside.",
+    "severe": "> 25% of leaf area affected. Lesions are large, often coalescing. Prominent aecia (spore tubes) on the underside are common, leading to premature defoliation.",
+    "notes": "This rubric focuses on leaf symptoms, the most common presentation for VQA. Severity can also be judged by the percentage of infected fruit or degree of defoliation."
+  },
+  "symptoms": {
+    "leaves": [
+      "Small, pale yellow spots appear on the upper leaf surface in spring.",
+      "Spots enlarge to 1/4-inch diameter, becoming bright orange-yellow, often with a reddish border.",
+      "Tiny black dots (spermogonia) may form in the center of the orange spots on the upper surface.",
+      "In late summer, distinctive brownish, fringed, tube-like structures (aecia) develop on the leaf underside, directly below the spots.",
+      "Heavily infected leaves may turn yellow and drop prematurely, especially in dry conditions."
+    ],
+    "stems": [
+      "Twig infections are rare but can cause small, slightly swollen cankers on highly susceptible cultivars."
+    ],
+    "fruit": [
+      "Orange-yellow lesions, similar to leaf spots but larger, appear on the fruit, typically near the calyx end.",
+      "Fruit lesions may become raised, corky, and cracked.",
+      "Aecia (spore tubes) can also form on fruit lesions, making the fruit unmarketable."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Severe infections cause defoliation, reducing tree vigor, fruit size, and overall yield."
+    ],
+    "signs_microscopic_or_visible": [
+      "Visible sign: Brownish, fringed, tube-like aecia on the underside of apple leaves and on fruit.",
+      "Visible sign (on alternate host): Brown, kidney-shaped galls on cedar/juniper that produce gelatinous, orange, horn-like structures (telial horns) in wet spring weather."
+    ]
+  },
+  "lookalikes": [],
+  "management": {
+    "cultural": [
+      "Plant rust-resistant apple cultivars.",
+      "Remove nearby alternate hosts (Eastern red cedar, junipers) within a 1-2 mile radius, if feasible.",
+      "Maintain tree vigor through proper pruning, fertilization, and irrigation."
+    ],
+    "biological": [
+      "No widely effective biological control agents are commercially available for cedar apple rust."
+    ],
+    "chemical": [
+      "Apply preventative fungicides from the pink bud stage through early summer.",
+      "Effective fungicide classes include DMIs (FRAC 3) and strobilurins (FRAC 11).",
+      "Fungicide timing is critical and should coincide with periods of rain and basidiospore release from cedar galls."
+    ],
+    "notes": "Integrated management combining resistant cultivars and well-timed fungicide applications is most effective. Eradication of the alternate host is often impractical."
+  }
+}

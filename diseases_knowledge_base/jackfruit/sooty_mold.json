@@ -1,0 +1,145 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "jackfruit.disease_fungal.sooty_mold",
+  "aliases": [
+    "sooty mould",
+    "black mold"
+  ],
+  "crop": {
+    "common_name": "jackfruit",
+    "scientific_name": "Artocarpus heterophyllus",
+    "family": "Moraceae"
+  },
+  "condition": {
+    "common_name": "sooty mold",
+    "scientific_name": "Capnodium spp., Meliola spp., Leptoxyphium spp.",
+    "alt_names": [
+      "honeydew mold",
+      "black sooty mold"
+    ],
+    "pathogen": {
+      "type": "disease_fungal",
+      "taxonomy": {
+        "kingdom": "Fungi",
+        "phylum": "Ascomycota",
+        "class": "Dothideomycetes",
+        "order": "Capnodiales",
+        "family": "Capnodiaceae",
+        "genus": "Capnodium",
+        "species": ""
+      }
+    }
+  },
+  "issue_type": "disease_fungal",
+  "transmission": {
+    "vectors": [
+      "aphids",
+      "mealybugs",
+      "scale insects",
+      "whiteflies"
+    ],
+    "dispersal": [
+      "wind",
+      "rain_splash"
+    ],
+    "overwintering": [
+      "As mycelium on plant surfaces in honeydew deposits"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "Presence of honeydew-producing insects",
+      "High humidity",
+      "Poor air circulation",
+      "Shaded conditions"
+    ],
+    "temp_c_day": [
+      20,
+      30
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      70,
+      95
+    ],
+    "leaf_wetness_hours_threshold": 8
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "1-10% of leaf surface covered with a thin, patchy black coating.",
+    "moderate": "11-40% of leaf surface covered, with some dense patches forming.",
+    "severe": ">40% of leaf surface covered by a thick, continuous black crust, potentially causing leaf yellowing.",
+    "notes": "Severity measures the coverage of the superficial fungal growth, which is non-parasitic and grows on insect honeydew. The mold itself can be wiped off."
+  },
+  "symptoms": {
+    "leaves": [
+      "Thin to thick, black, soot-like coating on the upper leaf surface.",
+      "Fungal growth is superficial and can be easily wiped or scraped off the leaf.",
+      "Patches may be small and sparse or coalesce to cover the entire leaf blade.",
+      "Underlying leaf tissue remains green initially but may yellow (chlorosis) if the coating is thick and blocks sunlight.",
+      "A clear, sticky substance (honeydew) is often present on or beneath the mold.",
+      "Ants may be seen farming the honeydew-producing insects."
+    ],
+    "stems": [
+      "Similar black, sooty coating can form on twigs and branches, especially near insect colonies."
+    ],
+    "fruit": [
+      "Superficial black, sooty patches on the fruit rind.",
+      "The mold is a cosmetic blemish and does not cause the fruit to rot."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Reduced plant vigor and stunted growth in severe cases due to impaired photosynthesis.",
+      "Visible infestation of sucking insects like mealybugs, aphids, or scale."
+    ],
+    "signs_microscopic_or_visible": [
+      "Black, thread-like fungal strands (mycelia) visible on plant surfaces.",
+      "Presence of honeydew-producing insects."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "anthracnose",
+      "condition_id": "jackfruit.disease_fungal.anthracnose",
+      "key_differences": [
+        "Sooty mold is a superficial coating that can be wiped off; anthracnose lesions are sunken, necrotic tissue that cannot be wiped off.",
+        "Anthracnose causes distinct dark brown to black spots *within* the leaf tissue, not on top of it.",
+        "Anthracnose lesions often have a defined border and may show concentric rings, unlike the irregular spread of sooty mold."
+      ]
+    },
+    {
+      "condition_name": "algal leaf spot",
+      "condition_id": "jackfruit.disease_algal.algal_leaf_spot",
+      "key_differences": [
+        "Algal spots are typically raised, velvety, and grayish-green or orange-brown, not black and powdery like sooty mold.",
+        "Algal spots are tightly attached to the leaf tissue and cannot be easily scraped off.",
+        "Sooty mold is associated with sticky honeydew from insects, while algal spot is not."
+      ]
+    },
+    {
+      "condition_name": "phyllosticta",
+      "condition_id": "jackfruit.disease_fungal.phyllosticta",
+      "key_differences": [
+        "Phyllosticta causes distinct lesions with tan or gray centers and dark borders within the leaf, whereas sooty mold is a uniform black layer on the leaf surface.",
+        "Sooty mold can be wiped away, revealing healthy tissue underneath; Phyllosticta is a necrotic spot that is part of the leaf.",
+        "Phyllosticta lesions may contain tiny black fruiting bodies (pycnidia) visible as specks, which are absent in sooty mold."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Control populations of honeydew-producing insects (mealybugs, aphids, scale) as this is the primary cause.",
+      "Prune affected branches to improve air circulation and sunlight penetration.",
+      "Wash off mold and honeydew from leaves with a strong spray of water and mild soap.",
+      "Avoid excessive nitrogen fertilization which can lead to lush growth favored by sucking insects."
+    ],
+    "biological": [
+      "Introduce or encourage natural predators of sucking insects, such as lady beetles, lacewings, and parasitic wasps."
+    ],
+    "chemical": [
+      "Apply horticultural oils or insecticidal soaps to control the insect populations.",
+      "Fungicides are generally not recommended or effective as the fungus is non-parasitic and grows on the honeydew, not the plant tissue."
+    ],
+    "notes": "Management must focus on controlling the insect pest that is producing the honeydew. Once the insects are gone, the sooty mold will weather away."
+  }
+}

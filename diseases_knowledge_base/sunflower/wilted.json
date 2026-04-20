@@ -1,0 +1,120 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "sunflower.physiological_symptom.wilted",
+  "aliases": [
+    "drought stress",
+    "water stress",
+    "drooping",
+    "heat stress"
+  ],
+  "crop": {
+    "common_name": "sunflower",
+    "scientific_name": "Helianthus annuus",
+    "family": "Asteraceae"
+  },
+  "condition": {
+    "common_name": "wilted",
+    "scientific_name": "",
+    "alt_names": [
+      "drought stress",
+      "water stress"
+    ],
+    "pathogen": {
+      "type": "abiotic",
+      "taxonomy": {
+        "kingdom": "",
+        "phylum": "",
+        "class": "",
+        "order": "",
+        "family": "",
+        "genus": "",
+        "species": ""
+      }
+    }
+  },
+  "issue_type": "physiological_symptom",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [],
+    "overwintering": []
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "Low soil moisture",
+      "High ambient temperatures",
+      "High winds increasing transpiration",
+      "Low relative humidity",
+      "Soil compaction limiting root growth"
+    ],
+    "temp_c_day": [
+      28,
+      40
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      10,
+      50
+    ],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "qualitative",
+    "mild": "Slight drooping of upper leaves and petioles, typically during the hottest part of the day. Plant fully recovers turgor overnight.",
+    "moderate": "Most leaves on the plant are visibly drooping. The flower head (peduncle) may begin to bend downwards. Plant may not fully recover overnight.",
+    "severe": "All leaves are limp and hanging vertically. The stem is bent, and the flower head hangs down completely. Lower leaves may be yellow or brown (senesced). Permanent damage is likely.",
+    "notes": "Severity is assessed based on the degree of turgor loss across the entire plant, including leaves, petioles, and the upper stem/peduncle. A value of 0 for leaf wetness threshold indicates it is not a risk factor for this abiotic condition."
+  },
+  "symptoms": {
+    "leaves": [
+      "Leaves lose rigidity and hang limply from the petiole.",
+      "Leaf blades appear flaccid and may curl inwards at the margins.",
+      "Petioles droop, causing leaves to hang down close to the main stem.",
+      "In prolonged stress, lower leaves turn yellow, then brown and dry, starting from the margins."
+    ],
+    "stems": [
+      "The upper portion of the stem, particularly the peduncle supporting the flower head, bends or hooks downwards.",
+      "In severe cases, the entire main stem may lose rigidity and bend."
+    ],
+    "fruit": [
+      "The flower head faces downwards or hangs limply, a condition known as 'nodding'."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "The entire plant has a drooping, deflated appearance.",
+      "Growth is stunted if water stress is chronic during vegetative stages."
+    ],
+    "signs_microscopic_or_visible": []
+  },
+  "lookalikes": [
+    {
+      "condition_name": "growth_stage_maturebud",
+      "condition_id": "sunflower.growth_stage.maturebud",
+      "key_differences": [
+        "Natural drooping involves only the heavy flower head bending downwards; leaves remain turgid and angled correctly.",
+        "In wilting, both the leaves and the flower head droop due to water loss.",
+        "Natural drooping is a permanent change due to weight, whereas wilting can be reversed with watering if not severe."
+      ]
+    },
+    {
+      "condition_name": "downy_mildew",
+      "condition_id": "sunflower.fungal_disease.downy_mildew",
+      "key_differences": [
+        "Downy mildew causes distinct yellow (chlorotic) spots on the upper leaf surface, often angular and vein-limited.",
+        "A white, fuzzy fungal growth is often visible on the underside of leaves with downy mildew, which is absent in wilting.",
+        "Wilting from downy mildew is a systemic symptom often accompanied by severe stunting, not just a temporary loss of turgor."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Provide consistent and adequate irrigation, especially during bud formation and flowering.",
+      "Improve soil structure and water-holding capacity by incorporating organic matter.",
+      "Use mulch to reduce soil moisture evaporation.",
+      "Control weeds to minimize competition for water resources.",
+      "Select drought-tolerant sunflower varieties where appropriate."
+    ],
+    "biological": [],
+    "chemical": [],
+    "notes": "Management is entirely preventative and focuses on ensuring adequate water availability to the plant's root system."
+  }
+}

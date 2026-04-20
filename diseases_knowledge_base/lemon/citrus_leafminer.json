@@ -1,0 +1,142 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "lemon.pest_insect.citrus_leafminer",
+  "aliases": [
+    "CLM",
+    "lemon leafminer"
+  ],
+  "crop": {
+    "common_name": "lemon",
+    "scientific_name": "Citrus limon",
+    "family": "Rutaceae"
+  },
+  "condition": {
+    "common_name": "citrus leafminer",
+    "scientific_name": "Phyllocnistis citrella",
+    "alt_names": [
+      "CLM"
+    ],
+    "pathogen": {
+      "type": "insect",
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Arthropoda",
+        "class": "Insecta",
+        "order": "Lepidoptera",
+        "family": "Gracillariidae",
+        "genus": "Phyllocnistis",
+        "species": "citrella"
+      }
+    }
+  },
+  "issue_type": "pest_insect",
+  "transmission": {
+    "vectors": [
+      "Adult moths (oviposition)"
+    ],
+    "dispersal": [
+      "Adult moth flight",
+      "Wind",
+      "Movement of infested plant material"
+    ],
+    "overwintering": [
+      "Pupae in curled leaves or on bark"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "Presence of new, tender leaf flushes",
+      "Warm, humid conditions",
+      "Lack of natural enemies"
+    ],
+    "temp_c_day": [
+      20,
+      32
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      60,
+      90
+    ],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "qualitative",
+    "mild": "Fewer than 25% of new flush leaves show mining trails; minimal leaf curling.",
+    "moderate": "25-75% of new flush leaves show mining trails; noticeable leaf curling and distortion is present.",
+    "severe": "Over 75% of new flush leaves are mined, with significant leaf curling, distortion, and stunting of new growth.",
+    "notes": "Severity is assessed on new, tender growth (leaf flushes), as citrus leafminers primarily attack young leaves. The percentage refers to the proportion of newly emerged leaves that are affected."
+  },
+  "symptoms": {
+    "leaves": [
+      "Presence of serpentine or meandering, silvery or whitish trails (mines) on the leaf surface.",
+      "A dark, thin line of frass (excrement) is visible running down the center of the mine.",
+      "Affected leaves become curled, twisted, or distorted, especially at the margins.",
+      "Mines are most common on the underside of young, tender leaves but can appear on the top surface.",
+      "At the end of a mature mine, the leaf edge may be curled over to protect the pupal chamber.",
+      "Older, hardened leaves are not attacked.",
+      "Severe infestations cause new growth to appear stunted and crinkled.",
+      "Mined areas may turn brown and necrotic over time."
+    ],
+    "stems": [
+      "Mines may occasionally extend onto young, green, and tender stems."
+    ],
+    "fruit": [
+      "Mines can appear on the rind of young fruit, causing silvery, scarred patterns, though this is less common than on leaves."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Stunted growth of new flushes in young trees under heavy infestation."
+    ],
+    "signs_microscopic_or_visible": [
+      "Tiny, translucent larvae may be visible inside the mine if held up to the light.",
+      "Small, white adult moths (approx. 4mm) with fringed wings may be seen at dusk or dawn near new growth."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "leaf_curl",
+      "condition_id": "lemon.disease.leaf_curl",
+      "key_differences": [
+        "Leaf curl causes uniform puckering or downward curling of the entire leaf blade, without any silvery mines.",
+        "Citrus leafminer damage is characterized by distinct, winding trails inside the leaf tissue.",
+        "Leaf curl is often caused by aphids (which may be visible) or specific diseases, not an internal larva."
+      ]
+    },
+    {
+      "condition_name": "bacterial_canker",
+      "condition_id": "lemon.disease.bacterial_canker",
+      "key_differences": [
+        "Bacterial canker produces raised, corky, tan-to-brown lesions, often with a water-soaked or yellow halo.",
+        "Citrus leafminer creates internal, serpentine mines that are silvery and not raised.",
+        "Canker lesions can appear on older leaves, stems, and fruit, while leafminer strongly prefers new leaf flushes."
+      ]
+    },
+    {
+      "condition_name": "nutritional_deficiency",
+      "condition_id": "lemon.nutritional_deficiency.generic",
+      "key_differences": [
+        "Nutritional deficiencies cause symmetrical chlorotic patterns, often related to leaf venation (e.g., 'inverted V' for magnesium deficiency).",
+        "Citrus leafminer damage is a highly asymmetrical, wandering trail with no relation to leaf veins.",
+        "Deficiency patterns affect multiple leaves of a similar age in a consistent way, whereas mines are randomly placed on individual leaves."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Avoid excessive pruning during peak moth activity to limit the production of vulnerable new flushes.",
+      "Do not apply high-nitrogen fertilizers that stimulate excessive, tender growth.",
+      "Encourage natural predators by avoiding broad-spectrum insecticides."
+    ],
+    "biological": [
+      "Conservation of parasitic wasps (e.g., Ageniaspis citricola) that attack leafminer larvae.",
+      "Introduction of generalist predators like lacewings and predatory beetles."
+    ],
+    "chemical": [
+      "Application of horticultural oils or neem oil can deter egg-laying by adult moths.",
+      "Use of systemic insecticides (e.g., imidacloprid) as a soil drench for young, non-bearing trees.",
+      "Foliar sprays with targeted insecticides (e.g., spinosad, abamectin) during new flush periods."
+    ],
+    "notes": "Management in mature, established trees is often unnecessary as the damage is primarily cosmetic. Control efforts should be focused on young, newly planted trees where heavy infestations can stunt growth and shaping."
+  }
+}

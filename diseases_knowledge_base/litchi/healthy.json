@@ -1,0 +1,135 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "litchi.healthy.healthy",
+  "aliases": [
+    "normal",
+    "asymptomatic",
+    "undiseased"
+  ],
+  "crop": {
+    "common_name": "litchi",
+    "scientific_name": "Litchi chinensis",
+    "family": "Sapindaceae"
+  },
+  "condition": {
+    "common_name": "Healthy",
+    "scientific_name": null,
+    "alt_names": [
+      "Normal Growth"
+    ],
+    "pathogen": {
+      "type": "none",
+      "taxonomy": {
+        "kingdom": "",
+        "phylum": "",
+        "class": "",
+        "order": "",
+        "family": "",
+        "genus": "",
+        "species": ""
+      }
+    }
+  },
+  "issue_type": "healthy",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [],
+    "overwintering": []
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "Optimal temperature and humidity",
+      "Adequate sunlight and soil moisture",
+      "Balanced soil nutrition",
+      "Good air circulation"
+    ],
+    "temp_c_day": [
+      20,
+      33
+    ],
+    "temp_c_night": [
+      15,
+      25
+    ],
+    "relative_humidity_pct": [
+      60,
+      85
+    ],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "< 1% of leaf area shows any form of blemish or discoloration.",
+    "moderate": "1-5% of leaf area shows minor, non-pathogenic blemishes (e.g., minor physical scuffing).",
+    "severe": "> 5% of leaf area shows blemishes, indicating a likely transition to a diseased or disordered state.",
+    "notes": "This rubric quantifies the 'healthy' state by measuring the absence of symptoms. A 'severe' rating under this rubric means the plant should be re-classified under a specific disease or disorder."
+  },
+  "symptoms": {
+    "leaves": [
+      "Mature leaves are uniformly dark green with a glossy upper surface.",
+      "New flush leaves are reddish-bronze or light green, and are tender.",
+      "Leaves are turgid, firm, and well-formed with smooth margins.",
+      "Leaf shape is typically lanceolate to elliptical.",
+      "No spots, lesions, mosaics, pustules, or necrosis are visible.",
+      "No signs of yellowing (chlorosis) or browning.",
+      "No visible insect colonies, webbing, or frass."
+    ],
+    "stems": [
+      "Stems and branches are woody, with greyish-brown bark.",
+      "No cankers, galls, cracks, or unusual swellings.",
+      "No signs of dieback on young or old shoots."
+    ],
+    "fruit": [
+      "Fruit, when present, has a uniformly red, pink, or yellow-green skin (depending on cultivar and maturity).",
+      "Fruit skin is intact, bumpy (tuberculate), and free from cracks, spots, or rot.",
+      "Fruit is firm and well-sized for the cultivar."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Exhibits vigorous growth with a dense, well-developed canopy.",
+      "Shows normal flowering and fruit set in season."
+    ],
+    "signs_microscopic_or_visible": []
+  },
+  "lookalikes": [
+    {
+      "condition_name": "senescence_or_dry",
+      "condition_id": "litchi.abiotic.senescence_or_dry",
+      "key_differences": [
+        "Healthy leaves are uniformly green and turgid, while senescent leaves are uniformly yellow or brown.",
+        "Senescent leaves are often dry, brittle, and may curl, whereas healthy leaves are flexible and firm.",
+        "Senescence typically affects the oldest leaves first, while healthy leaves are present across the plant's age gradient."
+      ]
+    },
+    {
+      "condition_name": "burned_leaf",
+      "condition_id": "litchi.abiotic.burned_leaf",
+      "key_differences": [
+        "Healthy leaves have even coloration, while burned leaves have distinct, irregularly shaped brown or black necrotic patches.",
+        "Burn damage is often concentrated on leaf margins, tips, or areas most exposed to the sun.",
+        "The transition from healthy to necrotic tissue on a burned leaf is often sharp and clearly defined."
+      ]
+    },
+    {
+      "condition_name": "yellow_mosaic_virus",
+      "condition_id": "litchi.virus.yellow_mosaic_virus",
+      "key_differences": [
+        "Healthy leaves are a solid, uniform green.",
+        "Virus-infected leaves show a distinct pattern of yellow and green patches (mosaic, mottle, or blotches).",
+        "The yellow patterns on infected leaves often contrast sharply with the green tissue and may be associated with veins.",
+        "Infected leaves may also be stunted or deformed, which is not seen in healthy leaves."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Provide balanced fertilization based on soil tests.",
+      "Ensure proper irrigation to avoid water stress.",
+      "Prune to maintain good air circulation through the canopy.",
+      "Select a planting site with adequate sunlight and well-drained soil."
+    ],
+    "biological": [],
+    "chemical": [],
+    "notes": "Management for a healthy plant focuses on preventative care and maintaining optimal growing conditions to prevent the onset of diseases and disorders."
+  }
+}

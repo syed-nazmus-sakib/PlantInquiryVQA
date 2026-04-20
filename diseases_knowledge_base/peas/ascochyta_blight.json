@@ -1,0 +1,149 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "peas.disease_fungal.ascochyta_blight",
+  "aliases": [
+    "ascochyta blight complex",
+    "mycosphaerella blight",
+    "black spot",
+    "ascochyta foot rot"
+  ],
+  "crop": {
+    "common_name": "peas",
+    "scientific_name": "Pisum sativum",
+    "family": "Fabaceae"
+  },
+  "condition": {
+    "common_name": "ascochyta blight",
+    "scientific_name": "Ascochyta pisi, Mycosphaerella pinodes, Phoma medicaginis var. pinodella",
+    "alt_names": [
+      "Mycosphaerella blight",
+      "Ascochyta foot rot"
+    ],
+    "pathogen": {
+      "type": "disease_fungal",
+      "taxonomy": {
+        "kingdom": "Fungi",
+        "phylum": "Ascomycota",
+        "class": "Dothideomycetes",
+        "order": "Pleosporales",
+        "family": "Didymellaceae",
+        "genus": "Ascochyta",
+        "species": ""
+      }
+    }
+  },
+  "issue_type": "disease_fungal",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [
+      "rain_splash",
+      "wind_driven_rain",
+      "infected_seed",
+      "contaminated_equipment"
+    ],
+    "overwintering": [
+      "infected_crop_debris",
+      "infected_seed",
+      "volunteer_pea_plants"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "cool_to_moderate_temperatures",
+      "high_humidity",
+      "prolonged_leaf_wetness",
+      "dense_canopy",
+      "planting_infected_seed"
+    ],
+    "temp_c_day": [
+      15,
+      25
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      85,
+      100
+    ],
+    "leaf_wetness_hours_threshold": 4
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "1-10% of leaf, stem, or pod area affected. Lesions are few and scattered.",
+    "moderate": "11-40% of area affected. Lesions are numerous, some may be coalescing. Minor stem girdling or pod distortion is visible.",
+    "severe": ">40% of area affected. Widespread lesion coalescence, significant stem girdling ('foot rot'), severe defoliation, and extensive pod spotting leading to seed infection.",
+    "notes": "Severity is assessed as the percentage of total photosynthetic or marketable (pod) area covered by lesions. The presence of foot rot (lesions at the stem base) is a key indicator of severe disease, as it can kill the plant."
+  },
+  "symptoms": {
+    "leaves": [
+      "Small, circular, tan to purplish-brown spots, often 1-10 mm in diameter.",
+      "Lesions frequently have a distinct, darker brown or purplish border.",
+      "Tiny, black specks (pycnidia) are visible within the center of older, tan-colored lesions.",
+      "Lesions may merge (coalesce), causing large blighted areas and leaf death."
+    ],
+    "stems": [
+      "Elongated, sunken, purplish-black lesions, especially near the soil line, causing 'foot rot'.",
+      "Stem lesions can girdle the plant, causing it to wilt, lodge (fall over), or die.",
+      "Pycnidia may be present in stem lesions."
+    ],
+    "fruit": [
+      "Circular, sunken, tan-to-dark-brown lesions appear on pods.",
+      "Pod lesions often have a well-defined dark margin.",
+      "Severe pod infection causes the fungus to grow through to the seeds, resulting in discoloration and shriveling."
+    ],
+    "roots": [
+      "Dark brown to black discoloration on the upper taproot, extending from the stem base foot rot."
+    ],
+    "whole_plant": [
+      "Stunted growth and premature yellowing (senescence), particularly when foot rot is severe."
+    ],
+    "signs_microscopic_or_visible": [
+      "Presence of small, black, flask-shaped fruiting bodies (pycnidia) embedded in the center of necrotic lesions."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "downy mildew",
+      "condition_id": "peas.disease_oomycete.downy_mildew",
+      "key_differences": [
+        "Downy mildew produces fluffy, grey-to-purplish mold on the underside of leaves; ascochyta blight does not.",
+        "Downy mildew lesions are often angular and limited by veins, appearing yellowish on the upper leaf surface, while ascochyta lesions are circular with distinct borders.",
+        "Ascochyta blight features tiny black pycnidia in lesion centers, which are absent in downy mildew."
+      ]
+    },
+    {
+      "condition_name": "anthracnose",
+      "condition_id": "peas.disease_fungal.anthracnose",
+      "key_differences": [
+        "Anthracnose lesions are typically darker (dark brown to black) and more sunken than the tan-centered ascochyta lesions.",
+        "In wet conditions, anthracnose lesions may show acervuli that ooze pinkish spore masses, whereas ascochyta lesions have embedded black pycnidia.",
+        "Ascochyta blight is more commonly associated with a distinct 'foot rot' at the stem base."
+      ]
+    },
+    {
+      "condition_name": "botrytis blight",
+      "condition_id": "peas.disease_fungal.botrytis_blight",
+      "key_differences": [
+        "Botrytis blight is characterized by a fuzzy, gray-to-brown mold growth (mycelium) on affected tissues, which is absent in ascochyta blight.",
+        "Botrytis lesions are often watery and soft, causing a rapid rot, while ascochyta lesions are more dry, defined, and 'papery' in the center.",
+        "Ascochyta has embedded black pycnidia; botrytis has superficial fuzzy mold and may form hard, black sclerotia in advanced stages."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Use certified, disease-free seed.",
+      "Implement crop rotation with non-host crops (e.g., cereals) for at least 3 years.",
+      "Bury or remove infected crop debris after harvest to reduce inoculum.",
+      "Select resistant or tolerant pea varieties when available.",
+      "Promote air circulation through appropriate plant spacing and weed control."
+    ],
+    "biological": [
+      "Some microbial seed treatments have shown suppressive activity against seed-borne pathogens."
+    ],
+    "chemical": [
+      "Treat seed with a registered fungicide to control seed-borne inoculum.",
+      "Apply registered foliar fungicides at the first sign of disease or preventatively if conditions are favorable, especially during flowering."
+    ],
+    "notes": "An integrated pest management (IPM) approach is crucial. Scouting for early symptoms, especially during cool and wet weather, allows for timely intervention."
+  }
+}

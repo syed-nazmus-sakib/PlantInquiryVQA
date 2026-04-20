@@ -1,0 +1,123 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "peas.healthy.healthy",
+  "aliases": [
+    "normal peas",
+    "no disease"
+  ],
+  "crop": {
+    "common_name": "Peas",
+    "scientific_name": "Pisum sativum",
+    "family": "Fabaceae"
+  },
+  "condition": {
+    "common_name": "Healthy",
+    "scientific_name": null,
+    "alt_names": [
+      "Normal",
+      "Asymptomatic"
+    ],
+    "pathogen": {
+      "type": "none",
+      "taxonomy": {
+        "kingdom": "",
+        "phylum": "",
+        "class": "",
+        "order": "",
+        "family": "",
+        "genus": "",
+        "species": ""
+      }
+    }
+  },
+  "issue_type": "healthy",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [],
+    "overwintering": []
+  },
+  "environmental_risk": {
+    "risk_factors": [],
+    "temp_c_day": [],
+    "temp_c_night": [],
+    "relative_humidity_pct": [],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "qualitative",
+    "mild": "No visible signs of disease, stress, or nutrient deficiency. Plant is vigorous and appropriately developed for its growth stage.",
+    "moderate": "Not applicable for healthy condition.",
+    "severe": "Not applicable for healthy condition.",
+    "notes": "This rubric confirms the absence of symptoms. Any deviation from the 'mild' description indicates a potential issue that is not 'healthy'."
+  },
+  "symptoms": {
+    "leaves": [
+      "Uniformly green color, appropriate for the variety (may range from light to dark green).",
+      "Leaves are turgid, fully expanded, and show no signs of wilting, curling, or distortion.",
+      "Leaf surfaces are smooth and free of spots, lesions, pustules, or powdery growth.",
+      "No yellowing (chlorosis) or browning (necrosis) is present.",
+      "Tendrils are green and flexible."
+    ],
+    "stems": [
+      "Stems are firm, upright, or climbing as expected for the variety.",
+      "Stem color is a uniform green, without any streaks, cankers, or dark lesions.",
+      "Stem base is firm and not discolored or water-soaked."
+    ],
+    "fruit": [
+      "Pods are well-formed, plump, and have a uniform green color.",
+      "Pod surfaces are smooth and free of spots, sunken lesions, or insect holes.",
+      "Seeds inside the pod are developing normally."
+    ],
+    "roots": [
+      "Root system is well-developed, with a white or light-tan color.",
+      "No signs of rot, discoloration, or galls.",
+      "Nitrogen-fixing nodules (if present) are typically pinkish-white inside."
+    ],
+    "whole_plant": [
+      "Vigorous growth appropriate for the age and variety.",
+      "Plant is upright and not stunted or wilted."
+    ],
+    "signs_microscopic_or_visible": []
+  },
+  "lookalikes": [
+    {
+      "condition_name": "powdery_mildew",
+      "condition_id": "peas.fungal.powdery_mildew",
+      "key_differences": [
+        "Healthy leaves have a clean, uniform green surface, whereas early powdery mildew shows small, white, talc-like spots.",
+        "Healthy stems are smooth and green, unlike stems with powdery mildew which can become covered in a white fungal mat.",
+        "A healthy plant has no powdery growth on any surface."
+      ]
+    },
+    {
+      "condition_name": "fusarium_wilt",
+      "condition_id": "peas.fungal.fusarium_wilt",
+      "key_differences": [
+        "Healthy plants maintain green foliage, while fusarium wilt causes distinct yellowing (chlorosis) that typically starts on the lower leaves and progresses upward.",
+        "Healthy plants are turgid and upright, whereas fusarium wilt causes wilting, often on one side of the plant first.",
+        "The internal vascular tissue of a healthy stem base is white/green; in fusarium wilt, it is often reddish-brown or discolored."
+      ]
+    },
+    {
+      "condition_name": "ascochyta_blight",
+      "condition_id": "peas.fungal.ascochyta_blight",
+      "key_differences": [
+        "Healthy leaves, stems, and pods are unblemished. Ascochyta blight appears as small, circular, purplish-black to tan spots, often with a darker border.",
+        "Healthy stems are uniformly green and firm, while this disease can cause dark, sunken lesions (cankers) at the stem base, leading to lodging.",
+        "Healthy pods are smooth and green; infected pods develop sunken, circular lesions that can affect seed quality."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Use certified disease-free seed.",
+      "Practice crop rotation with non-host crops (e.g., cereals) for 3-4 years.",
+      "Ensure good soil drainage and avoid over-irrigation.",
+      "Maintain adequate plant spacing to promote air circulation.",
+      "Remove and destroy crop debris after harvest."
+    ],
+    "biological": [],
+    "chemical": [],
+    "notes": "Management for a 'healthy' state focuses on preventative measures to maintain plant health and avoid disease onset."
+  }
+}

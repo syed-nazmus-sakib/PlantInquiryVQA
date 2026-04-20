@@ -1,0 +1,150 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "cauliflower.disease_fungal.black_rot",
+  "aliases": [
+    "Xanthomonas leaf blight",
+    "bacterial blight"
+  ],
+  "crop": {
+    "common_name": "cauliflower",
+    "scientific_name": "Brassica oleracea var. botrytis",
+    "family": "Brassicaceae"
+  },
+  "condition": {
+    "common_name": "black rot",
+    "scientific_name": "Xanthomonas campestris pv. campestris",
+    "alt_names": [],
+    "pathogen": {
+      "type": "disease_bacterial",
+      "taxonomy": {
+        "kingdom": "Bacteria",
+        "phylum": "Pseudomonadota",
+        "class": "Gammaproteobacteria",
+        "order": "Lysobacterales",
+        "family": "Lysobacteraceae",
+        "genus": "Xanthomonas",
+        "species": "X. campestris"
+      }
+    }
+  },
+  "issue_type": "disease_fungal",
+  "transmission": {
+    "vectors": [
+      "splashing water",
+      "wind-driven rain",
+      "insects (minor)"
+    ],
+    "dispersal": [
+      "infected seed",
+      "infected transplants",
+      "contaminated farm equipment",
+      "water splash from rain or irrigation"
+    ],
+    "overwintering": [
+      "infected crop debris in soil",
+      "infected seed",
+      "cruciferous weeds (e.g., wild mustard)"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "high humidity",
+      "warm temperatures",
+      "prolonged leaf wetness",
+      "dense planting",
+      "overhead irrigation"
+    ],
+    "temp_c_day": [
+      25,
+      30
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      80,
+      100
+    ],
+    "leaf_wetness_hours_threshold": 10
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "1-10% of total plant foliage is affected. One or two outer leaves show characteristic V-shaped lesions.",
+    "moderate": "11-40% of foliage is affected. Multiple leaves have lesions, some vein blackening is evident beyond the initial lesion, and minor leaf drop may occur.",
+    "severe": ">40% of foliage is affected. Widespread lesions, extensive vein blackening, significant leaf drop, stunting, and/or symptoms on the curd are present.",
+    "notes": "Severity is assessed on the whole plant. Any visible symptoms (black spots, decay) on the cauliflower head (curd) automatically classifies the infection as severe."
+  },
+  "symptoms": {
+    "leaves": [
+      "Yellow, V-shaped lesions appear at the leaf margin, with the point of the 'V' directed towards the leaf base.",
+      "Lesions enlarge and become tan to brown with a dry, papery texture.",
+      "Veins within the V-shaped lesion turn black, a key diagnostic feature.",
+      "This blackening of veins may extend down the petiole.",
+      "Infected leaves may wilt, collapse, and drop prematurely.",
+      "Systemic infection can cause one side of a plant to yellow or wilt."
+    ],
+    "stems": [
+      "A cross-section of an infected stem or petiole reveals a black ring in the vascular tissue."
+    ],
+    "fruit": [
+      "The cauliflower head (curd) can develop black spots or a systemic vascular discoloration.",
+      "Secondary soft rot bacteria often invade, leading to a mushy, foul-smelling decay of the head."
+    ],
+    "roots": [
+      "No primary symptoms, but vascular discoloration from the stem can extend into the main root."
+    ],
+    "whole_plant": [
+      "Stunting and uneven growth can occur, especially in young plants infected systemically.",
+      "Severe infection leads to significant defoliation and unmarketable heads."
+    ],
+    "signs_microscopic_or_visible": [
+      "Under very humid conditions, droplets of bacterial ooze may be visible on the surface of lesions."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "downy mildew",
+      "condition_id": "cauliflower.disease_oomycete.downy_mildew",
+      "key_differences": [
+        "Downy mildew produces a purplish-gray, fuzzy mold on the underside of leaves; black rot does not.",
+        "Downy mildew lesions are angular and yellow, but not typically V-shaped originating from the leaf edge.",
+        "Downy mildew does not cause the characteristic blackening of the veins seen in black rot.",
+        "Downy mildew is favored by cooler, moist conditions, whereas black rot prefers warmer temperatures."
+      ]
+    },
+    {
+      "condition_name": "bacterial spot rot",
+      "condition_id": "cauliflower.disease_bacterial.bacterial_spot_rot",
+      "key_differences": [
+        "Bacterial spot lesions are small, circular, and water-soaked, often with a 'shot-hole' appearance, not large and V-shaped.",
+        "While lesions may darken, bacterial spot does not cause the extensive, systemic blackening of major leaf veins.",
+        "Lesions can appear anywhere on the leaf, not primarily at the margins."
+      ]
+    },
+    {
+      "condition_name": "healthy",
+      "condition_id": "cauliflower.healthy.healthy",
+      "key_differences": [
+        "Healthy leaves are uniformly green to blue-green without any yellow or tan lesions.",
+        "Veins in healthy leaves are green or pale, not black.",
+        "The plant is vigorous with no signs of wilting, stunting, or leaf drop."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Use certified, disease-free seed and transplants.",
+      "Practice a crop rotation of at least 3 years, avoiding all cruciferous crops.",
+      "Control cruciferous weeds in and around the field.",
+      "Promote good air circulation through proper plant spacing.",
+      "Avoid overhead irrigation to minimize leaf wetness and water splashing.",
+      "Incorporate crop residue promptly after harvest to speed up decomposition."
+    ],
+    "biological": [
+      "Some beneficial microbes have shown suppressive activity, but they are not a standalone control method."
+    ],
+    "chemical": [
+      "Preventative applications of copper-based bactericides can help reduce the spread but are not curative.",
+      "Actigard (acibenzolar-S-methyl) can be used to induce the plant's natural defenses before infection occurs."
+    ],
+    "notes": "Management must be preventative. Once infection is established, especially systemically, control is very difficult."
+  }
+}

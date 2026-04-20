@@ -1,0 +1,137 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "litchi.disease_viral.yellow_mosaic_virus",
+  "aliases": [
+    "Litchi yellow mosaic disease",
+    "LYMD"
+  ],
+  "crop": {
+    "common_name": "litchi",
+    "scientific_name": "Litchi chinensis",
+    "family": "Sapindaceae"
+  },
+  "condition": {
+    "common_name": "yellow mosaic virus",
+    "scientific_name": null,
+    "alt_names": [
+      "litchi yellow mosaic"
+    ],
+    "pathogen": {
+      "type": "virus",
+      "taxonomy": {
+        "kingdom": "Orthornavirae",
+        "phylum": "Cressdnaviricota",
+        "class": "Repensiviricetes",
+        "order": "Geplafuvirales",
+        "family": "Geminiviridae",
+        "genus": "Begomovirus",
+        "species": ""
+      }
+    }
+  },
+  "issue_type": "disease_viral",
+  "transmission": {
+    "vectors": [
+      "Whitefly (Bemisia tabaci)"
+    ],
+    "dispersal": [
+      "Infected planting material (grafting)",
+      "Insect vectors"
+    ],
+    "overwintering": [
+      "In perennial host plants",
+      "In surviving adult insect vectors"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "High populations of whitefly vectors",
+      "Warm and humid conditions favoring vector activity",
+      "Proximity to infected alternative host plants",
+      "Use of uncertified, infected scions for grafting"
+    ],
+    "temp_c_day": [
+      25,
+      35
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      60,
+      85
+    ],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "1-10% of leaf area shows yellow mosaic or mottling. Symptoms may be on scattered, individual leaves, often on a single flush.",
+    "moderate": "11-40% of leaf area affected. Mosaic patterns are prominent and widespread across multiple leaves and flushes of growth.",
+    "severe": ">40% of leaf area affected. Widespread, bright yellowing, often accompanied by leaf distortion, curling, and stunting of new shoots.",
+    "notes": "Severity is estimated based on the percentage of the plant's total leaf surface area showing characteristic yellow mosaic, mottling, or chlorotic patterns."
+  },
+  "symptoms": {
+    "leaves": [
+      "Bright yellow, irregular patches or blotches interspersed with normal green tissue, creating a distinct mosaic pattern.",
+      "Diffuse chlorotic mottling across the leaf lamina.",
+      "Symptoms are typically most conspicuous on young, developing leaves and new flushes.",
+      "Vein clearing or vein banding, where tissue along the veins turns yellow, may occur on young leaves.",
+      "In severe infections, leaves may be distorted, puckered, curled, or reduced in size.",
+      "The boundary between yellow and green areas is typically sharp and irregular.",
+      "Affected leaves may feel brittle compared to healthy ones."
+    ],
+    "stems": [
+      "Internodes may be shortened, leading to a bushy or stunted appearance of new growth."
+    ],
+    "fruit": [
+      "Reduced fruit set and smaller fruit size may occur on chronically infected trees."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "General stunting, reduced vigor, and overall decline in plant health in severe cases."
+    ],
+    "signs_microscopic_or_visible": []
+  },
+  "lookalikes": [
+    {
+      "condition_name": "senescence_or_dry",
+      "condition_id": "litchi.abiotic.senescence_or_dry",
+      "key_differences": [
+        "Senescence causes a uniform, gradual yellowing (chlorosis), often starting from the margins or tip, not a patchy mosaic of green and yellow.",
+        "Drought stress typically causes wilting and browning/crisping of leaf edges, which are absent in viral mosaic.",
+        "Mosaic patterns are distinct, irregular patches, while senescence is a more consistent color change across the entire leaf."
+      ]
+    },
+    {
+      "condition_name": "pest_damage",
+      "condition_id": "litchi.pest.pest_damage",
+      "key_differences": [
+        "Pest damage (e.g., from mites) often appears as fine, pinpoint stippling or tiny chlorotic spots, not large, blotchy mosaic patterns.",
+        "The underside of the leaf may reveal the pests themselves, webbing, or sooty mold from honeydew, which are not signs of a virus.",
+        "Pest-induced yellowing may follow feeding tracks or be concentrated in specific areas, unlike the random mosaic distribution."
+      ]
+    },
+    {
+      "condition_name": "red_rust_disease",
+      "condition_id": "litchi.disease_algal.red_rust_disease",
+      "key_differences": [
+        "Red rust presents as raised, velvety, circular spots that are orange to reddish-brown, not flat, yellow areas within the leaf tissue.",
+        "Viral mosaic is a discoloration of the leaf lamina, whereas red rust is a physical algal growth on the leaf surface.",
+        "The color of red rust is distinctly orange/rust, contrasting with the bright yellow or chlorotic color of the virus."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Use certified virus-free planting material from reputable nurseries.",
+      "Rogue and destroy infected plants immediately upon detection to limit spread.",
+      "Maintain good weed control in and around the orchard, as weeds can host the virus and its vectors.",
+      "Avoid mechanical damage to plants, which can create entry points for vectors."
+    ],
+    "biological": [
+      "Conserve and encourage natural enemies of whiteflies, such as lacewings, lady beetles, and parasitic wasps."
+    ],
+    "chemical": [
+      "Apply systemic or contact insecticides recommended for whitefly control, targeting vector populations, especially before and during new growth flushes. Rotate chemical classes to prevent resistance."
+    ],
+    "notes": "The primary management strategy is prevention. Once a plant is infected with a virus, it cannot be cured. All efforts should focus on using clean planting stock and controlling the whitefly vector."
+  }
+}

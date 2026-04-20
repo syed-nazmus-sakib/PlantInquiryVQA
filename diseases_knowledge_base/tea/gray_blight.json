@@ -1,0 +1,144 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "tea.disease_fungal.gray_blight",
+  "aliases": [
+    "Pestalotiopsis leaf spot",
+    "Grey leaf spot",
+    "Grey blight"
+  ],
+  "crop": {
+    "common_name": "tea",
+    "scientific_name": "Camellia sinensis",
+    "family": "Theaceae"
+  },
+  "condition": {
+    "common_name": "gray blight",
+    "scientific_name": "Pestalotiopsis theae",
+    "alt_names": [
+      "Grey leaf blight"
+    ],
+    "pathogen": {
+      "type": "disease_fungal",
+      "taxonomy": {
+        "kingdom": "Fungi",
+        "phylum": "Ascomycota",
+        "class": "Sordariomycetes",
+        "order": "Xylariales",
+        "family": "Amphisphaeriaceae",
+        "genus": "Pestalotiopsis",
+        "species": "theae"
+      }
+    }
+  },
+  "issue_type": "disease_fungal",
+  "transmission": {
+    "vectors": [
+      "rain splash",
+      "wind"
+    ],
+    "dispersal": [
+      "conidia (asexual spores)"
+    ],
+    "overwintering": [
+      "infected leaves",
+      "plant debris on the ground",
+      "cankers on stems"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "high humidity",
+      "prolonged leaf wetness",
+      "mechanical injury (e.g., hail, pruning wounds)",
+      "sun scorch",
+      "nutrient stress"
+    ],
+    "temp_c_day": [
+      20,
+      30
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      85,
+      100
+    ],
+    "leaf_wetness_hours_threshold": 10
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "1-10% of leaf area is affected. Lesions are small, distinct, and mostly on older leaves.",
+    "moderate": "11-30% of leaf area is affected. Lesions are larger and may begin to coalesce.",
+    "severe": ">30% of leaf area is affected. Lesions have merged into large necrotic patches, potentially leading to defoliation.",
+    "notes": "Severity is assessed on the most affected leaves of a plant to represent the peak disease expression. It measures the direct loss of photosynthetic area."
+  },
+  "symptoms": {
+    "leaves": [
+      "Initial spots are small, yellowish-brown, and circular to slightly irregular.",
+      "Mature lesions develop a distinct grayish-white or light brown center.",
+      "A prominent, dark brown to purplish border surrounds the necrotic center.",
+      "Lesions often exhibit concentric rings, giving a 'target' or 'zonate' appearance.",
+      "Tiny, black, pinhead-sized dots (acervuli) are often visible within the gray center.",
+      "The central tissue of the lesion becomes thin and papery.",
+      "Lesions may coalesce to form large, irregular necrotic blotches.",
+      "In some cases, the dead central tissue falls out, creating a 'shot-hole' effect.",
+      "Symptoms are typically more prevalent on older, mature leaves."
+    ],
+    "stems": [
+      "In severe infections on young shoots, small, sunken, dark lesions or cankers can form."
+    ],
+    "fruit": [],
+    "roots": [],
+    "whole_plant": [
+      "Reduced plant vigor and overall poor growth in cases of severe infection.",
+      "Premature defoliation can occur when disease pressure is high."
+    ],
+    "signs_microscopic_or_visible": [
+      "Presence of black, erumpent acervuli (fungal fruiting bodies) in the center of mature lesions, sometimes arranged in concentric rings."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "leaf blight",
+      "condition_id": "tea.disease_fungal.leaf_blight",
+      "key_differences": [
+        "Leaf blight lesions are often larger, more irregular, and start from the leaf tip or margin, whereas gray blight spots are more circular and can appear anywhere.",
+        "Gray blight has a more distinct gray/white center and dark border compared to the more uniform brown necrosis of many leaf blights.",
+        "Concentric rings ('target spots') are a classic feature of gray blight, which is less common in leaf blight."
+      ]
+    },
+    {
+      "condition_name": "algal leaf spot",
+      "condition_id": "tea.disease_other.algal_leaf_spot",
+      "key_differences": [
+        "Algal spots are raised, superficial, and have a velvety texture, typically appearing orange-red or grayish-green.",
+        "Gray blight lesions are sunken (necrotic), not raised, and are integral to the leaf tissue.",
+        "Algal spots do not have the characteristic gray center with a dark border or concentric rings."
+      ]
+    },
+    {
+      "condition_name": "helopeltis_damage",
+      "condition_id": "tea.pest_insect.helopeltis_damage",
+      "key_differences": [
+        "Helopeltis damage (from tea mosquito bug) appears as angular, dark brown to black necrotic spots without a gray center or distinct border.",
+        "Insect damage often causes significant distortion, puckering, or curling of young, tender leaves, which is not a primary symptom of gray blight.",
+        "Helopeltis feeding spots are numerous and clustered, reflecting the insect's probing, while gray blight lesions are typically fewer and more developed."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Prune bushes to improve air circulation and sunlight penetration, which reduces leaf wetness duration.",
+      "Remove and burn or bury infected leaves and pruned debris to reduce inoculum.",
+      "Maintain balanced soil fertility and pH to ensure plant vigor.",
+      "Avoid mechanical damage to plants during field operations."
+    ],
+    "biological": [
+      "Application of bio-control agents like *Trichoderma* spp. can help suppress pathogen growth in the soil and on plant surfaces."
+    ],
+    "chemical": [
+      "Apply protective fungicides (e.g., copper oxychloride, mancozeb) before periods of high risk.",
+      "Use systemic fungicides (e.g., hexaconazole, propiconazole) for curative action, following local regulations and resistance management guidelines."
+    ],
+    "notes": "An integrated pest management (IPM) approach is recommended, combining cultural practices with judicious, need-based fungicide applications timed with weather forecasts."
+  }
+}

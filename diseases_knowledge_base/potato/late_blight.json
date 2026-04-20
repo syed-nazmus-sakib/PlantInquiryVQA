@@ -1,0 +1,138 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "potato.disease_fungal.late_blight",
+  "aliases": [
+    "potato blight",
+    "Irish potato famine disease"
+  ],
+  "crop": {
+    "common_name": "potato",
+    "scientific_name": "Solanum tuberosum",
+    "family": "Solanaceae"
+  },
+  "condition": {
+    "common_name": "late blight",
+    "scientific_name": "Phytophthora infestans",
+    "alt_names": [
+      "potato blight"
+    ],
+    "pathogen": {
+      "type": "disease_oomycete",
+      "taxonomy": {
+        "kingdom": "Stramenopila",
+        "phylum": "Oomycota",
+        "class": "Oomycetes",
+        "order": "Peronosporales",
+        "family": "Peronosporaceae",
+        "genus": "Phytophthora",
+        "species": "P. infestans"
+      }
+    }
+  },
+  "issue_type": "disease_fungal",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [
+      "wind",
+      "rain splash",
+      "irrigation water",
+      "contaminated equipment"
+    ],
+    "overwintering": [
+      "infected seed tubers",
+      "cull piles",
+      "volunteer plants"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "High humidity",
+      "Cool temperatures",
+      "Prolonged leaf wetness",
+      "Dense canopy"
+    ],
+    "temp_c_day": [
+      15,
+      21
+    ],
+    "temp_c_night": [
+      10,
+      15
+    ],
+    "relative_humidity_pct": [
+      90,
+      100
+    ],
+    "leaf_wetness_hours_threshold": 10
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "1-10% of leaf area affected; a few scattered lesions.",
+    "moderate": "11-40% of leaf area affected; multiple lesions coalescing, some stem lesions may be present.",
+    "severe": ">40% of leaf area affected; extensive blighting, defoliation, and stem collapse.",
+    "notes": "Severity is assessed on the total foliar area of the plant. Stem and tuber infection should be noted separately but contribute to the overall plant health decline."
+  },
+  "symptoms": {
+    "leaves": [
+      "Small, water-soaked, pale green to dark green spots, often near leaf tips or edges.",
+      "Lesions rapidly enlarge into large, irregular, brownish-black necrotic areas.",
+      "A pale green or yellowish halo often surrounds the necrotic lesion.",
+      "Infected leaves quickly wither, curl, and die but often remain attached to the stem."
+    ],
+    "stems": [
+      "Large, dark brown to black, greasy-appearing lesions can form on stems and petioles.",
+      "Stems can become brittle and break at the site of infection."
+    ],
+    "fruit": [],
+    "roots": [
+      "On tubers, symptoms appear as firm, reddish-brown, dry rot that penetrates the surface.",
+      "The rot extends irregularly into the tuber flesh, often with a granular texture.",
+      "The skin over infected areas may appear sunken and purplish."
+    ],
+    "whole_plant": [
+      "Rapid blighting and collapse of foliage, especially in cool, wet weather.",
+      "A distinct, musty odor is often present in severely infected fields."
+    ],
+    "signs_microscopic_or_visible": [
+      "Under humid conditions, a fuzzy, white mold (sporangia) appears on the underside of leaves at the lesion margin."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "early blight",
+      "condition_id": "potato.disease_fungal.early_blight",
+      "key_differences": [
+        "Early blight lesions are circular with distinct, dark concentric rings ('target spots'), whereas late blight lesions are irregular and initially water-soaked.",
+        "Late blight produces a white, fuzzy mold on the underside of leaves in high humidity; early blight does not.",
+        "Early blight lesions are typically dry and leathery, while late blight lesions are blighted and can appear greasy or wet.",
+        "Early blight often starts on lower, older leaves, while late blight can start anywhere on the plant."
+      ]
+    },
+    {
+      "condition_name": "healthy",
+      "condition_id": "potato.healthy",
+      "key_differences": [
+        "Healthy leaves are uniformly green and turgid, without any necrotic spots, water-soaking, or halos.",
+        "Healthy stems are green and strong, lacking any dark brown or black lesions.",
+        "No white, fuzzy mold is present on any part of a healthy plant."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Use certified disease-free seed tubers.",
+      "Destroy cull piles and volunteer potatoes.",
+      "Promote good air circulation through proper plant spacing.",
+      "Avoid overhead irrigation, or irrigate early in the day to allow foliage to dry."
+    ],
+    "biological": [
+      "Application of bio-fungicides containing *Bacillus subtilis* or *Trichoderma* species can have some suppressive effect when used preventatively."
+    ],
+    "chemical": [
+      "Prophylactic and curative fungicide applications are the primary control method.",
+      "Use forecasting models (e.g., Blitecast) to time applications effectively.",
+      "Rotate fungicide modes of action to prevent resistance development."
+    ],
+    "notes": "Management relies heavily on preventative fungicide sprays, timed according to weather-based disease prediction models. Resistant cultivars are a key component of an integrated management strategy."
+  }
+}

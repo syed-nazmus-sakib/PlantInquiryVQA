@@ -1,0 +1,149 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "eggplant.unknown.pest_damage",
+  "aliases": [
+    "insect damage",
+    "mite damage",
+    "chewing damage",
+    "sucking damage",
+    "arthropod injury"
+  ],
+  "crop": {
+    "common_name": "eggplant",
+    "scientific_name": "Solanum melongena",
+    "family": "Solanaceae"
+  },
+  "condition": {
+    "common_name": "Pest Damage",
+    "scientific_name": null,
+    "alt_names": [
+      "Insect feeding",
+      "Arthropod feeding injury"
+    ],
+    "pathogen": {
+      "type": "animal",
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Arthropoda",
+        "class": "",
+        "order": "",
+        "family": "",
+        "genus": "",
+        "species": ""
+      }
+    }
+  },
+  "issue_type": "unknown",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [
+      "Flight (for winged insects)",
+      "Crawling",
+      "Wind (for small insects and mites)",
+      "Transport on infested plant material or equipment"
+    ],
+    "overwintering": [
+      "In soil as eggs, larvae, or pupae",
+      "In crop debris and leaf litter",
+      "On nearby weed or alternative host plants"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "Warm, dry conditions (favors spider mites, thrips)",
+      "High humidity (favors some caterpillars and slugs)",
+      "Presence of alternate weed hosts",
+      "Monoculture planting",
+      "Lack of natural enemies"
+    ],
+    "temp_c_day": [
+      20,
+      32
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "< 10% of total leaf area on the plant is affected by feeding.",
+    "moderate": "10-30% of total leaf area is affected; minor damage to fruit may be present.",
+    "severe": "> 30% of total leaf area is affected, with significant defoliation and/or widespread damage to fruit.",
+    "notes": "Severity is measured as the percentage of photosynthetic area damaged or removed. For fruit damage, a qualitative assessment (e.g., number of damaged fruits) may be more appropriate."
+  },
+  "symptoms": {
+    "leaves": [
+      "Irregularly shaped holes or chewed-out sections from chewing insects.",
+      "Skeletonization, where only leaf veins remain after feeding.",
+      "Stippling (collections of tiny yellow or white spots) from sucking insects like mites or leafhoppers.",
+      "Silvery or whitish tunnels (trails) under the leaf surface from leafminers.",
+      "Presence of fine, silk-like webbing, especially on leaf undersides (spider mites).",
+      "Leaf curling, distortion, or cupping, often associated with aphids."
+    ],
+    "stems": [
+      "Boring holes or girdling, sometimes with frass (insect excrement) visible."
+    ],
+    "fruit": [
+      "Superficial scarring, bronzing, or russeting on the skin.",
+      "Sunken, discolored, or corky spots resulting from feeding punctures.",
+      "Holes bored directly into the fruit, which may lead to secondary rot."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Stunted growth or wilting in cases of severe infestation or stem damage."
+    ],
+    "signs_microscopic_or_visible": [
+      "Presence of adult insects, larvae (caterpillars), or eggs on plant surfaces.",
+      "Sticky 'honeydew' exudate, which may be colonized by black sooty mold.",
+      "Frass (insect droppings) on leaves or near stems."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "Leaf Spot",
+      "condition_id": "eggplant.disease.leaf_spot",
+      "key_differences": [
+        "Leaf spots are typically circular with distinct, often darker, borders, whereas chewing damage consists of irregular holes with missing tissue.",
+        "Fungal leaf spots cause tissue necrosis and discoloration, but the tissue remains intact initially, unlike chewing damage.",
+        "Leaf spots may have visible fungal fruiting bodies (e.g., tiny black dots) in the lesion center, which are absent in pest damage."
+      ]
+    },
+    {
+      "condition_name": "Phomopsis Blight",
+      "condition_id": "eggplant.disease.phomopsis_blight",
+      "key_differences": [
+        "Phomopsis lesions on leaves are circular, tan-to-brown with a light center, unlike the irregular holes or stippling from pests.",
+        "On fruit, Phomopsis causes large, sunken, circular lesions with concentric rings, distinct from small feeding punctures or bored holes.",
+        "Stem cankers from Phomopsis are a form of tissue decay, whereas insect boring holes are excavations that may contain frass."
+      ]
+    },
+    {
+      "condition_name": "Mosaic Virus",
+      "condition_id": "eggplant.disease.mosaic_virus",
+      "key_differences": [
+        "Mosaic virus causes patterns of light green and yellow mottling on leaves, not the removal of tissue (holes) or stippling seen with pests.",
+        "Virus symptoms are systemic and often follow leaf veins, while pest damage is localized to feeding sites.",
+        "Leaf distortion from viruses is often accompanied by mottling, whereas pest-induced curling might have visible signs like aphids or webbing."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Use of physical barriers like floating row covers on young plants.",
+      "Regular scouting and monitoring to detect pest populations early.",
+      "Removal and destruction of heavily infested plant parts.",
+      "Management of nearby weeds that can act as alternate hosts for pests.",
+      "Crop rotation to break pest life cycles."
+    ],
+    "biological": [
+      "Encourage populations of natural enemies (predators and parasitoids) like ladybugs, lacewings, and parasitic wasps.",
+      "Application of microbial insecticides such as Bacillus thuringiensis (Bt) for caterpillars or entomopathogenic fungi for other insects."
+    ],
+    "chemical": [
+      "Application of contact insecticides like insecticidal soaps or horticultural oils for soft-bodied insects.",
+      "Use of selective or broad-spectrum insecticides based on proper pest identification and economic thresholds.",
+      "Avoid overuse of broad-spectrum insecticides to protect beneficial insects."
+    ],
+    "notes": "Accurate identification of the specific pest is crucial before applying chemical controls to ensure efficacy and minimize harm to non-target organisms."
+  }
+}

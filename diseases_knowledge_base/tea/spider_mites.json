@@ -1,0 +1,135 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "tea.pest_mite.spider_mites",
+  "aliases": [
+    "red spider mite",
+    "tea red spider mite"
+  ],
+  "crop": {
+    "common_name": "tea",
+    "scientific_name": "Camellia sinensis",
+    "family": "Theaceae"
+  },
+  "condition": {
+    "common_name": "spider mites",
+    "scientific_name": "Oligonychus coffeae",
+    "alt_names": [
+      "Tetranychus spp."
+    ],
+    "pathogen": {
+      "type": "arthropod",
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Arthropoda",
+        "class": "Arachnida",
+        "order": "Trombidiformes",
+        "family": "Tetranychidae",
+        "genus": "Oligonychus",
+        "species": "coffeae"
+      }
+    }
+  },
+  "issue_type": "pest_mite",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [
+      "wind",
+      "infested plant material",
+      "clothing/equipment of workers"
+    ],
+    "overwintering": [
+      "eggs and adult females on leaves and stems",
+      "in bark crevices"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "hot and dry weather",
+      "prolonged drought",
+      "dusty conditions",
+      "low humidity",
+      "lack of natural enemies due to broad-spectrum insecticide use"
+    ],
+    "temp_c_day": [
+      25,
+      35
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      30,
+      60
+    ],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "1-10% of leaf surface shows fine, pale stippling. Leaves may appear slightly dusty. Webbing is absent or very sparse and difficult to see.",
+    "moderate": "11-40% of leaf surface is affected. Stippling coalesces, causing leaves to develop a distinct bronze or coppery sheen. Fine webbing is visible on close inspection, especially on the leaf underside.",
+    "severe": ">40% of leaf surface is heavily bronzed, brown, or desiccated. Extensive webbing covers leaves and may envelop shoot tips. Premature leaf drop is evident.",
+    "notes": "Severity is measured by the percentage of the upper leaf surface showing feeding damage (stippling, bronzing). The presence and extent of webbing are also key indicators of a severe infestation."
+  },
+  "symptoms": {
+    "leaves": [
+      "Fine, pale yellow or white stippling on the upper leaf surface from feeding.",
+      "Leaves lose their glossy appearance and become dull.",
+      "Stippling coalesces into larger bronze, brown, or coppery patches as infestation increases.",
+      "Fine, silk-like webbing is visible on the underside of leaves, between leaves, and along petioles.",
+      "In severe cases, leaves turn brown, become brittle, and may curl downwards.",
+      "Premature leaf drop (defoliation) occurs under heavy pressure."
+    ],
+    "stems": [
+      "Webbing may cover young stems and shoot tips in heavy infestations."
+    ],
+    "fruit": [],
+    "roots": [],
+    "whole_plant": [
+      "Stunted growth of new shoots.",
+      "The entire plant can appear stressed, dusty, and discolored."
+    ],
+    "signs_microscopic_or_visible": [
+      "Tiny, reddish or yellowish mites (adults, nymphs) visible on the underside of leaves, often requiring a hand lens.",
+      "Tiny, spherical eggs, often laid along the midrib on the leaf underside.",
+      "Cast skins from molting mites may be present on the leaf surface."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "helopeltis_damage",
+      "condition_id": "tea.pest_insect.helopeltis_damage",
+      "key_differences": [
+        "Helopeltis causes discrete, circular, water-soaked spots that turn dark brown/black and necrotic, whereas mite damage is a diffuse stippling or bronzing.",
+        "Helopeltis spots are often larger and more distinct than mite feeding marks.",
+        "Webbing is a key sign of spider mites and is completely absent with Helopeltis damage.",
+        "Helopeltis can cause dieback of young shoots, a symptom less common with mites."
+      ]
+    },
+    {
+      "condition_name": "gray_blight",
+      "condition_id": "tea.fungal.gray_blight",
+      "key_differences": [
+        "Gray blight forms distinct lesions, often with concentric rings (a 'target' appearance) and a grayish-white center, unlike the uniform bronzing from mites.",
+        "Mite damage is a surface discoloration from feeding, while gray blight is a necrotic tissue lesion caused by a fungus.",
+        "Tiny black dots (pycnidia) may be visible within gray blight lesions, which are absent in mite damage.",
+        "Spider mites produce fine webbing; fungal diseases do not."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Maintain high humidity through overhead irrigation or misting where feasible, as mites dislike moisture.",
+      "Avoid water stress by providing adequate irrigation during dry periods.",
+      "Control dust from nearby roads, as it encourages mite outbreaks.",
+      "Prune and destroy heavily infested branches to reduce mite populations."
+    ],
+    "biological": [
+      "Conserve and encourage natural predators like predatory mites (e.g., Phytoseiidae family), ladybugs, and lacewings.",
+      "Avoid using broad-spectrum insecticides that kill natural enemies."
+    ],
+    "chemical": [
+      "Apply selective miticides (acaricides) when mite populations reach economic thresholds.",
+      "Ensure thorough spray coverage, especially on the undersides of leaves where mites congregate.",
+      "Rotate miticides with different modes of action to prevent resistance development."
+    ],
+    "notes": "An Integrated Pest Management (IPM) approach is most effective, combining cultural controls and conservation of natural enemies with judicious use of acaricides."
+  }
+}

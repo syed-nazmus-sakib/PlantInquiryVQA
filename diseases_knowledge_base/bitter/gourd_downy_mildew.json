@@ -1,0 +1,139 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "bitter.disease_fungal.gourd_downy_mildew",
+  "aliases": [
+    "downy mildew of bitter gourd",
+    "cucurbit downy mildew on bitter gourd"
+  ],
+  "crop": {
+    "common_name": "bitter gourd",
+    "scientific_name": "Momordica charantia",
+    "family": "Cucurbitaceae"
+  },
+  "condition": {
+    "common_name": "gourd downy mildew",
+    "scientific_name": "Pseudoperonospora cubensis",
+    "alt_names": [
+      "cucurbit downy mildew"
+    ],
+    "pathogen": {
+      "type": "disease_oomycete",
+      "taxonomy": {
+        "kingdom": "Stramenopila",
+        "phylum": "Oomycota",
+        "class": "Oomycetes",
+        "order": "Peronosporales",
+        "family": "Peronosporaceae",
+        "genus": "Pseudoperonospora",
+        "species": "cubensis"
+      }
+    }
+  },
+  "issue_type": "disease_fungal",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [
+      "wind-borne sporangia",
+      "water splash",
+      "contaminated tools",
+      "human activity"
+    ],
+    "overwintering": [
+      "on living cucurbit hosts in frost-free regions",
+      "in greenhouses on infected plant material"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "high relative humidity",
+      "prolonged periods of leaf wetness",
+      "cool to moderate temperatures",
+      "dense plant canopy with poor air circulation"
+    ],
+    "temp_c_day": [
+      15,
+      23
+    ],
+    "temp_c_night": [
+      10,
+      18
+    ],
+    "relative_humidity_pct": [
+      85,
+      100
+    ],
+    "leaf_wetness_hours_threshold": 6
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "1-10% of leaf area affected. A few scattered, small, angular yellow spots are visible on the upper leaf surface.",
+    "moderate": "11-40% of leaf area affected. Lesions are more numerous, larger, and may begin to coalesce. Grayish-purple sporulation is visible on the leaf underside. Some necrotic browning may appear in the center of older lesions.",
+    "severe": ">40% of leaf area affected. Widespread leaf necrosis, blighting, and upward curling of leaf margins. Significant defoliation is occurring, exposing fruit to sunscald.",
+    "notes": "Severity is assessed on the most symptomatic leaves. The presence and density of sporulation on the abaxial (lower) leaf surface is a key diagnostic and severity indicator."
+  },
+  "symptoms": {
+    "leaves": [
+      "Initial symptoms are small, pale green or water-soaked spots on the upper leaf surface.",
+      "Lesions quickly become distinctly yellow (chlorotic) and angular, bounded by leaf veins.",
+      "On the corresponding lower leaf surface, a fuzzy, downy growth that is grayish to purplish-black appears, especially during periods of high humidity.",
+      "As the disease progresses, the angular yellow spots turn brown to black and become necrotic.",
+      "Multiple lesions often coalesce, leading to large, blighted areas on the leaf.",
+      "Severely infected leaves become brittle, curl upwards, and may drop prematurely (defoliation).",
+      "Lesions are most common on older, crown leaves first."
+    ],
+    "stems": [
+      "Stems are typically not directly affected."
+    ],
+    "fruit": [
+      "Fruit is not directly infected, but its size, quality, and quantity are reduced due to loss of photosynthetic area from defoliation.",
+      "Premature defoliation can lead to sunscald on developing fruit."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Reduced plant vigor and stunted growth.",
+      "Significant yield loss in severe infections."
+    ],
+    "signs_microscopic_or_visible": [
+      "Visible grayish-purple, downy sporulation (sporangiophores and sporangia) on the abaxial (lower) leaf surface, corresponding to the yellow lesions on top."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "gourd anthracnose",
+      "condition_id": "bitter.disease_fungal.gourd_anthracnose",
+      "key_differences": [
+        "Lesion Shape: Anthracnose lesions are circular to irregular with dark, defined borders, often developing a 'shot-hole' appearance, whereas downy mildew lesions are strictly angular and vein-limited.",
+        "Signs: Downy mildew produces a grayish-purple fuzzy growth on the leaf underside, while anthracnose may produce pinkish-orange spore masses in concentric rings within the lesion during wet weather.",
+        "Affected Parts: Anthracnose commonly causes sunken, dark cankers on stems and fruit, which is not a symptom of downy mildew."
+      ]
+    },
+    {
+      "condition_name": "gourd healthy",
+      "condition_id": "bitter.misc.gourd_healthy",
+      "key_differences": [
+        "Color: Healthy leaves have a uniform green color, lacking the distinct angular yellow (chlorotic) or brown (necrotic) spots of downy mildew.",
+        "Texture: The underside of a healthy leaf is smooth and green, without the fuzzy, grayish-purple growth characteristic of downy mildew.",
+        "Overall Appearance: A healthy plant shows vigorous growth with a full canopy, not the premature leaf drop or blighting seen in severe downy mildew infections."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Plant resistant or tolerant cultivars when available.",
+      "Maximize air circulation by using recommended plant spacing and trellising.",
+      "Use drip irrigation instead of overhead sprinklers to minimize leaf wetness duration.",
+      "Scout fields regularly, especially after cool, moist weather events.",
+      "Remove and destroy infected plant debris at the end of the season.",
+      "Practice crop rotation with non-cucurbit crops for at least 2-3 years."
+    ],
+    "biological": [
+      "Applications of bio-fungicides containing *Bacillus subtilis* or *Streptomyces* species may provide some suppression when used preventatively."
+    ],
+    "chemical": [
+      "Apply protectant fungicides (e.g., mancozeb, chlorothalonil) before disease onset, especially when weather forecasts are favorable for infection.",
+      "Use systemic or translaminar fungicides (e.g., cymoxanil, mandipropamid, oxathiapiprolin) for curative action, following local regulations.",
+      "Rotate fungicides with different modes of action (FRAC groups) to prevent the development of pathogen resistance."
+    ],
+    "notes": "Effective management relies on an integrated approach. Chemical control is most effective when combined with cultural practices that reduce environmental risk."
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "arabian.nutrient_deficiency.jasmine_chlorosis",
+  "aliases": [
+    "Iron chlorosis",
+    "Nutrient deficiency yellowing",
+    "Jasmine yellowing"
+  ],
+  "crop": {
+    "common_name": "Arabian Jasmine",
+    "scientific_name": "Jasminum sambac",
+    "family": "Oleaceae"
+  },
+  "condition": {
+    "common_name": "Jasmine Chlorosis",
+    "scientific_name": null,
+    "alt_names": [
+      "Iron deficiency",
+      "Manganese deficiency",
+      "Interveinal chlorosis"
+    ],
+    "pathogen": {
+      "type": "Abiotic",
+      "taxonomy": null
+    }
+  },
+  "issue_type": "nutrient_deficiency",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [],
+    "overwintering": []
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "High soil pH (alkaline soil > 7.0)",
+      "Poorly drained or waterlogged soil",
+      "Over-fertilization with phosphorus, which can inhibit iron uptake",
+      "Low soil organic matter",
+      "Compacted soil"
+    ],
+    "temp_c_day": [],
+    "temp_c_night": [],
+    "relative_humidity_pct": [],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "1-10% of leaf area on younger leaves shows yellowing, while veins remain distinctly green.",
+    "moderate": "11-40% of leaf area is affected; yellowing is pronounced and may spread to older leaves. Some leaf margins may begin to turn brown.",
+    "severe": ">40% of leaf area is affected; leaves are almost entirely yellow or white, with significant browning, stunting, and potential leaf drop.",
+    "notes": "Severity is assessed on the most affected leaves, focusing on the characteristic interveinal chlorosis pattern. The overall percentage of affected leaves on the plant can also be considered."
+  },
+  "symptoms": {
+    "leaves": [
+      "Youngest, newest leaves show yellowing between the veins.",
+      "Leaf veins remain distinctly green, creating a netted or web-like pattern.",
+      "In severe cases, the entire leaf turns pale yellow or almost white.",
+      "Leaf margins may become necrotic (brown and dry) in advanced stages.",
+      "Affected leaves may be smaller than normal.",
+      "Older, lower leaves typically remain green, especially in early stages."
+    ],
+    "stems": [
+      "Internodes may be shortened, leading to a stunted or bunched appearance."
+    ],
+    "fruit": [],
+    "roots": [],
+    "whole_plant": [
+      "Overall plant growth is stunted or vigor is reduced.",
+      "Flowering may be significantly reduced or absent."
+    ],
+    "signs_microscopic_or_visible": []
+  },
+  "lookalikes": [
+    {
+      "condition_name": "Jasmine Leaf Spot",
+      "condition_id": "arabian.fungal.jasmine_leaf_spot",
+      "key_differences": [
+        "Leaf spot presents as discrete, circular or irregular necrotic spots, not a widespread yellowing between veins.",
+        "Spots may have a darker border or a lighter tan center, a feature absent in chlorosis.",
+        "Chlorosis affects the entire lamina between veins, while spots are localized lesions that can appear anywhere on the leaf."
+      ]
+    },
+    {
+      "condition_name": "Jasmine Pest Damage",
+      "condition_id": "arabian.pest.jasmine_pest_damage",
+      "key_differences": [
+        "Pests like spider mites cause fine stippling (tiny yellow dots), not broad interveinal yellowing.",
+        "Pest damage may be accompanied by visible signs like webbing, insects, sooty mold, or honeydew.",
+        "Yellowing from pests is often patchy and irregular, not following the distinct vascular pattern of chlorosis."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Test soil pH and amend to be slightly acidic (6.0-6.5) using elemental sulfur or acidifying fertilizers.",
+      "Improve soil drainage and avoid over-watering.",
+      "Incorporate well-composted organic matter to improve soil structure and nutrient availability.",
+      "Mulch with acidic materials like pine bark or needles."
+    ],
+    "biological": [],
+    "chemical": [
+      "Apply chelated iron (Fe-EDDHA is most effective in high pH soils) as a soil drench.",
+      "Use a balanced fertilizer containing essential micronutrients like iron, manganese, and zinc.",
+      "For a quick but temporary fix, apply a foliar spray of chelated iron or iron sulfate."
+    ],
+    "notes": "Foliar sprays offer a rapid green-up but do not solve the underlying soil problem. Addressing soil pH is the most effective long-term solution."
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "strawberry.healthy.healthy",
+  "aliases": [
+    "normal",
+    "asymptomatic",
+    "uninfected"
+  ],
+  "crop": {
+    "common_name": "strawberry",
+    "scientific_name": "Fragaria \u00d7 ananassa",
+    "family": "Rosaceae"
+  },
+  "condition": {
+    "common_name": "healthy",
+    "scientific_name": null,
+    "alt_names": [],
+    "pathogen": {
+      "type": "none",
+      "taxonomy": {
+        "kingdom": "",
+        "phylum": "",
+        "class": "",
+        "order": "",
+        "family": "",
+        "genus": "",
+        "species": ""
+      }
+    }
+  },
+  "issue_type": "healthy",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [],
+    "overwintering": []
+  },
+  "environmental_risk": {
+    "risk_factors": [],
+    "temp_c_day": [],
+    "temp_c_night": [],
+    "relative_humidity_pct": [],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "qualitative",
+    "mild": "Not applicable; plant is healthy.",
+    "moderate": "Not applicable; plant is healthy.",
+    "severe": "Not applicable; plant is healthy.",
+    "notes": "Severity is not applicable for a healthy plant. Any visible symptoms would indicate a different condition."
+  },
+  "symptoms": {
+    "leaves": [
+      "Leaves are uniformly medium to dark green.",
+      "Leaflets are ternate (in groups of three) with well-defined serrated margins.",
+      "Leaf surface is smooth or slightly hairy, without any spots, lesions, or discoloration.",
+      "Foliage is turgid and not wilted or drooping.",
+      "No yellowing (chlorosis) or browning (necrosis) is present.",
+      "Petioles (leaf stalks) are green, firm, and support the leaves upright."
+    ],
+    "stems": [
+      "Crowns are firm, well-developed, and free of discoloration or rot.",
+      "Runners (stolons) are green to reddish-green and appear vigorous."
+    ],
+    "fruit": [
+      "Developing fruit is green and firm.",
+      "Ripe fruit is plump, glossy, and uniformly colored according to the cultivar (typically bright red).",
+      "Fruit is free from soft spots, mold, or sunken lesions."
+    ],
+    "roots": [
+      "Roots are numerous, fibrous, and white to light tan in color."
+    ],
+    "whole_plant": [
+      "Plant exhibits a vigorous, mounding growth habit.",
+      "No stunting, dieback, or overall decline is visible."
+    ],
+    "signs_microscopic_or_visible": [
+      "No visible signs of pathogens such as mycelium, fungal spores, bacterial ooze, or fruiting bodies."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "leaf scorch",
+      "condition_id": "strawberry.fungal.leaf_scorch",
+      "key_differences": [
+        "Healthy leaves have a uniform green color, whereas leaf scorch causes distinct, irregular purplish-to-brown blotches that may have a dark border.",
+        "Healthy leaf margins are intact and green, while leaf scorch lesions often start at the margins, causing them to dry out and curl upwards.",
+        "The tissue between the veins on leaves with advanced leaf scorch turns brown or V-shaped, a pattern absent in healthy leaves.",
+        "Healthy plants maintain green foliage throughout, while leaf scorch symptoms typically appear on older, outer leaves first."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Use certified disease-free transplants.",
+      "Provide adequate plant spacing to promote air circulation and rapid drying of foliage.",
+      "Manage irrigation to avoid waterlogged soil and minimize leaf wetness duration.",
+      "Maintain balanced soil fertility based on soil tests.",
+      "Practice good field sanitation, removing dead leaves and plant debris."
+    ],
+    "biological": [],
+    "chemical": [],
+    "notes": "Management for a healthy plant focuses on preventative cultural practices that maintain vigor and reduce the likelihood of disease development."
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "litchi.physiological_symptom.burned_leaf",
+  "aliases": [
+    "leaf scorch",
+    "sunburn",
+    "tip burn",
+    "leaf tip burn"
+  ],
+  "crop": {
+    "common_name": "litchi",
+    "scientific_name": "Litchi chinensis",
+    "family": "Sapindaceae"
+  },
+  "condition": {
+    "common_name": "Burned Leaf",
+    "scientific_name": null,
+    "alt_names": [
+      "Leaf scorch",
+      "Sunburn",
+      "Tip burn"
+    ],
+    "pathogen": {
+      "type": "abiotic",
+      "taxonomy": {
+        "kingdom": "",
+        "phylum": "",
+        "class": "",
+        "order": "",
+        "family": "",
+        "genus": "",
+        "species": ""
+      }
+    }
+  },
+  "issue_type": "physiological_symptom",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [],
+    "overwintering": []
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "High solar radiation",
+      "Sudden exposure of shaded leaves to direct sun",
+      "Drought stress and inadequate irrigation",
+      "High ambient temperatures",
+      "Low relative humidity",
+      "Saline soil or irrigation water",
+      "Nutrient imbalances (e.g., potassium deficiency)"
+    ],
+    "temp_c_day": [
+      35,
+      45
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      20,
+      50
+    ],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "1-10% of leaf area affected, typically confined to the tip or margin.",
+    "moderate": "11-40% of leaf area affected, with necrotic areas extending further into the leaf blade.",
+    "severe": ">40% of leaf area affected, extensive necrosis, leaf curling, and potential defoliation.",
+    "notes": "Severity is estimated as the percentage of a single leaf's surface showing brown, necrotic, 'burned' tissue. Assessment should consider the average condition of several affected leaves on the plant."
+  },
+  "symptoms": {
+    "leaves": [
+      "Necrotic, brown, or tan patches appear on leaf tips and margins.",
+      "Affected tissue is dry, brittle, and has a 'scorched' appearance.",
+      "A distinct, often dark brown or reddish-brown line separates the necrotic tissue from healthy green tissue.",
+      "Damage is most prominent on leaves directly exposed to intense sunlight.",
+      "In severe cases, the entire leaf may turn brown, curl inward, and die.",
+      "Symptoms are more common on new, tender flushes of growth.",
+      "The burned area is typically uniform in color, lacking fungal structures or concentric rings.",
+      "The transition from dead to healthy tissue is abrupt."
+    ],
+    "stems": [],
+    "fruit": [],
+    "roots": [],
+    "whole_plant": [
+      "Symptoms are often localized to one side of the plant (the sun-facing side).",
+      "Chronically affected plants may show stunted growth."
+    ],
+    "signs_microscopic_or_visible": []
+  },
+  "lookalikes": [
+    {
+      "condition_name": "leaf_blight",
+      "condition_id": "litchi.fungal_disease.leaf_blight",
+      "key_differences": [
+        "Leaf blight lesions often have a 'target-like' appearance with concentric rings, which is absent in sunburn.",
+        "Blight lesions may have a water-soaked or yellowish halo around the necrotic spot.",
+        "Tiny black dots (pycnidia or acervuli) may be visible within blight lesions, especially with magnification.",
+        "Blight can occur on any part of the leaf, not just sun-exposed tips and margins."
+      ]
+    },
+    {
+      "condition_name": "senescence_or_dry",
+      "condition_id": "litchi.physiological_symptom.senescence_or_dry",
+      "key_differences": [
+        "Senescence involves a more gradual and uniform yellowing (chlorosis) of the entire leaf before browning, typically starting with the oldest, lowest leaves.",
+        "Burned leaves show an abrupt transition from green to brown/necrotic tissue, often on leaves of any age.",
+        "General water stress (dryness) causes wilting of leaves before they turn brown and crispy, often affecting the whole plant."
+      ]
+    },
+    {
+      "condition_name": "red_rust_disease",
+      "condition_id": "litchi.algal_disease.red_rust_disease",
+      "key_differences": [
+        "Red rust appears as distinct, raised, velvety spots with an orange to reddish-brown color.",
+        "Burned leaf areas are not raised or velvety; they are necrotic, sunken, and integrated into the leaf tissue.",
+        "Red rust spots can appear anywhere on the leaf surface and are not confined to sun-exposed areas like tips and margins."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Provide adequate and consistent irrigation to prevent drought stress.",
+      "Use shade cloth (e.g., 30-50% shade) during periods of intense heat and sun, especially for young trees.",
+      "Apply a layer of organic mulch to retain soil moisture and moderate root temperature.",
+      "Avoid excessive nitrogen fertilization, which promotes tender growth susceptible to burning.",
+      "Ensure proper soil drainage to prevent salt accumulation."
+    ],
+    "biological": [],
+    "chemical": [
+      "Application of kaolin clay-based products can form a reflective white film on leaves to reduce heat load and sun damage.",
+      "Anti-transpirant sprays can help reduce water loss from leaves during heat waves."
+    ],
+    "notes": "Management is primarily preventative and focuses on mitigating environmental stressors that cause the burn."
+  }
+}

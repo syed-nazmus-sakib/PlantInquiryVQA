@@ -1,0 +1,115 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "raspberry.healthy.healthy",
+  "aliases": [
+    "normal",
+    "asymptomatic"
+  ],
+  "crop": {
+    "common_name": "raspberry",
+    "scientific_name": "Rubus idaeus",
+    "family": "Rosaceae"
+  },
+  "condition": {
+    "common_name": "healthy",
+    "scientific_name": "",
+    "alt_names": [
+      "normal",
+      "asymptomatic",
+      "no disease"
+    ],
+    "pathogen": {
+      "type": "none",
+      "taxonomy": {
+        "kingdom": "",
+        "phylum": "",
+        "class": "",
+        "order": "",
+        "family": "",
+        "genus": "",
+        "species": ""
+      }
+    }
+  },
+  "issue_type": "healthy",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [],
+    "overwintering": []
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "Optimal growing conditions",
+      "Sufficient sunlight (6-8 hours/day)",
+      "Well-drained, fertile soil with pH 6.0-6.8",
+      "Adequate and consistent moisture"
+    ],
+    "temp_c_day": [
+      18,
+      25
+    ],
+    "temp_c_night": [
+      10,
+      16
+    ],
+    "relative_humidity_pct": [
+      60,
+      80
+    ],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "qualitative",
+    "mild": "Plant is vigorous with no visible signs of stress or disease on any plant part.",
+    "moderate": "N/A",
+    "severe": "N/A",
+    "notes": "Severity is not applicable to a healthy plant. The 'mild' category represents the baseline healthy state, characterized by the complete absence of symptoms."
+  },
+  "symptoms": {
+    "leaves": [
+      "Uniformly green color, appropriate for the cultivar.",
+      "Leaves are fully expanded, turgid, and appropriately sized.",
+      "Leaf margins are intact with characteristic serrations and no necrosis.",
+      "Surfaces are free of spots, lesions, pustules, yellowing, or distortion.",
+      "Petioles are firm, holding leaves in a normal orientation."
+    ],
+    "stems": [
+      "Canes are firm, erect, and show normal coloration (green for primocanes, brown/woody for floricanes).",
+      "Stems are free of cankers, galls, lesions, or discolored streaks.",
+      "Prickles or hairs are normal in appearance.",
+      "No evidence of wilting or dieback from the tips."
+    ],
+    "fruit": [
+      "Berries are plump, firm, and show uniform, vibrant color when ripe.",
+      "Drupelets are well-formed, cohesive, and not shrunken.",
+      "Fruit surface is glossy and free of mold, rot, or insect damage.",
+      "Calyx (cap) is green and fresh-looking."
+    ],
+    "roots": [
+      "Root system is fibrous, well-developed, and white to light tan in color."
+    ],
+    "whole_plant": [
+      "Exhibits vigorous, upright growth habit.",
+      "Canopy is dense with new, healthy growth evident during the growing season.",
+      "Plant is well-anchored in the soil."
+    ],
+    "signs_microscopic_or_visible": [
+      "No visible fungal mycelium, spores, bacterial ooze, or other pathogen structures."
+    ]
+  },
+  "lookalikes": [],
+  "management": {
+    "cultural": [
+      "Select certified disease-free planting stock.",
+      "Plant in well-drained soil with full sun exposure.",
+      "Maintain proper plant spacing to promote air circulation.",
+      "Use drip irrigation to minimize leaf wetness.",
+      "Prune annually to remove spent floricanes and thin primocanes.",
+      "Practice good sanitation by removing weeds and plant debris.",
+      "Provide balanced nutrition based on soil tests."
+    ],
+    "biological": [],
+    "chemical": [],
+    "notes": "Management for a healthy plant focuses on preventative cultural practices that promote plant vigor and reduce environmental conditions favorable for disease development."
+  }
+}

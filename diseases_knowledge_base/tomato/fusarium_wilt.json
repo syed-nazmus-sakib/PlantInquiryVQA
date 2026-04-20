@@ -1,0 +1,149 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "tomato.disease_fungal.fusarium_wilt",
+  "aliases": [
+    "Tomato wilt",
+    "Fusarium wilt of tomato"
+  ],
+  "crop": {
+    "common_name": "Tomato",
+    "scientific_name": "Solanum lycopersicum",
+    "family": "Solanaceae"
+  },
+  "condition": {
+    "common_name": "Fusarium wilt",
+    "scientific_name": "Fusarium oxysporum f. sp. lycopersici",
+    "alt_names": [],
+    "pathogen": {
+      "type": "fungus",
+      "taxonomy": {
+        "kingdom": "Fungi",
+        "phylum": "Ascomycota",
+        "class": "Sordariomycetes",
+        "order": "Hypocreales",
+        "family": "Nectriaceae",
+        "genus": "Fusarium",
+        "species": "oxysporum"
+      }
+    }
+  },
+  "issue_type": "disease_fungal",
+  "transmission": {
+    "vectors": [
+      "Infected transplants",
+      "Contaminated equipment (tillage, stakes)",
+      "Human activity (boots, tools)"
+    ],
+    "dispersal": [
+      "Soilborne chlamydospores",
+      "Water (irrigation, surface runoff)",
+      "Infected seed (less common)"
+    ],
+    "overwintering": [
+      "As chlamydospores in soil for many years",
+      "In infected plant debris",
+      "On roots of some non-host weeds"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "Warm soil temperatures",
+      "Acidic soil (pH 5.0-5.6)",
+      "High nitrogen, low potassium fertility",
+      "Poorly drained or compacted soil",
+      "Root-knot nematode infestation (creates wounds for entry)"
+    ],
+    "temp_c_day": [
+      25,
+      32
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "qualitative",
+    "mild": "One or a few lower leaves are yellowing or drooping, often on one side of the plant or a single branch.",
+    "moderate": "Significant yellowing and wilting affecting multiple branches or a major portion of the lower to middle plant. Some stunting may be visible.",
+    "severe": "Widespread wilting of the entire plant, extensive browning and leaf drop, severe stunting, or plant death.",
+    "notes": "Severity is assessed based on the proportion of the plant showing wilting and yellowing symptoms, as this is a systemic vascular disease. It often progresses from the bottom of the plant upwards."
+  },
+  "symptoms": {
+    "leaves": [
+      "Yellowing of lower, older leaves, often starting on one side of a leaf or branch (unilateral).",
+      "Affected leaves wilt during the day and may recover slightly at night initially.",
+      "Petioles (leaf stalks) bend downwards, creating a drooping appearance.",
+      "Leaves eventually turn brown, wither, and die but often remain attached to the stem."
+    ],
+    "stems": [
+      "No external lesions, spots, or cankers are typically visible on the stem.",
+      "When the main stem is cut open lengthwise near the soil line, a distinct dark brown discoloration of the vascular tissue (xylem) is visible.",
+      "The pith (the central core of the stem) remains white or cream-colored."
+    ],
+    "fruit": [
+      "Fruit development may be stunted or fail completely on heavily infected plants.",
+      "No direct symptoms, such as lesions or rot, appear on the fruit itself."
+    ],
+    "roots": [
+      "In advanced stages, some root decay and browning may occur, but early root symptoms are not diagnostic."
+    ],
+    "whole_plant": [
+      "Stunting is a common symptom, especially if infected when young.",
+      "Unilateral wilting, where one side of the plant or a single branch wilts while the other appears healthy, is a classic symptom.",
+      "The entire plant eventually wilts permanently and dies."
+    ],
+    "signs_microscopic_or_visible": [
+      "No visible fungal growth (e.g., mold, mildew) is present on the exterior of the plant."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "Late blight",
+      "condition_id": "tomato.disease_fungal.late_blight",
+      "key_differences": [
+        "Late blight causes large, dark, water-soaked lesions on leaves and dark brown lesions on stems, which are absent in Fusarium wilt.",
+        "Late blight can show fuzzy white mold on the underside of leaf lesions in humid conditions; Fusarium shows no external signs.",
+        "Late blight progresses extremely rapidly, killing foliage in days, while Fusarium wilt is typically a slower decline.",
+        "Fusarium wilt symptoms start at the bottom of the plant and move up; Late blight can start anywhere on the plant."
+      ]
+    },
+    {
+      "condition_name": "Yellowing symptom",
+      "condition_id": "tomato.abiotic.yellowing_symptom",
+      "key_differences": [
+        "Yellowing from nutrient deficiency (e.g., nitrogen) is typically symmetrical, affecting all lower leaves evenly, not one-sided.",
+        "Nutrient deficiency does not cause wilting unless extremely severe.",
+        "Cutting the stem of a nutrient-deficient plant will not reveal the brown vascular discoloration characteristic of Fusarium wilt."
+      ]
+    },
+    {
+      "condition_name": "Spider mites",
+      "condition_id": "tomato.pest.spider_mites",
+      "key_differences": [
+        "Spider mite damage appears as fine, yellow stippling or tiny dots on leaves, not large, uniform yellowed areas.",
+        "Fine webbing is often visible on the undersides of leaves with spider mites.",
+        "Spider mite damage does not cause the plant to wilt systemically.",
+        "The cause (tiny mites) may be visible with magnification on the leaf underside."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Plant certified disease-free seeds and transplants.",
+      "Select resistant tomato varieties (look for 'F' in the variety code, indicating resistance to race 1, 'F2' for races 1 and 2, etc.).",
+      "Rotate crops for at least 3-4 years, avoiding other solanaceous hosts.",
+      "Maintain soil pH between 6.5 and 7.0 to suppress the pathogen.",
+      "Sanitize all tools, stakes, and equipment between uses.",
+      "Remove and destroy infected plants immediately to reduce soil inoculum."
+    ],
+    "biological": [
+      "Inoculating soil with beneficial microbes like *Trichoderma* spp. or non-pathogenic *Fusarium* strains can suppress the pathogen."
+    ],
+    "chemical": [
+      "Pre-plant soil fumigation is effective but typically only used in large-scale commercial production.",
+      "No effective foliar fungicides are available for treatment, as the pathogen is inside the plant's vascular system.",
+      "Soil-drench fungicides may offer some protection but are not curative once infection is established."
+    ],
+    "notes": "The most effective management strategy is prevention through the use of resistant varieties and good cultural practices."
+  }
+}

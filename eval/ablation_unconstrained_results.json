@@ -1,0 +1,2102 @@
+[
+  {
+    "model": "gemini3_flash",
+    "image_id": "2b87463729e01f46.jpg",
+    "response": "As a botanist, identifying a plant often requires looking at specific characteristics in a logical order. Based on the prominent hairs (trichomes) and the broad, lobed leaf structure shown in your image, this plant appears to be a member of the **Cucurbitaceae** family (which includes squashes, gourds, and melons).\n\nTo provide a precise species diagnosis, I would ask you the following sequential questions:\n\n1.  **Growth Habit & Tendrils:** Does the plant grow as a climbing or creeping vine? If s...",
+    "scores": {
+      "diag": 0.5,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Bottle Gourd",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "qwen3_235b",
+    "image_id": "2b87463729e01f46.jpg",
+    "response": "Certainly! As a botanist, I\u2019ll guide you through a diagnostic sequence to identify this plant. Let\u2019s begin:\n\n\u2014\n\n**Question 1: Leaf Morphology**  \nWhat is the overall shape of the leaf? Is it palmate, cordate, lobed, or another form? Also, note the margin \u2014 is it entire, serrated, or crenate? And do you observe any fine hairs (trichomes) along the edges or surface?\n\n\u2014\n\n**Question 2: Venation Pattern**  \nCan you describe the vein structure? Is it palmate (veins radiating from a single point), pinn...",
+    "scores": {
+      "diag": 0.5,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Bottle Gourd",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "seed_1_6",
+    "image_id": "2b87463729e01f46.jpg",
+    "response": "### Sequential Diagnostic Questions to Identify the Plant:  \n\n\n#### **Question 1**: Is the leaf margin *serrated* (toothed) or *entire* (smooth)?  \n*Observation*: The leaf edge has small, sharp teeth.  \n*Answer*: Serrated.  \n\n\n#### **Question 2**: Do the stems have *stellate* (star-shaped) hairs, *simple* (fine, unbranched) hairs, or no hairs?  \n*Observation*: The stems have soft, fine, unbranched hairs.  \n*Answer*: Simple hairs.  \n\n\n#### **Question 3**: Are there *tendrils* emerging from the le...",
+    "scores": {
+      "diag": 0.0,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Bottle Gourd",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "gemini3_flash",
+    "image_id": "d55b6b7a97739dc0.jpg",
+    "response": "To accurately diagnose the specific species of this plant, I need to look beyond the leaf characteristics shown in your photo. While the leaf shape, texture, and tendrils strongly suggest a member of the **Cucurbitaceae (Gourd/Squash)** family, several genera look very similar at this stage.\n\nLet's proceed with a series of sequential questions to narrow it down:\n\n**1. Regarding the flowers:** Have you seen any flowers on this plant? If so, what color are they? \n*   *Why this matters:* Bright yel...",
+    "scores": {
+      "diag": 0.0,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Bottle Gourd",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "qwen3_235b",
+    "image_id": "d55b6b7a97739dc0.jpg",
+    "response": "Certainly! As a botanist, I\u2019ll guide you through a diagnostic sequence to identify and assess the plant in the image. Let\u2019s begin:\n\n\u2014\n\n**Question 1: What is the overall leaf morphology?**  \nCan you describe the leaf shape (e.g., palmate, cordate, ovate), margin (e.g., serrated, lobed, entire), and surface texture (e.g., hairy, smooth, waxy)? Note the presence of any visible trichomes (hairs) or glandular structures.\n\n\u2014\n\n**Question 2: Are there any tendrils or specialized climbing structures visi...",
+    "scores": {
+      "diag": 0.5,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Bottle Gourd",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "seed_1_6",
+    "image_id": "d55b6b7a97739dc0.jpg",
+    "response": "To diagnose the plant in the image, here are sequential botanical questions and reasoning:\n\n\n### **Question 1: Does the plant produce coiled, thread-like tendrils?**  \n*Observation from the image: A coiled tendril is visible (upper right).*  \n**Reasoning**: Tendrils are a defining feature of the *Cucurbitaceae* family (cucumbers, melons, squashes, gourds). This narrows the plant to cucurbits.  \n\n\n### **Question 2: Are the leaves arranged alternately (one per stem node) or opposite (two per node)...",
+    "scores": {
+      "diag": 0.0,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Bottle Gourd",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "gemini3_flash",
+    "image_id": "46a1d64efb138c11.jpg",
+    "response": "As a botanist, I can help you identify this plant. Looking at the image, I see a large, heart-shaped (cordate) leaf with palmate venation\u2014meaning the main veins radiate from a single point at the base. The margins are serrated and covered in fine, white hairs (trichomes). These features strongly suggest a member of the **Cucurbitaceae** (gourd and squash) family.\n\nTo narrow down the specific genus and species, I need to ask a few sequential questions:\n\n**1. Growth Habit & Support:** Is this plan...",
+    "scores": {
+      "diag": 0.0,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Bottle Gourd",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "qwen3_235b",
+    "image_id": "46a1d64efb138c11.jpg",
+    "response": "Certainly! As a botanist, I\u2019ll guide you through a diagnostic sequence to identify the plant based on this close-up leaf image. Let\u2019s proceed step by step:\n\n\u2014\n\n**Question 1: Leaf Shape & Margin**  \nThe leaf has a broadly ovate to nearly circular shape with a lobed or palmate outline and a serrated or toothed margin. Does the leaf have 3\u20135 distinct lobes radiating from the base, or is it more uniformly lobed without deep divisions?\n\n\u2014\n\n**Question 2: Leaf Surface & Hairs**  \nYou can see fine, whit...",
+    "scores": {
+      "diag": 0.5,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Bottle Gourd",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "seed_1_6",
+    "image_id": "46a1d64efb138c11.jpg",
+    "response": "1. **What is the shape of the leaf margin (edge)?** (e.g., serrated, lobed, entire, crenate)  \n2. **Is the primary venation pattern palmate (veins radiating from a single base point) or pinnate (veins along a central midrib)?**  \n3. **What is the texture of the leaf surface?** (e.g., hairy, smooth, waxy, pubescent)  \n4. **Does the leaf base have a distinct shape?** (e.g., cordate/heart-shaped, truncate,\u6954\u5f62/oblong)  \n5. **How large is the leaf (approximate dimensions)?** (e.g., length >15cm, width...",
+    "scores": {
+      "diag": 1.0,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Bottle Gourd",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "gemini3_flash",
+    "image_id": "fa9a4a3d05e98809.jpg",
+    "response": "To provide an accurate botanical diagnosis, I need more information than just a single leaf can provide. While this leaf has characteristics common to the **Malvaceae** family (specifically the genus *Gossypium*, which includes cotton), several steps are needed to confirm the identity.\n\nPlease answer the following sequential questions:\n\n**1. Growth Habit:** Can you describe the overall plant? Is it a low-growing herbaceous plant, a woody shrub, or a large tree?\n\n**2. Leaf Arrangement:** Looking ...",
+    "scores": {
+      "diag": 0.5,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Cotton",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "qwen3_235b",
+    "image_id": "fa9a4a3d05e98809.jpg",
+    "response": "Certainly! As a botanist, I\u2019ll begin with a structured, sequential diagnostic approach to identify this plant. Let\u2019s proceed step by step:\n\n\u2014\n\n**Question 1: Leaf Morphology**  \nWhat is the overall shape of the leaf? Is it simple or compound? Does it appear palmately lobed, cordate, ovate, or another form?\n\n\u2014\n\n**Question 2: Leaf Margin and Apex**  \nAre the leaf margins smooth (entire), toothed (serrate), or lobed? What is the shape of the leaf apex \u2014 acuminate, obtuse, rounded, or truncate?\n\n\u2014\n\n*...",
+    "scores": {
+      "diag": 0.5,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Cotton",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "seed_1_6",
+    "image_id": "fa9a4a3d05e98809.jpg",
+    "response": "To diagnose the plant using the leaf image, follow these sequential botanical questions:\n\n\n### **Question 1: Is the leaf simple (single blade) or compound (divided into leaflets)?**  \n*Observation:* The leaf has a single, undivided blade.  \n*Answer:* Simple.  \n\n\n### **Question 2: How many lobes does the leaf have, and are they palmately arranged (veins radiating from a central point)?**  \n*Observation:* The leaf has 3 distinct lobes, with veins radiating from a central base.  \n*Answer:* Palmatel...",
+    "scores": {
+      "diag": 0.0,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Cotton",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "gemini3_flash",
+    "image_id": "0367dca446c83989.jpg",
+    "response": "To help you identify this plant accurately, I need to gather more information beyond just this single leaf. While its shape and venation are very distinctive, botanical identification often requires looking at the \"whole picture.\"\n\nAs a botanist, I have a few sequential questions for you:\n\n1.  **Environment and Location:** Where did you find this leaf? Was it in a cultivated garden, a large farm field, or growing wild? What part of the world (country/state) are you in?\n2.  **Growth Habit:** Can ...",
+    "scores": {
+      "diag": 0.5,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Cotton",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "qwen3_235b",
+    "image_id": "0367dca446c83989.jpg",
+    "response": "Certainly. As a botanist, I\u2019ll begin with a systematic diagnostic approach to identify this plant. Let\u2019s proceed step by step:\n\n\u2014\n\n**Question 1:**  \nWhat is the overall shape and arrangement of the leaf? Is it simple or compound? Does it have lobes, and if so, how many?\n\n\u2014\n\n**Question 2:**  \nCan you describe the margin (edge) of the leaf? Is it smooth, serrated, toothed, or lobed?\n\n\u2014\n\n**Question 3:**  \nWhat is the venation pattern? Are the veins palmate (radiating from a single point), pinnate (...",
+    "scores": {
+      "diag": 0.5,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Cotton",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "seed_1_6",
+    "image_id": "0367dca446c83989.jpg",
+    "response": "To diagnose the plant using the leaf in the image, follow these sequential botanical questions:\n\n\n### **Question 1: How many primary lobes does the leaf exhibit?**  \n*(Observation: The leaf has 5 distinct lobes.)*  \n\n\n### **Question 2: Is the leaf margin serrated, crenate (round-toothed), or entire (smooth)?**  \n*(Observation: The margin is smooth with no teeth or notches.)*  \n\n\n### **Question 3: What type of venation is present (pinnate, palmate, or parallel)?**  \n*(Observation: Veins radiate f...",
+    "scores": {
+      "diag": 0.0,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Cotton",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "gemini3_flash",
+    "image_id": "80d23b5af82d68d0.jpg",
+    "response": "Based on the morphology of this leaf\u2014specifically its palmate shape, three to five distinct lobes, and radiating venation\u2014it bears a strong resemblance to plants in the Malvaceae family, such as cotton (*Gossypium*) or certain types of Hibiscus.\n\nTo narrow down the identification, I would ask you the following sequential questions:\n\n1.  **What is the overall growth habit of the plant?** Is it a low-growing herb, a woody shrub, or a tall tree? Knowing if it is an annual or perennial helps signifi...",
+    "scores": {
+      "diag": 0.5,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Cotton",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "qwen3_235b",
+    "image_id": "80d23b5af82d68d0.jpg",
+    "response": "Certainly! As a botanist, I\u2019ll ask a series of sequential diagnostic questions to identify the plant in the image. Let\u2019s begin:\n\n\u2014\n\n**Question 1:**  \nWhat is the overall shape of the leaf? Is it palmate (like a hand with fingers), lobed, ovate, cordate, or another form?\n\n\u2014\n\n**Question 2:**  \nHow many lobes or lobes-like divisions does the leaf have? Are they symmetrically arranged?\n\n\u2014\n\n**Question 3:**  \nWhat is the margin (edge) of the leaf like? Is it smooth (entire), toothed (serrate), lobed, ...",
+    "scores": {
+      "diag": 0.5,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Cotton",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "seed_1_6",
+    "image_id": "80d23b5af82d68d0.jpg",
+    "response": "To diagnose the plant from the leaf image, here are sequential, targeted questions to narrow down characteristics:\n\n\n### **Question 1**:  \nDoes the leaf exhibit **palmately reticulate venation** (veins radiating from a single central point at the leaf base, like fingers from a palm)?  \n\n\n### **Question 2**:  \nHow many distinct **lobes** does the leaf have (counting the main divisions from the base to the tip)?  \n\n\n### **Question 3**:  \nIs the margin of the leaf between the lobes (sinuses) **smoo...",
+    "scores": {
+      "diag": 0.0,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Cotton",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "gemini3_flash",
+    "image_id": "b282d4202fe74c71.jpg",
+    "response": "As a botanist, I can see that you have a healthy-looking purple fruit, which confirms this is an **eggplant** (*Solanum melongena*), likely a round variety such as an Indian or Italian globe eggplant.\n\nTo help diagnose the overall health and any potential issues with your plant, I would like to ask you a sequence of questions:\n\n1.  **Leaf Damage:** In the upper-left of your photo, I noticed some small holes and irregular brown spots on a leaf. Are these spots and holes present on many leaves thr...",
+    "scores": {
+      "diag": 0.5,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Eggplant Brinjal",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "qwen3_235b",
+    "image_id": "b282d4202fe74c71.jpg",
+    "response": "Certainly. As a botanist, I\u2019ll guide you through a diagnostic sequence to identify and assess the plant in the image. Let\u2019s begin:\n\n\u2014\n\n**Question 1: What is the general growth habit of the plant?**  \nIs it herbaceous or woody? Does it appear to be an annual, biennial, or perennial? (Note: The stem looks herbaceous and soft, typical of many garden vegetables.)\n\n\u2014\n\n**Question 2: Describe the fruit morphology.**  \nWhat is the shape, color, and surface texture of the fruit? Is it smooth, glossy, or ...",
+    "scores": {
+      "diag": 0.5,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Eggplant Brinjal",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "seed_1_6",
+    "image_id": "b282d4202fe74c71.jpg",
+    "response": "### Sequential Diagnostic Questions  \n\n1. **Is the fruit a fleshy, indehiscent (doesn't split open) berry with numerous seeds?**  \n   *Observation*: The fruit is plump, purple, and attached to the plant, consistent with a berry.  \n   *Answer*: Yes  \n\n\n2. **Are the leaves simple (not divided) and arranged alternately on the stem?**  \n   *Observation*: Leaves appear undivided and spaced along the stem (not opposite).  \n   *Answer*: Yes  \n\n\n3. **Is the plant herbaceous (soft, non-woody stem) rather...",
+    "scores": {
+      "diag": 0.0,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Eggplant Brinjal",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "gemini3_flash",
+    "image_id": "0a9f733ef54f9a71.jpg",
+    "response": "Based on the image provided, you have a healthy-looking long, purple variety of eggplant (*Solanum melongena*), possibly a Japanese or Chinese cultivar.\n\nTo help diagnose any potential issues you might be seeing with the plant, I will ask a series of sequential questions. Let's start with the most visible signs:\n\n1.  **What is the primary concern that prompted you to seek a diagnosis?** (e.g., Is the fruit falling off, are the leaves turning yellow, or is growth stunted?)\n2.  **Looking at the le...",
+    "scores": {
+      "diag": 0.5,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Eggplant Brinjal",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "qwen3_235b",
+    "image_id": "0a9f733ef54f9a71.jpg",
+    "response": "Certainly. As a botanist, I\u2019ll guide you through a diagnostic sequence to identify and assess the plant\u2019s health and characteristics. Let\u2019s begin:\n\n\u2014\n\n**Question 1: What is the general morphology of the fruit?**  \nCan you describe its shape, size, and color? Is it elongated, rounded, or irregular? Does it have a glossy or matte surface? (In this case, it appears elongated, dark purple, with a smooth, slightly glossy skin \u2014 consistent with certain eggplant varieties.)\n\n\u2014\n\n**Question 2: What is th...",
+    "scores": {
+      "diag": 1.0,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Eggplant Brinjal",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "seed_1_6",
+    "image_id": "0a9f733ef54f9a71.jpg",
+    "response": "### Sequential Diagnostic Questions  \n\n1. **Is the plant producing a fleshy, elongated fruit with a thick, glossy skin, and a persistent green calyx (leafy structure) at the stem end?**  \n   *Observation*: The fruit in the image matches this description (purple, elongated, thick skin, green calyx). **Yes**.  \n\n\n2. **Do the leaves of the plant have a broad, ovate shape, with a slightly hairy surface, and are arranged alternately along the stem?**  \n   *Observation*: The leaves in the image are br...",
+    "scores": {
+      "diag": 1.0,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Eggplant Brinjal",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "gemini3_flash",
+    "image_id": "8195faf4fb7b64d4.jpg",
+    "response": "Based on the image, your eggplant fruit has developed numerous small, white spots. To help me narrow down whether this is a pest issue, a disease, or an environmental reaction, I have a few diagnostic questions for you:\n\n1.  **What is the texture of the white spots?** If you run your finger over them, are they slightly raised (like tiny scabs), perfectly flat, or do they feel like small pits/indentations in the skin?\n2.  **Are the spots appearing anywhere else?** Check the leaves of this plant\u2014e...",
+    "scores": {
+      "diag": 0.5,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Eggplant Brinjal",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "qwen3_235b",
+    "image_id": "8195faf4fb7b64d4.jpg",
+    "response": "Certainly. As a botanist, I\u2019ll ask a series of sequential diagnostic questions to assess the health, development, and potential issues with the eggplant (Solanum melongena) shown in the image.\n\n\u2014\n\n**Question 1: What is the developmental stage of the fruit?**  \nIs this eggplant immature, mature but not yet ripe, or fully ripe? Note its size, color saturation, and firmness (if palpable). The deep purple color and smooth skin suggest it may be approaching maturity, but is it ready for harvest?\n\n\u2014\n\n...",
+    "scores": {
+      "diag": 0.5,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Eggplant Brinjal",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "seed_1_6",
+    "image_id": "8195faf4fb7b64d4.jpg",
+    "response": "### Sequential Diagnostic Questions:  \n\n1. **Is the plant's fruit a fleshy, indehiscent (non-splitting) berry with a smooth, waxy surface and a persistent calyx at the base?**  \n   *Yes (eggplant fruit fits this description).*  \n\n2. **Do the leaves have a broad, ovate shape, are they pubescent (hairy), and arranged alternately on the stem?**  \n   *Yes (eggplant leaves are typically large, lobed, and hairy).*  \n\n3. **Is the stem herbaceous (soft, green) rather than woody?**  \n   *Yes (eggplant is...",
+    "scores": {
+      "diag": 1.0,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Eggplant Brinjal",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "gemini3_flash",
+    "image_id": "33084ca39637a22b.jpg",
+    "response": "As a botanist, identifying a single detached leaf requires a systematic approach to narrow down the possibilities. This leaf has some distinctive features: it's dark green, somewhat leathery (coriaceous), has an entire (smooth) margin, and the veins are notably impressed, giving the surface a textured look.\n\nTo reach a precise diagnosis, please answer the following questions one at a time:\n\n**1. How are the leaves arranged on the stem of the living plant?**\n*   **Alternate:** One leaf per node, ...",
+    "scores": {
+      "diag": 0.5,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Grape",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "qwen3_235b",
+    "image_id": "33084ca39637a22b.jpg",
+    "response": "Certainly. As a botanist, I\u2019ll begin with a systematic, step-by-step diagnostic approach to identify the plant based on this single leaf. Here are my sequential questions:\n\n\u2014\n\n**1. Leaf Shape and Margin**  \nWhat is the overall shape of the leaf? (e.g., lanceolate, ovate, elliptical, cordate)  \nIs the margin smooth (entire), toothed (serrate), lobed, or wavy?\n\n\u2014\n\n**2. Venation Pattern**  \nCan you describe the venation? Is it pinnate (one main vein with smaller veins branching off), palmate, paral...",
+    "scores": {
+      "diag": 0.5,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Grape",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "seed_1_6",
+    "image_id": "33084ca39637a22b.jpg",
+    "response": "To diagnose the plant from the leaf image, follow this sequential key of botanical questions:\n\n\n### **Question 1: Is the leaf simple (undivided) or compound (divided into leaflets)?**  \n*Observation from image:* Simple (no leaflets).  \n\n\n### **Question 2: What is the leaf margin (edge) like?**  \n- Smooth (entire), *or*  \n- Toothed (serrated), *or*  \n- Lobed.  \n*Observation from image:* Entire (smooth).  \n\n\n### **Question 3: How is the leaf venation structured?**  \n- Pinnate (veins branch from a ...",
+    "scores": {
+      "diag": 0.0,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Grape",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "gemini3_flash",
+    "image_id": "7f79e148c5412809.jpg",
+    "response": "Based on the image provided, you have a single, dark green, leathery leaf with an entire (smooth) margin and pinnate venation. This leaf shape is common across several plant families, particularly those found in tropical or subtropical climates.\n\nTo help identify this plant accurately, I need to ask a few sequential questions about the parent plant. Let\u2019s start with the most fundamental characteristics:\n\n1.  **What is the overall growth habit of the plant?** Is it a large tree, a smaller shrub, ...",
+    "scores": {
+      "diag": 0.0,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Grape",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "qwen3_235b",
+    "image_id": "7f79e148c5412809.jpg",
+    "response": "Certainly. As a botanist, I\u2019ll begin with a systematic, step-by-step diagnostic approach to identify the plant based on this single leaf specimen. Here are my sequential questions:\n\n\u2014\n\n**1. Leaf Morphology & Shape**  \nWhat is the overall shape of the leaf? Is it ovate, elliptical, lanceolate, cordate, or another form? (Note: The leaf in the image appears broadly ovate to elliptical with a slightly acuminate apex.)\n\n\u2014\n\n**2. Leaf Margin**  \nIs the leaf margin entire, serrated, lobed, or toothed? (...",
+    "scores": {
+      "diag": 0.5,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Grape",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "seed_1_6",
+    "image_id": "7f79e148c5412809.jpg",
+    "response": "1. Is the leaf edge smooth (no teeth, lobes, or serrations) or does it have visible teeth, lobes, or other markings?  \n2. Are the secondary veins (branches from the midrib) clearly visible and branching out from the midrib at a distinct angle (pinnate venation) or do they form a different pattern (e.g., palmate, parallel)?  \n3. Is the leaf arranged alternately on the stem (one leaf per node), opposite (two leaves per node), or whorled (three or more leaves per node)?  \n4. What is the texture of ...",
+    "scores": {
+      "diag": 0.0,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Grape",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "gemini3_flash",
+    "image_id": "e2a7e1df494cfc2c.jpg",
+    "response": "To accurately identify this plant from a single leaf, I need to gather more information about its overall growth and context. Identifying a plant by its foliage alone can be challenging as many species share similar leaf shapes.\n\nLet's start with the first set of questions:\n\n1.  **What is the overall growth habit of the plant?** Is it a large tree, a shrub, a low-growing herb, or a vine?\n2.  **How are the leaves arranged on the stem?** Do they grow directly across from each other (opposite), or ...",
+    "scores": {
+      "diag": 0.5,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Grape",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "qwen3_235b",
+    "image_id": "e2a7e1df494cfc2c.jpg",
+    "response": "Certainly. As a botanist, I\u2019ll begin with a systematic diagnostic approach. Here are my sequential questions to identify and assess the plant in this image:\n\n\u2014\n\n**Q1: What is the overall shape and margin of the leaf?**  \nIs it lanceolate, elliptical, ovate, or another shape? Are the leaf margins entire, serrated, lobed, or toothed?\n\n\u2014\n\n**Q2: What is the venation pattern?**  \nDoes it show pinnate, palmate, parallel, or reticulate venation? Can you see a prominent midrib and secondary veins?\n\n\u2014\n\n*...",
+    "scores": {
+      "diag": 0.5,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Grape",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "seed_1_6",
+    "image_id": "e2a7e1df494cfc2c.jpg",
+    "response": "To diagnose the plant, follow these sequential botanical questions:\n\n\n### **Step 1: Is the leaf simple or compound?**  \n*Observation:* The leaf is a single, undivided blade (simple).  \n\n\n### **Step 2: What is the leaf margin (edge)?**  \n*Observation:* The margin is smooth/entire (no teeth, lobes, or serrations).  \n\n\n### **Step 3: How is venation structured?**  \n*Observation:* Veins branch from a central midrib and extend to the leaf margins (pinnate venation).  \n\n\n### **Step 4: What is the leaf ...",
+    "scores": {
+      "diag": 0.0,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Grape",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "gemini3_flash",
+    "image_id": "a8b95fdf9c905574.jpg",
+    "response": "Hello. I am a botanist, and I'd be happy to help you identify this plant. Based on the image, I can see two ovate leaves with serrated (toothed) margins and a distinct venation pattern that appears palmate at the very base, branching into pinnate veins further up.\n\nTo provide an accurate diagnosis, I need to narrow down the plant's overall characteristics. Let's start with these initial questions:\n\n1. **What is the overall growth habit of the plant?** Is it a woody shrub, a large tree, or a low-...",
+    "scores": {
+      "diag": 0.5,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Hibiscus",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "qwen3_235b",
+    "image_id": "a8b95fdf9c905574.jpg",
+    "response": "Certainly. As a botanist, I\u2019ll begin with a systematic, step-by-step diagnostic approach to identify the plant based on its leaf morphology. Here are my sequential questions:\n\n\u2014\n\n**1. Leaf Arrangement & Number**  \nAre these two leaves from the same plant? If so, are they arranged oppositely, alternately, or in whorls on the stem? (Note: The image shows two detached leaves \u2014 can you confirm if they were attached to the same stem or different plants?)\n\n\u2014\n\n**2. Leaf Shape & Margin**  \nThe leaves ar...",
+    "scores": {
+      "diag": 0.5,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Hibiscus",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "seed_1_6",
+    "image_id": "a8b95fdf9c905574.jpg",
+    "response": "### Sequential Diagnostic Questions for Botanical Identification  \n\n\n#### **Question 1**: Are the leaves **simple** (undivided into leaflets) or **compound** (divided into leaflets)?  \n*Observation*: The leaves in the image are undivided, so response = \"Simple.\"  \n\n\n#### **Question 2**: Do the leaf margins have **serrations** (sharp, forward-pointing teeth) or are they **entire** (smooth) or **lobed** (deep indentations)?  \n*Observation*: The leaves have sharp, forward-pointing teeth along the e...",
+    "scores": {
+      "diag": 1.0,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Hibiscus",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "gemini3_flash",
+    "image_id": "3ba94327396dd821.jpg",
+    "response": "Hello! As a botanist, I can certainly help you identify this specimen.\n\nBased on the image, I see a vibrant green leaf with an ovate shape, a pointed tip (apex), and distinct serrated (toothed) margins. The vein pattern is pinnate, with a strong central midrib.\n\nHowever, a single leaf is often not enough for a definitive identification. To narrow this down, I need to ask you a series of questions about the rest of the plant.\n\n**My first question is: Is this a simple leaf (growing individually fr...",
+    "scores": {
+      "diag": 0.5,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Hibiscus",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "qwen3_235b",
+    "image_id": "3ba94327396dd821.jpg",
+    "response": "Certainly. As a botanist, I\u2019ll begin with a systematic, step-by-step diagnostic approach to identify the plant based on this single leaf. Let\u2019s proceed sequentially:\n\n\u2014\n\n**Question 1: Leaf Morphology \u2014 What is the overall shape of the leaf?**  \nIs it ovate, lanceolate, cordate, elliptical, or another shape? (From the image, it appears broadly ovate to slightly heart-shaped at the base \u2014 but I want to confirm your observation.)\n\n\u2014\n\n**Question 2: Margin Type \u2014 What is the edge of the leaf like?** ...",
+    "scores": {
+      "diag": 0.5,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Hibiscus",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "seed_1_6",
+    "image_id": "3ba94327396dd821.jpg",
+    "response": "To diagnose the plant from the leaf image, here are sequential, botanical questions focusing on key identifying traits:  \n\n\n### **Question 1: Is the leaf *simple* (a single, undivided blade) or *compound* (blade divided into leaflets)?**  \n*(Answer: Simple, as the image shows one continuous blade.)*  \n\n\n### **Question 2: What is the *general shape* of the leaf blade (e.g., elliptical, lanceolate, ovate, or cordate)?**  \n*(Example: If oval with a wider base, this might point to species like popla...",
+    "scores": {
+      "diag": 0.0,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Hibiscus",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "gemini3_flash",
+    "image_id": "b20a92ad0babfb01.jpg",
+    "response": "As a botanist, I can help you identify this plant. To reach an accurate diagnosis, I need to understand more about the plant's overall structure and growth habits, as many species have similar-looking leaves.\n\nLet's start with these first diagnostic questions:\n\n1.  **What is the overall growth habit of the plant?** Is it a woody shrub, a small tree, or a soft-stemmed (herbaceous) plant?\n2.  **How are the leaves arranged on the stem?** Do they grow one after another (alternate) or in pairs direct...",
+    "scores": {
+      "diag": 0.5,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Hibiscus",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "qwen3_235b",
+    "image_id": "b20a92ad0babfb01.jpg",
+    "response": "Certainly. As a botanist, I\u2019ll begin with a diagnostic sequence to identify the plant from these two leaves. Let\u2019s proceed step by step:\n\n\u2014\n\n**Question 1: Leaf Shape and Margin**  \nWhat is the overall shape of the leaves \u2014 are they ovate, cordate, lanceolate, or another form? Also, describe the leaf margin: is it serrated, lobed, entire, or toothed?\n\n\u2014\n\n**Question 2: Venation Pattern**  \nCan you observe the vein structure? Is it pinnate (one main vein with side branches), palmate (several main v...",
+    "scores": {
+      "diag": 0.5,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Hibiscus",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "seed_1_6",
+    "image_id": "b20a92ad0babfb01.jpg",
+    "response": "To diagnose the plant in the image, here are sequential, focused questions based on botanical characteristics:\n\n\n### **Question 1: Leaf Margin**  \nAre the leaf margins *serrated* (with small, sharp teeth) or *entire* (smooth, no teeth or lobes)?  \n\n\n### **Question 2: Leaf Arrangement**  \nAre the leaves arranged *alternately* (one leaf per stem node) or *oppositely* (two leaves per node)?  \n\n\n### **Question 3: Venation Pattern**  \nDoes the leaf have *pinnate venation* (one central main vein with ...",
+    "scores": {
+      "diag": 1.0,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Hibiscus",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "gemini3_flash",
+    "image_id": "e9d93050ae9c4a11.jpg",
+    "response": "Hello. As a botanist, I can see that this is a healthy, elongated leaf with prominent pinnate venation, but to provide a precise identification, I need to understand more about the plant it came from.\n\nTo begin our diagnostic process, here is my first question:\n\n**What is the overall habit of the plant (is it a large tree, a shrub, or a vine), and how are the leaves arranged on the branches\u2014do they grow in opposite pairs, or do they alternate along the stem?**...",
+    "scores": {
+      "diag": 0.5,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Mango",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "qwen3_235b",
+    "image_id": "e9d93050ae9c4a11.jpg",
+    "response": "Certainly. As a botanist, I\u2019ll begin with a systematic diagnostic approach to identify this plant. Let\u2019s proceed step by step:\n\n\u2014\n\n**Question 1:**  \nWhat is the overall shape of the leaf? Is it elliptical, lanceolate, ovate, cordate, or another form?\n\n\u2014\n\n**Question 2:**  \nCan you describe the leaf margin? Is it smooth (entire), serrated, lobed, or toothed?\n\n\u2014\n\n**Question 3:**  \nWhat is the venation pattern? Is it pinnate (one central vein with smaller veins branching off), palmate (veins radiati...",
+    "scores": {
+      "diag": 0.5,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Mango",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "seed_1_6",
+    "image_id": "e9d93050ae9c4a11.jpg",
+    "response": "To diagnose the plant, here are sequential botanical questions based on the leaf and plant characteristics:  \n\n\n### **Question 1**: Is the leaf **simple** (single undivided blade) or **compound** (divided into leaflets)?  \n*Assume answer: Simple (as the leaf is undivided).*  \n\n\n### **Question 2**: What is the **leaf margin** (edge)\u2014entire (smooth), serrated (toothed), lobed, or notched?  \n*Assume answer: Entire (smooth).*  \n\n\n### **Question 3**: Are leaves arranged **alternately** (one per node)...",
+    "scores": {
+      "diag": 1.0,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Mango",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "gemini3_flash",
+    "image_id": "b03136eac4f6e50a.jpg",
+    "response": "Hello. As a botanist, I\u2019d be happy to help you identify this plant. While a single leaf provides excellent clues, identification is a process of observation and elimination. \n\nBased on this image, I can see a deep green, elliptical leaf with very prominent pinnate venation (secondary veins branching off a strong central midrib). To narrow this down accurately, I need to ask you a few sequential questions:\n\n**1. Leaf Arrangement:** Looking at the branch this leaf came from, how are the leaves att...",
+    "scores": {
+      "diag": 0.5,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Mango",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "qwen3_235b",
+    "image_id": "b03136eac4f6e50a.jpg",
+    "response": "Certainly. As a botanist, I\u2019ll begin with a systematic, step-by-step diagnostic approach to identify the plant based on the leaf morphology visible in the image. Let\u2019s proceed:\n\n\u2014\n\n**Question 1: Leaf Shape and Margin**  \nWhat is the overall shape of the leaf? (e.g., ovate, lanceolate, elliptical, cordate)  \nAlso, is the leaf margin entire (smooth), serrated, lobed, or toothed?\n\n\u2014\n\n**Question 2: Venation Pattern**  \nCan you describe the venation? Is it pinnate (one main vein with smaller veins br...",
+    "scores": {
+      "diag": 0.5,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Mango",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "seed_1_6",
+    "image_id": "b03136eac4f6e50a.jpg",
+    "response": "To diagnose the plant, follow these sequential botanical questions, considering the leaf characteristics visible in the image:  \n\n\n### **Question 1: Is the leaf *simple* (undivided) or *compound* (divided into leaflets)?**  \n*(The image shows a single undivided leaf, but this confirms its basic structure.)*  \n\n\n### **Question 2: On the stem, are leaves arranged *opposite* (two per node), *alternate* (one per node), or *whorled* (three+ per node)?**  \n*(Common in many plants; if alternate, it nar...",
+    "scores": {
+      "diag": 0.5,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Mango",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "gemini3_flash",
+    "image_id": "f5e9b13847fe1476.jpg",
+    "response": "Based on the visual evidence, this appears to be a healthy, lanceolate leaf with prominent pinnate venation, characteristic of several tropical evergreen trees. To provide an accurate identification and health diagnosis, I need to gather more information through the following sequential questions:\n\n1. **Growth Habit and Arrangement:** Is this leaf from a large tree, a small shrub, or a young sapling? On the branch, are the leaves arranged **alternately** (staggered along the stem) or **oppositel...",
+    "scores": {
+      "diag": 1.0,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Mango",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "qwen3_235b",
+    "image_id": "f5e9b13847fe1476.jpg",
+    "response": "Certainly. As a botanist, I\u2019ll begin with foundational observations and proceed step-by-step to narrow down the plant\u2019s identity. Let\u2019s start:\n\n\u2014\n\n**Question 1:**  \nWhat is the overall shape of the leaf? (e.g., lanceolate, elliptical, ovate, oblong, cordate, etc.)\n\n\u2014\n\n**Question 2:**  \nCan you describe the leaf margin? (e.g., entire, serrated, toothed, lobed, wavy?)\n\n\u2014\n\n**Question 3:**  \nIs the leaf simple or compound? (i.e., does it consist of a single blade, or are there multiple leaflets?)\n\n\u2014...",
+    "scores": {
+      "diag": 0.0,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Mango",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "seed_1_6",
+    "image_id": "f5e9b13847fe1476.jpg",
+    "response": "To diagnose the plant from the leaf in the image, here are sequential botanical questions:  \n\n\n### **Question 1: Is the leaf simple (single blade) or compound (multiple leaflets)?**  \n*(Observation: The image shows a single, undivided blade \u2192 **Simple leaf**.)*  \n\n\n### **Question 2: What is the leaf margin (edge) like? Smooth, toothed, lobed, or wavy?**  \n*(Observation: The leaf edges appear unbroken \u2192 **Entire margin**.)*  \n\n\n### **Question 3: Is the venation (vein pattern) parallel (veins run ...",
+    "scores": {
+      "diag": 0.0,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Mango",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "gemini3_flash",
+    "image_id": "95bf57beafdb3458.jpg",
+    "response": "Based on the visual evidence of this deeply lobed, palmately veined leaf, I have a strong preliminary identification. However, to confirm the diagnosis scientifically, I would ask the following sequential questions:\n\n**1. Growth Habit:** Is this leaf from a plant that grows as a large, fast-growing, herbaceous tree-like perennial with a single, unbranched trunk and a crown of leaves at the top?\n\n**2. Exudate:** If you were to break the leaf stalk (petiole) or nick the trunk, does the plant produ...",
+    "scores": {
+      "diag": 1.0,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Papaya",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "qwen3_235b",
+    "image_id": "95bf57beafdb3458.jpg",
+    "response": "Certainly. As a botanist, I\u2019ll guide you through a diagnostic sequence to identify the plant in the image. Let\u2019s begin:\n\n\u2014\n\n**Question 1:**  \nWhat is the overall shape and arrangement of the leaf? Is it simple or compound, and how many lobes or divisions does it have?\n\n\u2014\n\n**Question 2:**  \nAre the leaf margins entire, serrated, or lobed? If lobed, are the lobes deep or shallow, and do they have any notches or sinuses?\n\n\u2014\n\n**Question 3:**  \nCan you observe the venation pattern? Is it palmate (vei...",
+    "scores": {
+      "diag": 0.5,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Papaya",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "seed_1_6",
+    "image_id": "95bf57beafdb3458.jpg",
+    "response": "### Sequential Diagnostic Questions for Plant Identification (Leaf Focus):  \n\n\n1. **Is the leaf **simple** (not compound, with a single blade) and palmately lobed (lobes radiating from a central point)?**  \n   *Observation*: The leaf is a single blade with lobes radiating from a central vein\u2014**Yes**.  \n\n\n2. **Do the primary veins originate from a single point at the leaf base (palmate venation) rather than along a central stem (pinnate venation)?**  \n   *Observation*: Veins fan out from a single...",
+    "scores": {
+      "diag": 0.0,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Papaya",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "gemini3_flash",
+    "image_id": "6cd91451acc5e31a.jpg",
+    "response": "As a botanist, I can help you identify this specimen by examining its morphological characteristics. To begin our diagnostic process, let's look at the structure of the leaf in the image.\n\n**Step 1: General Architecture**\nNotice the overall shape of the leaf. It is \"simple\" (a single blade), but it is deeply divided. \n\n1.  **Where do the primary veins originate?** Do they all radiate from a single central point at the base of the leaf (like fingers from a palm), or do they branch off along a sin...",
+    "scores": {
+      "diag": 1.0,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Papaya",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "qwen3_235b",
+    "image_id": "6cd91451acc5e31a.jpg",
+    "response": "Certainly. As a botanist, I\u2019ll guide you through a diagnostic sequence to identify this plant. Let\u2019s begin:\n\n\u2014\n\n**Question 1: Leaf Morphology**  \nThe leaf is palmately lobed \u2014 can you confirm how many distinct lobes it has? (Typically 5\u20139 in this genus.)\n\n\u2014\n\n**Question 2: Leaf Margin and Texture**  \nAre the leaf margins smooth, serrated, or deeply incised? Also, is the surface glossy, matte, or hairy?\n\n\u2014\n\n**Question 3: Venation Pattern**  \nCan you observe the venation? Is it palmate (veins radia...",
+    "scores": {
+      "diag": 0.5,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Papaya",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "seed_1_6",
+    "image_id": "6cd91451acc5e31a.jpg",
+    "response": "To diagnose the plant in the image, we can use the following sequential botanical questions:\n\n\n### **Question 1**: Is the leaf margin **serrated** (with small, sharp teeth) or smooth (entire)?  \n*(Observation: The lobes in the image have serrated edges.)*  \n\n\n### **Question 2**: Does the leaf have a **palmately lobed structure** (multiple lobes radiating from a central point at the base)?  \n*(Observation: The leaf is clearly palmately lobed, with veins radiating from a single base point.)*  \n\n\n#...",
+    "scores": {
+      "diag": 1.0,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Papaya",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "gemini3_flash",
+    "image_id": "44323a5c81ba7833.jpg",
+    "response": "To help me identify this plant and diagnose any potential issues, let's go through a series of diagnostic questions. \n\n**Step 1: Overall Morphology and Growth Habit**\n\nTo begin, could you provide a bit more context about the entire plant? \n\n1.  **What is the overall growth habit?** For example, is it a climbing vine, a low-growing herb, a woody shrub, or a tree?\n2.  **How are the leaves arranged on the stem?** Do they grow one at a time (alternately) or in pairs (opposite each other)?\n3.  **What...",
+    "scores": {
+      "diag": 0.5,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Papaya",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "qwen3_235b",
+    "image_id": "44323a5c81ba7833.jpg",
+    "response": "Certainly. As a botanist, I\u2019ll ask a series of sequential, diagnostic questions to help identify the plant and assess its condition. Let\u2019s begin:\n\n\u2014\n\n**Question 1: What is the overall morphology of the leaf?**  \nCan you describe the leaf shape (e.g., ovate, cordate, lanceolate), margin (e.g., serrated, entire, lobed), and apex (e.g., acuminate, rounded)? Also, note if the leaf is simple or compound.\n\n\u2014\n\n**Question 2: What is the venation pattern?**  \nIs the venation pinnate, palmate, parallel, o...",
+    "scores": {
+      "diag": 0.5,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Papaya",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "seed_1_6",
+    "image_id": "44323a5c81ba7833.jpg",
+    "response": "To diagnose the plant, here are sequential, evidence-based questions:  \n\n\n### **Question 1**: Is the leaf margin (edge) smooth, toothed, or lobed?  \n*(Observation from image: The leaf edge appears smooth; assume \"smooth\" for this step.)*  \n\n\n### **Question 2**: Does the leaf have a distinct, central main vein with lateral veins branching off (pinnate venation), or do veins radiate from the base (palmate venation)?  \n*(Observation: Central main vein with lateral veins; assume \"pinnate venation.\")...",
+    "scores": {
+      "diag": 0.0,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Papaya",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "gemini3_flash",
+    "image_id": "87a7524ba4215c2f.jpg",
+    "response": "To help identify this specimen accurately, I need to gather more information about its physical characteristics that aren't fully apparent from the photograph.\n\nLet's start with these initial diagnostic questions:\n\n1. **What is the approximate length of the pod?** (Knowing the scale helps distinguish between different species of legumes, such as a garden pea versus a variety of bean).\n2. **If you open the pod, how many seeds are inside, and what is their shape and color?** (Are they perfectly ro...",
+    "scores": {
+      "diag": 0.5,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Peas",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "qwen3_235b",
+    "image_id": "87a7524ba4215c2f.jpg",
+    "response": "Certainly. As a botanist, I\u2019ll ask a series of sequential, diagnostic questions to help identify the plant in the image. Let\u2019s begin:\n\n\u2014\n\n**Question 1:**  \nIs the structure shown a fruit (specifically a legume/pod), and does it appear to be from a plant in the Fabaceae (pea/bean) family?  \n*(This is based on the elongated, green, slightly curved pod-like shape with visible sutures.)*\n\n\u2014\n\n**Question 2:**  \nAre there any visible seeds inside the pod, or is it still tightly closed?  \n*(This helps d...",
+    "scores": {
+      "diag": 0.0,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Peas",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "seed_1_6",
+    "image_id": "87a7524ba4215c2f.jpg",
+    "response": "1. Is the plant part in the image a **fleshy, elongated pod** (not dry or papery)?  \n2. Does the pod **not split open** (indehiscent) when mature (unlike pods that split into two halves, e.g., beans)?  \n3. Are there **multiple small seeds** visible or inferred inside the pod (typical of legumes)?  \n4. Does the pod surface appear **smooth** (no hairs or rough textures)?  \n5. Is the pod **green** and likely **sweet-tasting** when young (consistent with pea or snap pea characteristics)?  \n\n\n**Diagn...",
+    "scores": {
+      "diag": 1.0,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Peas",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "gemini3_flash",
+    "image_id": "26ab93b9a224b366.jpg",
+    "response": "As a botanist, I can help you identify and evaluate this specimen. Based on its outward appearance, it is a legume pod, very likely a garden pea (*Pisum sativum*).\n\nTo provide a more precise diagnosis or variety identification, I would need to ask the following sequential questions:\n\n1.  **Growth Habit:** Could you describe the plant this pod was harvested from? Specifically, was it a tall climbing vine using tendrils for support, or was it a shorter, self-supporting \"bush\" variety?\n2.  **Intern...",
+    "scores": {
+      "diag": 0.5,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Peas",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "qwen3_235b",
+    "image_id": "26ab93b9a224b366.jpg",
+    "response": "Certainly! As a botanist, I\u2019ll begin with a systematic diagnostic approach. Let\u2019s start with the most basic observational questions and proceed to more specific ones.\n\n\u2014\n\n**Question 1:**  \nWhat is the overall shape and size of the structure shown? Is it elongated and pod-like, or more rounded or flattened?\n\n\u2014\n\n**Question 2:**  \nWhat is the coloration? Is it uniformly green, or are there streaks, spots, or discolorations? Does it appear fresh or slightly aged?\n\n\u2014\n\n**Question 3:**  \nCan you see an...",
+    "scores": {
+      "diag": 0.5,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Peas",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "seed_1_6",
+    "image_id": "26ab93b9a224b366.jpg",
+    "response": "### Diagnostic Questions for the Plant in the Image  \n\n1. **Shape and Color**: Is the pod elongated, cylindrical, and primarily green in color (as seen in the image)?  \n   *Answer*: Yes, it is an elongated, green pod.  \n\n2. **Pod Structure**: Does the pod have a visible, central seam (suture) running along its length, and is the pod fleshy (not dry or papery)?  \n   *Answer*: Yes, a central seam is present, and the pod is fleshy.  \n\n3. **Seeds Inside**: When split open, are the seeds round, plump...",
+    "scores": {
+      "diag": 1.0,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Peas",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "gemini3_flash",
+    "image_id": "384e50c38a5feb8d.jpg",
+    "response": "As a botanist looking at this specimen, I can immediately identify it as a legume pod from the family *Fabaceae*. However, to narrow it down to the exact species and variety, I need to ask a series of diagnostic questions based on its physical characteristics and growth habits.\n\nPlease answer these questions in order to help me reach a diagnosis:\n\n1.  **External Texture:** When you touch the pod, is the skin completely smooth and slightly waxy, or does it have a very fine, velvet-like fuzz on th...",
+    "scores": {
+      "diag": 0.5,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Peas",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "qwen3_235b",
+    "image_id": "384e50c38a5feb8d.jpg",
+    "response": "Certainly! As a botanist, I\u2019ll begin with a systematic diagnostic approach. Let\u2019s start with the most basic observations and work toward more specific identification.\n\n\u2014\n\n**Question 1:**  \nIs this a fruit, seed, or vegetative structure? Based on its appearance \u2014 elongated, green, with a visible suture and calyx remnant \u2014 it appears to be a **legume pod**. Do you agree, or do you suspect it may be something else (e.g., a drupe, capsule, or modified leaf)?\n\n\u2014\n\n**Question 2:**  \nCan you confirm whe...",
+    "scores": {
+      "diag": 0.5,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Peas",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "seed_1_6",
+    "image_id": "384e50c38a5feb8d.jpg",
+    "response": "### Sequential Diagnostic Questions  \n\n1. **Is the structure a dry, dehiscent fruit (pod) that splits along two seams (\u80cc\u7f1d\u7ebf\u548c\u8179\u7f1d\u7ebf) when mature?**  \n   *Answer: Yes (typical of legumes; this pod would split to release seeds).*  \n\n2. **Does the pod contain multiple small, round seeds separated by internal constrictions?**  \n   *Answer: Yes (peas are arranged in this manner within the pod).*  \n\n3. **Is the pod smooth (no hairs or spines) and\u7fe0\u7eff\u8272 (bright green) when fresh?**  \n   *Answer: Yes (matches t...",
+    "scores": {
+      "diag": 0.0,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Peas",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "gemini3_flash",
+    "image_id": "5a4a92d9e9c50d0e.jpg",
+    "response": "Based on the image, this appears to be a legume pod, likely from the genus *Pisum* (common garden peas). To provide a more precise botanical diagnosis and identify the specific cultivar, I would need to ask the following sequential questions:\n\n1. **Growth Habit:** Does the parent plant have a climbing habit with tendrils, or is it a self-supporting \"determinate\" bush variety?\n2. **Foliage and Stipules:** What do the leaves look like? Are the stipules (the leaf-like structures at the base of the ...",
+    "scores": {
+      "diag": 0.5,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Peas",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "qwen3_235b",
+    "image_id": "5a4a92d9e9c50d0e.jpg",
+    "response": "Certainly. As a botanist, I\u2019ll guide you through a diagnostic sequence to identify the plant based on the image provided.\n\n---\n\n**Question 1: What is the overall morphology of the structure shown?**  \nIs this a fruit, seed, flower, leaf, or stem? Based on its elongated, pod-like shape with a visible suture and a slightly tapered end, it appears to be a legume pod \u2014 but let\u2019s confirm.\n\n---\n\n**Question 2: What is the color and surface texture of the pod?**  \nIt appears bright green and smooth, pos...",
+    "scores": {
+      "diag": 0.5,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Peas",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "seed_1_6",
+    "image_id": "5a4a92d9e9c50d0e.jpg",
+    "response": "1. Is the pod elongated and curved with a flat shape?  \n2. Does the pod have a visible seam along one side?  \n3. Is the pod smooth in texture?  \n4. Is the pod bright green in color?  \n5. Is there a small stem-like attachment at one end?  \n\n**Diagnosis**: The pod matches the characteristics of a *pea pod* (from the genus *Pisum* in the Fabaceae family). Pea pods are typically elongated, curved, flat, smooth, and green, with a seam along one side, and a stem attachment....",
+    "scores": {
+      "diag": 1.0,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Peas",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "gemini3_flash",
+    "image_id": "0d799432f8459baf.jpg",
+    "response": "As a botanist, I can see that this is a healthy, simple leaf with an entire (smooth) margin and prominent pinnate venation. However, many different species share this general leaf shape. To reach a precise diagnosis, I need to ask you a series of sequential questions about the plant it came from.\n\nLet's start with these:\n\n1.  **Leaf Arrangement:** When this leaf was still on the plant, how were the leaves attached to the branch? Were they **alternate** (staggered one by one), **opposite** (growi...",
+    "scores": {
+      "diag": 1.0,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Rubber",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "qwen3_235b",
+    "image_id": "0d799432f8459baf.jpg",
+    "response": "Certainly! As a botanist, I\u2019ll guide you through a diagnostic sequence to identify the plant based on its leaf morphology. Let\u2019s begin:\n\n---\n\n**Question 1: Leaf Shape & Margin**  \nWhat is the overall shape of the leaf? (e.g., ovate, lanceolate, elliptical, cordate)  \nAlso, describe the leaf margin \u2014 is it smooth (entire), toothed (serrated), lobed, or wavy?\n\n---\n\n**Question 2: Venation Pattern**  \nCan you observe the vein structure? Is it pinnate (one main vein with smaller veins branching off),...",
+    "scores": {
+      "diag": 0.5,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Rubber",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "seed_1_6",
+    "image_id": "0d799432f8459baf.jpg",
+    "response": "To diagnose the plant, we'll use sequential, observable characteristics:\n\n\n### **Question 1: Is the leaf simple (undivided) or compound (composed of leaflets)?**  \n*(Observation: The leaf has a single, continuous lamina\u2014no leaflets. Answer: Simple.)*  \n\n\n### **Question 2: If simple, does the leaf margin have teeth, lobes, or is it smooth (entire)?**  \n*(Observation: The leaf edge is smooth with no\u952f\u9f7f or lobes. Answer: Entire.)*  \n\n\n### **Question 3: With an entire margin, is the venation pinnate ...",
+    "scores": {
+      "diag": 0.0,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Rubber",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "gemini3_flash",
+    "image_id": "7983028820c6fad2.jpg",
+    "response": "As a botanist, I can help you identify this plant. Diagnosing a plant from a single leaf requires a step-by-step approach to narrow down the possibilities, as many species share similar leaf characteristics.\n\nBased on the image, the leaf has a smooth (entire) margin, a prominent central midrib, and secondary veins that curve slightly toward the tip. To move forward with the identification, let's start with these questions:\n\n1.  **What is the geographic location** where this plant is growing (e.g...",
+    "scores": {
+      "diag": 0.5,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Rubber",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "qwen3_235b",
+    "image_id": "7983028820c6fad2.jpg",
+    "response": "Certainly. As a botanist, I\u2019ll begin with a structured diagnostic approach. Let\u2019s start with the most observable features and proceed step by step.\n\n\u2014\n\n**Question 1: Leaf Shape & Margin**  \nWhat is the overall shape of the leaf? (e.g., ovate, elliptical, lanceolate, cordate)  \nAlso, describe the leaf margin \u2014 is it smooth (entire), toothed (serrated), lobed, or wavy?\n\n\u2014\n\n**Question 2: Venation Pattern**  \nDoes the leaf show pinnate, palmate, or parallel venation?  \nCan you see secondary veins br...",
+    "scores": {
+      "diag": 0.5,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Rubber",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "seed_1_6",
+    "image_id": "7983028820c6fad2.jpg",
+    "response": "To diagnose the plant from the leaf image, follow these sequential questions:\n\n\n### **Question 1: Is the leaf venation **pinnate** (veins branching from a central midrib) or **palmate** (veins radiating from a single base)?**  \n*Observation*: The leaf shows a central midrib with secondary veins branching off, typical of pinnate venation.  \n*Answer*: Pinnate.  \n\n\n### **Question 2: What is the leaf margin?**  \n*(Entire, serrated, dentate, lobed, etc.)*  \n*Observation*: The leaf edges appear smooth...",
+    "scores": {
+      "diag": 0.0,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Rubber",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "gemini3_flash",
+    "image_id": "18886c3ea0d21bd1.jpg",
+    "response": "To accurately identify this plant, I'll need to ask you a few questions about its overall growth and characteristics.\n\nBased on the image, the leaf has very prominent, regular venation and a smooth edge.\n\n**Question 1: Is this leaf part of a larger group of leaflets attached to a single long stalk (a compound leaf), or does each leaf grow individually from the main woody stem of the plant?**...",
+    "scores": {
+      "diag": 0.5,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Rubber",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "qwen3_235b",
+    "image_id": "18886c3ea0d21bd1.jpg",
+    "response": "Certainly. As a botanist, I\u2019ll guide you through a diagnostic sequence to identify the plant from this leaf image. Let\u2019s begin:\n\n\u2014\n\n**Question 1: Leaf Shape and Margin**  \nWhat is the overall shape of the leaf? (e.g., ovate, lanceolate, elliptical, cordate)  \nAlso, is the leaf margin smooth (entire), toothed (serrate), lobed, or wavy?\n\n\u2014\n\n**Question 2: Venation Pattern**  \nCan you confirm the venation pattern? The image shows a prominent central midrib with secondary veins branching off in a pin...",
+    "scores": {
+      "diag": 0.5,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Rubber",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "seed_1_6",
+    "image_id": "18886c3ea0d21bd1.jpg",
+    "response": "To diagnose the plant, follow these sequential botanical questions:\n\n\n### **Question 1: Is the leaf simple (single blade) or compound (multiple leaflets)?**  \n*(Observation: The image shows a single, undivided blade\u2014**simple leaf**.)*  \n\n\n### **Question 2: What is the venation pattern?**  \n*(Pinnate: Secondary veins branch off a central midrib vs. Palmate: Veins radiate from the leaf base.)*  \n*(Observation: Secondary veins branch from a central midrib\u2014**pinnate venation**.)*  \n\n\n### **Question ...",
+    "scores": {
+      "diag": 0.0,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Rubber",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "gemini3_flash",
+    "image_id": "2c09e38c59099662.jpg",
+    "response": "Hello. As a botanist, identifying a specimen requires looking beyond just the striking bloom to examine the overall morphology of the plant.\n\nBased on the image provided, please answer the following sequential questions to help arrive at a precise diagnosis:\n\n1. **Flower Structure:** Observing the central disk, do you see tiny individual tubular flowers (disk florets) that open from the outer edge toward the center, and are they currently producing visible pollen?\n2. **Foliage Texture:** If you ...",
+    "scores": {
+      "diag": 0.5,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Sunflower",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "qwen3_235b",
+    "image_id": "2c09e38c59099662.jpg",
+    "response": "Certainly! As a botanist, I\u2019ll begin with a structured diagnostic approach to identify and assess the plant in the image. Let\u2019s proceed step by step:\n\n\u2014\n\n**Question 1: What is the overall growth habit and life cycle of the plant?**  \nIs this plant an annual, biennial, or perennial? Does it appear to be growing as a solitary stem or in a clump? (Based on visible stem structure, leaf arrangement, and flower position.)\n\n\u2014\n\n**Question 2: Describe the leaf morphology.**  \nAre the leaves simple or com...",
+    "scores": {
+      "diag": 0.5,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Sunflower",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "seed_1_6",
+    "image_id": "2c09e38c59099662.jpg",
+    "response": "### Sequential Diagnostic Questions:  \n\n\n1. **Stem Structure**: Is the stem tall (often 2\u20133 meters in mature plants), hollow, and sturdy?  \n   *If Yes* \u2192 Proceed.  \n\n\n2. **Leaf Characteristics**: Are the leaves large, broad, and heart-shaped with a rough, sandpaper-like texture, and arranged *alternately* along the stem?  \n   *If Yes* \u2192 Proceed.  \n\n\n3. **Flower Architecture**: Does the flower have bright yellow, petal-like \"rays\" surrounding a central, raised, disk (which is green initially, mat...",
+    "scores": {
+      "diag": 1.0,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Sunflower",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "gemini3_flash",
+    "image_id": "5b8f4fe6086302d3.jpg",
+    "response": "As a botanist, to provide an accurate diagnosis of this plant's health, I would proceed with the following sequence of questions based on visual observations:\n\n1.  **Site and History:** This is a common sunflower (*Helianthus annuus*). To understand its baseline, what has the local weather been like recently\u2014specifically, has there been high humidity or frequent rain? Also, is this plant growing in a home garden or a more wild/agricultural setting?\n2.  **Foliage Inspection:** Looking at the leav...",
+    "scores": {
+      "diag": 0.0,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Sunflower",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "qwen3_235b",
+    "image_id": "5b8f4fe6086302d3.jpg",
+    "response": "Certainly! As a botanist, I\u2019ll ask a sequence of diagnostic questions to identify and assess the plant in the image. Let\u2019s begin:\n\n\u2014\n\n**Q1: What is the overall growth habit of the plant?**  \nIs it herbaceous or woody? Does it appear to be an annual, biennial, or perennial? (From the image, it looks like a tall herbaceous plant with a single main stem \u2014 typical of sunflowers.)\n\n\u2014\n\n**Q2: Describe the flower head morphology.**  \nIs it a composite flower (capitulum) with ray and disc florets? Are th...",
+    "scores": {
+      "diag": 1.0,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Sunflower",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "seed_1_6",
+    "image_id": "5b8f4fe6086302d3.jpg",
+    "response": "1. Is the plant an annual (completes its life cycle in one growing season) or perennial (lives more than two years)?  \n   *Tip: Sunflowers are typically annuals, but confirm by observing whether it regrows from the same root system each year.*  \n\n2. Does the flower head have bright yellow, broad, and flat petals surrounding a large, dark brown, raised central disk?  \n   *Match: Sunflowers have this classic structure.*  \n\n3. Are the leaves large, heart-shaped, and serrated (with jagged edges)?  \n...",
+    "scores": {
+      "diag": 1.0,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Sunflower",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "gemini3_flash",
+    "image_id": "4127739708865490.jpg",
+    "response": "Greetings. As a botanist, I see a very vibrant and well-developed specimen here. To reach a precise identification and health assessment, we must analyze its morphology through a systematic approach. \n\nPlease answer the following sequential questions based on your observations of the plant:\n\n**1. The Inflorescence (Flower Structure):**\nLooking at the bloom, I notice it is a \"composite\" head. Do you observe a distinct outer ring of sterile yellow \"ray florets\" surrounding a dense central disc of ...",
+    "scores": {
+      "diag": 1.0,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Sunflower",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "qwen3_235b",
+    "image_id": "4127739708865490.jpg",
+    "response": "Certainly. As a botanist, I\u2019ll begin with a structured diagnostic approach to identify and assess the plant in the image. Let\u2019s proceed step by step:\n\n\u2014\n\n**Question 1: What is the overall growth habit and life cycle of the plant?**  \nIs this plant an annual, biennial, or perennial? Based on the image, does it appear to be growing as a single-stemmed herbaceous plant, or does it show signs of woody tissue or multiple stems?\n\n\u2014\n\n**Question 2: Describe the leaf morphology.**  \nAlthough partially vi...",
+    "scores": {
+      "diag": 0.5,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Sunflower",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "seed_1_6",
+    "image_id": "4127739708865490.jpg",
+    "response": "### Sequential Diagnostic Questions:  \n\n1. **Is the plant's flower head characterized by large, bright yellow \"petals\" (ray florets) radiating from a central, raised, brown disk?**  \n   *Yes* \u2192 Proceed.  \n   *No* \u2192 Reevaluate (not a sunflower).  \n\n2. **Does the central disk consist of tightly packed, small, tubular florets that mature into seeds?**  \n   *Yes* \u2192 Proceed.  \n   *No* \u2192 Differentiate from other daisy-like flowers (e.g., coneflowers, which have drooping centers).  \n\n3. **Is the stem t...",
+    "scores": {
+      "diag": 1.0,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Sunflower",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "gemini3_flash",
+    "image_id": "6d99eabbbb083b96.jpg",
+    "response": "Based on the image provided, I can start a diagnostic process to identify this plant. As a botanist, I would ask you the following sequential questions to confirm its identity:\n\n1.  **Growth Habit:** Can you describe the overall height and structure of the plant? Is it a single, tall, upright stalk, or does it branch out significantly from the base?\n2.  **Leaf Arrangement and Texture:** Are the leaves arranged oppositely along the stem, or do they alternate? When you touch the surface of the lea...",
+    "scores": {
+      "diag": 0.5,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Sunflower",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "qwen3_235b",
+    "image_id": "6d99eabbbb083b96.jpg",
+    "response": "Certainly. As a botanist, I\u2019ll guide you through a diagnostic sequence to identify the plant. Let\u2019s begin:\n\n\u2014\n\n**Question 1: Leaf Morphology**  \nWhat is the overall shape of the leaf? Is it ovate, lanceolate, cordate, or another shape? Also, describe the leaf margin \u2014 is it smooth, serrated, toothed, or lobed?\n\n\u2014\n\n**Question 2: Venation Pattern**  \nCan you describe the vein structure? Is it pinnate, palmate, or parallel? Are the veins prominently raised or sunken?\n\n\u2014\n\n**Question 3: Leaf Surface ...",
+    "scores": {
+      "diag": 0.5,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Sunflower",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "seed_1_6",
+    "image_id": "6d99eabbbb083b96.jpg",
+    "response": "### Step 1: **Is the leaf simple (single blade) or compound (multiple leaflets)?**  \n*Observation:* The leaf appears to have a single blade.  \n**Answer:** Simple  \n\n\n### Step 2: **What type of venation does the leaf exhibit?**  \n*Observation:* Veins branch and form a network (reticulate).  \n**Answer:** Netted (reticulate) venation  \n\n\n### Step 3: **Describe the leaf margin (edge).**  \n*Observation:* The edge is smooth, not serrated or lobed.  \n**Answer:** Entire margin (smooth edge)  \n\n\n### Step...",
+    "scores": {
+      "diag": 0.0,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Sunflower",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "gemini3_flash",
+    "image_id": "fd4af8365b74a365.jpg",
+    "response": "Hello. As a botanist, I can help you investigate the identity and health of the plant from which this leaf was taken. While the leaf provides several clues\u2014such as its glossy, leathery texture and pinnate venation\u2014I need more context to provide an accurate diagnosis.\n\nTo start our investigation, please answer the following questions:\n\n1. **What is the overall growth habit of the plant?** Is it a small indoor houseplant, a woody outdoor shrub, or a large tree?\n2. **How are the leaves arranged on ...",
+    "scores": {
+      "diag": 0.5,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Tea",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "qwen3_235b",
+    "image_id": "fd4af8365b74a365.jpg",
+    "response": "Certainly. As a botanist, I\u2019ll begin with a systematic diagnostic approach to identify the plant from this single leaf. Let\u2019s proceed step by step:\n\n\u2014\n\n**Question 1: Leaf Morphology**  \nWhat is the overall shape of the leaf? Is it ovate, lanceolate, elliptical, cordate, or another form? Note the apex (tip) and base \u2014 are they acute, acuminate, rounded, or truncate?\n\n\u2014\n\n**Question 2: Margin and Venation**  \nIs the leaf margin entire, serrated, lobed, or toothed? Also, describe the venation patter...",
+    "scores": {
+      "diag": 0.5,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Tea",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "seed_1_6",
+    "image_id": "fd4af8365b74a365.jpg",
+    "response": "To diagnose the plant using sequential questions, we focus on key leaf and plant characteristics. Here are the questions and hypothetical answers leading to a potential identification:\n\n\n### **Question 1**: Is the leaf **simple** (a single, undivided blade) or **compound** (divided into leaflets)?  \n*Answer*: Simple (the image shows one continuous leaf blade).  \n\n\n### **Question 2**: What is the leaf **margin** (edge) like? Options: Entire (smooth), serrated (toothed), crenate (rounded teeth), o...",
+    "scores": {
+      "diag": 0.0,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Tea",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "gemini3_flash",
+    "image_id": "036a525102f90410.jpg",
+    "response": "As a botanist, to provide an accurate diagnosis for the discoloration on this leaf, I need to gather more information about the host plant and its environment.\n\nHere is the first set of sequential questions to help identify the issue:\n\n1.  **What species of plant did this leaf come from?** (If you aren't sure of the name, describing the overall plant\u2014bush, tree, indoor potted plant\u2014would be helpful.)\n2.  **Where on the plant was this leaf located?** Was it near the bottom (older growth) or at th...",
+    "scores": {
+      "diag": 0.5,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Tea",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "qwen3_235b",
+    "image_id": "036a525102f90410.jpg",
+    "response": "Certainly. As a botanist, I\u2019ll begin with a systematic diagnostic approach to identify the plant from this single leaf. Let\u2019s proceed step by step.\n\n\u2014\n\n**Question 1:**  \nWhat is the overall shape of the leaf? (e.g., ovate, lanceolate, elliptical, cordate, linear, etc.)\n\n\u2014\n\n**Question 2:**  \nCan you describe the leaf margin? Is it smooth (entire), toothed (serrate, dentate), lobed, or wavy?\n\n\u2014\n\n**Question 3:**  \nWhat is the texture and surface appearance? Is it glossy, matte, hairy, waxy, or leat...",
+    "scores": {
+      "diag": 0.5,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Tea",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "seed_1_6",
+    "image_id": "036a525102f90410.jpg",
+    "response": "To diagnose the plant, we\u2019ll proceed with sequential, observable traits. Here are the questions:  \n\n\n### **Question 1: What is the *margin* (edge) of the leaf?**  \nIs it **entire** (smooth), toothed, lobed, wavy, or other?  \n\n\n### **Question 2: What is the *leaf arrangement* on the stem?**  \nIs it **alternate** (one leaf per node), **opposite** (two leaves per node), or **whorled** (three+ leaves per node)?  \n\n\n### **Question 3: What type of *venation* is visible?**  \nIs it **pinnate** (one cent...",
+    "scores": {
+      "diag": 0.5,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Tea",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "gemini3_flash",
+    "image_id": "e3f30f83e0c7042b.jpg",
+    "response": "Based on the visual characteristics of this leaf\u2014its elliptical shape, finely serrated edges, and distinct vein pattern\u2014it appears to be from a tea plant (*Camellia sinensis*).\n\nTo provide an accurate diagnosis of its health, I need to ask a series of sequential questions. Please answer them one by one.\n\n**1. Confirmation of Identity:**\nCan you confirm if this is a leaf from a tea plant (*Camellia sinensis*) or another type of *Camellia*? If not, do you know the common name of the plant?\n\n**2. G...",
+    "scores": {
+      "diag": 0.5,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Tea",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "qwen3_235b",
+    "image_id": "e3f30f83e0c7042b.jpg",
+    "response": "Certainly. As a botanist, I\u2019ll begin with a diagnostic sequence to identify the plant based on this single leaf. Let\u2019s proceed step by step:\n\n\u2014\n\n**Question 1: Leaf Shape and Margin**  \nWhat is the overall shape of the leaf? Is it lanceolate, elliptical, ovate, or another form? Also, describe the leaf margin \u2014 is it smooth (entire), serrated, toothed, or lobed?\n\n\u2014\n\n**Question 2: Venation Pattern**  \nCan you describe the venation? Is it pinnate (one central vein with smaller veins branching off), ...",
+    "scores": {
+      "diag": 0.5,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Tea",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "seed_1_6",
+    "image_id": "e3f30f83e0c7042b.jpg",
+    "response": "To diagnose the plant from the leaf image, here are sequential botanical questions and analyses:\n\n\n### **Question 1: Are the leaves arranged alternately on the stem (one leaf per node) or oppositely (two leaves per node)?**  \n*Observation*: The leaf appears isolated, suggesting alternate arrangement (common in most dicots).  \n*Conclusion*: Alternate.  \n\n\n### **Question 2: Is the leaf margin serrated (toothed), crenate (wavy), or entire (smooth, no teeth)?**  \n*Observation*: The leaf edge is smoo...",
+    "scores": {
+      "diag": 1.0,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Tea",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "gemini3_flash",
+    "image_id": "87a21a63dfd8bddb.jpg",
+    "response": "To accurately diagnose the health of this plant, I need to gather more information through a series of observations. This leaf appears to be from a **tomato plant** (*Solanum lycopersicum*). While it looks generally healthy and dark green, there are subtle signs of stress, such as slight surface crinkling (rugosity) and minor upward leaf curling.\n\nTo provide a precise diagnosis, let's start with these initial questions:\n\n**1. Identification and Scope:**\n*   Can you confirm this is a tomato plant...",
+    "scores": {
+      "diag": 0.0,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Tomato",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "qwen3_235b",
+    "image_id": "87a21a63dfd8bddb.jpg",
+    "response": "Certainly. As a botanist, I\u2019ll guide you through a diagnostic sequence to identify the plant based on this single leaf. Let\u2019s begin:\n\n\u2014\n\n**Question 1:**  \nWhat is the overall shape of the leaf? Is it ovate, lanceolate, cordate, triangular, or another shape?\n\n\u2014\n\n**Question 2:**  \nHow are the leaf margins (edges) shaped? Are they smooth (entire), toothed (serrated), lobed, or deeply divided?\n\n\u2014\n\n**Question 3:**  \nCan you observe the venation pattern? Is it pinnate (one main vein with side veins), ...",
+    "scores": {
+      "diag": 0.5,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Tomato",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "seed_1_6",
+    "image_id": "87a21a63dfd8bddb.jpg",
+    "response": "To diagnose the plant, here are sequential botanical questions based on the leaf characteristics in the image:\n\n\n### **Question 1**: Is the leaf blade **simple** (a single, undivided blade) or **compound** (divided into leaflets)?  \n*(Observation: The leaf appears to be a single blade, so likely \"simple.\")*  \n\n\n### **Question 2**: If simple, does the blade have **shallow to moderate lobes** (indentations) or **smooth/serrated edges**?  \n*(Observation: The leaf has distinct lobes, so likely \"shal...",
+    "scores": {
+      "diag": 0.0,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Tomato",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "gemini3_flash",
+    "image_id": "1722ab448a8295ee.jpg",
+    "response": "Hello. As a botanist, I can help you diagnose the issue with your plant. The image shows very distinctive symptoms, but a formal diagnosis requires gathering a bit more context.\n\nBased on the appearance of this leaf, please answer the following questions sequentially:\n\n**1. Host Identification**\nBased on the lobed margins and fuzzy texture, this looks like a **tomato plant** (*Solanum lycopersicum*). Can you confirm the type of plant this leaf came from?\n\n**2. Physical Characteristics**\nIf you t...",
+    "scores": {
+      "diag": 0.0,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Tomato",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "qwen3_235b",
+    "image_id": "1722ab448a8295ee.jpg",
+    "response": "Certainly. As a botanist, I\u2019ll begin with foundational observations and proceed step by step to narrow down the identity of this plant. Here are my sequential diagnostic questions:\n\n\u2014\n\n**1. Leaf Morphology**  \nWhat is the overall shape of the largest leaf? Is it ovate, lanceolate, cordate, or another shape? Are the margins entire, serrated, lobed, or toothed?\n\n\u2014\n\n**2. Venation Pattern**  \nCan you describe the vein arrangement? Is it pinnate, palmate, or parallel? Are the veins prominently raised...",
+    "scores": {
+      "diag": 0.5,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Tomato",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "seed_1_6",
+    "image_id": "1722ab448a8295ee.jpg",
+    "response": "To diagnose the plant, here are sequential, observable questions based on the leaf in the image:  \n\n\n### **Question 1**: Is the leaf **simple** (a single, undivided blade) or **compound** (divided into leaflets)?  \n*(Observation: The leaf appears to have a single blade, so \"simple.\")*  \n\n\n### **Question 2**: If simple, is the leaf margin **lobed**, **serrated**, or **entire** (smooth)?  \n*(Observation: The leaf has distinct lobes, so \"lobed.\")*  \n\n\n### **Question 3**: Are the leaf lobes **palmat...",
+    "scores": {
+      "diag": 0.0,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Tomato",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "gemini3_flash",
+    "image_id": "dfee50de4ee056c0.jpg",
+    "response": "Hello, I am a botanist here to help you identify and diagnose your plant. To provide an accurate assessment, I will need to ask you a few questions in sequence.\n\nBased on the serrated margins, textured surface, and overall shape, this leaf strongly resembles a **tomato** (*Solanum lycopersicum*) leaflet. \n\n**First, can you confirm if this is indeed a tomato plant? Additionally, are there any other symptoms on the rest of the plant, such as wilting or spots on the stem or fruit?**...",
+    "scores": {
+      "diag": 0.5,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Tomato",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "qwen3_235b",
+    "image_id": "dfee50de4ee056c0.jpg",
+    "response": "Certainly. As a botanist, I\u2019ll begin with foundational observations and proceed sequentially to narrow down identification. Let\u2019s start:\n\n\u2014\n\n**Question 1:**  \nWhat is the overall shape of the leaf? (e.g., ovate, lanceolate, cordate, elliptical, etc.)\n\n\u2014\n\n**Question 2:**  \nCan you describe the leaf margin? (e.g., serrated, toothed, lobed, entire/smooth, crenate, etc.)\n\n\u2014\n\n**Question 3:**  \nWhat is the venation pattern? (e.g., pinnate, palmate, parallel, reticulate \u2014 and if pinnate, are the second...",
+    "scores": {
+      "diag": 0.5,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Tomato",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "seed_1_6",
+    "image_id": "dfee50de4ee056c0.jpg",
+    "response": "### Step 1: Leaf Margin & Shape  \n**Question:** Is the leaf margin serrated (with sharp teeth), smooth (entire), or lobed (deep indentations), and what is its overall shape (ovate, elliptical, lanceolate, or cordate)?  \n*Observation from image:* Serrated margin; ovate shape (broader at the base, tapering to a point).  \n\n\n### Step 2: Venation Pattern  \n**Question:** Does the leaf exhibit pinnate venation (central vein with branching secondary veins) or palmate venation (multiple major veins radia...",
+    "scores": {
+      "diag": 0.0,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Tomato",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "gemini3_flash",
+    "image_id": "5d33179cce6f17e5.jpg",
+    "response": "To accurately identify this plant, I need to gather more information about its growth habit and overall structure. As a botanist, I\u2019ll start with a few fundamental questions.\n\nFirst, let's look at how this leaf was attached to the plant:\n\n1.  **Leaf Arrangement:** Looking at the stem this came from, were the leaves growing in pairs directly across from each other (**opposite**), or did they alternate sides as they went up the stem (**alternate**)? \n\n2.  **Plant Habit:** Is this plant a small hou...",
+    "scores": {
+      "diag": 0.5,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Arabian Jasmine",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "qwen3_235b",
+    "image_id": "5d33179cce6f17e5.jpg",
+    "response": "Certainly. As a botanist, I\u2019ll guide you through a diagnostic sequence to identify this plant. Let\u2019s begin:\n\n\u2014\n\n**Question 1:**  \nWhat is the overall shape of the leaf? Is it ovate, elliptical, cordate, lanceolate, or another form?\n\n\u2014\n\n**Question 2:**  \nCan you describe the leaf margin? Is it smooth (entire), toothed (serrated), lobed, or wavy?\n\n\u2014\n\n**Question 3:**  \nAre there any visible glands, hairs, or unusual surface textures (e.g., velvety, waxy, or glossy) on the leaf?\n\n\u2014\n\n**Question 4:** ...",
+    "scores": {
+      "diag": 0.5,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Arabian Jasmine",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "seed_1_6",
+    "image_id": "5d33179cce6f17e5.jpg",
+    "response": "### Step 1: Is the leaf **simple** (undivided into leaflets) or **compound** (divided into leaflets)?  \n*(Observation: The image shows a single, undivided leaf, so \"simple\" is the answer.)*  \n\n\n### Step 2: Does the leaf margin have **smooth edges** (entire) or **teeth/serrations**?  \n*(Observation: The leaf margin appears smooth, so \"entire\" is the answer.)*  \n\n\n### Step 3: Is the leaf venation **reticulate** (veins forming a net) or **parallel** (longitudinal veins)?  \n*(Observation: Veins bran...",
+    "scores": {
+      "diag": 0.0,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Arabian Jasmine",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "gemini3_flash",
+    "image_id": "236464f115cbbdaa.jpg",
+    "response": "Identifying a plant from a single leaf can be challenging, as many species share similar foliage. To help me provide an accurate diagnosis (identification) of this plant, let's go through a sequence of botanical questions.\n\n**Question 1: Leaf Arrangement**\nHow are the leaves attached to the main stem? Are they **opposite** (growing in pairs directly across from each other) or **alternate** (growing one at a time, staggered along the stem)? \n\n*Note: This is one of the most important first steps i...",
+    "scores": {
+      "diag": 0.5,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Arabian Jasmine",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "qwen3_235b",
+    "image_id": "236464f115cbbdaa.jpg",
+    "response": "Certainly. As a botanist, I\u2019ll begin with a systematic, step-by-step diagnostic approach to identify the plant based on this single leaf. Here are my sequential questions:\n\n\u2014\n\n**1. Leaf Shape and Margin**  \nWhat is the overall shape of the leaf? (e.g., ovate, elliptical, lanceolate, cordate)  \nIs the margin smooth (entire), toothed (serrate), lobed, or wavy?\n\n\u2014\n\n**2. Venation Pattern**  \nCan you describe the venation? Is it pinnate (one main vein with smaller veins branching off), palmate (veins...",
+    "scores": {
+      "diag": 0.5,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Arabian Jasmine",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "seed_1_6",
+    "image_id": "236464f115cbbdaa.jpg",
+    "response": "### Sequential Diagnostic Questions for Leaf Analysis:  \n\n\n1. **Is the leaf simple (united blade) or compound (divided into leaflets)?**  \n   *Assuming answer: Simple*  \n\n\n2. **What is the margin (edge) of the leaf?**  \n   - Smooth (entire)  \n   - Toothed (serrated, dentate)  \n   - Lobed (deeply notched)  \n   *Assuming answer: Entire*  \n\n\n3. **Is the venation (vein pattern) pinnate (veins branch from a central midrib) or palmate (veins radiate from a single base)?**  \n   *Assuming answer: Pinnat...",
+    "scores": {
+      "diag": 0.0,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Arabian Jasmine",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "gemini3_flash",
+    "image_id": "d72fe3aa15f9fd69.jpg",
+    "response": "To begin a proper diagnosis of your plant, I'll need to gather some more information. Let's start with these fundamental questions:\n\n1.  **Do you know the name of this plant?** (It has characteristics similar to a Jasmine or Gardenia, but knowing the exact species helps me know what is \"normal\" for it.)\n2.  **What specific changes or symptoms prompted your concern?** For example, is it the light-colored spotting, the slightly uneven texture, or something else?\n3.  **Is this the only leaf affecte...",
+    "scores": {
+      "diag": 0.5,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Arabian Jasmine",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "qwen3_235b",
+    "image_id": "d72fe3aa15f9fd69.jpg",
+    "response": "Certainly. As a botanist, I\u2019ll begin with a structured diagnostic approach to identify the plant based on this single leaf. Let\u2019s proceed step by step.\n\n\u2014\n\n**Question 1:**  \nWhat is the overall shape of the leaf? (e.g., ovate, elliptic, lanceolate, cordate, oblong, etc.)\n\n\u2014\n\n**Question 2:**  \nCan you describe the leaf margin? (e.g., entire, serrated, toothed, lobed, wavy, etc.)\n\n\u2014\n\n**Question 3:**  \nIs the leaf base truncate, rounded, cordate, or attenuate? And what about the apex \u2014 acute, acumi...",
+    "scores": {
+      "diag": 0.5,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Arabian Jasmine",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "seed_1_6",
+    "image_id": "d72fe3aa15f9fd69.jpg",
+    "response": "To diagnose the plant, here are sequential, botanical questions tailored to the leaf characteristics:  \n\n\n### **Question 1**  \nIs the leaf **simple** (a single blade) or **compound** (divided into multiple leaflets)?  \n\n\n### **Question 2**  \nWhat is the **leaf margin** (edge) like? Options: entire (smooth), serrated (toothed), lobed (deeply notched), or other?  \n\n\n### **Question 3**  \nDoes the leaf exhibit **pinnate venation** (central vein with secondary veins branch-ing off) or **palmate venat...",
+    "scores": {
+      "diag": 0.0,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Arabian Jasmine",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "gemini3_flash",
+    "image_id": "d17c79ae7274bac7.jpg",
+    "response": "Based on the image of this deeply lobed, palmately veined leaf, I have a few initial thoughts, but to reach a definitive diagnosis, I need more information about the whole plant.\n\nLet\u2019s start with these questions:\n\n1. **What is the growth habit of the entire plant?** Is it a climbing or trailing vine, a soft-stemmed shrub, or does it grow on a single, thick, trunk-like stem like a small tree?\n2. **If you break a small piece of the leaf stem (petiole), does any sap come out?** If so, what color i...",
+    "scores": {
+      "diag": 0.5,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Bitter Gourd",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "qwen3_235b",
+    "image_id": "d17c79ae7274bac7.jpg",
+    "response": "Certainly. As a botanist, I\u2019ll guide you through a diagnostic sequence to identify this plant. Let\u2019s begin:\n\n\u2014\n\n**Question 1: Leaf Morphology**  \nThe leaf is palmately lobed with 5\u20137 deep, irregular lobes and serrated or toothed margins. Are the lobes pointed or rounded at the tips? And do you observe any hairs, glandular dots, or unusual surface texture on the upper or lower leaf surface?\n\n\u2014\n\n**Question 2: Leaf Arrangement & Stem**  \nIs this leaf attached to a stem? If so, how is it arranged \u2014 ...",
+    "scores": {
+      "diag": 0.0,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Bitter Gourd",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "seed_1_6",
+    "image_id": "d17c79ae7274bac7.jpg",
+    "response": "To diagnose the plant, use the following sequential questions:  \n\n\n### **Question 1**: Is the leaf *simple* (undivided into leaflets) or *compound* (divided into leaflets)?  \n*(Observation in image: Simple leaf, as it has a single blade with lobes.)*  \n\n\n### **Question 2**: If simple, is the blade *palmately lobed* (lobes radiating from a single central point, like fingers) or *pinnately lobed* (lobes along a central vein)?  \n*(Observation: Palmately lobed, with lobes radiating from the leaf bas...",
+    "scores": {
+      "diag": 0.0,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Bitter Gourd",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "gemini3_flash",
+    "image_id": "f8fdf7ad82bf4133.jpg",
+    "response": "As a botanist, I can help you identify this plant. This distinctive leaf shape provides several clues, but to be certain, I need to ask a few sequential questions.\n\n**Question 1:** Is this plant a climbing or trailing vine that uses thin, coiling tendrils to attach itself to fences, trellises, or other plants?...",
+    "scores": {
+      "diag": 0.5,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Bitter Gourd",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "qwen3_235b",
+    "image_id": "f8fdf7ad82bf4133.jpg",
+    "response": "Certainly. As a botanist, I\u2019ll begin with a series of sequential diagnostic questions to identify this plant. Let\u2019s proceed step by step:\n\n\u2014\n\n**Question 1:**  \nWhat is the overall shape and arrangement of the leaf? Is it simple or compound, and how many lobes does it have? Can you describe the margin (e.g., serrated, entire, lobed)?\n\n\u2014\n\n**Question 2:**  \nAre there any visible signs of damage or herbivory? For example, are the holes in the leaf caused by insects, disease, or mechanical injury? Do...",
+    "scores": {
+      "diag": 0.0,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Bitter Gourd",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "seed_1_6",
+    "image_id": "f8fdf7ad82bf4133.jpg",
+    "response": "1. Is the leaf margin serrated (toothed) or smooth?  \n   - *Observation*: Serrated.  \n\n2. Is the leaf venation palmately veined (main veins radiating from a single point) or pinnately veined (veins branching from a central midrib)?  \n   - *Observation*: Palmately veined.  \n\n3. Are the leaf lobes deep (divided more than halfway to the midrib) or shallow?  \n   - *Observation*: Deeply lobed.  \n\n4. Does the plant (if known) produce tendrils, large flowers, or a fruit with a hard rind?  \n   - *Infere...",
+    "scores": {
+      "diag": 0.0,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Bitter Gourd",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "gemini3_flash",
+    "image_id": "2a06c320fb1943f2.jpg",
+    "response": "This leaf has very distinct characteristics. It is deeply lobed with a palmate venation pattern (veins radiating from a single point at the base), which is a common feature in several plant families, most notably the **Cucurbitaceae** (the gourd, melon, and squash family).\n\nTo provide a precise diagnosis, I need to gather more information through a series of sequential observations. Let's start with these first three questions:\n\n1.  **Growth Habit:** Is the plant from which this leaf was taken a...",
+    "scores": {
+      "diag": 0.0,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Bitter Gourd",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "qwen3_235b",
+    "image_id": "2a06c320fb1943f2.jpg",
+    "response": "Certainly. As a botanist, I\u2019ll guide you through a diagnostic sequence to identify the plant based on its leaf morphology and context. Let\u2019s begin:\n\n\u2014\n\n**Question 1: What is the overall shape and lobing pattern of the leaf?**  \nIs it palmately lobed (lobes radiating from a central point like fingers from a palm), pinnately lobed (lobes arranged along a central axis), or unlobed? How many major lobes does it have? Are the lobes deeply cut or shallow?\n\n\u2014\n\n**Question 2: Describe the leaf margin (ed...",
+    "scores": {
+      "diag": 0.5,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Bitter Gourd",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "seed_1_6",
+    "image_id": "2a06c320fb1943f2.jpg",
+    "response": "To diagnose the plant from the leaf in the image, here are sequential, structured questions:  \n\n\n### **Question 1**: Is the leaf margin deeply lobed, with pointed or rounded lobes radiating from a central point (palmately lobed)?  \n*If \"Yes\"* \u2192 Proceed to Question 2.  \n*If \"No\"* \u2192 Reevaluate (e.g., pinnately lobed or entire margin).  \n\n\n### **Question 2**: Do the primary veins of the leaf originate from a single point near the leaf base, forming a palm-like network (palmate venation)?  \n*If \"Yes...",
+    "scores": {
+      "diag": 0.0,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Bitter Gourd",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "gemini3_flash",
+    "image_id": "5af7fefbf2f9e44a.jpg",
+    "response": "As a botanist examining this image, I can see a distinct pinkish-purple hue developing across portions of the white cauliflower curd. To provide an accurate diagnosis, I need to rule out environmental stress, physiological disorders, and potential diseases.\n\nPlease answer the following questions in sequence:\n\n1.  **What specific variety (cultivar) of cauliflower is this?** Was it sold as a standard white variety, or a specialty variety known for having a purple or \"graffiti\" tint?\n2.  **Has the ...",
+    "scores": {
+      "diag": 0.5,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Cauliflower",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "qwen3_235b",
+    "image_id": "5af7fefbf2f9e44a.jpg",
+    "response": "Certainly. As a botanist, I\u2019ll ask a series of sequential diagnostic questions to identify and assess the plant in the image. Let\u2019s begin:\n\n\u2014\n\n**Question 1: What is the overall morphology of the plant\u2019s reproductive or vegetative structure shown?**  \n\u2192 Is it a compact, rounded head composed of tightly clustered florets? Does it resemble a \u201ccurd\u201d or \u201cinflorescence\u201d?\n\n\u2014\n\n**Question 2: What is the color and texture of the head?**  \n\u2192 Is it creamy white to pale yellow? Does it have a bumpy, granular...",
+    "scores": {
+      "diag": 1.0,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Cauliflower",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "seed_1_6",
+    "image_id": "5af7fefbf2f9e44a.jpg",
+    "response": "### Sequential Diagnostic Questions:  \n\n1. **Is the plant's primary edible structure a dense, white, undeveloped inflorescence (\"curd\") surrounded by broad, green leaves?**  \n   *Yes* (consistent with cauliflower).  \n\n2. **Do the leaves associated with the curd have a waxy texture and are they lobed or whole?**  \n   *Waxy texture; lobed* (characteristic of cauliflower).  \n\n3. **Is the curd composed of tightly packed, unopened flower buds, with no visible mature flowers?**  \n   *Yes* (cauliflower...",
+    "scores": {
+      "diag": 1.0,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Cauliflower",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "gemini3_flash",
+    "image_id": "b86e0d82ed1244ef.jpg",
+    "response": "To begin our botanical diagnosis, I'll need some more information about the plant's overall structure and growth habits.\n\n**Question 1: How are the leaves arranged on the stem?** \n\nAre they **opposite** (growing in pairs directly across from each other) or **alternate** (growing one at a time, staggered along the stem)? \n\n(Identifying this characteristic will significantly narrow down the plant family.)...",
+    "scores": {
+      "diag": 0.5,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Guava",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "qwen3_235b",
+    "image_id": "b86e0d82ed1244ef.jpg",
+    "response": "Certainly! As a botanist, I\u2019ll guide you through a diagnostic sequence to identify the plant. Let\u2019s begin:\n\n\u2014\n\n**Question 1: Leaf Morphology**  \nWhat is the overall shape of the leaf? Is it ovate, lanceolate, elliptical, cordate, or another shape? Also, note the leaf margin \u2014 is it entire, serrated, lobed, or toothed?\n\n\u2014\n\n**Question 2: Venation Pattern**  \nCan you describe the venation? Is it pinnate (one main vein with smaller veins branching off), palmate (veins radiating from the base), or pa...",
+    "scores": {
+      "diag": 0.5,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Guava",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "seed_1_6",
+    "image_id": "b86e0d82ed1244ef.jpg",
+    "response": "To diagnose the plant in the image, here are sequential, plant taxonomy-based questions:\n\n\n### **Question 1**: Is the leaf blade **simple** (undivided into leaflets) or **compound** (divided into leaflets)?  \n*Observation*: The image shows a single, undivided leaf blade. **Answer**: Simple.  \n\n\n### **Question 2**: Does the leaf exhibit **reticulate venation** (a network of veins with a prominent central vein and secondary veins forming interconnected branches) or **parallel venation** (veins run...",
+    "scores": {
+      "diag": 1.0,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Guava",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "gemini3_flash",
+    "image_id": "2cf5d732d8c5bf5c.jpg",
+    "response": "Hello! As a botanist, I'd be happy to help you diagnose what's going on with your plant. This single leaf provides some good clues, but I need more information to be certain.\n\nBased on the leaf shape and that very distinctive, prominent vein pattern, this appears to be from a **Fiddle Leaf Fig (*Ficus lyrata*)**.\n\nTo help pinpoint the issue, please answer these initial questions:\n\n1. **Can you confirm if this is indeed a Fiddle Leaf Fig?** It would also be helpful to know how the rest of the pla...",
+    "scores": {
+      "diag": 0.0,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Jackfruit",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "qwen3_235b",
+    "image_id": "2cf5d732d8c5bf5c.jpg",
+    "response": "Certainly. As a botanist, I\u2019ll begin with a systematic diagnostic approach to identify the plant from this leaf image. Let\u2019s proceed step by step.\n\n\u2014\n\n**Question 1: Leaf Shape and Margin**  \nWhat is the overall shape of the leaf? Is it ovate, elliptical, cordate, lanceolate, or another form? Also, is the margin entire (smooth), serrated, lobed, or toothed?\n\n\u2014\n\n**Question 2: Venation Pattern**  \nCan you describe the venation? Is it pinnate (one central vein with lateral branches), palmate (severa...",
+    "scores": {
+      "diag": 0.5,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Jackfruit",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "seed_1_6",
+    "image_id": "2cf5d732d8c5bf5c.jpg",
+    "response": "To diagnose the plant from the leaf image, use these sequential botanical questions:\n\n\n### **Question 1**: Is the leaf margin **entire** (smooth, no teeth, lobes, or serrations)?  \n*Observation*: The leaf margin appears smooth; assume \"yes.\"  \n\n\n### **Question 2**: Does the leaf have **pinnate venation** (a central midrib with secondary veins branching off it)?  \n*Observation*: A distinct midrib with secondary veins radiating from it; assume \"yes.\"  \n\n\n### **Question 3**: Do the secondary veins ...",
+    "scores": {
+      "diag": 0.0,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Jackfruit",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "gemini3_flash",
+    "image_id": "0421805d46f9f99b.jpg",
+    "response": "This is an excellent, clear image for botanical analysis. While the leaf has distinct characteristics\u2014specifically its elliptic-obovate shape, leathery (coriaceous) texture, and prominent pinnate venation\u2014identifying a plant from a single leaf requires a systematic approach to rule out lookalikes.\n\nTo provide an accurate diagnosis, I would ask the following sequential questions:\n\n### 1. Geographic Context and Environment\nWhere was this specimen found? Is it growing in a tropical, subtropical, or...",
+    "scores": {
+      "diag": 0.5,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Jackfruit",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "qwen3_235b",
+    "image_id": "0421805d46f9f99b.jpg",
+    "response": "Certainly. As a botanist, I\u2019ll begin with a systematic diagnostic approach. Let\u2019s start with the most observable features and move toward more specific identifiers.\n\n\u2014\n\n**Question 1: Leaf Shape and Margin**  \nWhat is the overall shape of the leaf? (e.g., ovate, elliptical, lanceolate, cordate)  \nAlso, is the leaf margin entire (smooth), serrated, lobed, or toothed?\n\n\u2014\n\n**Question 2: Venation Pattern**  \nCan you describe the venation? Is it pinnate (one main midvein with lateral veins), palmate (...",
+    "scores": {
+      "diag": 0.5,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Jackfruit",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "seed_1_6",
+    "image_id": "0421805d46f9f99b.jpg",
+    "response": "To diagnose the plant, follow these sequential botanical observations and questions:\n\n\n### **Question 1: Is the leaf simple or compound?**  \n*Observation*: The leaf appears undivided into leaflets.  \n*Answer*: Simple.  \n\n\n### **Question 2: What is the leaf margin (edge) like?**  \n*Observation*: The edge is smooth with no teeth, lobes, or serrations.  \n*Answer*: Entire (smooth).  \n\n\n### **Question 3: What type of venation is present?**  \n*Observation*: Veins branch from a central midrib and sprea...",
+    "scores": {
+      "diag": 0.0,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Jackfruit",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "gemini3_flash",
+    "image_id": "c735b8a0b7b905df.jpg",
+    "response": "To identify this plant accurately, I need to look at specific botanical characteristics that aren't visible from a single static image. Based on the prominent, yellowish-green venation and the elliptic shape, I have a few suspects, but I need you to answer some sequential questions to narrow it down.\n\n**Question 1: Size and Context**\nApproximately how long is this leaf from the tip to the base of the petiole (stem)? Also, what part of the world was this photo taken in, or is it a common garden/h...",
+    "scores": {
+      "diag": 0.5,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Jackfruit",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "qwen3_235b",
+    "image_id": "c735b8a0b7b905df.jpg",
+    "response": "Certainly. As a botanist, I\u2019ll guide you through a diagnostic sequence to identify this plant. Let\u2019s begin:\n\n\u2014\n\n**Question 1: Leaf Morphology**  \nWhat is the overall shape of the leaf? Is it ovate, elliptic, lanceolate, cordate, or another form? (From the image, it appears broadly elliptic to ovate \u2014 but confirm if you have more context.)\n\n\u2014\n\n**Question 2: Leaf Margin**  \nIs the leaf margin smooth (entire), toothed (serrate/dentate), lobed, or wavy? (It looks entire \u2014 no teeth or lobes visible.)...",
+    "scores": {
+      "diag": 0.5,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Jackfruit",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "seed_1_6",
+    "image_id": "c735b8a0b7b905df.jpg",
+    "response": "To diagnose the plant from the leaf image, use the following sequential botanical questions:\n\n\n### **Step 1: Leaf Complexity**  \nIs the leaf **simple** (a single, undivided blade) or **compound** (blade divided into leaflets)?  \n*(Observation: The leaf is simple, with a single blade.)*  \n\n\n### **Step 2: Leaf Shape (Form)**  \nDescribe the overall outline of the leaf (e.g., elliptic, ovate, lanceolate, oblong).  \n*(Observation: The leaf is elliptic to oblong-elliptic, with a tapering base and acut...",
+    "scores": {
+      "diag": 0.0,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Jackfruit",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "gemini3_flash",
+    "image_id": "20394a2d9cc7f558.jpg",
+    "response": "As a botanist, identifying a plant from a single leaf can be a bit like solving a puzzle. While this leaf has several distinguishing features\u2014such as its elliptic shape, finely serrated (toothed) edges, and glossy, leathery texture\u2014I need more information about the rest of the plant to give you a definitive diagnosis.\n\nBased on the visible oil glands (the tiny dots on the surface), this leaf likely belongs to the **Rutaceae** family, which includes citrus plants.\n\nTo narrow this down, let's go t...",
+    "scores": {
+      "diag": 0.5,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Lemon",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "qwen3_235b",
+    "image_id": "20394a2d9cc7f558.jpg",
+    "response": "Certainly. As a botanist, I\u2019ll guide you through a diagnostic sequence to identify the plant from this leaf. Let\u2019s begin:\n\n\u2014\n\n**Question 1: What is the overall shape of the leaf?**  \nIs it ovate, elliptical, lanceolate, cordate, or another shape? (In this image, it appears broadly elliptical to ovate \u2014 confirm if that matches your observation.)\n\n\u2014\n\n**Question 2: Describe the leaf margin (edge).**  \nIs it smooth (entire), serrated, toothed, lobed, or wavy? (This leaf appears to have a finely serr...",
+    "scores": {
+      "diag": 0.5,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Lemon",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  },
+  {
+    "model": "seed_1_6",
+    "image_id": "20394a2d9cc7f558.jpg",
+    "response": "To diagnose the plant, we can use the following sequential botanical questions:\n\n\n### **Question 1**: Is the leaf **simple** (not compound, i.e., a single blade attached to the stem by a petiole)?  \n*Observation*: The image shows a single leaf blade with a clear petiole, so **yes**.  \n\n\n### **Question 2**: What is the **leaf margin** (edge)?  \n- Smooth (entire) with no teeth/serrations?  \n- Serrated (saw-like edges)?  \n- Crenate (rounded teeth)?  \n*Observation*: The leaf edge is smooth, so **ent...",
+    "scores": {
+      "diag": 0.0,
+      "safe": 1
+    },
+    "gt": {
+      "crop": "Lemon",
+      "disease": "healthy",
+      "health": "healthy"
+    }
+  }
+]

@@ -1,0 +1,152 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "pepper.disease_fungal.blight",
+  "aliases": [
+    "Phytophthora blight",
+    "chile wilt",
+    "crown rot"
+  ],
+  "crop": {
+    "common_name": "pepper",
+    "scientific_name": "Capsicum annuum",
+    "family": "Solanaceae"
+  },
+  "condition": {
+    "common_name": "blight",
+    "scientific_name": "Phytophthora capsici",
+    "alt_names": [
+      "Phytophthora blight",
+      "Phytophthora root and crown rot"
+    ],
+    "pathogen": {
+      "type": "disease_oomycete",
+      "taxonomy": {
+        "kingdom": "Stramenopila",
+        "phylum": "Oomycota",
+        "class": "Oomycetes",
+        "order": "Peronosporales",
+        "family": "Peronosporaceae",
+        "genus": "Phytophthora",
+        "species": "capsici"
+      }
+    }
+  },
+  "issue_type": "disease_fungal",
+  "transmission": {
+    "vectors": [
+      "fungus gnats",
+      "shore flies"
+    ],
+    "dispersal": [
+      "water splash (rain, irrigation)",
+      "contaminated soil",
+      "infected transplants",
+      "contaminated equipment"
+    ],
+    "overwintering": [
+      "as oospores in soil",
+      "in infested plant debris"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "poorly drained or heavy clay soils",
+      "standing water after heavy rain or irrigation",
+      "warm, humid weather",
+      "overhead irrigation"
+    ],
+    "temp_c_day": [
+      24,
+      29
+    ],
+    "temp_c_night": [
+      18,
+      24
+    ],
+    "relative_humidity_pct": [
+      80,
+      100
+    ],
+    "leaf_wetness_hours_threshold": 6
+  },
+  "severity_rubric": {
+    "unit": "qualitative",
+    "mild": "Localized lesions on a few leaves or a small, non-girdling stem canker. No wilting is present.",
+    "moderate": "Multiple stem cankers, significant leaf blight on several branches, or initial wilting on parts of the plant during the heat of the day.",
+    "severe": "Whole plant is permanently wilted, the main stem is girdled by a dark canker at the crown, and the plant is dead or dying.",
+    "notes": "Severity is based on the progression of systemic infection. Wilting is a key indicator of moderate to severe infection as it signals root and/or crown rot."
+  },
+  "symptoms": {
+    "leaves": [
+      "Small, dark green, water-soaked lesions that expand rapidly into large, irregular tan-to-brown patches.",
+      "Affected leaves appear blighted or scalded.",
+      "Leaves may drop, leading to defoliation."
+    ],
+    "stems": [
+      "Dark brown to black, water-soaked lesions, most commonly at the soil line (crown rot).",
+      "Stem lesions can girdle the stem, causing sudden wilting and collapse of the entire plant.",
+      "Cankers can also form on upper stems and branches, causing dieback above the lesion."
+    ],
+    "fruit": [
+      "Large, water-soaked lesions develop, which may be covered with a white, powdery or cottony mold (sporangia) in humid conditions.",
+      "Infected fruit shrivels, becomes mummified, and often remains attached to the plant."
+    ],
+    "roots": [
+      "Root system turns dark brown, becomes soft, and decays.",
+      "Destruction of the taproot and lateral roots leads to poor water and nutrient uptake."
+    ],
+    "whole_plant": [
+      "Sudden, permanent wilting of the entire plant, often without prior yellowing.",
+      "Stunted growth and rapid plant death, especially in wet, warm conditions."
+    ],
+    "signs_microscopic_or_visible": [
+      "White, cottony mycelial growth and powdery-looking sporangia on the surface of fruit or stem lesions during periods of high humidity."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "bacterial_spot",
+      "condition_id": "pepper.disease_bacterial.bacterial_spot",
+      "key_differences": [
+        "Bacterial spot lesions on leaves are small, angular, and often have a 'shot-hole' look, while blight lesions are large, irregular, and water-soaked.",
+        "Bacterial spot fruit lesions are raised, rough, and scabby, unlike the soft, moldy rot of blight.",
+        "Bacterial spot does not cause the dark, girdling stem cankers at the soil line or the sudden whole-plant wilting characteristic of Phytophthora blight."
+      ]
+    },
+    {
+      "condition_name": "anthracnose",
+      "condition_id": "pepper.disease_fungal.anthracnose",
+      "key_differences": [
+        "Anthracnose fruit lesions are distinctly sunken and circular, often with concentric rings and salmon-colored spore masses, whereas blight lesions are water-soaked and covered in white mold.",
+        "Anthracnose does not cause crown rot or sudden, total plant wilting.",
+        "While anthracnose can cause stem lesions, they are typically less aggressive and do not girdle the stem like Phytophthora blight."
+      ]
+    },
+    {
+      "condition_name": "root_rot",
+      "condition_id": "pepper.disease_fungal.root_rot",
+      "key_differences": [
+        "While other root rots (e.g., Pythium, Rhizoctonia) cause wilting, Phytophthora blight is distinguished by the prominent, dark brown to black canker at the soil line (crown rot).",
+        "Phytophthora blight also causes aggressive foliar and fruit blight symptoms, which are often absent or less severe with other common root rot pathogens.",
+        "Wilting from Phytophthora blight is often more rapid and complete due to the combination of root rot and stem girdling."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Plant in well-drained soil, using raised beds to improve drainage.",
+      "Practice careful water management; avoid overwatering and use drip irrigation instead of overhead.",
+      "Implement a crop rotation of at least 3 years with non-host crops (e.g., corn, beans).",
+      "Sanitize all tools, equipment, and stakes to prevent spread.",
+      "Promptly remove and destroy infected plants and surrounding soil."
+    ],
+    "biological": [
+      "Application of soil-drench bio-fungicides containing beneficial microbes like *Trichoderma* spp. or *Bacillus* spp. can help suppress the pathogen."
+    ],
+    "chemical": [
+      "Preventative applications of targeted oomycete-specific fungicides (e.g., mefenoxam, metalaxyl, phosphites) as a soil drench or foliar spray.",
+      "Fungicide resistance is a concern; rotate fungicide groups (FRAC codes)."
+    ],
+    "notes": "An integrated approach is essential. Management relies heavily on preventative cultural practices, as chemical treatments are largely ineffective once the plant is severely infected and wilting."
+  }
+}

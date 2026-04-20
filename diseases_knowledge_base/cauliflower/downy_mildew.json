@@ -1,0 +1,146 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "cauliflower.disease_fungal.downy_mildew",
+  "aliases": [
+    "Staghead"
+  ],
+  "crop": {
+    "common_name": "Cauliflower",
+    "scientific_name": "Brassica oleracea var. botrytis",
+    "family": "Brassicaceae"
+  },
+  "condition": {
+    "common_name": "Downy mildew",
+    "scientific_name": "Hyaloperonospora parasitica",
+    "alt_names": [
+      "Peronospora parasitica"
+    ],
+    "pathogen": {
+      "type": "disease_oomycete",
+      "taxonomy": {
+        "kingdom": "Stramenopila",
+        "phylum": "Oomycota",
+        "class": "Oomycetes",
+        "order": "Peronosporales",
+        "family": "Peronosporaceae",
+        "genus": "Hyaloperonospora",
+        "species": "parasitica"
+      }
+    }
+  },
+  "issue_type": "disease_fungal",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [
+      "Wind-dispersed sporangia",
+      "Water splash"
+    ],
+    "overwintering": [
+      "Oospores in soil",
+      "Infected crop debris",
+      "On weedy brassica hosts"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "High humidity",
+      "Cool temperatures",
+      "Poor air circulation",
+      "Overhead irrigation",
+      "Crowded plantings"
+    ],
+    "temp_c_day": [
+      10,
+      16
+    ],
+    "temp_c_night": [
+      8,
+      15
+    ],
+    "relative_humidity_pct": [
+      85,
+      100
+    ],
+    "leaf_wetness_hours_threshold": 4
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "1-10% of leaf area affected with scattered, small lesions.",
+    "moderate": "11-40% of leaf area affected; lesions are numerous and may be coalescing.",
+    "severe": ">40% of leaf area affected; extensive necrosis, defoliation, or systemic curd infection is present.",
+    "notes": "Severity is assessed on the most affected leaves. Presence of any systemic infection in the curd automatically classifies as severe due to marketability loss."
+  },
+  "symptoms": {
+    "leaves": [
+      "Small, pale green to yellow, angular spots appear on the upper leaf surface.",
+      "Lesions are often bounded by leaf veins, creating a distinct blocky or angular shape.",
+      "A white to grayish, downy or fuzzy growth (sporangiophores) appears on the underside of leaves, directly below the upper spots.",
+      "Lesions enlarge and turn tan, brown, or necrotic with age.",
+      "Severely infected leaves can become brittle and may drop prematurely."
+    ],
+    "stems": [
+      "Systemic infection can cause purplish discoloration or dark streaks on stems and petioles."
+    ],
+    "fruit": [
+      "Systemic infection causes dark brown to black internal discoloration of the curd.",
+      "Infected curds may show a fuzzy, gray mold-like growth in very humid conditions.",
+      "The surface of the curd can develop sunken, dark spots or blemishes."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Stunting may occur in young plants that are infected systemically early in development."
+    ],
+    "signs_microscopic_or_visible": [
+      "Visible white to grayish fuzzy mold (sporangiophores and sporangia) on the abaxial (lower) leaf surface.",
+      "Microscopically, dichotomously branched sporangiophores with lemon-shaped sporangia are present."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "Black rot",
+      "condition_id": "cauliflower.disease_bacterial.black_rot",
+      "key_differences": [
+        "Black rot causes large, V-shaped yellow lesions starting at the leaf margin, while downy mildew spots are angular and can appear anywhere on the leaf.",
+        "Black rot lesions feature distinct blackened veins within the yellow 'V', a symptom absent in downy mildew.",
+        "Downy mildew produces a characteristic fuzzy, white growth on the leaf underside; black rot does not produce any visible growth."
+      ]
+    },
+    {
+      "condition_name": "Bacterial spot rot",
+      "condition_id": "cauliflower.disease_bacterial.bacterial_spot_rot",
+      "key_differences": [
+        "Bacterial spots are small, dark, and water-soaked ('greasy'), often purplish-black, whereas early downy mildew spots are pale green or yellow.",
+        "Bacterial spots can appear on both leaf surfaces and lack the white, fuzzy growth that is exclusive to the underside of leaves with downy mildew.",
+        "Bacterial spots may develop a 'shot-hole' appearance as necrotic centers fall out, which is not typical for downy mildew."
+      ]
+    },
+    {
+      "condition_name": "Healthy",
+      "condition_id": "cauliflower.healthy.healthy",
+      "key_differences": [
+        "Healthy leaves have a uniform green or blue-green color without any yellow spots, lesions, or necrosis.",
+        "The underside of a healthy leaf is smooth and lacks any white, fuzzy, or downy growth.",
+        "A healthy cauliflower curd is uniformly white or cream-colored, firm, and free of dark spots or internal discoloration."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Plant resistant or tolerant cauliflower cultivars.",
+      "Increase plant spacing to promote good air circulation and faster leaf drying.",
+      "Avoid overhead irrigation to minimize leaf wetness; prefer drip or furrow irrigation.",
+      "Implement a crop rotation of at least 2-3 years with non-brassica crops.",
+      "Control weedy brassica species in and around the field.",
+      "Incorporate crop debris after harvest to speed up decomposition of oospores."
+    ],
+    "biological": [
+      "Biofungicides containing strains of *Bacillus subtilis* or *Streptomyces* may provide some suppression when applied preventatively."
+    ],
+    "chemical": [
+      "Apply protectant fungicides (e.g., mancozeb, chlorothalonil) before disease onset in high-risk conditions.",
+      "Use systemic fungicides (e.g., metalaxyl/mefenoxam, fosetyl-al) for curative action, following a resistance management program.",
+      "Ensure thorough spray coverage, especially on the undersides of leaves."
+    ],
+    "notes": "Fungicide applications are most effective when timed preventatively based on weather forecasts favoring disease development (cool, humid nights)."
+  }
+}

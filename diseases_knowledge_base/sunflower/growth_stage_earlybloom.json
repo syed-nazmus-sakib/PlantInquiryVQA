@@ -1,0 +1,97 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "sunflower.growth_stage.growth_stage_earlybloom",
+  "aliases": [
+    "R5.1",
+    "Beginning of flowering",
+    "First anthesis"
+  ],
+  "crop": {
+    "common_name": "sunflower",
+    "scientific_name": "Helianthus annuus",
+    "family": "Asteraceae"
+  },
+  "condition": {
+    "common_name": "Early Bloom",
+    "scientific_name": null,
+    "alt_names": [
+      "R5.1",
+      "Beginning of flowering"
+    ],
+    "pathogen": {
+      "type": "abiotic",
+      "taxonomy": {
+        "kingdom": "",
+        "phylum": "",
+        "class": "",
+        "order": "",
+        "family": "",
+        "genus": "",
+        "species": ""
+      }
+    }
+  },
+  "issue_type": "growth_stage",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [],
+    "overwintering": []
+  },
+  "environmental_risk": {
+    "risk_factors": [],
+    "temp_c_day": [],
+    "temp_c_night": [],
+    "relative_humidity_pct": [],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "qualitative",
+    "mild": "The first few rows of disk florets have opened (anthesis) on the outer edge of the head.",
+    "moderate": "Flowering has progressed inwards, with approximately 10-25% of the disk florets on the head open.",
+    "severe": "Flowering is well-established, with up to 50% of the disk florets open, nearing the mid-bloom (R5.5) stage.",
+    "notes": "Severity describes the progression of flowering across the flower head, defined by the percentage of disk florets that have completed or are in anthesis."
+  },
+  "symptoms": {
+    "leaves": [
+      "Upper leaves are fully expanded and appear healthy green.",
+      "Lower leaves may begin to naturally senesce (yellow and dry up)."
+    ],
+    "stems": [
+      "Stem elongation is complete or nearly complete.",
+      "The stem is firm and supports the fully-formed flower head."
+    ],
+    "fruit": [
+      "This structure is the flower head, not a fruit at this stage.",
+      "The large, terminal flower head is fully formed and faces east.",
+      "The outer ray petals ('yellow petals') are fully unfurled, horizontal, and brightly colored.",
+      "The first, outermost ring of central disk florets has opened, revealing stamens and pollen.",
+      "Disk florets further towards the center remain closed and appear dark (e.g., purple, brown).",
+      "The back of the head (bracts) is green and appears healthy."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "The plant has reached its maximum or near-maximum height.",
+      "The single, large flower head is the dominant feature at the top of the plant."
+    ],
+    "signs_microscopic_or_visible": [
+      "Visible yellow pollen is present on the anthers of the open disk florets."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "Wilted",
+      "condition_id": "sunflower.condition.wilted",
+      "key_differences": [
+        "In a wilted plant, the large leaves and ray petals will be drooping, limp, and flaccid.",
+        "The peduncle (neck) supporting the flower head may bend or droop from water stress, which is not a normal feature of the bloom stage.",
+        "Wilting affects the entire plant's turgor, whereas early bloom is a specific developmental stage of a healthy plant."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [],
+    "biological": [],
+    "chemical": [],
+    "notes": "This is a critical developmental stage, not a condition to be managed. It is the target window for ensuring pollination and for protective fungicide applications against head diseases (e.g., Sclerotinia head rot, Rhizopus head rot). Maintaining adequate soil moisture is crucial to prevent yield loss from water stress during this period."
+  }
+}

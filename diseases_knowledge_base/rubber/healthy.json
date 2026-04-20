@@ -1,0 +1,124 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "rubber.healthy.healthy",
+  "aliases": [
+    "normal rubber plant",
+    "asymptomatic rubber",
+    "unaffected rubber"
+  ],
+  "crop": {
+    "common_name": "rubber",
+    "scientific_name": "Hevea brasiliensis",
+    "family": "Euphorbiaceae"
+  },
+  "condition": {
+    "common_name": "healthy",
+    "scientific_name": null,
+    "alt_names": [
+      "asymptomatic",
+      "normal"
+    ],
+    "pathogen": {
+      "type": "abiotic",
+      "taxonomy": {
+        "kingdom": "",
+        "phylum": "",
+        "class": "",
+        "order": "",
+        "family": "",
+        "genus": "",
+        "species": ""
+      }
+    }
+  },
+  "issue_type": "healthy",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [],
+    "overwintering": []
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "Optimal growing conditions",
+      "Absence of biotic and abiotic stressors",
+      "Adequate nutrition and water"
+    ],
+    "temp_c_day": [
+      25,
+      28
+    ],
+    "temp_c_night": [
+      20,
+      23
+    ],
+    "relative_humidity_pct": [
+      80,
+      95
+    ],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "qualitative",
+    "mild": "No visible symptoms of disease, stress, or nutrient deficiency. Plant appears vigorous with normal coloration and turgor.",
+    "moderate": "N/A",
+    "severe": "N/A",
+    "notes": "For a healthy plant, severity is not applicable. The 'mild' category serves as a confirmation of the absence of any negative symptoms."
+  },
+  "symptoms": {
+    "leaves": [
+      "Leaves are trifoliate, composed of three distinct leaflets.",
+      "Mature leaflets are uniformly deep green with a glossy or waxy surface.",
+      "Leaf surfaces are smooth and free of spots, lesions, pustules, or discoloration.",
+      "Leaf margins are entire (smooth) and without necrosis or chlorosis.",
+      "Young, developing leaves (flushes) can be reddish, bronze, or pale green before maturing to dark green.",
+      "Leaves are turgid and well-formed, without distortion, curling, or wilting.",
+      "Petioles are firm, holding the leaflets in their characteristic orientation."
+    ],
+    "stems": [
+      "Bark on the trunk and branches is smooth, intact, and typically light grey to brownish.",
+      "Stems are firm and free from cankers, galls, cracks, or dieback.",
+      "On mature trees, tapping panels (if present) show clean cuts and healthy latex flow without discoloration."
+    ],
+    "fruit": [],
+    "roots": [],
+    "whole_plant": [
+      "Exhibits vigorous, upright growth with a dense, well-developed canopy.",
+      "Overall appearance is vital and robust."
+    ],
+    "signs_microscopic_or_visible": [
+      "Complete absence of any pathogen signs such as mycelia, fungal fruiting bodies, spores, or bacterial ooze."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "senescence or dry",
+      "condition_id": "rubber.abiotic.senescence_or_dry",
+      "key_differences": [
+        "Healthy leaves are uniformly green, whereas senescing leaves show a uniform, widespread yellowing (chlorosis), often starting with the oldest, lowest leaves.",
+        "Healthy leaves are turgid and firm; water-stressed (dry) leaves will appear wilted, limp, or have crispy, brown margins.",
+        "Healthy new growth is vibrant (often reddish or light green), while a chronically stressed plant may exhibit stunted new growth."
+      ]
+    },
+    {
+      "condition_name": "anthracnose",
+      "condition_id": "rubber.fungal.anthracnose",
+      "key_differences": [
+        "Healthy leaves have an unblemished surface, while anthracnose causes distinct, often dark brown or black, sunken lesions with defined borders.",
+        "Anthracnose lesions, particularly on young leaves, can cause significant distortion, curling, and blight; healthy leaves are symmetrical and well-formed.",
+        "Lesions from anthracnose may develop a 'shot-hole' appearance as the necrotic center falls out, which is absent on healthy leaves."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Maintain optimal growing conditions (light, water, humidity).",
+      "Ensure well-drained soil to prevent root rot.",
+      "Provide balanced fertilization to avoid nutrient deficiencies.",
+      "Prune to maintain good air circulation through the canopy.",
+      "Regularly monitor plants for early signs of pests or diseases."
+    ],
+    "biological": [],
+    "chemical": [],
+    "notes": "Management for a healthy plant is preventative, focusing on maintaining ideal cultural practices to minimize stress and prevent disease onset."
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "cotton.pest_insect.leaf_hopper_jassids",
+  "aliases": [
+    "Jassids",
+    "Cotton jassids",
+    "Leafhopper burn",
+    "Hopperburn"
+  ],
+  "crop": {
+    "common_name": "cotton",
+    "scientific_name": "Gossypium hirsutum",
+    "family": "Malvaceae"
+  },
+  "condition": {
+    "common_name": "Leaf hopper jassids",
+    "scientific_name": "Amrasca biguttula biguttula",
+    "alt_names": [
+      "Cotton jassid",
+      "Leafhopper"
+    ],
+    "pathogen": {
+      "type": "insect",
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Arthropoda",
+        "class": "Insecta",
+        "order": "Hemiptera",
+        "family": "Cicadellidae",
+        "genus": "Amrasca",
+        "species": "biguttula biguttula"
+      }
+    }
+  },
+  "issue_type": "pest_insect",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [
+      "Adult insect flight",
+      "Wind-assisted dispersal of adults"
+    ],
+    "overwintering": [
+      "On alternate host plants (e.g., okra, potato, eggplant)",
+      "In crop debris",
+      "As adults in sheltered locations"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "Warm and humid conditions, especially during the rainy season followed by dry spells.",
+      "Lush, succulent plant growth, often from excessive nitrogen fertilizer.",
+      "Presence of alternate weed hosts near the field.",
+      "Absence or reduction of natural predators."
+    ],
+    "temp_c_day": [
+      25,
+      35
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      60,
+      85
+    ],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "qualitative",
+    "mild": "Slight yellowing along leaf margins on a few upper leaves. Nymphs or adults may be visible on the underside of leaves.",
+    "moderate": "Pronounced yellowing and downward curling of leaf margins ('hopperburn') on multiple leaves. Some leaves show reddening or browning at the edges.",
+    "severe": "Widespread 'hopperburn' with leaves turning brick red, becoming brittle, and eventually shedding. Plant growth is visibly stunted.",
+    "notes": "Severity is assessed based on the extent of 'hopperburn' symptoms (yellowing, reddening, curling of leaf margins) and the proportion of foliage affected, which reflects pest population density."
+  },
+  "symptoms": {
+    "leaves": [
+      "Initial yellowing appears along the margins and tips of leaves.",
+      "Leaf margins curl downwards and inwards, creating a cupped or inverted boat shape.",
+      "Affected leaf edges progressively turn reddish-brown to brick red, a symptom known as 'hopperburn'.",
+      "In severe cases, the entire leaf becomes brittle, dries up, and sheds prematurely.",
+      "Tiny, pale green, wedge-shaped nymphs are visible on the underside of leaves.",
+      "Nymphs characteristically move sideways (crab-like) when disturbed.",
+      "Honeydew excretions on lower leaves may support the growth of black sooty mold."
+    ],
+    "stems": [
+      "Internodal length may be reduced under heavy infestation."
+    ],
+    "fruit": [
+      "Poor boll development and shedding of young bolls can occur due to reduced plant vigor."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Overall plant growth is stunted, resulting in a withered appearance."
+    ],
+    "signs_microscopic_or_visible": [
+      "Presence of pale green, wedge-shaped nymphs on leaf undersides.",
+      "Presence of mobile, greenish-yellow adult leafhoppers that jump or fly when disturbed.",
+      "White, shed skins (exuviae) of nymphs stuck to the undersides of leaves."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "Leaf curl",
+      "condition_id": "cotton.viral_disease.leaf_curl",
+      "key_differences": [
+        "Leafhopper damage causes downward curling of margins; Leaf Curl Virus causes upward or downward curling of the entire leaf, often with thickening and swelling of veins.",
+        "Hopperburn's characteristic marginal yellowing and reddening is not a primary symptom of Leaf Curl Virus.",
+        "Leaf Curl Virus can cause enations (small leaf-like outgrowths) on veins, which are absent with leafhopper damage.",
+        "The insect present for Leaf Curl is the whitefly, not the greenish, wedge-shaped leafhopper jassid."
+      ]
+    },
+    {
+      "condition_name": "Herbicide growth damage",
+      "condition_id": "cotton.abiotic.herbicide_growth_damage",
+      "key_differences": [
+        "Herbicide damage often causes strapping, cupping, or uniform twisting of new growth, whereas leafhopper damage is more randomly distributed based on pest location.",
+        "The distinct 'hopperburn' symptom (marginal yellowing to reddening) is absent in most cases of herbicide injury.",
+        "Leafhopper insects (nymphs/adults) are present with jassid damage but absent with herbicide damage."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Planting early-maturing and tolerant/resistant varieties.",
+      "Avoiding excessive nitrogen fertilization which promotes succulent growth favored by jassids.",
+      "Maintaining field sanitation and removing weed hosts from around the field.",
+      "Timely sowing to avoid peak pest populations."
+    ],
+    "biological": [
+      "Conservation and encouragement of natural predators like lacewings, lady beetles, and spiders."
+    ],
+    "chemical": [
+      "Application of systemic insecticides as seed treatments to protect early growth stages.",
+      "Foliar sprays with recommended insecticides when pest populations cross the economic threshold level (ETL).",
+      "Rotating insecticide classes to prevent the development of resistance."
+    ],
+    "notes": "Monitor fields regularly, especially during early crop stages. Economic Threshold Levels (ETLs) are typically based on the number of nymphs per leaf."
+  }
+}

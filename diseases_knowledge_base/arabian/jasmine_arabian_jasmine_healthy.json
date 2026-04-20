@@ -1,0 +1,105 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "arabian.unknown.jasmine_arabian_jasmine_healthy",
+  "aliases": [
+    "Normal Arabian Jasmine",
+    "Asymptomatic Jasminum sambac"
+  ],
+  "crop": {
+    "common_name": "Arabian Jasmine",
+    "scientific_name": "Jasminum sambac",
+    "family": "Oleaceae"
+  },
+  "condition": {
+    "common_name": "Healthy",
+    "scientific_name": null,
+    "alt_names": [
+      "Normal",
+      "Asymptomatic",
+      "Unaffected"
+    ],
+    "pathogen": {
+      "type": "non_pathogenic",
+      "taxonomy": {
+        "kingdom": "",
+        "phylum": "",
+        "class": "",
+        "order": "",
+        "family": "",
+        "genus": "",
+        "species": ""
+      }
+    }
+  },
+  "issue_type": "unknown",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [],
+    "overwintering": []
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "Optimal sunlight exposure (6-8 hours/day)",
+      "Consistent and appropriate watering",
+      "Well-drained, slightly acidic soil",
+      "Good air circulation around the foliage"
+    ],
+    "temp_c_day": [
+      21,
+      29
+    ],
+    "temp_c_night": [
+      18,
+      21
+    ],
+    "relative_humidity_pct": [
+      60,
+      80
+    ],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "qualitative",
+    "mild": "Not applicable.",
+    "moderate": "Not applicable.",
+    "severe": "Not applicable.",
+    "notes": "This card represents a healthy, asymptomatic plant. Severity assessment is not applicable as there are no signs or symptoms of disease or stress."
+  },
+  "symptoms": {
+    "leaves": [
+      "Uniformly deep green in color with no yellowing or discoloration.",
+      "Leaves are turgid, firm, and not wilted or drooping.",
+      "Leaf surfaces are glossy or waxy and free of spots, lesions, or blemishes.",
+      "Veins are a similar or slightly lighter green than the leaf blade.",
+      "Leaf shape and size are consistent with the species and age of the foliage."
+    ],
+    "stems": [
+      "Stems are firm, strong, and appropriately upright or vining.",
+      "Stem color is green on new growth, becoming light brown on older wood.",
+      "No cankers, galls, black streaks, or lesions are visible on stems."
+    ],
+    "fruit": [],
+    "roots": [],
+    "whole_plant": [
+      "Exhibits vigorous growth with new leaves and shoots.",
+      "Foliage is dense and full.",
+      "Overall appearance is robust and vibrant."
+    ],
+    "signs_microscopic_or_visible": []
+  },
+  "lookalikes": [],
+  "management": {
+    "cultural": [
+      "Provide 6-8 hours of direct or bright, indirect sunlight daily.",
+      "Use a well-draining potting mix or soil.",
+      "Water when the top 1-2 inches of soil feel dry to the touch.",
+      "Ensure good air circulation to reduce humidity on leaf surfaces.",
+      "Fertilize during the growing season according to product recommendations."
+    ],
+    "biological": [],
+    "chemical": [
+      "Not applicable for maintaining health. Chemical treatments are reactive, not preventative, in home settings."
+    ],
+    "notes": "Maintaining optimal cultural conditions is the best way to keep an Arabian Jasmine plant healthy and resilient to potential issues."
+  }
+}

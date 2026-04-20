@@ -1,0 +1,150 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "bottle.unknown.gourd_healthy",
+  "aliases": [
+    "healthy bottle gourd",
+    "normal bottle gourd",
+    "unaffected plant"
+  ],
+  "crop": {
+    "common_name": "bottle gourd",
+    "scientific_name": "Lagenaria siceraria",
+    "family": "Cucurbitaceae"
+  },
+  "condition": {
+    "common_name": "healthy",
+    "scientific_name": null,
+    "alt_names": [
+      "normal",
+      "asymptomatic",
+      "unaffected"
+    ],
+    "pathogen": {
+      "type": "none",
+      "taxonomy": {
+        "kingdom": "",
+        "phylum": "",
+        "class": "",
+        "order": "",
+        "family": "",
+        "genus": "",
+        "species": ""
+      }
+    }
+  },
+  "issue_type": "unknown",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [],
+    "overwintering": []
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "Describes optimal conditions; deviations are risks.",
+      "Poorly drained soil",
+      "Shaded conditions (<6 hours of direct sun)",
+      "Nutrient-poor soil",
+      "Extreme temperature fluctuations"
+    ],
+    "temp_c_day": [
+      24,
+      35
+    ],
+    "temp_c_night": [
+      18,
+      24
+    ],
+    "relative_humidity_pct": [
+      60,
+      80
+    ],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "qualitative",
+    "mild": "Plant is vigorous with normal coloration and turgor. No visible signs of disease, pests, or nutritional stress.",
+    "moderate": "Not applicable. Any deviation from 'mild' indicates a potential problem.",
+    "severe": "Not applicable. Any deviation from 'mild' indicates a potential problem.",
+    "notes": "This rubric is used to confirm the absence of symptoms. The 'mild' category represents a healthy plant."
+  },
+  "symptoms": {
+    "leaves": [
+      "Uniformly green color, ranging from light to dark green depending on age and variety.",
+      "Leaves are fully expanded, turgid, and appropriately sized for their developmental stage.",
+      "Surfaces are free of spots, lesions, discoloration, or powdery/fuzzy growth.",
+      "Leaf margins are smooth and intact, without yellowing, browning, or necrosis.",
+      "Petioles are strong, green, and hold the leaves firmly."
+    ],
+    "stems": [
+      "Stems and vines are firm, green, and show signs of active growth.",
+      "No cankers, lesions, discoloration, or gummy exudates are present.",
+      "Tendrils are green, flexible, and actively curling."
+    ],
+    "fruit": [
+      "Fruit skin is firm, smooth, and has a uniform, unblemished color characteristic of the variety.",
+      "No sunken spots, soft spots, cracks, or signs of rot.",
+      "The peduncle (fruit stalk) is green, firm, and securely attached."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Exhibits a vigorous, sprawling or climbing growth habit.",
+      "Shows evidence of new, healthy growth such as young leaves, flowers, or developing fruit.",
+      "Plant is not wilted, stunted, or showing signs of dieback."
+    ],
+    "signs_microscopic_or_visible": [
+      "Absence of any visible fungal mycelium, spores, bacterial ooze, insect colonies, or feeding damage."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "gourd_anthracnose",
+      "condition_id": "bottle.fungal.gourd_anthracnose",
+      "key_differences": [
+        "Healthy leaves are uniformly green, whereas anthracnose causes distinct, water-soaked circular lesions that turn dark brown or black.",
+        "Healthy fruit is unblemished; anthracnose causes sunken, circular, dark lesions, often with pinkish spore masses in the center under moist conditions.",
+        "Healthy stems are clean; anthracnose may cause elongated, dark, sunken cankers on stems and petioles."
+      ]
+    },
+    {
+      "condition_name": "gourd_downy_mildew",
+      "condition_id": "bottle.oomycete.gourd_downy_mildew",
+      "key_differences": [
+        "The upper surface of healthy leaves is uniformly green, while downy mildew causes pale green to yellow, angular spots bounded by leaf veins.",
+        "The underside of a healthy leaf is plain green; downy mildew exhibits a distinct purplish-gray, fuzzy growth on the underside of lesions, especially in high humidity.",
+        "Healthy leaves do not have angular patterns; the vein-limited nature of downy mildew lesions is a key diagnostic feature."
+      ]
+    },
+    {
+      "condition_name": "gourd_nutritional_deficiency",
+      "condition_id": "bottle.abiotic.gourd_nutritional_deficiency",
+      "key_differences": [
+        "Healthy leaves have a solid, uniform green color, whereas deficiencies cause specific patterns like interveinal chlorosis (yellowing between green veins) or marginal yellowing.",
+        "Healthy growth is uniform across the plant, while deficiencies often show a systematic pattern, affecting either older (mobile nutrients) or younger (immobile nutrients) leaves first.",
+        "The overall plant color is a rich green in healthy plants, but can be pale green or yellowish in the case of nitrogen deficiency."
+      ]
+    },
+    {
+      "condition_name": "gourd_senescence_or_dry",
+      "condition_id": "bottle.abiotic.gourd_senescence_or_dry",
+      "key_differences": [
+        "Healthy leaves are turgid and green; drought stress causes temporary wilting of the entire plant, which recovers with water.",
+        "Natural senescence is a gradual, uniform yellowing of the oldest, lowest leaves on the plant, while the rest of the plant remains healthy.",
+        "Disease or acute stress often presents as spots, lesions, or rapid, irregular browning, unlike the orderly progression of senescence."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Plant in well-drained, fertile soil rich in organic matter.",
+      "Ensure full sun exposure (at least 6-8 hours per day).",
+      "Provide consistent moisture, watering at the base of the plant to keep foliage dry.",
+      "Use trellises to promote air circulation and lift fruit off the ground.",
+      "Practice crop rotation with non-cucurbit crops to prevent soil-borne pathogen buildup."
+    ],
+    "biological": [],
+    "chemical": [
+      "Not applicable for a healthy plant. Chemical controls are reactive, not preventative for general health."
+    ],
+    "notes": "Maintaining optimal growing conditions is the key to preventing disease and stress."
+  }
+}

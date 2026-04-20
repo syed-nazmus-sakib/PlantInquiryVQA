@@ -1,0 +1,143 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "pepper.pest_mite.mites",
+  "aliases": [
+    "spider mites",
+    "broad mites",
+    "two-spotted spider mite"
+  ],
+  "crop": {
+    "common_name": "Pepper",
+    "scientific_name": "Capsicum annuum",
+    "family": "Solanaceae"
+  },
+  "condition": {
+    "common_name": "Mites",
+    "scientific_name": "Tetranychus urticae, Polyphagotarsonemus latus",
+    "alt_names": [
+      "Spider Mites",
+      "Broad Mites",
+      "Cyclamen Mites"
+    ],
+    "pathogen": {
+      "type": "Arthropod",
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Arthropoda",
+        "class": "Arachnida",
+        "order": "Trombidiformes",
+        "family": "Tetranychidae",
+        "genus": "Tetranychus",
+        "species": "urticae"
+      }
+    }
+  },
+  "issue_type": "pest_mite",
+  "transmission": {
+    "vectors": [
+      "Wind",
+      "Humans (on clothing/equipment)",
+      "Infected transplants"
+    ],
+    "dispersal": [
+      "Wind currents",
+      "Crawling from plant to plant"
+    ],
+    "overwintering": [
+      "In crop debris",
+      "On perennial weeds",
+      "In greenhouse structures"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "Hot, dry conditions",
+      "Dusty environments",
+      "Low humidity",
+      "Over-application of broad-spectrum insecticides"
+    ],
+    "temp_c_day": [
+      25,
+      35
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      0,
+      50
+    ],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "qualitative",
+    "mild": "Fine stippling on a few leaves; mites may be present but no visible webbing.",
+    "moderate": "Widespread stippling or bronzing on multiple leaves; some fine webbing may be visible on leaf undersides or at petiole junctions.",
+    "severe": "Leaves are heavily stippled, bronzed, or yellowed; extensive webbing covering leaves, stems, and growing points; visible mite colonies.",
+    "notes": "Severity is assessed by the combination of leaf stippling/bronzing intensity and the presence/extent of webbing. Leaf wetness is generally unfavorable for mites, so the threshold is not a primary risk driver."
+  },
+  "symptoms": {
+    "leaves": [
+      "Fine, pale yellow or white stippling on upper leaf surfaces.",
+      "Leaves appear dusty or dirty, especially on the underside.",
+      "Leaf undersides show a bronze or silvery sheen (characteristic of broad mites).",
+      "Leaves may become brittle, distorted, or curl downwards.",
+      "In severe cases, leaves turn yellow or brown and drop prematurely.",
+      "New growth is stunted, twisted, or malformed."
+    ],
+    "stems": [
+      "Fine webbing may be present between stems and leaves, especially at nodes."
+    ],
+    "fruit": [
+      "Fruit surfaces may become scarred, bronzed, or russeted.",
+      "Fruit may be deformed or smaller than normal."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Overall plant vigor is reduced.",
+      "Stunted growth."
+    ],
+    "signs_microscopic_or_visible": [
+      "Presence of tiny, moving specks (mites) on leaf undersides, best seen with a hand lens.",
+      "Fine, silk-like webbing on undersides of leaves and at leaf axils.",
+      "Presence of tiny spherical eggs on leaf undersides along veins."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "Thrips",
+      "condition_id": "pepper.pest_insect.thrips",
+      "key_differences": [
+        "Thrips damage often appears as silvery patches or streaks, while mite damage is typically fine stippling.",
+        "Thrips leave tiny black specks of frass (excrement); mite infestations do not have these.",
+        "Webbing is a key sign of spider mites but is absent with thrips.",
+        "Thrips are small, elongated insects, whereas mites are tiny, round-bodied arachnids."
+      ]
+    },
+    {
+      "condition_name": "Virus",
+      "condition_id": "pepper.viral.virus",
+      "key_differences": [
+        "Mite damage often starts as stippling, while viral symptoms are more commonly mosaics, mottling, or distinct ring spots.",
+        "The presence of mites or webbing on the leaf underside confirms mite damage; these signs are absent in a primary viral infection.",
+        "Viral leaf distortion is often systematic (e.g., fernleaf), whereas mite-induced distortion is often accompanied by bronzing or stippling."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Maintain adequate irrigation and avoid water stress.",
+      "Use overhead watering or syringing to wash off mites and raise humidity.",
+      "Control dust on nearby roads or paths.",
+      "Remove and destroy heavily infested plants and nearby weeds."
+    ],
+    "biological": [
+      "Introduce and conserve predatory mites (e.g., Phytoseiulus persimilis, Neoseiulus californicus).",
+      "Encourage populations of other natural enemies like lacewings, lady beetles, and minute pirate bugs."
+    ],
+    "chemical": [
+      "Apply selective miticides (acaricides) ensuring thorough coverage of leaf undersides.",
+      "Rotate chemical classes to prevent resistance.",
+      "Horticultural oils and insecticidal soaps can be effective with direct contact and repeated application."
+    ],
+    "notes": "Early detection is crucial. Scout undersides of lower leaves regularly with a hand lens, especially during hot, dry weather."
+  }
+}

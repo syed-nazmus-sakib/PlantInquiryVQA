@@ -1,0 +1,136 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "grape.disease_fungal.yellow_leaf_spot",
+  "aliases": [
+    "grapevine yellow leaf spot",
+    "Pseudocercospora leaf spot"
+  ],
+  "crop": {
+    "common_name": "grape",
+    "scientific_name": "Vitis vinifera",
+    "family": "Vitaceae"
+  },
+  "condition": {
+    "common_name": "yellow leaf spot",
+    "scientific_name": "Pseudocercospora vitis",
+    "alt_names": [],
+    "pathogen": {
+      "type": "disease_fungal",
+      "taxonomy": {
+        "kingdom": "Fungi",
+        "phylum": "Ascomycota",
+        "class": "Dothideomycetes",
+        "order": "Capnodiales",
+        "family": "Mycosphaerellaceae",
+        "genus": "Pseudocercospora",
+        "species": "P. vitis"
+      }
+    }
+  },
+  "issue_type": "disease_fungal",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [
+      "wind-driven rain",
+      "splashing water",
+      "wind"
+    ],
+    "overwintering": [
+      "infected fallen leaves",
+      "lesions on canes"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "high humidity",
+      "frequent rainfall",
+      "poor air circulation in canopy",
+      "prolonged leaf wetness"
+    ],
+    "temp_c_day": [
+      25,
+      30
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      85,
+      100
+    ],
+    "leaf_wetness_hours_threshold": 8
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "1-10% of leaf area affected with distinct, small lesions.",
+    "moderate": "11-40% of leaf area affected; some lesions may be coalescing.",
+    "severe": ">40% of leaf area affected; extensive lesion coalescence, leaf yellowing, and premature defoliation is likely.",
+    "notes": "Severity is assessed on the most affected leaves. Focus on the percentage of the leaf blade showing symptoms, not the entire plant."
+  },
+  "symptoms": {
+    "leaves": [
+      "Small, circular to irregular yellow spots appear on the upper leaf surface.",
+      "Lesions are initially bright yellow, often with a diffuse, halo-like margin.",
+      "As lesions mature, the center turns necrotic, becoming tan, brown, or blackish.",
+      "A tiny, dark dot (stroma) may be visible in the center of the necrotic area.",
+      "On the lower leaf surface, the corresponding area appears water-soaked, then turns olive-green to brownish-black due to sporulation.",
+      "Multiple spots can merge (coalesce) to form larger, irregular blotches.",
+      "Infected leaves may curl, wither, and drop prematurely, especially under severe infection."
+    ],
+    "stems": [
+      "Lesions on young shoots are rare but can appear as elongated, dark spots."
+    ],
+    "fruit": [],
+    "roots": [],
+    "whole_plant": [
+      "Severe infections can lead to significant defoliation, reducing plant vigor and future yield."
+    ],
+    "signs_microscopic_or_visible": [
+      "Fuzzy, olive-green to dark sporulation (conidiophores and conidia) visible on the underside of leaf lesions, often with a hand lens."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "black rot",
+      "condition_id": "grape.disease_fungal.black_rot",
+      "key_differences": [
+        "Black rot lesions have a distinct dark border and a tan center, unlike the initial bright yellow of yellow leaf spot.",
+        "Black rot lesions contain tiny black specks (pycnidia) often arranged in a ring, which are absent in yellow leaf spot.",
+        "Yellow leaf spot has olive-green/brownish sporulation on the leaf underside, while black rot does not produce this sign on leaves."
+      ]
+    },
+    {
+      "condition_name": "downy mildew",
+      "condition_id": "grape.disease_oomycete.downy_mildew",
+      "key_differences": [
+        "Downy mildew lesions ('oil spots') are pale yellow-green and greasy, not the bright, distinct yellow of yellow leaf spot.",
+        "Downy mildew produces a prominent, white, fluffy fungal growth on the leaf underside, contrasting with the more subdued, olive-green to dark growth of yellow leaf spot.",
+        "Downy mildew lesions are often angular and vein-limited, while yellow leaf spot lesions are more circular to irregular."
+      ]
+    },
+    {
+      "condition_name": "isariopsis leaf spot",
+      "condition_id": "grape.disease_fungal.isariopsis_leaf_spot",
+      "key_differences": [
+        "Isariopsis lesions are typically reddish-brown to dark brown from the start, lacking the initial bright yellow phase.",
+        "Isariopsis lesions are often angular and sharply defined by veins.",
+        "The fungal signs for Isariopsis appear as small, dark, bristle-like structures (synnemata) on the leaf underside, different from the more diffuse sporulation of yellow leaf spot."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Improve air circulation through canopy management, leaf pulling, and proper pruning.",
+      "Remove and destroy infected fallen leaves and debris after the growing season to reduce inoculum.",
+      "Use drip irrigation instead of overhead sprinklers to minimize leaf wetness.",
+      "Select less susceptible grape varieties where possible."
+    ],
+    "biological": [
+      "Application of bio-fungicides based on Bacillus subtilis or other microbial antagonists may offer some suppression when used preventatively."
+    ],
+    "chemical": [
+      "Apply registered fungicides preventatively, especially during periods of high risk (warm, wet weather).",
+      "Rotate fungicides with different modes of action (FRAC groups) to prevent resistance development.",
+      "Ensure thorough spray coverage on both upper and lower leaf surfaces."
+    ],
+    "notes": "An integrated pest management (IPM) approach combining cultural practices with timely fungicide applications is most effective for control."
+  }
+}

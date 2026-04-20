@@ -1,0 +1,107 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "bottle.nutrient_deficiency.gourd_nutritional_deficiency",
+  "aliases": [
+    "bottle gourd nutrient stress",
+    "bottle gourd mineral deficiency",
+    "bottle gourd nutrient imbalance"
+  ],
+  "crop": {
+    "common_name": "bottle gourd",
+    "scientific_name": "Lagenaria siceraria",
+    "family": "Cucurbitaceae"
+  },
+  "condition": {
+    "common_name": "nutritional deficiency",
+    "scientific_name": "",
+    "alt_names": [
+      "nutrient imbalance",
+      "mineral deficiency"
+    ],
+    "pathogen": {
+      "type": "abiotic",
+      "taxonomy": {
+        "kingdom": "",
+        "phylum": "",
+        "class": "",
+        "order": "",
+        "family": "",
+        "genus": "",
+        "species": ""
+      }
+    }
+  },
+  "issue_type": "nutrient_deficiency",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [],
+    "overwintering": []
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "improper soil pH (too high or too low)",
+      "sandy soils prone to nutrient leaching",
+      "heavy rainfall causing nutrient runoff",
+      "low soil organic matter",
+      "competition from weeds",
+      "waterlogged soil reducing nutrient uptake"
+    ],
+    "temp_c_day": [],
+    "temp_c_night": [],
+    "relative_humidity_pct": [],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "1-10% of total plant foliage shows discoloration (chlorosis) or minor stunting. Symptoms are often confined to either old or new leaves.",
+    "moderate": "11-40% of foliage is affected. Chlorosis is more pronounced, and some marginal or interveinal necrosis (browning) may be present. Stunting is evident.",
+    "severe": ">40% of foliage is severely chlorotic or necrotic. Significant stunting, poor fruit development (e.g., blossom-end rot), and leaf drop are common. Plant death is possible.",
+    "notes": "Severity is assessed based on the percentage of the entire plant's foliage showing symptoms. The location of symptoms (old vs. new leaves) is a key diagnostic clue for specific nutrient deficiencies but overall percentage reflects severity."
+  },
+  "symptoms": {
+    "leaves": [
+      "General chlorosis (pale green to yellow discoloration) across the leaf blade.",
+      "Interveinal chlorosis, where leaf veins remain green while the tissue between them turns yellow.",
+      "Yellowing, scorching, or necrosis starting at the margins of older, lower leaves (e.g., Potassium deficiency).",
+      "Uniform pale green or yellowing of older, lower leaves, which may drop prematurely (e.g., Nitrogen deficiency).",
+      "Stunted, small, and pale new leaves (e.g., Iron or Sulfur deficiency).",
+      "Leaves may appear cupped, crinkled, or distorted.",
+      "Purplish discoloration on leaves, particularly on older leaves in cool conditions (e.g., Phosphorus deficiency)."
+    ],
+    "stems": [
+      "Stems are thin, spindly, and weak.",
+      "Shortened internodes result in a compact, stunted appearance."
+    ],
+    "fruit": [
+      "Poor fruit set or premature fruit drop.",
+      "Fruits are small, misshapen, or have poor color.",
+      "Blossom-end rot, a dark, sunken lesion at the blossom end of the fruit (Calcium deficiency)."
+    ],
+    "roots": [
+      "Poorly developed, stunted, or discolored root system (not typically visible in photos)."
+    ],
+    "whole_plant": [
+      "Overall stunted growth and lack of vigor compared to healthy plants.",
+      "Premature senescence (aging) and death of lower leaves."
+    ],
+    "signs_microscopic_or_visible": []
+  },
+  "lookalikes": [],
+  "management": {
+    "cultural": [
+      "Conduct a soil test before planting to determine pH and existing nutrient levels.",
+      "Amend soil with compost or other organic matter to improve nutrient retention and availability.",
+      "Adjust soil pH to the optimal range for bottle gourds (6.0-6.8) using lime or sulfur as needed.",
+      "Ensure consistent and adequate watering to facilitate nutrient uptake and prevent drought stress.",
+      "Use a balanced fertilizer according to soil test recommendations."
+    ],
+    "biological": [],
+    "chemical": [
+      "Apply a balanced, complete fertilizer (e.g., 10-10-10) if a soil test is unavailable.",
+      "Use foliar sprays containing specific micronutrients (e.g., chelated iron, magnesium sulfate) for rapid but temporary correction of deficiencies.",
+      "Side-dress with nitrogen fertilizer during the growing season as gourds are heavy feeders.",
+      "Apply calcium nitrate or gypsum to prevent blossom-end rot if calcium is deficient."
+    ],
+    "notes": "Accurate diagnosis of the specific nutrient is key. Applying a nutrient that is not deficient can create further imbalances. Soil or tissue analysis is the most reliable diagnostic method."
+  }
+}

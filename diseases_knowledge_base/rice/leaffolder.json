@@ -1,0 +1,130 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "rice.pest_insect.leaffolder",
+  "aliases": [
+    "rice leaf roller",
+    "rice leaf tier"
+  ],
+  "crop": {
+    "common_name": "rice",
+    "scientific_name": "Oryza sativa",
+    "family": "Poaceae"
+  },
+  "condition": {
+    "common_name": "leaffolder",
+    "scientific_name": "Cnaphalocrocis medinalis",
+    "alt_names": [
+      "leaf roller"
+    ],
+    "pathogen": {
+      "type": "insect",
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Arthropoda",
+        "class": "Insecta",
+        "order": "Lepidoptera",
+        "family": "Crambidae",
+        "genus": "Cnaphalocrocis",
+        "species": "medinalis"
+      }
+    }
+  },
+  "issue_type": "pest_insect",
+  "transmission": {
+    "vectors": [
+      "adult moth"
+    ],
+    "dispersal": [
+      "Wind-assisted flight of adult moths"
+    ],
+    "overwintering": [
+      "Larvae or pupae in rice stubble, weeds, or volunteer rice plants"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "High nitrogen fertilizer application",
+      "High plant density or shaded conditions",
+      "High humidity and presence of grassy weeds",
+      "Periods of continuous rainfall"
+    ],
+    "temp_c_day": [
+      25,
+      30
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      80,
+      95
+    ],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "1-10% of leaf area shows white, transparent streaks or folded leaves. Damage is scattered and minimal.",
+    "moderate": "11-30% of leaf area is affected. Multiple folded leaves are visible on many tillers.",
+    "severe": ">30% of leaf area is affected, particularly the flag leaves. The field may appear whitish or scorched from a distance.",
+    "notes": "Severity is based on the percentage of photosynthetic area lost to larval feeding. Damage to the flag leaf during the reproductive stage is most critical for yield loss."
+  },
+  "symptoms": {
+    "leaves": [
+      "Longitudinal folding of the leaf blade, with margins fastened by silk strands.",
+      "Presence of white, transparent, or papery streaks running parallel to the midrib.",
+      "Scraping of the green tissue (chlorophyll) from within the folded leaf.",
+      "Leaf tips may appear white and dried up.",
+      "In severe infestations, entire leaves look white and scorched.",
+      "Presence of elongated, greenish-yellow fecal pellets inside the folded leaf."
+    ],
+    "stems": [],
+    "fruit": [],
+    "roots": [],
+    "whole_plant": [
+      "Reduced plant vigor and stunted growth in heavy infestations.",
+      "A severely infested field appears whitish and scorched from a distance."
+    ],
+    "signs_microscopic_or_visible": [
+      "A slender, yellowish-green larva (caterpillar) is visible if the folded leaf is opened.",
+      "Small, yellowish, disc-shaped eggs laid singly or in small groups on the leaf surface.",
+      "Brownish pupae may be found inside the folded leaves or leaf sheaths."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "hispa",
+      "condition_id": "rice.pest_insect.hispa",
+      "key_differences": [
+        "Hispa damage consists of narrow, parallel, white streaks from adult feeding, whereas leaffolder causes broader scraped patches inside a folded leaf.",
+        "Leaffolder physically folds the leaf blade together with silk; hispa does not cause leaf folding.",
+        "Hispa larvae are leaf miners that create tunnels or blisters within the leaf tissue, not external feeders within a fold."
+      ]
+    },
+    {
+      "condition_name": "bacterial_leaf_blight",
+      "condition_id": "rice.disease_bacterial.bacterial_leaf_blight",
+      "key_differences": [
+        "Bacterial blight causes water-soaked lesions that turn yellowish-white with wavy margins, not distinct scraped streaks.",
+        "Blight lesions often start from the leaf tip or margins and progress downwards, unlike the damage contained within a leaffolder's fold.",
+        "The leaf is not physically folded or webbed together in bacterial blight.",
+        "Bacterial ooze may be present on blight lesions, a sign absent in leaffolder damage."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Avoid excessive nitrogen fertilizer application.",
+      "Maintain wider plant spacing to decrease humidity and pest movement.",
+      "Remove grassy weeds from bunds and fields, as they serve as alternate hosts.",
+      "Practice synchronous planting within a region to break the pest cycle."
+    ],
+    "biological": [
+      "Conserve natural enemies like spiders, wasps, dragonflies, and predatory beetles.",
+      "Apply bio-pesticides such as *Bacillus thuringiensis* (Bt) or Beauveria bassiana."
+    ],
+    "chemical": [
+      "Apply recommended insecticides only when the pest population exceeds the economic threshold level (ETL).",
+      "Avoid prophylactic spraying to protect beneficial insects.",
+      "Use selective insecticides like chlorantraniliprole or flubendiamide."
+    ],
+    "notes": "The economic threshold is often defined as 1-2 freshly damaged leaves per hill during the vegetative stage or >10% flag leaf damage during the reproductive stage."
+  }
+}

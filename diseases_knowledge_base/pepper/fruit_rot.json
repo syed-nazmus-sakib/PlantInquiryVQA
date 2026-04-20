@@ -1,0 +1,149 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "pepper.unknown.fruit_rot",
+  "aliases": [
+    "pepper rot",
+    "pod rot",
+    "fruit decay"
+  ],
+  "crop": {
+    "common_name": "Pepper",
+    "scientific_name": "Capsicum annuum",
+    "family": "Solanaceae"
+  },
+  "condition": {
+    "common_name": "Fruit Rot",
+    "scientific_name": "Various",
+    "alt_names": [
+      "Pepper fruit decay"
+    ],
+    "pathogen": {
+      "type": "UNKNOWN",
+      "taxonomy": {
+        "kingdom": "",
+        "phylum": "",
+        "class": "",
+        "order": "",
+        "family": "",
+        "genus": "",
+        "species": ""
+      }
+    }
+  },
+  "issue_type": "unknown",
+  "transmission": {
+    "vectors": [
+      "Insects (e.g., fruit flies, pepper weevils)"
+    ],
+    "dispersal": [
+      "Rain splash",
+      "Wind",
+      "Contaminated tools",
+      "Infected seed"
+    ],
+    "overwintering": [
+      "Infected plant debris",
+      "In soil as mycelia or resting spores",
+      "On perennial host weeds"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "High humidity",
+      "Prolonged periods of fruit wetness",
+      "Poor air circulation within the plant canopy",
+      "Fruit injury from insects, sunscald, or mechanical damage",
+      "Calcium deficiency in soil (linked to blossom-end rot)"
+    ],
+    "temp_c_day": [
+      24,
+      32
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      85,
+      100
+    ],
+    "leaf_wetness_hours_threshold": 6
+  },
+  "severity_rubric": {
+    "unit": "qualitative",
+    "mild": "One or a few small, superficial spots or lesions on a single fruit; less than 10% of the total fruit surface is affected.",
+    "moderate": "Multiple lesions or a single large lesion covering 10-40% of the fruit surface; some tissue collapse or softening is evident.",
+    "severe": "Extensive decay covering >40% of the fruit surface, often with secondary mold growth, complete fruit collapse, or mummification.",
+    "notes": "Severity is assessed on the most affected fruit on the plant. This rubric covers a range of causal agents for fruit rot."
+  },
+  "symptoms": {
+    "leaves": [
+      "May show spots or blight if the fruit rot is part of a larger disease syndrome.",
+      "General yellowing or wilting can occur if the plant is heavily stressed by the infection."
+    ],
+    "stems": [
+      "Stem cankers or lesions may be present, especially near the fruit peduncle (stalk)."
+    ],
+    "fruit": [
+      "Water-soaked, sunken lesions on the fruit surface.",
+      "Lesions may be tan, brown, black, or exhibit concentric rings.",
+      "Soft, watery decay of fruit tissue, often progressing rapidly.",
+      "Visible fuzzy or hairy mold growth (e.g., white, gray, black) on lesions under humid conditions.",
+      "Lesions frequently initiate at the blossom end, stem end, or at a wound site.",
+      "Affected fruit may shrivel, mummify, and remain attached to the plant.",
+      "Internal tissue and seeds may be discolored and rotten."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "General stunting or wilting if the underlying cause is a systemic pathogen like Phytophthora."
+    ],
+    "signs_microscopic_or_visible": [
+      "Visible mycelium (mold growth) on the fruit surface.",
+      "Presence of fruiting bodies (e.g., pycnidia, acervuli) as small black specks within lesions."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "anthracnose",
+      "condition_id": "pepper.fungal.anthracnose",
+      "key_differences": [
+        "Anthracnose lesions are distinctly circular and sunken with prominent concentric rings.",
+        "A key sign of anthracnose is the presence of salmon-pink to orange spore masses (acervuli) in the center of mature lesions.",
+        "General fruit rots can be more irregular in shape and may have white or gray mold instead of pink/orange spore masses."
+      ]
+    },
+    {
+      "condition_name": "bacterial_spot",
+      "condition_id": "pepper.bacterial.bacterial_spot",
+      "key_differences": [
+        "Bacterial spot on fruit causes small, raised, rough, or scabby lesions, not large sunken areas of soft rot.",
+        "Initial bacterial spots on fruit are water-soaked but become firm and wart-like, unlike the soft decay of most rots.",
+        "Bacterial spot is almost always accompanied by characteristic angular, necrotic spots on the leaves."
+      ]
+    },
+    {
+      "condition_name": "blight",
+      "condition_id": "pepper.oomycete.blight",
+      "key_differences": [
+        "Phytophthora blight causes large, dark, water-soaked lesions that are often covered in a coarse, white, cottony mold.",
+        "This disease also causes rapid wilting of the entire plant and distinctive dark, greasy lesions on the main stem, often at the soil line.",
+        "Fruit infected with Phytophthora blight shrivel into dry, lightweight 'mummies' that remain on the plant."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Rotate crops with non-solanaceous plants for at least 3 years.",
+      "Improve air circulation through adequate plant spacing and pruning.",
+      "Use mulch (e.g., straw or plastic) to create a barrier between the soil and fruit.",
+      "Use drip irrigation to keep foliage and fruit dry.",
+      "Remove and destroy infected fruit and plant debris immediately.",
+      "Ensure balanced soil fertility, particularly adequate calcium levels, to prevent blossom-end rot."
+    ],
+    "biological": [
+      "Application of bio-fungicides containing beneficial microbes like *Bacillus subtilis* or *Trichoderma* species can suppress some pathogens."
+    ],
+    "chemical": [
+      "Apply preventative, broad-spectrum fungicides (e.g., copper-based products, chlorothalonil, mancozeb) before disease onset, especially during periods of high humidity and rainfall.",
+      "Once a specific pathogen is identified, targeted fungicides may be more effective."
+    ],
+    "notes": "The most effective management strategy often combines multiple cultural practices. Chemical control is most effective when used preventatively."
+  }
+}

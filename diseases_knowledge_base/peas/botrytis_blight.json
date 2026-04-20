@@ -1,0 +1,143 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "peas.disease_fungal.botrytis_blight",
+  "aliases": [
+    "Gray mold of pea",
+    "Grey mould of pea"
+  ],
+  "crop": {
+    "common_name": "Pea",
+    "scientific_name": "Pisum sativum",
+    "family": "Fabaceae"
+  },
+  "condition": {
+    "common_name": "Botrytis blight",
+    "scientific_name": "Botrytis cinerea",
+    "alt_names": [
+      "Gray mold",
+      "Grey mould"
+    ],
+    "pathogen": {
+      "type": "disease_fungal",
+      "taxonomy": {
+        "kingdom": "Fungi",
+        "phylum": "Ascomycota",
+        "class": "Leotiomycetes",
+        "order": "Helotiales",
+        "family": "Sclerotiniaceae",
+        "genus": "Botrytis",
+        "species": "cinerea"
+      }
+    }
+  },
+  "issue_type": "disease_fungal",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [
+      "Wind-borne conidia",
+      "Water splash",
+      "Contaminated tools",
+      "Infected seed"
+    ],
+    "overwintering": [
+      "Sclerotia in soil",
+      "Mycelia on infected plant debris",
+      "Infected seed"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "High relative humidity (>90%)",
+      "Prolonged leaf wetness",
+      "Cool to moderate temperatures",
+      "Poor air circulation within the plant canopy",
+      "Dense plantings",
+      "Presence of senescing tissues, especially flowers"
+    ],
+    "temp_c_day": [
+      15,
+      23
+    ],
+    "temp_c_night": [
+      10,
+      18
+    ],
+    "relative_humidity_pct": [
+      90,
+      100
+    ],
+    "leaf_wetness_hours_threshold": 8
+  },
+  "severity_rubric": {
+    "unit": "qualitative",
+    "mild": "A few isolated, small lesions on leaves or stems; no significant pod infection; less than 5% of plant canopy affected.",
+    "moderate": "Multiple lesions, some coalescing on leaves and stems; initial water-soaking or early mold growth on some pods; 5-25% of plant canopy affected.",
+    "severe": "Extensive blighting of leaves, stems, and pods; dense, fuzzy gray mold is widespread; significant plant collapse or extensive pod rot; >25% of plant canopy affected.",
+    "notes": "Severity is assessed based on the overall percentage of the plant showing symptoms, with a focus on the presence and density of the characteristic gray sporulation, especially on pods and stems."
+  },
+  "symptoms": {
+    "leaves": [
+      "Water-soaked, grayish-green spots, often starting at leaf margins or where blossoms have fallen.",
+      "Lesions enlarge rapidly, becoming tan to brown with a soft, rotted texture.",
+      "Infected leaves wilt, collapse, and become covered in mold.",
+      "A fuzzy, gray to brownish mold (sporulation) develops on lesions in humid conditions."
+    ],
+    "stems": [
+      "Water-soaked, light brown to tan lesions that can girdle the stem.",
+      "Infected stem areas become soft and may cause the upper portion of the plant to wilt and die.",
+      "Gray mold growth is visible on infected stem areas."
+    ],
+    "fruit": [
+      "Water-soaked spots appear on pods, often starting at the blossom end.",
+      "Pods become soft, rot completely, and are covered in fuzzy gray mold.",
+      "Infected pods may contain shriveled, discolored, or moldy seeds."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Blighting of flowers is a common initial symptom, which then spreads to adjacent tissues.",
+      "Wilting or collapse of entire branches if the main stem is girdled."
+    ],
+    "signs_microscopic_or_visible": [
+      "Visible fuzzy, gray to brownish mold (mycelia and conidiophores) on affected tissues.",
+      "Small, black, hard, irregular resting bodies (sclerotia) may form on or in dead tissue late in the season."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "Ascochyta blight",
+      "condition_id": "peas.disease_fungal.ascochyta_blight",
+      "key_differences": [
+        "Ascochyta lesions are typically circular, sunken, tan to purplish-brown, and have a distinct dark border, unlike the soft, undefined rot of Botrytis.",
+        "Ascochyta lesions contain tiny black specks (pycnidia), often in a concentric ring pattern, which are absent in Botrytis lesions.",
+        "Botrytis produces a profuse, fuzzy gray mold, whereas Ascochyta does not produce visible mold.",
+        "Ascochyta stem lesions are typically purplish-black and sunken, not the soft tan rot seen with Botrytis."
+      ]
+    },
+    {
+      "condition_name": "Downy mildew",
+      "condition_id": "peas.disease_oomycete.downy_mildew",
+      "key_differences": [
+        "Downy mildew produces a fine, purplish-gray fuzz on the *underside* of leaves, while Botrytis mold is coarser, gray-brown, and can be on any plant part.",
+        "Downy mildew causes distinct yellow, angular blotches on the upper leaf surface, corresponding to the fuzz below.",
+        "Botrytis causes a rapidly expanding, water-soaked rot without the angular leaf spots characteristic of downy mildew."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Increase plant spacing and orient rows with prevailing winds to promote air circulation.",
+      "Avoid overhead irrigation; use drip irrigation to keep foliage dry.",
+      "Practice crop rotation with non-host crops (e.g., cereals) for at least 2-3 years.",
+      "Remove and destroy infected plant debris after harvest to reduce overwintering inoculum.",
+      "Control weeds to improve airflow and reduce humidity within the canopy."
+    ],
+    "biological": [
+      "Application of registered bio-fungicides containing beneficial microbes like *Bacillus subtilis* or *Trichoderma harzianum*."
+    ],
+    "chemical": [
+      "Preventative application of fungicides (e.g., boscalid, pyraclostrobin, fenhexamid) during high-risk periods like flowering and early pod development.",
+      "Rotate fungicide modes of action to prevent the development of pathogen resistance."
+    ],
+    "notes": "Integrated management combining cultural practices to create an unfavorable environment for the pathogen with timely fungicide applications is the most effective strategy."
+  }
+}

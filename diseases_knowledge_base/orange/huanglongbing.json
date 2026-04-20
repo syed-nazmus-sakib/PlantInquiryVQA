@@ -1,0 +1,115 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "orange.unknown.huanglongbing",
+  "aliases": [
+    "HLB",
+    "citrus greening",
+    "yellow dragon disease"
+  ],
+  "crop": {
+    "common_name": "orange",
+    "scientific_name": "Citrus \u00d7 sinensis",
+    "family": "Rutaceae"
+  },
+  "condition": {
+    "common_name": "Huanglongbing",
+    "scientific_name": "Candidatus Liberibacter asiaticus",
+    "alt_names": [
+      "HLB",
+      "citrus greening disease"
+    ],
+    "pathogen": {
+      "type": "bacterium",
+      "taxonomy": {
+        "kingdom": "Bacteria",
+        "phylum": "Pseudomonadota",
+        "class": "Alphaproteobacteria",
+        "order": "Rhizobiales",
+        "family": "Rhizobiaceae",
+        "genus": "Candidatus Liberibacter",
+        "species": "asiaticus"
+      }
+    }
+  },
+  "issue_type": "unknown",
+  "transmission": {
+    "vectors": [
+      "Asian citrus psyllid (Diaphorina citri)",
+      "African citrus psyllid (Trioza erytreae)"
+    ],
+    "dispersal": [
+      "Movement of infected plant material (grafting, nursery stock)",
+      "Insect vector flight"
+    ],
+    "overwintering": [
+      "In infected citrus trees (perennial host)"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "Presence of psyllid vectors",
+      "Temperatures favorable for psyllid development and pathogen multiplication",
+      "Proximity to infected groves"
+    ],
+    "temp_c_day": [
+      25,
+      32
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "qualitative",
+    "mild": "One or a few branches show blotchy mottle symptoms; fruit may be asymptomatic or slightly misshapen.",
+    "moderate": "Symptoms widespread on multiple limbs; significant leaf yellowing and drop; obvious fruit deformity and quality reduction.",
+    "severe": "Canopy is thin and sparse; extensive twig dieback; most fruit are small, green, and unmarketable; tree is in severe decline.",
+    "notes": "Severity reflects the systemic progression of the disease throughout the tree over time, not just the symptoms on a single leaf. HLB is a systemic disease, and severity is often assessed on a whole-plant basis."
+  },
+  "symptoms": {
+    "leaves": [
+      "Asymmetrical, blotchy yellowing (mottling) that crosses leaf veins, not restricted by the midrib.",
+      "Overall yellowing of leaves, resembling a nutrient deficiency, but with a non-symmetrical pattern.",
+      "Veins may appear thickened and corky.",
+      "Leaves may be smaller than normal and stand upright.",
+      "Premature leaf drop leading to a thin canopy."
+    ],
+    "stems": [
+      "Twig and branch dieback as the disease progresses."
+    ],
+    "fruit": [
+      "Lopsided or misshapen fruit, often smaller than normal.",
+      "Color inversion, where the stylar (blossom) end stays green while the stem end turns orange.",
+      "Fruit remains hard and does not ripen properly.",
+      "Seeds are small, dark, and aborted.",
+      "Juice is bitter with low sugar content."
+    ],
+    "roots": [
+      "Root system decay and feeder root loss, which often precedes visible canopy symptoms."
+    ],
+    "whole_plant": [
+      "Stunted growth and overall decline.",
+      "Sparse, thin canopy.",
+      "Out-of-season or off-bloom flowering."
+    ],
+    "signs_microscopic_or_visible": [
+      "Presence of Asian citrus psyllid adults, nymphs, or their waxy tubules on new growth."
+    ]
+  },
+  "lookalikes": [],
+  "management": {
+    "cultural": [
+      "Remove and destroy infected trees (roguing) to eliminate inoculum sources.",
+      "Use certified disease-free nursery stock for planting.",
+      "Implement area-wide management programs to coordinate psyllid vector control."
+    ],
+    "biological": [
+      "Conservation and release of natural enemies of the psyllid vector (e.g., the parasitoid wasp Tamarixia radiata)."
+    ],
+    "chemical": [
+      "Coordinated insecticide applications targeting psyllid vectors, especially during flush periods.",
+      "Application of enhanced nutritional programs to mitigate symptom expression and prolong productivity in infected trees."
+    ],
+    "notes": "There is no cure for HLB. Management focuses on preventing new infections by controlling the insect vector and removing infected trees to reduce inoculum."
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "litchi.disease_fungal.black_spot",
+  "aliases": [
+    "anthracnose",
+    "pepper spot"
+  ],
+  "crop": {
+    "common_name": "litchi",
+    "scientific_name": "Litchi chinensis",
+    "family": "Sapindaceae"
+  },
+  "condition": {
+    "common_name": "black spot",
+    "scientific_name": "Colletotrichum gloeosporioides",
+    "alt_names": [
+      "anthracnose"
+    ],
+    "pathogen": {
+      "type": "disease_fungal",
+      "taxonomy": {
+        "kingdom": "Fungi",
+        "phylum": "Ascomycota",
+        "class": "Sordariomycetes",
+        "order": "Glomerellales",
+        "family": "Glomerellaceae",
+        "genus": "Colletotrichum",
+        "species": "gloeosporioides"
+      }
+    }
+  },
+  "issue_type": "disease_fungal",
+  "transmission": {
+    "vectors": [
+      "insects (e.g., fruit flies, mites)"
+    ],
+    "dispersal": [
+      "rain splash",
+      "wind-driven rain",
+      "irrigation water",
+      "contaminated pruning tools"
+    ],
+    "overwintering": [
+      "infected twigs and branches",
+      "mummified fruit",
+      "leaf debris on the orchard floor"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "high humidity",
+      "prolonged leaf and fruit wetness",
+      "frequent rainfall during flowering and fruit development",
+      "poor air circulation due to dense canopy",
+      "temperatures between 25-30\u00b0C"
+    ],
+    "temp_c_day": [
+      25,
+      30
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      90,
+      100
+    ],
+    "leaf_wetness_hours_threshold": 12
+  },
+  "severity_rubric": {
+    "unit": "qualitative",
+    "mild": "A few small, isolated black spots (<5% of fruit surface area), not coalescing. Fruit is likely still marketable.",
+    "moderate": "Multiple spots, some beginning to coalesce, covering 5-25% of the fruit surface. Minor skin cracking may be present.",
+    "severe": "Large, coalesced black lesions covering >25% of the fruit surface, often with significant skin cracking, secondary rot, and visible spore masses.",
+    "notes": "Severity is primarily assessed on fruit due to economic impact. A single large lesion can make a fruit unmarketable. On leaves, percent area can be used as a proxy."
+  },
+  "symptoms": {
+    "leaves": [
+      "Small, circular, dark brown to black spots, sometimes surrounded by a yellow halo.",
+      "Lesions can enlarge and merge, forming irregular necrotic patches.",
+      "In older lesions, the necrotic center may dry and fall out, creating a 'shot-hole' effect.",
+      "Symptoms are often more prevalent on mature or older leaves."
+    ],
+    "stems": [
+      "Elongated, sunken, dark brown to black cankers can form on young twigs.",
+      "Severe cankers can girdle the stem, leading to dieback of the branch tip."
+    ],
+    "fruit": [
+      "Initial symptoms are small, water-soaked, brownish spots on the fruit skin (pericarp).",
+      "Spots enlarge, turn black, become slightly sunken, and are typically circular.",
+      "Under humid conditions, pinkish-orange, gelatinous spore masses (acervuli) may appear in the center of the spots.",
+      "Lesions can coalesce to cover large areas, causing the skin to crack.",
+      "The infection can penetrate the flesh, causing a bitter taste and fruit rot."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Reduced fruit quality and marketability is the primary impact.",
+      "Severe infections can lead to premature fruit drop."
+    ],
+    "signs_microscopic_or_visible": [
+      "Pink or salmon-colored gelatinous spore masses (acervuli) emerging from the center of lesions, especially on fruit under high humidity."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "pest damage",
+      "condition_id": "litchi.pest_damage.unknown",
+      "key_differences": [
+        "Pest damage often involves physical holes, chewing marks, or tunnels, which are absent in black spot.",
+        "The presence of insect frass (excrement) or the insect itself indicates a pest issue.",
+        "Pest damage patterns are often irregular or trail-like, unlike the typically circular fungal lesions.",
+        "Some pests cause stippling (tiny discolored dots) rather than distinct, sunken black spots."
+      ]
+    },
+    {
+      "condition_name": "burned_leaf",
+      "condition_id": "litchi.abiotic.burned_leaf",
+      "key_differences": [
+        "Sunburn or chemical burn typically appears as bleached, tan, or papery-textured patches, not distinct black spots.",
+        "Burn damage is usually located on the most exposed plant parts and lacks the defined, circular margins of black spot lesions.",
+        "Burned areas are not sunken and will not produce the pinkish spore masses seen in black spot under humid conditions."
+      ]
+    },
+    {
+      "condition_name": "red_rust_disease",
+      "condition_id": "litchi.disease_algal.red_rust_disease",
+      "key_differences": [
+        "Red rust spots are raised and have a velvety, orange-red to reddish-brown texture.",
+        "Black spot lesions are sunken and black or dark brown.",
+        "Red rust does not cause fruit rot or produce pink spore masses."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Prune trees annually to open the canopy, improving air circulation and light penetration.",
+      "Remove and destroy infected plant material, including fallen fruit, leaves, and pruned branches.",
+      "Use drip or micro-sprinkler irrigation instead of overhead sprinklers to minimize fruit and leaf wetness.",
+      "Harvest fruit carefully to avoid wounding, which can be an entry point for the pathogen post-harvest."
+    ],
+    "biological": [
+      "Applications of products containing *Bacillus subtilis* or *Trichoderma* spp. can act as antagonists to the pathogen."
+    ],
+    "chemical": [
+      "Apply preventative fungicides during susceptible periods, such as from flowering to fruit maturation.",
+      "Rotate fungicides with different modes of action (e.g., mancozeb, copper-based compounds, strobilurins) to prevent resistance.",
+      "Post-harvest fungicidal dips can reduce storage rot."
+    ],
+    "notes": "An integrated management strategy that combines cultural practices with timely fungicide applications is most effective for controlling black spot."
+  }
+}

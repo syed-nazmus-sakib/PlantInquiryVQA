@@ -1,0 +1,109 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "arabian.physiological_symptom.jasmine_senescence_or_dry",
+  "aliases": [
+    "jasmine drought stress",
+    "jasmine water stress",
+    "jasmine leaf dieback",
+    "natural leaf aging"
+  ],
+  "crop": {
+    "common_name": "Arabian Jasmine",
+    "scientific_name": "Jasminum sambac",
+    "family": "Oleaceae"
+  },
+  "condition": {
+    "common_name": "Senescence or Dryness",
+    "scientific_name": null,
+    "alt_names": [
+      "Drought Stress",
+      "Water Stress",
+      "Natural Aging"
+    ],
+    "pathogen": {
+      "type": "physiological_disorder",
+      "taxonomy": {
+        "kingdom": "",
+        "phylum": "",
+        "class": "",
+        "order": "",
+        "family": "",
+        "genus": "",
+        "species": ""
+      }
+    }
+  },
+  "issue_type": "physiological_symptom",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [],
+    "overwintering": []
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "Inadequate or inconsistent watering",
+      "Low ambient humidity",
+      "High temperatures and intense sun exposure",
+      "Poorly draining or overly sandy soil",
+      "Root-bound conditions in containers"
+    ],
+    "temp_c_day": [
+      28,
+      38
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      0,
+      40
+    ],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "1-10% of leaves, typically the oldest and lowest on the plant, show uniform yellowing or have brown, crispy tips.",
+    "moderate": "11-40% of leaves are yellow or brown, with some leaf drop evident. Minor wilting may be visible on younger stems.",
+    "severe": ">40% of the plant's foliage is affected, with significant leaf drop, widespread wilting, and visible stem dieback.",
+    "notes": "Severity is based on the total percentage of foliage exhibiting symptoms like yellowing, browning, wilting, or desiccation. The pattern of symptom distribution is also a key indicator."
+  },
+  "symptoms": {
+    "leaves": [
+      "Older, lower leaves turn a uniform, solid yellow before browning.",
+      "Leaf margins and tips dry out, turning brown and becoming brittle or crispy to the touch.",
+      "Affected leaves may curl inwards or downwards.",
+      "Leaves lose turgor and appear limp or wilted.",
+      "Widespread, premature leaf drop, especially of older leaves.",
+      "Unlike nutrient deficiencies, yellowing is typically not interveinal.",
+      "Unlike fungal spots, browning is generalized and lacks distinct lesion borders."
+    ],
+    "stems": [
+      "Younger, green stems may droop or wilt.",
+      "In severe cases, stem tips may shrivel and die back.",
+      "Stems may become woody and brittle."
+    ],
+    "fruit": [
+      "Flower buds may dry up and fall off before opening.",
+      "Open flowers may wilt and turn brown prematurely."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Overall drooping or wilting appearance.",
+      "Reduced growth rate and sparse foliage.",
+      "General lack of vigor and poor flowering."
+    ],
+    "signs_microscopic_or_visible": []
+  },
+  "lookalikes": [],
+  "management": {
+    "cultural": [
+      "Provide consistent moisture. Water thoroughly when the top 1-2 inches of soil are dry.",
+      "Avoid both waterlogging and complete soil dry-out.",
+      "Increase ambient humidity through misting, grouping plants, or using a pebble tray with water.",
+      "Mulch outdoor plants to conserve soil moisture.",
+      "Ensure containers have adequate drainage holes.",
+      "Protect from intense afternoon sun and hot, drying winds."
+    ],
+    "biological": [],
+    "chemical": [],
+    "notes": "Management is corrective and preventative, focusing on optimizing the plant's environment, particularly water availability and humidity."
+  }
+}

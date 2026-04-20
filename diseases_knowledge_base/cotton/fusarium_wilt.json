@@ -1,0 +1,142 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "cotton.disease_fungal.fusarium_wilt",
+  "aliases": [
+    "Fusarium wilt of cotton",
+    "Panama disease of cotton"
+  ],
+  "crop": {
+    "common_name": "Cotton",
+    "scientific_name": "Gossypium hirsutum",
+    "family": "Malvaceae"
+  },
+  "condition": {
+    "common_name": "Fusarium Wilt",
+    "scientific_name": "Fusarium wilt",
+    "alt_names": [
+      "Panama disease"
+    ],
+    "pathogen": {
+      "type": "disease_fungal",
+      "taxonomy": {
+        "kingdom": "Fungi",
+        "phylum": "Ascomycota",
+        "class": "Sordariomycetes",
+        "order": "Hypocreales",
+        "family": "Nectriaceae",
+        "genus": "Fusarium",
+        "species": "oxysporum"
+      }
+    }
+  },
+  "issue_type": "disease_fungal",
+  "transmission": {
+    "vectors": [
+      "Root-knot nematodes (Meloidogyne incognita)"
+    ],
+    "dispersal": [
+      "Infected soil",
+      "Contaminated farm equipment",
+      "Infected seed",
+      "Water (irrigation/runoff)"
+    ],
+    "overwintering": [
+      "Chlamydospores in soil",
+      "Infected crop debris"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "High soil temperatures",
+      "Low soil pH (acidic)",
+      "Presence of root-knot nematodes",
+      "Poorly drained soils",
+      "Sandy soils"
+    ],
+    "temp_c_day": [
+      25,
+      32
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": []
+  },
+  "severity_rubric": {
+    "unit": "qualitative",
+    "mild": "One or a few lower leaves showing yellowing or wilting. No significant stunting.",
+    "moderate": "Significant portion of the plant (25-75%) shows wilting, chlorosis, and some leaf drop. Plant is visibly stunted.",
+    "severe": "Entire plant is wilted, necrotic, or dead. Severe stunting. Vascular discoloration is prominent if stem is cut.",
+    "notes": "Severity is assessed on a whole-plant basis, considering the percentage of foliage affected by wilting and chlorosis, and the degree of stunting compared to healthy plants."
+  },
+  "symptoms": {
+    "leaves": [
+      "Interveinal chlorosis (yellowing between veins), often starting on lower leaves.",
+      "Leaf margins turn yellow, then brown and necrotic.",
+      "Affected leaves wilt, sometimes on only one side of the plant or one side of a leaf (sectoring).",
+      "Premature defoliation (leaf drop), starting from the bottom of the plant."
+    ],
+    "stems": [
+      "Dark brown to black vascular discoloration (streaking) visible when the stem is cut longitudinally.",
+      "Stunting of the main stem and branches."
+    ],
+    "fruit": [
+      "Bolls may be smaller than normal or fail to open properly."
+    ],
+    "roots": [
+      "Darkening or decay of the root system, though often not the primary external symptom."
+    ],
+    "whole_plant": [
+      "Sudden wilting of the entire plant, especially during the heat of the day, which may recover at night initially.",
+      "Overall stunting and reduced plant vigor.",
+      "Symptoms often appear in patches within a field."
+    ],
+    "signs_microscopic_or_visible": []
+  },
+  "lookalikes": [
+    {
+      "condition_name": "Verticillium Wilt",
+      "condition_id": "cotton.disease_fungal.verticillium_wilt",
+      "key_differences": [
+        "Verticillium wilt symptoms (leaf mottling, chlorotic blotches) often appear higher on the plant first, while Fusarium typically starts on lower leaves.",
+        "Vascular discoloration in Verticillium is often a lighter brown and may appear as flecks, whereas Fusarium is typically a dark brown to black continuous streak.",
+        "Verticillium is favored by cooler temperatures (22-25\u00b0C), while Fusarium is favored by warmer temperatures (>27\u00b0C).",
+        "Leaf symptoms in Verticillium often include large, angular, necrotic areas, which is less typical for Fusarium."
+      ]
+    },
+    {
+      "condition_name": "Herbicide Growth Damage",
+      "condition_id": "cotton.abiotic.herbicide_growth_damage",
+      "key_differences": [
+        "Herbicide damage often shows distinct patterns related to spray application (e.g., rows, field edges), while Fusarium appears in more random patches.",
+        "Herbicide-induced chlorosis may be uniform or have specific patterns (e.g., vein clearing, cupping) not typical of Fusarium's interveinal pattern.",
+        "Herbicide damage will not show the characteristic dark vascular discoloration inside the stem.",
+        "Wilting from herbicide is often accompanied by leaf distortion or strapping, which is absent in Fusarium wilt."
+      ]
+    },
+    {
+      "condition_name": "Leaf Reddening",
+      "condition_id": "cotton.abiotic.leaf_reddening",
+      "key_differences": [
+        "Leaf reddening is a uniform or blotchy red/purple discoloration, not the distinct yellowing (chlorosis) followed by browning seen in Fusarium.",
+        "Reddening is often a late-season physiological response to stress (e.g., nutrient deficiency, cool nights) and doesn't typically cause wilting.",
+        "Fusarium causes wilting and necrosis, while physiological reddening is primarily a color change without significant tissue death or loss of turgor."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Planting resistant varieties (most effective method).",
+      "Crop rotation with non-host crops for several years.",
+      "Managing root-knot nematodes populations.",
+      "Improving soil drainage and avoiding waterlogging.",
+      "Maintaining optimal soil pH and fertility to reduce plant stress."
+    ],
+    "biological": [
+      "Use of commercial biocontrol agents like *Trichoderma* spp. or non-pathogenic *Fusarium* strains."
+    ],
+    "chemical": [
+      "Soil fumigation in high-value or nursery situations (not typically economical for large-scale production).",
+      "Fungicide seed treatments can provide some early-season protection against seedling infection."
+    ],
+    "notes": "An integrated management approach focusing on resistant cultivars and nematode control is the most effective and sustainable strategy."
+  }
+}

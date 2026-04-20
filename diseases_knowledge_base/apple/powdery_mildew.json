@@ -1,0 +1,142 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "apple.disease_fungal.powdery_mildew",
+  "aliases": [
+    "Apple mildew",
+    "PM"
+  ],
+  "crop": {
+    "common_name": "apple",
+    "scientific_name": "Malus domestica",
+    "family": "Rosaceae"
+  },
+  "condition": {
+    "common_name": "powdery mildew",
+    "scientific_name": "Podosphaera leucotricha",
+    "alt_names": [],
+    "pathogen": {
+      "type": "fungal",
+      "taxonomy": {
+        "kingdom": "Fungi",
+        "phylum": "Ascomycota",
+        "class": "Leotiomycetes",
+        "order": "Erysiphales",
+        "family": "Erysiphaceae",
+        "genus": "Podosphaera",
+        "species": "leucotricha"
+      }
+    }
+  },
+  "issue_type": "disease_fungal",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [
+      "wind-borne conidia",
+      "rain splash"
+    ],
+    "overwintering": [
+      "as mycelium in dormant vegetative or fruit buds",
+      "as chasmothecia (fruiting bodies) on bark"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "high relative humidity (not free water)",
+      "moderate temperatures",
+      "dense canopy with poor air circulation",
+      "susceptible cultivars (e.g., Jonathan, Rome, Gala)",
+      "abundant succulent new growth"
+    ],
+    "temp_c_day": [
+      18,
+      25
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      70,
+      90
+    ],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "< 5% of leaf surface covered with white mycelium; no leaf distortion.",
+    "moderate": "5-25% of leaf surface covered; some leaf curling or crinkling is visible.",
+    "severe": "> 25% of leaf surface covered; significant leaf distortion, stunting of shoots, and/or premature defoliation.",
+    "notes": "Severity is assessed on actively growing shoots and young leaves, which are most susceptible. For fruit, severity can be assessed by the percentage of surface with russeting. Powdery mildew does not require leaf wetness for infection, hence the threshold is 0."
+  },
+  "symptoms": {
+    "leaves": [
+      "White to light gray, felt-like patches of mycelium, often appearing first on the underside.",
+      "Infected leaves may curl, crinkle, or fold upwards along the midrib.",
+      "Young infected leaves are often narrow, stiff, and brittle.",
+      "Patches can coalesce to cover the entire leaf surface.",
+      "In late summer, tiny black specks (chasmothecia) may be visible within the white mycelial mats."
+    ],
+    "stems": [
+      "White, powdery growth covers new, succulent shoots (terminals).",
+      "Infected shoots are stunted with shortened internodes.",
+      "Infected shoot tips may die back, appearing brown or black."
+    ],
+    "fruit": [
+      "Causes a web-like or net-like russeting on the fruit skin.",
+      "Infected fruit may be dwarfed, misshapen, or cracked.",
+      "White mycelial growth is less common but can occur, especially around the calyx."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Reduced tree vigor and stunted overall growth, particularly in young trees or highly susceptible cultivars."
+    ],
+    "signs_microscopic_or_visible": [
+      "Visible white, powdery mycelium and conidia on plant surfaces.",
+      "Small, black, spherical fruiting bodies (chasmothecia) visible with a hand lens in late season."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "scab",
+      "condition_id": "apple.disease_fungal.scab",
+      "key_differences": [
+        "Scab lesions are distinct, olive-green to brown/black spots, not a white, powdery coating.",
+        "Powdery mildew can be rubbed off easily in early stages; scab lesions cannot.",
+        "Scab causes leaf blistering and puckering, while mildew causes upward curling and folding.",
+        "Scab fruit spots are dark and scabby, unlike the net-like russeting from mildew."
+      ]
+    },
+    {
+      "condition_name": "cedar apple rust",
+      "condition_id": "apple.disease_fungal.cedar_apple_rust",
+      "key_differences": [
+        "Rust spots are bright orange-yellow, often with a red border, not white and powdery.",
+        "Rust produces small, cup-like structures (aecia) on the leaf underside, not a mycelial mat.",
+        "Powdery mildew commonly infects and stunts entire shoot tips, which is not a primary symptom of rust."
+      ]
+    },
+    {
+      "condition_name": "healthy",
+      "condition_id": "apple.healthy",
+      "key_differences": [
+        "Natural leaf hairs (pubescence) on young leaves can be mistaken for mildew, but pubescence is uniform, silvery, and cannot be rubbed off like a powder.",
+        "Spray residue can leave a white film, but it is often more uniform, less 'fuzzy' or 'felt-like', and may have droplet patterns.",
+        "Healthy leaves are uniformly green without distortion, curling, or powdery patches."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Prune and destroy infected shoots and terminals during winter dormancy.",
+      "Plant resistant or tolerant cultivars.",
+      "Ensure good air circulation via proper pruning and tree spacing to reduce humidity.",
+      "Avoid excessive nitrogen fertilization that encourages susceptible new growth."
+    ],
+    "biological": [
+      "Application of bio-fungicides containing *Bacillus subtilis* or potassium bicarbonate.",
+      "Neem oil or horticultural oils can be effective but must be applied carefully to avoid phytotoxicity."
+    ],
+    "chemical": [
+      "Preventative application of fungicides (e.g., sulfur, sterol inhibitors (DMIs), strobilurins (QoIs)) starting at tight cluster or pink stage.",
+      "Rotate fungicide classes (FRAC groups) to manage and prevent resistance."
+    ],
+    "notes": "Management is most critical from pre-bloom through early summer when new tissues are most susceptible to infection."
+  }
+}

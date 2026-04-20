@@ -1,0 +1,121 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "bottle.disease_fungal.gourd_downy_mildew",
+  "aliases": [
+    "downy mildew of bottle gourd",
+    "cucurbit downy mildew on bottle gourd"
+  ],
+  "crop": {
+    "common_name": "bottle gourd",
+    "scientific_name": "Lagenaria siceraria",
+    "family": "Cucurbitaceae"
+  },
+  "condition": {
+    "common_name": "downy mildew",
+    "scientific_name": "Pseudoperonospora cubensis",
+    "alt_names": [
+      "cucurbit downy mildew"
+    ],
+    "pathogen": {
+      "type": "disease_oomycete",
+      "taxonomy": {
+        "kingdom": "Stramenopila",
+        "phylum": "Oomycota",
+        "class": "Oomycetes",
+        "order": "Peronosporales",
+        "family": "Peronosporaceae",
+        "genus": "Pseudoperonospora",
+        "species": "cubensis"
+      }
+    }
+  },
+  "issue_type": "disease_fungal",
+  "transmission": {
+    "vectors": [
+      "wind",
+      "rain splash"
+    ],
+    "dispersal": [
+      "airborne sporangia"
+    ],
+    "overwintering": [
+      "on living cucurbit hosts in tropical/subtropical regions",
+      "as oospores in soil (less common for this pathogen)"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "high relative humidity",
+      "prolonged leaf wetness",
+      "cool nights and warm, humid days",
+      "dense plant canopy with poor air circulation"
+    ],
+    "temp_c_day": [
+      16,
+      22
+    ],
+    "temp_c_night": [
+      10,
+      18
+    ],
+    "relative_humidity_pct": [
+      85,
+      100
+    ],
+    "leaf_wetness_hours_threshold": 6
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "1-10% of leaf area affected. A few scattered, pale green to yellow angular lesions, primarily on older leaves.",
+    "moderate": "11-40% of leaf area affected. Lesions are numerous, may be coalescing, and some necrosis is present. Downy growth is clearly visible on leaf undersides.",
+    "severe": ">40% of leaf area affected. Widespread necrosis and blighting of leaves, leading to significant defoliation.",
+    "notes": "Severity is assessed by the percentage of total foliar area showing symptoms (chlorosis and necrosis). Confirmation of diagnosis often requires checking the underside of leaves for sporulation."
+  },
+  "symptoms": {
+    "leaves": [
+      "Initial symptoms are pale green or yellowish, water-soaked spots on the upper leaf surface.",
+      "Lesions are characteristically angular or 'blocky' in shape, as their expansion is limited by major leaf veins.",
+      "Spots enlarge and turn bright yellow, eventually becoming necrotic and turning brown to dark brown.",
+      "A purplish-gray, fuzzy or 'downy' growth (sporangia) is visible on the underside of the leaf, corresponding to the upper lesions, especially in the morning or during high humidity.",
+      "Infected leaves may curl downwards, wither, and die prematurely, starting from the bottom of the plant.",
+      "Severely affected leaves can look scorched or blighted."
+    ],
+    "stems": [
+      "Stems are typically not directly affected."
+    ],
+    "fruit": [
+      "Fruit is not directly infected by the pathogen.",
+      "Fruit may be smaller, misshapen, or have poor flavor due to reduced photosynthesis from defoliation.",
+      "Loss of leaf cover can expose fruit to sunscald, causing white, leathery patches."
+    ],
+    "roots": [
+      "No direct symptoms on roots."
+    ],
+    "whole_plant": [
+      "Reduced plant vigor and stunted growth.",
+      "Significant defoliation can occur rapidly under favorable conditions, starting with lower leaves."
+    ],
+    "signs_microscopic_or_visible": [
+      "Visible sign is the characteristic purplish-gray downy mold on the abaxial (lower) leaf surface."
+    ]
+  },
+  "lookalikes": [],
+  "management": {
+    "cultural": [
+      "Use resistant or tolerant cultivars when available.",
+      "Promote good air circulation through proper plant spacing and trellising.",
+      "Avoid overhead irrigation to minimize leaf wetness duration; use drip irrigation instead.",
+      "Manage weeds to improve airflow and reduce humidity within the canopy.",
+      "Scout plants regularly, especially during cool, moist weather."
+    ],
+    "biological": [
+      "Application of bio-fungicides based on Bacillus subtilis or Trichoderma species can have some suppressive effect when used preventatively."
+    ],
+    "chemical": [
+      "Preventative fungicide applications are most effective.",
+      "Apply fungicides with translaminar or systemic activity that target oomycetes (e.g., products containing mandipropamid, cyazofamid, or phosphonates).",
+      "Rotate fungicide modes of action to prevent resistance development."
+    ],
+    "notes": "Management must be proactive, as downy mildew can spread very quickly once established. Predictive models based on weather data can help time fungicide applications."
+  }
+}

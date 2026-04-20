@@ -1,0 +1,8 @@
+{
+  "model": "Gemma-3-27B",
+  "judge_model": "google/gemini-3-flash-preview",
+  "n_images": 50,
+  "n_judged": 0,
+  "timestamp": "2026-02-17T04:17:31.601114",
+  "results": []
+}

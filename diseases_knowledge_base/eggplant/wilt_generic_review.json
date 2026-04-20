@@ -1,0 +1,139 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "eggplant.disease_fungal.wilt_generic_review",
+  "aliases": [
+    "Vascular wilt",
+    "Verticillium wilt",
+    "Fusarium wilt"
+  ],
+  "crop": {
+    "common_name": "eggplant",
+    "scientific_name": "Solanum melongena",
+    "family": "Solanaceae"
+  },
+  "condition": {
+    "common_name": "Fungal Wilt",
+    "scientific_name": "Verticillium dahliae, Fusarium oxysporum f. sp. melongenae",
+    "alt_names": [
+      "Vascular wilt syndrome"
+    ],
+    "pathogen": {
+      "type": "fungus",
+      "taxonomy": {
+        "kingdom": "Fungi",
+        "phylum": "Ascomycota",
+        "class": "",
+        "order": "",
+        "family": "",
+        "genus": "Verticillium, Fusarium",
+        "species": ""
+      }
+    }
+  },
+  "issue_type": "disease_fungal",
+  "transmission": {
+    "vectors": [
+      "Contaminated farm equipment",
+      "Infected transplants",
+      "Root-knot nematodes (as wounding agents)"
+    ],
+    "dispersal": [
+      "Soilborne pathogen movement",
+      "Infected plant debris",
+      "Contaminated irrigation water"
+    ],
+    "overwintering": [
+      "In soil as microsclerotia (Verticillium) or chlamydospores (Fusarium)",
+      "In infected crop residue",
+      "On roots of perennial weeds"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "Moderate to warm soil temperatures",
+      "High soil moisture or poor drainage",
+      "Soil compaction",
+      "Continuous cropping of susceptible plants (monoculture)",
+      "Plant stress from other factors (e.g., nematode damage)"
+    ],
+    "temp_c_day": [
+      21,
+      28
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "qualitative",
+    "mild": "One or two lower leaves are yellowing or wilting. Plant may show slight wilting on one side during the hottest part of the day but recovers at night.",
+    "moderate": "A significant portion of the plant (25-50%) shows persistent wilting. Lower leaves are yellow and brown. Plant is visibly stunted compared to healthy neighbors.",
+    "severe": "The entire plant is severely wilted, necrotic, and near death. Most leaves are brown and dry. Plant collapse is imminent or has occurred.",
+    "notes": "Severity is based on the proportion of the plant affected by wilting and necrosis, and the degree of stunting. As this is a soilborne vascular disease, leaf wetness is not a primary driver of infection."
+  },
+  "symptoms": {
+    "leaves": [
+      "Wilting of lower leaves, often beginning on one side of the plant or one side of a leaf.",
+      "Yellowing (chlorosis) of leaf tissue, typically starting at the margins and progressing inward between the veins.",
+      "V-shaped, yellow to brown lesions may form at the edge of older leaves.",
+      "Affected leaves eventually turn brown, become brittle, and may drop.",
+      "Upper leaves may appear pale or dull green."
+    ],
+    "stems": [
+      "Internal vascular tissue shows a tan to dark brown discoloration, visible as a ring or streaks when the stem is cut.",
+      "The exterior of the stem often appears normal until the disease is advanced."
+    ],
+    "fruit": [
+      "Fruit may be smaller than normal, discolored, or fail to develop.",
+      "Sunscald can occur on fruit due to defoliation and loss of canopy cover."
+    ],
+    "roots": [
+      "Roots may show some browning or decay in late stages, but often appear healthy early on.",
+      "Vascular discoloration extends from the roots up into the stem."
+    ],
+    "whole_plant": [
+      "General stunting and reduced vigor.",
+      "Wilting is most noticeable during periods of high temperature or water demand.",
+      "Unilateral (one-sided) wilting of the plant is a classic diagnostic symptom.",
+      "Eventual plant death."
+    ],
+    "signs_microscopic_or_visible": []
+  },
+  "lookalikes": [
+    {
+      "condition_name": "Phomopsis Blight",
+      "condition_id": "eggplant.disease_fungal.phomopsis_blight",
+      "key_differences": [
+        "Phomopsis causes distinct, sunken, dark cankers on the stem, often near the soil line, which are absent in vascular wilts.",
+        "Phomopsis also causes circular, tan leaf spots with dark borders and a soft, brown fruit rot.",
+        "Wilting from Phomopsis is due to the girdling effect of the stem canker, not a systemic vascular infection."
+      ]
+    },
+    {
+      "condition_name": "White Mold",
+      "condition_id": "eggplant.disease_fungal.white_mold",
+      "key_differences": [
+        "White mold produces visible signs: fluffy white cottony mycelium on stems, leaves, or fruit.",
+        "Hard, black, irregular sclerotia (resembling rodent droppings) form on or inside infected plant parts.",
+        "White mold causes a watery, soft rot and stem bleaching, not the internal vascular browning characteristic of Fusarium/Verticillium wilt."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Use certified disease-free seed and resistant cultivars.",
+      "Practice long crop rotations (4-5 years) with non-solanaceous crops.",
+      "Sanitize all tools, stakes, and equipment between plantings.",
+      "Maintain optimal soil health and avoid over-fertilization, especially with nitrogen.",
+      "Remove and destroy infected plants and crop debris immediately."
+    ],
+    "biological": [
+      "Inoculation of soil with beneficial microbes like *Trichoderma* spp. may help suppress the pathogen."
+    ],
+    "chemical": [
+      "Pre-plant soil fumigation can reduce pathogen load but is often not practical or economical for all growers.",
+      "Post-infection fungicide applications are generally ineffective for controlling vascular wilts."
+    ],
+    "notes": "Management must be preventative. Once a plant is infected, it cannot be cured. The focus is on reducing soil inoculum and using resistant varieties."
+  }
+}

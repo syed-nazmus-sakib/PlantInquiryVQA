@@ -1,0 +1,146 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "tea.pest_insect.looper_damage",
+  "aliases": [
+    "tea looper",
+    "inchworm",
+    "measuring worm"
+  ],
+  "crop": {
+    "common_name": "Tea",
+    "scientific_name": "Camellia sinensis",
+    "family": "Theaceae"
+  },
+  "condition": {
+    "common_name": "Looper Damage",
+    "scientific_name": "Biston suppressaria",
+    "alt_names": [
+      "Inchworm damage",
+      "Measuring worm damage"
+    ],
+    "pathogen": {
+      "type": "Insect",
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Arthropoda",
+        "class": "Insecta",
+        "order": "Lepidoptera",
+        "family": "Geometridae",
+        "genus": "Biston",
+        "species": "suppressaria"
+      }
+    }
+  },
+  "issue_type": "pest_insect",
+  "transmission": {
+    "vectors": [
+      "Adult moths (for egg laying)"
+    ],
+    "dispersal": [
+      "Moth flight",
+      "Larval movement (crawling)"
+    ],
+    "overwintering": [
+      "Pupae in soil or leaf litter at the base of the plant"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "Warm, humid conditions favorable for larval development",
+      "Presence of alternate host plants",
+      "Periods of low natural enemy populations"
+    ],
+    "temp_c_day": [
+      20,
+      30
+    ],
+    "temp_c_night": [
+      15,
+      25
+    ],
+    "relative_humidity_pct": [
+      60,
+      90
+    ],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "< 10% of leaf area consumed on affected leaves; damage is sparse and limited to a few shoots.",
+    "moderate": "10-40% of leaf area consumed on affected leaves; noticeable defoliation on several branches.",
+    "severe": "> 40% of leaf area consumed; widespread defoliation, skeletonization of leaves, and presence of numerous larvae.",
+    "notes": "Severity is assessed by the percentage of leaf tissue removed by larval feeding. High counts of larvae also indicate high severity, even if defoliation is not yet widespread. Leaf wetness is not a primary driver for insect feeding."
+  },
+  "symptoms": {
+    "leaves": [
+      "Irregularly shaped holes chewed in the leaf lamina.",
+      "Leaf margins appear scalloped, notched, or unevenly eaten.",
+      "Young, tender leaves and buds are preferentially consumed.",
+      "In severe infestations, only the midrib and major veins remain, a condition known as skeletonization.",
+      "Presence of small, dark green to black fecal pellets (frass) on leaf surfaces."
+    ],
+    "stems": [
+      "Young, tender stems (shoots) may be girdled or chewed.",
+      "Larvae are often seen resting motionless on stems, camouflaged as twigs."
+    ],
+    "fruit": [],
+    "roots": [],
+    "whole_plant": [
+      "Noticeable defoliation, particularly affecting the upper canopy or 'plucking table'.",
+      "Reduced plant vigor and stunted growth in young or heavily infested plants."
+    ],
+    "signs_microscopic_or_visible": [
+      "Visible caterpillars (larvae) that move with a characteristic 'looping' or 'measuring' gait.",
+      "Larvae are typically green, brown, or grey, mimicking twigs for camouflage.",
+      "Clusters of small, spherical eggs may be found on the underside of leaves or on stems."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "Helopeltis Damage",
+      "condition_id": "tea.pest_insect.helopeltis_damage",
+      "key_differences": [
+        "Looper damage is the removal of leaf tissue (chewing), while Helopeltis damage consists of distinct, sunken, dark brown or black necrotic spots from piercing-sucking feeding.",
+        "Looper damage often creates holes or notched margins, whereas Helopeltis spots are solid lesions that do not remove tissue.",
+        "The presence of frass (fecal pellets) is a clear sign of looper activity and is absent with Helopeltis.",
+        "Helopeltis damage can cause leaf curling and distortion around the feeding spots, which is different from the clean chewing of loopers."
+      ]
+    },
+    {
+      "condition_name": "Gray Blight",
+      "condition_id": "tea.fungal.gray_blight",
+      "key_differences": [
+        "Looper damage involves missing leaf tissue, while gray blight is a fungal disease causing large, necrotic lesions that turn grayish-white and brittle.",
+        "Gray blight lesions often have a distinct, darker border and may contain tiny black dots (pycnidia), which are fungal structures absent in pest damage.",
+        "The texture of a blight lesion is papery and dead, whereas looper damage is simply an absence of tissue at the edge of healthy tissue."
+      ]
+    },
+    {
+      "condition_name": "Leaf Scab",
+      "condition_id": "tea.fungal.leaf_scab",
+      "key_differences": [
+        "Looper damage removes leaf tissue, creating holes. Leaf scab creates raised, corky, or wart-like lesions on the leaf surface, often on the underside.",
+        "Scab lesions are additive (a growth on the leaf), while looper damage is subtractive (tissue is gone).",
+        "Leaf scab causes significant distortion and curling of the leaf around the lesion, which is not a primary symptom of looper feeding."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Regular monitoring and scouting for larvae, especially on young flushes.",
+      "Hand-picking of larvae in small-scale or low-level infestations.",
+      "Promoting natural enemies by maintaining biodiversity and avoiding broad-spectrum insecticides."
+    ],
+    "biological": [
+      "Application of Bacillus thuringiensis (Bt) formulations, which are effective against lepidopteran larvae.",
+      "Encouragement of natural predators like birds, wasps, and spiders.",
+      "Use of viral pathogens like Nuclear Polyhedrosis Virus (NPV) specific to the looper."
+    ],
+    "chemical": [
+      "Application of selective insecticides when infestation levels exceed economic thresholds.",
+      "Use of insect growth regulators (IGRs) that disrupt the molting process of larvae.",
+      "Targeted spot spraying to minimize impact on non-target organisms."
+    ],
+    "notes": "Integrated Pest Management (IPM) combining cultural, biological, and judicious chemical control is the most sustainable approach."
+  }
+}

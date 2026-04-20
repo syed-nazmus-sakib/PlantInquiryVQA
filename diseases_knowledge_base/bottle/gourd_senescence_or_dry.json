@@ -1,0 +1,104 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "bottle.physiological_symptom.gourd_senescence_or_dry",
+  "aliases": [
+    "bottle gourd drying",
+    "natural senescence",
+    "end-of-season decline",
+    "vine decline"
+  ],
+  "crop": {
+    "common_name": "bottle gourd",
+    "scientific_name": "Lagenaria siceraria",
+    "family": "Cucurbitaceae"
+  },
+  "condition": {
+    "common_name": "gourd senescence or dry",
+    "scientific_name": null,
+    "alt_names": [
+      "drying",
+      "senescence",
+      "maturation",
+      "dieback"
+    ],
+    "pathogen": {
+      "type": "physiological_disorder",
+      "taxonomy": {
+        "kingdom": "",
+        "phylum": "",
+        "class": "",
+        "order": "",
+        "family": "",
+        "genus": "",
+        "species": ""
+      }
+    }
+  },
+  "issue_type": "physiological_symptom",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [],
+    "overwintering": []
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "End of growing season",
+      "Drought stress",
+      "Extreme heat",
+      "Soil nutrient depletion",
+      "Maturity of fruit"
+    ],
+    "temp_c_day": [
+      ">35"
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      "<40"
+    ],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "1-10% of leaves are yellowing or browning, primarily the oldest, lowest leaves on the vine.",
+    "moderate": "11-40% of leaves are yellow or brown; yellowing has progressed up into the middle section of the vine.",
+    "severe": ">40% of leaves are brown, dry, and brittle; stems are also browning and the plant shows significant dieback.",
+    "notes": "Severity measures the percentage of total plant foliage showing symptoms of senescence. This is a natural process but can be accelerated by stress."
+  },
+  "symptoms": {
+    "leaves": [
+      "Uniform yellowing (chlorosis) that begins on the oldest, lowest leaves.",
+      "Yellowing progresses sequentially up the vine to younger leaves.",
+      "Affected leaves become entirely brown, dry, and brittle to the touch.",
+      "Leaf margins may curl upwards or inwards as they desiccate.",
+      "Absence of distinct spots, angular lesions, powdery growth, or pustules."
+    ],
+    "stems": [
+      "Vines lose their green color, turning tan, light brown, or straw-colored.",
+      "Stems become dry, woody, and less flexible, particularly near the plant base."
+    ],
+    "fruit": [
+      "Fruit stops enlarging and begins the curing process on the vine.",
+      "The skin of the gourd hardens and may change color from green to tan or cream.",
+      "The peduncle (fruit stem) becomes dry, hard, and woody."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "General and irreversible decline in plant vigor.",
+      "Progressive wilting of the entire plant that does not recover after watering.",
+      "Overall appearance of drying up and dying back naturally at the end of the season."
+    ],
+    "signs_microscopic_or_visible": []
+  },
+  "lookalikes": [],
+  "management": {
+    "cultural": [
+      "Recognize senescence as a natural part of the plant's life cycle, indicating fruit maturity.",
+      "Allow gourds to cure on the drying vine for a harder shell, unless pest or rot pressure is high.",
+      "If drying occurs prematurely, investigate and correct underlying stresses like lack of water or nutrients.",
+      "Remove and compost or dispose of all plant debris after the final harvest to prevent pathogens from overwintering."
+    ],
+    "biological": [],
+    "chemical": [],
+    "notes": "Management is not about 'treating' senescence but about distinguishing it from treatable problems and managing the end-of-season harvest and cleanup."
+  }
+}

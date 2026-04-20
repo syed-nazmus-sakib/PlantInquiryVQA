@@ -1,0 +1,148 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "guava.disease_fungal.leaf_spot",
+  "aliases": [
+    "Cercospora leaf spot of guava",
+    "Pestalotiopsis leaf spot",
+    "guava scab"
+  ],
+  "crop": {
+    "common_name": "guava",
+    "scientific_name": "Psidium guajava",
+    "family": "Myrtaceae"
+  },
+  "condition": {
+    "common_name": "leaf spot",
+    "scientific_name": "Cercospora psidii, Pestalotiopsis spp., Pseudocercospora psidii",
+    "alt_names": [
+      "Fungal leaf spot"
+    ],
+    "pathogen": {
+      "type": "disease_fungal",
+      "taxonomy": {
+        "kingdom": "Fungi",
+        "phylum": "Ascomycota",
+        "class": "Dothideomycetes",
+        "order": "Capnodiales",
+        "family": "Mycosphaerellaceae",
+        "genus": "Cercospora",
+        "species": "psidii"
+      }
+    }
+  },
+  "issue_type": "disease_fungal",
+  "transmission": {
+    "vectors": [
+      "wind",
+      "rain splash",
+      "irrigation water",
+      "contaminated tools"
+    ],
+    "dispersal": [
+      "conidia (asexual spores)"
+    ],
+    "overwintering": [
+      "infected plant debris on the ground",
+      "dormant mycelium in lesions on living leaves and twigs"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "high humidity",
+      "prolonged leaf wetness",
+      "warm temperatures",
+      "dense canopy with poor air circulation",
+      "frequent rainfall or overhead irrigation"
+    ],
+    "temp_c_day": [
+      24,
+      30
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      85,
+      100
+    ],
+    "leaf_wetness_hours_threshold": 8
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "< 5% of leaf area affected with spots.",
+    "moderate": "5-25% of leaf area affected, some leaf yellowing (chlorosis) may be present.",
+    "severe": "> 25% of leaf area affected, significant chlorosis, coalescence of spots, and premature leaf drop (defoliation).",
+    "notes": "Severity is estimated as the average percentage of symptomatic tissue across the visible leaves. High severity can lead to a 'shot-hole' effect where lesion centers dry and fall out."
+  },
+  "symptoms": {
+    "leaves": [
+      "Small, circular to irregular spots, initially appearing water-soaked or yellowish.",
+      "Spots enlarge over time, typically 3-10 mm in diameter.",
+      "Mature spots develop a distinct grayish-white or tan center.",
+      "A dark brown, reddish, or purplish border surrounds the lighter center.",
+      "Multiple spots may merge (coalesce) to form large, irregular necrotic blotches.",
+      "In some cases, the necrotic center of the spot falls out, creating a 'shot-hole' appearance.",
+      "A yellow halo may form around the lesions.",
+      "Severe infections lead to widespread yellowing and premature leaf fall."
+    ],
+    "stems": [
+      "Small, slightly sunken, dark lesions may appear on young, green stems and petioles."
+    ],
+    "fruit": [
+      "Small, circular, sunken, dark brown to black spots can develop on the fruit surface, reducing marketability.",
+      "Fruit lesions may develop cracks, allowing secondary infections."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Reduced plant vigor due to defoliation.",
+      "Thinning of the canopy in cases of chronic, severe infection."
+    ],
+    "signs_microscopic_or_visible": [
+      "Under high humidity, fuzzy sporulation may be visible in the center of lesions.",
+      "Under magnification, tiny black dots (fruiting bodies like acervuli or pycnidia) can be seen within the lesions."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "rust",
+      "condition_id": "guava.disease_fungal.rust",
+      "key_differences": [
+        "Rust produces distinctly raised, powdery pustules, typically orange to reddish-brown, that rupture to release spores.",
+        "Leaf spot lesions are flat or slightly sunken, not raised or powdery.",
+        "Rust pustules lack the characteristic pale center and dark border seen in many fungal leaf spots."
+      ]
+    },
+    {
+      "condition_name": "nutritional deficiency",
+      "condition_id": "guava.nutritional_deficiency",
+      "key_differences": [
+        "Deficiency symptoms like yellowing (chlorosis) are often symmetrical and follow leaf vein patterns (e.g., interveinal chlorosis).",
+        "Leaf spots are discrete, randomly scattered, and have defined borders, unlike the diffuse patterns of deficiencies.",
+        "Nutritional issues typically affect new or old growth uniformly, whereas leaf spots appear based on infection events."
+      ]
+    },
+    {
+      "condition_name": "canker",
+      "condition_id": "guava.disease_fungal.canker",
+      "key_differences": [
+        "Cankers are primarily sunken, dead, or cracked areas on woody stems and branches, not discrete spots on leaf blades.",
+        "While some canker pathogens can cause leaf symptoms, the primary damage is on woody tissue, often leading to branch dieback.",
+        "Leaf spots are numerous and scattered across the leaf surface, whereas canker-related leaf yellowing might be localized to a single affected branch."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Prune to improve air circulation and sunlight penetration within the canopy.",
+      "Remove and destroy fallen leaves and infected plant debris to reduce inoculum.",
+      "Avoid overhead irrigation to minimize leaf wetness duration.",
+      "Maintain proper plant nutrition to improve vigor and disease tolerance."
+    ],
+    "biological": [
+      "Application of bio-fungicides based on *Bacillus subtilis* or *Trichoderma* species may help suppress the pathogen."
+    ],
+    "chemical": [
+      "Application of protective or systemic fungicides, such as copper-based compounds, mancozeb, or strobilurins.",
+      "Fungicide application should be timed before or during periods of high risk (warm, wet weather)."
+    ],
+    "notes": "An integrated pest management (IPM) approach combining cultural, biological, and chemical methods is most effective. Rotate fungicide classes to prevent resistance."
+  }
+}

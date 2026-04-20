@@ -1,0 +1,137 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "grape.disease_fungal.downy_mildew",
+  "aliases": [
+    "Grapevine downy mildew",
+    "Plasmopara viticola"
+  ],
+  "crop": {
+    "common_name": "Grape",
+    "scientific_name": "Vitis spp.",
+    "family": "Vitaceae"
+  },
+  "condition": {
+    "common_name": "Downy Mildew",
+    "scientific_name": "Plasmopara viticola",
+    "alt_names": [],
+    "pathogen": {
+      "type": "disease_oomycete",
+      "taxonomy": {
+        "kingdom": "Stramenopila",
+        "phylum": "Oomycota",
+        "class": "Oomycetes",
+        "order": "Peronosporales",
+        "family": "Peronosporaceae",
+        "genus": "Plasmopara",
+        "species": "viticola"
+      }
+    }
+  },
+  "issue_type": "disease_fungal",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [
+      "wind",
+      "rain splash"
+    ],
+    "overwintering": [
+      "oospores in infected leaf litter on the vineyard floor"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "high relative humidity (>95%)",
+      "frequent rainfall",
+      "warm temperatures",
+      "poor air circulation in the canopy"
+    ],
+    "temp_c_day": [
+      20,
+      26
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      95,
+      100
+    ],
+    "leaf_wetness_hours_threshold": 4
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "1-10% of leaf surface showing symptoms. Lesions are few and scattered.",
+    "moderate": "11-40% of leaf surface is symptomatic. Multiple lesions may be coalescing.",
+    "severe": ">40% of leaf surface is symptomatic, often with significant necrosis, leading to premature defoliation or fruit rot.",
+    "notes": "Assessment is typically made on the most affected leaves. For whole-plant severity, consider the proportion of affected leaves and the extent of fruit cluster infection."
+  },
+  "symptoms": {
+    "leaves": [
+      "Yellow, circular, translucent spots resembling oil stains ('oilspots') on the upper leaf surface.",
+      "White, downy or cotton-like fungal growth (sporulation) on the lower leaf surface, directly beneath the oilspots.",
+      "Lesions may become angular as they are restricted by leaf veins, forming a mosaic-like pattern.",
+      "Late-season infections can cause lesions to turn reddish-brown and necrotic.",
+      "Severely infected leaves may curl, wither, and drop prematurely."
+    ],
+    "stems": [
+      "Infected young shoots, tendrils, and petioles can become water-soaked and distorted.",
+      "White, downy sporulation may appear on infected stem tissues.",
+      "Affected shoots may curl and eventually die."
+    ],
+    "fruit": [
+      "Young, infected berries turn light brown to purple, cease development, shrivel, and drop.",
+      "Berries may be covered in the characteristic white downy sporulation.",
+      "Later infections on older berries may not show sporulation but cause them to become soft, discolored, and easily detached."
+    ],
+    "roots": [],
+    "whole_plant": [],
+    "signs_microscopic_or_visible": [
+      "Visible white, downy sporulation (sporangiophores and sporangia) on the underside of leaves, shoots, and young fruit, most prominent in high humidity."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "Powdery Mildew",
+      "condition_id": "grape.disease_fungal.powdery_mildew",
+      "key_differences": [
+        "Downy mildew's fungal growth is white, downy/cottony, and almost exclusively on the **lower** leaf surface; powdery mildew's growth is grayish-white, dusty/powdery, and appears on **both** upper and lower surfaces.",
+        "Downy mildew causes distinct yellow 'oilspots' on the upper leaf surface; powdery mildew causes more diffuse chlorosis or a dusty coating without distinct oilspots.",
+        "Downy mildew lesions are often limited by veins (angular), while powdery mildew growth is more superficial and can cover the entire leaf without being vein-limited."
+      ]
+    },
+    {
+      "condition_name": "Black Rot",
+      "condition_id": "grape.disease_fungal.black_rot",
+      "key_differences": [
+        "Black rot leaf spots are circular, tan-to-brown with a distinct dark border, and contain tiny black specks (pycnidia); downy mildew 'oilspots' are yellow and lack pycnidia.",
+        "Downy mildew produces white, fuzzy growth on the leaf underside; black rot does not produce any visible fungal growth on leaves.",
+        "On fruit, black rot causes berries to turn black, mummify, and become covered in black pycnidia, whereas downy mildew causes berries to become soft, discolored, and may show white sporulation."
+      ]
+    },
+    {
+      "condition_name": "Pest Damage",
+      "condition_id": "grape.pest_insect.unspecified",
+      "key_differences": [
+        "Pest damage, such as from leafhoppers, often causes V-shaped yellowing at the leaf tip or margin ('hopperburn'), not the circular 'oilspots' of downy mildew.",
+        "Pest damage will never produce white, downy fungal growth on the leaf underside.",
+        "With pest damage, one might find insects, eggs, or cast skins on the leaf surface, which are absent in downy mildew."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Promote good air circulation via proper pruning, trellising, and canopy management.",
+      "Select disease-resistant or less susceptible grape cultivars.",
+      "Remove and destroy fallen leaves and prunings to reduce overwintering inoculum.",
+      "Use drip irrigation instead of overhead sprinklers to minimize leaf wetness duration."
+    ],
+    "biological": [
+      "Applications of bio-fungicides containing *Bacillus subtilis* or other beneficial microbes can offer some suppression when disease pressure is low."
+    ],
+    "chemical": [
+      "Apply protectant fungicides (e.g., copper, mancozeb) before infection events.",
+      "Use systemic or translaminar fungicides (e.g., metalaxyl, fosetyl-al) for curative or post-infection control.",
+      "Follow a spray schedule based on weather-driven disease prediction models.",
+      "Rotate fungicide modes of action to mitigate the risk of pathogen resistance."
+    ],
+    "notes": "Effective management relies on an integrated approach combining cultural practices with timely and targeted fungicide applications."
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "mango.healthy.healthy",
+  "aliases": [
+    "normal mango",
+    "unaffected mango",
+    "asymptomatic mango"
+  ],
+  "crop": {
+    "common_name": "mango",
+    "scientific_name": "Mangifera indica",
+    "family": "Anacardiaceae"
+  },
+  "condition": {
+    "common_name": "healthy",
+    "scientific_name": null,
+    "alt_names": [
+      "normal",
+      "asymptomatic",
+      "unaffected"
+    ],
+    "pathogen": {
+      "type": "abiotic",
+      "taxonomy": {
+        "kingdom": "",
+        "phylum": "",
+        "class": "",
+        "order": "",
+        "family": "",
+        "genus": "",
+        "species": ""
+      }
+    }
+  },
+  "issue_type": "healthy",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [],
+    "overwintering": []
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "Inadequate sunlight",
+      "Improper watering (over/under)",
+      "Nutrient deficiencies",
+      "Extreme temperatures",
+      "Poor air circulation"
+    ],
+    "temp_c_day": [
+      24,
+      30
+    ],
+    "temp_c_night": [
+      18,
+      24
+    ],
+    "relative_humidity_pct": [
+      50,
+      70
+    ],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "qualitative",
+    "mild": "No visible symptoms of stress, disease, or pests. Plant exhibits vigorous growth.",
+    "moderate": "Not applicable for a healthy condition.",
+    "severe": "Not applicable for a healthy condition.",
+    "notes": "For a healthy plant, severity is not applicable. The rubric describes a state of 0% affected area and absence of any negative indicators."
+  },
+  "symptoms": {
+    "leaves": [
+      "Uniformly green color, ranging from light green or reddish on new flushes to deep green on mature leaves.",
+      "Surface is typically smooth and can have a waxy or glossy appearance.",
+      "Leaf shape is lanceolate (lance-shaped) with entire (smooth) margins.",
+      "Absence of spots, lesions, pustules, holes, or powdery residues.",
+      "No signs of yellowing (chlorosis), browning (necrosis), curling, or distortion.",
+      "Veins are a similar color to the leaf blade and not darkened or water-soaked."
+    ],
+    "stems": [
+      "Stems, twigs, and branches are firm and turgid.",
+      "Bark is intact without cankers, galls, cracks, or gummosis (oozing sap)."
+    ],
+    "fruit": [
+      "Skin is smooth, unblemished, and free of spots, cracks, or lesions.",
+      "Color is uniform and appropriate for the cultivar and stage of ripeness."
+    ],
+    "roots": [
+      "Not typically visible in standard images."
+    ],
+    "whole_plant": [
+      "Dense, well-developed canopy with vigorous new growth flushes.",
+      "Upright and stable posture."
+    ],
+    "signs_microscopic_or_visible": [
+      "Complete absence of fungal mycelia, spores, bacterial ooze, insect bodies, frass, or honeydew."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "senescence_or_dry",
+      "condition_id": "mango.abiotic.senescence_or_dry",
+      "key_differences": [
+        "Healthy leaves are uniformly green, while senescent leaves turn uniformly yellow or brown before dropping.",
+        "Senescence primarily affects the oldest, lowest leaves on the plant, whereas the rest of the canopy remains healthy.",
+        "Drought stress causes browning and crisping at the leaf tips and margins, which is distinct from the overall green of a healthy leaf."
+      ]
+    },
+    {
+      "condition_name": "sooty_mold",
+      "condition_id": "mango.fungal.sooty_mold",
+      "key_differences": [
+        "Healthy leaves have a clean, often glossy surface.",
+        "Sooty mold presents as a superficial, black, velvety or crusty layer on the leaf surface that can often be physically wiped off.",
+        "The black coating of sooty mold is a sign of sap-sucking insects, which are absent on a clean, healthy leaf.",
+        "Sooty mold blocks light but does not directly damage the leaf tissue, which remains green underneath the coating."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Provide 6-8 hours of direct sunlight daily.",
+      "Plant in well-drained soil to prevent root rot.",
+      "Water deeply and regularly, allowing the top soil to dry out between waterings.",
+      "Apply a balanced fertilizer appropriate for fruit trees during active growth periods.",
+      "Prune annually to remove dead or crossing branches and improve air circulation within the canopy."
+    ],
+    "biological": [],
+    "chemical": [],
+    "notes": "Management for a healthy plant focuses on maintaining optimal growing conditions to prevent the onset of biotic and abiotic problems."
+  }
+}

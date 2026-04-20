@@ -1,0 +1,129 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "bitter.disease_fungal.gourd_anthracnose",
+  "aliases": [
+    "bitter gourd fruit rot",
+    "cucurbit anthracnose"
+  ],
+  "crop": {
+    "common_name": "bitter gourd",
+    "scientific_name": "Momordica charantia",
+    "family": "Cucurbitaceae"
+  },
+  "condition": {
+    "common_name": "Gourd Anthracnose",
+    "scientific_name": "Colletotrichum orbiculare",
+    "alt_names": [
+      "anthracnose of cucurbits"
+    ],
+    "pathogen": {
+      "type": "disease_fungal",
+      "taxonomy": {
+        "kingdom": "Fungi",
+        "phylum": "Ascomycota",
+        "class": "Sordariomycetes",
+        "order": "Glomerellales",
+        "family": "Glomerellaceae",
+        "genus": "Colletotrichum",
+        "species": "orbiculare"
+      }
+    }
+  },
+  "issue_type": "disease_fungal",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [
+      "rain splash",
+      "wind-driven rain",
+      "contaminated tools",
+      "human activity",
+      "infected seed"
+    ],
+    "overwintering": [
+      "infected crop debris",
+      "infected seed",
+      "volunteer cucurbit plants"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "prolonged leaf wetness",
+      "high relative humidity (>90%)",
+      "warm temperatures",
+      "dense canopy with poor air circulation",
+      "overhead irrigation"
+    ],
+    "temp_c_day": [
+      22,
+      28
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      85,
+      100
+    ],
+    "leaf_wetness_hours_threshold": 10
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "1-10% of leaf or fruit surface area affected. Lesions are few, small, and not coalescing.",
+    "moderate": "11-40% of surface area affected. Multiple lesions are present, some may be coalescing. Minor fruit rot or stem cankers are visible.",
+    "severe": ">40% of surface area affected. Widespread blighting, extensive lesion coalescence, severe fruit rot, and potential vine dieback.",
+    "notes": "Severity is assessed on the most affected plant part (leaf or fruit). For whole-plant assessment, consider the overall percentage of symptomatic tissue."
+  },
+  "symptoms": {
+    "leaves": [
+      "Initial symptoms are small, circular, water-soaked spots.",
+      "Spots enlarge to become dark brown or black, often with a slightly lighter center.",
+      "A distinct yellow halo may encircle older lesions.",
+      "The center of mature lesions often becomes brittle and falls out, creating a 'shot-hole' effect."
+    ],
+    "stems": [
+      "Elongated, sunken, dark-colored cankers can form on stems and petioles.",
+      "Severe cankers can girdle the vine, causing wilting and death of the plant parts beyond the canker."
+    ],
+    "fruit": [
+      "Circular, water-soaked, sunken spots appear on the fruit surface.",
+      "Lesions enlarge rapidly, turning black and becoming deeply sunken.",
+      "Under humid conditions, the center of the lesion fills with a pinkish or salmon-colored gelatinous mass of spores.",
+      "Infection leads to a bitter taste and rapid rotting of the fruit."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Stunted growth and reduced vigor in heavily infected plants.",
+      "Widespread defoliation and vine dieback can occur in severe epidemics."
+    ],
+    "signs_microscopic_or_visible": [
+      "Pink, orange, or salmon-colored, moist spore masses (acervuli) visible in the center of mature lesions, particularly on fruit."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "Gourd Downy Mildew",
+      "condition_id": "bitter.disease_fungal.gourd_downy_mildew",
+      "key_differences": [
+        "Anthracnose lesions are circular and dark brown/black; Downy Mildew lesions are angular (vein-limited) and initially pale green or yellowish.",
+        "Anthracnose produces pink/orange spore masses in lesion centers; Downy Mildew produces a purplish-gray, fuzzy mold on the underside of leaves.",
+        "Anthracnose causes a 'shot-hole' symptom; Downy Mildew causes leaf necrosis but not distinct holes.",
+        "Anthracnose causes severe, sunken, black rot on fruit; Downy Mildew symptoms are primarily on the leaves."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Use certified, disease-free seed.",
+      "Practice a crop rotation of at least 2 years with non-cucurbit crops.",
+      "Improve air circulation by using trellises and appropriate plant spacing.",
+      "Avoid overhead irrigation to minimize leaf wetness; prefer drip or furrow irrigation.",
+      "Remove and destroy infected plant debris promptly after harvest."
+    ],
+    "biological": [
+      "Application of bio-fungicides containing *Bacillus subtilis* or *Trichoderma* species may help suppress the disease."
+    ],
+    "chemical": [
+      "Apply protective fungicides like mancozeb or chlorothalonil before disease onset, especially during favorable weather conditions.",
+      "After infection, use systemic fungicides such as those in the strobilurin or triazole groups, rotating chemical classes to prevent resistance."
+    ],
+    "notes": "An integrated approach combining cultural practices with timely fungicide applications is most effective. Consult local agricultural extension services for currently recommended and registered products."
+  }
+}

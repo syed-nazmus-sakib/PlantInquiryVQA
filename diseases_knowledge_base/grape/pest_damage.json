@@ -1,0 +1,150 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "grape.unknown.pest_damage",
+  "aliases": [
+    "Insect damage",
+    "Arthropod feeding injury",
+    "Mite damage"
+  ],
+  "crop": {
+    "common_name": "grape",
+    "scientific_name": "Vitis spp.",
+    "family": "Vitaceae"
+  },
+  "condition": {
+    "common_name": "Pest Damage",
+    "scientific_name": "",
+    "alt_names": [
+      "Insect feeding",
+      "Mite feeding",
+      "Arthropod injury"
+    ],
+    "pathogen": {
+      "type": "insect",
+      "taxonomy": {
+        "kingdom": "",
+        "phylum": "",
+        "class": "",
+        "order": "",
+        "family": "",
+        "genus": "",
+        "species": ""
+      }
+    }
+  },
+  "issue_type": "unknown",
+  "transmission": {
+    "vectors": [
+      "Wind",
+      "Infected plant material",
+      "Equipment"
+    ],
+    "dispersal": [
+      "Active flight/crawling of pest",
+      "Wind currents",
+      "Human activity"
+    ],
+    "overwintering": [
+      "In plant debris",
+      "In soil",
+      "On bark or buds as eggs or adults"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "Warm, dry weather (favors mites)",
+      "High humidity (favors some insects and slugs)",
+      "Presence of alternative weed hosts",
+      "Lack of natural predators",
+      "Monoculture plantings"
+    ],
+    "temp_c_day": [
+      20,
+      32
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "< 5% of leaf surface showing feeding damage, stippling, or webbing.",
+    "moderate": "5-25% of leaf surface affected; some leaves may be curled or distorted.",
+    "severe": "> 25% of leaf surface affected; significant defoliation, webbing, or gall formation may be present.",
+    "notes": "Severity is estimated based on the total visible leaf area affected by symptoms like chewing, stippling, mining, or webbing across the plant or image frame."
+  },
+  "symptoms": {
+    "leaves": [
+      "Irregularly shaped holes or chewed margins on leaf blades.",
+      "Fine, pale yellow or white stippling on the upper leaf surface.",
+      "Silvery or bronzed appearance on leaves.",
+      "Winding, discolored trails or tunnels (mines) within the leaf tissue.",
+      "Leaves are curled, puckered, or distorted.",
+      "Presence of fine silk webbing, especially on the underside of leaves.",
+      "Small, abnormal growths or galls on leaf surfaces or petioles."
+    ],
+    "stems": [
+      "Girdling, chewing marks, or small, raised bumps (scale insects) on shoots."
+    ],
+    "fruit": [
+      "Small holes, scars, or tunneling into berries.",
+      "Sticky honeydew or sooty mold on berry clusters."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Stunted growth or reduced vigor in cases of heavy infestation."
+    ],
+    "signs_microscopic_or_visible": [
+      "Visible insects, larvae, or eggs on leaves or stems.",
+      "Frass (insect excrement) present on leaves or in webbing.",
+      "Cast skins from molting insects."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "Anthracnose",
+      "condition_id": "grape.fungal.anthracnose",
+      "key_differences": [
+        "Anthracnose creates distinct, circular lesions with gray centers and raised, dark borders, which may drop out to form a 'shot-hole'.",
+        "Pest chewing creates holes directly without the preceding lesion development and distinct border.",
+        "Anthracnose also causes sunken, dark-bordered cankers on shoots, a symptom not typical of pest feeding."
+      ]
+    },
+    {
+      "condition_name": "Black Rot",
+      "condition_id": "grape.fungal.black_rot",
+      "key_differences": [
+        "Black rot leaf spots are circular, tan-to-brown, and contain tiny black dots (pycnidia) within the lesion.",
+        "Pest damage appears as irregular holes, stippling, or skeletonization, not well-defined lesions with pycnidia.",
+        "On fruit, black rot causes berries to shrivel into hard, black mummies, which is distinct from insect boring or scarring."
+      ]
+    },
+    {
+      "condition_name": "Downy Mildew",
+      "condition_id": "grape.fungal.downy_mildew",
+      "key_differences": [
+        "Downy mildew causes yellowish, oily-looking patches on the upper leaf surface, not the fine, discrete dots of stippling from mites or leafhoppers.",
+        "A key sign of downy mildew is a white, fuzzy growth on the underside of the oily spots, which is absent in pest damage.",
+        "Downy mildew spots are limited by leaf veins, creating an angular appearance, whereas pest stippling is often more randomly distributed."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Monitor plants regularly for early detection of pests and damage.",
+      "Remove and destroy heavily infested plant parts.",
+      "Promote air circulation through proper pruning and canopy management.",
+      "Manage weeds in and around the vineyard that can serve as alternative hosts."
+    ],
+    "biological": [
+      "Encourage natural predators like ladybugs, lacewings, and predatory mites.",
+      "Use microbial insecticides like Bacillus thuringiensis (Bt) for caterpillars or Beauveria bassiana for other insects."
+    ],
+    "chemical": [
+      "Apply targeted insecticides or miticides only when necessary and based on proper pest identification.",
+      "Use horticultural oils or insecticidal soaps for soft-bodied insects like aphids and mites.",
+      "Consider timing applications to target vulnerable life stages of the pest."
+    ],
+    "notes": "Proper identification of the specific pest is crucial for selecting the most effective and least harmful management strategy. Integrated Pest Management (IPM) is highly recommended."
+  }
+}

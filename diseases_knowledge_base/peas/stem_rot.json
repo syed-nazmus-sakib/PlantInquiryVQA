@@ -1,0 +1,148 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "peas.disease_fungal.stem_rot",
+  "aliases": [
+    "sclerotinia stem rot",
+    "white mold",
+    "cottony rot"
+  ],
+  "crop": {
+    "common_name": "Pea",
+    "scientific_name": "Pisum sativum",
+    "family": "Fabaceae"
+  },
+  "condition": {
+    "common_name": "Stem Rot",
+    "scientific_name": "Sclerotinia sclerotiorum",
+    "alt_names": [
+      "White Mold",
+      "Sclerotinia Blight",
+      "Cottony Rot"
+    ],
+    "pathogen": {
+      "type": "disease_fungal",
+      "taxonomy": {
+        "kingdom": "Fungi",
+        "phylum": "Ascomycota",
+        "class": "Leotiomycetes",
+        "order": "Helotiales",
+        "family": "Sclerotiniaceae",
+        "genus": "Sclerotinia",
+        "species": "sclerotiorum"
+      }
+    }
+  },
+  "issue_type": "disease_fungal",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [
+      "Wind-blown ascospores released from apothecia",
+      "Infected seed",
+      "Movement of contaminated soil and equipment"
+    ],
+    "overwintering": [
+      "As sclerotia (hard, black fungal structures) in the soil",
+      "Mycelium in infected plant debris"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "Cool, moist conditions",
+      "Dense plant canopies with poor air circulation",
+      "Prolonged periods of canopy wetness (rain, dew, irrigation)",
+      "Infection often initiated on senescing flower petals"
+    ],
+    "temp_c_day": [
+      15,
+      21
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      90,
+      100
+    ],
+    "leaf_wetness_hours_threshold": 24
+  },
+  "severity_rubric": {
+    "unit": "qualitative",
+    "mild": "One or two small, water-soaked lesions on lower stems or petioles; no visible mycelium or wilting.",
+    "moderate": "Expanding lesions with visible white, cottony mycelium; partial wilting of affected stems or leaves.",
+    "severe": "Extensive mycelial growth girdling the stem, causing plant collapse; hard, black sclerotia are visible within or on the stem.",
+    "notes": "Severity is assessed by the extent of stem girdling and plant collapse, which directly impacts yield. The presence of white mycelium and black sclerotia are key indicators of moderate to severe infection."
+  },
+  "symptoms": {
+    "leaves": [
+      "Leaves on infected stems turn yellow, then wilt and become necrotic.",
+      "Petioles develop water-soaked lesions where they attach to the main stem.",
+      "Infected leaves in contact with the soil may develop a watery rot."
+    ],
+    "stems": [
+      "Water-soaked, soft lesions appear, often at the soil line, nodes, or where flowers attach.",
+      "Lesions expand rapidly, becoming bleached, tan, or light gray.",
+      "A dense, white, cottony mycelial growth covers the lesion area in humid conditions.",
+      "The stem becomes soft and rots, leading to plant lodging or collapse."
+    ],
+    "fruit": [
+      "Pods in contact with infected stems or soil develop a watery soft rot.",
+      "Pods become covered in the characteristic white, cottony mycelium.",
+      "Hard, black sclerotia may form inside or on the surface of infected pods."
+    ],
+    "roots": [
+      "Typically not the primary site of infection, but rot can progress from the stem base to the crown."
+    ],
+    "whole_plant": [
+      "Wilting of specific branches or the entire plant above the infection point.",
+      "Sudden plant collapse or death, especially in dense, moist canopies."
+    ],
+    "signs_microscopic_or_visible": [
+      "Prominent, white, cottony mycelium on stems, leaves, and pods.",
+      "Formation of hard, irregular, black sclerotia (1-10 mm), resembling rodent droppings, on or inside stems and pods."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "Botrytis Blight",
+      "condition_id": "peas.disease_fungal.botrytis_blight",
+      "key_differences": [
+        "Mycelium is a fuzzy, grayish-brown mold, not the bright white, cottony growth of Sclerotinia.",
+        "Lesions are typically tan or light brown and less 'watery' or 'bleached' than early stem rot lesions.",
+        "Sclerotinia produces large, hard, black sclerotia; Botrytis produces much smaller, less distinct sclerotia, if any."
+      ]
+    },
+    {
+      "condition_name": "Ascochyta Blight",
+      "condition_id": "peas.disease_fungal.ascochyta_blight",
+      "key_differences": [
+        "Causes purplish-black to brown, sunken lesions on the stem, often with a target-like appearance.",
+        "Ascochyta lesions contain tiny black specks (pycnidia), not white cottony mycelium or large sclerotia.",
+        "Ascochyta blight is characterized by distinct spots on leaves and pods, whereas stem rot causes a more generalized, watery rot."
+      ]
+    },
+    {
+      "condition_name": "Fusarium Wilt",
+      "condition_id": "peas.disease_fungal.fusarium_wilt",
+      "key_differences": [
+        "Causes yellowing and wilting starting from the lower leaves upwards, with no external stem lesions, rot, or mycelium.",
+        "Slicing the lower stem of a Fusarium-infected plant reveals reddish-brown discoloration of the vascular tissue.",
+        "Fusarium wilt is a systemic disease causing a true wilt, while stem rot causes physical collapse due to stem decay."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Practice crop rotation with non-host crops (e.g., cereals, corn) for at least 3-4 years.",
+      "Improve air circulation by using wider row spacing and avoiding excessive plant density.",
+      "Avoid excessive nitrogen fertilization, which promotes dense, lush canopies.",
+      "Manage broadleaf weeds that can serve as alternative hosts for the pathogen.",
+      "Ensure good soil drainage to reduce surface moisture."
+    ],
+    "biological": [
+      "Application of commercial bio-fungicides containing *Coniothyrium minitans* to the soil to parasitize and reduce sclerotia."
+    ],
+    "chemical": [
+      "Apply registered foliar fungicides (e.g., boscalid, pyraclostrobin, fluopyram) preventatively, typically at early to full bloom.",
+      "Fungicide applications aim to protect senescing flower petals, which are a primary infection court."
+    ],
+    "notes": "Management is primarily preventative, focusing on reducing soil inoculum (sclerotia) and protecting the plant during the susceptible flowering period under favorable environmental conditions."
+  }
+}

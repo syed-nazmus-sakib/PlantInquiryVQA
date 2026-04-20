@@ -1,0 +1,130 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "corn.healthy.healthy",
+  "aliases": [
+    "normal corn",
+    "asymptomatic corn",
+    "unaffected corn"
+  ],
+  "crop": {
+    "common_name": "corn",
+    "scientific_name": "Zea mays",
+    "family": "Poaceae"
+  },
+  "condition": {
+    "common_name": "healthy",
+    "scientific_name": null,
+    "alt_names": [
+      "asymptomatic"
+    ],
+    "pathogen": {
+      "type": "none",
+      "taxonomy": {
+        "kingdom": "",
+        "phylum": "",
+        "class": "",
+        "order": "",
+        "family": "",
+        "genus": "",
+        "species": ""
+      }
+    }
+  },
+  "issue_type": "healthy",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [],
+    "overwintering": []
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "Optimal growing conditions",
+      "Adequate sunlight and soil moisture",
+      "Balanced soil fertility",
+      "Use of disease-resistant hybrids",
+      "Absence of significant pathogen pressure or environmental stress"
+    ],
+    "temp_c_day": [
+      25,
+      33
+    ],
+    "temp_c_night": [
+      17,
+      23
+    ],
+    "relative_humidity_pct": [],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "0% of leaf area affected by symptoms.",
+    "moderate": "Not applicable. Any presence of symptoms indicates a non-healthy state.",
+    "severe": "Not applicable. Any presence of symptoms indicates a non-healthy state.",
+    "notes": "This rubric defines the 'healthy' state as the complete absence of disease or stress symptoms. Any deviation from 0% affected area would classify the plant under a different condition."
+  },
+  "symptoms": {
+    "leaves": [
+      "Uniformly green color, appropriate for the hybrid and growth stage.",
+      "Leaf surfaces are smooth and unblemished, without spots, lesions, streaks, or pustules.",
+      "Leaves are fully expanded and turgid, not showing signs of wilting, curling, or stunting.",
+      "No widespread premature yellowing (chlorosis) or browning (necrosis), except for natural senescence on the lowest leaves of mature plants.",
+      "Midrib is pale green or whitish and structurally sound."
+    ],
+    "stems": [
+      "Stalk is thick, sturdy, upright, and green.",
+      "Internodes are well-formed and free of discoloration, lesions, or physical damage."
+    ],
+    "fruit": [
+      "Ears (if present) are well-formed with green, tight husks.",
+      "Developing kernels are plump and arranged in uniform rows.",
+      "No visible mold, rot, or insect damage on husks or silks."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Exhibits vigorous, upright growth with a stature normal for its developmental stage and variety.",
+      "Normal plant architecture, including tassel and ear placement."
+    ],
+    "signs_microscopic_or_visible": []
+  },
+  "lookalikes": [
+    {
+      "condition_name": "Gray Leaf Spot",
+      "condition_id": "corn.fungal.gray_leaf_spot",
+      "key_differences": [
+        "Healthy leaves are uniformly green, while early GLS appears as tiny, tan, rectangular spots bounded by veins.",
+        "Healthy leaves have a smooth texture; GLS lesions are visually distinct interruptions in the leaf color.",
+        "Natural senescence on healthy plants causes lower leaves to yellow uniformly from the tip down the midrib in a 'V' shape, whereas GLS lesions are distinct, blocky spots that can appear on any leaf."
+      ]
+    },
+    {
+      "condition_name": "Common Rust",
+      "condition_id": "corn.fungal.common_rust",
+      "key_differences": [
+        "Healthy leaves have a smooth epidermis, whereas common rust produces raised, cinnamon-brown, powdery pustules (uredinia) that rupture the leaf surface.",
+        "The pustules of common rust can be physically felt as rough bumps, unlike the smooth surface of a healthy leaf.",
+        "Pustules are scattered on both upper and lower leaf surfaces, which is a clear deviation from the unblemished surface of a healthy plant."
+      ]
+    },
+    {
+      "condition_name": "Bacterial Leaf Streak",
+      "condition_id": "corn.bacterial.bacterial_leaf_streak",
+      "key_differences": [
+        "Healthy leaves show no streaking, while BLS is characterized by long, narrow, wavy-edged, tan or water-soaked streaks between leaf veins.",
+        "BLS streaks often appear oily or translucent when backlit, a feature absent in healthy leaf tissue.",
+        "The streaks in BLS are a distinct discoloration, unlike the uniform green of a healthy leaf."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Planting high-quality, certified seed of resistant hybrids.",
+      "Maintaining balanced soil fertility based on soil testing.",
+      "Ensuring proper plant spacing to allow for good air circulation.",
+      "Managing irrigation to provide adequate water without causing waterlogging or drought stress.",
+      "Implementing crop rotation to break potential disease cycles."
+    ],
+    "biological": [],
+    "chemical": [],
+    "notes": "Management for a 'healthy' state is preventative, focusing on optimal agronomic practices to minimize plant stress and prevent disease establishment."
+  }
+}

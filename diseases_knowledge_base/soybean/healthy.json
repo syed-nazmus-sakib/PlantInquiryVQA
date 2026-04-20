@@ -1,0 +1,110 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "soybean.healthy.healthy",
+  "aliases": [
+    "normal soybean",
+    "asymptomatic plant"
+  ],
+  "crop": {
+    "common_name": "soybean",
+    "scientific_name": "Glycine max",
+    "family": "Fabaceae"
+  },
+  "condition": {
+    "common_name": "healthy",
+    "scientific_name": null,
+    "alt_names": [
+      "normal",
+      "asymptomatic"
+    ],
+    "pathogen": {
+      "type": "none",
+      "taxonomy": {
+        "kingdom": "",
+        "phylum": "",
+        "class": "",
+        "order": "",
+        "family": "",
+        "genus": "",
+        "species": ""
+      }
+    }
+  },
+  "issue_type": "healthy",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [],
+    "overwintering": []
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "Optimal growing conditions",
+      "Adequate sunlight (6-8 hours direct)",
+      "Sufficient water and nutrients",
+      "Well-drained soil",
+      "Lack of biotic or abiotic stress"
+    ],
+    "temp_c_day": [
+      25,
+      30
+    ],
+    "temp_c_night": [
+      18,
+      22
+    ],
+    "relative_humidity_pct": [
+      60,
+      75
+    ],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "qualitative",
+    "mild": "Not applicable. Plant is either healthy or shows symptoms.",
+    "moderate": "Not applicable.",
+    "severe": "Not applicable.",
+    "notes": "For a healthy plant, severity is zero. Any visible damage, discoloration, or malformation would classify it as unhealthy."
+  },
+  "symptoms": {
+    "leaves": [
+      "Uniformly green color, appropriate for the variety and growth stage.",
+      "Trifoliate leaves are fully expanded, turgid, and well-formed.",
+      "Leaf surfaces are smooth, without spots, lesions, pustules, or discoloration.",
+      "Leaf margins are entire and show no signs of necrosis, chlorosis, or chewing damage.",
+      "Petioles are firm and hold leaves at a normal angle to the stem."
+    ],
+    "stems": [
+      "Stems are sturdy, upright, and green to light brown.",
+      "Fine hairs (trichomes) are typically present and evenly distributed.",
+      "Stems are free of cankers, lesions, discoloration, or breakage."
+    ],
+    "fruit": [
+      "Pods (if present) are green, turgid, and appear well-filled.",
+      "Pod surfaces are free of spots, lesions, or mold."
+    ],
+    "roots": [
+      "Root system is well-developed with a distinct taproot.",
+      "Roots are white to light tan in color.",
+      "Active nitrogen-fixing nodules are pink or reddish on the inside and firmly attached."
+    ],
+    "whole_plant": [
+      "Exhibits vigorous, upright growth appropriate for the developmental stage.",
+      "Canopy is dense and closed in later vegetative stages.",
+      "No signs of stunting, wilting, or general decline."
+    ],
+    "signs_microscopic_or_visible": []
+  },
+  "lookalikes": [],
+  "management": {
+    "cultural": [
+      "Planting certified, disease-free seed of a locally adapted variety.",
+      "Maintaining optimal soil fertility and pH based on soil tests.",
+      "Ensuring adequate soil drainage to prevent waterlogging.",
+      "Using appropriate plant spacing to promote good air circulation.",
+      "Practicing crop rotation with non-host crops (e.g., corn, wheat)."
+    ],
+    "biological": [],
+    "chemical": [],
+    "notes": "Management for a healthy plant focuses on preventative cultural practices that promote vigorous growth and minimize environmental and biological stress."
+  }
+}

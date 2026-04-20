@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PlantInquiryVQA — Thinking Like a Botanist</title>
+  <meta name="description" content="PlantInquiryVQA: A benchmark for multi-step, intent-driven visual reasoning in botanical diagnosis. Accepted at ACL 2026 Findings." />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Serif:wght@400;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ==================== HERO ==================== -->
+  <header class="hero">
+    <div class="container">
+      <h1 class="hero__title">Thinking Like a Botanist:<br/>Challenging Multimodal Language Models<br/>with Intent-Driven Chain-of-Inquiry</h1>
+
+      <p class="hero__authors">
+        <a href="#">Syed Nazmus Sakib</a><sup>1,*</sup>,&nbsp;
+        <a href="#">Nafiul Haque</a><sup>1,*</sup>,&nbsp;
+        <a href="#">Shahrear Bin Amin</a><sup>1</sup>,&nbsp;
+        <a href="#">Hasan Muhammad Abdullah</a><sup>2</sup>,<br/>
+        <a href="#">Md Mehedi Hasan</a><sup>1</sup>,&nbsp;
+        <a href="#">Mohammad Zabed Hossain</a><sup>3</sup>,&nbsp;
+        <a href="#">Shifat E. Arman</a><sup>1,†</sup>
+      </p>
+
+      <p class="hero__affiliations">
+        <sup>1</sup>Dept. of Robotics &amp; Mechatronics Engineering, University of Dhaka &nbsp;&nbsp;
+        <sup>2</sup>Dept. of Agronomy, BSMRAU &nbsp;&nbsp;
+        <sup>3</sup>Dept. of Botany, University of Dhaka<br/>
+        <small><sup>*</sup>Equal Contribution &nbsp;&nbsp; <sup>†</sup>Corresponding Author</small>
+      </p>
+
+      <span class="hero__badge">Accepted at ACL 2026 Findings</span>
+
+      <div class="hero__links">
+        <a class="hero__link" href="plantinquiryvqa.pdf" aria-label="Paper PDF">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+          Paper
+        </a>
+        <span class="hero__link hero__link--disabled" aria-label="arXiv (coming soon)">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+          arXiv
+        </span>
+        <span class="hero__link hero__link--disabled" aria-label="Code (coming soon)">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+          Code
+        </span>
+        <span class="hero__link hero__link--disabled" aria-label="Dataset (coming soon)">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+          Dataset
+        </span>
+      </div>
+      <p class="hero__coming-soon">arXiv preprint, code, and dataset coming soon.</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <hr class="divider" />
+
+    <!-- ==================== ABSTRACT ==================== -->
+    <section class="section" id="abstract">
+      <h2 class="section__title">Abstract</h2>
+      <p class="abstract__text">
+        Vision evaluations are typically done through multi-step processes. In plant pathology, botanists inspect leaf images, identify visual cues, infer diagnostic intent, and probe further with targeted questions that adapt to species, symptoms, and severity. Yet current vision-language models are evaluated on single-turn question answering. To address this gap, we introduce <strong>PlantInquiryVQA</strong>, a benchmark for studying multi-step, intent-driven visual reasoning in botanical diagnosis. We formalize a <em>Chain-of-Inquiry</em> (CoI) framework modeling diagnostic trajectories as ordered question-answer sequences conditioned on grounded visual cues and explicit epistemic intent. We release a dataset of <strong>24,964</strong> expert-curated plant images and <strong>138,078</strong> question-answer pairs annotated with visual grounding, severity labels, and domain-specific reasoning templates. Evaluations on top-tier Multimodal Large Language Models reveal that while they describe visual symptoms adequately, they struggle with safe clinical reasoning and accurate diagnosis. Importantly, structured question-guided inquiry significantly improves diagnostic correctness, reduces hallucination, and increases reasoning efficiency.
+      </p>
+    </section>
+
+    <!-- ==================== AT A GLANCE ==================== -->
+    <section class="section" id="at-a-glance">
+      <h2 class="section__title">At a Glance</h2>
+      <div class="highlights">
+        <div class="highlight-card">
+          <span class="highlight-card__number">24,964</span>
+          <span class="highlight-card__label">Expert-Curated Images</span>
+        </div>
+        <div class="highlight-card">
+          <span class="highlight-card__number">138K</span>
+          <span class="highlight-card__label">Question-Answer Pairs</span>
+        </div>
+        <div class="highlight-card">
+          <span class="highlight-card__number">34</span>
+          <span class="highlight-card__label">Crop Species</span>
+        </div>
+      </div>
+      <div class="highlights" style="margin-top:0.8rem;">
+        <div class="highlight-card">
+          <span class="highlight-card__number">116</span>
+          <span class="highlight-card__label">Disease Types</span>
+        </div>
+        <div class="highlight-card">
+          <span class="highlight-card__number">12</span>
+          <span class="highlight-card__label">CoI Trajectories</span>
+        </div>
+        <div class="highlight-card">
+          <span class="highlight-card__number">18</span>
+          <span class="highlight-card__label">MLLMs Benchmarked</span>
+        </div>
+      </div>
+    </section>
+
+    <hr class="divider" />
+
+    <!-- ==================== KEY IDEA ==================== -->
+    <section class="section" id="key-idea">
+      <h2 class="section__title">Key Idea</h2>
+      <p class="abstract__text">
+        Unlike static QA datasets that ask generic questions regardless of disease status, our framework aligns the <em>epistemic intent</em> of the inquiry with visual severity. As disease progresses—from mild to severe—the cognitive task transitions from <strong>Diagnosis</strong> (ambiguity resolution) to <strong>Prognosis</strong> (future forecasting) and <strong>Management</strong> (action planning), ensuring questions are always contextually relevant to the visual evidence.
+      </p>
+      <div class="figure">
+        <img src="assets/figures/DIA_1.png" alt="Chain-of-Inquiry aligned with disease severity" loading="lazy" />
+        <p class="figure__caption"><strong>Figure 1.</strong> The questioning focus evolves with disease progression in Sunflower (Alternaria Leaf Spot). The cognitive task transitions from Diagnosis in early stages to Prognosis and Management in advanced stages.</p>
+      </div>
+    </section>
+
+    <hr class="divider" />
+
+    <!-- ==================== CONTRIBUTIONS ==================== -->
+    <section class="section" id="contributions">
+      <h2 class="section__title">Contributions</h2>
+      <ul class="contributions-list">
+        <li><strong>The PlantInquiryVQA Benchmark</strong> A large-scale dataset of 25K manually curated images across diverse crop species, annotated with expert-verified visual cue descriptions and domain-specific knowledge bases.</li>
+        <li><strong>The Chain-of-Inquiry (CoI) Framework</strong> A novel reasoning taxonomy classifying 12 unique reasoning templates into 7 distinct cognitive categories (including Etiological Reasoning, Differential Diagnosis, and Counterfactual Analysis).</li>
+        <li><strong>Diagnostic Reasoning Evaluation</strong> A comprehensive evaluation of 18 closed- and open-source MLLMs showing that question-guided protocols significantly reduce hallucination and improve diagnostic correctness.</li>
+      </ul>
+    </section>
+
+    <hr class="divider" />
+
+    <!-- ==================== METHODOLOGY ==================== -->
+    <section class="section" id="methodology">
+      <h2 class="section__title">Methodology</h2>
+      <p class="abstract__text">
+        Our pipeline is divided into three phases: (1) extracting grounded visual cues using a VLM guided by expert schemas, (2) structuring botanical knowledge to map disease severity to diagnostic intent, and (3) a dynamic LLM generation pipeline that injects specific reasoning modules based on intent and visual evidence.
+      </p>
+      <div class="figure figure--wide">
+        <img src="assets/figures/Method_Dia.png" alt="PlantInquiryVQA methodology pipeline" loading="lazy" />
+        <p class="figure__caption"><strong>Figure 2.</strong> Overall methodology pipeline for PlantInquiryVQA CoI dataset generation. Visual Cue Extraction → CoI Classification → Automated QA Generation.</p>
+      </div>
+    </section>
+
+    <hr class="divider" />
+
+    <!-- ==================== CoI TRAJECTORIES ==================== -->
+    <section class="section" id="coi-trajectories">
+      <h2 class="section__title">Chain-of-Inquiry Trajectories</h2>
+      <p class="abstract__text">
+        We define 12 distinct CoI trajectories across four axes: Health Status (Healthy, Diseased, Senescence, Pest Damaged), Disease Severity (Mild, Moderate, Severe), Instance Variety (Multi-disease, Cross-species), and Epistemic Intent (Diagnosis, Prognosis, Management).
+      </p>
+      <div class="figure figure--wide">
+        <img src="assets/figures/coi_dia.png" alt="12 Chain-of-Inquiry trajectories" loading="lazy" />
+        <p class="figure__caption"><strong>Figure 3.</strong> Qualitative examples of 12 distinct CoI trajectories. The framework adapts questioning strategies across health status, disease severity, instance variety, and epistemic intent.</p>
+      </div>
+    </section>
+
+    <hr class="divider" />
+
+    <!-- ==================== RESULTS ==================== -->
+    <section class="section" id="results">
+      <h2 class="section__title">Main Results</h2>
+      <p class="abstract__text" style="margin-bottom: 1rem;">
+        We evaluate 17 leading MLLMs on PlantInquiryVQA using a Cumulative Context Test, where each successive question is conditioned on the full history of preceding questions and generated answers.
+      </p>
+
+      <div class="table-wrapper">
+        <table class="results-table" id="main-results-table">
+          <thead>
+            <tr>
+              <th rowspan="2" style="vertical-align:bottom;">Model</th>
+              <th colspan="3" class="col-group">Lexical Metrics</th>
+              <th colspan="5" class="col-group">Domain Alignment &amp; Quality</th>
+            </tr>
+            <tr>
+              <th>F1</th>
+              <th>BLEU-4</th>
+              <th>R-L</th>
+              <th>Dis.</th>
+              <th>Clin.</th>
+              <th>Safe.</th>
+              <th>VG</th>
+              <th>Len.</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Gemini-3-Flash</td>
+              <td class="best">0.255</td><td class="best">0.033</td><td class="best">0.196</td>
+              <td class="best">0.444</td><td class="best">0.188</td><td class="best">0.147</td>
+              <td>0.259</td><td>85.8</td>
+            </tr>
+            <tr>
+              <td>Gemini-2.5-Pro</td>
+              <td>0.225</td><td>0.016</td><td>0.132</td>
+              <td>0.357</td><td>0.112</td><td>0.040</td>
+              <td>0.408</td><td>142.9</td>
+            </tr>
+            <tr>
+              <td>Qwen3-VL-235B</td>
+              <td>0.210</td><td>0.013</td><td>0.120</td>
+              <td>0.348</td><td>0.111</td><td>0.035</td>
+              <td>0.489</td><td>143.9</td>
+            </tr>
+            <tr>
+              <td>Seed-1.6-Flash</td>
+              <td>0.226</td><td>0.022</td><td>0.139</td>
+              <td>0.344</td><td>0.120</td><td>0.075</td>
+              <td>0.394</td><td>99.1</td>
+            </tr>
+            <tr>
+              <td>Llama-3.2-90B-Vision</td>
+              <td>0.212</td><td>0.014</td><td>0.105</td>
+              <td>0.340</td><td>0.185</td><td>0.214</td>
+              <td>0.372</td><td>134.9</td>
+            </tr>
+            <tr>
+              <td>Llama-4-Maverick</td>
+              <td>0.212</td><td>0.013</td><td>0.103</td>
+              <td>0.329</td><td>0.175</td><td>0.202</td>
+              <td>0.397</td><td>144.5</td>
+            </tr>
+            <tr>
+              <td>Gemini-2.5-Flash</td>
+              <td>0.226</td><td>0.018</td><td>0.145</td>
+              <td>0.299</td><td>0.098</td><td>0.046</td>
+              <td>0.392</td><td>163.5</td>
+            </tr>
+            <tr>
+              <td>Qwen3-VL-32B</td>
+              <td>0.182</td><td>0.011</td><td>0.096</td>
+              <td>0.288</td><td>0.096</td><td>0.035</td>
+              <td>0.475</td><td>227.8</td>
+            </tr>
+            <tr>
+              <td>Gemma-3-27B</td>
+              <td>0.192</td><td>0.011</td><td>0.103</td>
+              <td>0.272</td><td>0.086</td><td>0.032</td>
+              <td>0.353</td><td>156.9</td>
+            </tr>
+            <tr>
+              <td>Pixtral-12B</td>
+              <td>0.225</td><td>0.016</td><td>0.122</td>
+              <td>0.272</td><td>0.145</td><td>0.159</td>
+              <td>0.368</td><td>98.0</td>
+            </tr>
+            <tr>
+              <td>Qwen2.5-VL-32B</td>
+              <td>0.177</td><td>0.009</td><td>0.076</td>
+              <td>0.254</td><td>0.078</td><td>0.017</td>
+              <td>0.463</td><td>260.4</td>
+            </tr>
+            <tr>
+              <td>Phi-4-Multimodal</td>
+              <td>0.177</td><td>0.010</td><td>0.097</td>
+              <td>0.254</td><td>0.087</td><td>0.040</td>
+              <td>0.358</td><td>167.2</td>
+            </tr>
+            <tr>
+              <td>Qwen2.5-VL-72B</td>
+              <td>0.236</td><td>0.016</td><td>0.123</td>
+              <td>0.247</td><td>0.080</td><td>0.040</td>
+              <td>0.375</td><td>106.2</td>
+            </tr>
+            <tr>
+              <td>Grok-4.1-Fast</td>
+              <td>0.203</td><td>0.016</td><td>0.132</td>
+              <td>0.224</td><td>0.067</td><td>0.009</td>
+              <td class="best">0.498</td><td>100.7</td>
+            </tr>
+            <tr>
+              <td>Mistral-Medium-3.1</td>
+              <td>0.211</td><td>0.015</td><td>0.119</td>
+              <td>0.205</td><td>0.062</td><td>0.023</td>
+              <td>0.360</td><td>110.7</td>
+            </tr>
+            <tr>
+              <td>Ministral-8B</td>
+              <td>0.180</td><td>0.010</td><td>0.094</td>
+              <td>0.197</td><td>0.060</td><td>0.020</td>
+              <td>0.394</td><td>151.8</td>
+            </tr>
+            <tr>
+              <td>Ministral-3B</td>
+              <td>0.166</td><td>0.007</td><td>0.083</td>
+              <td>0.189</td><td>0.059</td><td>0.020</td>
+              <td>0.372</td><td>163.0</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="table-caption"><strong>Table 1.</strong> Main results on the test set. Gemini-3-Flash leads across lexical and domain metrics. Grok-4.1-Fast achieves the highest Visual Grounding (VG = 0.498), highlighting a trade-off between description accuracy and clinical reasoning.</p>
+    </section>
+
+    <hr class="divider" />
+
+    <!-- ==================== KEY FINDINGS ==================== -->
+    <section class="section" id="findings">
+      <h2 class="section__title">Key Findings</h2>
+
+      <h3 class="section__subtitle">Does structured inquiry improve diagnosis?</h3>
+      <p class="abstract__text">
+        Question-guided inquiry yields significantly higher diagnosis correctness across all severity levels compared to direct diagnosis. Specific questions force models to attend to fine-grained features (lesion margins, halo presence), constraining the search space and reducing hallucination.
+      </p>
+
+      <div class="findings-grid">
+        <div class="figure">
+          <img src="assets/figures/diag_correct.png" alt="Protocol Structure Benefit Test" loading="lazy" />
+          <p class="figure__caption"><strong>Figure 4.</strong> Protocol Structure Benefit Test. Both Qwen2.5-VL-32B and Ministral-8B achieve higher diagnosis correctness with question-guided context (~48% improvement).</p>
+        </div>
+        <div class="figure">
+          <img src="assets/figures/ratio_test_bar_chart.jpeg" alt="Explainability Efficiency comparison" loading="lazy" />
+          <p class="figure__caption"><strong>Figure 5.</strong> Reasoning efficiency comparison. Guided (sequential context) improves explainability efficiency for nearly all models.</p>
+        </div>
+      </div>
+
+      <h3 class="section__subtitle">Does CoI promote reasoning efficiency?</h3>
+      <p class="abstract__text">
+        In the Guided setting (with dialogue history), capable models stop hedging or repeating basic observations and focus on new, specific visual evidence. For example, Gemini-2.5-Flash improves efficiency from 2.60 to 3.67 (+41%). Smaller models like Nemotron-Nano-12B experience "context distraction," where longer dialogue history interferes with immediate visual processing.
+      </p>
+    </section>
+
+    <hr class="divider" />
+
+    <!-- ==================== DATASET ==================== -->
+    <section class="section" id="dataset">
+      <h2 class="section__title">Dataset Distribution</h2>
+      <p class="abstract__text">
+        The dataset spans 34 crop species and 116 disease types with fine-grained severity annotations. The distribution mirrors real-world plant pathology: Moderate cases dominate (55.6%), with Mild (20.3%) and Severe (24.1%) capturing early and critical stages respectively.
+      </p>
+      <div class="figure">
+        <img src="assets/figures/crop_severity_distribution.jpeg" alt="Crop severity distribution" loading="lazy" />
+        <p class="figure__caption"><strong>Figure 6.</strong> Hierarchical breakdown of diseased samples from disease category to severity level and crop species.</p>
+      </div>
+    </section>
+
+    <hr class="divider" />
+
+    <!-- ==================== BIBTEX ==================== -->
+    <section class="section" id="citation">
+      <h2 class="section__title">Citation</h2>
+      <div class="bibtex-block">
+        <button class="bibtex-copy" id="bibtex-copy-btn">Copy</button>
+<span id="bibtex-text">@inproceedings{sakib2026plantinquiryvqa,
+  title     = {Thinking Like a Botanist: Challenging Multimodal
+               Language Models with Intent-Driven Chain-of-Inquiry},
+  author    = {Sakib, Syed Nazmus and Haque, Nafiul and
+               Amin, Shahrear Bin and Abdullah, Hasan Muhammad and
+               Hasan, Md Mehedi and Hossain, Mohammad Zabed and
+               Arman, Shifat E.},
+  booktitle = {Findings of the Association for Computational
+               Linguistics: ACL 2026},
+  year      = {2026}
+}</span></div>
+    </section>
+
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer">
+    <div class="container">
+      <p>PlantInquiryVQA &copy; 2026 &middot; University of Dhaka</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

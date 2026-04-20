@@ -1,0 +1,130 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "litchi.physiological_symptom.white_spot",
+  "aliases": [
+    "sunscald",
+    "sunburn"
+  ],
+  "crop": {
+    "common_name": "litchi",
+    "scientific_name": "Litchi chinensis",
+    "family": "Sapindaceae"
+  },
+  "condition": {
+    "common_name": "white spot",
+    "scientific_name": null,
+    "alt_names": [
+      "sunscald",
+      "sunburn"
+    ],
+    "pathogen": {
+      "type": "abiotic",
+      "taxonomy": {
+        "kingdom": "",
+        "phylum": "",
+        "class": "",
+        "order": "",
+        "family": "",
+        "genus": "",
+        "species": ""
+      }
+    }
+  },
+  "issue_type": "physiological_symptom",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [],
+    "overwintering": []
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "High solar radiation",
+      "Sudden exposure of leaves or fruit to direct sunlight (e.g., after pruning)",
+      "High ambient temperatures",
+      "Low relative humidity",
+      "Water stress"
+    ],
+    "temp_c_day": [
+      32,
+      45
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      20,
+      50
+    ],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "1-10% of the visible leaf or fruit surface is affected by white, bleached patches.",
+    "moderate": "11-40% of the visible leaf or fruit surface shows symptoms, which may be coalescing.",
+    "severe": ">40% of the visible leaf or fruit surface is bleached, dry, or necrotic.",
+    "notes": "Severity is assessed on an individual leaf or fruit. The percentage refers to the surface area showing characteristic white, papery, or leathery symptoms caused by sun exposure. A value of 0 indicates the condition is not applicable as it's an abiotic disorder not driven by moisture."
+  },
+  "symptoms": {
+    "leaves": [
+      "Irregular, bleached white, tan, or light grey patches appear on sun-exposed leaf surfaces.",
+      "Affected tissue becomes dry, thin, and papery to the touch.",
+      "Lesions are often located on the upper canopy leaves that receive the most direct sunlight.",
+      "A distinct border may form between the damaged area and healthy green tissue.",
+      "In severe cases, the necrotic patch may crack or fall out, creating holes in the leaf."
+    ],
+    "stems": [
+      "Bleached or light-colored patches can occur on young, green stems directly exposed to intense sun."
+    ],
+    "fruit": [
+      "A white to light-brown, sunken, leathery patch develops on the fruit peel (pericarp).",
+      "The symptom is almost always on the side of the fruit facing the sun.",
+      "The affected peel fails to develop the normal red coloration.",
+      "The underlying flesh (aril) beneath the spot may become dry, hard, and unpalatable."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Symptoms are concentrated on the south- or west-facing side of the plant canopy (in the Northern Hemisphere)."
+    ],
+    "signs_microscopic_or_visible": []
+  },
+  "lookalikes": [
+    {
+      "condition_name": "burned_leaf",
+      "condition_id": "litchi.physiological_symptom.burned_leaf",
+      "key_differences": [
+        "White spot (sunscald) causes bleached, white-to-tan patches in the center or exposed side of the leaf, whereas leaf burn from drought or salinity typically starts at the leaf tip or margins and is dark brown or black.",
+        "Sunscald lesions are often irregularly shaped based on sun exposure, while marginal necrosis (burn) follows the leaf edge more uniformly.",
+        "Sunscald is localized to sun-exposed parts of the canopy; chemical or salt burn can appear anywhere on the plant, including shaded lower leaves."
+      ]
+    },
+    {
+      "condition_name": "pest_damage",
+      "condition_id": "litchi.pest_damage.unspecified",
+      "key_differences": [
+        "White spot lesions are solid bleached patches, whereas mite damage often appears as fine, silvery or bronze stippling.",
+        "Damage from leaf-mining insects creates distinct winding trails or blotches within the leaf tissue, which is structurally different from the surface bleaching of sunscald.",
+        "Physical evidence of pests, such as insects, frass, webbing, or eggs, may be visible with pest damage but is absent in white spot."
+      ]
+    },
+    {
+      "condition_name": "red_rust_disease",
+      "condition_id": "litchi.algal_pathogen.red_rust_disease",
+      "key_differences": [
+        "White spot is a bleached, papery lesion, while red rust disease appears as raised, velvety, orange-to-reddish-brown spots on leaves or stems.",
+        "Red rust spots are caused by an alga and have a distinct color and texture, unlike the pale, necrotic tissue of sunscald.",
+        "Under magnification, red rust shows filamentous structures, which are absent in the abiotic white spot condition."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Ensure adequate and consistent irrigation during hot, dry weather to prevent water stress, which increases susceptibility.",
+      "Avoid excessive or sudden pruning that exposes previously shaded leaves and fruit to intense direct sunlight.",
+      "Maintain a healthy, sufficiently dense canopy to provide natural shading for developing fruit.",
+      "Orient rows to minimize direct afternoon sun exposure on the fruit, if possible during orchard planning."
+    ],
+    "biological": [],
+    "chemical": [
+      "Application of reflective particle films, such as kaolin clay sprays, can act as a physical sunscreen to protect leaves and fruit."
+    ],
+    "notes": "Management is entirely preventative, focusing on reducing plant stress and mitigating the effects of extreme solar radiation and heat."
+  }
+}

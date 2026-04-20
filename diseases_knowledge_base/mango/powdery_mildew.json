@@ -1,0 +1,133 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "mango.disease_fungal.powdery_mildew",
+  "aliases": [
+    "mango blight",
+    "ashy blight"
+  ],
+  "crop": {
+    "common_name": "mango",
+    "scientific_name": "Mangifera indica",
+    "family": "Anacardiaceae"
+  },
+  "condition": {
+    "common_name": "powdery mildew",
+    "scientific_name": "Oidium mangiferae",
+    "alt_names": [],
+    "pathogen": {
+      "type": "fungus",
+      "taxonomy": {
+        "kingdom": "Fungi",
+        "phylum": "Ascomycota",
+        "class": "Leotiomycetes",
+        "order": "Erysiphales",
+        "family": "Erysiphaceae",
+        "genus": "Oidium",
+        "species": "mangiferae"
+      }
+    }
+  },
+  "issue_type": "disease_fungal",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [
+      "wind"
+    ],
+    "overwintering": [
+      "dormant mycelium in buds",
+      "infected leaves and malformed panicles"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "high relative humidity at night",
+      "cool, dry weather",
+      "cloudy conditions",
+      "dense canopy with poor air circulation"
+    ],
+    "temp_c_day": [
+      20,
+      28
+    ],
+    "temp_c_night": [
+      10,
+      22
+    ],
+    "relative_humidity_pct": [
+      60,
+      90
+    ],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "1-10% of the surface of leaves, panicles, or fruit covered in sparse, white fungal growth.",
+    "moderate": "11-40% of surface area affected; patches are coalescing and some leaf curling or flower drop is evident.",
+    "severe": ">40% of surface area covered, leading to severe leaf distortion, blighting of panicles, or fruit russeting and cracking.",
+    "notes": "Assessment should focus on the most affected plant part in the image (e.g., a single leaf, a flower cluster, or a fruit). The percentage refers to the area covered by the visible white fungal sign. Powdery mildew does not require free water (leaf wetness) to infect."
+  },
+  "symptoms": {
+    "leaves": [
+      "White to grayish, powdery fungal growth on upper and lower leaf surfaces.",
+      "Initial symptoms are small, isolated, white patches.",
+      "Patches coalesce to cover large areas of the leaf.",
+      "Infected young leaves may become curled, distorted, and smaller than normal.",
+      "Older lesions may turn purplish-brown or black as the tissue dies."
+    ],
+    "stems": [
+      "White powdery growth can cover young, succulent shoots and panicle axes."
+    ],
+    "fruit": [
+      "White powdery patches appear on the skin of young, developing fruit.",
+      "Infected fruit skin develops a purplish-brown, corky, or russeted appearance.",
+      "Severe infection may cause young fruit to crack, deform, or drop prematurely."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Infected inflorescences (panicles) appear blighted and are heavily coated in white powder.",
+      "Severe infection causes widespread flower drop, leading to poor fruit set."
+    ],
+    "signs_microscopic_or_visible": [
+      "The primary sign is the white, superficial mycelium and conidia, which can be easily rubbed off the plant surface."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "sooty_mold",
+      "condition_id": "mango.disease_fungal.sooty_mold",
+      "key_differences": [
+        "Sooty mold is a black or dark brown, crust-like layer, whereas powdery mildew is white or grayish and has a powdery texture.",
+        "Sooty mold grows on insect honeydew and can often be washed or peeled off in a sheet, revealing healthy tissue underneath.",
+        "Powdery mildew is a parasitic infection that causes tissue distortion, discoloration, and necrosis beneath the fungal growth."
+      ]
+    },
+    {
+      "condition_name": "anthracnose",
+      "condition_id": "mango.disease_fungal.anthracnose",
+      "key_differences": [
+        "Anthracnose causes distinct, dark brown to black, sunken, necrotic lesions on leaves and fruit, not a superficial coating.",
+        "Powdery mildew is a white, powdery growth that covers the plant surface without causing discrete, sunken spots initially.",
+        "In humid conditions, anthracnose lesions on fruit may produce pinkish-orange spore masses, which are absent in powdery mildew.",
+        "Anthracnose often causes a 'tear stain' pattern on fruit, while powdery mildew causes a more uniform russeting or scabbing."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Prune trees annually to improve air circulation and sunlight penetration into the canopy.",
+      "Remove and destroy fallen leaves and infected panicles to reduce inoculum.",
+      "Choose resistant mango cultivars where available.",
+      "Avoid excessive nitrogen fertilization, which promotes susceptible new growth."
+    ],
+    "biological": [
+      "Application of bio-fungicides containing *Bacillus subtilis* or *Ampelomyces quisqualis*.",
+      "Use of neem oil or other horticultural oils can be effective as an eradicant and protectant."
+    ],
+    "chemical": [
+      "Application of wettable sulfur fungicides before and during the flowering period.",
+      "Use of systemic fungicides such as triazoles (e.g., myclobutanil, propiconazole) or strobilurins, rotating chemical classes to prevent resistance.",
+      "Potassium bicarbonate-based fungicides can be used to disrupt fungal cells on contact."
+    ],
+    "notes": "Preventative fungicide sprays are most effective. Timing is critical, beginning at panicle emergence and continuing through fruit set, especially during cool, dry, and cloudy weather."
+  }
+}

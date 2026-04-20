@@ -1,0 +1,120 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "cauliflower.healthy.healthy",
+  "aliases": [
+    "normal",
+    "asymptomatic",
+    "unaffected"
+  ],
+  "crop": {
+    "common_name": "cauliflower",
+    "scientific_name": "Brassica oleracea var. botrytis",
+    "family": "Brassicaceae"
+  },
+  "condition": {
+    "common_name": "Healthy",
+    "scientific_name": null,
+    "alt_names": [
+      "Asymptomatic",
+      "Normal Growth"
+    ],
+    "pathogen": {
+      "type": "none",
+      "taxonomy": {
+        "kingdom": "",
+        "phylum": "",
+        "class": "",
+        "order": "",
+        "family": "",
+        "genus": "",
+        "species": ""
+      }
+    }
+  },
+  "issue_type": "healthy",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [],
+    "overwintering": []
+  },
+  "environmental_risk": {
+    "risk_factors": [],
+    "temp_c_day": [],
+    "temp_c_night": [],
+    "relative_humidity_pct": [],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "qualitative",
+    "mild": "Not applicable",
+    "moderate": "Not applicable",
+    "severe": "Not applicable",
+    "notes": "Severity is not applicable for a healthy plant. The plant is either healthy (asymptomatic) or it is not."
+  },
+  "symptoms": {
+    "leaves": [
+      "Leaves are turgid, fully expanded, and uniformly green to blue-green in color.",
+      "Leaf surfaces are free of spots, lesions, pustules, or powdery residue.",
+      "The natural waxy (glaucous) coating on the leaves is intact and evenly distributed.",
+      "Leaf margins are smooth and intact, without yellowing, browning, or water-soaked areas.",
+      "No signs of yellowing (chlorosis) or browning (necrosis) are present."
+    ],
+    "stems": [
+      "Stems are firm, upright, and uniformly green.",
+      "No cankers, streaks, or soft spots are visible on the main stem."
+    ],
+    "fruit": [
+      "The curd (head) is compact, firm, and uniformly white or cream-colored (or variety-specific color).",
+      "Florets are tightly packed with no separation, browning, or black spots.",
+      "No fuzzy mold growth is visible on or between the florets.",
+      "The curd is free from a 'ricey' texture (elongated floral parts) or bracts growing through it."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Plant exhibits vigorous, upright growth appropriate for its age.",
+      "No stunting, wilting, or dieback is observed."
+    ],
+    "signs_microscopic_or_visible": []
+  },
+  "lookalikes": [
+    {
+      "condition_name": "black_rot",
+      "condition_id": "cauliflower.bacterial.black_rot",
+      "key_differences": [
+        "Healthy leaves are uniformly green, whereas black rot causes distinct V-shaped yellow lesions starting at the leaf margin.",
+        "Veins in healthy leaves are green; in black rot, veins within the lesion turn black.",
+        "A healthy plant shows no systemic symptoms, while black rot can cause systemic vascular blackening visible in cut stems."
+      ]
+    },
+    {
+      "condition_name": "downy_mildew",
+      "condition_id": "cauliflower.oomycete.downy_mildew",
+      "key_differences": [
+        "The underside of a healthy leaf is smooth and green; downy mildew produces a fluffy, grayish-white mold growth on the leaf underside.",
+        "The upper surface of a healthy leaf is unblemished, whereas downy mildew causes angular, yellow to pale green spots that later turn necrotic.",
+        "Healthy curds are clean; downy mildew can systemically infect the head, causing dark discoloration and rot."
+      ]
+    },
+    {
+      "condition_name": "bacterial_spot_rot",
+      "condition_id": "cauliflower.bacterial.bacterial_spot_rot",
+      "key_differences": [
+        "Healthy curds are uniformly white and firm; bacterial spot rot causes small, water-soaked, brownish-black spots directly on the florets.",
+        "Wrapper leaves on a healthy plant are clean, whereas bacterial spot rot can cause similar dark, greasy spots on leaves and midribs.",
+        "A healthy curd has no off-odors; advanced bacterial rot often leads to a foul-smelling secondary soft rot."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Use certified disease-free seed and transplants.",
+      "Practice a 3-4 year crop rotation with non-brassica crops.",
+      "Ensure proper plant spacing to promote air circulation and rapid leaf drying.",
+      "Manage irrigation to avoid overhead watering and prolonged periods of leaf wetness.",
+      "Maintain good soil drainage and fertility."
+    ],
+    "biological": [],
+    "chemical": [],
+    "notes": "Management for a healthy plant focuses on preventative cultural practices that create optimal growing conditions and minimize disease pressure."
+  }
+}

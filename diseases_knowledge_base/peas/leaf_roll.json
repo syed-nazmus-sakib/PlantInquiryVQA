@@ -1,0 +1,124 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "peas.unknown.leaf_roll",
+  "aliases": [
+    "Pea leaf roll",
+    "Pea leaf rolling"
+  ],
+  "crop": {
+    "common_name": "Pea",
+    "scientific_name": "Pisum sativum",
+    "family": "Fabaceae"
+  },
+  "condition": {
+    "common_name": "Leaf Roll",
+    "scientific_name": null,
+    "alt_names": [],
+    "pathogen": {
+      "type": "unknown",
+      "taxonomy": {
+        "kingdom": "",
+        "phylum": "",
+        "class": "",
+        "order": "",
+        "family": "",
+        "genus": "",
+        "species": ""
+      }
+    }
+  },
+  "issue_type": "unknown",
+  "transmission": {
+    "vectors": [
+      "Aphids (primarily Pea aphid, Acyrthosiphon pisum)"
+    ],
+    "dispersal": [
+      "Insect movement between plants and fields"
+    ],
+    "overwintering": [
+      "In perennial legume hosts (e.g., alfalfa, clover)",
+      "In overwintering aphid vectors"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "High aphid populations early in the growing season",
+      "Proximity to infected perennial host plants",
+      "Mild winters that favor aphid survival",
+      "Warm, dry conditions that promote aphid reproduction and movement"
+    ],
+    "temp_c_day": [
+      15,
+      25
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "qualitative",
+    "mild": "A few scattered plants show slight upward or downward rolling of upper leaf margins. No significant stunting or yellowing is visible.",
+    "moderate": "Up to 30% of plants in a given area are affected. Leaf rolling is obvious, often accompanied by some yellowing and slight stunting.",
+    "severe": "More than 30% of plants are affected. Severe leaf rolling, prominent yellowing, and significant stunting are widespread. Pod development is visibly reduced.",
+    "notes": "Severity is based on the percentage of plants showing symptoms and the degree of stunting, as this best correlates with potential yield loss. Leaf roll is often caused by viruses, where impact is systemic."
+  },
+  "symptoms": {
+    "leaves": [
+      "Leaf margins roll upwards or downwards, often becoming thickened and leathery or brittle.",
+      "Symptoms typically appear on the youngest leaves first.",
+      "Affected leaves may turn pale green or yellow, sometimes with slight vein clearing.",
+      "The overall texture of affected leaves is stiff, not wilted."
+    ],
+    "stems": [
+      "Internodes are often shortened, leading to a compact, bushy appearance."
+    ],
+    "fruit": [
+      "Pods may be smaller, deformed, or fewer in number than on healthy plants.",
+      "Pod set can be significantly reduced in severely affected plants."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Overall plant growth is stunted, sometimes severely.",
+      "The plant may appear abnormally stiff and upright."
+    ],
+    "signs_microscopic_or_visible": []
+  },
+  "lookalikes": [
+    {
+      "condition_name": "Fusarium Wilt",
+      "condition_id": "peas.fungal.fusarium_wilt",
+      "key_differences": [
+        "Fusarium wilt symptoms (yellowing, wilting) start on lower leaves and progress upwards; leaf roll typically starts on upper leaves.",
+        "Wilted leaves in Fusarium are flaccid, while in viral leaf roll they are often stiff and brittle.",
+        "A key sign of Fusarium wilt is a reddish-brown discoloration inside the stem's vascular tissue near the soil line, which is absent in leaf roll.",
+        "Fusarium wilt causes a true wilt, whereas leaf roll plants are stunted but not typically wilted."
+      ]
+    },
+    {
+      "condition_name": "Downy Mildew",
+      "condition_id": "peas.oomycete.downy_mildew",
+      "key_differences": [
+        "Downy mildew is characterized by a fuzzy, purplish-grey mold on the underside of leaves, which is absent in leaf roll.",
+        "Downy mildew causes distinct, angular, yellow-to-brown lesions on the upper leaf surface.",
+        "Any leaf curling with downy mildew is secondary to the lesions, not the primary, systemic symptom.",
+        "Downy mildew is favored by cool, moist conditions, whereas the aphid vectors for viral leaf roll are often favored by warmer, drier weather."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Use certified virus-free seed to avoid introducing the pathogen.",
+      "Control aphid populations early in the season through monitoring and timely intervention.",
+      "Remove and destroy infected plants to reduce the source of the virus within the crop.",
+      "Manage nearby perennial legume weeds and host crops (e.g., alfalfa, clover) that can harbor the virus and aphids."
+    ],
+    "biological": [
+      "Promote natural enemies of aphids, such as lady beetles, lacewings, and parasitic wasps, by minimizing broad-spectrum insecticide use."
+    ],
+    "chemical": [
+      "Apply systemic or contact insecticides to control aphid vectors. Timing is critical and should target early aphid migration into the field.",
+      "Seed treatments with systemic insecticides can provide early-season protection against aphids."
+    ],
+    "notes": "Management is preventative and focuses on controlling the aphid vector, as there is no cure for an already-infected plant."
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "cauliflower.disease_bacterial.bacterial_spot_rot",
+  "aliases": [
+    "bacterial leaf spot of crucifers",
+    "bacterial spot"
+  ],
+  "crop": {
+    "common_name": "cauliflower",
+    "scientific_name": "Brassica oleracea var. botrytis",
+    "family": "Brassicaceae"
+  },
+  "condition": {
+    "common_name": "bacterial spot rot",
+    "scientific_name": "Pseudomonas syringae pv. maculicola",
+    "alt_names": [
+      "bacterial leaf spot"
+    ],
+    "pathogen": {
+      "type": "disease_bacterial",
+      "taxonomy": {
+        "kingdom": "Bacteria",
+        "phylum": "Pseudomonadota",
+        "class": "Gammaproteobacteria",
+        "order": "Pseudomonadales",
+        "family": "Pseudomonadaceae",
+        "genus": "Pseudomonas",
+        "species": "P. syringae"
+      }
+    }
+  },
+  "issue_type": "disease_bacterial",
+  "transmission": {
+    "vectors": [
+      "insects (e.g., flea beetles)",
+      "humans (via tools and equipment)"
+    ],
+    "dispersal": [
+      "rain splash",
+      "wind-driven rain",
+      "overhead irrigation water",
+      "infected seed"
+    ],
+    "overwintering": [
+      "infected crop debris",
+      "in soil",
+      "on seeds",
+      "on volunteer crucifer plants and weeds"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "cool, wet weather",
+      "prolonged periods of leaf wetness",
+      "high humidity",
+      "overhead irrigation",
+      "dense plant canopies with poor air circulation"
+    ],
+    "temp_c_day": [
+      12,
+      24
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      85,
+      100
+    ],
+    "leaf_wetness_hours_threshold": 12
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "1-5% of leaf surface affected with small, distinct spots. No curd symptoms.",
+    "moderate": "6-25% of leaf surface affected; some spots may be coalescing. Minor spotting on curd.",
+    "severe": ">25% of leaf surface affected, with large necrotic areas or defoliation. Significant curd rot present.",
+    "notes": "Severity is typically assessed on the most affected wrapper leaves. For marketability, any visible rot on the curd (head) may be considered severe."
+  },
+  "symptoms": {
+    "leaves": [
+      "Initial symptoms are small (1-3 mm), water-soaked, circular to angular spots.",
+      "Spots rapidly turn dark brown to black.",
+      "A narrow, chlorotic (yellow) halo may surround the dark spots.",
+      "Lesions can coalesce under wet conditions to form large, irregular necrotic patches.",
+      "The center of older spots may dry out and fall away, creating a 'shot-hole' effect.",
+      "Unlike black rot, lesions are not V-shaped and are not limited by major veins."
+    ],
+    "stems": [
+      "Stem infections are less common but can appear as dark, elongated lesions."
+    ],
+    "fruit": [
+      "On the curd (head), symptoms manifest as small, brown to black, sunken spots.",
+      "Spots on the curd can enlarge and merge, leading to a soft, watery rot.",
+      "Secondary pathogens often colonize the rotted curd, producing a foul odor."
+    ],
+    "roots": [
+      "Roots are not affected by this pathogen."
+    ],
+    "whole_plant": [
+      "In severe infections, lower wrapper leaves may yellow and drop prematurely.",
+      "The head may become unmarketable due to discoloration and rot."
+    ],
+    "signs_microscopic_or_visible": [
+      "Under a microscope, bacterial streaming can be observed from the edge of a cut lesion in a drop of water."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "black rot",
+      "condition_id": "cauliflower.disease_bacterial.black_rot",
+      "key_differences": [
+        "Black rot causes distinct V-shaped lesions that start at the leaf margin and point inward.",
+        "Veins within the black rot 'V' turn black, a key diagnostic feature absent in bacterial spot.",
+        "Bacterial spot lesions are circular/angular and scattered, not typically originating at the leaf edge."
+      ]
+    },
+    {
+      "condition_name": "downy mildew",
+      "condition_id": "cauliflower.disease_fungal.downy_mildew",
+      "key_differences": [
+        "Downy mildew produces a visible, fluffy, grayish-white fungal growth on the underside of leaves.",
+        "Upper leaf surface symptoms of downy mildew are often yellow, angular patches bounded by veins, not small black spots.",
+        "Bacterial spot lesions are initially water-soaked and turn black, never showing fuzzy fungal growth."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Plant certified disease-free seed and transplants.",
+      "Practice crop rotation with non-cruciferous crops for at least 2-3 years.",
+      "Promote good air circulation by using recommended plant spacing.",
+      "Avoid overhead irrigation to minimize leaf wetness; prefer drip irrigation.",
+      "Incorporate or remove crop debris promptly after harvest to reduce pathogen survival."
+    ],
+    "biological": [
+      "Some bio-fungicides containing *Bacillus subtilis* may provide partial suppression when applied preventatively."
+    ],
+    "chemical": [
+      "Preventative applications of copper-based bactericides can reduce infection but are not effective once symptoms are widespread.",
+      "Always consult local extension service recommendations for currently registered and effective products."
+    ],
+    "notes": "Management relies heavily on prevention, as chemical controls are often unsatisfactory once the disease is established in a field."
+  }
+}

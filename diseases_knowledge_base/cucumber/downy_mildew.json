@@ -1,0 +1,134 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "cucumber.disease_fungal.downy_mildew",
+  "aliases": [
+    "cucurbit downy mildew",
+    "false mildew"
+  ],
+  "crop": {
+    "common_name": "cucumber",
+    "scientific_name": "Cucumis sativus",
+    "family": "Cucurbitaceae"
+  },
+  "condition": {
+    "common_name": "downy mildew",
+    "scientific_name": "Pseudoperonospora cubensis",
+    "alt_names": [],
+    "pathogen": {
+      "type": "disease_oomycete",
+      "taxonomy": {
+        "kingdom": "Stramenopila",
+        "phylum": "Oomycota",
+        "class": "Oomycetes",
+        "order": "Peronosporales",
+        "family": "Peronosporaceae",
+        "genus": "Pseudoperonospora",
+        "species": "cubensis"
+      }
+    }
+  },
+  "issue_type": "disease_fungal",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [
+      "Windborne sporangia",
+      "Water splash"
+    ],
+    "overwintering": [
+      "On living plant material in frost-free regions",
+      "Does not typically survive in soil or on crop debris in cold climates"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "High relative humidity (>85%)",
+      "Prolonged leaf wetness (6+ hours)",
+      "Cool nights and warm, humid days",
+      "Dense plant canopies with poor air circulation"
+    ],
+    "temp_c_day": [
+      15,
+      25
+    ],
+    "temp_c_night": [
+      10,
+      20
+    ],
+    "relative_humidity_pct": [
+      85,
+      100
+    ],
+    "leaf_wetness_hours_threshold": 6
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "1-10% of leaf area shows distinct, angular, chlorotic lesions. Little to no necrosis.",
+    "moderate": "11-40% of leaf area affected. Lesions are coalescing, turning necrotic (tan/brown), and some upward leaf curling is visible.",
+    "severe": ">40% of leaf area is necrotic. Widespread defoliation is occurring, exposing fruit to sunscald.",
+    "notes": "Assessment should be based on the most affected leaves. The percentage includes both yellow (chlorotic) and brown (necrotic) areas caused by the disease."
+  },
+  "symptoms": {
+    "leaves": [
+      "Initial symptoms are pale green to yellow, angular spots on the upper leaf surface.",
+      "Lesions are sharply defined and bounded by leaf veins, creating a blocky or mosaic-like pattern.",
+      "As the disease progresses, lesions enlarge and turn bright yellow, then tan-brown and necrotic.",
+      "Affected leaves may curl upwards at the margins.",
+      "Severely infected leaves die but often remain attached to the vine."
+    ],
+    "stems": [
+      "Stems are typically not directly affected."
+    ],
+    "fruit": [
+      "Fruit may be undersized, misshapen, or have poor flavor due to reduced photosynthesis from defoliation.",
+      "Sunscald can occur on fruit exposed after premature defoliation."
+    ],
+    "roots": [
+      "Roots are not directly affected by the pathogen."
+    ],
+    "whole_plant": [
+      "Infection often starts on older, crown leaves and progresses outwards.",
+      "Severe infections can cause rapid and complete defoliation of the plant."
+    ],
+    "signs_microscopic_or_visible": [
+      "A key diagnostic sign is a purplish to grey, downy or fuzzy growth on the underside (abaxial surface) of the leaves, corresponding to the lesions above.",
+      "This fuzzy growth consists of sporangiophores and sporangia and is most visible in the early morning or during periods of high humidity."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "anthracnose",
+      "condition_id": "cucumber.disease_fungal.anthracnose",
+      "key_differences": [
+        "Anthracnose lesions are circular or sub-circular, not angular and vein-limited like downy mildew.",
+        "Anthracnose lesions often have a dark border and a lighter, sometimes sunken, center which may develop a 'shot-hole' appearance.",
+        "Anthracnose also causes distinct, circular, black, sunken cankers on the fruit, a symptom absent in downy mildew."
+      ]
+    },
+    {
+      "condition_name": "gummy_stem_blight",
+      "condition_id": "cucumber.disease_fungal.gummy_stem_blight",
+      "key_differences": [
+        "Gummy stem blight often causes large, V-shaped lesions extending from the leaf margin, not scattered angular spots.",
+        "A defining symptom of gummy stem blight is the presence of cankers on the stem that exude a characteristic amber-colored gummy substance.",
+        "Downy mildew does not produce symptoms on the stem."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Plant resistant or tolerant cucumber varieties.",
+      "Maximize air circulation by increasing plant spacing and using trellising.",
+      "Avoid overhead irrigation to minimize leaf wetness duration; use drip irrigation instead.",
+      "Scout plants regularly, especially the undersides of leaves, for early detection."
+    ],
+    "biological": [
+      "Biofungicides based on *Bacillus* species or neem oil may provide some preventative suppression but are generally less effective than chemical options during high disease pressure."
+    ],
+    "chemical": [
+      "Apply preventative fungicides when environmental conditions are favorable for disease development.",
+      "Ensure thorough spray coverage, especially on the undersides of leaves where the pathogen sporulates.",
+      "Rotate fungicides with different modes of action (FRAC groups) to manage the risk of resistance."
+    ],
+    "notes": "Downy mildew is an aggressive pathogen that can overcome host resistance and develop fungicide resistance rapidly. Timely and preventative management is critical."
+  }
+}

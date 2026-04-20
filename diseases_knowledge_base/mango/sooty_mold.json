@@ -1,0 +1,135 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "mango.disease_fungal.sooty_mold",
+  "aliases": [
+    "black mold",
+    "sooty blotch"
+  ],
+  "crop": {
+    "common_name": "mango",
+    "scientific_name": "Mangifera indica",
+    "family": "Anacardiaceae"
+  },
+  "condition": {
+    "common_name": "sooty mold",
+    "scientific_name": "Complex of various saprophytic fungi, e.g., Capnodium, Meliola, Leptoxyphium, Scorias spp.",
+    "alt_names": [
+      "black mold"
+    ],
+    "pathogen": {
+      "type": "fungus",
+      "taxonomy": {
+        "kingdom": "Fungi",
+        "phylum": "Ascomycota",
+        "class": "",
+        "order": "",
+        "family": "",
+        "genus": "",
+        "species": ""
+      }
+    }
+  },
+  "issue_type": "disease_fungal",
+  "transmission": {
+    "vectors": [
+      "scale insects",
+      "mealybugs",
+      "aphids",
+      "whiteflies"
+    ],
+    "dispersal": [
+      "wind",
+      "rain_splash"
+    ],
+    "overwintering": [
+      "Mycelium on host plant surfaces and in honeydew deposits",
+      "Overwintering stages of causal insects"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "High populations of honeydew-producing insects",
+      "High relative humidity",
+      "Poor air circulation within the plant canopy",
+      "Shaded or dense foliage"
+    ],
+    "temp_c_day": [],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      85,
+      100
+    ],
+    "leaf_wetness_hours_threshold": 12
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "< 10% of leaf, stem, or fruit surface is covered by a thin, patchy black coating.",
+    "moderate": "10-40% of surfaces are covered with a more continuous, but still relatively thin, layer of black mold.",
+    "severe": "> 40% of surfaces are covered with a thick, dense, black, often felty or crusty layer that may peel off.",
+    "notes": "Severity is based on the surface area covered by the superficial fungal growth. This is a secondary problem resulting from insect honeydew; the mold itself is not parasitic but blocks sunlight, reducing photosynthesis."
+  },
+  "symptoms": {
+    "leaves": [
+      "A superficial, black, soot-like coating on the upper leaf surface.",
+      "The black fungal layer can be easily rubbed or wiped off the leaf.",
+      "In severe cases, the coating becomes a thick, felty or crusty mat that can peel away.",
+      "Underlying leaf tissue may turn yellow (chlorosis) due to blockage of sunlight.",
+      "A clear, sticky substance (honeydew) is often present beneath or near the mold."
+    ],
+    "stems": [
+      "Black, sooty growth covers twigs and branches, especially where honeydew accumulates."
+    ],
+    "fruit": [
+      "Superficial black blemishes or patches on the fruit skin.",
+      "The mold does not cause fruit rot but significantly reduces marketability.",
+      "The black coating can typically be washed or wiped off the fruit."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Plant appears dirty, as if covered in a layer of black soot.",
+      "Reduced plant vigor in severe infestations due to impaired photosynthesis.",
+      "Associated with visible colonies of scale insects, mealybugs, or other sap-sucking insects."
+    ],
+    "signs_microscopic_or_visible": [
+      "Visible black mycelial threads forming a mat on plant surfaces.",
+      "Presence of the causal insects (e.g., scale insect shells, mealybug cottony masses) on leaves and stems."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "anthracnose",
+      "condition_id": "mango.disease_fungal.anthracnose",
+      "key_differences": [
+        "Sooty mold is a superficial black coating that can be rubbed off; anthracnose causes dark, sunken, necrotic lesions that are part of the plant tissue.",
+        "Sooty mold growth is diffuse and follows honeydew drips; anthracnose lesions are typically more defined, often with a distinct border.",
+        "Anthracnose can cause blossom blight and fruit rot, whereas sooty mold is only a surface blemish."
+      ]
+    },
+    {
+      "condition_name": "powdery_mildew",
+      "condition_id": "mango.disease_fungal.powdery_mildew",
+      "key_differences": [
+        "Sooty mold is black or very dark brown; powdery mildew is white to light gray.",
+        "Sooty mold is a secondary growth on honeydew; powdery mildew is a primary pathogen growing directly on plant tissue.",
+        "Powdery mildew often causes distortion, curling, and blistering of young leaves, which is not characteristic of sooty mold."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Control the primary infestation of honeydew-producing insects (e.g., scales, mealybugs, aphids).",
+      "Prune canopy to improve air circulation and sunlight penetration, creating less favorable conditions for mold growth.",
+      "Wash affected plant parts with a strong spray of water, sometimes with a mild soap or horticultural oil, to remove both insects and mold.",
+      "Maintain balanced plant nutrition to avoid promoting excessive, soft growth that attracts sucking insects."
+    ],
+    "biological": [
+      "Encourage or release natural predators and parasitoids of sap-sucking insects, such as lady beetles, lacewings, and parasitic wasps."
+    ],
+    "chemical": [
+      "Apply horticultural oils or insecticidal soaps to suffocate and control causal insects.",
+      "Use systemic or contact insecticides targeted at the specific sap-sucking insect present, following local guidelines.",
+      "Fungicides are generally not recommended or effective for sooty mold, as the problem is the insect-produced honeydew."
+    ],
+    "notes": "Management must target the root cause: the insects producing honeydew. Once the insects are controlled, the sooty mold will gradually weather away."
+  }
+}

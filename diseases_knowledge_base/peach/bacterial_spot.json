@@ -1,0 +1,123 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "peach.disease_bacterial.bacterial_spot",
+  "aliases": [
+    "bacterial shot hole",
+    "bacteriosis"
+  ],
+  "crop": {
+    "common_name": "Peach",
+    "scientific_name": "Prunus persica",
+    "family": "Rosaceae"
+  },
+  "condition": {
+    "common_name": "Bacterial Spot",
+    "scientific_name": "Xanthomonas arboricola pv. pruni",
+    "alt_names": [
+      "Bacterial shot hole"
+    ],
+    "pathogen": {
+      "type": "bacterium",
+      "taxonomy": {
+        "kingdom": "Bacteria",
+        "phylum": "Pseudomonadota",
+        "class": "Gammaproteobacteria",
+        "order": "Xanthomonadales",
+        "family": "Xanthomonadaceae",
+        "genus": "Xanthomonas",
+        "species": "X. arboricola"
+      }
+    }
+  },
+  "issue_type": "disease_bacterial",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [
+      "Wind-driven rain",
+      "Splashing water from irrigation",
+      "Contaminated pruning tools"
+    ],
+    "overwintering": [
+      "In infected twigs as cankers",
+      "Within dormant buds",
+      "On fallen leaves and other plant debris"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "High humidity",
+      "Frequent or prolonged rainfall",
+      "Warm temperatures",
+      "Windy conditions that create small wounds on leaves"
+    ],
+    "temp_c_day": [
+      20,
+      30
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      80,
+      100
+    ],
+    "leaf_wetness_hours_threshold": 6
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "< 5% of leaf area affected with spots. Minimal to no 'shot hole' effect or yellowing.",
+    "moderate": "5-25% of leaf area affected, with noticeable 'shot hole' symptoms and some leaf yellowing (chlorosis).",
+    "severe": "> 25% of leaf area affected, extensive 'shot hole' appearance, significant yellowing, and premature defoliation.",
+    "notes": "Severity on fruit can be assessed by lesion count or percent surface area affected. Defoliation is a key indicator of severe infection pressure."
+  },
+  "symptoms": {
+    "leaves": [
+      "Small, angular, water-soaked spots appear, primarily on the underside of leaves.",
+      "Lesions become purplish-black or dark brown, often with a slightly lighter center.",
+      "Spots are frequently delimited by leaf veins, resulting in an angular shape.",
+      "The necrotic center of a lesion dries and falls out, creating a characteristic 'shot hole' appearance.",
+      "Infected leaves turn yellow, starting from the tip and progressing downward, before dropping prematurely."
+    ],
+    "stems": [
+      "Dark, sunken, circular to elliptical cankers form on first-year twigs (spring cankers).",
+      "Black tip dieback can occur on severely infected new shoots.",
+      "Gummy sap (gummosis) may exude from twig cankers during wet periods."
+    ],
+    "fruit": [
+      "Small, circular, sunken, olive-green to dark brown spots develop on the fruit surface.",
+      "Fruit lesions are often concentrated on the windward side of the fruit.",
+      "Lesions may crack or pit as the fruit expands.",
+      "A gummy substance may ooze from fruit lesions."
+    ],
+    "roots": [],
+    "whole_plant": [],
+    "signs_microscopic_or_visible": []
+  },
+  "lookalikes": [
+    {
+      "condition_name": "Healthy",
+      "condition_id": "peach.healthy.healthy",
+      "key_differences": [
+        "Healthy leaves are uniformly green and fully intact, lacking any spots, holes, or yellowing.",
+        "Healthy fruit has smooth, unblemished skin without any sunken pits, cracks, or lesions.",
+        "Healthy stems and twigs have smooth bark without dark, sunken cankers or gummosis."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Plant resistant or tolerant peach varieties.",
+      "Prune trees to promote good air circulation and faster drying of foliage.",
+      "Remove and destroy infected twigs and cankers during dormant pruning.",
+      "Avoid overhead irrigation to minimize leaf wetness duration.",
+      "Maintain tree vigor with proper fertilization and watering, as stressed trees are more susceptible."
+    ],
+    "biological": [
+      "Some commercial products containing *Bacillus subtilis* or other beneficial microbes may offer limited suppression when applied preventatively."
+    ],
+    "chemical": [
+      "Apply fixed copper sprays during dormancy to reduce overwintering inoculum.",
+      "Use bactericides containing oxytetracycline or other approved compounds during the growing season, starting from shuck split.",
+      "Rotate chemical classes to prevent the development of bacterial resistance."
+    ],
+    "notes": "Chemical spray timing is critical and should be guided by weather forecasts, focusing on protecting foliage and fruit during warm, wet periods."
+  }
+}

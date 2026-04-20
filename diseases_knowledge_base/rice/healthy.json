@@ -1,0 +1,131 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "rice.healthy.healthy",
+  "aliases": [
+    "normal rice",
+    "unaffected rice",
+    "healthy plant"
+  ],
+  "crop": {
+    "common_name": "Rice",
+    "scientific_name": "Oryza sativa",
+    "family": "Poaceae"
+  },
+  "condition": {
+    "common_name": "Healthy",
+    "scientific_name": null,
+    "alt_names": [],
+    "pathogen": {
+      "type": "non-pathogenic",
+      "taxonomy": {
+        "kingdom": "",
+        "phylum": "",
+        "class": "",
+        "order": "",
+        "family": "",
+        "genus": "",
+        "species": ""
+      }
+    }
+  },
+  "issue_type": "healthy",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [],
+    "overwintering": []
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "Optimal growing conditions",
+      "Adequate water and nutrient supply",
+      "Absence of pathogen pressure",
+      "Good field sanitation"
+    ],
+    "temp_c_day": [
+      25,
+      32
+    ],
+    "temp_c_night": [
+      20,
+      25
+    ],
+    "relative_humidity_pct": [
+      70,
+      90
+    ],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "0% of leaf or plant area shows any symptoms of stress, discoloration, or damage.",
+    "moderate": "Not applicable for a healthy plant.",
+    "severe": "Not applicable for a healthy plant.",
+    "notes": "Severity for a healthy plant is defined as the absence of symptoms. Any presence of symptoms would change the diagnosis to a disorder or disease."
+  },
+  "symptoms": {
+    "leaves": [
+      "Leaves are uniformly green, varying from light to dark green depending on variety and nitrogen status.",
+      "Leaf blades are fully expanded, turgid, and typically erect or gently arching.",
+      "Absence of spots, lesions, streaks, or pustules.",
+      "Leaf margins and tips are intact and show no signs of necrosis or yellowing.",
+      "No signs of insect feeding, such as holes, skeletonization, or mines."
+    ],
+    "stems": [
+      "Stems (culms) are upright, strong, and have a healthy green or straw color.",
+      "Nodes and internodes are free of discoloration or lesions.",
+      "Sheaths are wrapped tightly around the culm and are free of spots or blight."
+    ],
+    "fruit": [
+      "Panicles (if present) are well-developed and drooping when grains are filled.",
+      "Grains (spikelets) are uniform in color and size, without spots, discoloration, or fungal growth."
+    ],
+    "roots": [
+      "Root system is well-developed, with numerous white or light-tan, healthy-looking roots."
+    ],
+    "whole_plant": [
+      "Plant exhibits vigorous, uniform growth according to its developmental stage.",
+      "Tillering is active and appropriate for the variety and planting density."
+    ],
+    "signs_microscopic_or_visible": []
+  },
+  "lookalikes": [
+    {
+      "condition_name": "bacterial_leaf_blight",
+      "condition_id": "rice.bacterial.bacterial_leaf_blight",
+      "key_differences": [
+        "Healthy leaves have uniform green color, while BLB shows wavy-edged, water-soaked, yellow-to-white lesions starting from leaf tips or margins.",
+        "Healthy plants lack bacterial ooze, which can be seen as milky or yellowish droplets on BLB lesions in the morning.",
+        "The overall plant vigor is high in healthy plants, whereas severe BLB can cause wilting and plant death ('kresek' phase)."
+      ]
+    },
+    {
+      "condition_name": "brown_spot",
+      "condition_id": "rice.fungal.brown_spot",
+      "key_differences": [
+        "Healthy leaves are completely free of spots.",
+        "Brown spot is characterized by distinct, small, oval-to-circular lesions with a grayish center and a dark brown margin.",
+        "Healthy grains are clean, whereas brown spot can infect grains, causing dark spots or discoloration ('pecky rice')."
+      ]
+    },
+    {
+      "condition_name": "leaf_scald",
+      "condition_id": "rice.fungal.leaf_scald",
+      "key_differences": [
+        "Healthy leaves have intact, green tips.",
+        "Leaf scald presents as large, oblong or lens-shaped lesions starting from the leaf tip or margin, with alternating zones of light tan and dark brown, creating a 'chevron' or 'V' pattern.",
+        "Healthy leaves lack the water-soaked appearance at the lesion edge that is characteristic of active leaf scald."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Use certified, disease-free seed of resistant varieties.",
+      "Maintain balanced soil fertility, especially appropriate nitrogen levels.",
+      "Ensure proper water management to avoid both drought and waterlogging stress.",
+      "Practice good field sanitation, including removal of weed hosts and crop residues."
+    ],
+    "biological": [],
+    "chemical": [],
+    "notes": "Management for 'healthy' involves proactive, preventative measures and maintaining optimal growing conditions to prevent the onset of diseases and disorders."
+  }
+}

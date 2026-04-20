@@ -1,0 +1,130 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "bitter.unknown.gourd_healthy",
+  "aliases": [
+    "healthy bitter gourd",
+    "normal bitter gourd",
+    "asymptomatic bitter gourd"
+  ],
+  "crop": {
+    "common_name": "bitter gourd",
+    "scientific_name": "Momordica charantia",
+    "family": "Cucurbitaceae"
+  },
+  "condition": {
+    "common_name": "healthy",
+    "scientific_name": null,
+    "alt_names": [
+      "asymptomatic",
+      "normal"
+    ],
+    "pathogen": {
+      "type": "abiotic",
+      "taxonomy": {
+        "kingdom": "",
+        "phylum": "",
+        "class": "",
+        "order": "",
+        "family": "",
+        "genus": "",
+        "species": ""
+      }
+    }
+  },
+  "issue_type": "unknown",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [],
+    "overwintering": []
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "Optimal growing conditions",
+      "Absence of pathogen pressure",
+      "Proper nutrition and irrigation"
+    ],
+    "temp_c_day": [
+      25,
+      32
+    ],
+    "temp_c_night": [
+      18,
+      22
+    ],
+    "relative_humidity_pct": [
+      60,
+      75
+    ],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "qualitative",
+    "mild": "Plant is fully asymptomatic. No visible lesions, discoloration, or malformation on any plant part.",
+    "moderate": "N/A",
+    "severe": "N/A",
+    "notes": "This rubric confirms the absence of disease. Any visible symptoms would classify the plant as unhealthy and require a different diagnosis."
+  },
+  "symptoms": {
+    "leaves": [
+      "Uniformly green color, from light to dark green depending on variety and age.",
+      "Leaves are deeply lobed, typically with 5-7 lobes.",
+      "Leaf surfaces are free of spots, lesions, yellowing (chlorosis), or powdery growth.",
+      "Leaf blades are turgid and well-expanded.",
+      "Petioles are firm and green without cankers."
+    ],
+    "stems": [
+      "Stems are green, slender, and exhibit vigorous vining.",
+      "No cankers, lesions, or discoloration present.",
+      "Tendrils are green and functional."
+    ],
+    "fruit": [
+      "Fruit shape is characteristic of the variety, typically oblong or ovoid.",
+      "Skin is warty or bumpy with a uniform green color (may turn yellow/orange when fully ripe).",
+      "No sunken spots, soft rots, or oozing substances."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Vigorous and upright or vining growth habit.",
+      "No stunting, wilting, or general decline."
+    ],
+    "signs_microscopic_or_visible": [
+      "No visible fungal growth (mycelium, spores), bacterial ooze, or other pathogen signs."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "gourd anthracnose",
+      "condition_id": "bitter.fungal.gourd_anthracnose",
+      "key_differences": [
+        "Healthy leaves are uniformly green, while anthracnose causes water-soaked, circular, dark-brown to black spots, often with a yellow halo.",
+        "Healthy fruit has firm, unblemished skin, whereas anthracnose causes circular, sunken, black cankers on the fruit, which may ooze pinkish spore masses.",
+        "Healthy stems are clean and green; anthracnose can cause elongated, dark lesions on stems."
+      ]
+    },
+    {
+      "condition_name": "gourd downy mildew",
+      "condition_id": "bitter.oomycete.gourd_downy_mildew",
+      "key_differences": [
+        "Healthy leaves have a uniform green upper surface, whereas downy mildew causes angular, yellow to brownish spots on the upper leaf surface, bounded by leaf veins.",
+        "The underside of a healthy leaf is clean, while downy mildew produces a purplish-gray, fuzzy or 'downy' growth on the underside of leaf spots, especially in humid conditions.",
+        "Healthy leaves remain turgid, while leaves with severe downy mildew may become necrotic, curl, and die."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Use certified disease-free seeds or transplants.",
+      "Ensure proper plant spacing to promote good air circulation.",
+      "Practice crop rotation with non-cucurbit crops.",
+      "Use drip irrigation or avoid overhead watering to minimize leaf wetness.",
+      "Maintain balanced soil fertility based on soil testing."
+    ],
+    "biological": [
+      "Promote beneficial soil microbes through the application of compost and organic matter."
+    ],
+    "chemical": [
+      "Not applicable for a healthy plant. Management focuses on preventative cultural practices."
+    ],
+    "notes": "Management practices for a healthy plant are preventative, aiming to maintain vigor and avoid conditions favorable for disease development."
+  }
+}

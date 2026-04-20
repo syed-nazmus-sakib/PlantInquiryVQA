@@ -1,0 +1,124 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "jackfruit.healthy.healthy",
+  "aliases": [
+    "normal jackfruit",
+    "asymptomatic jackfruit",
+    "unaffected jackfruit"
+  ],
+  "crop": {
+    "common_name": "jackfruit",
+    "scientific_name": "Artocarpus heterophyllus",
+    "family": "Moraceae"
+  },
+  "condition": {
+    "common_name": "healthy",
+    "scientific_name": null,
+    "alt_names": [
+      "asymptomatic",
+      "normal"
+    ],
+    "pathogen": {
+      "type": "none",
+      "taxonomy": {
+        "kingdom": "",
+        "phylum": "",
+        "class": "",
+        "order": "",
+        "family": "",
+        "genus": "",
+        "species": ""
+      }
+    }
+  },
+  "issue_type": "healthy",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [],
+    "overwintering": []
+  },
+  "environmental_risk": {
+    "risk_factors": [],
+    "temp_c_day": [],
+    "temp_c_night": [],
+    "relative_humidity_pct": [],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "qualitative",
+    "mild": "Plant shows no signs of disease or stress. Leaves are uniformly colored, fully expanded, and free of spots or malformations.",
+    "moderate": "Not applicable for a healthy state.",
+    "severe": "Not applicable for a healthy state.",
+    "notes": "This is a binary assessment; the plant is either healthy (meeting the 'mild' description) or it is not. Any visible symptom would classify it as having a condition other than 'healthy'."
+  },
+  "symptoms": {
+    "leaves": [
+      "Uniformly green color, typically a deep, glossy green on the upper surface.",
+      "Smooth, entire (un-toothed) leaf margins.",
+      "Absence of spots, lesions, discoloration, or pustules.",
+      "No yellowing (chlorosis) or browning (necrosis).",
+      "Normal size and shape for the cultivar; typically oblong or ovate.",
+      "No curling, distortion, or stunting.",
+      "Surface is clean, without any powdery, sooty, or sticky coatings."
+    ],
+    "stems": [
+      "Stems and branches are firm, with intact, typically grayish-brown bark.",
+      "No cankers, galls, cracks, or oozing substances."
+    ],
+    "fruit": [
+      "Skin is uniformly colored according to maturity (green when young, yellowish-green to brown when ripe).",
+      "Exterior is free from sunken lesions, soft spots, mold, or unusual blemishes.",
+      "Fruit is firm and develops to a normal size and shape."
+    ],
+    "roots": [
+      "Not typically visible in standard images."
+    ],
+    "whole_plant": [
+      "Exhibits vigorous growth with a dense, full canopy.",
+      "No widespread wilting, dieback, or stunting."
+    ],
+    "signs_microscopic_or_visible": [
+      "Absence of any visible pathogen structures such as fungal mycelium, spores, fruiting bodies, or bacterial ooze."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "Algal Leaf Spot",
+      "condition_id": "jackfruit.fungal.algal_leaf_spot",
+      "key_differences": [
+        "Healthy leaves have a smooth, uniform surface, whereas algal leaf spot creates raised, velvety, greenish-gray to orange spots.",
+        "Healthy leaves lack the distinct, roughly circular lesions characteristic of this condition.",
+        "There are no yellow halos on healthy leaves, which can sometimes border algal spots."
+      ]
+    },
+    {
+      "condition_name": "Sooty Mold",
+      "condition_id": "jackfruit.fungal.sooty_mold",
+      "key_differences": [
+        "Healthy leaves have a clean, glossy surface, not a superficial, black, soot-like coating that can be wiped off.",
+        "The surface of healthy leaves and stems is not sticky with honeydew, which is the substrate for sooty mold growth.",
+        "Healthy plants do not have associated infestations of sap-sucking insects (like aphids or scale) that produce honeydew."
+      ]
+    },
+    {
+      "condition_name": "Anthracnose",
+      "condition_id": "jackfruit.fungal.anthracnose",
+      "key_differences": [
+        "Healthy leaves are free of the irregular, dark brown to black, necrotic spots or blotches caused by anthracnose.",
+        "Healthy fruit does not have the characteristic dark, sunken, circular lesions that may develop pinkish spore masses in the center.",
+        "Healthy young twigs and shoots show no signs of dieback, which is a common symptom of severe anthracnose."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Provide adequate spacing between plants to ensure good air circulation.",
+      "Practice balanced fertilization and proper irrigation to maintain plant vigor.",
+      "Prune to remove dead or weak branches and improve light penetration.",
+      "Ensure good field sanitation by removing and destroying fallen leaves and fruit."
+    ],
+    "biological": [],
+    "chemical": [],
+    "notes": "Management for a healthy plant is preventative, focusing on cultural practices that create an environment unfavorable for pathogen development and promote overall plant health."
+  }
+}

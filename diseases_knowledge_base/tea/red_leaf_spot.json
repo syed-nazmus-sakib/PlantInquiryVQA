@@ -1,0 +1,138 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "tea.disease_fungal.red_leaf_spot",
+  "aliases": [
+    "Cercospora leaf spot",
+    "bird's eye spot"
+  ],
+  "crop": {
+    "common_name": "tea",
+    "scientific_name": "Camellia sinensis",
+    "family": "Theaceae"
+  },
+  "condition": {
+    "common_name": "red leaf spot",
+    "scientific_name": "Cercospora theae",
+    "alt_names": [
+      "bird's eye spot of tea"
+    ],
+    "pathogen": {
+      "type": "disease_fungal",
+      "taxonomy": {
+        "kingdom": "Fungi",
+        "phylum": "Ascomycota",
+        "class": "Dothideomycetes",
+        "order": "Capnodiales",
+        "family": "Mycosphaerellaceae",
+        "genus": "Cercospora",
+        "species": "theae"
+      }
+    }
+  },
+  "issue_type": "disease_fungal",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [
+      "wind-borne spores",
+      "rain splash"
+    ],
+    "overwintering": [
+      "infected leaves (attached or fallen)",
+      "plant debris on the ground"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "prolonged leaf wetness from rain, dew, or overhead irrigation",
+      "high relative humidity (>85%)",
+      "warm temperatures",
+      "poor air circulation within the plant canopy",
+      "presence of infected plant debris"
+    ],
+    "temp_c_day": [
+      20,
+      30
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      85,
+      100
+    ],
+    "leaf_wetness_hours_threshold": 8
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "1-5% of leaf area affected. A few, small, scattered lesions are visible on a representative leaf.",
+    "moderate": "6-25% of leaf area affected. Multiple lesions are present, and some may be starting to merge.",
+    "severe": ">25% of leaf area affected. Lesions are numerous, cover a large portion of the leaf, and may lead to yellowing or premature leaf drop.",
+    "notes": "Severity is visually estimated as the percentage of the total surface area of a single, representative, mature leaf that is covered by spots. This is a practical method for assessing foliar disease intensity in images."
+  },
+  "symptoms": {
+    "leaves": [
+      "Affects primarily mature and older leaves, less common on young flush.",
+      "Begins as small, circular, water-soaked spots.",
+      "Develops into distinct, circular lesions, typically 2-5 mm in diameter.",
+      "Lesions have a characteristic reddish-brown to dark brown color.",
+      "A distinct, dark, slightly raised border often surrounds the lesion.",
+      "The center of mature lesions frequently becomes pale gray or white, creating a 'bird's eye' or 'frog-eye' appearance.",
+      "Lesions are generally flat or slightly sunken into the leaf tissue.",
+      "Under severe infection, numerous spots can coalesce, forming larger necrotic blotches.",
+      "Heavily infected leaves may turn yellow (chlorosis) and fall off prematurely."
+    ],
+    "stems": [],
+    "fruit": [],
+    "roots": [],
+    "whole_plant": [
+      "Reduced photosynthetic area due to lesions and defoliation.",
+      "Overall loss of plant vigor and potential reduction in tea yield and quality."
+    ],
+    "signs_microscopic_or_visible": [
+      "Under magnification and high humidity, tiny dark tufts of conidiophores may be visible in the center of lesions."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "algal leaf spot",
+      "condition_id": "tea.disease_other.algal_leaf_spot",
+      "key_differences": [
+        "Texture: Algal spots are raised and have a crusty or velvety texture, whereas red leaf spots are flat or slightly sunken.",
+        "Color: Algal spots are typically grayish-green, sometimes turning orange-red, not the distinct reddish-brown of red leaf spot.",
+        "Margin: Algal spots often have indistinct, feathery margins, unlike the well-defined border of red leaf spot."
+      ]
+    },
+    {
+      "condition_name": "gray blight",
+      "condition_id": "tea.disease_fungal.gray_blight",
+      "key_differences": [
+        "Size & Location: Gray blight lesions are much larger (often >1 cm) and frequently start at the leaf tip or margin, not as small, scattered circles.",
+        "Appearance: Gray blight lesions are grayish-brown and classically exhibit distinct concentric rings, giving them a target-like appearance.",
+        "Signs: Tiny black dots (acervuli) are often visible arranged in the concentric rings of gray blight lesions."
+      ]
+    },
+    {
+      "condition_name": "helopeltis_damage",
+      "condition_id": "tea.pest_insect.helopeltis_damage",
+      "key_differences": [
+        "Shape: Damage spots from Helopeltis (tea mosquito bug) are typically irregular, angular, or blotchy, not consistently circular.",
+        "Color: Helopeltis feeding marks are dark brown to black and sunken, lacking the reddish hue and pale center of red leaf spot.",
+        "Pattern: Damage is often clustered where the insect has fed and may be accompanied by distorted or stunted new growth."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Prune bushes to improve air circulation and promote faster drying of leaves.",
+      "Remove and destroy fallen infected leaves and prunings to reduce inoculum sources.",
+      "Maintain balanced plant nutrition to improve plant vigor and resistance.",
+      "Avoid overhead irrigation where possible to minimize periods of leaf wetness."
+    ],
+    "biological": [
+      "Applications of bio-control agents like *Trichoderma* spp. may help suppress the pathogen population in the soil and on plant surfaces."
+    ],
+    "chemical": [
+      "Apply protective copper-based fungicides (e.g., copper oxychloride, Bordeaux mixture) before the onset of rainy seasons.",
+      "Systemic fungicides (e.g., hexaconazole, propiconazole) can be used for curative action, following local regulations and pre-harvest intervals."
+    ],
+    "notes": "Integrated disease management combining cultural practices with need-based chemical applications is most effective. Always consult local agricultural extension services for recommended products and timing."
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "tea.pest_insect.helopeltis_damage",
+  "aliases": [
+    "Tea mosquito bug damage",
+    "Helopeltis"
+  ],
+  "crop": {
+    "common_name": "Tea",
+    "scientific_name": "Camellia sinensis",
+    "family": "Theaceae"
+  },
+  "condition": {
+    "common_name": "Helopeltis Damage",
+    "scientific_name": "Helopeltis spp.",
+    "alt_names": [
+      "Tea mosquito bug",
+      "Mirid bug damage"
+    ],
+    "pathogen": {
+      "type": "Insect",
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Arthropoda",
+        "class": "Insecta",
+        "order": "Hemiptera",
+        "family": "Miridae",
+        "genus": "Helopeltis",
+        "species": ""
+      }
+    }
+  },
+  "issue_type": "pest_insect",
+  "transmission": {
+    "vectors": [
+      "Adult and nymph Helopeltis bugs"
+    ],
+    "dispersal": [
+      "Active flight of adult bugs",
+      "Crawling of nymphs between leaves and shoots"
+    ],
+    "overwintering": [
+      "Eggs laid within plant tissues (stems, petioles)",
+      "Adults surviving on alternate host plants"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "High relative humidity (>70%)",
+      "Overcast, cloudy weather",
+      "Presence of alternate weed hosts (e.g., Mikania micrantha)",
+      "Lush, succulent new growth from excessive nitrogen fertilizer"
+    ],
+    "temp_c_day": [
+      20,
+      30
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      70,
+      95
+    ],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "lesion_count",
+    "mild": "1-5 distinct feeding punctures per young leaf or shoot.",
+    "moderate": "6-15 coalescing lesions per young leaf or shoot, causing some leaf curling or distortion.",
+    "severe": ">15 lesions per young leaf or shoot, causing significant distortion, blackening, and dieback of the shoot ('bunchy top').",
+    "notes": "Severity is assessed on the tender, new flush (e.g., 'two leaves and a bud') as this is the primary target. Damage on older, hardened leaves is historical and not indicative of a current, active infestation."
+  },
+  "symptoms": {
+    "leaves": [
+      "Initially, small, circular, water-soaked, translucent spots on young, tender leaves.",
+      "Spots rapidly turn dark brown to black, becoming necrotic and sunken.",
+      "Multiple feeding punctures can coalesce to form larger, irregular black patches.",
+      "Affected young leaves become severely crinkled, distorted, and stunted in growth.",
+      "In severe attacks, young leaves curl, blacken completely, and die."
+    ],
+    "stems": [
+      "Similar dark, necrotic, sunken lesions appear on young, green stems and petioles.",
+      "Feeding on the terminal bud or young stem causes the shoot tip to wilt and die back.",
+      "Severe dieback of the main shoot can lead to a 'bunchy top' appearance as lateral buds attempt to grow."
+    ],
+    "fruit": [],
+    "roots": [],
+    "whole_plant": [
+      "Damage is concentrated on the new, harvestable flush.",
+      "A heavily infested bush appears scorched or burnt on its top canopy."
+    ],
+    "signs_microscopic_or_visible": [
+      "Slender, reddish-brown or black adult bugs with long legs and antennae, often found on the underside of leaves.",
+      "Greenish or yellowish nymphs, similar in shape to adults but smaller and wingless."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "Looper Damage",
+      "condition_id": "tea.pest_insect.looper_damage",
+      "key_differences": [
+        "Looper damage consists of chewed leaf margins or holes with missing tissue, whereas Helopeltis damage is necrotic, sunken punctures with no tissue removed.",
+        "Helopeltis lesions are initially water-soaked and turn black; looper damage is simply an absence of leaf area.",
+        "Looper caterpillars or their frass (droppings) may be visible; Helopeltis bugs are slender and mosquito-like."
+      ]
+    },
+    {
+      "condition_name": "Leaf Blight",
+      "condition_id": "tea.fungal.leaf_blight",
+      "key_differences": [
+        "Blight lesions are typically larger, more diffuse, and may have faint concentric rings or a 'target' appearance, unlike the discrete punctures of Helopeltis.",
+        "Helopeltis damage is almost exclusively on tender new growth, while fungal blights can often affect leaves of various ages.",
+        "Blight lesions are generally not sunken in the same way as Helopeltis feeding punctures.",
+        "Fungal blight may show signs like pycnidia (small black dots) within the lesion, which are absent in pest damage."
+      ]
+    },
+    {
+      "condition_name": "Spider Mites",
+      "condition_id": "tea.pest_mite.spider_mites",
+      "key_differences": [
+        "Spider mite damage appears as fine, yellowish-white stippling or a general bronzing of the leaf surface, not discrete black spots.",
+        "Helopeltis causes distinct, sunken, necrotic lesions from its toxic saliva during feeding.",
+        "Fine webbing is often present on the underside of leaves with spider mites, which is absent with Helopeltis."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Regular pruning to regulate shade and improve air circulation, making the environment less favorable for the pest.",
+      "Control of alternate weed hosts (e.g., Mikania, Acalypha) in and around the plantation.",
+      "Avoid excessive nitrogen application, which promotes the succulent growth preferred by the pest.",
+      "Maintain field sanitation to reduce pest carryover."
+    ],
+    "biological": [
+      "Conservation and encouragement of natural enemies like reduviid bugs, praying mantises, and spiders.",
+      "Application of entomopathogenic fungi such as Beauveria bassiana during periods of high humidity."
+    ],
+    "chemical": [
+      "Foliar application of approved insecticides, focusing on the new flush during peak pest activity (early morning or late afternoon).",
+      "Use of both contact and systemic insecticides based on infestation levels and local agricultural recommendations."
+    ],
+    "notes": "An Integrated Pest Management (IPM) approach is critical. Regular monitoring of pest populations to determine economic thresholds for spraying helps preserve natural enemies and reduce chemical costs."
+  }
+}

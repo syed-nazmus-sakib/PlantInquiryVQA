@@ -1,0 +1,137 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "tomato.pest_mite.spider_mites",
+  "aliases": [
+    "Two-spotted spider mite",
+    "TSSM",
+    "Red spider mite"
+  ],
+  "crop": {
+    "common_name": "tomato",
+    "scientific_name": "Solanum lycopersicum",
+    "family": "Solanaceae"
+  },
+  "condition": {
+    "common_name": "Spider Mites",
+    "scientific_name": "Tetranychus urticae",
+    "alt_names": [],
+    "pathogen": {
+      "type": "pest_mite",
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Arthropoda",
+        "class": "Arachnida",
+        "order": "Trombidiformes",
+        "family": "Tetranychidae",
+        "genus": "Tetranychus",
+        "species": "urticae"
+      }
+    }
+  },
+  "issue_type": "pest_mite",
+  "transmission": {
+    "vectors": [
+      "Wind",
+      "Humans (on clothing/tools)",
+      "Infected transplants"
+    ],
+    "dispersal": [
+      "Mites walk between plants with touching foliage",
+      "Carried on wind currents",
+      "Mechanical transfer via equipment and workers"
+    ],
+    "overwintering": [
+      "Adult females overwinter in plant debris, soil, weeds, or greenhouse structures"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "Hot, dry, and dusty conditions",
+      "Low relative humidity",
+      "Water-stressed plants",
+      "Over-application of broad-spectrum insecticides that kill natural predators"
+    ],
+    "temp_c_day": [
+      27,
+      35
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      0,
+      50
+    ],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "1-10% of leaf area shows stippling. Webbing is minimal or absent. Mites are difficult to see without a hand lens.",
+    "moderate": "11-40% of leaf area shows stippling and some yellowing (chlorosis). Fine webbing is visible on leaf undersides and between petioles.",
+    "severe": ">40% of leaf area is yellow, bronze, or necrotic. Extensive, dense webbing covers leaves, stems, and growing points. Mites are clearly visible as moving specks.",
+    "notes": "Severity is based on the visual leaf damage (stippling, chlorosis) and the extent of webbing, which are proxies for mite population density."
+  },
+  "symptoms": {
+    "leaves": [
+      "Fine, pale yellow or white stippling (tiny dots) on the upper leaf surface.",
+      "Leaves may appear dusty or dirty, particularly on the underside.",
+      "With increasing damage, stippled areas coalesce, causing leaves to turn yellow, then bronze.",
+      "Affected leaves become dry, brittle, and may fall off prematurely.",
+      "Fine, silk-like webbing is visible on the underside of leaves and along petioles.",
+      "In severe cases, leaf margins may curl downwards."
+    ],
+    "stems": [
+      "Webbing can cover stems and growing points in heavy infestations."
+    ],
+    "fruit": [
+      "Direct feeding on fruit is uncommon but can cause small, whitish or yellowish surface spots (stippling).",
+      "Fruit may be covered in webbing and dust in severe cases."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Reduced plant vigor and stunted growth.",
+      "Severe infestations can lead to significant defoliation and plant death."
+    ],
+    "signs_microscopic_or_visible": [
+      "Tiny, moving specks (mites) are visible on the underside of leaves, often requiring a hand lens.",
+      "Small, spherical eggs are present on the underside of leaves, often entangled in webbing.",
+      "Cast skins of mites may be visible within the webbing."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "Flea Beetle Injury",
+      "condition_id": "tomato.pest_damage.flea_beetle_injury",
+      "key_differences": [
+        "Flea beetle damage consists of small, round 'shot holes' that penetrate the leaf, not surface stippling.",
+        "No webbing is ever present with flea beetle injury.",
+        "The pest is a small, black, jumping beetle, not a tiny mite.",
+        "Damage is often concentrated on younger leaves of new transplants."
+      ]
+    },
+    {
+      "condition_name": "Leaf Miner",
+      "condition_id": "tomato.pest_damage.leaf_miner",
+      "key_differences": [
+        "Leaf miner damage appears as winding, white or pale trails (tunnels or 'mines') within the leaf tissue.",
+        "Spider mite damage is a collection of tiny dots (stippling) on the leaf surface, not internal tunnels.",
+        "No webbing is associated with leaf miners."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Maintain adequate plant irrigation to avoid water stress, which makes plants more susceptible.",
+      "Use overhead watering or misting to periodically raise humidity and wash off mites.",
+      "Remove and destroy heavily infested plants or leaves to reduce population.",
+      "Control host weeds (e.g., nightshades, pigweed) in and around the growing area."
+    ],
+    "biological": [
+      "Introduce or encourage predatory mites (e.g., Phytoseiulus persimilis, Neoseiulus californicus).",
+      "Conserve generalist predators like minute pirate bugs, lacewings, and lady beetles by avoiding broad-spectrum insecticides."
+    ],
+    "chemical": [
+      "Apply horticultural oils or insecticidal soaps, ensuring thorough coverage of leaf undersides where mites reside.",
+      "Use selective miticides (acaricides) for heavy infestations, rotating chemical classes to prevent resistance."
+    ],
+    "notes": "Early detection is critical. Scout for stippling on lower leaves first. Chemical controls can harm natural enemies, so use them as a last resort."
+  }
+}

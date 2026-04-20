@@ -1,0 +1,147 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "tea.disease_fungal.leaf_blight",
+  "aliases": [
+    "tea anthracnose",
+    "bird's eye spot of tea",
+    "target spot of tea"
+  ],
+  "crop": {
+    "common_name": "tea",
+    "scientific_name": "Camellia sinensis",
+    "family": "Theaceae"
+  },
+  "condition": {
+    "common_name": "leaf blight",
+    "scientific_name": "Colletotrichum gloeosporioides (teleomorph: Glomerella cingulata)",
+    "alt_names": [
+      "Pestalotiopsis theae"
+    ],
+    "pathogen": {
+      "type": "disease_fungal",
+      "taxonomy": {
+        "kingdom": "Fungi",
+        "phylum": "Ascomycota",
+        "class": "Sordariomycetes",
+        "order": "Glomerellales",
+        "family": "Glomerellaceae",
+        "genus": "Colletotrichum",
+        "species": "gloeosporioides"
+      }
+    }
+  },
+  "issue_type": "disease_fungal",
+  "transmission": {
+    "vectors": [
+      "rain splash",
+      "wind",
+      "insects (mechanical)"
+    ],
+    "dispersal": [
+      "conidia (asexual spores)",
+      "contaminated pruning tools",
+      "human movement"
+    ],
+    "overwintering": [
+      "infected fallen leaves",
+      "cankers on stems",
+      "dormant mycelium in plant debris"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "prolonged periods of high humidity",
+      "frequent rainfall",
+      "poor air circulation in dense canopies",
+      "wounds from pruning or pests",
+      "nutrient stress"
+    ],
+    "temp_c_day": [
+      20,
+      30
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      85,
+      100
+    ],
+    "leaf_wetness_hours_threshold": 8
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "Fewer than 5 lesions per leaf, or < 5% of the total leaf area is symptomatic.",
+    "moderate": "Multiple lesions, some may be coalescing, covering 5-25% of the total leaf area.",
+    "severe": "Large, coalesced lesions covering > 25% of the leaf area, often leading to leaf distortion, withering, and premature defoliation.",
+    "notes": "Severity is estimated based on the percentage of symptomatic tissue on visible leaves in an image. It can be assessed on an individual leaf or averaged across the plant canopy."
+  },
+  "symptoms": {
+    "leaves": [
+      "Initial symptoms are small, water-soaked, yellowish-brown spots, often on mature leaves.",
+      "Spots enlarge to form circular or irregular lesions, typically 2-10 mm in diameter.",
+      "Mature lesions develop a characteristic pale gray, tan, or whitish center.",
+      "A distinct, raised, dark brown or purplish-brown border surrounds the pale center.",
+      "Concentric rings are often visible within the lesion, creating a 'target' or 'bull's-eye' appearance.",
+      "Multiple lesions can merge (coalesce) to form large, irregular blighted patches.",
+      "In severe infections, the entire leaf may turn brown, curl, and drop prematurely.",
+      "Lesions may crack or fall out, creating a 'shot-hole' effect."
+    ],
+    "stems": [
+      "In severe cases, cankers or dieback can occur on young shoots and twigs."
+    ],
+    "fruit": [],
+    "roots": [],
+    "whole_plant": [
+      "Reduced vigor and defoliation in heavily infected bushes.",
+      "Overall thinning of the plant canopy."
+    ],
+    "signs_microscopic_or_visible": [
+      "Under humid conditions, tiny black dots (acervuli, the fungal fruiting bodies) may appear arranged in concentric rings within the pale center of lesions.",
+      "During wet periods, pinkish or salmon-colored spore masses may ooze from the acervuli."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "gray_blight",
+      "condition_id": "tea.disease_fungal.gray_blight",
+      "key_differences": [
+        "Gray blight lesions are often larger, more uniformly gray or brownish, and may lack the distinct, dark, raised border of leaf blight.",
+        "Gray blight lesions typically have a more 'sooty' appearance due to numerous black pycnidia scattered across the surface, rather than arranged in rings.",
+        "The 'target' or 'bull's-eye' pattern is much more characteristic of leaf blight than gray blight."
+      ]
+    },
+    {
+      "condition_name": "helopeltis_damage",
+      "condition_id": "tea.pest_insect.helopeltis_damage",
+      "key_differences": [
+        "Helopeltis damage results from insect feeding punctures, creating initially water-soaked spots that quickly turn dark brown or black and become sunken.",
+        "Lesions from Helopeltis are often more angular and do not typically develop pale centers or concentric rings.",
+        "No fungal signs (like acervuli or spore masses) are present in Helopeltis lesions."
+      ]
+    },
+    {
+      "condition_name": "algal_leaf_spot",
+      "condition_id": "tea.disease_algal.algal_leaf_spot",
+      "key_differences": [
+        "Algal spots are superficial and slightly raised from the leaf surface with a velvety or crusty texture.",
+        "Algal spots are typically greenish-gray to orange-red in color, not the tan/gray center with a dark border typical of leaf blight.",
+        "Leaf blight lesions are necrotic and sunken into the leaf tissue, whereas algal spots grow on the surface."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Prune and remove infected leaves and twigs to reduce inoculum.",
+      "Ensure proper plant spacing and canopy management to improve air circulation and reduce humidity.",
+      "Avoid overhead irrigation to minimize leaf wetness duration.",
+      "Maintain balanced plant nutrition to improve host resistance."
+    ],
+    "biological": [
+      "Application of biocontrol agents such as *Trichoderma* spp. or *Bacillus subtilis* can help suppress the pathogen."
+    ],
+    "chemical": [
+      "Apply protective fungicides, such as copper-based compounds, mancozeb, or chlorothalonil, especially during periods favorable for disease development.",
+      "Systemic fungicides like carbendazim or thiophanate-methyl may be used for curative action, subject to local regulations and resistance management."
+    ],
+    "notes": "An integrated pest management (IPM) approach combining cultural, biological, and chemical methods is most effective. Fungicide application should be timed based on weather forecasts and disease pressure."
+  }
+}

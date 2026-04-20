@@ -1,0 +1,131 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "jackfruit.disease_fungal.anthracnose",
+  "aliases": [
+    "jackfruit dieback",
+    "twig blight",
+    "blossom blight"
+  ],
+  "crop": {
+    "common_name": "jackfruit",
+    "scientific_name": "Artocarpus heterophyllus",
+    "family": "Moraceae"
+  },
+  "condition": {
+    "common_name": "anthracnose",
+    "scientific_name": "Colletotrichum gloeosporioides",
+    "alt_names": [
+      "dieback",
+      "fruit rot",
+      "leaf spot"
+    ],
+    "pathogen": {
+      "type": "disease_fungal",
+      "taxonomy": {
+        "kingdom": "Fungi",
+        "phylum": "Ascomycota",
+        "class": "Sordariomycetes",
+        "order": "Glomerellales",
+        "family": "Glomerellaceae",
+        "genus": "Colletotrichum",
+        "species": "gloeosporioides"
+      }
+    }
+  },
+  "issue_type": "disease_fungal",
+  "transmission": {
+    "vectors": [
+      "insects (minor)"
+    ],
+    "dispersal": [
+      "rain splash",
+      "wind-driven rain",
+      "contaminated tools",
+      "infected planting material"
+    ],
+    "overwintering": [
+      "infected leaves",
+      "twigs",
+      "mummified fruit",
+      "cankers on stems"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "high humidity",
+      "frequent rainfall",
+      "prolonged leaf wetness",
+      "dense canopy",
+      "young, tender growth"
+    ],
+    "temp_c_day": [
+      25,
+      30
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      90,
+      100
+    ],
+    "leaf_wetness_hours_threshold": 12
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "< 5% of leaf or fruit surface area affected by lesions.",
+    "moderate": "5-25% of leaf or fruit surface area affected; some twig dieback may be present.",
+    "severe": "> 25% of leaf or fruit surface area affected; extensive twig dieback, blossom blight, or fruit rot.",
+    "notes": "Severity is assessed on the most affected plant part (leaf, fruit, or stem). For dieback or blight, assessment is qualitative based on canopy damage."
+  },
+  "symptoms": {
+    "leaves": [
+      "Small, water-soaked spots appear on young leaves, enlarging into irregular brown to black necrotic lesions.",
+      "Lesions often have a dark border and a lighter, tan-to-gray center.",
+      "A 'shot-hole' appearance can occur as the necrotic centers fall out.",
+      "In severe cases, leaves may yellow, curl, and drop prematurely."
+    ],
+    "stems": [
+      "Causes dieback of young twigs and shoots, starting from the tip and progressing downward.",
+      "Affected twigs turn dark brown to black and wither.",
+      "Small, sunken cankers may form on older branches."
+    ],
+    "fruit": [
+      "Small, dark, sunken, circular spots develop on the fruit surface.",
+      "Lesions enlarge, coalesce, and can cover large areas of the fruit.",
+      "Infection can lead to premature fruit drop or extensive rot, making the fruit inedible."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "General decline and reduced vigor in severe, chronic infections."
+    ],
+    "signs_microscopic_or_visible": [
+      "Pink to orange gelatinous spore masses (acervuli) visible on lesions under moist conditions."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "algal leaf spot",
+      "condition_id": "jackfruit.disease_other.algal_leaf_spot",
+      "key_differences": [
+        "Algal spots are raised, superficial, and have a velvety texture, typically appearing orange-rust to grayish-green.",
+        "Anthracnose lesions are sunken, necrotic (dead tissue), and brown-to-black, developing within the leaf tissue itself.",
+        "Algal spots do not cause the 'shot-hole' effect or twig dieback associated with anthracnose."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Prune to improve air circulation and light penetration within the canopy.",
+      "Remove and destroy infected twigs, leaves, and mummified fruit (sanitation).",
+      "Avoid overhead irrigation to minimize leaf wetness duration.",
+      "Maintain plant vigor with proper fertilization and watering."
+    ],
+    "biological": [
+      "Application of Bacillus subtilis-based bio-fungicides may suppress the pathogen."
+    ],
+    "chemical": [
+      "Apply preventative fungicides (e.g., copper-based, mancozeb, or strobilurins) before or during the rainy season.",
+      "Follow label instructions for application timing, rates, and pre-harvest intervals."
+    ],
+    "notes": "An integrated pest management (IPM) approach combining cultural practices with timely fungicide applications is most effective for managing anthracnose."
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "cucumber.disease_fungal.anthracnose",
+  "aliases": [
+    "cucurbit anthracnose"
+  ],
+  "crop": {
+    "common_name": "cucumber",
+    "scientific_name": "Cucumis sativus",
+    "family": "Cucurbitaceae"
+  },
+  "condition": {
+    "common_name": "anthracnose",
+    "scientific_name": "Colletotrichum orbiculare",
+    "alt_names": [
+      "leaf spot",
+      "fruit rot"
+    ],
+    "pathogen": {
+      "type": "disease_fungal",
+      "taxonomy": {
+        "kingdom": "Fungi",
+        "phylum": "Ascomycota",
+        "class": "Sordariomycetes",
+        "order": "Glomerellales",
+        "family": "Glomerellaceae",
+        "genus": "Colletotrichum",
+        "species": "orbiculare"
+      }
+    }
+  },
+  "issue_type": "disease_fungal",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [
+      "rain splash",
+      "wind-driven rain",
+      "contaminated equipment",
+      "infected seed",
+      "field workers"
+    ],
+    "overwintering": [
+      "infected crop debris",
+      "on volunteer cucurbit plants",
+      "in or on seed"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "high humidity",
+      "frequent rainfall",
+      "overhead irrigation",
+      "warm temperatures",
+      "poor air circulation"
+    ],
+    "temp_c_day": [
+      22,
+      28
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      90,
+      100
+    ],
+    "leaf_wetness_hours_threshold": 8
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "1-10% of leaf area affected with small, distinct lesions. No stem or fruit symptoms.",
+    "moderate": "11-40% of leaf area affected; some lesions are coalescing. Minor stem or fruit lesions may be present.",
+    "severe": ">40% of leaf area affected, often with significant defoliation. Stem cankers and/or deep, sunken fruit lesions are present.",
+    "notes": "Severity is primarily assessed by foliar damage, but the presence of any fruit lesions automatically elevates the rating to at least 'moderate' due to marketability loss."
+  },
+  "symptoms": {
+    "leaves": [
+      "Begins as small, water-soaked spots.",
+      "Spots enlarge into circular lesions, 1-2 cm in diameter, that turn brown to black.",
+      "A distinct yellow halo may surround the dark lesions.",
+      "The center of older lesions becomes dry, brittle, and often falls out, creating a 'shot-hole' appearance."
+    ],
+    "stems": [
+      "Develops shallow, elongated, water-soaked cankers.",
+      "Cankers turn tan to black and can girdle the stem, causing wilting above the infection site."
+    ],
+    "fruit": [
+      "Circular, black, sunken cankers appear on the fruit surface.",
+      "Cankers can be up to 2 cm in diameter and penetrate deep into the flesh.",
+      "Lesions may have a raised black rim and a slightly lighter center.",
+      "In humid conditions, the center of fruit lesions exudes pink to orange gelatinous spore masses."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "In severe cases, wilting of vines can occur due to stem girdling.",
+      "Overall plant vigor is reduced, leading to smaller or unmarketable fruit."
+    ],
+    "signs_microscopic_or_visible": [
+      "Pink to orange, gelatinous spore masses (acervuli) are visible in the center of lesions, especially on fruit and stems, during periods of high humidity."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "gummy stem blight",
+      "condition_id": "cucumber.disease_fungal.gummy_stem_blight",
+      "key_differences": [
+        "Gummy stem blight lesions, especially on stems, often exude a characteristic amber-colored gum; anthracnose does not.",
+        "Gummy stem blight leaf lesions are often wedge-shaped starting from the margin, while anthracnose spots are typically circular.",
+        "Gummy stem blight produces tiny black specks (pycnidia) within lesions, whereas anthracnose may show pink/orange spore masses (acervuli)."
+      ]
+    },
+    {
+      "condition_name": "downy mildew",
+      "condition_id": "cucumber.disease_oomycete.downy_mildew",
+      "key_differences": [
+        "Downy mildew spots are angular, bounded by leaf veins, and yellow-green, not circular and black like anthracnose.",
+        "Downy mildew produces a purplish-gray, fuzzy growth on the underside of leaves in humid conditions, not pink/orange masses.",
+        "Anthracnose can cause a 'shot-hole' effect in leaves and also infects fruit, which are not symptoms of downy mildew."
+      ]
+    },
+    {
+      "condition_name": "belly rot",
+      "condition_id": "cucumber.disease_fungal.belly_rot",
+      "key_differences": [
+        "Belly rot primarily affects the part of the fruit in contact with the soil; anthracnose can appear anywhere on the fruit.",
+        "Belly rot lesions are initially tan and water-soaked, becoming brown and crusty, not black and sunken like anthracnose.",
+        "Belly rot does not produce the pink/orange spore masses characteristic of anthracnose."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Plant certified disease-free seed and resistant varieties.",
+      "Implement a crop rotation of at least 2 years with non-cucurbit crops.",
+      "Ensure proper plant spacing to promote air circulation and rapid leaf drying.",
+      "Use drip irrigation to avoid wetting foliage.",
+      "Remove and destroy infected crop debris promptly after harvest."
+    ],
+    "biological": [
+      "Application of bio-fungicides containing strains of *Bacillus subtilis* or *Trichoderma* may provide some suppression."
+    ],
+    "chemical": [
+      "Apply preventative fungicides, especially during warm, wet weather.",
+      "Effective active ingredients include chlorothalonil, mancozeb, and strobilurin-class fungicides (e.g., azoxystrobin).",
+      "Alternate fungicide modes of action to prevent the development of pathogen resistance."
+    ],
+    "notes": "An integrated pest management (IPM) approach combining cultural practices with judicious fungicide use is most effective."
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "guava.nutrient_deficiency.nutritional_deficiency",
+  "aliases": [
+    "guava chlorosis",
+    "guava mineral deficiency",
+    "guava nutrient imbalance"
+  ],
+  "crop": {
+    "common_name": "guava",
+    "scientific_name": "Psidium guajava",
+    "family": "Myrtaceae"
+  },
+  "condition": {
+    "common_name": "Nutritional Deficiency",
+    "scientific_name": null,
+    "alt_names": [
+      "Mineral deficiency",
+      "Nutrient imbalance"
+    ],
+    "pathogen": {
+      "type": "abiotic",
+      "taxonomy": {
+        "kingdom": "",
+        "phylum": "",
+        "class": "",
+        "order": "",
+        "family": "",
+        "genus": "",
+        "species": ""
+      }
+    }
+  },
+  "issue_type": "nutrient_deficiency",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [],
+    "overwintering": []
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "Poor soil fertility or sandy soils prone to leaching",
+      "Improper soil pH (too acidic or alkaline), which locks up nutrients",
+      "Waterlogged soil or drought conditions impairing root function",
+      "Competition for nutrients from weeds",
+      "Heavy rainfall or over-irrigation leading to nutrient leaching"
+    ],
+    "temp_c_day": [],
+    "temp_c_night": [],
+    "relative_humidity_pct": [],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "1-10% of leaf area on a few leaves shows discoloration (e.g., chlorosis). Plant vigor is largely unaffected.",
+    "moderate": "11-40% of leaf area on multiple leaves is affected. Some marginal necrosis or stunting may be visible.",
+    "severe": ">40% of leaf area is affected across the plant canopy. Significant necrosis, premature leaf drop, and severe stunting are evident.",
+    "notes": "Severity is assessed by the percentage of a symptomatic leaf's surface area showing chlorosis or necrosis, and the extent of symptoms across the whole plant."
+  },
+  "symptoms": {
+    "leaves": [
+      "Uniform pale green or yellowing (chlorosis) of older, lower leaves, indicating mobile nutrient deficiency (e.g., Nitrogen).",
+      "Interveinal chlorosis (yellowing between green veins) on younger, upper leaves, indicating immobile nutrient deficiency (e.g., Iron, Zinc).",
+      "Yellowing, browning, or scorching along the margins and tips of older leaves (e.g., Potassium deficiency).",
+      "Leaves may develop a purplish or reddish cast, especially on older leaves under cool conditions (e.g., Phosphorus deficiency).",
+      "A distinct 'V' shaped yellowing pattern starting from the tip of older leaves (e.g., Magnesium deficiency).",
+      "New leaves are abnormally small (little leaf) and internodes are short, giving a rosetted appearance (e.g., Zinc deficiency).",
+      "In severe cases, affected leaf areas become brown, dry, and dead (necrotic).",
+      "Premature dropping of affected leaves."
+    ],
+    "stems": [
+      "Stems may be thin, weak, and spindly.",
+      "Reduced internode length, leading to a compacted or 'rosetted' growth habit."
+    ],
+    "fruit": [
+      "Reduced fruit set, size, and overall yield.",
+      "Poor fruit quality, including color, firmness, and flavor.",
+      "Fruit may exhibit deformities or cracking."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Overall stunted growth and reduced plant vigor."
+    ],
+    "signs_microscopic_or_visible": []
+  },
+  "lookalikes": [
+    {
+      "condition_name": "Leaf Spot",
+      "condition_id": "guava.fungal.leaf_spot",
+      "key_differences": [
+        "Leaf spots are discrete, often circular lesions with defined borders, whereas deficiency symptoms are diffuse patterns like interveinal or marginal chlorosis.",
+        "Leaf spots may have a necrotic tan center with a dark or colored halo, a feature absent in nutritional deficiencies.",
+        "Deficiency symptoms often appear symmetrically on the leaf blade, while fungal spots are typically distributed randomly.",
+        "Fungal spots may contain tiny black dots (pycnidia or acervuli) in the lesion center, which are fungal signs not present in deficiencies."
+      ]
+    },
+    {
+      "condition_name": "Rust",
+      "condition_id": "guava.fungal.rust",
+      "key_differences": [
+        "Rust appears as raised, powdery pustules (uredinia) that are orange to reddish-brown, not flat areas of yellowing (chlorosis).",
+        "Rubbing a rust pustule will leave a colored, powder-like residue on a surface, which does not happen with deficiency symptoms.",
+        "Rust lesions are distinct pustules, often on the underside of the leaf, contrasting with the broad, patterned discoloration of deficiencies."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Conduct regular soil and leaf tissue analysis to accurately diagnose specific nutrient deficiencies.",
+      "Maintain soil pH in the optimal range for guava (5.5-7.0) to maximize nutrient availability.",
+      "Apply balanced fertilizers based on soil test recommendations.",
+      "Incorporate compost or other organic matter to improve soil health and nutrient retention.",
+      "Ensure proper irrigation management to avoid waterlogging and drought stress, both of which hinder nutrient uptake."
+    ],
+    "biological": [
+      "Promote healthy soil microbial populations through organic matter amendment, which can aid in nutrient cycling."
+    ],
+    "chemical": [
+      "Apply specific fertilizers to correct identified deficiencies (e.g., urea for nitrogen, potassium sulfate for potassium).",
+      "Use foliar sprays of chelated micronutrients (e.g., iron, zinc, manganese) for rapid but temporary correction of deficiencies in new growth.",
+      "Adjust soil pH using lime (to raise pH) or sulfur (to lower pH) as needed based on soil tests."
+    ],
+    "notes": "Accurate diagnosis through laboratory testing is critical before applying chemical treatments to avoid creating further nutrient imbalances."
+  }
+}

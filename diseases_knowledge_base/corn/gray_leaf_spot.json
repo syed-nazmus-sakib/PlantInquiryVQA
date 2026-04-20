@@ -1,0 +1,139 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "corn.disease_fungal.gray_leaf_spot",
+  "aliases": [
+    "GLS",
+    "Cercospora leaf spot of maize"
+  ],
+  "crop": {
+    "common_name": "corn",
+    "scientific_name": "Zea mays",
+    "family": "Poaceae"
+  },
+  "condition": {
+    "common_name": "gray leaf spot",
+    "scientific_name": "Cercospora zeae-maydis",
+    "alt_names": [
+      "GLS"
+    ],
+    "pathogen": {
+      "type": "disease_fungal",
+      "taxonomy": {
+        "kingdom": "Fungi",
+        "phylum": "Ascomycota",
+        "class": "Dothideomycetes",
+        "order": "Capnodiales",
+        "family": "Mycosphaerellaceae",
+        "genus": "Cercospora",
+        "species": "zeae-maydis"
+      }
+    }
+  },
+  "issue_type": "disease_fungal",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [
+      "wind-blown conidia",
+      "rain splash"
+    ],
+    "overwintering": [
+      "infected corn residue (stalks, leaves)",
+      "debris on soil surface"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "high relative humidity",
+      "prolonged leaf wetness",
+      "warm temperatures",
+      "continuous corn cropping",
+      "minimum or no-tillage systems",
+      "susceptible hybrids"
+    ],
+    "temp_c_day": [
+      22,
+      30
+    ],
+    "temp_c_night": [
+      20,
+      28
+    ],
+    "relative_humidity_pct": [
+      90,
+      100
+    ],
+    "leaf_wetness_hours_threshold": 12
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "1-5% of leaf area affected; lesions are few and primarily on lower leaves.",
+    "moderate": "6-25% of leaf area affected; lesions are numerous on lower leaves and are progressing to the ear leaf and middle canopy.",
+    "severe": ">25% of leaf area affected; significant lesion coalescence on lower and middle leaves, with lesions prevalent in the upper canopy, causing premature leaf death.",
+    "notes": "Severity is assessed on the total foliar area of the plant, but often focuses on the ear leaf and above, as these contribute most to yield. Assessment is most critical from tasseling (VT) through dough (R4) stages."
+  },
+  "symptoms": {
+    "leaves": [
+      "Initial lesions are small, tan, necrotic spots, sometimes with a faint yellow halo.",
+      "Mature lesions are long (1-6 cm), narrow, and distinctly rectangular.",
+      "Lesions are sharply restricted by leaf veins, giving them parallel sides and a blocky look.",
+      "Mature lesion color is typically tan, light brown, or gray.",
+      "Under humid conditions, lesions may appear grayish or olive-colored due to fungal sporulation.",
+      "Symptoms first appear on the lowest leaves and progress up the plant.",
+      "In severe cases, lesions merge (coalesce) to blight large sections of the leaf.",
+      "Affected leaves may die prematurely, appearing dried and gray-brown."
+    ],
+    "stems": [
+      "Symptoms are not typically found on the stalk."
+    ],
+    "fruit": [
+      "The ears and kernels are not directly infected by this pathogen."
+    ],
+    "roots": [
+      "No direct symptoms on roots."
+    ],
+    "whole_plant": [
+      "Reduced photosynthetic area from leaf blighting can lead to reduced grain fill, lower test weight, and weakened stalks.",
+      "Severe infections can cause premature plant death."
+    ],
+    "signs_microscopic_or_visible": [
+      "With a hand lens, grayish tufts of conidiophores and conidia (fungal spores) may be visible on the lesion surface, especially on humid mornings."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "northern leaf blight",
+      "condition_id": "corn.disease_fungal.northern_leaf_blight",
+      "key_differences": [
+        "Lesion Shape: NLB lesions are large (up to 15 cm), elliptical or 'cigar-shaped', not rectangular like GLS.",
+        "Vein Limitation: NLB lesions are not strictly limited by leaf veins and can cross them.",
+        "Lesion Color: NLB lesions are typically tan or grayish-green, and may have distinct dark zones of sporulation."
+      ]
+    },
+    {
+      "condition_name": "bacterial leaf streak",
+      "condition_id": "corn.disease_bacterial.bacterial_leaf_streak",
+      "key_differences": [
+        "Lesion Margins: Bacterial leaf streak lesions have wavy, irregular margins, while GLS lesions have straight, parallel sides.",
+        "Lesion Appearance: Bacterial lesions often appear water-soaked or greasy, especially when young, and can be translucent when held to light.",
+        "Lesion Color: Bacterial lesions are often bright yellow, orange, or brown, not the typical tan or gray of mature GLS."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Select resistant or tolerant corn hybrids.",
+      "Implement crop rotation with non-host crops like soybeans or wheat.",
+      "Use tillage to bury and encourage decomposition of infected corn residue.",
+      "Avoid irrigation methods that extend periods of leaf wetness."
+    ],
+    "biological": [
+      "Some bio-fungicides containing *Bacillus* species may provide partial suppression but are generally less effective than chemical options for severe disease pressure."
+    ],
+    "chemical": [
+      "Apply foliar fungicides from classes such as Qols (strobilurins), DMIs (triazoles), and SDHIs.",
+      "Scout fields near the tasseling (VT) growth stage to determine if fungicide application is warranted based on disease presence and environmental conditions.",
+      "Ensure thorough coverage, especially in the middle and upper canopy."
+    ],
+    "notes": "Integrated pest management (IPM) combining resistant hybrids, cultural practices, and judicious fungicide use is the most effective and sustainable strategy."
+  }
+}

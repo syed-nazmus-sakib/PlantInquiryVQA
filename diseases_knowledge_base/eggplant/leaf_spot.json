@@ -1,0 +1,141 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "eggplant.disease_fungal.leaf_spot",
+  "aliases": [
+    "Cercospora leaf spot",
+    "Alternaria leaf spot",
+    "frog-eye leaf spot",
+    "Septoria leaf spot"
+  ],
+  "crop": {
+    "common_name": "eggplant",
+    "scientific_name": "Solanum melongena",
+    "family": "Solanaceae"
+  },
+  "condition": {
+    "common_name": "leaf spot",
+    "scientific_name": "Cercospora melongenae, Alternaria spp., Septoria spp.",
+    "alt_names": [
+      "frog-eye spot"
+    ],
+    "pathogen": {
+      "type": "disease_fungal",
+      "taxonomy": {
+        "kingdom": "Fungi",
+        "phylum": "Ascomycota",
+        "class": "Dothideomycetes",
+        "order": "Capnodiales",
+        "family": "Mycosphaerellaceae",
+        "genus": "Cercospora",
+        "species": "melongenae"
+      }
+    }
+  },
+  "issue_type": "disease_fungal",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [
+      "wind",
+      "rain splash",
+      "contaminated tools",
+      "infected seeds"
+    ],
+    "overwintering": [
+      "infected crop debris",
+      "soil",
+      "infected seeds",
+      "solanaceous weeds"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "high humidity",
+      "prolonged leaf wetness",
+      "warm temperatures",
+      "poor air circulation",
+      "overhead irrigation"
+    ],
+    "temp_c_day": [
+      24,
+      32
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      85,
+      100
+    ],
+    "leaf_wetness_hours_threshold": 10
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "1-10% of total leaf area affected. A few scattered lesions, primarily on lower leaves.",
+    "moderate": "11-40% of leaf area affected. Lesions are numerous, may be coalescing on lower and mid-canopy leaves. Some minor defoliation may be present.",
+    "severe": ">40% of leaf area affected. Widespread lesions, significant coalescing, extensive chlorosis and necrosis. Severe defoliation is evident.",
+    "notes": "Severity is assessed as the percentage of the total foliar surface area of the plant showing symptoms (lesions, chlorosis, necrosis). Focus on leaves as the primary indicator."
+  },
+  "symptoms": {
+    "leaves": [
+      "Initial spots are small, circular, and water-soaked, often appearing on lower, older leaves first.",
+      "Lesions expand to become circular or irregular, typically 2-10 mm in diameter.",
+      "Mature spots develop a tan, gray, or white center with a distinct dark brown or black border, creating a 'frog-eye' appearance.",
+      "A yellow halo may surround the lesion.",
+      "In severe cases, spots merge (coalesce), leading to large, irregular necrotic blotches.",
+      "Affected leaves turn yellow (chlorosis), wither, and drop prematurely, leading to defoliation.",
+      "Tiny black specks (pycnidia or acervuli) may be visible in the center of older lesions, sometimes requiring a hand lens."
+    ],
+    "stems": [
+      "Stem lesions are less common, but can appear as elongated, sunken, dark spots."
+    ],
+    "fruit": [
+      "Fruit spots are rare but may appear as small, sunken, circular lesions, sometimes with a dark border."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Reduced plant vigor and stunted growth due to progressive defoliation.",
+      "Increased risk of sunscald on fruit due to the loss of protective leaf cover."
+    ],
+    "signs_microscopic_or_visible": [
+      "Under high humidity, a sparse, fuzzy, or velvety fungal growth may be visible in the center of lesions."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "phomopsis_blight",
+      "condition_id": "eggplant.disease_fungal.phomopsis_blight",
+      "key_differences": [
+        "Phomopsis lesions are often larger, have a target-like appearance with concentric rings, and are a lighter brown color.",
+        "Phomopsis blight is well known for causing a severe fruit rot, which is not a primary symptom of most leaf spot fungi.",
+        "Phomopsis typically causes distinct stem cankers, especially near the soil line, a symptom absent in leaf spot diseases.",
+        "The black specks (pycnidia) in Phomopsis lesions are usually more numerous and prominent than in Cercospora or Alternaria spots."
+      ]
+    },
+    {
+      "condition_name": "pest_damage",
+      "condition_id": "eggplant.pest.generic",
+      "key_differences": [
+        "Flea beetle damage appears as numerous small, round 'shot-holes' where leaf tissue is completely removed, unlike a fungal lesion which is necrotic tissue.",
+        "Spider mite damage (stippling) consists of thousands of tiny, pale yellow or white dots, lacking the defined necrotic center and dark border of a fungal spot.",
+        "Pest damage lacks any fungal signs like pycnidia or mycelial growth."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Use certified disease-free seed and transplants.",
+      "Practice a 2-3 year crop rotation with non-solanaceous crops.",
+      "Ensure proper plant spacing to promote air circulation and reduce leaf wetness duration.",
+      "Avoid overhead irrigation; use drip or furrow irrigation to keep foliage dry.",
+      "Remove and destroy infected plant debris at the end of the season.",
+      "Maintain a weed-free field, as some weeds can host the pathogens."
+    ],
+    "biological": [
+      "Application of bio-fungicides containing strains of *Bacillus subtilis* or *Trichoderma* species can provide some suppression when applied preventatively."
+    ],
+    "chemical": [
+      "Apply preventative fungicides before disease onset, especially when warm, humid weather is forecast.",
+      "Effective fungicides include those with active ingredients like chlorothalonil, mancozeb, or copper compounds.",
+      "Rotate fungicides with different modes of action (FRAC groups) to prevent the development of resistance."
+    ],
+    "notes": "An integrated pest management (IPM) approach combining cultural practices with judicious fungicide use is the most effective strategy for managing leaf spot."
+  }
+}

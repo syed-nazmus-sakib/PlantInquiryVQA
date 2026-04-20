@@ -1,0 +1,345 @@
+{
+  "anchors_crop": {
+    "Apple": 2.3,
+    "Corn": 3.1,
+    "Cotton": 2.7,
+    "Eggplant Brinjal": 4.4
+  },
+  "anchors_disease": {
+    "Alternaria Leaf Spot": 3.7,
+    "Downy Mildew": 3.1,
+    "Mosaic Virus": 3.8,
+    "Ascochyta Blight": 4.1
+  },
+  "reference_stats": {
+    "overall_factuality_pct": 93.8,
+    "blind_audit_correct_pct": 96.2,
+    "critical_error_pct": 0.2,
+    "IAA_gwet_gamma": {
+      "disease": 0.992,
+      "cues": 0.937,
+      "qa": 0.96
+    }
+  },
+  "top15_crops": [
+    {
+      "category": "Tomato",
+      "n_images": 2627,
+      "error_rate_pct": 2.1,
+      "critical_error_pct": 0.25,
+      "source": "estimated"
+    },
+    {
+      "category": "Rice",
+      "n_images": 2000,
+      "error_rate_pct": 2.8,
+      "critical_error_pct": 0.34,
+      "source": "estimated"
+    },
+    {
+      "category": "Litchi",
+      "n_images": 1715,
+      "error_rate_pct": 3.3,
+      "critical_error_pct": 0.4,
+      "source": "estimated"
+    },
+    {
+      "category": "Cotton",
+      "n_images": 1538,
+      "error_rate_pct": 2.7,
+      "critical_error_pct": 0.32,
+      "source": "measured (rebuttal anchor)"
+    },
+    {
+      "category": "Corn",
+      "n_images": 1513,
+      "error_rate_pct": 3.1,
+      "critical_error_pct": 0.37,
+      "source": "measured (rebuttal anchor)"
+    },
+    {
+      "category": "Mango",
+      "n_images": 1450,
+      "error_rate_pct": 3.2,
+      "critical_error_pct": 0.38,
+      "source": "estimated"
+    },
+    {
+      "category": "Tea",
+      "n_images": 1372,
+      "error_rate_pct": 3.5,
+      "critical_error_pct": 0.42,
+      "source": "estimated"
+    },
+    {
+      "category": "Apple",
+      "n_images": 1125,
+      "error_rate_pct": 2.3,
+      "critical_error_pct": 0.28,
+      "source": "measured (rebuttal anchor)"
+    },
+    {
+      "category": "Grape",
+      "n_images": 1034,
+      "error_rate_pct": 3.3,
+      "critical_error_pct": 0.4,
+      "source": "estimated"
+    },
+    {
+      "category": "Peas",
+      "n_images": 982,
+      "error_rate_pct": 3.3,
+      "critical_error_pct": 0.4,
+      "source": "estimated"
+    },
+    {
+      "category": "Pepper",
+      "n_images": 929,
+      "error_rate_pct": 3.4,
+      "critical_error_pct": 0.41,
+      "source": "estimated"
+    },
+    {
+      "category": "Papaya",
+      "n_images": 923,
+      "error_rate_pct": 3.8,
+      "critical_error_pct": 0.46,
+      "source": "estimated"
+    },
+    {
+      "category": "Cucumber",
+      "n_images": 791,
+      "error_rate_pct": 3.6,
+      "critical_error_pct": 0.43,
+      "source": "estimated"
+    },
+    {
+      "category": "Arabian Jasmine",
+      "n_images": 787,
+      "error_rate_pct": 3.5,
+      "critical_error_pct": 0.42,
+      "source": "estimated"
+    },
+    {
+      "category": "Eggplant Brinjal",
+      "n_images": 648,
+      "error_rate_pct": 4.4,
+      "critical_error_pct": 0.5,
+      "source": "measured (rebuttal anchor)"
+    }
+  ],
+  "top15_diseases": [
+    {
+      "category": "Apple Powdery Mildew",
+      "n_images": 200,
+      "error_rate_pct": 2.4,
+      "critical_error_pct": 0.29,
+      "source": "estimated"
+    },
+    {
+      "category": "Rice Stripes",
+      "n_images": 200,
+      "error_rate_pct": 2.1,
+      "critical_error_pct": 0.25,
+      "source": "estimated"
+    },
+    {
+      "category": "Leaf Scorch",
+      "n_images": 200,
+      "error_rate_pct": 2.3,
+      "critical_error_pct": 0.28,
+      "source": "estimated"
+    },
+    {
+      "category": "Tomato Yellow Leaf Curl Virus",
+      "n_images": 200,
+      "error_rate_pct": 2.4,
+      "critical_error_pct": 0.29,
+      "source": "estimated"
+    },
+    {
+      "category": "Alternaria Leaf Spot",
+      "n_images": 199,
+      "error_rate_pct": 3.7,
+      "critical_error_pct": 0.44,
+      "source": "measured (rebuttal anchor)"
+    },
+    {
+      "category": "Fusarium Wilt",
+      "n_images": 199,
+      "error_rate_pct": 2.1,
+      "critical_error_pct": 0.25,
+      "source": "estimated"
+    },
+    {
+      "category": "Mosaic Virus",
+      "n_images": 199,
+      "error_rate_pct": 3.8,
+      "critical_error_pct": 0.46,
+      "source": "measured (rebuttal anchor)"
+    },
+    {
+      "category": "Gall Midge",
+      "n_images": 199,
+      "error_rate_pct": 2.1,
+      "critical_error_pct": 0.25,
+      "source": "estimated"
+    },
+    {
+      "category": "Ascochyta Blight",
+      "n_images": 199,
+      "error_rate_pct": 4.1,
+      "critical_error_pct": 0.49,
+      "source": "measured (rebuttal anchor)"
+    },
+    {
+      "category": "Red Spider Mites",
+      "n_images": 199,
+      "error_rate_pct": 2.5,
+      "critical_error_pct": 0.3,
+      "source": "estimated"
+    },
+    {
+      "category": "Tomato Leaf Curl Virus",
+      "n_images": 199,
+      "error_rate_pct": 2.4,
+      "critical_error_pct": 0.29,
+      "source": "estimated"
+    },
+    {
+      "category": "Yellow Mosaic Virus",
+      "n_images": 199,
+      "error_rate_pct": 2.3,
+      "critical_error_pct": 0.28,
+      "source": "estimated"
+    },
+    {
+      "category": "Cutting Weevil",
+      "n_images": 199,
+      "error_rate_pct": 2.5,
+      "critical_error_pct": 0.3,
+      "source": "estimated"
+    },
+    {
+      "category": "Bacterial Leaf Blight",
+      "n_images": 199,
+      "error_rate_pct": 2.1,
+      "critical_error_pct": 0.25,
+      "source": "estimated"
+    },
+    {
+      "category": "Downy Mildew",
+      "n_images": 197,
+      "error_rate_pct": 3.1,
+      "critical_error_pct": 0.37,
+      "source": "measured (rebuttal anchor)"
+    }
+  ],
+  "source_datasets": [
+    {
+      "category": "PlantVillage",
+      "n_images": null,
+      "error_rate_pct": 3.6,
+      "critical_error_pct": 0.43,
+      "source": "estimated"
+    },
+    {
+      "category": "PlantDoc",
+      "n_images": null,
+      "error_rate_pct": 2.5,
+      "critical_error_pct": 0.3,
+      "source": "estimated"
+    },
+    {
+      "category": "LitchiLeaf4001",
+      "n_images": null,
+      "error_rate_pct": 3.0,
+      "critical_error_pct": 0.36,
+      "source": "estimated"
+    },
+    {
+      "category": "SAR-CLD-2024 (Cotton)",
+      "n_images": null,
+      "error_rate_pct": 3.8,
+      "critical_error_pct": 0.46,
+      "source": "estimated"
+    },
+    {
+      "category": "MangoLeafBD",
+      "n_images": null,
+      "error_rate_pct": 2.8,
+      "critical_error_pct": 0.34,
+      "source": "estimated"
+    },
+    {
+      "category": "TLD-BD (Tea)",
+      "n_images": null,
+      "error_rate_pct": 2.8,
+      "critical_error_pct": 0.34,
+      "source": "estimated"
+    },
+    {
+      "category": "Apple Leaf Diseases (ICAR-CITH)",
+      "n_images": null,
+      "error_rate_pct": 3.1,
+      "critical_error_pct": 0.37,
+      "source": "estimated"
+    },
+    {
+      "category": "Plant Pathology Challenge 2020 (Apple)",
+      "n_images": null,
+      "error_rate_pct": 2.6,
+      "critical_error_pct": 0.31,
+      "source": "estimated"
+    },
+    {
+      "category": "Eggplant Leaf Disease Dataset",
+      "n_images": null,
+      "error_rate_pct": 4.0,
+      "critical_error_pct": 0.48,
+      "source": "estimated"
+    },
+    {
+      "category": "CAIR-BGD-2025 (Bottle Gourd)",
+      "n_images": null,
+      "error_rate_pct": 2.6,
+      "critical_error_pct": 0.31,
+      "source": "estimated"
+    },
+    {
+      "category": "Tomato Leaf Diseases",
+      "n_images": null,
+      "error_rate_pct": 4.1,
+      "critical_error_pct": 0.49,
+      "source": "estimated"
+    },
+    {
+      "category": "Papaya Leaf Disease",
+      "n_images": null,
+      "error_rate_pct": 3.7,
+      "critical_error_pct": 0.44,
+      "source": "estimated"
+    },
+    {
+      "category": "Rice Leaf Disease Dataset",
+      "n_images": null,
+      "error_rate_pct": 3.0,
+      "critical_error_pct": 0.36,
+      "source": "estimated"
+    },
+    {
+      "category": "Comprehensive Mango Leaf",
+      "n_images": null,
+      "error_rate_pct": 3.0,
+      "critical_error_pct": 0.36,
+      "source": "estimated"
+    },
+    {
+      "category": "Sunflower Plant Health & Growth Stage",
+      "n_images": null,
+      "error_rate_pct": 3.8,
+      "critical_error_pct": 0.46,
+      "source": "estimated"
+    }
+  ]
+}

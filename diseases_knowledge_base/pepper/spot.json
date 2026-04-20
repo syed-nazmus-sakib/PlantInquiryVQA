@@ -1,0 +1,138 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "pepper.disease_fungal.spot",
+  "aliases": [
+    "Cercospora leaf spot",
+    "Frogeye spot"
+  ],
+  "crop": {
+    "common_name": "Pepper",
+    "scientific_name": "Capsicum annuum",
+    "family": "Solanaceae"
+  },
+  "condition": {
+    "common_name": "Fungal Spot",
+    "scientific_name": "Cercospora capsici",
+    "alt_names": [
+      "Cercospora leaf spot"
+    ],
+    "pathogen": {
+      "type": "disease_fungal",
+      "taxonomy": {
+        "kingdom": "Fungi",
+        "phylum": "Ascomycota",
+        "class": "Dothideomycetes",
+        "order": "Capnodiales",
+        "family": "Mycosphaerellaceae",
+        "genus": "Cercospora",
+        "species": "capsici"
+      }
+    }
+  },
+  "issue_type": "disease_fungal",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [
+      "Wind",
+      "Rain splash",
+      "Contaminated tools",
+      "Infected seed"
+    ],
+    "overwintering": [
+      "Infected crop debris",
+      "On seed",
+      "In soil"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "High humidity",
+      "Poor air circulation",
+      "Overhead irrigation",
+      "Warm temperatures",
+      "Prolonged leaf wetness"
+    ],
+    "temp_c_day": [
+      23,
+      30
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      85,
+      95
+    ],
+    "leaf_wetness_hours_threshold": 10
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "< 5% of leaf area affected with spots. Little to no yellowing.",
+    "moderate": "5-25% of leaf area affected, some associated yellowing (chlorosis) may be present.",
+    "severe": "> 25% of leaf area affected, significant chlorosis, and premature leaf drop (defoliation) is occurring.",
+    "notes": "Severity is assessed on the most affected leaves. Defoliation is a key indicator of severe infection."
+  },
+  "symptoms": {
+    "leaves": [
+      "Initial symptoms are small, water-soaked spots on lower leaves.",
+      "Spots enlarge to circular lesions, 3-10 mm in diameter.",
+      "Mature lesions develop a distinct light gray, tan, or white center.",
+      "A dark brown to black border surrounds the pale center, creating a 'frogeye' appearance.",
+      "Lesion centers may become brittle and fall out, creating a 'shot-hole' effect.",
+      "A yellow halo (chlorosis) may develop around individual spots.",
+      "Infected leaves turn yellow, wither, and drop prematurely, starting from the bottom of the plant."
+    ],
+    "stems": [
+      "Elongated, oval-shaped lesions with pale centers and dark borders may appear on stems and petioles."
+    ],
+    "fruit": [
+      "Fruit infection is rare, but small, sunken, dark spots can occur, particularly on the calyx (stem cap)."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Significant defoliation of lower and mid-canopy leaves.",
+      "Reduced plant vigor and stunted growth.",
+      "Sunscald on fruit exposed to direct sun due to loss of protective leaf cover."
+    ],
+    "signs_microscopic_or_visible": [
+      "Under high humidity, fuzzy, dark sporulation (conidiophores) may be visible in the center of lesions, often requiring a hand lens."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "Bacterial Spot",
+      "condition_id": "pepper.disease_bacterial.bacterial_spot",
+      "key_differences": [
+        "Bacterial spots are often angular and limited by leaf veins, whereas fungal spots are typically circular.",
+        "Bacterial spots look dark and water-soaked or 'greasy', lacking the distinct pale 'frogeye' center of Cercospora.",
+        "Bacterial spots do not typically have a 'shot-hole' appearance where the center drops out.",
+        "Bacterial spots on fruit are common, appearing as raised, scabby, or wart-like lesions."
+      ]
+    },
+    {
+      "condition_name": "Anthracnose",
+      "condition_id": "pepper.disease_fungal.anthracnose",
+      "key_differences": [
+        "Anthracnose primarily affects fruit, causing large, circular, sunken lesions that are much larger than leaf spots.",
+        "Anthracnose lesions on fruit often have visible concentric rings and develop salmon-pink to orange spore masses in the center.",
+        "Leaf spots from anthracnose are less common and are typically small, brown, and less defined than Cercospora's 'frogeye' spots."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Use certified disease-free seed and transplants.",
+      "Practice crop rotation with non-solanaceous crops for at least 3 years.",
+      "Improve air circulation through proper plant spacing and pruning.",
+      "Avoid overhead irrigation to minimize leaf wetness; use drip irrigation.",
+      "Remove and destroy infected plant debris at the end of the season.",
+      "Apply mulch to create a barrier between the soil and lower leaves."
+    ],
+    "biological": [
+      "Application of bio-fungicides containing strains of *Bacillus subtilis* or *Trichoderma* can suppress disease development."
+    ],
+    "chemical": [
+      "Apply preventative fungicides containing copper, mancozeb, or chlorothalonil.",
+      "For curative action, use systemic fungicides (e.g., strobilurins, triazoles), rotating chemical groups to prevent resistance."
+    ],
+    "notes": "Fungicide applications are most effective when started preventatively, before symptoms are widespread, especially when weather forecasts predict favorable conditions for disease."
+  }
+}

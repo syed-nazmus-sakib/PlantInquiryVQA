@@ -1,0 +1,142 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "tomato.healthy.healthy",
+  "aliases": [
+    "normal",
+    "unaffected",
+    "asymptomatic",
+    "no disease"
+  ],
+  "crop": {
+    "common_name": "tomato",
+    "scientific_name": "Solanum lycopersicum",
+    "family": "Solanaceae"
+  },
+  "condition": {
+    "common_name": "healthy",
+    "scientific_name": null,
+    "alt_names": [
+      "normal growth"
+    ],
+    "pathogen": {
+      "type": "physiological",
+      "taxonomy": {
+        "kingdom": "",
+        "phylum": "",
+        "class": "",
+        "order": "",
+        "family": "",
+        "genus": "",
+        "species": ""
+      }
+    }
+  },
+  "issue_type": "healthy",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [],
+    "overwintering": []
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "Optimal growing conditions",
+      "Adequate sunlight (6-8+ hours/day)",
+      "Consistent watering and soil moisture",
+      "Balanced soil nutrition",
+      "Good air circulation"
+    ],
+    "temp_c_day": [
+      21,
+      29
+    ],
+    "temp_c_night": [
+      16,
+      21
+    ],
+    "relative_humidity_pct": [
+      60,
+      80
+    ],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "qualitative",
+    "mild": "Not applicable. Plant is considered healthy.",
+    "moderate": "Not applicable.",
+    "severe": "Not applicable.",
+    "notes": "A plant is considered healthy if it shows no signs of disease, stress, or nutrient deficiency. Any deviation would be classified under a different condition."
+  },
+  "symptoms": {
+    "leaves": [
+      "Uniformly green color, consistent with the cultivar.",
+      "Leaves are fully expanded and turgid.",
+      "No spots, lesions, discoloration, or necrosis.",
+      "No yellowing (chlorosis) or browning.",
+      "No curling, puckering, or distortion of leaf shape.",
+      "No visible stippling, webbing, or insect trails."
+    ],
+    "stems": [
+      "Sturdy, upright, and able to support the plant.",
+      "Consistent green to brownish color without dark streaks or cankers.",
+      "No soft, water-soaked, or discolored areas."
+    ],
+    "fruit": [
+      "Smooth, unblemished skin.",
+      "Uniform color development appropriate for the variety and ripeness stage.",
+      "Free from cracks, spots, sunken areas, or mold."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Vigorous and upright growth habit.",
+      "Appropriate size and development for its age and cultivar.",
+      "No general wilting, stunting, or decline."
+    ],
+    "signs_microscopic_or_visible": [
+      "No visible fungal growth (e.g., mycelium, powdery mildew).",
+      "No bacterial ooze or slime.",
+      "Absence of insect eggs, larvae, or frass."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "Early Blight",
+      "condition_id": "tomato.fungal.early_blight",
+      "key_differences": [
+        "Healthy leaves lack the characteristic dark, circular lesions with a 'target' or 'bullseye' pattern.",
+        "Healthy plants do not show yellowing halos around spots.",
+        "Healthy lower leaves remain green and attached, unlike the premature yellowing and dropping seen in early blight."
+      ]
+    },
+    {
+      "condition_name": "Spider Mites",
+      "condition_id": "tomato.pest.spider_mites",
+      "key_differences": [
+        "Healthy leaves have a smooth, uniformly green surface, not the fine yellow or white stippling caused by mite feeding.",
+        "The undersides of healthy leaves are clean and lack the fine silk webbing produced by spider mites.",
+        "Healthy leaves do not have a dusty or 'bronzed' appearance."
+      ]
+    },
+    {
+      "condition_name": "Yellowing Symptom",
+      "condition_id": "tomato.symptom.yellowing_symptom",
+      "key_differences": [
+        "Healthy leaves maintain a uniform, rich green color, not the pale green or yellow of chlorosis.",
+        "The green color in healthy leaves is consistent across the entire leaf, not patterned between the veins (interveinal chlorosis).",
+        "Healthy plants show no specific pattern of yellowing on old vs. new leaves, which often indicates a nutrient deficiency."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Select disease-resistant cultivars.",
+      "Ensure proper plant spacing to promote air circulation.",
+      "Water at the base of the plant to keep foliage dry.",
+      "Use well-drained soil and apply balanced fertilizer.",
+      "Practice crop rotation.",
+      "Maintain good sanitation by removing weeds and plant debris."
+    ],
+    "biological": [],
+    "chemical": [],
+    "notes": "Management for a healthy plant focuses on preventative cultural practices to maintain vigor and reduce stress, making the plant less susceptible to future issues."
+  }
+}

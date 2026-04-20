@@ -1,0 +1,149 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "rice.unknown.blast",
+  "aliases": [
+    "Rice rotten neck",
+    "Pyricularia blight"
+  ],
+  "crop": {
+    "common_name": "rice",
+    "scientific_name": "Oryza sativa",
+    "family": "Poaceae"
+  },
+  "condition": {
+    "common_name": "blast",
+    "scientific_name": "Magnaporthe oryzae",
+    "alt_names": [
+      "Rice blast fungus",
+      "Pyricularia oryzae"
+    ],
+    "pathogen": {
+      "type": "disease_fungal",
+      "taxonomy": {
+        "kingdom": "Fungi",
+        "phylum": "Ascomycota",
+        "class": "Sordariomycetes",
+        "order": "Magnaporthales",
+        "family": "Magnaporthaceae",
+        "genus": "Magnaporthe",
+        "species": "oryzae"
+      }
+    }
+  },
+  "issue_type": "unknown",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [
+      "Wind-borne conidia",
+      "Rain splash",
+      "Infected seed"
+    ],
+    "overwintering": [
+      "Infected crop debris (straw, stubble)",
+      "Infected seeds",
+      "Alternate hosts (weedy grasses)"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "High nitrogen fertilization",
+      "Susceptible cultivars",
+      "High plant density",
+      "Periods of cool, humid weather",
+      "Drought stress followed by rain"
+    ],
+    "temp_c_day": [
+      25,
+      28
+    ],
+    "temp_c_night": [
+      20,
+      22
+    ],
+    "relative_humidity_pct": [
+      90,
+      100
+    ],
+    "leaf_wetness_hours_threshold": 9
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "< 5% of leaf area affected with typical lesions.",
+    "moderate": "5-25% of leaf area affected; some lesions may be coalescing.",
+    "severe": "> 25% of leaf area affected, or any presence of neck/panicle infection.",
+    "notes": "Assessment focuses on upper, photosynthetically active leaves. Neck and panicle blast are automatically considered severe due to their direct impact on yield."
+  },
+  "symptoms": {
+    "leaves": [
+      "Initial small, water-soaked, grayish-green specks.",
+      "Lesions expand into characteristic diamond-shaped or spindle-shaped spots.",
+      "Mature lesions have a grayish or whitish center.",
+      "Lesions are surrounded by a distinct dark brown or reddish-brown border.",
+      "Multiple lesions can coalesce, causing the entire leaf to blight or die.",
+      "Lesions are typically wider in the center and pointed at both ends."
+    ],
+    "stems": [
+      "Grayish-brown lesions at the neck node, just below the panicle ('neck blast').",
+      "Infected neck turns black and shrivels, often causing the panicle to break and hang down.",
+      "The tissue above the neck lesion dies, a symptom known as 'rotten neck'."
+    ],
+    "fruit": [
+      "Infection of panicle branches ('panicle blast') causes them to turn dark brown to black.",
+      "Spikelets on infected branches are sterile or produce partially filled, chalky grains.",
+      "Infected grains may have small brown to black spots."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Severe infections can lead to lodging (stem breakage at infected nodes)."
+    ],
+    "signs_microscopic_or_visible": [
+      "Under high humidity, a fuzzy, gray mold (conidia and conidiophores) may be visible in the center of lesions."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "brown_spot",
+      "condition_id": "rice.disease_fungal.brown_spot",
+      "key_differences": [
+        "Lesions are circular or oval, not diamond-shaped like blast.",
+        "Lesions are more uniformly dark brown and lack the distinct gray center of mature blast lesions.",
+        "Brown spot lesions often have a prominent yellow halo, which is less common in blast."
+      ]
+    },
+    {
+      "condition_name": "narrow_brown_leaf_spot",
+      "condition_id": "rice.disease_fungal.narrow_brown_leaf_spot",
+      "key_differences": [
+        "Lesions are long, narrow, and linear, running parallel to leaf veins, unlike the wide, diamond shape of blast.",
+        "Lesions are uniformly light to reddish-brown and do not develop a gray center.",
+        "Lesions are significantly shorter in width compared to blast lesions."
+      ]
+    },
+    {
+      "condition_name": "bacterial_leaf_blight",
+      "condition_id": "rice.disease_bacterial.bacterial_leaf_blight",
+      "key_differences": [
+        "Symptoms are wavy-margined, water-soaked streaks starting from the leaf tip or margins, not discrete spots.",
+        "Bacterial blight often produces yellowish, milky, or amber-colored bacterial ooze droplets, which are absent in blast.",
+        "Dried lesions are grayish-white or straw-colored without the distinct, dark brown border typical of blast."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Plant resistant cultivars.",
+      "Avoid excessive nitrogen fertilizer application.",
+      "Maintain proper water management, avoiding periods of drought stress.",
+      "Remove and destroy infected crop residue after harvest.",
+      "Manage weed hosts in and around the field."
+    ],
+    "biological": [
+      "Application of bio-control agents like *Trichoderma* spp. or *Pseudomonas fluorescens*."
+    ],
+    "chemical": [
+      "Foliar application of protective or systemic fungicides (e.g., azoxystrobin, tricyclazole, isoprothiolane).",
+      "Seed treatment with systemic fungicides to prevent seedling infection."
+    ],
+    "notes": "Fungicide application timing is critical; it is most effective when applied preventatively or at the very early stages of disease, often guided by weather-based forecasting models."
+  }
+}

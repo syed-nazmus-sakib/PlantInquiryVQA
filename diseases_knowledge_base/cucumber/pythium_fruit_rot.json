@@ -1,0 +1,132 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "cucumber.unknown.pythium_fruit_rot",
+  "aliases": [
+    "Pythium cottony leak",
+    "Watery soft rot",
+    "Pythium leak"
+  ],
+  "crop": {
+    "common_name": "cucumber",
+    "scientific_name": "Cucumis sativus",
+    "family": "Cucurbitaceae"
+  },
+  "condition": {
+    "common_name": "Pythium fruit rot",
+    "scientific_name": "Pythium spp.",
+    "alt_names": [
+      "Cottony leak"
+    ],
+    "pathogen": {
+      "type": "oomycete",
+      "taxonomy": {
+        "kingdom": "Stramenopila",
+        "phylum": "Oomycota",
+        "class": "Oomycetes",
+        "order": "Pythiales",
+        "family": "Pythiaceae",
+        "genus": "Pythium",
+        "species": "spp."
+      }
+    }
+  },
+  "issue_type": "unknown",
+  "transmission": {
+    "vectors": [
+      "Fungus gnats",
+      "Shore flies"
+    ],
+    "dispersal": [
+      "Contaminated soil",
+      "Splashing water (rain, irrigation)",
+      "Infected tools",
+      "Movement of infected plant material"
+    ],
+    "overwintering": [
+      "Oospores in soil",
+      "Infected crop residue"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "Saturated or poorly drained soil",
+      "High relative humidity (>85%)",
+      "Fruit in direct contact with wet soil",
+      "Warm soil and air temperatures",
+      "Over-irrigation"
+    ],
+    "temp_c_day": [
+      25,
+      35
+    ],
+    "temp_c_night": [
+      20,
+      30
+    ],
+    "relative_humidity_pct": [
+      85,
+      100
+    ],
+    "leaf_wetness_hours_threshold": 12
+  },
+  "severity_rubric": {
+    "unit": "qualitative",
+    "mild": "Small, distinct, water-soaked spot (<10% of fruit surface), no visible mycelium.",
+    "moderate": "Expanding lesion (10-40% of fruit surface), fruit is soft, possibly with some visible white, cottony mycelium.",
+    "severe": "Large portion of fruit is collapsed (>40%), abundant cottony mycelium is present, and the fruit is watery and disintegrating.",
+    "notes": "Severity is based on the percentage of the individual fruit's surface area affected by rot and the presence/abundance of visible mycelial growth. While named 'leaf_wetness', for this soil-borne disease, this value represents hours of continuous soil saturation required for infection."
+  },
+  "symptoms": {
+    "leaves": [],
+    "stems": [
+      "Water-soaked lesions at the soil line on young plants (damping-off)."
+    ],
+    "fruit": [
+      "Small, circular, water-soaked spots appear where the fruit touches the soil.",
+      "Lesions expand rapidly, becoming very soft and watery.",
+      "Affected area becomes covered in a brilliant white, cottony or fluffy mold (mycelium).",
+      "The fruit skin may rupture, releasing a clear, often odorless liquid.",
+      "The entire fruit collapses into a soft, watery mass within 2-4 days.",
+      "Infected fruit feels very light when picked up due to water loss."
+    ],
+    "roots": [
+      "Roots may appear brown, soft, and water-soaked.",
+      "The outer cortex of roots may slough off easily, leaving the inner core."
+    ],
+    "whole_plant": [
+      "Sudden wilting of the plant, especially if root rot is also present."
+    ],
+    "signs_microscopic_or_visible": [
+      "Profuse, white, cottony mycelial growth on the surface of fruit lesions."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "Belly Rot",
+      "condition_id": "cucumber.unknown.belly_rot",
+      "key_differences": [
+        "Belly rot lesions are tan-to-brown and sunken, not initially clear and water-soaked like Pythium.",
+        "Belly rot does not produce the profuse, white, cottony mycelium characteristic of Pythium.",
+        "Belly rot lesions are firm and may have a target-like or zonate pattern.",
+        "Pythium rot is much softer and more watery than belly rot."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Improve soil drainage and avoid overwatering.",
+      "Use raised beds to keep fruit from sitting in water.",
+      "Apply a physical barrier like plastic mulch or straw between the soil and fruit.",
+      "Promote good air circulation around plants.",
+      "Rotate crops with non-susceptible plants (e.g., non-cucurbits)."
+    ],
+    "biological": [
+      "Application of soil-borne beneficial microbes such as Trichoderma spp. or specific strains of Bacillus spp."
+    ],
+    "chemical": [
+      "Preventative application of fungicides specifically targeting oomycetes (e.g., mefenoxam, propamocarb, etridiazole) as a soil drench.",
+      "Ensure fungicides are applied to the soil surface and crown of the plant before disease onset."
+    ],
+    "notes": "Cultural controls that prevent fruit-to-soil contact and reduce soil moisture are the most effective management strategies. Chemical controls are typically only used preventatively in high-risk fields."
+  }
+}

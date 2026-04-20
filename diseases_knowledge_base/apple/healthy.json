@@ -1,0 +1,125 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "apple.healthy.healthy",
+  "aliases": [
+    "normal apple",
+    "unaffected apple",
+    "disease-free apple"
+  ],
+  "crop": {
+    "common_name": "apple",
+    "scientific_name": "Malus domestica",
+    "family": "Rosaceae"
+  },
+  "condition": {
+    "common_name": "healthy",
+    "scientific_name": null,
+    "alt_names": [],
+    "pathogen": {
+      "type": "none",
+      "taxonomy": {
+        "kingdom": "",
+        "phylum": "",
+        "class": "",
+        "order": "",
+        "family": "",
+        "genus": "",
+        "species": ""
+      }
+    }
+  },
+  "issue_type": "healthy",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [],
+    "overwintering": []
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "Optimal growing conditions",
+      "Good air circulation",
+      "Appropriate soil moisture and nutrition",
+      "Absence of pathogen pressure"
+    ],
+    "temp_c_day": [],
+    "temp_c_night": [],
+    "relative_humidity_pct": [],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "0% leaf area affected by symptoms.",
+    "moderate": "Not applicable for a healthy condition.",
+    "severe": "Not applicable for a healthy condition.",
+    "notes": "Severity for a healthy plant is defined as the complete absence of disease or abiotic stress symptoms. Any visible symptom would classify the plant under a different condition."
+  },
+  "symptoms": {
+    "leaves": [
+      "Uniform green coloration, specific shade may vary by cultivar.",
+      "Smooth, waxy surface (cuticle) without lesions, spots, or pustules.",
+      "Leaf margins are intact, not ragged, curled, or necrotic.",
+      "No visible powdery or sooty growth on upper or lower surfaces.",
+      "Veins are normal in color and not swollen or discolored.",
+      "Petioles are firm, green, and unblemished."
+    ],
+    "stems": [
+      "Bark is smooth and intact on young shoots, becoming rougher on older wood.",
+      "No cankers, sunken areas, cracks, or oozing sap.",
+      "Color is appropriate for the age and cultivar (e.g., reddish-brown to grayish-brown)."
+    ],
+    "fruit": [
+      "Skin is smooth, firm, and free of spots, scabs, cracks, or rot.",
+      "Coloration is uniform and characteristic of the cultivar at its current maturity stage.",
+      "Shape is symmetrical and not distorted.",
+      "Flesh is crisp, firm, and without internal browning or breakdown."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Vigorous and upright growth habit.",
+      "Dense, well-distributed canopy of leaves.",
+      "Evidence of new, healthy shoot and leaf development during the growing season."
+    ],
+    "signs_microscopic_or_visible": []
+  },
+  "lookalikes": [
+    {
+      "condition_name": "scab",
+      "condition_id": "apple.fungal.scab",
+      "key_differences": [
+        "Healthy leaves are uniformly green and smooth; scab causes distinct olive-green to brown, velvety spots.",
+        "Healthy fruit has smooth skin; scab lesions on fruit become raised, dark, and corky.",
+        "Healthy leaves are flat; heavily infected leaves with scab may become distorted or curled."
+      ]
+    },
+    {
+      "condition_name": "powdery_mildew",
+      "condition_id": "apple.fungal.powdery_mildew",
+      "key_differences": [
+        "Healthy leaves have a clean, waxy surface; powdery mildew appears as white, felt-like patches on leaves, shoots, and blossoms.",
+        "Healthy new growth is vigorous and green; mildew-infected shoots are often stunted, curled, and covered in the white mycelium.",
+        "Healthy fruit skin is smooth; powdery mildew can cause a net-like russeting on the fruit surface."
+      ]
+    },
+    {
+      "condition_name": "cedar apple rust",
+      "condition_id": "apple.fungal.cedar_apple_rust",
+      "key_differences": [
+        "Healthy leaves have no spots; cedar apple rust produces bright, conspicuous orange-yellow spots on the upper leaf surface.",
+        "The underside of a healthy leaf is plain; rust spots develop small, black specks (spermogonia) and later, tube-like structures (aecia) on the underside.",
+        "Healthy fruit is unblemished; rust lesions can appear on fruit, typically near the calyx end, as orange, slightly raised spots."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Select resistant cultivars.",
+      "Ensure proper plant spacing for good air circulation.",
+      "Maintain balanced soil fertility and pH.",
+      "Use proper pruning techniques to open the canopy.",
+      "Provide adequate and consistent irrigation, avoiding overhead watering."
+    ],
+    "biological": [],
+    "chemical": [],
+    "notes": "Management for a healthy plant focuses on preventative practices and maintaining optimal growing conditions to reduce susceptibility to future diseases."
+  }
+}

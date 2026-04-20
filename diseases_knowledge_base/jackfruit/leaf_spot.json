@@ -1,0 +1,141 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "jackfruit.disease_fungal.leaf_spot",
+  "aliases": [
+    "Phomopsis leaf spot of jackfruit",
+    "Fungal leaf spot of jackfruit"
+  ],
+  "crop": {
+    "common_name": "jackfruit",
+    "scientific_name": "Artocarpus heterophyllus",
+    "family": "Moraceae"
+  },
+  "condition": {
+    "common_name": "leaf spot",
+    "scientific_name": "Phomopsis artocarpina",
+    "alt_names": [
+      "Phomopsis leaf spot"
+    ],
+    "pathogen": {
+      "type": "disease_fungal",
+      "taxonomy": {
+        "kingdom": "Fungi",
+        "phylum": "Ascomycota",
+        "class": "Dothideomycetes",
+        "order": "Diaporthales",
+        "family": "Diaporthaceae",
+        "genus": "Phomopsis",
+        "species": "artocarpina"
+      }
+    }
+  },
+  "issue_type": "disease_fungal",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [
+      "wind-driven rain",
+      "water splash",
+      "contaminated pruning tools"
+    ],
+    "overwintering": [
+      "infected leaf debris on the ground",
+      "dormant mycelium in lesions on twigs"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "prolonged leaf wetness",
+      "high humidity",
+      "poor air circulation in the canopy",
+      "frequent rainfall during warm weather"
+    ],
+    "temp_c_day": [
+      24,
+      30
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      85,
+      100
+    ],
+    "leaf_wetness_hours_threshold": 8
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "1-10% of leaf area affected; few, scattered lesions, no significant yellowing.",
+    "moderate": "11-40% of leaf area affected; multiple lesions, some may be coalescing, minor leaf yellowing present.",
+    "severe": ">40% of leaf area affected; extensive lesion coverage forming large necrotic patches, significant yellowing, and potential for premature leaf drop.",
+    "notes": "Severity is estimated based on the percentage of the total leaf surface covered by spots and associated chlorosis/necrosis on a representative, fully expanded leaf."
+  },
+  "symptoms": {
+    "leaves": [
+      "Initial spots are small, circular, and yellowish to light brown.",
+      "Lesions expand to become irregular or angular, sometimes limited by leaf veins.",
+      "Mature spots develop a characteristic grayish-tan to white center.",
+      "A distinct, dark brown or purplish border surrounds the necrotic center.",
+      "A diffuse yellow halo may be present around the lesion border.",
+      "Tiny black dots (pycnidia) may be visible with a hand lens in the center of older lesions.",
+      "In severe infections, multiple lesions coalesce to form large, blighted areas.",
+      "Affected leaves may turn yellow (chlorosis) and drop prematurely, leading to defoliation."
+    ],
+    "stems": [
+      "Lesions on young twigs are rare but can appear as small, sunken, dark spots."
+    ],
+    "fruit": [
+      "Fruit infection is uncommon, but may present as small, circular, sunken, dark lesions on the rind."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Reduced plant vigor and sparse canopy in cases of severe, chronic infection and defoliation."
+    ],
+    "signs_microscopic_or_visible": [
+      "Visible sign: small, black, flask-shaped fruiting bodies (pycnidia) embedded in the necrotic tissue of the lesion center."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "anthracnose",
+      "condition_id": "jackfruit.disease_fungal.anthracnose",
+      "key_differences": [
+        "Anthracnose lesions are typically darker brown to black, more sunken, and may show concentric rings ('target spot' appearance).",
+        "Anthracnose often causes a more severe blight on young leaves and shoots, leading to distortion and dieback.",
+        "Under humid conditions, anthracnose lesions may produce visible pinkish-orange spore masses (acervuli), which are absent in this leaf spot."
+      ]
+    },
+    {
+      "condition_name": "phyllosticta",
+      "condition_id": "jackfruit.disease_fungal.phyllosticta",
+      "key_differences": [
+        "Phyllosticta spots are often larger, more consistently circular, and have a more papery, light tan-colored center.",
+        "The dark border on Phyllosticta lesions can be more pronounced, wider, and more sharply defined.",
+        "The black pycnidia (fruiting bodies) in Phyllosticta may be larger and more prominent within the lesion center."
+      ]
+    },
+    {
+      "condition_name": "algal_leaf_spot",
+      "condition_id": "jackfruit.physiological_symptom.algal_leaf_spot",
+      "key_differences": [
+        "Algal spots are superficial and have a raised, velvety, or crusty texture, whereas fungal spots are necrotic and can be sunken.",
+        "Algal spots are typically greenish-gray to orange-red in color, not brown or tan with a dark border.",
+        "Algal spots do not cause the leaf tissue to die or develop a surrounding yellow halo."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Prune the tree canopy to improve air circulation and sunlight penetration.",
+      "Rake and destroy fallen infected leaves to reduce pathogen inoculum.",
+      "Use drip or furrow irrigation instead of overhead sprinklers to keep foliage dry.",
+      "Maintain balanced plant nutrition to enhance tree vigor and disease resistance."
+    ],
+    "biological": [
+      "Applications of products containing *Bacillus subtilis* or *Trichoderma* spp. may help suppress the pathogen as a preventative measure."
+    ],
+    "chemical": [
+      "Apply protective fungicides containing copper hydroxide, mancozeb, or chlorothalonil before or during the rainy season.",
+      "Ensure thorough spray coverage on both upper and lower leaf surfaces.",
+      "Alternate fungicide chemistries to prevent the development of resistance."
+    ],
+    "notes": "Management is most effective when integrating cultural practices with preventative chemical applications during high-risk periods."
+  }
+}

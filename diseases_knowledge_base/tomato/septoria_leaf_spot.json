@@ -1,0 +1,144 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "tomato.disease_fungal.septoria_leaf_spot",
+  "aliases": [
+    "Septoria blight"
+  ],
+  "crop": {
+    "common_name": "tomato",
+    "scientific_name": "Solanum lycopersicum",
+    "family": "Solanaceae"
+  },
+  "condition": {
+    "common_name": "septoria leaf spot",
+    "scientific_name": "Septoria lycopersici",
+    "alt_names": [],
+    "pathogen": {
+      "type": "disease_fungal",
+      "taxonomy": {
+        "kingdom": "Fungi",
+        "phylum": "Ascomycota",
+        "class": "Dothideomycetes",
+        "order": "Capnodiales",
+        "family": "Mycosphaerellaceae",
+        "genus": "Septoria",
+        "species": "lycopersici"
+      }
+    }
+  },
+  "issue_type": "disease_fungal",
+  "transmission": {
+    "vectors": [
+      "human activity (tools, hands)",
+      "insects (e.g., beetles)"
+    ],
+    "dispersal": [
+      "rain splash",
+      "wind-driven rain",
+      "overhead irrigation"
+    ],
+    "overwintering": [
+      "infected plant debris",
+      "on solanaceous weeds (e.g., nightshade)",
+      "on stakes and equipment"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "prolonged leaf wetness",
+      "high humidity",
+      "dense plant canopy",
+      "poor air circulation",
+      "overhead irrigation"
+    ],
+    "temp_c_day": [
+      20,
+      25
+    ],
+    "temp_c_night": [
+      15,
+      20
+    ],
+    "relative_humidity_pct": [
+      85,
+      100
+    ],
+    "leaf_wetness_hours_threshold": 48
+  },
+  "severity_rubric": {
+    "unit": "qualitative",
+    "mild": "Few, scattered lesions (1-10 per leaf), primarily on the lowest leaves. No significant yellowing or defoliation.",
+    "moderate": "Numerous lesions on lower and middle leaves. Affected leaves show significant chlorosis (yellowing) around spots. Minor defoliation of the lowest leaves begins.",
+    "severe": "Lesions are widespread, coalescing on lower and middle leaves, and appearing on upper leaves. Significant defoliation is occurring from the bottom of the plant upwards. Stems may have lesions.",
+    "notes": "Severity is assessed by the vertical progression of the disease up the plant and the degree of associated yellowing and leaf drop."
+  },
+  "symptoms": {
+    "leaves": [
+      "Starts on lower, older leaves and progresses upwards.",
+      "Initial symptoms are small, water-soaked spots (1-2 mm).",
+      "Lesions develop into circular spots (3-6 mm) with dark brown or purplish-brown borders.",
+      "Mature lesion centers are typically tan, gray, or white.",
+      "Numerous spots may appear on a single leaf, giving it a blighted appearance.",
+      "Heavily infected leaves turn yellow (chlorotic), wither, and drop off.",
+      "Lesions do not typically have a 'target' or concentric ring pattern."
+    ],
+    "stems": [
+      "Lesions on stems are less common but can occur.",
+      "Stem spots are similar to leaf spots: small, circular, with gray centers."
+    ],
+    "fruit": [
+      "Fruit infection is rare but possible.",
+      "Spots on fruit are typically small and do not cause significant rot."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Progressive defoliation from the bottom up is a key characteristic.",
+      "Severe defoliation can expose fruit to sunscald."
+    ],
+    "signs_microscopic_or_visible": [
+      "Tiny, black specks (pycnidia) are visible in the center of mature lesions, often requiring a hand lens.",
+      "Pycnidia are the fruiting bodies of the fungus."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "early blight",
+      "condition_id": "tomato.disease_fungal.early_blight",
+      "key_differences": [
+        "Lesions are larger (>6 mm) and often have a distinct 'target-like' appearance with concentric rings.",
+        "A yellow halo is often prominent around early blight lesions.",
+        "Early blight lesions are fewer in number per leaf compared to the numerous spots of Septoria.",
+        "Early blight also causes distinct 'collar rot' at the soil line on seedlings."
+      ]
+    },
+    {
+      "condition_name": "bacterial spot",
+      "condition_id": "tomato.disease_bacterial.bacterial_spot",
+      "key_differences": [
+        "Lesions are often angular, limited by small leaf veins, rather than circular.",
+        "Bacterial spots may appear greasy or water-soaked, especially when young.",
+        "Lesion centers may fall out, creating a 'shot-hole' effect.",
+        "Bacterial spot lacks the characteristic tiny black pycnidia found in Septoria lesions."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Use certified disease-free seed and transplants.",
+      "Practice crop rotation, avoiding solanaceous crops for 2-3 years.",
+      "Remove and destroy infected plant debris after harvest.",
+      "Improve air circulation by staking, pruning, and proper plant spacing.",
+      "Use drip irrigation or soaker hoses to avoid wetting foliage.",
+      "Mulch around base of plants to reduce soil splash."
+    ],
+    "biological": [
+      "Application of biofungicides containing *Bacillus subtilis* or other beneficial microbes can suppress the disease."
+    ],
+    "chemical": [
+      "Apply fungicides containing chlorothalonil, mancozeb, or copper compounds preventatively.",
+      "Begin applications when conditions are favorable for disease, before symptoms are severe.",
+      "Rotate fungicide classes to prevent resistance."
+    ],
+    "notes": "An integrated pest management (IPM) approach combining cultural, biological, and chemical strategies is most effective."
+  }
+}

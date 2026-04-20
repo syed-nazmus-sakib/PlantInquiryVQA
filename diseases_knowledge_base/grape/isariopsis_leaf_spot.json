@@ -1,0 +1,138 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "grape.disease_fungal.isariopsis_leaf_spot",
+  "aliases": [
+    "angular leaf spot",
+    "grapevine leaf spot"
+  ],
+  "crop": {
+    "common_name": "grape",
+    "scientific_name": "Vitis spp.",
+    "family": "Vitaceae"
+  },
+  "condition": {
+    "common_name": "isariopsis leaf spot",
+    "scientific_name": "Pseudocercospora vitis",
+    "alt_names": [
+      "Isariopsis vitis"
+    ],
+    "pathogen": {
+      "type": "disease_fungal",
+      "taxonomy": {
+        "kingdom": "Fungi",
+        "phylum": "Ascomycota",
+        "class": "Dothideomycetes",
+        "order": "Capnodiales",
+        "family": "Mycosphaerellaceae",
+        "genus": "Pseudocercospora",
+        "species": "vitis"
+      }
+    }
+  },
+  "issue_type": "disease_fungal",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [
+      "rain-splash",
+      "wind"
+    ],
+    "overwintering": [
+      "infected fallen leaves",
+      "lesions on dormant canes"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "high humidity",
+      "frequent rainfall",
+      "poor air circulation in canopy",
+      "warm temperatures"
+    ],
+    "temp_c_day": [
+      20,
+      30
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      85,
+      100
+    ],
+    "leaf_wetness_hours_threshold": 8
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "<5% of leaf area affected on symptomatic leaves.",
+    "moderate": "5-25% of leaf area affected, with some lesions coalescing.",
+    "severe": ">25% of leaf area affected, often leading to premature yellowing and defoliation.",
+    "notes": "Severity is assessed on individual, fully expanded leaves showing symptoms. For whole-plant assessment, consider the percentage of leaves showing symptoms."
+  },
+  "symptoms": {
+    "leaves": [
+      "Initial lesions are small, dark brown to black spots on the upper leaf surface.",
+      "Lesions enlarge to become irregular or angular, often bounded by leaf veins.",
+      "Spots are typically dark brown, reddish-brown, or black throughout, lacking a distinct border.",
+      "A faint yellow halo may surround some lesions.",
+      "On the lower leaf surface, lesions appear as a sooty or dusty greyish-black patch.",
+      "In severe cases, lesions may merge (coalesce) to form large necrotic areas.",
+      "Infected leaves may turn yellow (chlorotic) and drop prematurely."
+    ],
+    "stems": [
+      "Elongated, dark brown to black lesions may appear on young shoots and petioles."
+    ],
+    "fruit": [
+      "Fruit infection is rare, but small, superficial dark flecks can occur on berries."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Severe infections can cause significant defoliation, reducing vine vigor."
+    ],
+    "signs_microscopic_or_visible": [
+      "Visible sign is the characteristic sooty, dark grey to olive-brown fungal growth (conidiophores and conidia) on the underside of leaf lesions."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "black rot",
+      "condition_id": "grape.disease_fungal.black_rot",
+      "key_differences": [
+        "Black rot lesions are circular with a distinct dark brown border and a tan-to-light-brown center; Isariopsis spots are more uniformly dark and angular.",
+        "Black rot lesions contain tiny, black, pimple-like structures (pycnidia) often arranged in a ring, which are absent in Isariopsis.",
+        "Isariopsis produces a sooty grey-black growth on the lesion underside; black rot does not have this sign on leaf lesions."
+      ]
+    },
+    {
+      "condition_name": "downy mildew",
+      "condition_id": "grape.disease_oomycete.downy_mildew",
+      "key_differences": [
+        "Downy mildew lesions begin as yellow, oily-looking spots on the upper leaf surface, while Isariopsis spots are dark brown/black from the start.",
+        "Downy mildew produces a distinct, fluffy white fungal growth on the lesion underside in humid conditions, contrasting with the dark, sooty growth of Isariopsis.",
+        "While both can be angular, the initial color and the sign on the leaf underside are primary differentiators."
+      ]
+    },
+    {
+      "condition_name": "anthracnose",
+      "condition_id": "grape.disease_fungal.anthracnose",
+      "key_differences": [
+        "Anthracnose lesions are often called 'bird's-eye spots' with a sunken, greyish center and a raised, dark purplish-black border.",
+        "Anthracnose lesions frequently cause a 'shot-hole' effect as the necrotic center falls out; this is uncommon for Isariopsis.",
+        "Anthracnose causes more severe symptoms on shoots and berries, including distinct cankers and sunken spots, compared to the less common stem lesions of Isariopsis."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Improve air circulation via proper pruning, trellising, and leaf removal.",
+      "Practice good sanitation by removing and destroying fallen leaves and debris in the fall.",
+      "Select planting sites with good sun exposure and air drainage to promote rapid drying of foliage."
+    ],
+    "biological": [
+      "Bio-fungicides containing *Bacillus subtilis* or *Trichoderma* species may provide some suppression when applied preventatively."
+    ],
+    "chemical": [
+      "Apply preventative fungicides, especially during periods of warm, wet weather.",
+      "Fungicide classes such as strobilurins (FRAC 11), DMIs (FRAC 3), and broad-spectrum protectants like mancozeb (FRAC M3) are effective.",
+      "Rotate fungicide chemistries to prevent resistance development."
+    ],
+    "notes": "Management is often integrated with programs for other common fungal diseases like black rot and downy mildew."
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "apple.disease_fungal.scab",
+  "aliases": [
+    "apple scab",
+    "black spot"
+  ],
+  "crop": {
+    "common_name": "apple",
+    "scientific_name": "Malus domestica",
+    "family": "Rosaceae"
+  },
+  "condition": {
+    "common_name": "scab",
+    "scientific_name": "Venturia inaequalis",
+    "alt_names": [
+      "black spot"
+    ],
+    "pathogen": {
+      "type": "disease_fungal",
+      "taxonomy": {
+        "kingdom": "Fungi",
+        "phylum": "Ascomycota",
+        "class": "Dothideomycetes",
+        "order": "Venturiales",
+        "family": "Venturiaceae",
+        "genus": "Venturia",
+        "species": "inaequalis"
+      }
+    }
+  },
+  "issue_type": "disease_fungal",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [
+      "wind-driven rain",
+      "splashing water",
+      "airborne ascospores"
+    ],
+    "overwintering": [
+      "infected fallen leaves on the orchard floor (as pseudothecia)",
+      "lesions on twigs and bud scales"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "prolonged leaf wetness periods",
+      "cool, wet spring weather",
+      "high relative humidity",
+      "poor air circulation within the tree canopy"
+    ],
+    "temp_c_day": [
+      16,
+      24
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      95,
+      100
+    ],
+    "leaf_wetness_hours_threshold": 9
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "1-5% of leaf or fruit surface affected; a few isolated lesions.",
+    "moderate": "6-25% of leaf or fruit surface affected; multiple lesions, some may be coalescing.",
+    "severe": ">25% of leaf or fruit surface affected; extensive lesions, significant leaf yellowing/defoliation, or fruit distortion/cracking.",
+    "notes": "Severity is assessed on individual leaves/fruit or as an average across the canopy. For fruit, severity can also be rated by the degree of cracking and deformation."
+  },
+  "symptoms": {
+    "leaves": [
+      "Initially, pale yellow or olive-green spots on the upper leaf surface.",
+      "Lesions darken to a velvety, olive-brown, then black, often with a feathery, indistinct margin.",
+      "Spots become more defined and circular with age.",
+      "Infected leaves may become distorted, curled, or dwarfed.",
+      "Severe infections cause premature leaf yellowing (chlorosis) and defoliation, typically starting from lower branches."
+    ],
+    "stems": [
+      "Small, blister-like lesions can form on young twigs, becoming rough and corky over time (less common)."
+    ],
+    "fruit": [
+      "Small, circular, velvety olive-green spots appear on young fruit.",
+      "Lesions on maturing fruit become dark brown to black, corky, and raised, creating a 'scabby' texture.",
+      "The skin beneath the scab may stop growing, causing the fruit to become misshapen or cracked.",
+      "Cracks in fruit can provide an entry point for secondary rot organisms."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Reduced tree vigor and significant yield loss in severe, untreated cases."
+    ],
+    "signs_microscopic_or_visible": [
+      "A velvety, olive-green to brown layer of sporulation (conidia) is visible on the surface of active lesions."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "black_rot",
+      "condition_id": "apple.disease_fungal.black_rot",
+      "key_differences": [
+        "Black rot lesions ('frogeye leaf spot') have distinct concentric rings, which scab lesions lack.",
+        "Black rot spots are typically tan to brown in the center with a purple border, unlike the uniform olive-green/black of scab.",
+        "Black rot lesions may contain tiny black dots (pycnidia) in the center; scab lesions are velvety."
+      ]
+    },
+    {
+      "condition_name": "cedar_apple_rust",
+      "condition_id": "apple.disease_fungal.cedar_apple_rust",
+      "key_differences": [
+        "Rust spots are bright orange-yellow, often with a reddish border, not olive-green or black.",
+        "Rust may produce tiny cup-like structures (aecia) on the underside of the leaf, which are absent in scab.",
+        "Scab causes velvety or corky lesions, while rust spots are smooth initially and may cause a thickened gall on the leaf or fruit."
+      ]
+    },
+    {
+      "condition_name": "alternaria_blotch",
+      "condition_id": "apple.disease_fungal.alternaria_blotch",
+      "key_differences": [
+        "Alternaria blotch lesions are often irregular, brownish, and can have a necrotic, papery texture, sometimes with a purplish halo.",
+        "Scab lesions are more distinctly circular or oval and have a velvety texture in early stages.",
+        "Alternaria blotch is often associated with mite injury and is more common on specific cultivars like Delicious."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Plant resistant cultivars.",
+      "Prune trees to improve air circulation and sunlight penetration, which speeds drying.",
+      "Rake and destroy or compost fallen leaves in autumn to reduce the primary source of inoculum.",
+      "Maintain proper tree nutrition and irrigation to improve overall plant health."
+    ],
+    "biological": [
+      "Application of microbial-based products (e.g., specific strains of *Bacillus subtilis*) can suppress pathogen growth on leaf surfaces."
+    ],
+    "chemical": [
+      "Apply preventative and curative fungicides based on disease prediction models (e.g., using temperature and leaf wetness duration).",
+      "Proper timing of sprays is critical, beginning at the green tip stage and continuing through early summer.",
+      "Rotate fungicide classes (FRAC groups) to manage and prevent the development of fungicide resistance."
+    ],
+    "notes": "An Integrated Pest Management (IPM) strategy that combines cultural practices with predictive modeling and targeted fungicide applications is the most effective and sustainable approach."
+  }
+}

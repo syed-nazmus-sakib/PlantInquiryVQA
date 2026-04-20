@@ -1,0 +1,129 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "cucumber.disease_bacterial.bacterial_wilt",
+  "aliases": [
+    "Cucurbit bacterial wilt"
+  ],
+  "crop": {
+    "common_name": "cucumber",
+    "scientific_name": "Cucumis sativus",
+    "family": "Cucurbitaceae"
+  },
+  "condition": {
+    "common_name": "Bacterial Wilt",
+    "scientific_name": "Erwinia tracheiphila",
+    "alt_names": [],
+    "pathogen": {
+      "type": "bacterium",
+      "taxonomy": {
+        "kingdom": "Bacteria",
+        "phylum": "Proteobacteria",
+        "class": "Gammaproteobacteria",
+        "order": "Enterobacterales",
+        "family": "Erwiniaceae",
+        "genus": "Erwinia",
+        "species": "tracheiphila"
+      }
+    }
+  },
+  "issue_type": "disease_bacterial",
+  "transmission": {
+    "vectors": [
+      "striped cucumber beetle (Acalymma vittatum)",
+      "spotted cucumber beetle (Diabrotica undecimpunctata howardi)"
+    ],
+    "dispersal": [
+      "Vector feeding activity"
+    ],
+    "overwintering": [
+      "In the digestive tracts of adult cucumber beetles"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "High populations of cucumber beetle vectors",
+      "Warm temperatures favoring beetle activity",
+      "Planting susceptible cultivars"
+    ],
+    "temp_c_day": [
+      24,
+      32
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "qualitative",
+    "mild": "One or two runners show wilting during the heat of the day, but may partially recover at night. Plant is still mostly upright.",
+    "moderate": "Multiple runners or a significant portion of the plant (>30%) is permanently wilted and does not recover.",
+    "severe": "The entire plant is collapsed, wilted, and dying or dead.",
+    "notes": "Severity is based on the proportion of the plant showing irreversible wilting. Since the disease is systemic and vectored, leaf wetness is not a primary infection factor; a value of 0 is used as a placeholder."
+  },
+  "symptoms": {
+    "leaves": [
+      "Individual leaves suddenly wilt, appearing limp and dull green.",
+      "Wilting occurs rapidly without significant prior yellowing or spotting.",
+      "Affected leaves eventually turn necrotic and brown but remain attached to the vine.",
+      "Wilting often starts on a single leaf before spreading to the entire runner."
+    ],
+    "stems": [
+      "Entire vines (runners) wilt, often starting from the tip and progressing towards the base.",
+      "Stems appear healthy externally, even when attached leaves are fully wilted.",
+      "A cut stem, when squeezed, may exude a sticky, whitish bacterial slime."
+    ],
+    "fruit": [
+      "Fruit on affected vines may be small, shriveled, or misshapen.",
+      "Infection often kills the plant before significant fruit can develop."
+    ],
+    "roots": [
+      "Roots remain healthy in appearance as the infection is confined to the vascular (xylem) tissue of the stems."
+    ],
+    "whole_plant": [
+      "Sudden and irreversible wilting of one or more runners.",
+      "Rapid collapse of the entire plant, often within a week of first symptoms.",
+      "Wilting occurs even when soil moisture is adequate."
+    ],
+    "signs_microscopic_or_visible": [
+      "A sticky, stringy bacterial ooze can be seen when a freshly cut infected stem is pressed together and slowly pulled apart."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "Gummy Stem Blight",
+      "condition_id": "cucumber.disease_fungal.gummy_stem_blight",
+      "key_differences": [
+        "Gummy stem blight causes distinct tan cankers or lesions on the stem, often exuding an amber-colored gummy substance; bacterial wilt does not cause stem cankers.",
+        "The wilting from gummy stem blight is often slower and directly associated with a girdling stem canker, whereas bacterial wilt is a rapid, systemic wilt.",
+        "The bacterial ooze test is positive for bacterial wilt and negative for gummy stem blight.",
+        "Gummy stem blight can also cause large, circular, water-soaked leaf spots, which are absent in bacterial wilt."
+      ]
+    },
+    {
+      "condition_name": "Anthracnose",
+      "condition_id": "cucumber.disease_fungal.anthracnose",
+      "key_differences": [
+        "Anthracnose causes circular, water-soaked leaf spots that turn dark and may develop a 'shot-hole' appearance; bacterial wilt causes wilting of whole leaves without spots.",
+        "Anthracnose produces sunken, dark, circular lesions on fruit, a symptom not caused by bacterial wilt.",
+        "Vine decline from anthracnose is associated with visible stem cankers, unlike the clean wilt from bacterial wilt."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Control cucumber beetle populations from the moment seedlings emerge.",
+      "Use floating row covers to physically exclude beetles, removing them at flowering to allow for pollination.",
+      "Remove and destroy infected plants immediately to reduce the source of bacteria for beetles to spread.",
+      "Plant a trap crop of a highly attractive cucurbit variety on the field perimeter before planting the main crop."
+    ],
+    "biological": [
+      "Encourage natural predators of cucumber beetles."
+    ],
+    "chemical": [
+      "Apply insecticides targeted at cucumber beetles, especially during the seedling and early vine-running stages.",
+      "Perimeter trap-crop spraying can reduce insecticide use on the main crop.",
+      "Consult local extension service recommendations for registered and effective products."
+    ],
+    "notes": "Management is entirely focused on preventing the cucumber beetle vector from feeding and transmitting the bacteria. There is no cure for an infected plant."
+  }
+}

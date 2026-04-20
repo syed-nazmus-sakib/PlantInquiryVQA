@@ -1,0 +1,125 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "jackfruit.disease_fungal.phyllosticta",
+  "aliases": [
+    "Phyllosticta leaf spot of jackfruit",
+    "Jackfruit leaf spot"
+  ],
+  "crop": {
+    "common_name": "jackfruit",
+    "scientific_name": "Artocarpus heterophyllus",
+    "family": "Moraceae"
+  },
+  "condition": {
+    "common_name": "Phyllosticta leaf spot",
+    "scientific_name": "Phyllosticta artocarpina",
+    "alt_names": [],
+    "pathogen": {
+      "type": "disease_fungal",
+      "taxonomy": {
+        "kingdom": "Fungi",
+        "phylum": "Ascomycota",
+        "class": "Dothideomycetes",
+        "order": "Botryosphaeriales",
+        "family": "Phyllostictaceae",
+        "genus": "Phyllosticta",
+        "species": "artocarpina"
+      }
+    }
+  },
+  "issue_type": "disease_fungal",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [
+      "rain splash",
+      "wind-driven rain",
+      "contaminated pruning tools"
+    ],
+    "overwintering": [
+      "infected leaf debris on the ground",
+      "dormant mycelium in existing lesions on attached leaves and twigs"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "high humidity",
+      "prolonged leaf wetness",
+      "dense canopy with poor air circulation",
+      "frequent rainfall"
+    ],
+    "temp_c_day": [
+      24,
+      30
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      85,
+      100
+    ],
+    "leaf_wetness_hours_threshold": 8
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "1-5% of leaf area affected. Few, scattered lesions, typically less than 10 per mature leaf.",
+    "moderate": "6-25% of leaf area affected. Multiple lesions are present, some may begin to coalesce. Minor chlorosis (yellowing) may appear around spots.",
+    "severe": ">25% of leaf area affected. Numerous lesions coalesce into large necrotic blotches. Significant chlorosis and premature leaf drop (defoliation) is likely.",
+    "notes": "Assessment should be based on the average symptomatic area across several mature leaves on a branch, not just the single worst leaf."
+  },
+  "symptoms": {
+    "leaves": [
+      "Initial symptoms are small, circular, yellowish spots on the leaf lamina.",
+      "Spots enlarge over time, becoming circular to slightly irregular, up to 1 cm in diameter.",
+      "Mature lesions develop a characteristic pale, grayish-white or tan center.",
+      "A distinct, raised, dark brown to purplish-black border sharply delineates the necrotic center.",
+      "Tiny, black, dot-like fungal fruiting bodies (pycnidia) are often visible in the pale center, sometimes in a concentric ring pattern.",
+      "A diffuse yellow halo may surround the entire lesion.",
+      "In severe infections, multiple spots may merge (coalesce) to form large, irregular dead patches.",
+      "Heavily infected leaves may become distorted, curl, and fall prematurely."
+    ],
+    "stems": [],
+    "fruit": [],
+    "roots": [],
+    "whole_plant": [],
+    "signs_microscopic_or_visible": [
+      "Presence of black pycnidia (fruiting bodies) in the center of mature lesions, which can be seen with the naked eye or a hand lens."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "Anthracnose",
+      "condition_id": "jackfruit.disease_fungal.anthracnose",
+      "key_differences": [
+        "Anthracnose lesions are typically darker brown to black, often sunken, and may appear water-soaked, especially on young tissues.",
+        "Phyllosticta spots have a more defined, pale gray or white center with a sharp, dark border, a combination less common in anthracnose.",
+        "Under humid conditions, anthracnose can produce salmon-pink spore masses (acervuli) in lesions, whereas Phyllosticta produces tiny black dots (pycnidia).",
+        "Anthracnose commonly affects fruit, causing rot, which is not a primary symptom of Phyllosticta leaf spot."
+      ]
+    },
+    {
+      "condition_name": "Algal Leaf Spot",
+      "condition_id": "jackfruit.disease_other.algal_leaf_spot",
+      "key_differences": [
+        "Algal spots are superficial and have a raised, velvety, or crusty texture, unlike the flat, necrotic tissue of Phyllosticta lesions.",
+        "The color of algal spots is typically greenish-gray to rusty orange, lacking the distinct pale center and dark border of Phyllosticta.",
+        "Algal spots are colonies growing on the leaf surface and can often be physically scraped off, whereas Phyllosticta lesions are dead tissue integral to the leaf."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Practice good field sanitation by removing and destroying fallen leaves and infected plant debris.",
+      "Prune trees to improve air circulation and sunlight penetration within the canopy, which helps leaves dry faster.",
+      "Avoid overhead irrigation that wets foliage for extended periods; use drip or soaker hoses instead.",
+      "Maintain plant vigor with balanced fertilization and proper watering, as stressed plants are more susceptible."
+    ],
+    "biological": [
+      "Applications of bio-fungicides containing strains of *Bacillus subtilis* or *Trichoderma* spp. may help suppress the pathogen."
+    ],
+    "chemical": [
+      "Apply protective fungicides, such as those containing copper hydroxide, mancozeb, or chlorothalonil, during periods of high risk (e.g., rainy season).",
+      "Ensure thorough spray coverage on both upper and lower leaf surfaces.",
+      "Alternate fungicides with different modes of action to prevent the development of pathogen resistance."
+    ],
+    "notes": "Management should focus on preventative cultural practices. Chemical intervention is typically only warranted in commercial settings where disease pressure is high and impacting tree health or yield."
+  }
+}

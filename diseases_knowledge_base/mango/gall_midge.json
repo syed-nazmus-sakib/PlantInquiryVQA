@@ -1,0 +1,136 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "mango.pest_insect.gall_midge",
+  "aliases": [
+    "mango inflorescence midge",
+    "mango blossom midge",
+    "mango leaf gall midge"
+  ],
+  "crop": {
+    "common_name": "mango",
+    "scientific_name": "Mangifera indica",
+    "family": "Anacardiaceae"
+  },
+  "condition": {
+    "common_name": "gall midge",
+    "scientific_name": "Procontarinia spp.",
+    "alt_names": [
+      "mango midge",
+      "mango blossom gall midge"
+    ],
+    "pathogen": {
+      "type": "insect",
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Arthropoda",
+        "class": "Insecta",
+        "order": "Diptera",
+        "family": "Cecidomyiidae",
+        "genus": "Procontarinia",
+        "species": ""
+      }
+    }
+  },
+  "issue_type": "pest_insect",
+  "transmission": {
+    "vectors": [
+      "Adult midges (flying)"
+    ],
+    "dispersal": [
+      "Wind",
+      "Movement of infested plant material"
+    ],
+    "overwintering": [
+      "Pupae in the soil under the tree canopy",
+      "Larvae within fallen leaves and galls"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "High humidity",
+      "Warm temperatures coinciding with new vegetative flushes or flowering",
+      "Presence of overlapping mango flowering seasons in an area",
+      "Lack of orchard sanitation"
+    ],
+    "temp_c_day": [
+      25,
+      32
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      70,
+      90
+    ],
+    "leaf_wetness_hours_threshold": 10
+  },
+  "severity_rubric": {
+    "unit": "qualitative",
+    "mild": "Few scattered galls on leaves or inflorescence; less than 10% of new shoots or panicles affected.",
+    "moderate": "Multiple galls visible on many new shoots or panicles; 10-40% of panicles show damage, some flower drop is evident.",
+    "severe": "Widespread gall formation on most new growth and panicles; >40% of panicles are affected, leading to significant flower drop, panicle drying, and poor fruit set.",
+    "notes": "Severity is assessed by the percentage of new flushes (leaves, stems, or inflorescences) showing characteristic galls or larval damage, as this directly impacts vegetative growth and fruit set."
+  },
+  "symptoms": {
+    "leaves": [
+      "Small, raised, blister-like or pimple-like galls on young leaves.",
+      "Galls are initially greenish-yellow and later turn brown or black and necrotic.",
+      "Leaves may become crinkled, distorted, or curled due to gall formation.",
+      "A tiny circular exit hole may be visible on the gall after the adult midge emerges."
+    ],
+    "stems": [
+      "Galls can form on tender shoots and new stems, causing localized swelling and distortion.",
+      "Severe infestation on terminal shoots can lead to dieback."
+    ],
+    "fruit": [
+      "Damage primarily occurs to flowers and flower buds, preventing fruit formation.",
+      "Galls on the inflorescence axis and at the base of flowers cause them to dry and drop."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Inflorescences (flower panicles) appear blighted, dried, or 'burnt' from a distance.",
+      "Significant reduction in fruit set due to widespread flower damage and drop."
+    ],
+    "signs_microscopic_or_visible": [
+      "Tiny, maggot-like larvae (creamy white to orange) can be found if galls are carefully dissected.",
+      "Minute, mosquito-like adult midges may be seen swarming near new growth, especially in the early morning."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "anthracnose",
+      "condition_id": "mango.fungal.anthracnose",
+      "key_differences": [
+        "Anthracnose causes dark, sunken, irregular lesions on leaves and flowers, not raised, circular galls.",
+        "Gall midge damage results in a distinct raised or blister-like structure, while anthracnose spots are flat or sunken.",
+        "Under wet conditions, anthracnose lesions on panicles may show pinkish-orange spore masses, which are absent in gall midge damage.",
+        "Anthracnose leaf spots often have a 'shot-hole' appearance as the center dries; galls remain intact until the midge emerges."
+      ]
+    },
+    {
+      "condition_name": "bacterial canker",
+      "condition_id": "mango.bacterial.bacterial_canker",
+      "key_differences": [
+        "Bacterial canker produces angular, water-soaked leaf spots that turn black, not raised, rounded galls.",
+        "On stems, bacterial canker causes cracking and oozing of a gummy substance, whereas gall midge causes distinct swellings (galls).",
+        "Gall midge damage contains a larva within the gall, which can be found by dissection; bacterial canker is a tissue infection without an insect."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Prune and destroy infested plant parts such as galled leaves, shoots, and panicles.",
+      "Maintain good orchard sanitation by collecting and burning fallen leaves and debris to destroy pupae.",
+      "Avoid excessive nitrogen fertilization, which promotes excessive, susceptible new flushes.",
+      "Synchronize flowering within the orchard to shorten the period of tissue susceptibility."
+    ],
+    "biological": [
+      "Conserve and encourage natural enemies like parasitoid wasps (e.g., Platygaster spp., Systasis spp.) and predators like ants and spiders."
+    ],
+    "chemical": [
+      "Apply appropriate systemic or contact insecticides during new flush emergence or flowering stages.",
+      "Timing of sprays is critical and should target adult midges before egg-laying.",
+      "Monitor pest populations using traps or visual inspection to determine the need for and timing of chemical applications."
+    ],
+    "notes": "An Integrated Pest Management (IPM) approach is most effective, combining cultural and biological controls with judicious, well-timed chemical applications to minimize impact on pollinators."
+  }
+}

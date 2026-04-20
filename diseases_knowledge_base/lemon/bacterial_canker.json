@@ -1,0 +1,146 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "lemon.disease_bacterial.bacterial_canker",
+  "aliases": [
+    "citrus canker",
+    "Asiatic citrus canker"
+  ],
+  "crop": {
+    "common_name": "lemon",
+    "scientific_name": "Citrus limon",
+    "family": "Rutaceae"
+  },
+  "condition": {
+    "common_name": "bacterial canker",
+    "scientific_name": "Xanthomonas citri subsp. citri",
+    "alt_names": [
+      "citrus canker"
+    ],
+    "pathogen": {
+      "type": "disease_bacterial",
+      "taxonomy": {
+        "kingdom": "Bacteria",
+        "phylum": "Pseudomonadota",
+        "class": "Gammaproteobacteria",
+        "order": "Xanthomonadales",
+        "family": "Xanthomonadaceae",
+        "genus": "Xanthomonas",
+        "species": "X. citri subsp. citri"
+      }
+    }
+  },
+  "issue_type": "disease_bacterial",
+  "transmission": {
+    "vectors": [
+      "Citrus leafminer (Phyllocnistis citrella)",
+      "Humans (via contaminated tools, clothing, or equipment)"
+    ],
+    "dispersal": [
+      "Wind-driven rain",
+      "Water splash from irrigation or rain",
+      "Mechanical movement of infected plant material"
+    ],
+    "overwintering": [
+      "In lesions on leaves, twigs, and branches remaining on the tree"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "High rainfall and humidity",
+      "Warm temperatures",
+      "Wounds from wind, thorns, or insect feeding (e.g., citrus leafminer)"
+    ],
+    "temp_c_day": [
+      20,
+      30
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      80,
+      100
+    ],
+    "leaf_wetness_hours_threshold": 6
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "< 5% of leaf area affected with distinct, scattered lesions.",
+    "moderate": "5-25% of leaf area affected; some lesions may coalesce; minor twig dieback possible.",
+    "severe": "> 25% of leaf area affected; extensive lesion coalescence, significant defoliation, twig dieback, and fruit drop.",
+    "notes": "Severity is assessed on the most affected leaves and overall canopy impact. Fruit lesions also contribute to severity, but leaf area is a primary visual indicator for image-based assessment."
+  },
+  "symptoms": {
+    "leaves": [
+      "Small, raised, blister-like lesions appear on both upper and lower leaf surfaces.",
+      "Lesions develop a corky, crater-like center, often appearing rough or scab-like.",
+      "A distinct, water-soaked margin surrounds young lesions.",
+      "A bright yellow halo encircles the entire lesion.",
+      "Lesions can coalesce, leading to large, irregular necrotic areas.",
+      "Severe infections cause premature leaf drop (defoliation).",
+      "The center of older lesions may fall out, creating a 'shot-hole' appearance."
+    ],
+    "stems": [
+      "Raised, corky cankers form on twigs and young branches.",
+      "Stem cankers are visually similar to leaf lesions but may lack a prominent yellow halo.",
+      "Severe stem infections can lead to twig dieback."
+    ],
+    "fruit": [
+      "Raised, corky, crater-like lesions appear on the fruit rind.",
+      "Fruit lesions are surrounded by a water-soaked or oily margin.",
+      "Lesions do not penetrate deep into the fruit pulp but make fruit unmarketable.",
+      "Severe infections cause premature fruit drop."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "General decline, reduced vigor, and sparse foliage in chronically infected trees."
+    ],
+    "signs_microscopic_or_visible": [
+      "Under high humidity, bacterial ooze may be visible from young lesions, but this is not a common field observation."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "citrus leafminer",
+      "condition_id": "lemon.pest_damage.citrus_leafminer",
+      "key_differences": [
+        "Leafminer damage consists of silvery, serpentine (winding) trails or tunnels within the leaf tissue, not circular spots.",
+        "Canker lesions are raised and corky, whereas leafminer trails are sunken or at the leaf surface.",
+        "Leafminer damage often causes severe leaf curling and distortion, which is less typical for canker alone.",
+        "Canker lesions have a distinct yellow halo, which is absent in leafminer trails."
+      ]
+    },
+    {
+      "condition_name": "nutritional deficiency",
+      "condition_id": "lemon.nutritional_deficiency.generic",
+      "key_differences": [
+        "Deficiency symptoms (e.g., yellowing, mottling) are typically symmetrical across the leaf or follow vein patterns (e.g., 'inverted V').",
+        "Canker lesions are discrete, raised, corky spots, often randomly distributed.",
+        "Deficiencies cause changes in color (chlorosis) but do not create raised, crater-like lesions."
+      ]
+    },
+    {
+      "condition_name": "bacterial_spot",
+      "condition_id": "lemon.disease_bacterial.bacterial_spot",
+      "key_differences": [
+        "Bacterial spot lesions are often smaller, darker, and more angular or water-soaked than canker.",
+        "Canker lesions are distinctly raised and have a more prominent corky, crater-like texture.",
+        "The yellow halo around canker is typically more pronounced and consistently present than in bacterial spot."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Plant only certified disease-free nursery stock.",
+      "Prune and destroy infected twigs and branches during dry weather.",
+      "Install windbreaks around orchards to reduce wind speed and rain splash.",
+      "Decontaminate pruning tools and equipment between trees and blocks."
+    ],
+    "biological": [
+      "No widely effective biological control agents are commercially available for canker."
+    ],
+    "chemical": [
+      "Preventative applications of copper-based bactericides are the primary chemical control.",
+      "Sprays should be timed to protect new growth flushes, especially before rainy seasons."
+    ],
+    "notes": "Management is focused on prevention and reducing inoculum. Eradication is difficult once established. The disease is subject to strict quarantine regulations in many citrus-producing regions."
+  }
+}

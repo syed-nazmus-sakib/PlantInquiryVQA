@@ -1,0 +1,143 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "arabian.disease_fungal.jasmine_leaf_spot",
+  "aliases": [
+    "Cercospora leaf spot of jasmine",
+    "Jasmine leaf blotch",
+    "Frog-eye leaf spot"
+  ],
+  "crop": {
+    "common_name": "Arabian Jasmine",
+    "scientific_name": "Jasminum sambac",
+    "family": "Oleaceae"
+  },
+  "condition": {
+    "common_name": "Jasmine Leaf Spot",
+    "scientific_name": "Cercospora jasminicola",
+    "alt_names": [
+      "Cercospora leaf spot"
+    ],
+    "pathogen": {
+      "type": "disease_fungal",
+      "taxonomy": {
+        "kingdom": "Fungi",
+        "phylum": "Ascomycota",
+        "class": "Dothideomycetes",
+        "order": "Capnodiales",
+        "family": "Mycosphaerellaceae",
+        "genus": "Cercospora",
+        "species": "jasminicola"
+      }
+    }
+  },
+  "issue_type": "disease_fungal",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [
+      "Wind-driven rain",
+      "Water splash from irrigation",
+      "Contaminated pruning tools",
+      "Movement of infected plant material"
+    ],
+    "overwintering": [
+      "Infected leaf debris on the ground",
+      "As mycelium in lesions on living plant tissue"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "High humidity",
+      "Poor air circulation",
+      "Overhead irrigation",
+      "Prolonged leaf wetness",
+      "Crowded planting"
+    ],
+    "temp_c_day": [
+      25,
+      30
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      85,
+      95
+    ],
+    "leaf_wetness_hours_threshold": 10
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "< 5% of leaf area affected on symptomatic leaves; spots are few and scattered.",
+    "moderate": "5-25% of leaf area affected; multiple spots present, some may begin to coalesce; minor yellowing of surrounding tissue.",
+    "severe": "> 25% of leaf area affected; large necrotic blotches from coalesced spots; significant leaf yellowing (chlorosis) and premature leaf drop (defoliation) is evident.",
+    "notes": "Severity is assessed on the most affected leaves. Widespread infection across the whole plant increases overall plant-level severity."
+  },
+  "symptoms": {
+    "leaves": [
+      "Starts as small, water-soaked spots on the leaf surface.",
+      "Spots enlarge to become circular or slightly irregular, typically 2-10 mm in diameter.",
+      "Mature lesions develop a characteristic tan, grey, or whitish center.",
+      "A distinct, raised, dark brown or purplish-red border surrounds the lighter center.",
+      "A yellow halo may develop around the lesion border, especially on older leaves.",
+      "Multiple spots can merge (coalesce) to form large, irregular necrotic blotches.",
+      "Tiny, pin-point black dots (stromata) may be visible in the center of older lesions, often requiring a hand lens.",
+      "Heavily infected leaves turn yellow and drop prematurely."
+    ],
+    "stems": [
+      "Lesions on stems are uncommon but can appear as elongated, slightly sunken, dark spots."
+    ],
+    "fruit": [],
+    "roots": [],
+    "whole_plant": [
+      "Reduced plant vigor and a thin, sparse canopy due to defoliation."
+    ],
+    "signs_microscopic_or_visible": [
+      "Under high humidity, a sparse, fuzzy or velvety greyish growth (conidiophores and conidia) may appear in the lesion centers."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "Jasmine Anthracnose",
+      "condition_id": "arabian.disease_fungal.jasmine_anthracnose",
+      "key_differences": [
+        "Anthracnose lesions are often darker brown or black, more sunken, and may show faint concentric rings ('target spot' look).",
+        "Jasmine leaf spot has a more distinct, pale tan or grey 'frog-eye' center with a prominent dark border.",
+        "Anthracnose can cause more severe tip dieback on young shoots and blight on flowers."
+      ]
+    },
+    {
+      "condition_name": "Jasmine Leaf Blight",
+      "condition_id": "arabian.disease_fungal.jasmine_leaf_blight",
+      "key_differences": [
+        "Blight lesions are typically larger, more irregular in shape, and often start at the leaf margin or tip, spreading rapidly.",
+        "Blighted areas often appear water-soaked or scorched and lack the distinct, well-defined border of Cercospora leaf spot.",
+        "Leaf blight causes a more rapid and widespread death of leaf tissue, often affecting the entire leaf quickly."
+      ]
+    },
+    {
+      "condition_name": "Jasmine Pest Damage",
+      "condition_id": "arabian.pest.jasmine_pest_damage",
+      "key_differences": [
+        "Damage from sucking pests like spider mites appears as fine, yellowish stippling, not distinct, bordered spots.",
+        "Chewing insect damage results in holes, skeletonization, or ragged edges, not necrotic lesions.",
+        "Physical evidence of pests, such as webbing, frass, or the insects themselves, will be present, typically on the leaf underside."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Prune to improve air circulation within the plant canopy.",
+      "Use drip irrigation or water at the base of the plant to keep foliage dry.",
+      "Remove and destroy fallen leaves and heavily infected plant parts.",
+      "Ensure proper plant spacing to reduce humidity.",
+      "Maintain plant health with appropriate fertilization to increase resilience."
+    ],
+    "biological": [
+      "Application of bio-fungicides containing *Bacillus subtilis* or *Trichoderma* species can help suppress pathogen growth."
+    ],
+    "chemical": [
+      "Apply preventative fungicides containing active ingredients like chlorothalonil, mancozeb, myclobutanil, or copper compounds.",
+      "Begin applications before or at the first sign of disease, especially during warm, wet weather.",
+      "Rotate fungicides with different modes of action to prevent resistance."
+    ],
+    "notes": "Good cultural practices are the foundation of disease management. Chemical controls are most effective when used preventatively."
+  }
+}

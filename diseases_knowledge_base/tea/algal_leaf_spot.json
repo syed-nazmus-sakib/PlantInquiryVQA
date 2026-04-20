@@ -1,0 +1,144 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "tea.disease_fungal.algal_leaf_spot",
+  "aliases": [
+    "red rust of tea",
+    "algal leaf disease",
+    "Cephaleuros leaf spot"
+  ],
+  "crop": {
+    "common_name": "tea",
+    "scientific_name": "Camellia sinensis",
+    "family": "Theaceae"
+  },
+  "condition": {
+    "common_name": "algal leaf spot",
+    "scientific_name": "Cephaleuros virescens",
+    "alt_names": [
+      "red rust"
+    ],
+    "pathogen": {
+      "type": "disease_fungal",
+      "taxonomy": {
+        "kingdom": "Plantae",
+        "phylum": "Chlorophyta",
+        "class": "Ulvophyceae",
+        "order": "Trentepohliales",
+        "family": "Trentepohliaceae",
+        "genus": "Cephaleuros",
+        "species": "virescens"
+      }
+    }
+  },
+  "issue_type": "disease_fungal",
+  "transmission": {
+    "vectors": [
+      "wind-driven rain",
+      "water splash"
+    ],
+    "dispersal": [
+      "Spores (zoospores) are dispersed by rain splash and wind.",
+      "Contaminated pruning tools can spread the pathogen."
+    ],
+    "overwintering": [
+      "As mycelium-like filaments within lesions on living leaves and stems."
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "High humidity and frequent rainfall",
+      "Poor air circulation within the canopy",
+      "Low soil fertility or plant stress",
+      "Shaded growing conditions"
+    ],
+    "temp_c_day": [
+      25,
+      32
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      80,
+      100
+    ],
+    "leaf_wetness_hours_threshold": 8
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "Less than 5% of the total leaf area of the plant is affected by spots.",
+    "moderate": "5-25% of the total leaf area is affected, with multiple spots per leaf on many leaves.",
+    "severe": "More than 25% of the total leaf area is affected, with spots coalescing and causing premature leaf drop.",
+    "notes": "Severity is estimated by visually assessing the percentage of leaf surface covered by algal spots across the entire plant or a representative branch. The raised, velvety texture is a key characteristic of the lesions being counted."
+  },
+  "symptoms": {
+    "leaves": [
+      "Circular to irregular spots, primarily on the upper leaf surface.",
+      "Lesions are slightly raised from the leaf surface.",
+      "Spots have a distinct velvety or felt-like texture.",
+      "Color is initially greenish-gray, turning yellowish-brown to orange-red.",
+      "A narrow, necrotic border may form around the spot.",
+      "In severe cases, spots can coalesce, leading to leaf yellowing and premature defoliation.",
+      "The algal growth is superficial, penetrating only the cuticle and epidermis."
+    ],
+    "stems": [
+      "On young, green stems, similar raised, velvety, reddish-brown lesions can occur.",
+      "Stem lesions can girdle the stem, causing dieback of the shoot tip."
+    ],
+    "fruit": [],
+    "roots": [],
+    "whole_plant": [
+      "Reduced plant vigor and stunted growth in heavily infected plants.",
+      "Overall thinning of the canopy due to defoliation."
+    ],
+    "signs_microscopic_or_visible": [
+      "Visible sign is the dense, felt-like mat of algal filaments (thallus) on the leaf surface.",
+      "Under magnification, reddish, hair-like structures (sporangiophores) may be visible rising from the spot."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "leaf_scab",
+      "condition_id": "tea.disease_fungal.leaf_scab",
+      "key_differences": [
+        "Texture: Scab lesions are typically corky or scaly, not velvety or felt-like.",
+        "Appearance: Scab spots often have a slightly depressed or sunken center with a raised, dark margin.",
+        "Color: Leaf scab is usually grayish-brown to dark brown, lacking the distinct orange-red hue of mature algal spots."
+      ]
+    },
+    {
+      "condition_name": "red_leaf_spot",
+      "condition_id": "tea.disease_fungal.red_leaf_spot",
+      "key_differences": [
+        "Elevation: Red leaf spots are flat or slightly sunken, not raised from the leaf surface.",
+        "Texture: Lesions lack the characteristic velvety or felt-like texture of algal spot.",
+        "Size: Red leaf spots are often smaller and more numerous than algal spots.",
+        "Color: While reddish, they are typically more purple-red or dark red and lack the greenish-gray initial phase."
+      ]
+    },
+    {
+      "condition_name": "gray_blight",
+      "condition_id": "tea.disease_fungal.gray_blight",
+      "key_differences": [
+        "Size & Shape: Gray blight lesions are much larger, often starting at the tip or margin and covering a significant portion of the leaf.",
+        "Appearance: Lesions are distinctly zonate, with concentric rings (target-like pattern), which is absent in algal spot.",
+        "Color: The center of gray blight lesions is grayish-white to light brown, not reddish-orange.",
+        "Texture: Gray blight lesions are papery and dry, not raised and velvety."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Improve air circulation through proper pruning and spacing of plants.",
+      "Manage shade to reduce humidity and leaf wetness duration.",
+      "Maintain balanced plant nutrition to improve host resistance.",
+      "Remove and destroy heavily infected leaves and pruned branches."
+    ],
+    "biological": [
+      "Promoting a healthy soil microbiome can enhance overall plant health and resilience."
+    ],
+    "chemical": [
+      "Application of copper-based fungicides (e.g., copper oxychloride, Bordeaux mixture) can be effective.",
+      "Fungicides should be applied preventatively during periods of high risk (warm, wet weather)."
+    ],
+    "notes": "Management should focus on cultural practices to alter the microenvironment, making it less favorable for the alga. Chemical control is typically a secondary measure for severe outbreaks."
+  }
+}

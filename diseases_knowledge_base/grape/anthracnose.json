@@ -1,0 +1,141 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "grape.disease_fungal.anthracnose",
+  "aliases": [
+    "Bird's-eye rot",
+    "Grapevine anthracnose",
+    "Black spot"
+  ],
+  "crop": {
+    "common_name": "Grape",
+    "scientific_name": "Vitis vinifera",
+    "family": "Vitaceae"
+  },
+  "condition": {
+    "common_name": "Anthracnose",
+    "scientific_name": "Elsino\u00eb ampelina",
+    "alt_names": [],
+    "pathogen": {
+      "type": "disease_fungal",
+      "taxonomy": {
+        "kingdom": "Fungi",
+        "phylum": "Ascomycota",
+        "class": "Dothideomycetes",
+        "order": "Myriangiales",
+        "family": "Elsinoaceae",
+        "genus": "Elsino\u00eb",
+        "species": "ampelina"
+      }
+    }
+  },
+  "issue_type": "disease_fungal",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [
+      "rain_splash",
+      "wind_driven_rain",
+      "contaminated_tools"
+    ],
+    "overwintering": [
+      "infected_canes_and_shoots",
+      "mummified_berries_on_vine_or_ground"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "prolonged_rainy_periods",
+      "high_humidity",
+      "poor_air_circulation_in_canopy",
+      "susceptible_cultivars"
+    ],
+    "temp_c_day": [
+      24,
+      32
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      80,
+      100
+    ],
+    "leaf_wetness_hours_threshold": 12
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "< 5% of leaf area affected, or < 10 lesions per shoot/cluster.",
+    "moderate": "5-25% of leaf area affected, with some shoot distortion or berry damage.",
+    "severe": "> 25% of leaf area affected, significant shoot girdling, major fruit loss, and defoliation.",
+    "notes": "Severity is assessed on the most affected plant part. For leaves, percent area is used. For shoots and fruit, a qualitative assessment of lesion density and damage may be more practical."
+  },
+  "symptoms": {
+    "leaves": [
+      "Small, circular, reddish-brown to black spots appear on young leaves.",
+      "Lesion centers turn grayish-white and often drop out, creating a 'shot-hole' appearance.",
+      "A distinct, dark brown or black, slightly raised border surrounds the lesion.",
+      "Infected leaves may become distorted, curled, or ragged."
+    ],
+    "stems": [
+      "Affects young, green shoots, petioles, and tendrils.",
+      "Lesions are small, circular to elliptical, and sunken.",
+      "Initially purplish-black, the centers become grayish with a dark, raised border.",
+      "Severe infections can girdle shoots, causing dieback of the tips."
+    ],
+    "fruit": [
+      "Lesions on berries are the most distinctive 'bird's-eye rot' symptom.",
+      "Starts as a small, circular, reddish-brown spot.",
+      "The spot enlarges, becomes sunken, and the center turns light gray or violet.",
+      "A prominent, dark reddish-brown to black ring surrounds the light center.",
+      "Infected berries may crack, fail to ripen, or shrivel."
+    ],
+    "roots": [],
+    "whole_plant": [],
+    "signs_microscopic_or_visible": [
+      "Under wet conditions, pinkish spore masses (acervuli) may be visible in the center of lesions, often requiring magnification."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "Black Rot",
+      "condition_id": "grape.disease_fungal.black_rot",
+      "key_differences": [
+        "Fruit lesions in Black Rot result in hard, black, shriveled 'mummies' covered in tiny black dots (pycnidia), not 'bird's-eye' spots.",
+        "Leaf spots from Black Rot do not drop out to form 'shot-holes'; they typically contain visible black pycnidia arranged in a ring.",
+        "Anthracnose lesions on shoots are deeply sunken or cankered, while Black Rot lesions are more superficial."
+      ]
+    },
+    {
+      "condition_name": "Pest Damage",
+      "condition_id": "grape.pest_damage",
+      "key_differences": [
+        "Shot-holes from insect feeding (e.g., flea beetles) are typically just holes, lacking the characteristic gray center and dark, raised border of an anthracnose lesion.",
+        "Pest damage does not produce the sunken, canker-like lesions on stems or 'bird's-eye' spots on fruit.",
+        "Look for signs of insects, frass, or chewing marks around the holes."
+      ]
+    },
+    {
+      "condition_name": "Isariopsis Leaf Spot",
+      "condition_id": "grape.disease_fungal.isariopsis_leaf_spot",
+      "key_differences": [
+        "Isariopsis lesions are often more angular or irregular, bounded by leaf veins, whereas anthracnose spots are distinctly circular.",
+        "Isariopsis lesions do not typically have centers that fall out to create a 'shot-hole' effect.",
+        "The underside of Isariopsis lesions may show a sooty or olive-green mold growth, which is absent in anthracnose."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Plant disease-free nursery stock.",
+      "Prune out and destroy infected canes, shoots, and fruit clusters during the dormant season.",
+      "Promote good air circulation through proper pruning, trellising, and canopy management.",
+      "Improve soil drainage and avoid overhead irrigation."
+    ],
+    "biological": [
+      "Some bio-fungicides based on Bacillus subtilis may offer partial suppression when applied preventatively."
+    ],
+    "chemical": [
+      "Apply dormant sprays (e.g., lime sulfur) to reduce overwintering inoculum.",
+      "Use protective fungicides starting from early shoot growth, especially during wet periods.",
+      "Fungicide classes like strobilurins (QoIs), DMIs, and mancozeb are often effective, but rotation is crucial to prevent resistance."
+    ],
+    "notes": "Management is most effective when integrating cultural practices with a well-timed fungicide program based on weather forecasts and vine growth stage."
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "pepper.disease_bacterial.bacterial_spot",
+  "aliases": [
+    "bacterial leaf spot",
+    "scab",
+    "BLS"
+  ],
+  "crop": {
+    "common_name": "pepper",
+    "scientific_name": "Capsicum annuum",
+    "family": "Solanaceae"
+  },
+  "condition": {
+    "common_name": "bacterial spot",
+    "scientific_name": "Xanthomonas spp. complex",
+    "alt_names": [
+      "Xanthomonas euvesicatoria",
+      "Xanthomonas vesicatoria",
+      "Xanthomonas perforans",
+      "Xanthomonas gardneri"
+    ],
+    "pathogen": {
+      "type": "disease_bacterial",
+      "taxonomy": {
+        "kingdom": "Bacteria",
+        "phylum": "Proteobacteria",
+        "class": "Gammaproteobacteria",
+        "order": "Xanthomonadales",
+        "family": "Xanthomonadaceae",
+        "genus": "Xanthomonas",
+        "species": ""
+      }
+    }
+  },
+  "issue_type": "disease_bacterial",
+  "transmission": {
+    "vectors": [
+      "human activity (tools, hands)"
+    ],
+    "dispersal": [
+      "rain splash",
+      "wind-driven rain",
+      "overhead irrigation",
+      "infected seed",
+      "infected transplants"
+    ],
+    "overwintering": [
+      "infected plant debris",
+      "volunteer pepper plants",
+      "infected seeds",
+      "solanaceous weeds"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "high humidity",
+      "frequent rainfall",
+      "warm temperatures",
+      "overhead irrigation",
+      "dense plant canopy"
+    ],
+    "temp_c_day": [
+      24,
+      30
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      85,
+      100
+    ],
+    "leaf_wetness_hours_threshold": 4
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "< 5% of leaf area affected; few, scattered lesions on some leaves.",
+    "moderate": "5-25% of leaf area affected; multiple lesions per leaf, some yellowing or minor leaf drop.",
+    "severe": "> 25% of leaf area affected; extensive lesion coalescence, significant chlorosis, defoliation, and fruit lesions.",
+    "notes": "Severity is assessed on the most affected leaves. Fruit lesions should also be considered in a whole-plant assessment."
+  },
+  "symptoms": {
+    "leaves": [
+      "Small, water-soaked, circular to irregular spots (1-3 mm), often appearing first on lower surfaces.",
+      "Lesions become dark brown to black, with a greasy appearance.",
+      "Lesion centers may dry out, turn light tan or gray, and sometimes drop out, creating a 'shot-hole' effect.",
+      "A distinct yellow halo often surrounds newer lesions, which can fade with age.",
+      "Severe infections cause leaves to turn yellow (chlorosis) and drop prematurely, starting from the plant base."
+    ],
+    "stems": [
+      "Elongated, dark brown to black, slightly raised lesions or streaks can appear on stems and petioles."
+    ],
+    "fruit": [
+      "Small, circular, raised, scab-like spots (up to 6 mm) appear on green fruit.",
+      "Fruit lesions are initially water-soaked, then turn brown to black with a cracked, warty, or rough texture.",
+      "Lesions are typically raised and do not have concentric rings or ooze."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Stunted growth and significant defoliation in severe cases, especially from the lower canopy upwards."
+    ],
+    "signs_microscopic_or_visible": []
+  },
+  "lookalikes": [
+    {
+      "condition_name": "anthracnose",
+      "condition_id": "pepper.disease_fungal.anthracnose",
+      "key_differences": [
+        "Anthracnose fruit lesions are sunken and circular with concentric rings and salmon-colored spore masses; bacterial spot lesions are raised, scab-like, and lack rings.",
+        "Anthracnose leaf spots are often larger and tan, while bacterial spot lesions are small, dark, and greasy-looking.",
+        "Anthracnose is a soft rot on fruit, whereas bacterial spot lesions are hard and scabby."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Use certified disease-free seed and transplants.",
+      "Rotate crops away from solanaceous plants for at least 2-3 years.",
+      "Promote air circulation via proper plant spacing and pruning.",
+      "Avoid overhead irrigation; use drip irrigation instead.",
+      "Sanitize tools, stakes, and equipment between plants or rows.",
+      "Remove and destroy infected plant debris post-harvest."
+    ],
+    "biological": [
+      "Application of bacteriophage-based products.",
+      "Preventative sprays of beneficial microbes like *Bacillus subtilis* strains."
+    ],
+    "chemical": [
+      "Preventative applications of fixed copper bactericides (e.g., copper hydroxide).",
+      "Tank-mixing copper with mancozeb to improve efficacy and manage resistance.",
+      "Use of plant activators like acibenzolar-S-methyl (ASM) to boost plant defenses before infection."
+    ],
+    "notes": "Chemical control is most effective when used preventatively. Copper resistance is widespread in many Xanthomonas populations, limiting its effectiveness."
+  }
+}

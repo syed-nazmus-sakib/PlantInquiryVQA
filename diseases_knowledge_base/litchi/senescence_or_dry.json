@@ -1,0 +1,129 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "litchi.physiological_symptom.senescence_or_dry",
+  "aliases": [
+    "Leaf senescence",
+    "Leaf drying",
+    "Natural leaf drop",
+    "Age-related browning",
+    "Water stress",
+    "Tip burn"
+  ],
+  "crop": {
+    "common_name": "Litchi",
+    "scientific_name": "Litchi chinensis",
+    "family": "Sapindaceae"
+  },
+  "condition": {
+    "common_name": "Senescence or Dry",
+    "scientific_name": null,
+    "alt_names": [
+      "Leaf aging",
+      "Natural dieback",
+      "Desiccation",
+      "Drought stress symptoms"
+    ],
+    "pathogen": {
+      "type": "physiological_disorder",
+      "taxonomy": {
+        "kingdom": "",
+        "phylum": "",
+        "class": "",
+        "order": "",
+        "family": "",
+        "genus": "",
+        "species": ""
+      }
+    }
+  },
+  "issue_type": "physiological_symptom",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [],
+    "overwintering": []
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "Inadequate irrigation or drought",
+      "Prolonged high temperatures and low humidity",
+      "Poor soil drainage leading to root stress",
+      "Nutrient deficiency (especially potassium)",
+      "Natural aging process of older leaves",
+      "High soil salinity"
+    ],
+    "temp_c_day": [
+      30,
+      40
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      0,
+      40
+    ],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "Less than 10% of the leaf surface is brown or yellow. Discoloration is confined to the extreme tip or margins.",
+    "moderate": "10-40% of the leaf surface is affected. Browning extends significantly inward from the margins, and the leaf may begin to curl.",
+    "severe": "More than 40% of the leaf surface is affected. The entire leaf is extensively brown, brittle, curled, and may be dropping from the plant.",
+    "notes": "Assessed on a per-leaf basis. Differentiate from sudden burn by observing the gradual transition from green to yellow to brown, typical of a slower drying process."
+  },
+  "symptoms": {
+    "leaves": [
+      "Progressive yellowing (chlorosis) that typically begins on older, lower leaves.",
+      "Browning and drying starts at the leaf tip and/or margins and advances inward.",
+      "The transition between green and brown tissue is often gradual, sometimes with a yellow halo.",
+      "Affected tissue becomes dry, brittle, and papery to the touch.",
+      "Leaves may curl or roll inwards as they lose turgor.",
+      "The discoloration pattern is generally uniform browning, lacking distinct spots, pustules, or concentric rings.",
+      "In severe cases, the entire leaf turns brown and abscises (drops) prematurely."
+    ],
+    "stems": [
+      "In prolonged and severe drought, terminal twigs may shrivel and die back."
+    ],
+    "fruit": [],
+    "roots": [],
+    "whole_plant": [
+      "General appearance of wilting during the hottest part of the day.",
+      "Reduced canopy density due to premature leaf drop."
+    ],
+    "signs_microscopic_or_visible": []
+  },
+  "lookalikes": [
+    {
+      "condition_name": "Burned Leaf",
+      "condition_id": "litchi.physiological_symptom.burned_leaf",
+      "key_differences": [
+        "Burn damage appears rapidly and often has a very sharp, distinct border between necrotic and healthy tissue, while drying is a more gradual transition.",
+        "Sunburn often bleaches tissue to a light tan or white color, especially on the most sun-exposed parts of the canopy.",
+        "Chemical burn can appear as spots or blotches wherever droplets landed, not necessarily starting at the margins.",
+        "Drying typically affects leaf tips and margins symmetrically, while burn damage can be asymmetrical depending on exposure."
+      ]
+    },
+    {
+      "condition_name": "Leaf Blight",
+      "condition_id": "litchi.fungal_disease.leaf_blight",
+      "key_differences": [
+        "Blight presents as large, irregular lesions or blotches that can start anywhere on the leaf, not just the margins.",
+        "Blight lesions may exhibit concentric rings ('target spot' appearance) or have a darker, well-defined border.",
+        "Under humid conditions, fungal structures (e.g., moldy growth, tiny black dots which are pycnidia) may be visible on blight lesions, which are absent in physiological drying.",
+        "Blight lesions may initially appear water-soaked, whereas drying symptoms are characteristically dry and brittle from the start."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Ensure consistent and deep irrigation, especially during fruit development and hot, dry weather.",
+      "Apply a thick layer of organic mulch around the tree base to conserve soil moisture and moderate root temperature.",
+      "Conduct soil and leaf analysis to diagnose and correct nutrient imbalances, particularly potassium.",
+      "Improve soil drainage in heavy clay soils to prevent root suffocation and waterlogging stress."
+    ],
+    "biological": [],
+    "chemical": [
+      "In areas with saline water, periodic leaching of the root zone with fresh water can reduce salt buildup.",
+      "Application of anti-transpirants before a predicted heatwave may help reduce water loss."
+    ],
+    "notes": "Differentiating natural senescence of old leaves from stress-induced drying is crucial. A small amount of yellowing and drop of the oldest leaves is normal and requires no intervention."
+  }
+}

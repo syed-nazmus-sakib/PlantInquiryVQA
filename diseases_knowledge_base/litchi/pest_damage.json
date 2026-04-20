@@ -1,0 +1,155 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "litchi.unknown.pest_damage",
+  "aliases": [
+    "insect damage on litchi",
+    "litchi mite damage",
+    "litchi pest infestation"
+  ],
+  "crop": {
+    "common_name": "Litchi",
+    "scientific_name": "Litchi chinensis",
+    "family": "Sapindaceae"
+  },
+  "condition": {
+    "common_name": "Pest Damage",
+    "scientific_name": "Varies by specific pest",
+    "alt_names": [
+      "Insect damage",
+      "Mite damage",
+      "Arthropod damage"
+    ],
+    "pathogen": {
+      "type": "arthropod",
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Arthropoda",
+        "class": "",
+        "order": "",
+        "family": "",
+        "genus": "",
+        "species": ""
+      }
+    }
+  },
+  "issue_type": "unknown",
+  "transmission": {
+    "vectors": [
+      "Adult or larval stages of insects",
+      "Mites"
+    ],
+    "dispersal": [
+      "Flight of adult insects",
+      "Wind dispersal (e.g., mites)",
+      "Movement of infested plant material",
+      "Rain splash"
+    ],
+    "overwintering": [
+      "As eggs, larvae, pupae, or adults in bark crevices, leaf litter, or soil"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "Presence of new, tender flush growth",
+      "Warm and humid conditions",
+      "Lack of natural predators",
+      "Monoculture planting"
+    ],
+    "temp_c_day": [
+      22,
+      35
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      60,
+      90
+    ],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "< 10% of leaf surface area shows feeding damage (chewing, stippling, mining).",
+    "moderate": "10-30% of leaf surface area is affected; some leaf curling or distortion may be present.",
+    "severe": "> 30% of leaf surface area is affected; significant defoliation, webbing, or branch dieback is visible.",
+    "notes": "Assessment should be based on the average damage across the entire plant or a representative branch. Include physical removal of tissue, discoloration from feeding, and distortion."
+  },
+  "symptoms": {
+    "leaves": [
+      "Irregular holes or chewed margins from feeding insects.",
+      "Skeletonization, where only leaf veins remain, creating a lacy appearance.",
+      "Tiny yellow or white dots (stippling) on the leaf surface, caused by piercing-sucking insects or mites.",
+      "Leaves appear bronzed or silvery due to heavy stippling.",
+      "Leaf curling, twisting, or other distortions.",
+      "Presence of thin, silky webbing, particularly on the underside of leaves (indicative of spider mites).",
+      "Shiny, sticky substance (honeydew) on leaves, often leading to sooty mold growth.",
+      "Winding trails or tunnels within the leaf (leafminers)."
+    ],
+    "stems": [
+      "Small holes in bark from boring insects.",
+      "Sawdust-like frass (insect excrement) pushed out of borer holes.",
+      "Presence of small, immobile bumps (scale insects) on twigs and stems."
+    ],
+    "fruit": [
+      "Superficial scarring, blemishes, or scabs on the fruit skin.",
+      "Boring holes, sometimes with frass, indicating internal feeding.",
+      "Premature fruit drop."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Stunted growth or reduced vigor.",
+      "Dieback of twigs and branches in severe infestations."
+    ],
+    "signs_microscopic_or_visible": [
+      "Visible insects, caterpillars (larvae), or mites (may require a hand lens).",
+      "Clusters of eggs, often on the underside of leaves.",
+      "Webbing, frass, honeydew, or cast skins of insects."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "Leaf Blight",
+      "condition_id": "litchi.fungal.leaf_blight",
+      "key_differences": [
+        "Leaf blight causes distinct necrotic lesions, often with a yellow halo or concentric rings, not physically removed tissue.",
+        "Blight lesions tend to spread and coalesce into large, dead patches, whereas chewing damage is typically holes or skeletonization.",
+        "Pest damage may be accompanied by visible signs like insects, webbing, or frass, which are absent in fungal blight."
+      ]
+    },
+    {
+      "condition_name": "Burned Leaf",
+      "condition_id": "litchi.abiotic.burned_leaf",
+      "key_differences": [
+        "Burned areas (sunscald or chemical burn) are typically large, continuous patches of bleached or brown tissue, not discrete holes or stippling.",
+        "Burn damage often follows a pattern related to exposure, like on the upper leaf surface or leaf margins facing the sun.",
+        "Pest damage like stippling consists of thousands of tiny dots, while burn damage is a solid area of discoloration."
+      ]
+    },
+    {
+      "condition_name": "White Spot",
+      "condition_id": "litchi.fungal.white_spot",
+      "key_differences": [
+        "White spot consists of discrete, often circular, whitish to grey lesions with a defined border.",
+        "Pest damage involves removal of tissue (holes) or discoloration from feeding (stippling), not well-defined fungal spots.",
+        "Mite stippling can look whitish but is a collection of tiny pinpricks, not a solid lesion."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Regularly monitor plants for early signs of pests.",
+      "Prune and destroy heavily infested branches and leaves.",
+      "Remove weeds and plant debris that can harbor pests.",
+      "Ensure proper irrigation and fertilization to maintain plant vigor."
+    ],
+    "biological": [
+      "Conserve and encourage natural enemies like ladybugs, lacewings, and predatory mites.",
+      "Release commercially available biological control agents where appropriate."
+    ],
+    "chemical": [
+      "Apply horticultural oils or insecticidal soaps for soft-bodied insects and mites.",
+      "Use specific, targeted insecticides or miticides based on positive identification of the pest.",
+      "Avoid broad-spectrum insecticides that harm beneficial insects."
+    ],
+    "notes": "Accurate identification of the specific pest is critical for selecting the most effective and least harmful management strategy."
+  }
+}

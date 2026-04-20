@@ -1,0 +1,135 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "papaya.pest_insect.mealybug",
+  "aliases": [
+    "Papaya mealybug infestation",
+    "Paracoccus marginatus infestation"
+  ],
+  "crop": {
+    "common_name": "papaya",
+    "scientific_name": "Carica papaya",
+    "family": "Caricaceae"
+  },
+  "condition": {
+    "common_name": "mealybug",
+    "scientific_name": "Paracoccus marginatus",
+    "alt_names": [
+      "papaya mealybug"
+    ],
+    "pathogen": {
+      "type": "insect",
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Arthropoda",
+        "class": "Insecta",
+        "order": "Hemiptera",
+        "family": "Pseudococcidae",
+        "genus": "Paracoccus",
+        "species": "marginatus"
+      }
+    }
+  },
+  "issue_type": "pest_insect",
+  "transmission": {
+    "vectors": [
+      "ants (tend and protect mealybugs)",
+      "birds",
+      "farm workers (on clothing/equipment)"
+    ],
+    "dispersal": [
+      "wind (crawlers)",
+      "movement of infested plant material"
+    ],
+    "overwintering": [
+      "In tropical/subtropical climates, they persist year-round on host plants and do not truly overwinter."
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "warm, dry conditions",
+      "presence of ant colonies",
+      "dense plant canopy",
+      "lack of natural enemies"
+    ],
+    "temp_c_day": [
+      25,
+      30
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      60,
+      80
+    ],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "qualitative",
+    "mild": "Small, isolated colonies of mealybugs (less than 5) found on a few leaves or stems. Little to no sooty mold.",
+    "moderate": "Multiple, larger colonies present on several leaves, stems, or young fruit. Some sooty mold is visible and leaves may show slight yellowing.",
+    "severe": "Heavy encrustations of mealybugs on leaves, stems, and fruit. Significant sooty mold, leaf yellowing, stunting, and plant dieback are evident.",
+    "notes": "Severity is assessed by the number and size of mealybug colonies and the extent of associated sooty mold and plant damage."
+  },
+  "symptoms": {
+    "leaves": [
+      "Yellowing, curling, or distortion of young leaves (chlorosis).",
+      "Leaves appear stunted or crinkled.",
+      "Presence of a sticky, clear substance (honeydew) on leaf surfaces.",
+      "Growth of a superficial black sooty mold on honeydew deposits."
+    ],
+    "stems": [
+      "White, cottony, waxy masses clustered in leaf axils and on young stems.",
+      "Stunting of terminal growth, leading to a 'bunchy top' appearance."
+    ],
+    "fruit": [
+      "White, waxy masses on the fruit surface, especially near the stem end.",
+      "Distortion or stunting of young, developing fruit.",
+      "Sooty mold growth on fruit, making it unmarketable."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Overall stunted growth.",
+      "Reduced plant vigor and fruit production."
+    ],
+    "signs_microscopic_or_visible": [
+      "Visible white, cottony, waxy masses covering the insects.",
+      "Small (2-3 mm), oval, pinkish-to-yellowish insects visible underneath the waxy coating.",
+      "Presence of ants actively tending the mealybug colonies."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "spider mites",
+      "condition_id": "papaya.pest_mite.spider_mites",
+      "key_differences": [
+        "Spider mites create fine, silken webbing on leaf undersides; mealybugs produce distinct, cottony, waxy masses.",
+        "Spider mite damage appears as tiny yellow or white stippling on leaves; mealybug damage causes more general yellowing and distortion.",
+        "Individual spider mites are very small, mobile dots; mealybug colonies are larger, mostly stationary, and white."
+      ]
+    },
+    {
+      "condition_name": "anthracnose",
+      "condition_id": "papaya.fungal.anthracnose",
+      "key_differences": [
+        "Sooty mold from mealybugs is a superficial black coating that can be wiped off; anthracnose lesions are sunken, circular, and part of the fruit tissue.",
+        "Anthracnose spots on fruit may develop pink or orange spore masses in the center, not white cottony material.",
+        "Mealybugs are insects, often accompanied by ants; anthracnose is a fungal disease with no associated insects."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Prune and destroy heavily infested plant parts.",
+      "Control ant populations with baits or barriers, as they protect mealybugs.",
+      "Avoid excessive nitrogen fertilization, which promotes succulent growth favored by mealybugs.",
+      "Use a strong jet of water to dislodge small, early infestations."
+    ],
+    "biological": [
+      "Introduce or conserve natural enemies like the lady beetle (Cryptolaemus montrouzieri) or parasitic wasps (e.g., Acerophagus papayae)."
+    ],
+    "chemical": [
+      "Apply horticultural oils or insecticidal soaps, ensuring thorough coverage of colonies.",
+      "For severe infestations, consider systemic insecticides, following local regulations and pre-harvest intervals."
+    ],
+    "notes": "An Integrated Pest Management (IPM) approach is most effective. Early detection and control of ants are crucial for managing mealybugs."
+  }
+}

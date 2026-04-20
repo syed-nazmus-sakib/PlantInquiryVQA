@@ -1,0 +1,126 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "grape.disease_fungal.black_rot",
+  "aliases": [
+    "grape black rot"
+  ],
+  "crop": {
+    "common_name": "grape",
+    "scientific_name": "Vitis spp.",
+    "family": "Vitaceae"
+  },
+  "condition": {
+    "common_name": "black rot",
+    "scientific_name": "Guignardia bidwellii",
+    "alt_names": [],
+    "pathogen": {
+      "type": "disease_fungal",
+      "taxonomy": {
+        "kingdom": "Fungi",
+        "phylum": "Ascomycota",
+        "class": "Dothideomycetes",
+        "order": "Botryosphaeriales",
+        "family": "Botryosphaeriaceae",
+        "genus": "Guignardia",
+        "species": "bidwellii"
+      }
+    }
+  },
+  "issue_type": "disease_fungal",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [
+      "rain_splash",
+      "wind_driven_rain"
+    ],
+    "overwintering": [
+      "mummified_fruit_on_vine_or_ground",
+      "lesions_on_canes_and_tendrils"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "Warm, humid weather",
+      "Prolonged leaf wetness",
+      "Poor air circulation in the canopy",
+      "Presence of overwintering inoculum (mummies, cankers)"
+    ],
+    "temp_c_day": [
+      20,
+      27
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      85,
+      100
+    ],
+    "leaf_wetness_hours_threshold": 6
+  },
+  "severity_rubric": {
+    "unit": "qualitative",
+    "mild": "Few leaf spots (<5% area on symptomatic leaves); <10% of berries in affected clusters show symptoms.",
+    "moderate": "Multiple, coalescing leaf spots (5-25% area on symptomatic leaves); 10-50% of berries in affected clusters are mummified.",
+    "severe": "Extensive leaf spotting leading to some defoliation (>25% leaf area); >50% of berries in affected clusters are mummified, resulting in significant yield loss.",
+    "notes": "Severity is best assessed by combining leaf and fruit symptoms. Fruit infection is the primary cause of economic damage. Assessment should be made on a representative sample of clusters and leaves throughout the vineyard."
+  },
+  "symptoms": {
+    "leaves": [
+      "Circular, tan to reddish-brown lesions, 2-10 mm in diameter, appear on upper leaf surfaces.",
+      "Lesions are surrounded by a distinct, dark brown to black border.",
+      "Tiny, black, pimple-like fruiting bodies (pycnidia) form in a ring-like pattern within the lesion.",
+      "The center of older lesions may turn lighter brown and become slightly sunken."
+    ],
+    "stems": [
+      "Elongated, black, slightly sunken cankers can form on young shoots, petioles, and tendrils.",
+      "Pycnidia may be visible within these stem lesions."
+    ],
+    "fruit": [
+      "Infection begins as a small, whitish spot on a developing berry, often surrounded by a brown halo.",
+      "The spot rapidly enlarges, causing the entire berry to rot and turn from green to reddish-brown, then black.",
+      "Infected berries shrivel into hard, black, wrinkled 'mummies'.",
+      "The surface of mummified fruit becomes covered with numerous black pycnidia."
+    ],
+    "roots": [],
+    "whole_plant": [],
+    "signs_microscopic_or_visible": [
+      "Presence of black, flask-shaped pycnidia arranged in a ring on leaf lesions or scattered on fruit mummies."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "anthracnose",
+      "condition_id": "grape.disease_fungal.anthracnose",
+      "key_differences": [
+        "Anthracnose leaf spots are angular with dark borders and often develop a 'shot-hole' appearance where the center falls out; black rot lesions are circular and remain intact.",
+        "Anthracnose fruit lesions are sunken 'bird's eye spots' with a gray/pink center and dark border; black rot affects the entire berry, turning it into a uniform black mummy.",
+        "Anthracnose stem lesions are typically deeper and more crater-like than those of black rot."
+      ]
+    },
+    {
+      "condition_name": "downy mildew",
+      "condition_id": "grape.disease_oomycete.downy_mildew",
+      "key_differences": [
+        "Downy mildew leaf spots are initially yellowish, 'oily' spots on the upper surface, not tan with a dark border like black rot.",
+        "Downy mildew produces a white, fluffy fungal growth on the underside of leaves in humid conditions; black rot produces black pycnidia on the upper surface.",
+        "Downy mildew-infected fruit becomes leathery and brown but does not shrivel into a hard, black mummy covered in pycnidia."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Sanitation: Remove and destroy mummified fruit and infected canes during dormant pruning.",
+      "Canopy management: Use pruning and training systems that improve air circulation and sunlight penetration to promote rapid drying.",
+      "Select resistant or less susceptible grape cultivars.",
+      "Control weeds to reduce humidity within the vine canopy."
+    ],
+    "biological": [
+      "Application of bio-fungicides containing strains of *Bacillus subtilis* or *Bacillus amyloliquefaciens* may provide some suppression when used in a preventative program."
+    ],
+    "chemical": [
+      "Implement a preventative fungicide spray program starting before bloom and continuing through veraison.",
+      "Rotate fungicides with different modes of action (FRAC groups) to prevent resistance.",
+      "Effective chemical classes include mancozeb, captan, strobilurins (QoI), and demethylation inhibitors (DMI)."
+    ],
+    "notes": "Fungicide application timing is critical and should be guided by disease prediction models, weather forecasts (impending rain events), and vine phenology."
+  }
+}

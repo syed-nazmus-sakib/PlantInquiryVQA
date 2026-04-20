@@ -1,0 +1,136 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "cucumber.unknown.belly_rot",
+  "aliases": [
+    "Rhizoctonia fruit rot",
+    "soil rot"
+  ],
+  "crop": {
+    "common_name": "cucumber",
+    "scientific_name": "Cucumis sativus",
+    "family": "Cucurbitaceae"
+  },
+  "condition": {
+    "common_name": "belly rot",
+    "scientific_name": "Rhizoctonia solani",
+    "alt_names": [
+      "Rhizoctonia fruit rot",
+      "soil rot"
+    ],
+    "pathogen": {
+      "type": "fungal",
+      "taxonomy": {
+        "kingdom": "Fungi",
+        "phylum": "Basidiomycota",
+        "class": "Agaricomycetes",
+        "order": "Cantharellales",
+        "family": "Ceratobasidiaceae",
+        "genus": "Rhizoctonia",
+        "species": "solani"
+      }
+    }
+  },
+  "issue_type": "unknown",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [
+      "contaminated soil",
+      "water splash",
+      "infected plant debris",
+      "farm equipment"
+    ],
+    "overwintering": [
+      "as sclerotia in soil",
+      "on infected plant debris",
+      "as mycelium in soil"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "fruit contact with soil",
+      "poorly drained soil",
+      "high soil moisture",
+      "warm temperatures (24-32\u00b0C)",
+      "dense canopy",
+      "poor air circulation"
+    ],
+    "temp_c_day": [
+      24,
+      32
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      85,
+      100
+    ],
+    "leaf_wetness_hours_threshold": 12
+  },
+  "severity_rubric": {
+    "unit": "qualitative",
+    "mild": "Small, water-soaked or sunken lesions affect 1-10% of the fruit surface.",
+    "moderate": "Larger, coalescing, tan to brown lesions affect 11-40% of the fruit surface, possibly with some mycelial growth.",
+    "severe": "Large, sunken, necrotic lesions cover >40% of the fruit surface, often with significant secondary rot and visible brown mycelium.",
+    "notes": "Severity is assessed qualitatively based on the percentage of the individual fruit's surface area covered by lesions. This is practical for visual labeling of fruit images."
+  },
+  "symptoms": {
+    "leaves": [],
+    "stems": [
+      "Water-soaked lesions may appear on the stem near the soil line.",
+      "Stem can become constricted or girdled at the base, causing wilting (damping-off in seedlings)."
+    ],
+    "fruit": [
+      "Starts as small, water-soaked, slightly sunken, round spots on the part of the fruit touching the soil.",
+      "Lesions enlarge and become tan to brown, crater-like, and may have concentric rings.",
+      "The center of the lesion may crack or rupture.",
+      "In moist conditions, coarse, brown mycelial threads may be visible on the lesion surface.",
+      "The rot is initially firm and dry but becomes soft and watery due to secondary invaders.",
+      "Affected fruit tissue does not become mushy or watery as in Pythium rot until late stages."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Wilting may occur if the stem base is severely infected."
+    ],
+    "signs_microscopic_or_visible": [
+      "Coarse, brown, web-like mycelium visible on lesions under humid conditions.",
+      "Small, dark, irregularly shaped sclerotia may form on or in rotted tissue."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "Pythium fruit rot",
+      "condition_id": "cucumber.disease.pythium_fruit_rot",
+      "key_differences": [
+        "Pythium rot is very soft, watery, and mushy from the start; belly rot is initially firm and dry.",
+        "Pythium rot is covered in abundant white, cottony mycelial growth; belly rot has sparse, coarse, brown mycelium.",
+        "Pythium rot causes the fruit to collapse into a watery mass rapidly.",
+        "Belly rot lesions are more crater-like and tan/brown; Pythium lesions are less defined."
+      ]
+    },
+    {
+      "condition_name": "anthracnose",
+      "condition_id": "cucumber.disease.anthracnose",
+      "key_differences": [
+        "Anthracnose fruit lesions are circular, black, and distinctly sunken.",
+        "In moist weather, the center of anthracnose lesions turns pinkish-orange due to spore masses.",
+        "Anthracnose also causes distinct, water-soaked lesions on leaves, which belly rot does not."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Use plastic mulch, straw, or trellising to prevent fruit from touching the soil.",
+      "Improve soil drainage and avoid over-irrigation.",
+      "Promote good air circulation through proper plant spacing.",
+      "Practice a crop rotation of at least 3 years with non-host crops like grains.",
+      "Remove and destroy infected fruit and plant debris promptly."
+    ],
+    "biological": [
+      "Application of bio-fungicides containing *Trichoderma* spp. or *Bacillus subtilis* to the soil may suppress the pathogen."
+    ],
+    "chemical": [
+      "Apply preventative soil-directed fungicides at the base of plants before vining.",
+      "Fungicides containing azoxystrobin, flutolanil, or pentachloronitrobenzene (PCNB) can be effective when applied to the soil."
+    ],
+    "notes": "Integrated management focusing on preventing fruit-soil contact and managing soil moisture is most effective."
+  }
+}

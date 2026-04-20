@@ -1,0 +1,100 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "sunflower.growth_stage.growth_stage_youngbud",
+  "aliases": [
+    "R2 stage",
+    "immature bud",
+    "button stage"
+  ],
+  "crop": {
+    "common_name": "sunflower",
+    "scientific_name": "Helianthus annuus",
+    "family": "Asteraceae"
+  },
+  "condition": {
+    "common_name": "Young Bud",
+    "scientific_name": "",
+    "alt_names": [
+      "R2 Stage",
+      "Immature Bud Stage"
+    ],
+    "pathogen": {
+      "type": "abiotic",
+      "taxonomy": {
+        "kingdom": "",
+        "phylum": "",
+        "class": "",
+        "order": "",
+        "family": "",
+        "genus": "",
+        "species": ""
+      }
+    }
+  },
+  "issue_type": "growth_stage",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [],
+    "overwintering": []
+  },
+  "environmental_risk": {
+    "risk_factors": [],
+    "temp_c_day": [],
+    "temp_c_night": [],
+    "relative_humidity_pct": [],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "qualitative",
+    "mild": "Bud is just visible between the uppermost leaves, resembling a small, multi-pointed star.",
+    "moderate": "Bud has clearly emerged from the whorl of leaves, is still small (<2 cm from center to bract tip), and pointed.",
+    "severe": "Bud is well-formed and rounded, but bracts are still tightly closed and the head has not yet begun to bend or face east.",
+    "notes": "Severity describes the progression *within* the R2 stage, from initial emergence (mild) to just before the R3 (mature bud) stage begins (severe). This is a measure of development, not damage."
+  },
+  "symptoms": {
+    "leaves": [
+      "Uppermost leaves are unfolding to reveal the floral bud at the plant's apex.",
+      "Leaves below the bud are fully expanded, green, and turgid in a healthy plant."
+    ],
+    "stems": [
+      "Main stem is sturdy and has reached or is near its maximum height.",
+      "The top of the stem, or peduncle, is still straight and holding the bud upright."
+    ],
+    "fruit": [
+      "No fruit (achenes) or seeds are present.",
+      "No ray flowers (petals) or disk flowers are visible."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "A single, small, star-shaped floral bud is visible at the top of the plant.",
+      "The bud is enclosed by immature, green, tightly-packed bracts.",
+      "The bud is less than 2 cm as measured from the center to the tip of the surrounding bracts.",
+      "The plant is in a rapid vegetative growth phase."
+    ],
+    "signs_microscopic_or_visible": []
+  },
+  "lookalikes": [
+    {
+      "condition_name": "Wilted",
+      "condition_id": "sunflower.disorder.wilted",
+      "key_differences": [
+        "Wilted plants have drooping, flaccid leaves due to water stress, which is distinct from the turgid leaves of a healthy plant.",
+        "The entire top of the plant, including the bud, may hang limply, whereas a healthy young bud is held upright.",
+        "Wilting is a stress condition, not a normal developmental stage."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Ensure adequate and consistent soil moisture as water demand is very high during bud development.",
+      "Complete any final nitrogen fertilizer applications before this stage to avoid delaying maturity.",
+      "Monitor for pests such as sunflower moth, which may lay eggs on developing buds."
+    ],
+    "biological": [],
+    "chemical": [
+      "This is a key window for applying fungicides to protect against head and foliar diseases if conditions are favorable for infection.",
+      "Avoid post-emergent herbicide applications as the plant is extremely sensitive to injury at this stage."
+    ],
+    "notes": "Management at the R2 stage focuses on protecting the developing head and ensuring the plant has sufficient resources (water, nutrients) to maximize seed set and yield potential."
+  }
+}

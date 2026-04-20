@@ -1,0 +1,130 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "tomato.disease_viral.yellow_leaf_curl_virus",
+  "aliases": [
+    "TYLCV",
+    "Tomato yellow leaf curl"
+  ],
+  "crop": {
+    "common_name": "tomato",
+    "scientific_name": "Solanum lycopersicum",
+    "family": "Solanaceae"
+  },
+  "condition": {
+    "common_name": "yellow leaf curl virus",
+    "scientific_name": "Tomato yellow leaf curl virus",
+    "alt_names": [
+      "TYLCV"
+    ],
+    "pathogen": {
+      "type": "virus",
+      "taxonomy": {
+        "kingdom": "Orthornavirae",
+        "phylum": "",
+        "class": "",
+        "order": "",
+        "family": "Geminiviridae",
+        "genus": "Begomovirus",
+        "species": "Tomato yellow leaf curl virus"
+      }
+    }
+  },
+  "issue_type": "disease_viral",
+  "transmission": {
+    "vectors": [
+      "Whiteflies (specifically Bemisia tabaci)"
+    ],
+    "dispersal": [
+      "Infected transplants",
+      "Movement of vector insects"
+    ],
+    "overwintering": [
+      "Infected perennial weed hosts",
+      "Infected volunteer tomato plants",
+      "Persistently on adult whiteflies"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "High whitefly populations",
+      "Warm, dry conditions favoring whitefly development",
+      "Proximity to infected fields or greenhouses"
+    ],
+    "temp_c_day": [
+      25,
+      35
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "qualitative",
+    "mild": "Slight upward curling and yellowing on a few young, terminal leaves; minimal or no stunting.",
+    "moderate": "Pronounced upward leaf curling, yellowing of leaf margins on multiple leaves, and noticeable stunting of the plant; some flower drop observed.",
+    "severe": "Severe stunting, small, thick, leathery leaves that are strongly cupped upward and bright yellow; significant flower drop and poor or no fruit set.",
+    "notes": "Severity is based on the degree of stunting and leaf deformation. Infections at an early plant age result in the most severe symptoms. Leaf wetness is not a factor for this vector-borne viral disease, hence threshold is 0."
+  },
+  "symptoms": {
+    "leaves": [
+      "Upward cupping or curling of leaf margins, resembling a cup shape.",
+      "Interveinal yellowing (chlorosis), starting on younger leaves.",
+      "Leaf margins turn a distinct bright yellow while the rest of the leaf may remain green.",
+      "Affected leaves become smaller, thicker, and feel leathery or brittle.",
+      "Leaflets appear crinkled, distorted, and reduced in size."
+    ],
+    "stems": [
+      "Internodes are shortened, leading to a compact, bushy appearance."
+    ],
+    "fruit": [
+      "Significant reduction in fruit set due to flower abortion.",
+      "Fruits that develop are often smaller than normal and may be unmarketable."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Severe stunting is a primary symptom, especially if infected when young.",
+      "Plant exhibits a generally pale or yellowish appearance.",
+      "A bushy, compact growth habit due to shortened internodes."
+    ],
+    "signs_microscopic_or_visible": []
+  },
+  "lookalikes": [
+    {
+      "condition_name": "mosaic virus",
+      "condition_id": "tomato.disease_viral.mosaic_virus",
+      "key_differences": [
+        "Mosaic virus causes mottled light green and yellow patterns (a mosaic), not the distinct, uniform marginal yellowing of TYLCV.",
+        "Leaf distortion in mosaic is often fern-like or stringy, rather than the thick, leathery, upward cupping of TYLCV.",
+        "While both are viruses, the severe upward leaf curl is the hallmark of TYLCV and is less pronounced in mosaic infections."
+      ]
+    },
+    {
+      "condition_name": "spider mites",
+      "condition_id": "tomato.pest_damage.spider_mites",
+      "key_differences": [
+        "Spider mite damage appears as fine, pale yellow stippling on the leaf surface, not broad chlorosis or yellow margins.",
+        "The underside of mite-infested leaves will have fine webbing and tiny moving mites, which are absent in a viral infection.",
+        "Mite damage does not cause the characteristic severe upward leaf cupping or leathery texture seen in TYLCV.",
+        "Yellowing from mites often progresses to a bronze color and leaf death, while TYLCV leaves typically remain yellow and curled."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Use certified virus-free transplants.",
+      "Control whitefly populations using reflective (e.g., silver) plastic mulches.",
+      "Promptly remove and destroy infected plants to reduce the source of inoculum.",
+      "Implement a host-free period by removing all tomato and weed hosts between cropping seasons.",
+      "Use physical barriers like insect-proof nets in greenhouses."
+    ],
+    "biological": [
+      "Introduce or conserve natural enemies of whiteflies, such as predatory mites, lacewings, and parasitic wasps."
+    ],
+    "chemical": [
+      "Apply systemic insecticides at planting to protect young plants.",
+      "Use targeted foliar insecticides to manage whitefly populations, rotating chemical classes to prevent resistance.",
+      "Horticultural oils and insecticidal soaps can be effective in suppressing whitefly numbers with regular application."
+    ],
+    "notes": "The primary management strategy is controlling the whitefly vector, as there is no cure for an infected plant. Integrated pest management (IPM) is crucial."
+  }
+}

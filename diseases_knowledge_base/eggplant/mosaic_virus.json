@@ -1,0 +1,124 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "eggplant.disease_viral.mosaic_virus",
+  "aliases": [
+    "Eggplant mosaic virus (EMV)",
+    "Cucumber mosaic virus on eggplant (CMV)",
+    "Tobacco mosaic virus on eggplant (TMV)",
+    "Alfalfa mosaic virus on eggplant (AMV)"
+  ],
+  "crop": {
+    "common_name": "eggplant",
+    "scientific_name": "Solanum melongena",
+    "family": "Solanaceae"
+  },
+  "condition": {
+    "common_name": "Mosaic Virus",
+    "scientific_name": null,
+    "alt_names": [
+      "EMV",
+      "CMV",
+      "TMV",
+      "AMV"
+    ],
+    "pathogen": {
+      "type": "Virus",
+      "taxonomy": {
+        "kingdom": "Orthornavirae",
+        "phylum": "Kitrinoviricota",
+        "class": "Alsuviricetes",
+        "order": "Martellivirales",
+        "family": "Bromoviridae",
+        "genus": "Cucumovirus",
+        "species": "Cucumber mosaic virus"
+      }
+    }
+  },
+  "issue_type": "disease_viral",
+  "transmission": {
+    "vectors": [
+      "Aphids",
+      "Thrips",
+      "Leafhoppers"
+    ],
+    "dispersal": [
+      "Insect vectors",
+      "Mechanical transmission via contaminated tools or hands",
+      "Infected seed",
+      "Pollen"
+    ],
+    "overwintering": [
+      "Perennial host weeds",
+      "Infected crop debris",
+      "Infected seed",
+      "Overwintering insect vectors"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "High populations of aphid vectors",
+      "Proximity to infected host weeds (e.g., nightshades, legumes)",
+      "Use of non-certified seed or infected transplants",
+      "Mechanical operations in the field when plants are wet"
+    ],
+    "temp_c_day": [
+      20,
+      30
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "1-10% of leaf area on affected leaves shows mottling or discoloration. Plant stunting is minimal or absent.",
+    "moderate": "11-40% of leaf area shows distinct mosaic, yellowing, or blistering. Some leaf distortion and moderate stunting are visible.",
+    "severe": ">40% of total plant foliage is affected, with severe mosaic, leaf malformation (e.g., 'fernleaf'), and significant plant stunting. Fruit may be small, discolored, or deformed.",
+    "notes": "Severity is assessed based on the percentage of symptomatic leaf area across the entire plant and the degree of stunting or fruit malformation. Early infections are typically more severe."
+  },
+  "symptoms": {
+    "leaves": [
+      "Light green to yellow mottling or mosaic pattern on the leaf blade.",
+      "Alternating patches of normal green and light green/yellow tissue.",
+      "Vein clearing, where veins appear translucent or yellow.",
+      "Blistering or puckering (rugosity) of the leaf surface.",
+      "Leaf distortion, such as curling, twisting, or a narrow 'fernleaf' appearance.",
+      "Reduced overall leaf size."
+    ],
+    "stems": [
+      "Shortened internodes, leading to a crowded or bushy appearance."
+    ],
+    "fruit": [
+      "Reduced fruit size and number.",
+      "Blotchy, uneven ripening or discoloration.",
+      "Deformed or bumpy fruit surface.",
+      "Concentric ringspots or necrotic spots may appear on the fruit skin."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "General stunting or dwarfing of the plant.",
+      "Reduced plant vigor and overall yield."
+    ],
+    "signs_microscopic_or_visible": [
+      "No visible signs of the pathogen to the naked eye. Diagnosis requires lab testing (e.g., ELISA, PCR)."
+    ]
+  },
+  "lookalikes": [],
+  "management": {
+    "cultural": [
+      "Use certified virus-free seed and transplants.",
+      "Control aphid vectors early in the season.",
+      "Remove and destroy infected plants and nearby host weeds immediately upon detection.",
+      "Practice good field sanitation by cleaning tools, equipment, and hands.",
+      "Use reflective mulches to deter aphids."
+    ],
+    "biological": [
+      "Promote natural enemies of aphids, such as lady beetles, lacewings, and parasitic wasps."
+    ],
+    "chemical": [
+      "Apply appropriate insecticides to manage vector populations, which helps prevent spread but does not cure infected plants.",
+      "No effective chemical treatments (virucides) exist to cure infected plants."
+    ],
+    "notes": "Management is entirely preventative. Once a plant is infected, it cannot be cured and acts as a source of inoculum for other plants."
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "cotton.physiological_symptom.leaf_variegation",
+  "aliases": [
+    "Genetic variegation",
+    "chimerism",
+    "mosaic pattern variegation"
+  ],
+  "crop": {
+    "common_name": "Cotton",
+    "scientific_name": "Gossypium hirsutum",
+    "family": "Malvaceae"
+  },
+  "condition": {
+    "common_name": "Leaf Variegation",
+    "scientific_name": "",
+    "alt_names": [
+      "Genetic variegation",
+      "Chimerism"
+    ],
+    "pathogen": {
+      "type": "physiological_symptom",
+      "taxonomy": {
+        "kingdom": "",
+        "phylum": "",
+        "class": "",
+        "order": "",
+        "family": "",
+        "genus": "",
+        "species": ""
+      }
+    }
+  },
+  "issue_type": "physiological_symptom",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [
+      "Genetic (seed-borne mutation)",
+      "Somatic mutation (chimera)"
+    ],
+    "overwintering": []
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "Genetic predisposition"
+    ],
+    "temp_c_day": [],
+    "temp_c_night": [],
+    "relative_humidity_pct": [],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "Less than 10% of the leaf surface shows variegation; patterns are small or isolated to a few leaves.",
+    "moderate": "10-40% of the leaf surface shows variegation; patterns are distinct and present on multiple leaves.",
+    "severe": "Over 40% of the leaf surface is variegated, potentially affecting entire leaves or large sectors of the plant.",
+    "notes": "Severity measures the extent of the variegated tissue on a single representative leaf. It is not an indicator of plant health decline, as variegation is often a stable genetic trait."
+  },
+  "symptoms": {
+    "leaves": [
+      "Irregular patches of white, cream, or yellow tissue on an otherwise green leaf blade.",
+      "The boundary between green and non-green areas is typically sharp and well-defined.",
+      "Variegated patterns can be splotchy, sectoral (affecting a large wedge of the leaf), or marginal (along the edges).",
+      "Affected areas lack normal green chlorophyll pigmentation.",
+      "Variegation patterns are often asymmetrical and do not follow vein patterns.",
+      "The leaf shape and texture are generally normal, without distortion, curling, or necrosis.",
+      "Symptoms are stable throughout the season and do not spread from plant to plant."
+    ],
+    "stems": [
+      "Occasionally, stems may also show streaks or sectors of non-pigmented tissue."
+    ],
+    "fruit": [
+      "Bolls (fruit) are typically unaffected and appear normal."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Variegation may affect a single branch, a few leaves, or the entire plant, depending on the nature of the mutation (chimera)."
+    ],
+    "signs_microscopic_or_visible": []
+  },
+  "lookalikes": [
+    {
+      "condition_name": "Herbicide Growth Damage",
+      "condition_id": "cotton.physiological_symptom.herbicide_growth_damage",
+      "key_differences": [
+        "Herbicide damage often causes leaf distortion, cupping, or strapping, which is absent in genetic variegation.",
+        "Chlorosis from herbicide is often mottled or interveinal, not the sharply defined white/cream patches of variegation.",
+        "Herbicide damage patterns often relate to spray drift (e.g., affecting one side of the plant), whereas variegation is typically random or sectoral."
+      ]
+    },
+    {
+      "condition_name": "Bacterial Blight",
+      "condition_id": "cotton.disease_bacterial.bacterial_blight",
+      "key_differences": [
+        "Bacterial blight lesions are initially water-soaked and angular (limited by veins), later turning black and necrotic, unlike the stable, non-necrotic patches of variegation.",
+        "Variegated areas are defined by a lack of pigment, not by tissue death (necrosis).",
+        "Blight lesions often have a greasy appearance and can affect leaf veins, causing 'blackarm' on stems, which is absent in variegation."
+      ]
+    },
+    {
+      "condition_name": "Verticillium Wilt",
+      "condition_id": "cotton.disease_fungal.verticillium_wilt",
+      "key_differences": [
+        "Verticillium wilt causes chlorosis that is typically interveinal, starting at the leaf margins and progressing inward, often affecting one side of the leaf or plant.",
+        "Wilt symptoms (drooping leaves) and vascular discoloration (browning inside the stem) are key signs of Verticillium, absent in variegation.",
+        "The chlorotic tissue in Verticillium wilt often becomes necrotic and brown over time, unlike the stable white/yellow of variegation."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "No management is required as this is a physiological/genetic trait and not a disease.",
+      "If variegation is severe and associated with poor vigor, rogueing affected plants may be considered in breeding programs."
+    ],
+    "biological": [],
+    "chemical": [],
+    "notes": "This condition does not spread and typically has a negligible impact on yield unless a very large portion of the plant's photosynthetic area is affected."
+  }
+}

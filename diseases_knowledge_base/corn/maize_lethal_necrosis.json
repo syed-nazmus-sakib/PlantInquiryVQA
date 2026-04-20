@@ -1,0 +1,138 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "corn.unknown.maize_lethal_necrosis",
+  "aliases": [
+    "MLN",
+    "Corn Lethal Necrosis"
+  ],
+  "crop": {
+    "common_name": "Corn",
+    "scientific_name": "Zea mays",
+    "family": "Poaceae"
+  },
+  "condition": {
+    "common_name": "Maize Lethal Necrosis",
+    "scientific_name": "Caused by co-infection of Maize chlorotic mottle virus (MCMV) and a potyvirus (e.g., Sugarcane mosaic virus, SCMV)",
+    "alt_names": [
+      "MLN",
+      "Corn Lethal Necrosis Disease (CLND)"
+    ],
+    "pathogen": {
+      "type": "disease_viral",
+      "taxonomy": {
+        "kingdom": "",
+        "phylum": "",
+        "class": "",
+        "order": "",
+        "family": "",
+        "genus": "",
+        "species": ""
+      }
+    }
+  },
+  "issue_type": "unknown",
+  "transmission": {
+    "vectors": [
+      "Corn thrips (Frankliniella williamsi)",
+      "Cereal leaf beetle (Oulema melanopus)",
+      "Rootworms (Diabrotica spp.)",
+      "Aphids (e.g., Rhopalosiphum maidis)"
+    ],
+    "dispersal": [
+      "Infected seed",
+      "Mechanical transmission via tools or equipment",
+      "Vector movement between plants and fields"
+    ],
+    "overwintering": [
+      "Infected crop residues",
+      "Perennial grass hosts",
+      "Infected seed lots"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "Continuous maize cropping",
+      "High populations of insect vectors",
+      "Planting of susceptible maize varieties",
+      "Late planting dates"
+    ],
+    "temp_c_day": [
+      24,
+      30
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "qualitative",
+    "mild": "Mild chlorotic mottling or mosaic on a few young leaves, with minimal or no stunting.",
+    "moderate": "Extensive mottling and streaking, noticeable stunting, and necrosis beginning at leaf margins. Some plants may show early 'dead heart' symptoms.",
+    "severe": "Severe stunting, extensive leaf necrosis, 'dead heart' symptom leading to plant death, and poorly formed or absent ears.",
+    "notes": "Severity is assessed on a whole-plant basis due to the systemic nature of the disease. 'Dead heart' refers to the necrosis of the central whorl, which kills the plant's growing point. Leaf wetness is not a primary driver for this vector-borne viral disease, hence the threshold is 0."
+  },
+  "symptoms": {
+    "leaves": [
+      "Initial fine chlorotic mottle, mosaic, or speckling on young leaves.",
+      "Chlorotic streaks develop parallel to leaf veins.",
+      "Leaf margins turn necrotic (brown and dry), progressing inward and upward from lower leaves.",
+      "In severe cases, entire leaves become desiccated, giving the plant a burnt appearance."
+    ],
+    "stems": [
+      "Significant stunting of the plant is a key symptom.",
+      "Internodes are often shortened."
+    ],
+    "fruit": [
+      "Poor or no ear development.",
+      "Ears that form are typically small, malformed, and have poor kernel fill.",
+      "Husks may be prematurely dry and tight around the ear."
+    ],
+    "roots": [
+      "Root systems are often underdeveloped as a secondary effect of overall plant stunting."
+    ],
+    "whole_plant": [
+      "Necrosis of the growing point in the whorl, causing a 'dead heart' symptom which is often lethal.",
+      "Plants may die prematurely, before reaching maturity.",
+      "Tassels may be malformed, sterile, or produce little pollen."
+    ],
+    "signs_microscopic_or_visible": []
+  },
+  "lookalikes": [
+    {
+      "condition_name": "Maize Streak Virus",
+      "condition_id": "corn.disease_viral.maize_streak_virus",
+      "key_differences": [
+        "MLN causes progressive, widespread necrosis and plant death; MSV causes chlorosis and stunting but is less rapidly lethal.",
+        "MLN features a 'dead heart' symptom (whorl necrosis), which is absent in MSV.",
+        "MSV streaks are very fine and dense ('dots and dashes'), while MLN symptoms begin as a more blotchy mottle before becoming necrotic.",
+        "MLN causes distinct necrosis starting from leaf margins, a symptom not typical of MSV."
+      ]
+    },
+    {
+      "condition_name": "Northern Leaf Blight",
+      "condition_id": "corn.disease_fungal.northern_leaf_blight",
+      "key_differences": [
+        "NLB produces large (2-15 cm), distinct, cigar-shaped tan lesions, whereas MLN symptoms are systemic (mottle, streaks, marginal necrosis).",
+        "MLN symptoms are often most severe on young, upper leaves, while NLB lesions typically start on lower leaves and move up.",
+        "MLN causes whole-plant stunting and death, which are not primary symptoms of NLB."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Plant certified disease-free seed from reputable sources.",
+      "Use MLN-tolerant or resistant maize hybrids.",
+      "Implement crop rotation with non-cereal crops to break the disease cycle.",
+      "Enforce a 'maize-free' period to eliminate local inoculum and vector hosts.",
+      "Control weed and volunteer grass hosts in and around fields."
+    ],
+    "biological": [
+      "Conserve and promote natural enemies of insect vectors like aphids and thrips."
+    ],
+    "chemical": [
+      "Use seed treatments with systemic insecticides to protect seedlings from early vector feeding.",
+      "Apply foliar insecticides to manage high vector populations, though this is often not economically viable for controlling MLN alone."
+    ],
+    "notes": "An integrated approach combining host resistance, clean seed, cultural practices, and vector management is essential for controlling MLN. There are no virucides to treat infected plants."
+  }
+}

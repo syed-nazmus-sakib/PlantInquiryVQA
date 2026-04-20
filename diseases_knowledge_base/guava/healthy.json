@@ -1,0 +1,136 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "guava.healthy.healthy",
+  "aliases": [
+    "Normal",
+    "Asymptomatic",
+    "Undiseased"
+  ],
+  "crop": {
+    "common_name": "Guava",
+    "scientific_name": "Psidium guajava",
+    "family": "Myrtaceae"
+  },
+  "condition": {
+    "common_name": "Healthy",
+    "scientific_name": null,
+    "alt_names": [
+      "Normal",
+      "Asymptomatic"
+    ],
+    "pathogen": {
+      "type": "abiotic",
+      "taxonomy": {
+        "kingdom": "",
+        "phylum": "",
+        "class": "",
+        "order": "",
+        "family": "",
+        "genus": "",
+        "species": ""
+      }
+    }
+  },
+  "issue_type": "healthy",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [],
+    "overwintering": []
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "Optimal sunlight exposure (6-8 hours/day)",
+      "Well-drained soil with appropriate pH (5.5-7.0)",
+      "Adequate plant spacing promoting good air circulation",
+      "Balanced nutrition and consistent moisture"
+    ],
+    "temp_c_day": [
+      23,
+      28
+    ],
+    "temp_c_night": [
+      15,
+      20
+    ],
+    "relative_humidity_pct": [
+      60,
+      80
+    ],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "qualitative",
+    "mild": "N/A",
+    "moderate": "N/A",
+    "severe": "N/A",
+    "notes": "For a healthy plant, severity is not applicable. The plant exhibits 0% symptoms of disease or stress. Any deviation from the 'healthy' description would be classified under a specific condition."
+  },
+  "symptoms": {
+    "leaves": [
+      "Uniformly green color, ranging from light green on new growth to dark green on mature leaves.",
+      "Smooth, often glossy or waxy surface texture.",
+      "Leaves are fully expanded, turgid, and appropriately sized.",
+      "Complete absence of spots, lesions, pustules, or powdery growth.",
+      "Leaf margins are entire and without necrosis, yellowing, or curling.",
+      "Veins are a similar or slightly lighter green than the leaf blade without discoloration."
+    ],
+    "stems": [
+      "Stems and branches are firm, strong, and support the plant structure.",
+      "Bark on young shoots is typically smooth and greenish-brown, while older stems may have peeling, mottled bark.",
+      "Absence of cankers, galls, cracks, or unusual exudates."
+    ],
+    "fruit": [
+      "Fruit skin is smooth and evenly colored for its stage of development (e.g., uniform green when immature, turning yellow or pink when ripe).",
+      "Absence of blemishes, sunken lesions, cracks, or signs of rot.",
+      "Fruit is well-formed and firm to the touch."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Exhibits vigorous, upright growth with a dense, full canopy.",
+      "Produces new flushes of growth, flowers, and fruit according to the season."
+    ],
+    "signs_microscopic_or_visible": [
+      "Absence of any visible signs of pathogens, such as fungal mycelium, spores, pustules, or bacterial ooze."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "Nutritional Deficiency",
+      "condition_id": "guava.abiotic.nutritional_deficiency",
+      "key_differences": [
+        "Healthy leaves have uniform green color, whereas deficient leaves show patterned chlorosis (yellowing), such as interveinal, marginal, or on new/old growth.",
+        "Healthy leaves are flat and well-formed, while certain deficiencies (e.g., calcium, boron) can cause distorted, curled, or stunted leaf growth.",
+        "Healthy plant growth is vigorous; deficiencies often result in reduced vigor and smaller leaves."
+      ]
+    },
+    {
+      "condition_name": "Powdery Mildew",
+      "condition_id": "guava.fungal.powdery_mildew",
+      "key_differences": [
+        "Healthy leaves have a clean, often glossy surface, while infected leaves are coated with a distinct white to grayish, powdery fungal growth.",
+        "The texture of a healthy leaf is smooth; powdery mildew creates a dusty or felt-like coating that can be rubbed off.",
+        "Underlying tissue of a healthy leaf is green, whereas areas covered by mildew may eventually turn yellow or necrotic."
+      ]
+    },
+    {
+      "condition_name": "Rust",
+      "condition_id": "guava.fungal.rust",
+      "key_differences": [
+        "Healthy leaves have a smooth, unbroken surface, while rust-infected leaves feature small, raised pustules.",
+        "Rust pustules are typically bright orange, yellow, or reddish-brown, colors which are absent on healthy leaves.",
+        "The underside of a healthy leaf is clean, whereas rust pustules are often more numerous and prominent on the leaf underside."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Maintain a balanced fertilization program based on soil and tissue analysis.",
+      "Ensure proper irrigation, avoiding both drought stress and waterlogged conditions.",
+      "Prune annually to remove dead or crossing branches and improve air circulation within the canopy.",
+      "Select planting sites with full sun exposure and well-drained soil."
+    ],
+    "biological": [],
+    "chemical": [],
+    "notes": "Management for a healthy plant involves proactive cultural practices to provide optimal growing conditions and minimize plant stress, which is the best defense against pests and diseases."
+  }
+}

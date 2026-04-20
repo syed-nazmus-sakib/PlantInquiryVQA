@@ -1,0 +1,129 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "mango.physiological_symptom.senescence_or_dry",
+  "aliases": [
+    "Leaf drying",
+    "Leaf scorch",
+    "Drought stress",
+    "Water stress",
+    "Natural aging"
+  ],
+  "crop": {
+    "common_name": "Mango",
+    "scientific_name": "Mangifera indica",
+    "family": "Anacardiaceae"
+  },
+  "condition": {
+    "common_name": "Senescence or Dry",
+    "scientific_name": null,
+    "alt_names": [
+      "Leaf senescence",
+      "Water deficit symptom",
+      "Tip burn"
+    ],
+    "pathogen": {
+      "type": "Abiotic",
+      "taxonomy": {
+        "kingdom": "",
+        "phylum": "",
+        "class": "",
+        "order": "",
+        "family": "",
+        "genus": "",
+        "species": ""
+      }
+    }
+  },
+  "issue_type": "physiological_symptom",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [],
+    "overwintering": []
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "Inadequate irrigation or drought",
+      "High ambient temperatures",
+      "Low relative humidity",
+      "Poor soil water retention",
+      "Root damage or compaction",
+      "Nutrient deficiency (e.g., potassium)",
+      "Natural end of leaf lifespan"
+    ],
+    "temp_c_day": [
+      35,
+      45
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      10,
+      40
+    ],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "1-10% of leaf area shows yellowing or browning, typically confined to the leaf tip or extreme margins.",
+    "moderate": "11-40% of the leaf area is affected, with significant browning and curling spreading from the margins inward.",
+    "severe": ">40% of the leaf area is brown, brittle, and necrotic; widespread leaf drop may be evident.",
+    "notes": "Severity is assessed as the percentage of a single leaf's surface showing symptoms. For whole-plant assessment, consider the proportion of leaves exhibiting symptoms."
+  },
+  "symptoms": {
+    "leaves": [
+      "Progressive yellowing (chlorosis) that typically starts on older, lower leaves.",
+      "Leaf tips and margins turn tan to dark brown, becoming dry and brittle.",
+      "A distinct boundary may exist between the necrotic brown tissue and the green tissue.",
+      "Affected leaves may curl inwards or droop (wilt).",
+      "The texture of necrotic areas is papery or crispy.",
+      "In severe cases, the entire leaf turns brown and abscises (drops) prematurely."
+    ],
+    "stems": [
+      "Young, non-woody stems and petioles may wilt or droop.",
+      "In cases of prolonged drought, terminal shoot dieback can occur."
+    ],
+    "fruit": [
+      "Under severe water stress, fruit may shrivel, develop sunburn, or drop prematurely."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "A general wilted or drooping appearance, especially during the hottest part of the day.",
+      "Reduced plant vigor and stunted growth."
+    ],
+    "signs_microscopic_or_visible": []
+  },
+  "lookalikes": [
+    {
+      "condition_name": "Anthracnose",
+      "condition_id": "mango.fungal_disease.anthracnose",
+      "key_differences": [
+        "Anthracnose causes distinct, dark brown to black, angular or irregular spots, often with a 'shot-hole' appearance, unlike the marginal browning of senescence.",
+        "Anthracnose lesions can appear anywhere on the leaf, including on young leaves, while senescence typically begins on the margins of older leaves.",
+        "In humid conditions, anthracnose lesions may exhibit tiny pinkish-orange spore masses (acervuli), which are absent in physiological drying."
+      ]
+    },
+    {
+      "condition_name": "Dieback",
+      "condition_id": "mango.fungal_disease.dieback",
+      "key_differences": [
+        "Dieback is the progressive death of a branch from the tip downwards, affecting the entire woody structure, whereas senescence is a leaf-specific condition.",
+        "Senescence causes leaves to yellow and brown, while dieback causes entire twigs and branches to dry out, often with leaves still attached.",
+        "If a dieback-affected stem is cut, the internal vascular tissue will be discolored (brown/black), a symptom not associated with leaf senescence."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Provide consistent and adequate irrigation, especially during fruit development and dry seasons.",
+      "Apply a layer of organic mulch around the tree base to conserve soil moisture and regulate soil temperature.",
+      "Ensure proper soil drainage to prevent root suffocation, which can mimic drought symptoms.",
+      "Conduct soil and leaf analysis to identify and correct nutrient deficiencies, particularly potassium.",
+      "Protect young trees from extreme sun and wind exposure."
+    ],
+    "biological": [],
+    "chemical": [
+      "Application of potassium-based fertilizers if a deficiency is confirmed.",
+      "Use of anti-transpirant sprays can sometimes help reduce water loss in high-stress periods, but is not a substitute for proper irrigation."
+    ],
+    "notes": "Management is entirely focused on correcting the underlying abiotic stress, primarily related to water and nutrient management."
+  }
+}

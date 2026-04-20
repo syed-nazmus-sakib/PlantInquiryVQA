@@ -1,0 +1,146 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "rice.disease_viral.tungro",
+  "aliases": [
+    "rice tungro disease",
+    "RTD"
+  ],
+  "crop": {
+    "common_name": "rice",
+    "scientific_name": "Oryza sativa",
+    "family": "Poaceae"
+  },
+  "condition": {
+    "common_name": "tungro",
+    "scientific_name": "Rice tungro virus complex",
+    "alt_names": [
+      "penyakit merah",
+      "mentek"
+    ],
+    "pathogen": {
+      "type": "virus",
+      "taxonomy": {
+        "kingdom": "",
+        "phylum": "",
+        "class": "",
+        "order": "",
+        "family": "Caulimoviridae; Secoviridae",
+        "genus": "Tungrovirus; Waikavirus",
+        "species": "Rice tungro bacilliform virus; Rice tungro spherical virus"
+      }
+    }
+  },
+  "issue_type": "disease_viral",
+  "transmission": {
+    "vectors": [
+      "Green leafhopper (Nephotettix virescens)",
+      "Nephotettix malayanus",
+      "Nephotettix nigropictus"
+    ],
+    "dispersal": [
+      "Insect vector movement between fields",
+      "Movement of infected seedlings"
+    ],
+    "overwintering": [
+      "Infected rice stubble and ratoons",
+      "Alternate weed hosts (e.g., Eleusine indica)",
+      "Survives in living insect vectors"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "High population of green leafhopper vectors",
+      "Asynchronous planting in a region",
+      "Presence of infected stubble from previous crops",
+      "Cultivation of susceptible rice varieties"
+    ],
+    "temp_c_day": [
+      25,
+      32
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      70,
+      90
+    ],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "qualitative",
+    "mild": "Scattered individual plants show slight yellowing on younger leaves; stunting is not obvious.",
+    "moderate": "Distinct patches of yellowed or orange-colored, stunted plants are visible in the field; reduced tillering is apparent.",
+    "severe": "Widespread yellowing and severe stunting across large areas of the field; plants may die before maturity, panicles are small and sterile.",
+    "notes": "Severity is a combination of incidence (percentage of infected plants in a field) and symptom expression (degree of stunting and discoloration) on individual plants. Leaf wetness is not a primary driver for this vector-borne viral disease."
+  },
+  "symptoms": {
+    "leaves": [
+      "Yellow to orange-yellow discoloration, often starting from the leaf tip and margins.",
+      "Interveinal chlorosis on leaf blades.",
+      "Younger leaves are most affected by discoloration.",
+      "Leaves may have a slightly mottled or striped appearance.",
+      "Infected leaves are often shorter and more erect than healthy ones.",
+      "Older leaves can develop small, rust-colored spots."
+    ],
+    "stems": [
+      "Significant reduction in the number of tillers."
+    ],
+    "fruit": [
+      "Delayed or inhibited flowering.",
+      "Panicles are often small, sterile, and may not fully emerge from the sheath.",
+      "Grains are often partially filled, discolored, or absent."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Pronounced stunting is a primary and characteristic symptom.",
+      "Plants appear less vigorous and may die before reaching maturity.",
+      "Infection often occurs in circular or irregular patches in the field."
+    ],
+    "signs_microscopic_or_visible": []
+  },
+  "lookalikes": [
+    {
+      "condition_name": "bacterial_leaf_blight",
+      "condition_id": "rice.disease_bacterial.bacterial_leaf_blight",
+      "key_differences": [
+        "Tungro causes uniform yellow-orange discoloration, while BLB causes water-soaked streaks with wavy margins that turn yellow-gray.",
+        "Tungro causes severe, systemic stunting; stunting is less common or pronounced with BLB.",
+        "BLB lesions may ooze milky bacterial droplets in high humidity, which is absent in tungro.",
+        "Tungro symptoms are often more pronounced on younger leaves, while BLB can affect leaves of any age."
+      ]
+    },
+    {
+      "condition_name": "hispa",
+      "condition_id": "rice.pest.hispa",
+      "key_differences": [
+        "Hispa damage appears as distinct, parallel white streaks or blotches from larval mining, not the uniform yellowing of tungro.",
+        "The adult Hispa beetle (small, black, spiny) may be visible on leaves; tungro is a virus with an invisible pathogen.",
+        "Tungro causes severe stunting of the entire plant; Hispa damage is primarily on the leaves and does not cause systemic stunting."
+      ]
+    },
+    {
+      "condition_name": "stripes",
+      "condition_id": "rice.disease_viral.stripes",
+      "key_differences": [
+        "Tungro causes yellow-orange discoloration, while Rice Stripe Virus causes distinct, continuous chlorotic stripes along leaf veins.",
+        "Tungro-infected leaves tend to be short and stiff, whereas leaves with RSV can become twisted and droopy.",
+        "While both cause stunting, the specific leaf pattern (general discoloration vs. clear stripes) is the key differentiator."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Planting of resistant or tolerant rice varieties.",
+      "Synchronous planting across a large area to break the vector's life cycle.",
+      "Rogueing (removing and destroying) infected plants and weed hosts.",
+      "Plowing under infected rice stubble after harvest."
+    ],
+    "biological": [
+      "Conservation of natural enemies of leafhoppers, such as spiders, mirid bugs, and dragonflies."
+    ],
+    "chemical": [
+      "Application of systemic insecticides in the nursery or early in the main field to control the green leafhopper vector.",
+      "Seed treatment with appropriate insecticides."
+    ],
+    "notes": "Management is prophylactic and focuses on controlling the insect vector and reducing inoculum sources, as there is no direct chemical cure for the virus in infected plants."
+  }
+}

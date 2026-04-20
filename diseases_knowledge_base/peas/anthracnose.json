@@ -1,0 +1,138 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "peas.disease_fungal.anthracnose",
+  "aliases": [
+    "Pea anthracnose"
+  ],
+  "crop": {
+    "common_name": "Pea",
+    "scientific_name": "Pisum sativum",
+    "family": "Fabaceae"
+  },
+  "condition": {
+    "common_name": "Anthracnose",
+    "scientific_name": "Colletotrichum pisi",
+    "alt_names": [
+      "Leaf and pod spot"
+    ],
+    "pathogen": {
+      "type": "disease_fungal",
+      "taxonomy": {
+        "kingdom": "Fungi",
+        "phylum": "Ascomycota",
+        "class": "Sordariomycetes",
+        "order": "Glomerellales",
+        "family": "Glomerellaceae",
+        "genus": "Colletotrichum",
+        "species": "pisi"
+      }
+    }
+  },
+  "issue_type": "disease_fungal",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [
+      "Rain splash",
+      "Wind-driven rain",
+      "Contaminated equipment",
+      "Infected seed"
+    ],
+    "overwintering": [
+      "Infected crop debris",
+      "Infected seed"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "High humidity",
+      "Prolonged leaf wetness",
+      "Dense plant canopy",
+      "Poor air circulation",
+      "Moderate to warm temperatures"
+    ],
+    "temp_c_day": [
+      20,
+      27
+    ],
+    "temp_c_night": [
+      15,
+      22
+    ],
+    "relative_humidity_pct": [
+      85,
+      100
+    ],
+    "leaf_wetness_hours_threshold": 12
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "1-10% of leaf/pod surface area affected; few, scattered lesions.",
+    "moderate": "11-40% of leaf/pod surface area affected; multiple lesions, some coalescing; minor stem girdling.",
+    "severe": ">40% of leaf/pod surface area affected; extensive lesion coalescence leading to blighting, significant stem girdling, and pod decay.",
+    "notes": "Severity is assessed on the most affected plant parts (leaves, stems, pods). Assess the average across several plants in an area."
+  },
+  "symptoms": {
+    "leaves": [
+      "Small, circular, water-soaked spots that enlarge over time.",
+      "Lesions become tan to dark brown, often with a distinct, dark border.",
+      "Centers of older lesions may become gray and fall out, creating a 'shot-hole' effect.",
+      "Lesions can merge, causing large blighted areas and premature leaf drop."
+    ],
+    "stems": [
+      "Elongated, sunken lesions that are initially dark green and turn black.",
+      "Stem lesions can girdle the plant, causing wilting and death of parts above the infection.",
+      "Tiny black fungal structures (acervuli) may become visible in the center of older stem lesions."
+    ],
+    "fruit": [
+      "Circular, sunken lesions on pods, often with a water-soaked appearance.",
+      "Pod lesions enlarge, turn dark brown to black, and may have lighter-colored centers.",
+      "In humid conditions, pinkish to orange-colored spore masses may ooze from the center of pod lesions."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Stunted growth and reduced vigor in heavily infected plants.",
+      "General wilting or dieback if main stems are girdled."
+    ],
+    "signs_microscopic_or_visible": [
+      "Presence of acervuli (small, black, cushion-like fungal fruiting bodies) in the center of mature lesions.",
+      "Gelatinous, salmon-pink to orange spore masses (conidia) produced from acervuli in moist weather."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "Ascochyta blight",
+      "condition_id": "peas.disease_fungal.ascochyta_blight",
+      "key_differences": [
+        "Ascochyta lesions are purplish-black and often have distinct concentric rings, creating a 'target spot' appearance.",
+        "Ascochyta lesions contain tiny black specks (pycnidia) arranged in rings, unlike the acervuli of anthracnose which can produce pink spore masses.",
+        "Ascochyta blight complex often includes a 'foot rot' phase with blackening at the stem base, which is not typical for anthracnose."
+      ]
+    },
+    {
+      "condition_name": "Botrytis blight",
+      "condition_id": "peas.disease_fungal.botrytis_blight",
+      "key_differences": [
+        "Botrytis blight is characterized by a fuzzy, gray-to-brown moldy growth on lesions, especially in high humidity.",
+        "Botrytis lesions are often less defined, appearing as rapidly expanding, soft, water-soaked patches rather than the discrete, sunken spots of anthracnose.",
+        "Botrytis frequently infects blossoms first, leading to pod rot that initiates from the flower end."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Use certified disease-free seed.",
+      "Practice a crop rotation of at least 2-3 years with non-legume crops.",
+      "Promote air circulation through appropriate plant spacing and weed control.",
+      "Remove and destroy infected crop residue after harvest to reduce inoculum.",
+      "Avoid overhead irrigation to minimize periods of leaf wetness."
+    ],
+    "biological": [
+      "Some commercial biofungicides containing *Bacillus subtilis* or *Trichoderma* species may provide suppression when applied preventatively."
+    ],
+    "chemical": [
+      "Apply registered foliar fungicides (e.g., strobilurins, triazoles) preventatively, especially when weather conditions are favorable for disease.",
+      "Seed treatment with appropriate fungicides can reduce transmission from infected seed."
+    ],
+    "notes": "Consult local agricultural extension services for recommendations on fungicides currently registered for use on peas in your region."
+  }
+}

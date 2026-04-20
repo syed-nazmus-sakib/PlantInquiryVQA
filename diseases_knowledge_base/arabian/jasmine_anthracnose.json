@@ -1,0 +1,144 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "arabian.disease_fungal.jasmine_anthracnose",
+  "aliases": [
+    "Jasmine dieback",
+    "Jasmine twig blight",
+    "Colletotrichum leaf spot of jasmine"
+  ],
+  "crop": {
+    "common_name": "Arabian Jasmine",
+    "scientific_name": "Jasminum sambac",
+    "family": "Oleaceae"
+  },
+  "condition": {
+    "common_name": "Jasmine Anthracnose",
+    "scientific_name": "Colletotrichum gloeosporioides",
+    "alt_names": [
+      "Dieback",
+      "Twig blight"
+    ],
+    "pathogen": {
+      "type": "disease_fungal",
+      "taxonomy": {
+        "kingdom": "Fungi",
+        "phylum": "Ascomycota",
+        "class": "Sordariomycetes",
+        "order": "Glomerellales",
+        "family": "Glomerellaceae",
+        "genus": "Colletotrichum",
+        "species": "gloeosporioides"
+      }
+    }
+  },
+  "issue_type": "disease_fungal",
+  "transmission": {
+    "vectors": [
+      "Insects (as mechanical carriers)",
+      "Humans (via contaminated pruning tools)"
+    ],
+    "dispersal": [
+      "Rain splash",
+      "Wind-driven rain",
+      "Overhead irrigation"
+    ],
+    "overwintering": [
+      "Infected plant debris on the ground",
+      "As dormant mycelium in stem cankers",
+      "On infected, persistent leaves"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "High humidity",
+      "Prolonged leaf wetness (>12 hours)",
+      "Warm temperatures",
+      "Dense plant canopy with poor air circulation",
+      "Recent plant injury or pruning wounds"
+    ],
+    "temp_c_day": [
+      24,
+      32
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      85,
+      100
+    ],
+    "leaf_wetness_hours_threshold": 12
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "1-10% of total foliage affected. A few scattered leaf spots, minimal to no twig dieback observed.",
+    "moderate": "11-40% of total foliage affected. Multiple lesions per leaf, some coalescing. Noticeable dieback on several young shoots.",
+    "severe": ">40% of total foliage affected. Widespread leaf blighting and defoliation. Significant dieback of branches, plant appears sickly.",
+    "notes": "Assessment combines the percentage of leaf surface covered by lesions with the extent of stem/twig dieback. The overall impact on the plant's canopy is considered."
+  },
+  "symptoms": {
+    "leaves": [
+      "Small, circular to irregular, water-soaked spots, especially on young leaves.",
+      "Lesions enlarge and turn tan to dark brown, often with a distinct, dark brown or purplish border.",
+      "Spots may coalesce to form large, irregular necrotic patches or blight.",
+      "A 'shot-hole' appearance can occur as the necrotic center of spots dries and falls out.",
+      "Infected leaves may become twisted or distorted before dropping prematurely."
+    ],
+    "stems": [
+      "Symptoms often begin at the tips of young, tender shoots, causing them to wilt and die back.",
+      "Elongated, sunken, dark brown to black lesions (cankers) form on stems and twigs.",
+      "Cankers can girdle the stem, causing all parts above the lesion to wilt and die."
+    ],
+    "fruit": [
+      "Flower buds may develop brown spots, rot, and fail to open.",
+      "Opened flowers can show brown necrotic flecks on petals."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Progressive dieback of branches from the tip inward.",
+      "Stunted growth and reduced plant vigor.",
+      "Significant defoliation in severe cases."
+    ],
+    "signs_microscopic_or_visible": [
+      "Under humid conditions, gelatinous, pink to salmon-colored spore masses (acervuli) erupt through the surface of lesions.",
+      "Using a hand lens, tiny black, bristle-like structures (setae) may be visible in the center of older lesions."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "Jasmine Leaf Blight",
+      "condition_id": "arabian.disease_fungal.jasmine_leaf_blight",
+      "key_differences": [
+        "Leaf blight lesions are often larger and more rapidly expanding, engulfing entire leaves without the initial discrete, bordered spot stage of anthracnose.",
+        "Anthracnose is strongly characterized by sunken stem cankers and tip dieback, which are less prominent or absent in many leaf blight diseases.",
+        "Leaf blight (e.g., Alternaria) may produce dark, sooty mold growth, whereas anthracnose produces pink/orange spore masses in wet conditions.",
+        "Anthracnose spots can have a 'shot-hole' appearance, which is less common for leaf blights."
+      ]
+    },
+    {
+      "condition_name": "Jasmine Leaf Spot",
+      "condition_id": "arabian.disease_fungal.jasmine_leaf_spot",
+      "key_differences": [
+        "Cercospora leaf spots are typically more circular, smaller, and remain discrete, with a characteristic tan or grey center and a very distinct dark purple or reddish-brown border.",
+        "Anthracnose lesions are more variable in shape and tend to coalesce into larger blighted areas more readily.",
+        "Leaf spot diseases are primarily foliar, while anthracnose also causes significant cankers and dieback on stems and twigs."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Prune and destroy infected twigs and branches during dry weather to reduce inoculum.",
+      "Rake up and dispose of fallen leaves and plant debris.",
+      "Improve air circulation through selective pruning and proper plant spacing.",
+      "Avoid overhead irrigation to minimize leaf wetness; use drip irrigation or water the soil directly.",
+      "Maintain plant vigor with appropriate fertilization and watering, but avoid excessive nitrogen."
+    ],
+    "biological": [
+      "Application of biofungicides containing strains of *Bacillus subtilis* or *Trichoderma* spp. may help suppress the pathogen."
+    ],
+    "chemical": [
+      "Apply preventative fungicides during warm, wet periods conducive to disease development.",
+      "Effective active ingredients include mancozeb, chlorothalonil, and copper-based compounds.",
+      "For severe infections, systemic fungicides like those containing azoxystrobin or propiconazole may be necessary."
+    ],
+    "notes": "Rotate fungicide chemical groups to prevent resistance. Always read and follow the product label for application rates and timing."
+  }
+}

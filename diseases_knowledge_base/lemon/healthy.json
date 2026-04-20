@@ -1,0 +1,137 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "lemon.healthy.healthy",
+  "aliases": [
+    "normal lemon",
+    "unaffected lemon",
+    "asymptomatic lemon"
+  ],
+  "crop": {
+    "common_name": "lemon",
+    "scientific_name": "Citrus limon",
+    "family": "Rutaceae"
+  },
+  "condition": {
+    "common_name": "healthy",
+    "scientific_name": "",
+    "alt_names": [
+      "normal",
+      "unaffected",
+      "asymptomatic"
+    ],
+    "pathogen": {
+      "type": "none",
+      "taxonomy": {
+        "kingdom": "",
+        "phylum": "",
+        "class": "",
+        "order": "",
+        "family": "",
+        "genus": "",
+        "species": ""
+      }
+    }
+  },
+  "issue_type": "healthy",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [],
+    "overwintering": []
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "Optimal growing conditions",
+      "Adequate sunlight (6-8+ hours/day)",
+      "Proper irrigation and well-drained soil",
+      "Balanced nutrition"
+    ],
+    "temp_c_day": [
+      21,
+      30
+    ],
+    "temp_c_night": [
+      13,
+      21
+    ],
+    "relative_humidity_pct": [
+      50,
+      70
+    ],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "qualitative",
+    "mild": "Not applicable. Plant is either healthy or shows symptoms.",
+    "moderate": "Not applicable.",
+    "severe": "Not applicable.",
+    "notes": "For a 'healthy' state, severity is binary. The plant either shows no signs of disease, pest, or disorder (healthy), or it shows one or more symptoms (not healthy). Any visible symptom would disqualify the 'healthy' label."
+  },
+  "symptoms": {
+    "leaves": [
+      "Uniformly deep green color, with new growth being a lighter green.",
+      "Glossy, waxy upper surface.",
+      "Lanceolate or ovate shape, typical for the cultivar, with smooth or slightly serrated margins.",
+      "Absence of spots, lesions, discoloration, or distortion.",
+      "Veins are a similar or slightly lighter green than the leaf blade.",
+      "Petioles are firm and may have small 'wings'."
+    ],
+    "stems": [
+      "Stems and branches are firm and turgid.",
+      "Color ranges from green on new growth to brown and woody on older branches.",
+      "Absence of cankers, gummosis (oozing), splits, or dieback."
+    ],
+    "fruit": [
+      "If present, fruit is firm with a bright, uniform yellow rind (when mature).",
+      "Fruit surface is free of blemishes, sunken spots, scabs, or signs of rot."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Vigorous, dense canopy of leaves.",
+      "Exhibits signs of new growth (flushes) during the growing season."
+    ],
+    "signs_microscopic_or_visible": [
+      "Absence of any fungal growth (e.g., mycelium, spores), bacterial ooze, insect frass, webbing, or other foreign structures."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "Nutritional Deficiency",
+      "condition_id": "lemon.nutritional.nutritional_deficiency",
+      "key_differences": [
+        "Healthy leaves are uniformly green, while deficient leaves show distinct chlorosis patterns like yellowing between veins (interveinal), mottling, or pale new growth.",
+        "Healthy leaves are full-sized and well-shaped, whereas some deficiencies cause stunted, small, or narrow 'strappy' leaves.",
+        "Healthy plant growth is vigorous; deficiencies often result in reduced vigor and sparse foliage."
+      ]
+    },
+    {
+      "condition_name": "Citrus Leafminer",
+      "condition_id": "lemon.pest.citrus_leafminer",
+      "key_differences": [
+        "Healthy leaves have a smooth, undamaged surface. Leafminer damage appears as silvery, serpentine (winding) trails or 'mines' within the leaf tissue.",
+        "Healthy new leaves are flat and well-formed. Leafminer activity causes severe curling, twisting, and distortion of new, tender leaves.",
+        "Healthy leaves are clean, while mined leaves may contain visible dark specks of frass (insect excrement) inside the trails."
+      ]
+    },
+    {
+      "condition_name": "Bacterial Canker",
+      "condition_id": "lemon.bacterial.bacterial_canker",
+      "key_differences": [
+        "Healthy tissue is smooth and unblemished. Canker presents as distinct, raised, corky lesions on leaves, stems, and fruit.",
+        "Canker lesions on leaves are typically surrounded by a water-soaked margin and a bright yellow halo, both of which are absent on healthy leaves.",
+        "Healthy fruit has a clean rind, while canker causes dark, crater-like, scabby spots on the fruit surface."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Provide 6-8+ hours of direct sunlight daily.",
+      "Use well-draining soil mixes to prevent waterlogging and root issues.",
+      "Implement a balanced fertilization program tailored to citrus needs.",
+      "Water deeply and allow the top layer of soil to dry out between waterings.",
+      "Prune annually to remove dead wood and improve air circulation within the canopy."
+    ],
+    "biological": [],
+    "chemical": [],
+    "notes": "Management for a healthy plant focuses on preventative care and providing optimal growing conditions to minimize stress and prevent the onset of diseases and pests."
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "lemon.nutrient_deficiency.nutritional_deficiency",
+  "aliases": [
+    "chlorosis",
+    "nutrient imbalance",
+    "micronutrient deficiency",
+    "macronutrient deficiency"
+  ],
+  "crop": {
+    "common_name": "Lemon",
+    "scientific_name": "Citrus limon",
+    "family": "Rutaceae"
+  },
+  "condition": {
+    "common_name": "Nutritional Deficiency",
+    "scientific_name": null,
+    "alt_names": [
+      "Iron deficiency",
+      "Magnesium deficiency",
+      "Zinc deficiency",
+      "Nitrogen deficiency",
+      "Manganese deficiency"
+    ],
+    "pathogen": {
+      "type": "abiotic",
+      "taxonomy": {
+        "kingdom": "",
+        "phylum": "",
+        "class": "",
+        "order": "",
+        "family": "",
+        "genus": "",
+        "species": ""
+      }
+    }
+  },
+  "issue_type": "nutrient_deficiency",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [],
+    "overwintering": []
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "Incorrect soil pH (too high or too low)",
+      "Highly leached sandy soils",
+      "Waterlogged or compacted heavy clay soils",
+      "Drought conditions",
+      "Competition from weeds for nutrients",
+      "Improper fertilization"
+    ],
+    "temp_c_day": [],
+    "temp_c_night": [],
+    "relative_humidity_pct": [],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "1-10% of leaf area shows chlorosis or mottling. Patterns are visible but not widespread on the plant.",
+    "moderate": "11-40% of leaf area is affected. Chlorotic patterns are distinct and widespread on affected leaves; some stunting of new growth may be visible.",
+    "severe": ">40% of leaf area is affected. Leaves are mostly yellow or white, with potential necrotic spots, leaf drop, and shoot dieback.",
+    "notes": "Severity is assessed as the percentage of a symptomatic leaf's surface area showing characteristic chlorosis or mottling. The overall plant impact should also be considered."
+  },
+  "symptoms": {
+    "leaves": [
+      "Yellowing of tissue between green veins (interveinal chlorosis), especially on young leaves (Iron, Manganese, Zinc).",
+      "A distinct inverted 'V' shape of green at the leaf base, with the rest of the leaf yellowing, common on older leaves (Magnesium).",
+      "Uniform pale green to yellow discoloration over the entire leaf, often starting with older, lower leaves (Nitrogen).",
+      "Blotchy, irregular yellow areas between veins, creating a mottled appearance (Zinc, Manganese).",
+      "In severe cases, veins may also lose color, and the entire leaf turns yellow or almost white.",
+      "Affected young leaves may be smaller than normal (little leaf), narrow, or pointed (Zinc).",
+      "Necrotic (brown, dead) spots may develop in severely chlorotic areas.",
+      "Premature leaf drop."
+    ],
+    "stems": [
+      "Reduced internode length, leading to a 'rosette' appearance of leaves.",
+      "Twig dieback in severe, chronic cases."
+    ],
+    "fruit": [
+      "Fruit may be smaller in size, have a paler rind color, and lower juice content.",
+      "Some deficiencies can cause thick, puffy rinds."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Stunted or reduced overall growth.",
+      "Sparse, thin canopy due to reduced foliage and leaf drop."
+    ],
+    "signs_microscopic_or_visible": []
+  },
+  "lookalikes": [
+    {
+      "condition_name": "Citrus Leafminer",
+      "condition_id": "lemon.pest_damage.citrus_leafminer",
+      "key_differences": [
+        "Leafminer damage consists of distinct, silvery, winding trails or tunnels inside the leaf.",
+        "Nutrient deficiencies cause color patterns (mottling, chlorosis), not physical tunnels.",
+        "A dark line of frass (insect excrement) is often visible inside leafminer tunnels.",
+        "Leafminer damage causes severe twisting and curling of new leaves, which is more extreme than most deficiency symptoms."
+      ]
+    },
+    {
+      "condition_name": "Senescence or Dry",
+      "condition_id": "lemon.other.senescence_or_dry",
+      "key_differences": [
+        "Senescence is a uniform, even yellowing of an entire older leaf before it drops, lacking the specific patterns (e.g., interveinal, inverted 'V') of many deficiencies.",
+        "Drought stress causes wilting and a dull, grayish-green look before leaves turn yellow or brown and crispy, often from the margins inward.",
+        "Deficiency patterns are typically symmetrical and related to the leaf's vein structure."
+      ]
+    },
+    {
+      "condition_name": "Leaf Spot",
+      "condition_id": "lemon.fungal_disease.leaf_spot",
+      "key_differences": [
+        "Leaf spots are discrete, defined lesions, often circular with a distinct border, unlike the diffuse mottling or chlorosis of a deficiency.",
+        "Leaf spot lesions may have a different colored center (e.g., tan or grey) and a dark border.",
+        "Nutrient deficiency symptoms are patterns of discoloration, not localized, necrotic spots."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Conduct regular soil tests and leaf tissue analysis to determine pH and specific nutrient levels.",
+      "Adjust soil pH to the optimal range for citrus (6.0-6.5) to maximize nutrient availability.",
+      "Apply a balanced, slow-release fertilizer formulated for citrus.",
+      "Incorporate organic matter such as compost to improve soil health and nutrient holding capacity.",
+      "Ensure proper irrigation to prevent drought stress, which can inhibit nutrient uptake."
+    ],
+    "biological": [],
+    "chemical": [
+      "For rapid correction, apply foliar sprays containing the deficient micronutrient (e.g., chelated iron, zinc sulfate, manganese sulfate).",
+      "Apply soil amendments or fertilizers to correct the specific deficiency identified by testing.",
+      "Use acidifying fertilizers (like ammonium sulfate) if soil pH is too high."
+    ],
+    "notes": "Foliar sprays offer a quick but temporary solution. Long-term management requires addressing the underlying soil issue (e.g., pH, nutrient imbalance)."
+  }
+}

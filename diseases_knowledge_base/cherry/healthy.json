@@ -1,0 +1,112 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "cherry.healthy.healthy",
+  "aliases": [
+    "normal cherry",
+    "unaffected cherry",
+    "asymptomatic cherry"
+  ],
+  "crop": {
+    "common_name": "cherry",
+    "scientific_name": "Prunus avium",
+    "family": "Rosaceae"
+  },
+  "condition": {
+    "common_name": "healthy",
+    "scientific_name": "",
+    "alt_names": [
+      "asymptomatic",
+      "normal"
+    ],
+    "pathogen": {
+      "type": "none",
+      "taxonomy": {
+        "kingdom": "",
+        "phylum": "",
+        "class": "",
+        "order": "",
+        "family": "",
+        "genus": "",
+        "species": ""
+      }
+    }
+  },
+  "issue_type": "healthy",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [],
+    "overwintering": []
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "Describes optimal growing conditions, not risk factors for a condition.",
+      "Full sun exposure (6-8 hours/day).",
+      "Well-drained, fertile soil with a pH between 6.0 and 7.0.",
+      "Good air circulation to keep foliage dry.",
+      "Consistent moisture, avoiding both drought and waterlogged conditions."
+    ],
+    "temp_c_day": [],
+    "temp_c_night": [],
+    "relative_humidity_pct": [],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "qualitative",
+    "mild": "Plant is completely free of any visible symptoms of disease, stress, or nutrient deficiency.",
+    "moderate": "Not applicable. Any deviation from 'mild' indicates a potential issue, not a moderate level of health.",
+    "severe": "Not applicable.",
+    "notes": "This rubric is used to confirm the absence of symptoms. The only applicable rating is 'mild' for a healthy plant."
+  },
+  "symptoms": {
+    "leaves": [
+      "Uniformly green color, appropriate for the cultivar.",
+      "Smooth, glossy, or matte surface without spots, lesions, or residue.",
+      "Elliptical to ovate shape with characteristic serrated margins.",
+      "No curling, puckering, distortion, or significant chlorosis (yellowing).",
+      "Normal size and density for the age and cultivar of the tree.",
+      "Petioles are firm, green, and turgid."
+    ],
+    "stems": [
+      "Bark is smooth on young wood, becoming rougher with horizontal lenticels on older wood.",
+      "Color is typically reddish-brown to grayish-brown.",
+      "No cankers, gummosis (oozing sap), cracks, or unusual swellings."
+    ],
+    "fruit": [
+      "Skin is smooth, glossy, and uniformly colored when ripe.",
+      "Flesh is firm and free of brown spots, rot, or pits.",
+      "No cracks, lesions, sunken areas, or deformities.",
+      "Stem (pedicel) is green, turgid, and firmly attached."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Vigorous, upright growth habit with a well-developed canopy.",
+      "No signs of wilting, stunting, or branch dieback."
+    ],
+    "signs_microscopic_or_visible": [
+      "Absence of any fungal growth (e.g., mycelia, spores), bacterial ooze, or insect-related signs like frass or webbing."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "powdery mildew",
+      "condition_id": "cherry.fungal.powdery_mildew",
+      "key_differences": [
+        "Healthy leaves have a clean, uniform green surface, whereas powdery mildew appears as distinct white, powdery patches on leaves and shoots.",
+        "Healthy leaves maintain their normal shape, while leaves with severe powdery mildew can become distorted, curled, or puckered.",
+        "Healthy fruit has a smooth, glossy skin, whereas powdery mildew can cause rough, russeted patches on the fruit surface."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Plant in locations with full sun and good air circulation.",
+      "Prune annually to maintain an open canopy, which promotes rapid drying of foliage.",
+      "Provide consistent and appropriate irrigation, avoiding overhead watering.",
+      "Maintain balanced soil fertility based on regular soil testing.",
+      "Select cultivars known for good vigor and disease resistance in your region."
+    ],
+    "biological": [],
+    "chemical": [],
+    "notes": "Management for a healthy plant focuses on preventative care and maintaining optimal growing conditions to minimize stress and susceptibility to future issues."
+  }
+}

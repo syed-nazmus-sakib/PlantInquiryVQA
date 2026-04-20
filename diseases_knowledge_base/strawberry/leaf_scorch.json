@@ -1,0 +1,124 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "strawberry.unknown.leaf_scorch",
+  "aliases": [
+    "strawberry leaf scorch",
+    "Diplocarpon leaf scorch"
+  ],
+  "crop": {
+    "common_name": "strawberry",
+    "scientific_name": "Fragaria \u00d7 ananassa",
+    "family": "Rosaceae"
+  },
+  "condition": {
+    "common_name": "leaf scorch",
+    "scientific_name": "Diplocarpon earlianum",
+    "alt_names": [
+      "purple leaf spot"
+    ],
+    "pathogen": {
+      "type": "disease_fungal",
+      "taxonomy": {
+        "kingdom": "Fungi",
+        "phylum": "Ascomycota",
+        "class": "Leotiomycetes",
+        "order": "Helotiales",
+        "family": "Dermateaceae",
+        "genus": "Diplocarpon",
+        "species": "earlianum"
+      }
+    }
+  },
+  "issue_type": "unknown",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [
+      "rain splash",
+      "wind-driven rain",
+      "overhead irrigation",
+      "contaminated tools"
+    ],
+    "overwintering": [
+      "infected leaf debris",
+      "lesions on living leaves and petioles"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "prolonged leaf wetness (>12 hours)",
+      "high relative humidity (>85%)",
+      "dense plant canopies with poor air circulation",
+      "use of overhead irrigation",
+      "susceptible cultivars"
+    ],
+    "temp_c_day": [
+      20,
+      25
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      85,
+      100
+    ],
+    "leaf_wetness_hours_threshold": 12
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "1-10% of total leaf area on the plant is affected; a few scattered lesions, primarily on older leaves.",
+    "moderate": "11-40% of leaf area is affected; multiple lesions are coalescing, with some yellowing or browning of leaf tissue between lesions.",
+    "severe": ">40% of leaf area is affected; extensive lesion coalescence, significant leaf necrosis, defoliation, and potential infection of petioles and calyces.",
+    "notes": "Severity is estimated as the percentage of the total photosynthetic area on an individual plant showing symptoms. It's a visual average across all leaves, not just one."
+  },
+  "symptoms": {
+    "leaves": [
+      "Initial symptoms are small, irregular, dark purple to reddish-purple spots on upper leaf surfaces.",
+      "Spots enlarge to 1-5 mm in diameter but remain uniformly purplish, lacking a tan or gray center.",
+      "Multiple spots may merge (coalesce) to form large, irregular, V-shaped blotches, often starting at the leaf margin.",
+      "Leaf tissue between the purple blotches may turn yellow, then brown.",
+      "In severe cases, entire leaflets dry up, curl upwards at the edges, and appear scorched or burnt.",
+      "Tiny, black, glistening fungal fruiting bodies (acervuli) may be visible within older lesions, sometimes requiring magnification."
+    ],
+    "stems": [
+      "Elongated, purplish lesions can develop on petioles (leaf stalks) and runners."
+    ],
+    "fruit": [
+      "The calyx (leafy cap) can become infected, showing purplish-brown lesions that cause it to dry out and detract from fruit appearance."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "In chronic, severe infections, plants may show reduced vigor and stunted growth."
+    ],
+    "signs_microscopic_or_visible": [
+      "Presence of tiny, black, glistening acervuli (fungal fruiting bodies) within the center of older lesions."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "healthy",
+      "condition_id": "strawberry.healthy.healthy",
+      "key_differences": [
+        "Healthy leaves are uniformly green and show no signs of purple, red, or brown spots.",
+        "The margins of healthy leaves are green and intact, not curled, dry, or scorched-looking.",
+        "The surface of a healthy leaf is smooth and free of lesions or any visible fungal structures."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Plant resistant or tolerant strawberry cultivars.",
+      "Ensure proper plant spacing to promote good air circulation and rapid leaf drying.",
+      "Use drip or furrow irrigation to keep foliage dry; avoid overhead sprinklers.",
+      "Remove and destroy infected leaves and plant debris after harvest to reduce overwintering inoculum.",
+      "Practice crop rotation if possible."
+    ],
+    "biological": [
+      "Some bio-fungicides containing strains of *Bacillus* may offer partial suppression when used preventatively."
+    ],
+    "chemical": [
+      "Apply preventative fungicides during periods of high risk (warm, wet weather).",
+      "Rotate fungicides with different modes of action (FRAC groups) to prevent resistance.",
+      "Ensure thorough spray coverage of all plant surfaces, especially the foliage."
+    ],
+    "notes": "An integrated management approach combining cultural practices with timely fungicide applications is most effective for controlling leaf scorch."
+  }
+}

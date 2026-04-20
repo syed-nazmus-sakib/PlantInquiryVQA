@@ -1,0 +1,136 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "peas.disease_fungal.fusarium_wilt",
+  "aliases": [
+    "Pea wilt",
+    "Fusarium wilt of pea"
+  ],
+  "crop": {
+    "common_name": "Peas",
+    "scientific_name": "Pisum sativum",
+    "family": "Fabaceae"
+  },
+  "condition": {
+    "common_name": "Fusarium wilt",
+    "scientific_name": "Fusarium oxysporum f. sp. pisi",
+    "alt_names": [
+      "Pea wilt"
+    ],
+    "pathogen": {
+      "type": "fungus",
+      "taxonomy": {
+        "kingdom": "Fungi",
+        "phylum": "Ascomycota",
+        "class": "Sordariomycetes",
+        "order": "Hypocreales",
+        "family": "Nectriaceae",
+        "genus": "Fusarium",
+        "species": "oxysporum"
+      }
+    }
+  },
+  "issue_type": "disease_fungal",
+  "transmission": {
+    "vectors": [
+      "contaminated farm equipment"
+    ],
+    "dispersal": [
+      "soil",
+      "water (irrigation/rain splash)",
+      "infected seed"
+    ],
+    "overwintering": [
+      "chlamydospores in soil",
+      "infected crop debris",
+      "infected seed"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "warm soil temperatures",
+      "acidic soils (pH < 6.5)",
+      "poor soil drainage",
+      "soil compaction",
+      "high nitrogen fertilization",
+      "short crop rotations with susceptible hosts"
+    ],
+    "temp_c_day": [
+      22,
+      28
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "qualitative",
+    "mild": "One or a few lower leaves are yellowing or have begun to wilt. Plant is not noticeably stunted.",
+    "moderate": "Significant yellowing and wilting affecting the lower half of the plant. Stunting is evident. Plant may be leaning.",
+    "severe": "Entire plant is yellow, severely wilted, or dead. Stem base may be dark and shriveled. Significant stunting.",
+    "notes": "Severity is assessed on a whole-plant basis, focusing on the proportion of the plant showing symptoms. Fusarium wilt often appears in patches in a field."
+  },
+  "symptoms": {
+    "leaves": [
+      "Yellowing (chlorosis) begins on the lowest leaves and progresses up the plant.",
+      "Leaves and stipules curl downwards.",
+      "Wilting of foliage, which may be more pronounced during the hottest part of the day.",
+      "Affected leaves become dry and brittle before dying."
+    ],
+    "stems": [
+      "Vascular tissue in the lower stem and taproot shows a characteristic orange, reddish-brown, or dark brown discoloration when cut open.",
+      "Stem base may appear thickened or swollen in some cases.",
+      "In advanced stages, the stem near the soil line may become necrotic."
+    ],
+    "fruit": [
+      "Pods may be underdeveloped, poorly filled, or absent on severely affected plants."
+    ],
+    "roots": [
+      "The primary diagnostic sign is the internal discoloration of the vascular cylinder, which extends from the roots up into the stem."
+    ],
+    "whole_plant": [
+      "Overall stunting of plant growth.",
+      "Wilting often starts on one side of the plant (unilateral wilt).",
+      "Eventual collapse and death of the plant."
+    ],
+    "signs_microscopic_or_visible": [
+      "No visible fungal growth (e.g., mycelium, spores) on the external plant surfaces under field conditions."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "Ascochyta blight",
+      "condition_id": "peas.disease_fungal.ascochyta_blight",
+      "key_differences": [
+        "Ascochyta causes distinct, circular, tan-to-purplish-black lesions on leaves, stems, and pods; Fusarium wilt causes a systemic yellowing and wilting without discrete foliar lesions.",
+        "Ascochyta lesions often contain tiny black specks (pycnidia), which are absent in Fusarium wilt.",
+        "Fusarium wilt is defined by the internal reddish-brown vascular discoloration in the stem, a symptom not caused by Ascochyta."
+      ]
+    },
+    {
+      "condition_name": "Stem rot",
+      "condition_id": "peas.disease_fungal.stem_rot",
+      "key_differences": [
+        "Stem rots typically cause a visible, soft, water-soaked decay or lesion at the soil line, often with white fungal growth (mycelium); Fusarium wilt symptoms are primarily internal.",
+        "Fusarium wilt causes a slow progression of wilting from the bottom up; severe stem rot often leads to a rapid collapse of the entire plant.",
+        "The key diagnostic for Fusarium is the reddish-brown vascular discoloration extending far up the stem, which is absent in most common stem rots."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Plant certified disease-free seed.",
+      "Select resistant pea varieties; many are available for specific races of the pathogen.",
+      "Implement long crop rotations (at least 4-5 years) with non-host crops like cereals.",
+      "Improve soil drainage and avoid over-irrigation.",
+      "Manage soil pH to be between 6.5 and 7.0, as acidic soils favor the disease."
+    ],
+    "biological": [
+      "Soil amendments with beneficial microbes like *Trichoderma* or *Bacillus subtilis* may help suppress the pathogen population."
+    ],
+    "chemical": [
+      "Fungicide seed treatments can protect seedlings and reduce seed-borne spread.",
+      "Soil fumigation is effective but generally not economically viable for commercial pea production."
+    ],
+    "notes": "The most effective management strategy is the use of resistant cultivars combined with long crop rotations, as the pathogen can persist in the soil for over 10 years."
+  }
+}

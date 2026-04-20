@@ -1,0 +1,126 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "eggplant.unknown.white_mold",
+  "aliases": [
+    "Sclerotinia stem rot",
+    "Sclerotinia rot",
+    "Timber rot"
+  ],
+  "crop": {
+    "common_name": "eggplant",
+    "scientific_name": "Solanum melongena",
+    "family": "Solanaceae"
+  },
+  "condition": {
+    "common_name": "white mold",
+    "scientific_name": "Sclerotinia sclerotiorum",
+    "alt_names": [
+      "Sclerotinia stem rot"
+    ],
+    "pathogen": {
+      "type": "disease_fungal",
+      "taxonomy": {
+        "kingdom": "Fungi",
+        "phylum": "Ascomycota",
+        "class": "Leotiomycetes",
+        "order": "Helotiales",
+        "family": "Sclerotiniaceae",
+        "genus": "Sclerotinia",
+        "species": "sclerotiorum"
+      }
+    }
+  },
+  "issue_type": "unknown",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [
+      "windborne ascospores",
+      "contaminated soil",
+      "infected plant debris",
+      "farm equipment"
+    ],
+    "overwintering": [
+      "sclerotia in soil",
+      "infected plant debris"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "cool, moist conditions",
+      "dense plant canopy",
+      "poor air circulation",
+      "prolonged leaf wetness",
+      "flowering and senescence stages"
+    ],
+    "temp_c_day": [
+      15,
+      21
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      90,
+      100
+    ],
+    "leaf_wetness_hours_threshold": 16
+  },
+  "severity_rubric": {
+    "unit": "qualitative",
+    "mild": "One or two small, water-soaked lesions on stems or leaves, with minimal wilting of a single branch.",
+    "moderate": "Expanding lesions with visible white mycelium on stems, initial wilting of multiple branches, some sclerotia may be visible.",
+    "severe": "Extensive mycelial growth girdling the main stem, significant wilting and collapse of the entire plant, abundant black sclerotia present on and inside stems.",
+    "notes": "Severity is based on the extent of stem girdling and plant collapse, as this is the primary cause of yield loss. Percent leaf area is not a useful metric for this disease."
+  },
+  "symptoms": {
+    "leaves": [
+      "Water-soaked lesions appear, often where a leaf petiole joins the stem.",
+      "Leaves on infected branches turn yellow, wilt, and die.",
+      "Infected leaves may become covered in white, cottony mycelium if conditions are humid."
+    ],
+    "stems": [
+      "Soft, watery lesions develop, typically at nodes, in branch axils, or near the soil line.",
+      "Lesions become covered in a dense, white, cottony fungal growth (mycelium).",
+      "The stem becomes bleached, tan, or light gray in color under the fungal growth.",
+      "Hard, black, irregular-shaped bodies (sclerotia) form on the surface and inside the hollowed-out stem."
+    ],
+    "fruit": [
+      "Fruit develops a watery soft rot, often starting where it contacts an infected stem or the ground.",
+      "The rotting fruit becomes covered in white mycelium.",
+      "Black sclerotia may form on or inside the decaying fruit."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Sudden wilting of one or more branches is a key early symptom.",
+      "The entire plant may collapse and die quickly once the main stem is girdled."
+    ],
+    "signs_microscopic_or_visible": [
+      "Visible white, cottony mycelium on affected plant parts.",
+      "Visible hard, black sclerotia, resembling rodent droppings, on or inside stems and fruit."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "Phomopsis blight",
+      "condition_id": "eggplant.fungal.phomopsis_blight",
+      "key_differences": [
+        "Phomopsis causes tan to brown, sunken cankers on the stem, often with tiny black dots (pycnidia), whereas white mold causes bleached stems with white, cottony growth.",
+        "White mold produces large, irregular black sclerotia; Phomopsis produces tiny black pycnidia, often in concentric rings.",
+        "White mold is most active in cool, wet weather, while Phomopsis blight is favored by warm, wet weather."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Rotate crops with non-hosts (e.g., grains) for at least 3 years.",
+      "Ensure good soil drainage and avoid over-irrigation.",
+      "Increase plant spacing to improve air circulation and reduce canopy humidity.",
+      "Remove and destroy infected plants immediately to reduce sclerotia buildup in the soil."
+    ],
+    "biological": [
+      "Application of biocontrol agents like *Coniothyrium minitans* to the soil can parasitize and reduce sclerotia populations."
+    ],
+    "chemical": [
+      "Preventative fungicide applications targeted at the base of the plant and during flowering may be effective in high-risk areas."
+    ],
+    "notes": "Management focuses on reducing soil inoculum (sclerotia) and managing canopy moisture. Once a plant is infected and wilting, it cannot be saved and should be removed."
+  }
+}

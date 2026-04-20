@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "eggplant.physiological_symptom.symptom_small_leaf_review",
+  "aliases": [
+    "little leaf of eggplant",
+    "eggplant rosette",
+    "zinc deficiency in eggplant"
+  ],
+  "crop": {
+    "common_name": "eggplant",
+    "scientific_name": "Solanum melongena",
+    "family": "Solanaceae"
+  },
+  "condition": {
+    "common_name": "Small Leaf",
+    "scientific_name": null,
+    "alt_names": [
+      "Little Leaf Disorder",
+      "Rosette"
+    ],
+    "pathogen": {
+      "type": "abiotic_stress_or_disorder",
+      "taxonomy": {
+        "kingdom": "",
+        "phylum": "",
+        "class": "",
+        "order": "",
+        "family": "",
+        "genus": "",
+        "species": ""
+      }
+    }
+  },
+  "issue_type": "physiological_symptom",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [],
+    "overwintering": []
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "Zinc deficiency in soil",
+      "Alkaline soil pH (>7.0)",
+      "High soil phosphorus levels, which can inhibit zinc uptake",
+      "Low soil organic matter",
+      "Waterlogged or compacted soil"
+    ],
+    "temp_c_day": [],
+    "temp_c_night": [],
+    "relative_humidity_pct": [],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "qualitative",
+    "mild": "New leaves are slightly smaller than normal with minor shortening of internodes. Plant growth is only slightly affected.",
+    "moderate": "Leaves are significantly reduced in size (<50% of normal). Internodes are very short, creating a distinct 'rosette' or bushy appearance. Plant is noticeably stunted.",
+    "severe": "Extreme stunting of the entire plant. Leaves are very small, thickened, and tightly clustered. Plant may fail to flower or produce fruit.",
+    "notes": "Severity is assessed based on the degree of leaf size reduction and internode shortening, leading to overall plant stunting. It is not based on discrete lesions."
+  },
+  "symptoms": {
+    "leaves": [
+      "Newly formed leaves are abnormally small, narrow, and sometimes misshapen.",
+      "Leaves may appear thickened, leathery, or brittle.",
+      "Interveinal chlorosis (yellowing between the veins) is common on younger leaves.",
+      "In severe cases, leaf margins may appear wavy or puckered.",
+      "Leaves are clustered together at the top of the plant."
+    ],
+    "stems": [
+      "Internodes (the space between leaf nodes) are drastically shortened.",
+      "Axillary buds may proliferate, contributing to a bushy appearance."
+    ],
+    "fruit": [
+      "Fruit set is often poor or non-existent.",
+      "If fruit develops, it is typically small, stiff, and malformed."
+    ],
+    "roots": [
+      "Root system may be poorly developed, but this is not a primary visual symptom."
+    ],
+    "whole_plant": [
+      "Overall plant growth is severely stunted.",
+      "The plant takes on a bushy, 'rosette' appearance due to shortened internodes and clustered leaves."
+    ],
+    "signs_microscopic_or_visible": []
+  },
+  "lookalikes": [
+    {
+      "condition_name": "Mosaic Virus",
+      "condition_id": "eggplant.viral_symptom.mosaic_virus",
+      "key_differences": [
+        "Mosaic virus causes mottled light and dark green patterns (a 'mosaic') on leaves, which are absent in physiological small leaf.",
+        "Virus-infected leaves are often blistered or distorted in shape, not just uniformly small and narrow.",
+        "Physiological small leaf is characterized by severe internode shortening (rosetting), which is less pronounced in mosaic virus infections."
+      ]
+    },
+    {
+      "condition_name": "Pest Damage",
+      "condition_id": "eggplant.pest_damage.pest_damage",
+      "key_differences": [
+        "Pest damage (e.g., from mites or aphids) often shows visible evidence like insects, webbing, stippling, or sooty mold.",
+        "Leaf distortion from pests is often twisting or curling, whereas physiological small leaf is primarily a reduction in size.",
+        "Symptoms of small leaf disorder are systemic, affecting all new growth, while pest damage may be more localized, especially initially."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Conduct a soil test to confirm nutrient deficiencies, particularly zinc.",
+      "Adjust soil pH to a range of 6.0-6.8 to improve nutrient availability.",
+      "Incorporate well-composted organic matter into the soil.",
+      "Avoid excessive application of phosphorus fertilizers."
+    ],
+    "biological": [],
+    "chemical": [
+      "If zinc deficiency is confirmed, apply a foliar spray of zinc sulfate.",
+      "Soil application of zinc fertilizers can be used as a pre-plant or corrective measure."
+    ],
+    "notes": "Management should be based on a confirmed diagnosis, typically via soil or tissue analysis."
+  }
+}

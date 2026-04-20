@@ -1,0 +1,131 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "corn.disease_viral.maize_streak_virus",
+  "aliases": [
+    "MSV",
+    "Maize streak disease",
+    "MSD"
+  ],
+  "crop": {
+    "common_name": "Corn",
+    "scientific_name": "Zea mays",
+    "family": "Poaceae"
+  },
+  "condition": {
+    "common_name": "Maize Streak Virus",
+    "scientific_name": "Maize streak virus",
+    "alt_names": [
+      "MSV"
+    ],
+    "pathogen": {
+      "type": "disease_viral",
+      "taxonomy": {
+        "kingdom": "Orthornavirae",
+        "phylum": "Cressdnaviricota",
+        "class": "Repensiviricetes",
+        "order": "Geplanavirales",
+        "family": "Geminiviridae",
+        "genus": "Mastrevirus",
+        "species": "Maize streak virus"
+      }
+    }
+  },
+  "issue_type": "disease_viral",
+  "transmission": {
+    "vectors": [
+      "Leafhoppers (family Cicadellidae), primarily species in the genus Cicadulina (e.g., Cicadulina mbila)"
+    ],
+    "dispersal": [
+      "Movement of infective leafhopper vectors between plants and across fields."
+    ],
+    "overwintering": [
+      "Infected perennial grasses, volunteer maize plants, and within the adult leafhopper vector."
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "Presence of leafhopper vector populations.",
+      "Warm, humid conditions that favor vector breeding and movement.",
+      "Planting of susceptible maize varieties.",
+      "Staggered planting dates which allow vectors to move from older infected crops to younger susceptible ones."
+    ],
+    "temp_c_day": [
+      25,
+      35
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      60,
+      90
+    ]
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "1-10% of leaf area shows chlorotic streaks. Stunting is minimal or not apparent.",
+    "moderate": "11-40% of leaf area is covered in streaks. Noticeable stunting and some reduction in ear size is visible.",
+    "severe": ">40% of leaf area is affected; leaves may be almost entirely yellow or white. Severe stunting, poor or no ear formation, and potential plant death.",
+    "notes": "Severity is strongly linked to the plant's growth stage at the time of infection. Early infections (before V6 stage) result in the most severe symptoms and yield loss."
+  },
+  "symptoms": {
+    "leaves": [
+      "Initial symptoms appear as small, circular, pale-yellow to white spots on the youngest leaves.",
+      "Spots elongate into narrow, broken, chlorotic streaks that run parallel to the leaf veins.",
+      "Streaks are typically 1-2 mm wide and can be several centimeters long.",
+      "Streaks are sharply defined and do not cross leaf veins.",
+      "In severe cases, streaks can merge, causing the entire leaf to appear yellow or white.",
+      "Symptoms are most prominent on new leaves that emerge after infection; older leaves may remain green.",
+      "Streaks are often more concentrated at the base of the leaf blade."
+    ],
+    "stems": [
+      "Internodes may be shortened, contributing to a stunted plant."
+    ],
+    "fruit": [
+      "Ears (cobs) are often small, deformed, or have poor kernel fill.",
+      "Tassels may be small or emerge late in severely affected plants."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Stunting is a characteristic symptom, with severity depending on the age of the plant at infection.",
+      "Early infection can lead to premature plant death."
+    ],
+    "signs_microscopic_or_visible": [
+      "No visible signs of the pathogen (e.g., fungal growth, bacterial ooze) are present."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "Bacterial Leaf Streak",
+      "condition_id": "corn.disease_bacterial.bacterial_leaf_streak",
+      "key_differences": [
+        "Bacterial streaks have wavy, irregular margins, whereas MSV streaks are straight and strictly parallel to veins.",
+        "Bacterial streaks often appear oily or water-soaked, especially when young, unlike the dry, chlorotic streaks of MSV.",
+        "When held to the light, bacterial streaks are translucent, while MSV streaks are opaque yellow/white."
+      ]
+    },
+    {
+      "condition_name": "Maize Lethal Necrosis",
+      "condition_id": "corn.disease_viral.maize_lethal_necrosis",
+      "key_differences": [
+        "MLN causes a general mosaic or mottle, often starting from leaf margins, not the fine, discrete parallel streaks of MSV.",
+        "MLN frequently causes a 'dead heart' symptom where the whorl dies and dries out; this is not typical for MSV.",
+        "MLN progresses rapidly to extensive necrosis (browning/death) of leaf and plant tissue, while MSV is primarily a chlorotic (yellowing) disease."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Planting resistant or tolerant maize varieties is the most effective control measure.",
+      "Early and synchronized planting to help the crop escape peak vector populations.",
+      "Removal and destruction (roguing) of infected plants early in the season to reduce inoculum.",
+      "Control of alternative hosts like wild grasses and volunteer maize plants."
+    ],
+    "biological": [
+      "Conservation of natural predators and parasitoids of leafhoppers."
+    ],
+    "chemical": [
+      "Seed treatment with systemic insecticides to protect young seedlings from vector feeding.",
+      "Foliar insecticide applications to control leafhopper populations, though often not economically feasible for subsistence farmers."
+    ],
+    "notes": "An integrated approach combining host resistance, cultural practices, and targeted chemical control (if necessary) is most effective. Management is focused on the vector, not the virus itself."
+  }
+}

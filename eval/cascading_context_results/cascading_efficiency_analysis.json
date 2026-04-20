@@ -1,0 +1,37 @@
+{
+  "model": "Gemini-3-Flash",
+  "setting": "cascading_context",
+  "n_images": 30,
+  "n_qa": 91,
+  "avg_cues": 8.428571428571429,
+  "avg_words": 237.98901098901098,
+  "avg_efficiency": 4.971398097067997,
+  "overall_efficiency": 3.541580089578427,
+  "cascading_to_guided_ratio": 1.35460438612207,
+  "per_question": {
+    "1": {
+      "avg_cues": 4.5,
+      "avg_words": 75.73333333333333,
+      "avg_eff": 7.183159951533971,
+      "n": 30
+    },
+    "2": {
+      "avg_cues": 12.266666666666667,
+      "avg_words": 246.76666666666668,
+      "avg_eff": 5.6082332154970365,
+      "n": 30
+    },
+    "4": {
+      "avg_cues": 7.296296296296297,
+      "avg_words": 367.55555555555554,
+      "avg_eff": 2.0535772931861453,
+      "n": 27
+    },
+    "3": {
+      "avg_cues": 16.75,
+      "avg_words": 514.5,
+      "avg_eff": 3.3022112265578967,
+      "n": 4
+    }
+  }
+}

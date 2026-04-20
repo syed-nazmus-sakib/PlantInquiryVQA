@@ -1,0 +1,136 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "papaya.disease_viral.leaf_curl_virus",
+  "aliases": [
+    "Papaya Leaf Curl Disease",
+    "PLCD",
+    "PaLCuV"
+  ],
+  "crop": {
+    "common_name": "papaya",
+    "scientific_name": "Carica papaya",
+    "family": "Caricaceae"
+  },
+  "condition": {
+    "common_name": "leaf curl virus",
+    "scientific_name": "Papaya leaf curl virus",
+    "alt_names": [
+      "Papaya leaf curl disease"
+    ],
+    "pathogen": {
+      "type": "virus",
+      "taxonomy": {
+        "kingdom": "",
+        "phylum": "",
+        "class": "",
+        "order": "",
+        "family": "Geminiviridae",
+        "genus": "Begomovirus",
+        "species": "Papaya leaf curl virus"
+      }
+    }
+  },
+  "issue_type": "disease_viral",
+  "transmission": {
+    "vectors": [
+      "Whitefly (Bemisia tabaci)"
+    ],
+    "dispersal": [
+      "Vector movement between plants",
+      "Movement of infected planting material"
+    ],
+    "overwintering": [
+      "Infected perennial papaya plants",
+      "In alternate weed hosts"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "High whitefly populations",
+      "Proximity to infected papaya or alternate host plants",
+      "Warm, dry conditions favoring vector activity"
+    ],
+    "temp_c_day": [
+      25,
+      35
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "qualitative",
+    "mild": "Slight downward curling or crinkling on a few young leaves; plant growth is not significantly affected.",
+    "moderate": "Significant leaf curling, crinkling, and vein thickening on multiple leaves, especially in the upper canopy; some stunting is visible.",
+    "severe": "Extreme leaf distortion, leathery texture, and severe stunting of the entire plant; reduced or no fruit production; prominent vein swelling on leaf undersides.",
+    "notes": "Severity is based on the extent of leaf deformation and overall plant stunting, as viral symptoms are systemic and affect new growth most dramatically."
+  },
+  "symptoms": {
+    "leaves": [
+      "Downward or inward curling of leaf margins, resembling an inverted cup.",
+      "Severe crinkling, puckering, and distortion of the leaf lamina.",
+      "Veins appear thickened, swollen, and are often darker green.",
+      "In some cases, vein clearing (yellowing of tissue around veins) occurs on young leaves.",
+      "Affected leaves become leathery, brittle, and reduced in size.",
+      "Petioles are often twisted and shortened."
+    ],
+    "stems": [
+      "Shortened internodes, leading to a crowded or 'bunchy top' appearance."
+    ],
+    "fruit": [
+      "Reduced fruit set or complete failure to produce fruit.",
+      "Fruits that do form may be small, deformed, and of poor quality."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Severe stunting and reduced plant vigor.",
+      "The top of the plant appears distorted and bushy due to shortened internodes and curled leaves."
+    ],
+    "signs_microscopic_or_visible": []
+  },
+  "lookalikes": [
+    {
+      "condition_name": "ringspot_virus",
+      "condition_id": "papaya.disease_viral.ringspot_virus",
+      "key_differences": [
+        "Ringpot virus causes strong mosaic/mottling and 'shoestring' (narrowed lamina) symptoms, which are less common in leaf curl.",
+        "Ringpot virus produces characteristic dark green ringspots on fruit, a symptom absent in leaf curl disease.",
+        "Leaf curl causes more pronounced downward curling and a leathery texture, while ringspot causes more varied distortions and color breaks."
+      ]
+    },
+    {
+      "condition_name": "spider_mites",
+      "condition_id": "papaya.pest_damage.spider_mites",
+      "key_differences": [
+        "Spider mite damage includes fine webbing on the leaf underside, which is absent in viral infections.",
+        "Mite damage causes stippling (tiny yellow/white spots), not the systemic vein thickening seen in leaf curl.",
+        "The mites themselves (tiny moving dots) and their eggs may be visible with a hand lens on the leaf underside."
+      ]
+    },
+    {
+      "condition_name": "mealybug",
+      "condition_id": "papaya.pest_damage.mealybug",
+      "key_differences": [
+        "Mealybug infestations show visible white, cottony masses of insects in leaf axils or on stems.",
+        "Sooty mold, a black fungus growing on mealybug honeydew, is often present with heavy infestations.",
+        "Leaf distortion from mealybugs is localized around the pest colony, whereas leaf curl symptoms are systemic on new growth."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Use certified virus-free planting material.",
+      "Immediately remove and destroy infected plants (roguing) to reduce inoculum sources.",
+      "Control weed hosts in and around the orchard that harbor the virus and whiteflies.",
+      "Install yellow sticky traps to monitor whitefly populations."
+    ],
+    "biological": [
+      "Encourage natural predators of whiteflies, such as lacewings, ladybugs, and predatory mites."
+    ],
+    "chemical": [
+      "Apply systemic or contact insecticides to control the whitefly vector population.",
+      "Use reflective (e.g., silver) plastic mulch to repel whiteflies from young plants."
+    ],
+    "notes": "Management is prophylactic, focusing on controlling the whitefly vector and removing virus sources. There is no cure for an already infected plant."
+  }
+}

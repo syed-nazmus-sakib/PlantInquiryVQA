@@ -1,0 +1,139 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "bottle.disease_fungal.gourd_anthracnose",
+  "aliases": [
+    "cucurbit anthracnose",
+    "gourd fruit rot"
+  ],
+  "crop": {
+    "common_name": "bottle gourd",
+    "scientific_name": "Lagenaria siceraria",
+    "family": "Cucurbitaceae"
+  },
+  "condition": {
+    "common_name": "gourd anthracnose",
+    "scientific_name": "Colletotrichum orbiculare",
+    "alt_names": [
+      "cucurbit anthracnose"
+    ],
+    "pathogen": {
+      "type": "disease_fungal",
+      "taxonomy": {
+        "kingdom": "Fungi",
+        "phylum": "Ascomycota",
+        "class": "Sordariomycetes",
+        "order": "Glomerellales",
+        "family": "Glomerellaceae",
+        "genus": "Colletotrichum",
+        "species": "orbiculare"
+      }
+    }
+  },
+  "issue_type": "disease_fungal",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [
+      "rain splash",
+      "wind-driven rain",
+      "contaminated tools",
+      "field workers",
+      "infected seed"
+    ],
+    "overwintering": [
+      "infected crop debris",
+      "infected seed",
+      "volunteer cucurbit plants"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "prolonged leaf wetness",
+      "high humidity",
+      "warm temperatures",
+      "poor air circulation",
+      "overhead irrigation"
+    ],
+    "temp_c_day": [
+      22,
+      28
+    ],
+    "temp_c_night": [
+      18,
+      24
+    ],
+    "relative_humidity_pct": [
+      85,
+      100
+    ],
+    "leaf_wetness_hours_threshold": 10
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "1-10% of leaf area affected, or < 5 small lesions per leaf. No significant stem or fruit lesions.",
+    "moderate": "11-40% of leaf area affected, multiple coalescing lesions on leaves, some small, non-rotting lesions on fruit or stems.",
+    "severe": ">40% of leaf area affected, extensive stem cankers causing vine dieback, or large, sunken, rotting lesions on multiple fruits.",
+    "notes": "Severity is assessed based on the percentage of symptomatic tissue on the most affected leaves and the presence/size of lesions on stems and fruit. Fruit symptoms heavily increase severity rating."
+  },
+  "symptoms": {
+    "leaves": [
+      "Begins as small, water-soaked spots.",
+      "Spots enlarge into circular, dark brown to black lesions, often up to 1-2 cm in diameter.",
+      "Lesion centers may dry out, turn tan or gray, and crack or fall out, creating a 'shot-hole' appearance.",
+      "A distinct dark border often surrounds the lighter center of mature lesions."
+    ],
+    "stems": [
+      "Develops elongated, sunken, water-soaked cankers that turn dark.",
+      "Cankers can girdle the stem, causing wilting and dieback of the vine above the infection point."
+    ],
+    "fruit": [
+      "Circular, water-soaked, and noticeably sunken spots appear on the fruit surface.",
+      "Lesions enlarge, turn black, and can coalesce to cover large areas.",
+      "During humid conditions, a pinkish or salmon-colored ooze of fungal spores may appear in the center of fruit lesions."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "General wilting or vine dieback can occur if stems are severely girdled by cankers."
+    ],
+    "signs_microscopic_or_visible": [
+      "Pink to salmon-colored spore masses (acervuli) visible in the center of lesions, especially on fruit, during moist weather."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "gourd downy mildew",
+      "condition_id": "bottle.disease_fungal.gourd_downy_mildew",
+      "key_differences": [
+        "Downy mildew lesions are angular and bounded by leaf veins, appearing yellow on top; anthracnose lesions are circular and dark.",
+        "Downy mildew produces a purplish-gray, fuzzy mold on the leaf underside; anthracnose may have a pinkish ooze in lesion centers but no fuzzy mold.",
+        "Anthracnose causes distinct, large, sunken black cankers on fruit, which is not a primary symptom of downy mildew."
+      ]
+    },
+    {
+      "condition_name": "gourd pest damage",
+      "condition_id": "bottle.pest.gourd_pest_damage",
+      "key_differences": [
+        "Pest damage often involves physical injury like chewing marks or stippling, not the characteristic water-soaked, circular, developing lesions of anthracnose.",
+        "Anthracnose lesions are a sign of infection and expand over time, while pest damage is typically static after the feeding event.",
+        "The presence of insects, eggs, or frass (excrement) indicates pest damage, whereas anthracnose may show pink spore masses."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Use certified disease-free seed.",
+      "Practice a crop rotation of at least 2-3 years with non-cucurbit crops.",
+      "Promote air circulation by using trellises and appropriate plant spacing.",
+      "Avoid overhead irrigation to minimize leaf wetness; use drip irrigation.",
+      "Remove and destroy infected plant debris at the end of the season."
+    ],
+    "biological": [
+      "Biofungicides containing strains of *Bacillus subtilis* may provide some preventative suppression."
+    ],
+    "chemical": [
+      "Apply preventative fungicides, especially during warm, wet weather.",
+      "Effective active ingredients include mancozeb, chlorothalonil, and copper-based compounds.",
+      "For curative action, fungicides in the strobilurin class (e.g., azoxystrobin) can be used, but must be rotated to prevent resistance."
+    ],
+    "notes": "Chemical control is most effective when used preventatively. Follow label instructions and pre-harvest intervals carefully."
+  }
+}

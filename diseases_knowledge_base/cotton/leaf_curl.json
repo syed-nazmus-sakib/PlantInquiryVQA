@@ -1,0 +1,125 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "cotton.unknown.leaf_curl",
+  "aliases": [
+    "Cotton Leaf Curl Disease",
+    "CLCuD",
+    "CLCV"
+  ],
+  "crop": {
+    "common_name": "cotton",
+    "scientific_name": "Gossypium hirsutum",
+    "family": "Malvaceae"
+  },
+  "condition": {
+    "common_name": "leaf curl",
+    "scientific_name": "Cotton leaf curl virus complex",
+    "alt_names": [
+      "Cotton Leaf Curl Disease"
+    ],
+    "pathogen": {
+      "type": "unknown",
+      "taxonomy": {
+        "kingdom": "",
+        "phylum": "",
+        "class": "",
+        "order": "",
+        "family": "",
+        "genus": "",
+        "species": ""
+      }
+    }
+  },
+  "issue_type": "unknown",
+  "transmission": {
+    "vectors": [
+      "Whitefly (Bemisia tabaci)"
+    ],
+    "dispersal": [
+      "Insect vector movement",
+      "Infected planting material"
+    ],
+    "overwintering": [
+      "On perennial and alternate host plants (weeds)",
+      "In surviving adult whiteflies"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "High whitefly populations",
+      "Warm, humid conditions favorable for vector multiplication",
+      "Presence of alternate weed hosts near fields",
+      "Monoculture of susceptible varieties"
+    ],
+    "temp_c_day": [
+      25,
+      38
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      60,
+      90
+    ],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "qualitative",
+    "mild": "Slight upward or downward curling on a few young leaves. Vein thickening may be subtle or absent.",
+    "moderate": "Pronounced curling and cupping on multiple leaves, especially in the upper canopy. Vein thickening is obvious and small leaf-like enations may appear on the underside of veins.",
+    "severe": "Severe stunting of the whole plant. Leaves are small, distorted, and leathery with prominent vein thickening and large enations. Boll formation is significantly reduced or absent.",
+    "notes": "Severity is assessed based on the degree of leaf deformation and whole-plant stunting, as these are the most visually consistent indicators. Leaf wetness is not a primary driver for this vector-borne viral disease."
+  },
+  "symptoms": {
+    "leaves": [
+      "Upward or downward curling of leaf margins.",
+      "Leaf cupping, sometimes forming a distinct cup shape.",
+      "Veins appear thickened and may darken.",
+      "Development of small, leaf-like outgrowths (enations) on the underside of veins.",
+      "Affected leaves feel leathery and brittle.",
+      "Overall leaf size is reduced compared to healthy plants.",
+      "In some cases, veins may appear transparent (vein clearing) in early stages."
+    ],
+    "stems": [
+      "Shortened internodes."
+    ],
+    "fruit": [
+      "Reduced number and size of bolls.",
+      "Bolls may open prematurely or fail to develop."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Stunted growth, resulting in a smaller plant.",
+      "A bushy, compact appearance due to shortened internodes."
+    ],
+    "signs_microscopic_or_visible": []
+  },
+  "lookalikes": [
+    {
+      "condition_name": "herbicide growth damage",
+      "condition_id": "cotton.abiotic.herbicide_growth_damage",
+      "key_differences": [
+        "Herbicide damage often appears in a distinct field pattern (e.g., edge of field, spray drift lines), while leaf curl distribution is tied to whitefly movement and can be more random.",
+        "Hormone herbicide (e.g., 2,4-D) damage causes leaf strapping and parallel veins, which is distinct from the net-like vein thickening and enations of leaf curl.",
+        "Leaf curl symptoms are systemic and progress on new growth, whereas herbicide injury affects all leaves present at the time of exposure.",
+        "Enations (leaf-like outgrowths on veins) are unique to leaf curl and absent in herbicide damage."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Planting of resistant or tolerant cotton varieties.",
+      "Timely sowing to avoid peak whitefly populations.",
+      "Removal and destruction of infected plants (roguing) early in the season.",
+      "Management of alternate weed hosts in and around the field.",
+      "Use of yellow sticky traps to monitor whitefly populations."
+    ],
+    "biological": [
+      "Conservation and encouragement of natural predators of whiteflies, such as lacewings and lady beetles."
+    ],
+    "chemical": [
+      "Seed treatment with systemic insecticides.",
+      "Foliar application of appropriate insecticides to control whitefly vector populations, following economic thresholds."
+    ],
+    "notes": "Management is primarily focused on controlling the whitefly vector and using resistant cultivars, as there is no direct chemical cure for the viral disease in an infected plant."
+  }
+}

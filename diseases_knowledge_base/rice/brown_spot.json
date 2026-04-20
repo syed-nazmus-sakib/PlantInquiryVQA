@@ -1,0 +1,149 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "rice.disease_fungal.brown_spot",
+  "aliases": [
+    "Helminthosporium leaf spot",
+    "sesame leaf spot"
+  ],
+  "crop": {
+    "common_name": "Rice",
+    "scientific_name": "Oryza sativa",
+    "family": "Poaceae"
+  },
+  "condition": {
+    "common_name": "Brown Spot",
+    "scientific_name": "Cochliobolus miyabeanus",
+    "alt_names": [
+      "Helminthosporium leaf spot",
+      "Sesame leaf spot",
+      "Bipolaris oryzae (anamorph)"
+    ],
+    "pathogen": {
+      "type": "disease_fungal",
+      "taxonomy": {
+        "kingdom": "Fungi",
+        "phylum": "Ascomycota",
+        "class": "Dothideomycetes",
+        "order": "Pleosporales",
+        "family": "Pleosporaceae",
+        "genus": "Cochliobolus",
+        "species": "miyabeanus"
+      }
+    }
+  },
+  "issue_type": "disease_fungal",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [
+      "Wind-borne conidia",
+      "Rain splash",
+      "Infected seed"
+    ],
+    "overwintering": [
+      "Infected seeds",
+      "Infected crop debris (stubble, straw)",
+      "Collateral weed hosts"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "High relative humidity (>80%)",
+      "Nutrient deficient soils (especially potassium, silicon, or manganese)",
+      "Water stress (drought or flood conditions)",
+      "Poorly drained or saline soils",
+      "Temperatures between 20-30\u00b0C"
+    ],
+    "temp_c_day": [
+      25,
+      30
+    ],
+    "temp_c_night": [
+      20,
+      25
+    ],
+    "relative_humidity_pct": [
+      80,
+      100
+    ],
+    "leaf_wetness_hours_threshold": 8
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "1-5% of leaf area affected. Lesions are small, scattered, and do not coalesce.",
+    "moderate": "6-25% of leaf area affected. Lesions are more numerous, some may be coalescing, and slight yellowing of the leaf is visible.",
+    "severe": ">25% of leaf area affected. Lesions are large, numerous, and coalescing, leading to significant leaf yellowing, browning, and necrosis (blighting).",
+    "notes": "Severity is assessed on the upper, most affected leaves. This rubric can also be applied to glumes during the grain-filling stage."
+  },
+  "symptoms": {
+    "leaves": [
+      "Small, circular to oval spots, initially yellowish-brown.",
+      "Mature spots are typically 2-10 mm long, oval-shaped with a grayish or whitish center.",
+      "A distinct reddish-brown to dark brown halo or border surrounds the gray center.",
+      "Lesions resemble sesame seeds in shape and color.",
+      "Under severe infection, spots coalesce, causing the entire leaf to yellow, wither, and die.",
+      "Lesions are distributed randomly across the leaf blade."
+    ],
+    "stems": [
+      "Dark brown or black lesions may appear on the leaf sheaths and collar."
+    ],
+    "fruit": [
+      "Small, black or dark brown spots on the glumes (hull).",
+      "Infection can lead to partially filled or discolored grains ('pecky rice')."
+    ],
+    "roots": [
+      "Root system can be weakened due to overall plant stress, but direct symptoms are rare."
+    ],
+    "whole_plant": [
+      "Stunted growth and reduced tillering in severe cases, especially from seedling infection."
+    ],
+    "signs_microscopic_or_visible": [
+      "Under high humidity, a velvety, dark olive-green to black fungal growth (conidia and conidiophores) may be visible in the center of lesions."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "Blast",
+      "condition_id": "rice.disease_fungal.blast",
+      "key_differences": [
+        "Blast lesions are typically diamond or spindle-shaped with pointed ends, not oval like brown spot.",
+        "The border of a blast lesion is often grayish or necrotic, not the distinct dark reddish-brown halo of brown spot.",
+        "Blast often causes a 'neck rot' symptom at the panicle base, which is more severe and common than with brown spot."
+      ]
+    },
+    {
+      "condition_name": "Narrow Brown Leaf Spot",
+      "condition_id": "rice.disease_fungal.narrow_brown_leaf_spot",
+      "key_differences": [
+        "Lesions are short, linear, and narrow, running parallel to the leaf veins, unlike the oval shape of brown spot.",
+        "Lesions are uniformly light to reddish-brown and lack the distinct gray center and dark halo of mature brown spot.",
+        "Lesions do not typically grow as wide as brown spot lesions."
+      ]
+    },
+    {
+      "condition_name": "Bacterial Leaf Blight",
+      "condition_id": "rice.disease_bacterial.bacterial_leaf_blight",
+      "key_differences": [
+        "Bacterial blight creates wavy-edged, water-soaked streaks that turn yellow or white, not discrete oval spots.",
+        "Blight symptoms often start at the leaf tip or margins and progress downwards, unlike the scattered spots of brown spot.",
+        "Tiny amber-colored droplets of bacterial ooze may be visible on blight lesions in the morning, which is absent in brown spot."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Use certified disease-free seeds.",
+      "Maintain balanced soil fertility, especially adequate potassium (K).",
+      "Manage water to avoid drought or flooding stress.",
+      "Remove and destroy infected crop debris and weed hosts post-harvest.",
+      "Plant resistant or tolerant varieties where available."
+    ],
+    "biological": [
+      "Application of Trichoderma or Pseudomonas fluorescens-based bio-fungicides can suppress the pathogen."
+    ],
+    "chemical": [
+      "Seed treatment with fungicides (e.g., thiram, iprodione) to reduce primary inoculum.",
+      "Foliar application of protective or systemic fungicides like propiconazole, azoxystrobin, or mancozeb."
+    ],
+    "notes": "Fungicide application is most effective when applied preventatively or at the first sign of disease, guided by scouting and favorable weather forecasts."
+  }
+}

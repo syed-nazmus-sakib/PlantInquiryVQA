@@ -1,0 +1,139 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "cotton.physiological_symptom.leaf_reddening",
+  "aliases": [
+    "red leaf disorder",
+    "autumn reddening",
+    "physiological red leaf",
+    "anthocyanosis"
+  ],
+  "crop": {
+    "common_name": "cotton",
+    "scientific_name": "Gossypium hirsutum",
+    "family": "Malvaceae"
+  },
+  "condition": {
+    "common_name": "leaf reddening",
+    "scientific_name": null,
+    "alt_names": [
+      "red leaf",
+      "anthocyanin accumulation"
+    ],
+    "pathogen": {
+      "type": "physiological",
+      "taxonomy": {
+        "kingdom": "",
+        "phylum": "",
+        "class": "",
+        "order": "",
+        "family": "",
+        "genus": "",
+        "species": ""
+      }
+    }
+  },
+  "issue_type": "physiological_symptom",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [],
+    "overwintering": []
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "Nutrient deficiency (especially Nitrogen, Magnesium, Phosphorus)",
+      "Cool temperatures, particularly at night, late in the season",
+      "Drought stress or waterlogged soil",
+      "Soil compaction restricting root growth",
+      "Heavy boll load placing high demand on the plant",
+      "Natural late-season senescence"
+    ],
+    "temp_c_day": [
+      10,
+      20
+    ],
+    "temp_c_night": [
+      5,
+      15
+    ],
+    "relative_humidity_pct": [],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "< 25% of the leaf surface shows reddening, often confined to margins or interveinal areas.",
+    "moderate": "25-75% of the leaf surface is red or purplish; veins may still be green.",
+    "severe": "> 75% of the leaf surface is deep red or bronze; leaves may be brittle and senesce.",
+    "notes": "Severity is assessed on individual, fully expanded leaves in the upper to mid canopy. Can also be assessed at the whole-plant level by estimating the percentage of affected leaves."
+  },
+  "symptoms": {
+    "leaves": [
+      "Leaves turn from green to yellow, then to shades of red, purple, or bronze.",
+      "Discoloration often begins at the leaf margins and progresses inward between the main veins.",
+      "Major leaf veins frequently remain green, creating a stark contrast with the red tissue.",
+      "Symptoms typically appear first on older, lower leaves, but can affect the whole plant under severe stress.",
+      "The entire leaf blade may become uniformly deep red in advanced stages.",
+      "Affected leaves can become thick, leathery, and brittle.",
+      "Premature defoliation of red leaves can occur."
+    ],
+    "stems": [
+      "Stems generally remain green and appear healthy."
+    ],
+    "fruit": [
+      "Boll size and development may be reduced if reddening is caused by severe, early-season stress."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Symptoms may appear on scattered individual plants or in patches across a field, corresponding to soil variations or stress patterns.",
+      "Plant growth may be stunted if the underlying stress factor is chronic."
+    ],
+    "signs_microscopic_or_visible": [
+      "Absence of any pathogen signs, such as fungal growth, spores, pycnidia, or bacterial ooze."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "verticillium_wilt",
+      "condition_id": "cotton.fungal.verticillium_wilt",
+      "key_differences": [
+        "Verticillium wilt causes interveinal chlorosis (yellowing) that turns into brown necrosis (dead tissue), not a primary red color.",
+        "Wilt symptoms are often one-sided, affecting half a leaf, a single branch, or one side of the plant.",
+        "Cutting the main stem of a wilted plant will reveal distinct browning or streaking of the vascular tissue.",
+        "Affected leaves typically wilt during the day and may recover at night, which is not characteristic of reddening."
+      ]
+    },
+    {
+      "condition_name": "leaf_hopper_jassids",
+      "condition_id": "cotton.insect.leaf_hopper_jassids",
+      "key_differences": [
+        "Jassid damage ('hopperburn') creates a V-shaped yellowing and browning pattern starting at the leaf tip and margins.",
+        "Leaf margins curl downwards and become brittle and brown, not uniformly red.",
+        "Small, green, wedge-shaped jassid insects or their white cast skins may be visible on the underside of leaves.",
+        "The discoloration is a result of toxin injection during feeding, not a systemic physiological response."
+      ]
+    },
+    {
+      "condition_name": "alternaria_leaf_spot",
+      "condition_id": "cotton.fungal.alternaria_leaf_spot",
+      "key_differences": [
+        "Alternaria presents as discrete, circular lesions, often with a characteristic 'target spot' or concentric ring pattern.",
+        "Lesions are typically tan, grey, or dark brown, sometimes with a purple border, but do not cause the entire leaf to turn red.",
+        "Lesions can fall out, creating a 'shot-hole' appearance.",
+        "This is a fungal disease, so it presents as spots, not a uniform blush of color across the leaf lamina."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Maintain balanced soil fertility through soil testing, paying close attention to nitrogen, magnesium, and phosphorus levels.",
+      "Ensure proper irrigation to avoid both drought stress and waterlogging.",
+      "Alleviate soil compaction to promote healthy root development.",
+      "Select cotton varieties that are well-adapted to the local environment and less prone to premature senescence."
+    ],
+    "biological": [],
+    "chemical": [
+      "Apply foliar sprays of specific nutrients (e.g., magnesium sulfate, potassium nitrate) if a deficiency is confirmed by tissue analysis.",
+      "Use plant growth regulators judiciously to manage plant growth and boll load, reducing plant stress."
+    ],
+    "notes": "Management is preventative and focuses on identifying and correcting the underlying abiotic stressor. Once leaves turn red, the condition is often irreversible for that leaf."
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "eggplant.disease_fungal.phomopsis_blight",
+  "aliases": [
+    "Phomopsis fruit rot",
+    "tip-over",
+    "eggplant blight"
+  ],
+  "crop": {
+    "common_name": "eggplant",
+    "scientific_name": "Solanum melongena",
+    "family": "Solanaceae"
+  },
+  "condition": {
+    "common_name": "phomopsis blight",
+    "scientific_name": "Phomopsis vexans",
+    "alt_names": [
+      "Diaporthe vexans"
+    ],
+    "pathogen": {
+      "type": "Fungus",
+      "taxonomy": {
+        "kingdom": "Fungi",
+        "phylum": "Ascomycota",
+        "class": "Sordariomycetes",
+        "order": "Diaporthales",
+        "family": "Diaporthaceae",
+        "genus": "Phomopsis",
+        "species": "vexans"
+      }
+    }
+  },
+  "issue_type": "disease_fungal",
+  "transmission": {
+    "vectors": [
+      "wind-driven rain",
+      "splashing water",
+      "insects (as mechanical carriers)"
+    ],
+    "dispersal": [
+      "infected seed",
+      "infected plant debris",
+      "rain splash",
+      "wind"
+    ],
+    "overwintering": [
+      "in infected plant debris in soil",
+      "on or in seed"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "High humidity",
+      "Frequent rainfall or overhead irrigation",
+      "Warm temperatures",
+      "Poor air circulation",
+      "Presence of infected crop residue"
+    ],
+    "temp_c_day": [
+      27,
+      32
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      85,
+      100
+    ],
+    "leaf_wetness_hours_threshold": 12
+  },
+  "severity_rubric": {
+    "unit": "qualitative",
+    "mild": "Few, small lesions (<1 cm) on <10% of leaves; no stem or fruit lesions.",
+    "moderate": "Multiple lesions on 10-40% of leaves; one or more small stem cankers or a single small fruit lesion present.",
+    "severe": "Lesions on >40% of leaves; stem cankers are large and girdling, causing wilt; multiple or large, decaying fruit lesions are present.",
+    "notes": "Severity is assessed based on the combined visual impact on leaves, stems, and fruit, as stem and fruit infections are more damaging than leaf spots alone. This is a qualitative assessment combining multiple factors."
+  },
+  "symptoms": {
+    "leaves": [
+      "Circular to irregular spots, initially gray-brown or tan.",
+      "Spots enlarge, developing a light gray or tan center with a dark brown border.",
+      "Tiny, black, pimple-like structures (pycnidia) often form in the center of older spots.",
+      "Infected leaves may turn yellow and drop prematurely.",
+      "Lesions can start at the leaf margin or in the center."
+    ],
+    "stems": [
+      "Dark, sunken, oval-shaped cankers form, often near the soil line on seedlings (damping-off).",
+      "On mature plants, cankers are gray to brown and can girdle the stem, causing wilting and death of parts above.",
+      "Pycnidia may be visible within stem cankers."
+    ],
+    "fruit": [
+      "Pale, sunken, circular spots appear on the fruit surface.",
+      "Lesions enlarge rapidly, turning brown to black and covering a large area.",
+      "The infected fruit tissue becomes soft and watery, then mummifies.",
+      "Concentric rings of black pycnidia are a characteristic sign on fruit lesions."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Seedlings may collapse at the soil line ('damping-off').",
+      "Mature plants may show wilting or dieback of branches due to stem girdling.",
+      "Overall stunting and reduced plant vigor."
+    ],
+    "signs_microscopic_or_visible": [
+      "Presence of numerous tiny black dots (pycnidia) embedded in the center of leaf, stem, and fruit lesions."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "white mold",
+      "condition_id": "eggplant.disease_fungal.white_mold",
+      "key_differences": [
+        "White mold produces fluffy, white, cottony mycelial growth, which is absent in Phomopsis blight.",
+        "White mold forms hard, black, irregular-shaped bodies (sclerotia), not tiny, embedded pycnidia.",
+        "Lesions from white mold are often watery and tan, not the distinct gray-centered spots of Phomopsis."
+      ]
+    },
+    {
+      "condition_name": "leaf spot",
+      "condition_id": "eggplant.disease_fungal.leaf_spot",
+      "key_differences": [
+        "Other leaf spots (e.g., Cercospora) may have a different color profile, like a 'frog-eye' appearance without the distinct pycnidia.",
+        "Alternaria leaf spot lesions are often darker, more target-like, and may have a velvety texture from sporulation.",
+        "Phomopsis is distinctive when it also causes stem cankers and a characteristic soft fruit rot with pycnidia, which may not co-occur with other leaf spot diseases."
+      ]
+    },
+    {
+      "condition_name": "pest damage",
+      "condition_id": "eggplant.pest_damage",
+      "key_differences": [
+        "Pest damage often involves chewing marks, holes, stippling, or trails, which are not features of Phomopsis lesions.",
+        "Lesions from Phomopsis are caused by a pathogen and will expand over time, unlike static physical damage from an insect.",
+        "Pest damage will not produce fungal signs like pycnidia."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Use certified disease-free seed and transplants.",
+      "Practice crop rotation with non-solanaceous crops for at least 3 years.",
+      "Remove and destroy infected plant debris after harvest.",
+      "Improve air circulation through proper plant spacing.",
+      "Avoid overhead irrigation to minimize leaf wetness."
+    ],
+    "biological": [
+      "Use of bio-fungicides based on Bacillus or Trichoderma species may have some suppressive effect."
+    ],
+    "chemical": [
+      "Application of protective fungicides (e.g., mancozeb, chlorothalonil) before disease onset.",
+      "Systemic fungicides may be used after infection, following local extension recommendations."
+    ],
+    "notes": "An integrated approach combining cultural practices with timely fungicide applications is most effective for management."
+  }
+}

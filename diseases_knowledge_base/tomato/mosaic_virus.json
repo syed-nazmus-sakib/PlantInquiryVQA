@@ -1,0 +1,149 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "tomato.disease_viral.mosaic_virus",
+  "aliases": [
+    "Tomato Mosaic Virus",
+    "ToMV",
+    "Tobacco Mosaic Virus on tomato"
+  ],
+  "crop": {
+    "common_name": "tomato",
+    "scientific_name": "Solanum lycopersicum",
+    "family": "Solanaceae"
+  },
+  "condition": {
+    "common_name": "mosaic virus",
+    "scientific_name": "Tomato mosaic virus",
+    "alt_names": [
+      "ToMV",
+      "Tobacco mosaic virus (TMV)"
+    ],
+    "pathogen": {
+      "type": "virus",
+      "taxonomy": {
+        "kingdom": "Orthornavirae",
+        "phylum": "Kitrinoviricota",
+        "class": "Alsuviricetes",
+        "order": "Martellivirales",
+        "family": "Virgaviridae",
+        "genus": "Tobamovirus",
+        "species": "Tomato mosaic virus"
+      }
+    }
+  },
+  "issue_type": "disease_viral",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [
+      "mechanical transmission (hands, tools, clothing)",
+      "infected seed",
+      "infected plant debris in soil",
+      "root-to-root contact"
+    ],
+    "overwintering": [
+      "infected plant debris in soil",
+      "perennial host weeds",
+      "infected seeds",
+      "contaminated tools and greenhouse structures"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "high plant density",
+      "frequent plant handling and pruning",
+      "use of non-certified seed",
+      "presence of susceptible weed hosts (e.g., nightshade)"
+    ],
+    "temp_c_day": [
+      24,
+      28
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "Light mottling or mosaic pattern on <15% of leaf area on affected leaves. No significant stunting.",
+    "moderate": "Distinct mosaic, yellowing, and some leaf distortion on 15-40% of leaf area. Minor plant stunting may be visible.",
+    "severe": "Severe mosaic, leaf curling, blistering, and significant stunting of the entire plant (>40% leaf area affected). Reduced fruit set or malformed fruit.",
+    "notes": "Severity is assessed based on the percentage of leaf surface showing mosaic, mottling, or distortion, combined with overall plant stunting. Value of 0 for leaf_wetness_hours_threshold indicates it is not a primary factor for this mechanically-transmitted virus."
+  },
+  "symptoms": {
+    "leaves": [
+      "light and dark green mottling or mosaic pattern",
+      "yellow mosaic or mottling",
+      "leaf blistering, puckering, or bubbling",
+      "fernleaf symptom (narrowed, shoestring-like leaves)",
+      "leaf curling or malformation",
+      "vein clearing on young leaves"
+    ],
+    "stems": [
+      "stunting between nodes",
+      "necrotic streaks in severe cases"
+    ],
+    "fruit": [
+      "blotchy, uneven ripening with yellow or orange patches",
+      "internal browning or necrosis ('internal blotching' or 'blotchy ripening')",
+      "reduced fruit size and number",
+      "occasional ring spots or bronzing"
+    ],
+    "roots": [
+      "stunted root system (secondary effect of poor plant growth)"
+    ],
+    "whole_plant": [
+      "general stunting or reduced vigor",
+      "bushy appearance due to shortened internodes"
+    ],
+    "signs_microscopic_or_visible": []
+  },
+  "lookalikes": [
+    {
+      "condition_name": "yellow leaf curl virus",
+      "condition_id": "tomato.disease_viral.yellow_leaf_curl_virus",
+      "key_differences": [
+        "Yellow Leaf Curl Virus causes distinct upward curling of leaf margins, forming a cup shape; mosaic virus causes more mottling and blistering.",
+        "TYLCV-infected leaves are often smaller, thicker, and leathery; mosaic virus leaves are more likely to show 'fernleaf' distortion.",
+        "TYLCV infection is associated with the presence of whiteflies, its vector; mosaic virus is primarily mechanically transmitted."
+      ]
+    },
+    {
+      "condition_name": "spider mites",
+      "condition_id": "tomato.pest_damage.spider_mites",
+      "key_differences": [
+        "Spider mite damage appears as fine, yellow stippling, not a large-scale mottled or mosaic pattern.",
+        "Fine webbing is often visible on the undersides of leaves and stems with spider mites, which is absent in viral infections.",
+        "Mites or their eggs may be visible with a hand lens on the leaf underside; viruses are microscopic.",
+        "Spider mite damage often starts on lower leaves and moves up, while mosaic symptoms can appear on new growth."
+      ]
+    },
+    {
+      "condition_name": "fusarium wilt",
+      "condition_id": "tomato.disease_fungal.fusarium_wilt",
+      "key_differences": [
+        "Fusarium wilt typically causes yellowing and wilting on only one side of the plant or a single branch initially; mosaic symptoms are more generally distributed.",
+        "Slicing the lower stem of a Fusarium-infected plant reveals brown vascular discoloration; this is absent in mosaic virus.",
+        "Fusarium causes pronounced wilting, especially during the heat of the day, which is less characteristic of mosaic virus until late stages."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "use certified virus-free seed and transplants",
+      "practice strict sanitation (wash hands with soap, disinfect tools with 10% bleach solution)",
+      "remove and destroy infected plants immediately",
+      "control perennial weeds in and around the growing area",
+      "avoid handling wet plants to reduce mechanical spread",
+      "plant resistant or tolerant tomato varieties"
+    ],
+    "biological": [
+      "use of cross-protection with a mild strain of the virus (commercial applications)",
+      "application of milk-based solutions to inactivate the virus on tools and hands"
+    ],
+    "chemical": [
+      "no chemical treatments can cure a virus-infected plant",
+      "insecticides can be used to control potential vectors like aphids, but are ineffective against mechanical transmission"
+    ],
+    "notes": "Prevention is the only effective management strategy. Once a plant is infected, it cannot be cured and should be removed to prevent spread."
+  }
+}

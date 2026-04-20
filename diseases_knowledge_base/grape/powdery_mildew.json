@@ -1,0 +1,135 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "grape.disease_fungal.powdery_mildew",
+  "aliases": [
+    "Oidium",
+    "Grape PM"
+  ],
+  "crop": {
+    "common_name": "grape",
+    "scientific_name": "Vitis spp.",
+    "family": "Vitaceae"
+  },
+  "condition": {
+    "common_name": "powdery mildew",
+    "scientific_name": "Erysiphe necator",
+    "alt_names": [
+      "Oidium tuckeri"
+    ],
+    "pathogen": {
+      "type": "fungus",
+      "taxonomy": {
+        "kingdom": "Fungi",
+        "phylum": "Ascomycota",
+        "class": "Leotiomycetes",
+        "order": "Erysiphales",
+        "family": "Erysiphaceae",
+        "genus": "Erysiphe",
+        "species": "necator"
+      }
+    }
+  },
+  "issue_type": "disease_fungal",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [
+      "Wind-borne conidia"
+    ],
+    "overwintering": [
+      "As chasmothecia (fruiting bodies) on bark or in leaf litter",
+      "As mycelium in dormant buds"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "High relative humidity (without free water)",
+      "Shaded, dense canopies with poor air circulation",
+      "Moderate temperatures",
+      "Susceptible cultivars (e.g., Vitis vinifera)"
+    ],
+    "temp_c_day": [
+      20,
+      28
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      70,
+      90
+    ],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "1-10% of leaf or cluster surface area covered with sparse, powdery colonies.",
+    "moderate": "11-40% of surface area covered; colonies are coalescing. Minor leaf distortion or berry scarring may be present.",
+    "severe": ">40% of surface area covered; dense mycelial growth. Causes significant leaf distortion, berry cracking, and potential crop loss.",
+    "notes": "Severity is assessed on the most affected plant part (leaves or fruit clusters). For fruit, severity also includes the extent of scarring (russeting) and cracking. Unlike many fungi, powdery mildew does not require free water (leaf wetness) for infection; in fact, rain can wash off spores."
+  },
+  "symptoms": {
+    "leaves": [
+      "White to grayish, dusty or powdery patches, primarily on the upper leaf surface.",
+      "Powdery patches may also appear on the lower leaf surface, especially in high-humidity conditions.",
+      "Infected leaves can become distorted, curled upwards, or stunted.",
+      "Late in the season, tiny black specks (chasmothecia) may appear within the white mycelial mats.",
+      "Young, expanding leaves are most susceptible to infection."
+    ],
+    "stems": [
+      "White, powdery patches can develop on green shoots, petioles, and tendrils.",
+      "Infected shoots may be stunted, weakened, or distorted."
+    ],
+    "fruit": [
+      "Young berries can be covered in the characteristic white powdery growth.",
+      "As infected berries enlarge, the fungal growth can cause a web-like, rusty scarring (russeting) on the skin.",
+      "Severe berry infections can inhibit development, leading to cracking and exposure to secondary rots.",
+      "Infected berries may fail to ripen properly or may have off-flavors."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Reduced plant vigor and stunted growth in severe, early-season infections."
+    ],
+    "signs_microscopic_or_visible": [
+      "Visible white to gray mycelium and conidia forming a powdery layer on plant surfaces.",
+      "The powdery growth can be wiped off with a finger, revealing the plant tissue underneath.",
+      "Presence of tiny, black, spherical chasmothecia (fruiting bodies), often embedded in the mycelial mat on leaves or canes late in the season."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "downy mildew",
+      "condition_id": "grape.disease_fungal.downy_mildew",
+      "key_differences": [
+        "Powdery mildew is typically on the upper leaf surface, while downy mildew's white, fuzzy growth is almost exclusively on the leaf underside.",
+        "Powdery mildew appears as a dry, white 'powder', whereas downy mildew is more 'downy' or 'cottony' in texture.",
+        "Downy mildew produces distinct yellow, oily spots on the upper leaf surface, which is not a symptom of powdery mildew.",
+        "Powdery mildew thrives in high humidity but is inhibited by free water, while downy mildew requires leaf wetness to sporulate."
+      ]
+    },
+    {
+      "condition_name": "pest_damage",
+      "condition_id": "grape.pest_damage.unspecified",
+      "key_differences": [
+        "Damage from leafhoppers causes fine, white or yellow stippling, not a continuous powdery patch.",
+        "The white growth of powdery mildew can be physically wiped off, whereas pest-induced discoloration is integral to the leaf tissue.",
+        "Spider mite damage often includes fine webbing and causes bronzing or yellowing, but lacks the distinct powdery texture of mildew."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Promote good air circulation via proper pruning, trellising, and leaf removal in the fruit zone.",
+      "Plant resistant or less susceptible grape varieties where available.",
+      "Position vineyards to maximize sun exposure and air movement.",
+      "Remove and destroy infected plant material after harvest to reduce overwintering inoculum."
+    ],
+    "biological": [
+      "Application of bio-fungicides containing *Bacillus subtilis* or *Ampelomyces quisqualis*.",
+      "Use of certain microbial-based products that can act as antagonists or competitors."
+    ],
+    "chemical": [
+      "Prophylactic and curative applications of fungicides are the primary control method.",
+      "Commonly used materials include sulfur, horticultural oils, potassium bicarbonate, and synthetic fungicides (e.g., DMIs, QoIs, SDHIs).",
+      "Rotate fungicide chemical classes (FRAC groups) to manage and prevent the development of resistance."
+    ],
+    "notes": "Effective management relies on a preventative spray program starting early in the growing season, as the disease is difficult to control once established."
+  }
+}

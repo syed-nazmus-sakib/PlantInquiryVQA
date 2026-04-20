@@ -1,0 +1,150 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "rice.unknown.pest_damage",
+  "aliases": [
+    "Insect damage on rice",
+    "Rice pest feeding injury",
+    "Arthropod damage on rice"
+  ],
+  "crop": {
+    "common_name": "Rice",
+    "scientific_name": "Oryza sativa",
+    "family": "Poaceae"
+  },
+  "condition": {
+    "common_name": "Pest Damage",
+    "scientific_name": "",
+    "alt_names": [
+      "Insect feeding",
+      "Chewing damage",
+      "Sucking damage",
+      "Boring damage"
+    ],
+    "pathogen": {
+      "type": "INSECT",
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Arthropoda",
+        "class": "Insecta",
+        "order": "",
+        "family": "",
+        "genus": "",
+        "species": ""
+      }
+    }
+  },
+  "issue_type": "unknown",
+  "transmission": {
+    "vectors": [
+      "Adult insects (flight)"
+    ],
+    "dispersal": [
+      "Wind",
+      "Water (irrigation)",
+      "Contaminated equipment",
+      "Human activity"
+    ],
+    "overwintering": [
+      "Crop residue",
+      "Weed hosts",
+      "Soil",
+      "Stubble"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "Warm, humid conditions",
+      "Monoculture planting",
+      "Presence of alternate weed hosts",
+      "High nitrogen fertilizer application",
+      "Staggered planting dates in a region"
+    ],
+    "temp_c_day": [
+      25,
+      35
+    ],
+    "temp_c_night": [
+      20,
+      25
+    ],
+    "relative_humidity_pct": [
+      70,
+      90
+    ],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "1-10% of leaf area shows signs of feeding (chewing, scraping, stippling).",
+    "moderate": "11-40% of leaf area is affected; some leaves may be skeletonized or rolled.",
+    "severe": ">40% of leaf area is affected; significant defoliation, or presence of 'deadhearts' or 'whiteheads'.",
+    "notes": "Severity is estimated based on the total visible leaf area damaged by pest activity. For systemic damage like deadhearts, consider the percentage of affected tillers in the plant or image frame."
+  },
+  "symptoms": {
+    "leaves": [
+      "Irregular holes or chewed margins on leaf blades.",
+      "White, parallel feeding streaks or scrapes on the leaf surface.",
+      "Leaves folded or rolled longitudinally, often held together by silk.",
+      "Skeletonized leaves where only the midrib and veins remain.",
+      "Small, yellowish or white spots (stippling) from sucking insects.",
+      "Presence of frass (insect excrement) on leaf surfaces."
+    ],
+    "stems": [
+      "Boreholes visible on the stem or at nodes.",
+      "Central shoot (tiller) is dead and dry, and can be pulled out easily ('deadheart').",
+      "Wilting or lodging of tillers."
+    ],
+    "fruit": [
+      "Panicle fails to emerge or emerges empty and white ('whitehead').",
+      "Damaged, discolored, or partially filled grains."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Stunted growth or reduced plant vigor.",
+      "Widespread yellowing and drying of plants, known as 'hopperburn'."
+    ],
+    "signs_microscopic_or_visible": [
+      "Visible insects (larvae, pupae, or adults) on leaves or stems.",
+      "Webbing or silk on or between leaves.",
+      "Egg masses on leaf surfaces."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "Bacterial Leaf Blight",
+      "condition_id": "rice.disease.bacterial_leaf_blight",
+      "key_differences": [
+        "Bacterial blight lesions are wavy-margined, water-soaked streaks starting from leaf tips/margins, whereas pest damage is typically discrete holes, scrapes, or stippling.",
+        "Bacterial blight can produce milky or yellowish bacterial ooze in early mornings, which is absent in pest damage.",
+        "Pest damage may be accompanied by visible signs of the insect (frass, webbing, larvae), which are absent in bacterial blight."
+      ]
+    },
+    {
+      "condition_name": "Leaf Scald",
+      "condition_id": "rice.disease.leaf_scald",
+      "key_differences": [
+        "Leaf scald causes distinct zonate or chevron-shaped lesions with alternating light and dark brown bands, typically starting from the leaf tip.",
+        "Pest damage is more irregular (holes, scrapes) and lacks the characteristic banding pattern of leaf scald.",
+        "Leaf scald lesions often have a prominent yellowish halo, which is less common in direct feeding injury from pests."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Synchronous planting across a region to break pest life cycles.",
+      "Removal of weed hosts from fields and surrounding bunds.",
+      "Proper water and nutrient management to promote plant vigor.",
+      "Use of resistant or tolerant rice varieties."
+    ],
+    "biological": [
+      "Conservation and encouragement of natural enemies like spiders, predatory beetles, and parasitoid wasps.",
+      "Application of biopesticides such as Bacillus thuringiensis (Bt) or entomopathogenic fungi."
+    ],
+    "chemical": [
+      "Application of appropriate insecticides based on scouting and established economic thresholds (ETL).",
+      "Use of seed treatments to protect young seedlings from early-season pests.",
+      "Rotation of insecticide modes of action to prevent or delay resistance."
+    ],
+    "notes": "Integrated Pest Management (IPM) is the recommended approach, combining multiple tactics for sustainable and effective control while minimizing environmental impact."
+  }
+}

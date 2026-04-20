@@ -1,0 +1,137 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "papaya.healthy.healthy",
+  "aliases": [
+    "normal papaya",
+    "unaffected papaya",
+    "asymptomatic"
+  ],
+  "crop": {
+    "common_name": "papaya",
+    "scientific_name": "Carica papaya",
+    "family": "Caricaceae"
+  },
+  "condition": {
+    "common_name": "healthy",
+    "scientific_name": "",
+    "alt_names": [
+      "normal",
+      "asymptomatic",
+      "no disease"
+    ],
+    "pathogen": {
+      "type": "none",
+      "taxonomy": {
+        "kingdom": "",
+        "phylum": "",
+        "class": "",
+        "order": "",
+        "family": "",
+        "genus": "",
+        "species": ""
+      }
+    }
+  },
+  "issue_type": "healthy",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [],
+    "overwintering": []
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "Optimal growing conditions",
+      "Absence of pathogens and pests",
+      "Balanced nutrition",
+      "Adequate water"
+    ],
+    "temp_c_day": [
+      21,
+      33
+    ],
+    "temp_c_night": [
+      18,
+      24
+    ],
+    "relative_humidity_pct": [
+      60,
+      80
+    ],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "qualitative",
+    "mild": "Not applicable. Plant is healthy.",
+    "moderate": "Not applicable. Plant is healthy.",
+    "severe": "Not applicable. Plant is healthy.",
+    "notes": "Severity scoring does not apply to a healthy plant. Any visible damage or symptoms would classify it as unhealthy."
+  },
+  "symptoms": {
+    "leaves": [
+      "Deep green, uniform coloration without yellowing or mottling.",
+      "Large, palmately-lobed leaves with smooth, intact margins.",
+      "Leaf surfaces are glossy and free of spots, lesions, or powdery residue.",
+      "Petioles are firm, turgid, and uniformly green.",
+      "No signs of curling, distortion, or wilting."
+    ],
+    "stems": [
+      "Main trunk is straight, sturdy, and unblemished.",
+      "Stem surface is typically green to grayish-green, with prominent leaf scars.",
+      "No cankers, soft spots, or oozing sap."
+    ],
+    "fruit": [
+      "Fruit skin is smooth, firm, and uniformly colored (green when immature, turning yellow/orange when ripe).",
+      "No sunken spots, lesions, or rings on the fruit surface.",
+      "Fruit is well-formed and not misshapen."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Vigorous, upright growth habit.",
+      "Dense canopy of healthy leaves at the top of the plant."
+    ],
+    "signs_microscopic_or_visible": [
+      "Absence of any visible fungal growth, bacterial ooze, insect colonies, or webbing."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "mosaic virus",
+      "condition_id": "papaya.viral.mosaic_virus",
+      "key_differences": [
+        "Healthy leaves have uniform green color, whereas mosaic virus causes light green/yellow patches or mottling.",
+        "Healthy leaves have a normal, flat shape; mosaic virus can cause blistering or slight distortion of the leaf lamina.",
+        "Veins on healthy leaves are uniformly green; mosaic virus can cause vein clearing (yellowing of veins)."
+      ]
+    },
+    {
+      "condition_name": "spider mites",
+      "condition_id": "papaya.pest.spider_mites",
+      "key_differences": [
+        "Healthy leaves have a clean, glossy surface; spider mite infestation causes fine stippling (tiny yellow/white dots).",
+        "The underside of a healthy leaf is clean; spider mites create fine, silky webbing, especially on the underside.",
+        "Healthy leaves are deep green; heavy mite feeding can cause leaves to appear bronzed or yellowed."
+      ]
+    },
+    {
+      "condition_name": "ringspot virus",
+      "condition_id": "papaya.viral.ringspot_virus",
+      "key_differences": [
+        "Healthy stems and petioles are uniformly green; ringspot virus can cause dark green, 'oily' streaks.",
+        "Healthy fruit has smooth, unblemished skin; ringspot virus causes characteristic concentric rings on the fruit.",
+        "Healthy leaves are uniformly colored; ringspot virus can cause a distinct mosaic or mottling pattern, especially on younger leaves."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Plant certified virus-free seedlings.",
+      "Ensure well-drained soil to prevent root rot.",
+      "Maintain proper spacing for good air circulation.",
+      "Practice good field sanitation, removing weeds and crop debris.",
+      "Provide balanced fertilization and consistent irrigation."
+    ],
+    "biological": [],
+    "chemical": [],
+    "notes": "Management for a healthy plant focuses on preventative practices to maintain vigor and minimize stress, which reduces susceptibility to pests and diseases."
+  }
+}

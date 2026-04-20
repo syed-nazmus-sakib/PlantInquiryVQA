@@ -1,0 +1,147 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "mango.disease_bacterial.bacterial_canker",
+  "aliases": [
+    "bacterial black spot of mango",
+    "mango bacterial spot",
+    "mango canker"
+  ],
+  "crop": {
+    "common_name": "mango",
+    "scientific_name": "Mangifera indica",
+    "family": "Anacardiaceae"
+  },
+  "condition": {
+    "common_name": "bacterial canker",
+    "scientific_name": "Xanthomonas campestris pv. mangiferaeindicae",
+    "alt_names": [
+      "bacterial black spot"
+    ],
+    "pathogen": {
+      "type": "disease_bacterial",
+      "taxonomy": {
+        "kingdom": "Bacteria",
+        "phylum": "Pseudomonadota",
+        "class": "Gammaproteobacteria",
+        "order": "Xanthomonadales",
+        "family": "Xanthomonadaceae",
+        "genus": "Xanthomonas",
+        "species": "X. campestris pv. mangiferaeindicae"
+      }
+    }
+  },
+  "issue_type": "disease_bacterial",
+  "transmission": {
+    "vectors": [
+      "wind-driven rain"
+    ],
+    "dispersal": [
+      "infected planting material",
+      "contaminated pruning tools",
+      "rain splash"
+    ],
+    "overwintering": [
+      "in cankers on stems and branches",
+      "in fallen infected leaves and fruit"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "high humidity",
+      "frequent rainfall",
+      "warm temperatures (25-30\u00b0C)",
+      "windy conditions",
+      "wounds on plant tissue from insects or mechanical damage"
+    ],
+    "temp_c_day": [
+      25,
+      30
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      80,
+      100
+    ],
+    "leaf_wetness_hours_threshold": 6
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "1-5% of leaf surface affected with small, scattered lesions. No significant stem involvement.",
+    "moderate": "6-25% of leaf surface affected; some lesions are coalescing. Minor cankers may be present on young twigs.",
+    "severe": ">25% of leaf surface affected with large necrotic areas. Significant stem cankers, fruit infection, and dieback are visible.",
+    "notes": "Severity is primarily assessed by the percentage of symptomatic leaf area on the most affected leaves. The presence and severity of stem and fruit symptoms should also be considered for a whole-plant assessment."
+  },
+  "symptoms": {
+    "leaves": [
+      "Small, angular, water-soaked spots that turn black and become raised.",
+      "Lesions are typically surrounded by a prominent, bright yellow halo.",
+      "Spots may coalesce to form large, irregular necrotic patches.",
+      "Infected leaf veins may darken or blacken.",
+      "Severe infections can lead to a 'shot-hole' appearance as the necrotic centers of spots fall out."
+    ],
+    "stems": [
+      "Raised, dark, water-soaked cankers on young twigs and branches.",
+      "Cankers often crack open and release a gummy, yellowish bacterial ooze in humid conditions.",
+      "Girdling of stems by cankers can cause dieback of the distal parts."
+    ],
+    "fruit": [
+      "Small, dark, raised, water-soaked spots on the fruit skin.",
+      "Lesions enlarge, turn black, and may crack open, often in a star-like shape.",
+      "A sticky exudate may emerge from fruit lesions.",
+      "Infection can lead to premature fruit drop and reduce market value."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "In severe cases, widespread defoliation and branch dieback can occur."
+    ],
+    "signs_microscopic_or_visible": [
+      "Gummy, bacterial ooze exuding from stem or fruit cankers, especially during wet weather."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "anthracnose",
+      "condition_id": "mango.disease_fungal.anthracnose",
+      "key_differences": [
+        "Anthracnose spots are typically sunken and brown-to-black, whereas bacterial canker spots are raised and angular.",
+        "Bacterial canker lesions almost always have a distinct yellow halo, which is less common or absent in anthracnose.",
+        "Anthracnose often forms 'tear stain' patterns on fruit, while bacterial canker causes discrete, raised, cracked lesions.",
+        "Bacterial ooze is a sign of canker; pinkish-orange spore masses in wet conditions are a sign of anthracnose."
+      ]
+    },
+    {
+      "condition_name": "gall_midge",
+      "condition_id": "mango.pest_insect.gall_midge",
+      "key_differences": [
+        "Gall midge damage appears as small, raised, circular, wart-like galls, not angular, water-soaked spots.",
+        "Gall midge spots lack the characteristic yellow halo and bacterial ooze of canker.",
+        "Mature galls may have a tiny exit hole from the emerged larva, a feature absent in bacterial canker lesions."
+      ]
+    },
+    {
+      "condition_name": "sooty_mold",
+      "condition_id": "mango.disease_fungal.sooty_mold",
+      "key_differences": [
+        "Sooty mold is a superficial, black, velvety coating that can be physically wiped off the leaf surface.",
+        "Bacterial canker lesions are embedded within the plant tissue and cannot be wiped off.",
+        "Sooty mold is a secondary issue resulting from honeydew produced by insects like aphids or mealybugs, which would also be present."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Use certified disease-free planting material.",
+      "Prune and destroy infected branches and twigs during the dry season to reduce inoculum.",
+      "Improve air circulation within the orchard by proper tree spacing and pruning.",
+      "Avoid overhead irrigation to minimize periods of leaf wetness."
+    ],
+    "biological": [
+      "Application of products containing *Bacillus subtilis* or other antagonistic microorganisms may offer some suppression."
+    ],
+    "chemical": [
+      "Preventative sprays with copper-based bactericides (e.g., copper hydroxide, copper oxychloride) before and during the rainy season.",
+      "In some regions, antibiotics like streptomycin may be used, but resistance and regulations are a concern."
+    ],
+    "notes": "An integrated approach is essential. Management should focus on reducing inoculum through sanitation and protecting new growth with timely bactericide applications."
+  }
+}

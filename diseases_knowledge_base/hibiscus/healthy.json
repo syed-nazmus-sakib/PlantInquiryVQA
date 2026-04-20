@@ -1,0 +1,88 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "hibiscus.healthy.healthy",
+  "aliases": [
+    "Normal hibiscus",
+    "Vigorous hibiscus"
+  ],
+  "crop": {
+    "common_name": "Hibiscus",
+    "scientific_name": "Hibiscus spp.",
+    "family": "Malvaceae"
+  },
+  "condition": {
+    "common_name": "Healthy",
+    "scientific_name": "",
+    "alt_names": [],
+    "pathogen": {
+      "type": "none",
+      "taxonomy": {
+        "kingdom": "",
+        "phylum": "",
+        "class": "",
+        "order": "",
+        "family": "",
+        "genus": "",
+        "species": ""
+      }
+    }
+  },
+  "issue_type": "healthy",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [],
+    "overwintering": []
+  },
+  "environmental_risk": {
+    "risk_factors": [],
+    "temp_c_day": [],
+    "temp_c_night": [],
+    "relative_humidity_pct": [],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "0% of foliage affected.",
+    "moderate": "Not applicable.",
+    "severe": "Not applicable.",
+    "notes": "Healthy is a binary state with zero symptoms. Any visible damage, discoloration, or stress would classify the plant under a different condition."
+  },
+  "symptoms": {
+    "leaves": [
+      "Foliage is uniformly green, though color may vary from light green to deep, dark green by cultivar.",
+      "Leaves are turgid, fully expanded, and well-formed.",
+      "Leaf surfaces are smooth and have a natural gloss or matte finish, typical for the species.",
+      "No spots, lesions, yellowing (chlorosis), browning (necrosis), or holes are present.",
+      "Leaf margins are intact and not curled, distorted, or crispy."
+    ],
+    "stems": [
+      "Stems are firm, upright, and support the plant structure.",
+      "Stem color is consistent, typically green to reddish-brown or woody, without cankers, lesions, or soft spots."
+    ],
+    "fruit": [
+      "Flowers (if present) are vibrant in color and fully formed.",
+      "Petals are free from spots, blemishes, or discoloration.",
+      "Buds are well-formed and not dropping prematurely."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Exhibits vigorous growth with new leaves and shoots.",
+      "Appears turgid and well-hydrated, not wilted.",
+      "Foliage is dense and distributed appropriately for the cultivar."
+    ],
+    "signs_microscopic_or_visible": []
+  },
+  "lookalikes": [],
+  "management": {
+    "cultural": [
+      "Provide consistent and adequate watering, allowing the top inch of soil to dry out between waterings.",
+      "Ensure placement in a location with adequate sunlight (typically 6-8 hours of direct sun).",
+      "Use well-draining soil to prevent root rot.",
+      "Apply a balanced fertilizer during the growing season according to label directions.",
+      "Prune as needed to encourage bushy growth and remove any dead or crossing branches."
+    ],
+    "biological": [],
+    "chemical": [],
+    "notes": "Management for a healthy plant focuses on preventative care and maintaining optimal growing conditions."
+  }
+}

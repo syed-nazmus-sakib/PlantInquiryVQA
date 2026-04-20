@@ -1,0 +1,144 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "pepper.healthy.healthy",
+  "aliases": [
+    "normal pepper",
+    "unaffected pepper plant"
+  ],
+  "crop": {
+    "common_name": "pepper",
+    "scientific_name": "Capsicum annuum",
+    "family": "Solanaceae"
+  },
+  "condition": {
+    "common_name": "healthy",
+    "scientific_name": null,
+    "alt_names": [
+      "normal",
+      "unaffected"
+    ],
+    "pathogen": {
+      "type": "physiological",
+      "taxonomy": {
+        "kingdom": "",
+        "phylum": "",
+        "class": "",
+        "order": "",
+        "family": "",
+        "genus": "",
+        "species": ""
+      }
+    }
+  },
+  "issue_type": "healthy",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [],
+    "overwintering": []
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "Optimal growing conditions",
+      "Absence of pests and pathogens",
+      "Balanced nutrition",
+      "Adequate watering"
+    ],
+    "temp_c_day": [
+      21,
+      29
+    ],
+    "temp_c_night": [
+      16,
+      21
+    ],
+    "relative_humidity_pct": [
+      50,
+      70
+    ],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "qualitative",
+    "mild": "Not applicable",
+    "moderate": "Not applicable",
+    "severe": "Not applicable",
+    "notes": "Severity is not applicable for a healthy plant. The plant either meets the criteria for 'healthy' or it does not. Any deviation would be classified as a disorder, deficiency, or disease."
+  },
+  "symptoms": {
+    "leaves": [
+      "Uniformly green color, appropriate for the cultivar.",
+      "Leaves are turgid, fully expanded, and well-formed.",
+      "No spots, lesions, yellowing (chlorosis), or browning (necrosis).",
+      "No curling, crinkling, or distortion of leaf margins.",
+      "Surfaces are smooth and free of powdery residue or sticky honeydew."
+    ],
+    "stems": [
+      "Stems are firm, upright, and green to slightly woody at the base.",
+      "No cankers, lesions, or dark streaks."
+    ],
+    "fruit": [
+      "Fruit has a uniform, vibrant color appropriate for the cultivar and stage of maturity.",
+      "Skin is smooth, firm, and unblemished.",
+      "No soft spots, sunken lesions, or signs of rot.",
+      "Calyx (cap) is green and fresh-looking."
+    ],
+    "roots": [
+      "Roots are white to cream-colored and fibrous (if visible)."
+    ],
+    "whole_plant": [
+      "Vigorous, upright growth habit.",
+      "Appears well-hydrated and robust.",
+      "Actively produces flowers and sets fruit according to its developmental stage."
+    ],
+    "signs_microscopic_or_visible": [
+      "No visible pests (e.g., aphids, mites, thrips).",
+      "No fungal growth (e.g., mycelium, spores)."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "bacterial_spot",
+      "condition_id": "pepper.bacterial.bacterial_spot",
+      "key_differences": [
+        "Healthy leaves are uniformly green; bacterial spot leaves have small, dark, water-soaked spots, often with a yellow halo.",
+        "Healthy leaf surfaces are smooth; bacterial spot lesions can feel slightly raised or scabby.",
+        "Healthy fruit is unblemished; bacterial spot causes small, raised, scabby spots on fruit."
+      ]
+    },
+    {
+      "condition_name": "mites",
+      "condition_id": "pepper.pest.mites",
+      "key_differences": [
+        "Healthy leaves have a normal green color; mite damage causes fine stippling (tiny yellow/white dots) and can lead to a bronzed appearance.",
+        "Healthy leaves are smooth; mite infestations may show fine webbing, especially on the underside of leaves.",
+        "Healthy leaves are flat and well-formed; heavy mite pressure can cause slight upward curling or distortion."
+      ]
+    },
+    {
+      "condition_name": "virus",
+      "condition_id": "pepper.viral.virus",
+      "key_differences": [
+        "Healthy leaves have a uniform green color; virus-infected leaves often show mosaic patterns or mottling (light/dark green patches).",
+        "Healthy leaves have a normal shape; viruses can cause severe distortion, crinkling, or a 'shoestring' appearance.",
+        "Healthy plants have vigorous growth; virus-infected plants are often stunted."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Provide consistent and appropriate watering to avoid stress.",
+      "Ensure well-drained soil and adequate plant spacing for air circulation.",
+      "Use balanced fertilizer according to soil tests and plant needs.",
+      "Rotate crops annually, avoiding other Solanaceae family members.",
+      "Practice good field sanitation, removing weeds and crop debris."
+    ],
+    "biological": [
+      "Use certified disease-free seeds and transplants.",
+      "Encourage beneficial insects by planting diverse companion flowers."
+    ],
+    "chemical": [
+      "Not applicable for maintaining health; chemical use is preventative or curative for specific problems."
+    ],
+    "notes": "Management for a healthy plant focuses on preventative care and providing optimal growing conditions to minimize stress and prevent disease onset."
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "tomato.pest_insect.leaf_miner",
+  "aliases": [
+    "Serpentine leafminer",
+    "Vegetable leafminer"
+  ],
+  "crop": {
+    "common_name": "tomato",
+    "scientific_name": "Solanum lycopersicum",
+    "family": "Solanaceae"
+  },
+  "condition": {
+    "common_name": "Leaf Miner",
+    "scientific_name": "Liriomyza spp.",
+    "alt_names": [
+      "Serpentine leafminer",
+      "Liriomyza leafminer"
+    ],
+    "pathogen": {
+      "type": "insect",
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Arthropoda",
+        "class": "Insecta",
+        "order": "Diptera",
+        "family": "Agromyzidae",
+        "genus": "Liriomyza",
+        "species": ""
+      }
+    }
+  },
+  "issue_type": "pest_insect",
+  "transmission": {
+    "vectors": [
+      "Adult female flies laying eggs in leaves"
+    ],
+    "dispersal": [
+      "Adult flies flying between plants",
+      "Wind dispersal of adult flies",
+      "Movement of infested seedlings or plant material"
+    ],
+    "overwintering": [
+      "Pupae in soil",
+      "Pupae in plant debris"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "Warm, dry conditions",
+      "Greenhouse environments",
+      "Presence of alternative weed hosts (e.g., nightshades, composites)"
+    ],
+    "temp_c_day": [
+      24,
+      32
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      40,
+      70
+    ],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "1-10% of leaf area affected with visible mines. Photosynthesis is minimally impacted.",
+    "moderate": "11-40% of leaf area affected. Multiple mines per leaf, some coalescing. Noticeable reduction in photosynthetic area.",
+    "severe": ">40% of leaf area affected. Extensive mining, leaves may appear whitish, become necrotic, and drop prematurely.",
+    "notes": "Severity is assessed by estimating the percentage of the total leaf surface covered by the whitish, meandering tunnels created by the larvae. For VQA, this can be a visual estimate of the symptomatic area on the most affected leaf in the region of interest."
+  },
+  "symptoms": {
+    "leaves": [
+      "Winding, serpentine, or blotchy white to tan trails (mines) are visible on the leaf surface.",
+      "Mines are located between the upper and lower leaf epidermis.",
+      "Mines widen as the larva grows, showing a progression from narrow to broad.",
+      "Small, dark specks or a thin black line of frass (larval excrement) is visible inside the mines.",
+      "Small, white dots (stippling) appear on the upper leaf surface from adult feeding and egg-laying punctures.",
+      "In heavy infestations, mines may merge, causing large white or necrotic blotches.",
+      "Severely affected leaves may turn yellow, dry out, and drop prematurely."
+    ],
+    "stems": [
+      "Stems are generally unaffected, though mines may occur on petioles in severe cases."
+    ],
+    "fruit": [
+      "Fruit is not directly damaged by mining, but sunscald can occur if defoliation is severe."
+    ],
+    "roots": [
+      "Not affected."
+    ],
+    "whole_plant": [
+      "Stunted growth and reduced yield in severe infestations due to loss of photosynthetic area."
+    ],
+    "signs_microscopic_or_visible": [
+      "Tiny, yellowish-white maggots (larvae) may be visible inside the mine if the leaf is held up to the light.",
+      "Small (approx. 2mm), black and yellow adult flies may be seen on or near leaves.",
+      "Small, oval, brownish pupae may be found on the leaf surface or in the soil below the plant."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "Spider Mites",
+      "condition_id": "tomato.pest_insect.spider_mites",
+      "key_differences": [
+        "Leaf miner damage consists of distinct, wandering tunnels inside the leaf, whereas spider mite damage is fine, uniform stippling or bronzing on the leaf surface.",
+        "Spider mites produce fine webbing, especially on the underside of leaves, which is absent with leaf miners.",
+        "Leaf miner larvae are inside the leaf tissue; spider mites are tiny, mobile arachnids on the leaf surface."
+      ]
+    },
+    {
+      "condition_name": "Flea Beetle Injury",
+      "condition_id": "tomato.pest_insect.flea_beetle_injury",
+      "key_differences": [
+        "Flea beetles create small, round 'shot holes' that go completely through the leaf.",
+        "Leaf miner damage is a subcutaneous tunnel (mine) that does not typically break the upper or lower leaf surface.",
+        "Flea beetle adults are small, dark, jumping beetles, while leaf miner adults are small flies."
+      ]
+    },
+    {
+      "condition_name": "Yellowing Symptom",
+      "condition_id": "tomato.symptom.yellowing_symptom",
+      "key_differences": [
+        "Leaf miner damage is characterized by specific white or tan mines that precede or accompany any yellowing.",
+        "General yellowing from nutrient deficiency often follows a distinct pattern (e.g., interveinal, older vs. newer leaves) without the presence of tunnels.",
+        "Dark frass trails are present within leaf miner tunnels, which are absent in other causes of yellowing."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Remove and destroy infested leaves or entire plants early in the infestation.",
+      "Control broadleaf weed hosts in and around the growing area.",
+      "Use reflective mulches to deter adult flies from landing on plants.",
+      "In greenhouses, use insect screening on vents and doors."
+    ],
+    "biological": [
+      "Encourage natural predators and parasitoids (e.g., parasitic wasps like Diglyphus isaea).",
+      "Release commercially available beneficial insects in greenhouse settings.",
+      "Avoid broad-spectrum insecticides that kill natural enemies."
+    ],
+    "chemical": [
+      "Apply translaminar or systemic insecticides that target larvae inside the leaf (e.g., spinosad, abamectin, cyromazine).",
+      "Neem oil can act as a repellent and growth regulator.",
+      "Timing of applications is critical; target early larval stages for best results."
+    ],
+    "notes": "Monitor for adult flies using yellow sticky traps to time interventions."
+  }
+}

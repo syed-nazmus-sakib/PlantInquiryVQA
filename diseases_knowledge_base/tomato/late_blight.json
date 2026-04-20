@@ -1,0 +1,147 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "tomato.disease_fungal.late_blight",
+  "aliases": [
+    "Phytophthora blight",
+    "potato blight on tomato"
+  ],
+  "crop": {
+    "common_name": "tomato",
+    "scientific_name": "Solanum lycopersicum",
+    "family": "Solanaceae"
+  },
+  "condition": {
+    "common_name": "late blight",
+    "scientific_name": "Phytophthora infestans",
+    "alt_names": [
+      "Phytophthora blight"
+    ],
+    "pathogen": {
+      "type": "disease_oomycete",
+      "taxonomy": {
+        "kingdom": "Stramenopila",
+        "phylum": "Oomycota",
+        "class": "Oomycetes",
+        "order": "Peronosporales",
+        "family": "Peronosporaceae",
+        "genus": "Phytophthora",
+        "species": "P. infestans"
+      }
+    }
+  },
+  "issue_type": "disease_fungal",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [
+      "wind-blown sporangia",
+      "rain splash",
+      "infected transplants",
+      "contaminated equipment"
+    ],
+    "overwintering": [
+      "infected potato tubers",
+      "infected tomato volunteers",
+      "plant debris in soil"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "cool, moist conditions",
+      "prolonged leaf wetness",
+      "high humidity",
+      "dense plant canopy"
+    ],
+    "temp_c_day": [
+      15,
+      21
+    ],
+    "temp_c_night": [
+      10,
+      15
+    ],
+    "relative_humidity_pct": [
+      90,
+      100
+    ],
+    "leaf_wetness_hours_threshold": 10
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "1-10% of total leaf area affected; a few isolated lesions.",
+    "moderate": "11-40% of leaf area affected; multiple lesions coalescing, some stem lesions may be present.",
+    "severe": ">40% of leaf area affected; extensive blighting, stem girdling, fruit rot is common, plant collapse imminent.",
+    "notes": "Severity is assessed on a whole-plant basis, considering the percentage of foliage showing symptoms of necrosis and blighting. Fruit and stem symptoms can significantly increase severity."
+  },
+  "symptoms": {
+    "leaves": [
+      "Large, water-soaked, gray-green to dark brown lesions, often appearing on leaf edges or tips.",
+      "Lesions expand rapidly and have an irregular, blotchy shape.",
+      "A pale green or yellow halo may surround the necrotic lesion.",
+      "Under humid conditions, a fuzzy, white mold is visible on the underside of the leaf, especially at the lesion margin."
+    ],
+    "stems": [
+      "Large, dark brown to black, greasy-appearing lesions.",
+      "Lesions can girdle the stem, causing the plant parts above to wilt and die.",
+      "White, fuzzy mold may also appear on stem lesions in high humidity."
+    ],
+    "fruit": [
+      "Large, firm, greasy-looking, dark brown to olive-colored blotches on green or ripening fruit.",
+      "The surface of the fruit lesion is often rough or bumpy.",
+      "The rot extends deep into the fruit flesh."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Rapid wilting and collapse of the entire plant when stems are girdled.",
+      "A characteristic musty or decaying odor may be present in severe infections."
+    ],
+    "signs_microscopic_or_visible": [
+      "White, downy or fuzzy growth (sporangiophores and sporangia) on the underside of leaves and on stem/fruit lesions, especially in the morning or during humid weather."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "early blight",
+      "condition_id": "tomato.disease_fungal.early_blight",
+      "key_differences": [
+        "Early blight lesions have distinct concentric rings ('target spots'), which are absent in late blight.",
+        "Late blight lesions are larger, more water-soaked and irregular.",
+        "Early blight typically starts on lower, older leaves, while late blight can start anywhere on the plant."
+      ]
+    },
+    {
+      "condition_name": "septoria leaf spot",
+      "condition_id": "tomato.disease_fungal.septoria_leaf_spot",
+      "key_differences": [
+        "Septoria spots are much smaller (1-3 mm), circular, and have a tan or gray center with a dark border.",
+        "Tiny black dots (pycnidia) are visible in the center of Septoria spots; these are absent in late blight.",
+        "Late blight causes large, rapidly expanding blotches, not small, numerous spots."
+      ]
+    },
+    {
+      "condition_name": "leaf mold",
+      "condition_id": "tomato.disease_fungal.leaf_mold",
+      "key_differences": [
+        "Leaf mold produces a dense, olive-green to brown velvety mold on the leaf underside, whereas late blight's mold is white and sparser.",
+        "The upper leaf surface with leaf mold shows yellow spots, not the large, water-soaked necrotic lesions of late blight.",
+        "Late blight lesions are dark and necrotic on both sides of the leaf."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Use certified disease-free seeds and transplants.",
+      "Ensure good air circulation through proper plant spacing and pruning.",
+      "Avoid overhead irrigation; use drip irrigation to keep foliage dry.",
+      "Remove and destroy infected plants and debris promptly.",
+      "Rotate crops, avoiding planting tomatoes or potatoes in the same spot for 3-4 years."
+    ],
+    "biological": [
+      "Application of bio-fungicides containing Bacillus subtilis or copper-based compounds (e.g., copper hydroxide) can be suppressive."
+    ],
+    "chemical": [
+      "Preventative application of protectant fungicides like chlorothalonil or mancozeb.",
+      "Curative application of systemic fungicides like metalaxyl, mefenoxam, or cymoxanil once disease is detected."
+    ],
+    "notes": "Consult local extension services for recommended fungicides and spray schedules, as resistance management is critical. Predictive models based on weather data can help time applications."
+  }
+}

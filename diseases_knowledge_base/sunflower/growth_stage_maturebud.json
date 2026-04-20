@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "sunflower.growth_stage.growth_stage_maturebud",
+  "aliases": [
+    "R4 stage",
+    "Pre-bloom",
+    "Button stage"
+  ],
+  "crop": {
+    "common_name": "Sunflower",
+    "scientific_name": "Helianthus annuus",
+    "family": "Asteraceae"
+  },
+  "condition": {
+    "common_name": "Mature Bud",
+    "scientific_name": null,
+    "alt_names": [
+      "R4",
+      "Immature flower"
+    ],
+    "pathogen": {
+      "type": "Physiological",
+      "taxonomy": {
+        "kingdom": "",
+        "phylum": "",
+        "class": "",
+        "order": "",
+        "family": "",
+        "genus": "",
+        "species": ""
+      }
+    }
+  },
+  "issue_type": "growth_stage",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [],
+    "overwintering": []
+  },
+  "environmental_risk": {
+    "risk_factors": [],
+    "temp_c_day": [],
+    "temp_c_night": [],
+    "relative_humidity_pct": [],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "qualitative",
+    "mild": "Not applicable. Stage is either present or not.",
+    "moderate": "Not applicable.",
+    "severe": "Not applicable.",
+    "notes": "Severity is not applicable to a growth stage. This rubric is used to confirm the presence of the 'Mature Bud' (R4) stage."
+  },
+  "symptoms": {
+    "leaves": [
+      "Upper leaves are fully expanded.",
+      "Leaves immediately below the bud may appear to cup around it."
+    ],
+    "stems": [
+      "Stem has reached near-maximum height.",
+      "Peduncle (flower stalk) is visibly elongating, separating the bud from the uppermost leaves."
+    ],
+    "fruit": [
+      "The terminal flower bud is fully formed but remains completely closed.",
+      "The bud is large, typically greater than 2 cm in diameter.",
+      "Green, pointed bracts are tightly layered, completely enclosing the developing flower parts.",
+      "The overall shape of the bud is globe-like or resembles a small artichoke.",
+      "The face of the bud is still flat or slightly convex.",
+      "No yellow ray petals are visible."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Plant is tall and robust, in the final vegetative stage before flowering.",
+      "The large, closed terminal bud is the dominant feature at the top of the plant."
+    ],
+    "signs_microscopic_or_visible": []
+  },
+  "lookalikes": [],
+  "management": {
+    "cultural": [
+      "Ensure adequate and consistent soil moisture as water demand is very high.",
+      "Monitor for insect pests that target developing heads, such as head-clipping weevils or lygus bugs.",
+      "Avoid nutrient deficiencies, especially boron, which is critical for flower development."
+    ],
+    "biological": [],
+    "chemical": [
+      "Consider a preventative fungicide application for diseases like Sclerotinia head rot or Phomopsis if conditions are highly favorable for infection, following pre-bloom application guidelines."
+    ],
+    "notes": "Management at this stage is critical for protecting the yield potential stored in the developing head."
+  }
+}

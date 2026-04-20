@@ -1,0 +1,147 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "guava.disease_bacterial.canker",
+  "aliases": [
+    "bacterial canker of guava",
+    "guava dieback",
+    "bacterial blight of guava"
+  ],
+  "crop": {
+    "common_name": "guava",
+    "scientific_name": "Psidium guajava",
+    "family": "Myrtaceae"
+  },
+  "condition": {
+    "common_name": "canker",
+    "scientific_name": "Erwinia psidii",
+    "alt_names": [
+      "shoot dieback",
+      "bacterial necrosis"
+    ],
+    "pathogen": {
+      "type": "disease_bacterial",
+      "taxonomy": {
+        "kingdom": "Bacteria",
+        "phylum": "Proteobacteria",
+        "class": "Gammaproteobacteria",
+        "order": "Enterobacterales",
+        "family": "Erwiniaceae",
+        "genus": "Erwinia",
+        "species": "psidii"
+      }
+    }
+  },
+  "issue_type": "disease_bacterial",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [
+      "wind-driven rain",
+      "water splash",
+      "contaminated pruning tools",
+      "infected nursery stock"
+    ],
+    "overwintering": [
+      "in infected stems and cankers",
+      "in plant debris on the ground"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "prolonged periods of high humidity",
+      "frequent rainfall",
+      "warm temperatures",
+      "dense canopy with poor air circulation",
+      "wounds from pruning, insects, or mechanical damage"
+    ],
+    "temp_c_day": [
+      25,
+      30
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      85,
+      100
+    ],
+    "leaf_wetness_hours_threshold": 6
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "< 5% of leaf, twig, or fruit surface area affected with lesions. No significant dieback.",
+    "moderate": "5-25% of surface area affected; multiple cankers may be present, with some twig dieback visible.",
+    "severe": "> 25% of surface area affected; extensive cankers causing girdling, significant branch dieback, and severe fruit rot.",
+    "notes": "Severity is assessed based on the percentage of symptomatic tissue on the most affected plant part visible. For whole-plant views, consider the overall proportion of the canopy showing symptoms like dieback."
+  },
+  "symptoms": {
+    "leaves": [
+      "Initial small, water-soaked, circular spots.",
+      "Lesions enlarge, turning dark brown to black, often surrounded by a distinct yellow halo.",
+      "Lesion centers may dry, crack, and fall out, creating a 'shot-hole' appearance.",
+      "Infected young leaves can become distorted, twisted, or malformed."
+    ],
+    "stems": [
+      "Formation of elongated, sunken, dark brown or black cankers on twigs and young branches.",
+      "Bark over cankers may crack, split, or peel.",
+      "Girdling of stems by cankers leads to wilting and dieback of the shoot tip and branches above the infection.",
+      "In high humidity, creamy or whitish bacterial ooze may exude from active cankers."
+    ],
+    "fruit": [
+      "Small, circular, water-soaked spots appear on the fruit surface.",
+      "Spots enlarge, becoming sunken, hard, and dark brown to black, often with a raised margin.",
+      "Lesions can crack open, allowing entry for secondary rot organisms."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Wilting and death of affected shoots and branches.",
+      "Reduced plant vigor and poor fruit development."
+    ],
+    "signs_microscopic_or_visible": [
+      "Bacterial ooze from cankers under wet conditions."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "leaf_spot",
+      "condition_id": "guava.disease_fungal.leaf_spot",
+      "key_differences": [
+        "Canker produces sunken, woody cankers on stems and twigs, a symptom absent in most leaf spot diseases.",
+        "Bacterial canker leaf lesions are often initially water-soaked with prominent yellow halos; fungal leaf spots may have a more defined, less water-soaked border and sometimes a grayish center.",
+        "Fruit lesions from canker are characteristically hard and sunken, while fungal spots on fruit may be more superficial or lead to soft rot."
+      ]
+    },
+    {
+      "condition_name": "rust",
+      "condition_id": "guava.disease_fungal.rust",
+      "key_differences": [
+        "Rust appears as raised, powdery pustules that release yellow-orange spores, typically on the leaf underside.",
+        "Canker causes flat or sunken necrotic spots that are not powdery.",
+        "Rust does not form cankers on woody stems; its primary damage is defoliation."
+      ]
+    },
+    {
+      "condition_name": "nutritional_deficiency",
+      "condition_id": "guava.disorder_abiotic.nutritional_deficiency",
+      "key_differences": [
+        "Deficiencies cause generalized, often symmetrical patterns of discoloration (e.g., interveinal chlorosis, marginal yellowing), not discrete necrotic spots.",
+        "Canker lesions are localized areas of dead tissue with distinct borders.",
+        "Nutritional issues do not cause sunken cankers on stems or water-soaked lesions on any plant part."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Use certified disease-free planting material.",
+      "Prune and destroy infected branches and cankers during dry periods to reduce inoculum.",
+      "Improve air circulation within the canopy through selective pruning.",
+      "Avoid overhead irrigation that wets foliage for extended periods.",
+      "Disinfect pruning tools (e.g., with 10% bleach solution) between cuts."
+    ],
+    "biological": [
+      "Formulations containing *Bacillus subtilis* or other beneficial microbes may act as antagonists."
+    ],
+    "chemical": [
+      "Preventative applications of copper-based bactericides (e.g., copper hydroxide, copper oxychloride) prior to and during rainy seasons.",
+      "Consult local extension services for recommended and legally registered products and spray schedules."
+    ],
+    "notes": "An integrated approach combining sanitation (pruning) with preventative chemical sprays is most effective for managing guava canker."
+  }
+}

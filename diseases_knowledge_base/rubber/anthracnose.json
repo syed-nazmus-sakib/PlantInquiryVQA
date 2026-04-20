@@ -1,0 +1,118 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "rubber.disease_fungal.anthracnose",
+  "aliases": [
+    "rubber leaf fall",
+    "Colletotrichum leaf disease",
+    "shoot dieback"
+  ],
+  "crop": {
+    "common_name": "rubber",
+    "scientific_name": "Hevea brasiliensis",
+    "family": "Euphorbiaceae"
+  },
+  "condition": {
+    "common_name": "anthracnose",
+    "scientific_name": "Colletotrichum gloeosporioides",
+    "alt_names": [
+      "Colletotrichum acutatum"
+    ],
+    "pathogen": {
+      "type": "disease_fungal",
+      "taxonomy": {
+        "kingdom": "Fungi",
+        "phylum": "Ascomycota",
+        "class": "Sordariomycetes",
+        "order": "Glomerellales",
+        "family": "Glomerellaceae",
+        "genus": "Colletotrichum",
+        "species": "gloeosporioides"
+      }
+    }
+  },
+  "issue_type": "disease_fungal",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [
+      "rain splash",
+      "wind-driven rain",
+      "contaminated pruning tools",
+      "insects (mechanical)"
+    ],
+    "overwintering": [
+      "infected fallen leaves and plant debris",
+      "cankers on stems and twigs",
+      "dormant infections on mature leaves"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "prolonged leaf wetness",
+      "high relative humidity (>90%)",
+      "frequent rainfall",
+      "dense canopy with poor air circulation",
+      "presence of young, tender leaf flush"
+    ],
+    "temp_c_day": [
+      25,
+      30
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      80,
+      100
+    ],
+    "leaf_wetness_hours_threshold": 12
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "1-10% of leaf area affected. A few scattered, small lesions on some leaves, no significant leaf distortion or defoliation.",
+    "moderate": "11-40% of leaf area affected. Lesions are numerous, may be coalescing. Noticeable leaf curling, distortion, and some premature leaf drop is visible.",
+    "severe": ">40% of leaf area affected. Extensive necrotic blotches cover leaves, leading to severe leaf distortion, withering, significant defoliation, and potential dieback of shoots.",
+    "notes": "Assessment should focus on the new flushes of leaves as they are most susceptible. Severity can also be gauged by the extent of defoliation in the canopy."
+  },
+  "symptoms": {
+    "leaves": [
+      "Small, water-soaked, dark green to black spots appear on young, tender leaves.",
+      "Lesions enlarge into circular or irregular shapes, often with a distinct dark brown or black border.",
+      "The center of older lesions becomes sunken and turns pale brown, tan, or grayish-white.",
+      "Lesions frequently start at the leaf tip or margins, causing puckering and distortion.",
+      "In severe infections, spots coalesce, forming large necrotic blotches.",
+      "Affected leaves curl, wither, and drop prematurely, causing 'leaf fall'.",
+      "On mature, hardened leaves, lesions are smaller, arrested, and may develop a 'shot-hole' appearance as the necrotic center falls out."
+    ],
+    "stems": [
+      "On young, green shoots, elongated, sunken, dark brown to black cankers can form.",
+      "Infection can girdle and kill young shoots, leading to 'dieback'."
+    ],
+    "fruit": [
+      "Sunken, dark, circular lesions can develop on seed pods (capsules).",
+      "Under humid conditions, pinkish-orange spore masses may become visible in the center of pod lesions."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Significant defoliation, particularly during wet seasons when new leaves are emerging.",
+      "Dieback of terminal branches can give the upper canopy a scorched or blighted appearance."
+    ],
+    "signs_microscopic_or_visible": [
+      "Under high humidity, tiny, pinkish-orange, gelatinous spore masses (acervuli) may erupt from the center of lesions."
+    ]
+  },
+  "lookalikes": [],
+  "management": {
+    "cultural": [
+      "Prune to improve air circulation and sunlight penetration, which speeds up leaf drying.",
+      "Remove and destroy fallen leaves and infected plant debris to reduce inoculum sources.",
+      "Avoid overhead irrigation to minimize the duration of leaf wetness.",
+      "Maintain balanced plant nutrition to improve plant vigor and resilience."
+    ],
+    "biological": [
+      "Application of bio-fungicides containing *Trichoderma* spp. or *Bacillus subtilis* can be used as a preventative measure to compete with the pathogen."
+    ],
+    "chemical": [
+      "Apply protective fungicides (e.g., mancozeb, chlorothalonil) before or during high-risk periods like the rainy season.",
+      "Systemic fungicides (e.g., strobilurins, triazoles) can be used for curative action but should be rotated to manage resistance."
+    ],
+    "notes": "An integrated approach is crucial. Fungicide applications should be timed to protect new leaf flushes, which are the most vulnerable to infection."
+  }
+}

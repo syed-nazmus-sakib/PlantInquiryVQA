@@ -1,0 +1,150 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "pepper.unknown.root_rot",
+  "aliases": [
+    "damping-off",
+    "Phytophthora root rot",
+    "Pythium root rot",
+    "Fusarium crown and root rot"
+  ],
+  "crop": {
+    "common_name": "pepper",
+    "scientific_name": "Capsicum annuum",
+    "family": "Solanaceae"
+  },
+  "condition": {
+    "common_name": "root rot",
+    "scientific_name": null,
+    "alt_names": [
+      "damping-off",
+      "crown rot",
+      "water mold"
+    ],
+    "pathogen": {
+      "type": "fungal-like",
+      "taxonomy": {
+        "kingdom": "",
+        "phylum": "",
+        "class": "",
+        "order": "",
+        "family": "",
+        "genus": "",
+        "species": ""
+      }
+    }
+  },
+  "issue_type": "unknown",
+  "transmission": {
+    "vectors": [
+      "fungus gnats",
+      "shore flies"
+    ],
+    "dispersal": [
+      "contaminated soil",
+      "splashing water",
+      "infected transplants",
+      "contaminated tools and equipment"
+    ],
+    "overwintering": [
+      "in soil as dormant spores (oospores, chlamydospores)",
+      "on infected plant debris"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "poorly drained or compacted soil",
+      "overwatering or excessive rainfall",
+      "low soil oxygen",
+      "high soil salinity",
+      "warm soil temperatures"
+    ],
+    "temp_c_day": [
+      24,
+      32
+    ],
+    "temp_c_night": [
+      20,
+      26
+    ],
+    "relative_humidity_pct": [
+      80,
+      100
+    ],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "qualitative",
+    "mild": "Slight stunting or yellowing of lower leaves. Plant may wilt during the hottest part of the day but recovers at night.",
+    "moderate": "Noticeable stunting. Persistent wilting of lower and mid-canopy leaves. Some leaf drop may occur.",
+    "severe": "Plant is severely stunted or dead. Widespread, permanent wilting. Stem may be girdled at the soil line. Plant easily pulled from the ground.",
+    "notes": "Severity is assessed on the whole-plant level, focusing on the extent of wilting, stunting, and plant collapse. Root examination is required for definitive diagnosis."
+  },
+  "symptoms": {
+    "leaves": [
+      "Lower leaves turn yellow (chlorosis), then brown",
+      "Leaves wilt, starting from the bottom of the plant",
+      "Wilting occurs even when soil is moist",
+      "Premature leaf drop"
+    ],
+    "stems": [
+      "Dark, water-soaked lesion forms at the soil line",
+      "Stem becomes constricted, girdled, or 'wiry' at the base",
+      "Internal vascular tissue may show brown discoloration when cut"
+    ],
+    "fruit": [
+      "Fruit may be small, shriveled, or fail to develop"
+    ],
+    "roots": [
+      "Roots appear brown, soft, and water-soaked (mushy)",
+      "The outer layer (cortex) of the root sloughs off easily, leaving the inner core",
+      "Significant reduction in root mass"
+    ],
+    "whole_plant": [
+      "Stunted growth compared to healthy plants",
+      "Sudden wilting and rapid death of the plant",
+      "Seedlings collapse at the soil line (damping-off)"
+    ],
+    "signs_microscopic_or_visible": [
+      "White, cottony mold (mycelium) may be visible on the stem base or soil surface in highly saturated conditions"
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "blight",
+      "condition_id": "pepper.fungal-like.blight",
+      "key_differences": [
+        "Blight often causes large, dark lesions on leaves and upper stems, not just at the soil line.",
+        "Blight can directly infect and cause large, sunken, rotten spots on the fruit itself.",
+        "With root rot, the primary symptom is bottom-up wilting due to root decay; blight can cause rapid collapse from infections anywhere on the plant.",
+        "In early blight infection, the root system may appear healthy, whereas it is the first part affected by root rot."
+      ]
+    },
+    {
+      "condition_name": "virus",
+      "condition_id": "pepper.viral.virus",
+      "key_differences": [
+        "Virus symptoms frequently include mosaic patterns, mottling, leaf distortion, or distinct ring spots, which are absent in root rot.",
+        "Wilting from a virus (e.g., TSWV) can be one-sided (unilateral) or accompanied by necrotic stem streaks, but the roots are not soft and decayed.",
+        "Root rot does not cause the malformed, curled, or stunted new growth characteristic of many viral infections."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Ensure good soil drainage; use raised beds in heavy soils",
+      "Avoid overwatering and allow soil surface to dry between irrigations",
+      "Rotate crops with non-susceptible families (e.g., grasses, legumes)",
+      "Use certified disease-free transplants and seeds",
+      "Sanitize all tools, containers, and greenhouse surfaces between plantings"
+    ],
+    "biological": [
+      "Incorporate high-quality compost to improve soil structure and promote beneficial microbes",
+      "Apply commercially available bio-fungicides containing *Trichoderma* or *Bacillus subtilis* to the soil"
+    ],
+    "chemical": [
+      "Apply preventative fungicides (e.g., mefenoxam, propamocarb, phosphites) as a soil drench at planting or transplanting",
+      "Consider pre-plant soil fumigation in fields with a history of severe disease pressure"
+    ],
+    "notes": "Preventative measures, especially water management and soil health, are key. Chemical treatments are most effective when applied before symptoms appear and are often not curative on severely infected plants."
+  }
+}

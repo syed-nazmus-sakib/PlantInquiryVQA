@@ -1,0 +1,122 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "jackfruit.disease_fungal.algal_leaf_spot",
+  "aliases": [
+    "red rust of jackfruit",
+    "Cephaleuros leaf spot"
+  ],
+  "crop": {
+    "common_name": "jackfruit",
+    "scientific_name": "Artocarpus heterophyllus",
+    "family": "Moraceae"
+  },
+  "condition": {
+    "common_name": "algal leaf spot",
+    "scientific_name": "Cephaleuros virescens",
+    "alt_names": [
+      "red rust"
+    ],
+    "pathogen": {
+      "type": "disease_fungal",
+      "taxonomy": {
+        "kingdom": "Plantae",
+        "phylum": "Chlorophyta",
+        "class": "Ulvophyceae",
+        "order": "Trentepohliales",
+        "family": "Trentepohliaceae",
+        "genus": "Cephaleuros",
+        "species": "virescens"
+      }
+    }
+  },
+  "issue_type": "disease_fungal",
+  "transmission": {
+    "vectors": [
+      "wind-driven rain"
+    ],
+    "dispersal": [
+      "water-splashed zoospores",
+      "wind"
+    ],
+    "overwintering": [
+      "in lesions on leaves and stems"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "high humidity",
+      "frequent rainfall",
+      "poor air circulation",
+      "low plant vigor",
+      "shaded conditions"
+    ],
+    "temp_c_day": [
+      25,
+      32
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      80,
+      100
+    ],
+    "leaf_wetness_hours_threshold": 8
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "1-10% of leaf area affected with distinct, small spots.",
+    "moderate": "11-30% of leaf area affected, spots may be coalescing.",
+    "severe": ">30% of leaf area affected, extensive spotting, potential leaf yellowing and premature drop.",
+    "notes": "Severity is based on the percentage of the total leaf surface covered by the characteristic raised, velvety spots. Assessment should be made on a representative sample of leaves from the plant."
+  },
+  "symptoms": {
+    "leaves": [
+      "Circular to irregular spots on the upper leaf surface.",
+      "Spots are distinctly raised with a velvety or felt-like texture.",
+      "Lesion color is initially greenish-gray, maturing to orange or reddish-brown.",
+      "A necrotic border may develop around the algal spot.",
+      "Underlying leaf tissue may turn yellow (chlorosis) around the lesion.",
+      "In severe cases, spots can coalesce to cover large areas of the leaf.",
+      "Affected leaves may drop prematurely."
+    ],
+    "stems": [
+      "Similar raised, velvety, reddish-brown spots can appear on young, green stems.",
+      "Stem lesions can girdle and cause dieback of small twigs."
+    ],
+    "fruit": [
+      "Fruit is rarely affected, but superficial spots can occur under high disease pressure."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Reduced plant vigor and significant defoliation in severe, chronic infections."
+    ],
+    "signs_microscopic_or_visible": [
+      "Visible raised, tufted algal thallus (colony) on the leaf surface.",
+      "The characteristic orange to reddish-brown color is due to the presence of haematochrome, a carotenoid pigment."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "anthracnose",
+      "condition_id": "jackfruit.disease_fungal.anthracnose",
+      "key_differences": [
+        "Anthracnose lesions are typically sunken and dark brown to black, not raised and reddish-brown.",
+        "Anthracnose often shows concentric rings ('target spot' appearance), which is absent in algal leaf spot.",
+        "Anthracnose may produce slimy, pinkish spore masses in humid conditions, whereas algal spots are dry and velvety."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Improve air circulation through proper pruning of the canopy.",
+      "Avoid overhead irrigation to minimize leaf wetness duration.",
+      "Maintain plant vigor with balanced fertilization and adequate soil moisture.",
+      "Remove and destroy fallen leaves and heavily infected branches."
+    ],
+    "biological": [],
+    "chemical": [
+      "Apply copper-based fungicides (e.g., copper hydroxide, copper oxychloride) as a preventative measure during high-risk periods (warm, wet weather).",
+      "Fungicides containing mancozeb can also provide control."
+    ],
+    "notes": "Chemical control is often not necessary unless the infection is severe and impacting plant health. Focus on cultural practices first to create an environment less favorable for the alga."
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "rice.unknown.leaf_scald",
+  "aliases": [
+    "scald",
+    "leaf tip scald",
+    "rice leaf scald"
+  ],
+  "crop": {
+    "common_name": "rice",
+    "scientific_name": "Oryza sativa",
+    "family": "Poaceae"
+  },
+  "condition": {
+    "common_name": "leaf scald",
+    "scientific_name": "Microdochium oryzae",
+    "alt_names": [
+      "Monographella albescens",
+      "Rhynchosporium oryzae"
+    ],
+    "pathogen": {
+      "type": "disease_fungal",
+      "taxonomy": {
+        "kingdom": "Fungi",
+        "phylum": "Ascomycota",
+        "class": "Dothideomycetes",
+        "order": "Capnodiales",
+        "family": "Mycosphaerellaceae",
+        "genus": "Microdochium",
+        "species": "oryzae"
+      }
+    }
+  },
+  "issue_type": "unknown",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [
+      "wind-borne conidia",
+      "rain splash",
+      "infected seeds",
+      "infected crop debris"
+    ],
+    "overwintering": [
+      "infected seeds",
+      "infected stubble",
+      "crop residue",
+      "weedy hosts"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "high nitrogen fertilization",
+      "frequent rainfall",
+      "high humidity",
+      "dense plant canopy",
+      "cool temperatures during flowering"
+    ],
+    "temp_c_day": [
+      25,
+      28
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      95,
+      100
+    ],
+    "leaf_wetness_hours_threshold": 10
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "<5% of the upper leaf area affected, with lesions mostly confined to the leaf tips.",
+    "moderate": "5-25% of the upper leaf area affected, with lesions expanding downwards showing characteristic zonation patterns.",
+    "severe": ">25% of the upper leaf area affected, multiple leaves show extensive blighting, and leaf tips are necrotic and dry.",
+    "notes": "Severity is best assessed on the flag leaf and the two leaves below it during flowering to grain-filling stages. Focus on the percentage of total leaf area showing symptoms."
+  },
+  "symptoms": {
+    "leaves": [
+      "Lesions initiate as grey-green, water-soaked spots near the leaf tip or along the margins.",
+      "Lesions enlarge into a characteristic chevron (V-shape) pattern.",
+      "Developed lesions show alternating bands of light tan and dark brown, creating a zonation or 'scalded' look.",
+      "A diffuse, yellowish halo often surrounds the advancing edge of the lesion.",
+      "Multiple lesions can coalesce, causing the entire leaf blade to wither and die from the tip downwards.",
+      "Symptoms are most prominent on mature, upper leaves.",
+      "Infected leaves eventually turn grayish-brown and dry out completely."
+    ],
+    "stems": [
+      "Typically asymptomatic, but leaf sheaths can be affected in severe cases."
+    ],
+    "fruit": [
+      "Infection can spread to the panicle, causing discoloration of glumes, poor grain filling, and sterility."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Severe infections reduce photosynthetic area, leading to decreased plant vigor and lower yields."
+    ],
+    "signs_microscopic_or_visible": []
+  },
+  "lookalikes": [
+    {
+      "condition_name": "bacterial_leaf_blight",
+      "condition_id": "rice.disease_bacterial.bacterial_leaf_blight",
+      "key_differences": [
+        "Bacterial blight lesions have wavy, undulating margins, unlike the more distinct zonation or V-shape of leaf scald.",
+        "Bacterial blight produces yellow, water-soaked stripes parallel to veins, which is not a feature of scald.",
+        "In high humidity, creamy bacterial ooze may be visible on bacterial blight lesions, which is absent in fungal scald."
+      ]
+    },
+    {
+      "condition_name": "blast",
+      "condition_id": "rice.disease_fungal.blast",
+      "key_differences": [
+        "Leaf blast lesions are typically diamond-shaped or spindle-shaped with grey centers and dark brown borders.",
+        "Leaf scald lesions start at the leaf tip/margin and expand downwards in a banded, chevron pattern, not as discrete diamond shapes.",
+        "Blast can also infect the stem nodes ('node blast') and panicle base ('neck blast'), symptoms not caused by leaf scald."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Plant certified disease-free seeds.",
+      "Apply balanced nitrogen fertilizer; avoid excessive rates.",
+      "Remove and destroy infected crop debris after harvest.",
+      "Ensure proper plant spacing to promote air circulation and reduce humidity within the canopy.",
+      "Control alternate weed hosts in and around the field."
+    ],
+    "biological": [
+      "Research has shown potential for some strains of Trichoderma and Pseudomonas fluorescens as biocontrol agents."
+    ],
+    "chemical": [
+      "Apply foliar fungicides (e.g., propiconazole, azoxystrobin, trifloxystrobin) at the first sign of disease.",
+      "Seed treatment with appropriate fungicides can reduce primary inoculum."
+    ],
+    "notes": "Fungicide application is most effective when timed preventatively or at the early onset of disease, particularly during the booting and heading stages of the crop."
+  }
+}

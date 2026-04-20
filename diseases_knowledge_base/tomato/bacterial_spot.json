@@ -1,0 +1,153 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "tomato.disease_bacterial.bacterial_spot",
+  "aliases": [
+    "bacterial leaf spot",
+    "Xanthomonas spot"
+  ],
+  "crop": {
+    "common_name": "tomato",
+    "scientific_name": "Solanum lycopersicum",
+    "family": "Solanaceae"
+  },
+  "condition": {
+    "common_name": "bacterial spot",
+    "scientific_name": "Xanthomonas spp. (e.g., X. perforans, X. euvesicatoria, X. vesicatoria, X. gardneri)",
+    "alt_names": [],
+    "pathogen": {
+      "type": "disease_bacterial",
+      "taxonomy": {
+        "kingdom": "Bacteria",
+        "phylum": "Pseudomonadota",
+        "class": "Gammaproteobacteria",
+        "order": "Lysobacterales",
+        "family": "Lysobacteraceae",
+        "genus": "Xanthomonas",
+        "species": ""
+      }
+    }
+  },
+  "issue_type": "disease_bacterial",
+  "transmission": {
+    "vectors": [
+      "humans (via tools, hands)"
+    ],
+    "dispersal": [
+      "rain splash",
+      "wind-driven rain",
+      "overhead irrigation",
+      "infected transplants",
+      "contaminated seed"
+    ],
+    "overwintering": [
+      "infected plant debris",
+      "volunteer tomato plants",
+      "contaminated seeds",
+      "solanaceous weeds"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "high humidity",
+      "prolonged leaf wetness",
+      "warm temperatures",
+      "poor air circulation",
+      "overhead irrigation"
+    ],
+    "temp_c_day": [
+      24,
+      30
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      85,
+      100
+    ],
+    "leaf_wetness_hours_threshold": 4
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "1-10% of leaf area affected with small, scattered lesions. No significant defoliation.",
+    "moderate": "11-40% of leaf area affected. Some lesions are coalescing. Minor yellowing and leaf drop may be present.",
+    "severe": ">40% of leaf area affected. Widespread lesion coalescence, significant chlorosis (yellowing), and heavy defoliation. Fruit symptoms are prominent.",
+    "notes": "Severity is assessed on the most affected leaves and the overall canopy. The presence and density of fruit lesions should also be considered."
+  },
+  "symptoms": {
+    "leaves": [
+      "Initial symptoms are small (<3 mm), dark green to black, water-soaked circular spots.",
+      "Lesions become angular as their expansion is limited by small leaf veins.",
+      "A greasy or oily appearance is often visible on the lesion surface, especially on the leaf underside.",
+      "A narrow, yellow halo may surround the dark lesions, but can be faint or absent.",
+      "Centers of older lesions may dry out, turn tan or grayish-brown, and crack or fall out, creating a 'shot-hole' effect.",
+      "In severe cases, lesions merge, causing large blighted areas and leaf drop (defoliation), starting with lower leaves."
+    ],
+    "stems": [
+      "Stem lesions are elongated, dark brown to black, and may appear slightly raised or scabby."
+    ],
+    "fruit": [
+      "On green fruit, spots start as small, slightly raised, water-soaked pimples.",
+      "Lesions enlarge to become dark brown to black, scabby, and slightly sunken, often up to 8 mm.",
+      "The scabby texture is a key diagnostic feature on fruit.",
+      "A subtle water-soaked halo may surround the scabby fruit lesion.",
+      "Fruit spots are typically superficial and do not penetrate deep into the fruit flesh."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Stunted growth in young, heavily infected plants.",
+      "Significant defoliation, especially of lower leaves, can expose fruit to sunscald."
+    ],
+    "signs_microscopic_or_visible": [
+      "Bacterial streaming from cut lesion tissue when placed in water and viewed under a microscope."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "septoria leaf spot",
+      "condition_id": "tomato.disease_fungal.septoria_leaf_spot",
+      "key_differences": [
+        "Septoria lesions are circular with distinct tan or gray centers and dark brown borders.",
+        "Tiny black specks (pycnidia) are often visible in the center of Septoria lesions.",
+        "Bacterial spot lesions are more angular, darker overall (often black), and lack pycnidia.",
+        "Bacterial spot lesions often have a greasy or water-soaked appearance that Septoria lacks."
+      ]
+    },
+    {
+      "condition_name": "early blight",
+      "condition_id": "tomato.disease_fungal.early_blight",
+      "key_differences": [
+        "Early blight lesions are larger and have a characteristic 'target-like' pattern of concentric rings.",
+        "Bacterial spot lesions are smaller, more angular, and do not have the target-ring pattern.",
+        "Early blight typically produces a more prominent, well-defined yellow halo around lesions.",
+        "Stem lesions from early blight (collar rot) are much larger and more destructive than the small lesions of bacterial spot."
+      ]
+    },
+    {
+      "condition_name": "flea beetle injury",
+      "condition_id": "tomato.pest_damage.flea_beetle_injury",
+      "key_differences": [
+        "Flea beetle damage consists of numerous small, round 'shot-holes' where leaf tissue has been eaten away completely.",
+        "Bacterial spot lesions are solid necrotic spots first; the centers may fall out later, but the initial lesion is not a hole.",
+        "Flea beetle injury lacks any water-soaked appearance, yellow halos, or greasy texture."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Use certified disease-free seed and transplants.",
+      "Practice a 3-4 year crop rotation with non-solanaceous crops.",
+      "Improve air circulation via proper plant spacing, staking, and pruning.",
+      "Avoid overhead irrigation; use drip or furrow irrigation to keep foliage dry.",
+      "Remove and destroy infected plant debris at the end of the season.",
+      "Sanitize tools, stakes, and equipment between plants or rows."
+    ],
+    "biological": [
+      "Application of bio-fungicides containing *Bacillus subtilis* or other beneficial microbes may suppress pathogen populations."
+    ],
+    "chemical": [
+      "Preventative applications of copper-based bactericides (e.g., copper hydroxide).",
+      "Tank-mixing copper with mancozeb can improve efficacy and manage resistance.",
+      "Application of plant defense inducers like acibenzolar-S-methyl (Actigard)."
+    ],
+    "notes": "Chemical control is most effective when applied preventatively before disease onset. Widespread copper resistance in bacterial populations can limit the effectiveness of copper-only sprays."
+  }
+}

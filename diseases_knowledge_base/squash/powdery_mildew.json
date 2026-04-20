@@ -1,0 +1,118 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "squash.disease_fungal.powdery_mildew",
+  "aliases": [
+    "Squash PM",
+    "Cucurbit powdery mildew"
+  ],
+  "crop": {
+    "common_name": "Squash",
+    "scientific_name": "Cucurbita spp.",
+    "family": "Cucurbitaceae"
+  },
+  "condition": {
+    "common_name": "Powdery Mildew",
+    "scientific_name": "Podosphaera xanthii, Golovinomyces cucurbitacearum",
+    "alt_names": [],
+    "pathogen": {
+      "type": "fungus",
+      "taxonomy": {
+        "kingdom": "Fungi",
+        "phylum": "Ascomycota",
+        "class": "Leotiomycetes",
+        "order": "Erysiphales",
+        "family": "Erysiphaceae",
+        "genus": "Podosphaera",
+        "species": "xanthii"
+      }
+    }
+  },
+  "issue_type": "disease_fungal",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [
+      "windborne conidia",
+      "air currents",
+      "human activity (tools, clothing)"
+    ],
+    "overwintering": [
+      "in crop debris",
+      "on weed hosts",
+      "as chasmothecia (sexual fruiting bodies) on plant tissue"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "high humidity (not free water)",
+      "moderate temperatures",
+      "dense plant canopy with poor air circulation",
+      "low light intensity",
+      "shaded lower leaves"
+    ],
+    "temp_c_day": [
+      20,
+      27
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      50,
+      90
+    ],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "1-10% of the upper leaf surface is covered with sparse, small white spots.",
+    "moderate": "11-40% of the leaf surface is covered; spots have coalesced into larger patches; some yellowing (chlorosis) may be visible beneath.",
+    "severe": ">40% of the leaf surface is covered; leaves are heavily coated in white mycelium, leading to significant yellowing, browning (necrosis), and premature leaf death.",
+    "notes": "Severity is assessed on the most affected mature leaves. The percentage represents the total area covered by visible white fungal growth (mycelium and conidia). Unlike many fungal diseases, powdery mildew does not require free water on the leaf surface for infection, hence the low leaf wetness threshold."
+  },
+  "symptoms": {
+    "leaves": [
+      "Starts as small, circular, white spots resembling talcum powder on upper leaf surfaces and petioles.",
+      "Spots expand and coalesce, eventually covering entire leaves in a white powdery mat.",
+      "Infected leaves may turn yellow (chlorotic), then brown, dry, and brittle (necrotic).",
+      "Powdery growth can appear on both upper and lower leaf surfaces, but is most common on top.",
+      "Older, lower leaves are typically the first to show symptoms.",
+      "Severe infections cause leaf distortion and premature defoliation."
+    ],
+    "stems": [
+      "White powdery patches can develop on petioles and stems.",
+      "Stems and petioles may become brittle under heavy infection."
+    ],
+    "fruit": [
+      "Fruit is rarely directly infected, but quality suffers due to plant stress.",
+      "Defoliation can expose fruit to sunscald, causing bleached, sunken areas.",
+      "Powdery growth may appear on fruit stalks (peduncles).",
+      "Infection can lead to smaller, misshapen, or poorly flavored fruit."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Reduced plant vigor and stunted growth.",
+      "Premature senescence of the entire plant in severe cases."
+    ],
+    "signs_microscopic_or_visible": [
+      "The primary sign is the white to grayish, powdery fungal growth (mycelium and conidia) which can be rubbed off.",
+      "Late in the season, tiny black specks (chasmothecia, the sexual fruiting bodies) may be visible embedded in the white mycelial mat."
+    ]
+  },
+  "lookalikes": [],
+  "management": {
+    "cultural": [
+      "Plant resistant or tolerant squash varieties.",
+      "Ensure good air circulation through proper plant spacing and pruning.",
+      "Avoid overhead irrigation to minimize humidity within the canopy.",
+      "Remove and destroy infected plant debris at the end of the season.",
+      "Provide adequate nutrition to maintain plant vigor."
+    ],
+    "biological": [
+      "Application of bio-fungicides containing Bacillus subtilis or Streptomyces lydicus.",
+      "Use of neem oil or horticultural oils, which can disrupt fungal growth."
+    ],
+    "chemical": [
+      "Application of registered fungicides, such as sulfur, potassium bicarbonate, or synthetic fungicides (e.g., strobilurins, DMIs).",
+      "Rotate fungicide chemical groups (FRAC codes) to prevent the development of resistance."
+    ],
+    "notes": "Early detection and intervention are crucial. Fungicide applications are preventative and most effective when started at the first sign of disease. Oils and sulfur can cause phytotoxicity in hot weather (>32\u00b0C)."
+  }
+}

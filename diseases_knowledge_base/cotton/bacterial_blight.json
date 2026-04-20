@@ -1,0 +1,146 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "cotton.disease_bacterial.bacterial_blight",
+  "aliases": [
+    "angular leaf spot",
+    "blackarm",
+    "bacterial boll rot",
+    "vein blight"
+  ],
+  "crop": {
+    "common_name": "Cotton",
+    "scientific_name": "Gossypium hirsutum",
+    "family": "Malvaceae"
+  },
+  "condition": {
+    "common_name": "Bacterial Blight",
+    "scientific_name": "Xanthomonas citri pv. malvacearum",
+    "alt_names": [
+      "Angular Leaf Spot",
+      "Blackarm"
+    ],
+    "pathogen": {
+      "type": "disease_bacterial",
+      "taxonomy": {
+        "kingdom": "Bacteria",
+        "phylum": "Pseudomonadota",
+        "class": "Gammaproteobacteria",
+        "order": "Xanthomonadales",
+        "family": "Xanthomonadaceae",
+        "genus": "Xanthomonas",
+        "species": "X. citri"
+      }
+    }
+  },
+  "issue_type": "disease_bacterial",
+  "transmission": {
+    "vectors": [
+      "Wind-driven rain",
+      "Insects (minor)"
+    ],
+    "dispersal": [
+      "Rain splash",
+      "Irrigation water",
+      "Contaminated seed",
+      "Mechanical (tools, human contact)"
+    ],
+    "overwintering": [
+      "Infected crop debris",
+      "On or within seeds",
+      "Volunteer cotton plants"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "High humidity",
+      "Frequent rainfall",
+      "Overhead irrigation",
+      "Susceptible cultivars",
+      "High nitrogen fertilization"
+    ],
+    "temp_c_day": [
+      30,
+      36
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      85,
+      100
+    ],
+    "leaf_wetness_hours_threshold": 10
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "1-5% of leaf area affected. A few small, scattered, angular, water-soaked lesions are visible, often on lower leaves.",
+    "moderate": "6-25% of leaf area affected. Lesions are numerous, may be coalescing along veins, and are present on middle and upper canopy. Some stem lesions ('blackarm') may be present.",
+    "severe": ">25% of leaf area affected. Widespread lesion coalescence causing large necrotic areas, significant defoliation, and/or visible boll rot.",
+    "notes": "Severity is primarily assessed by the percentage of symptomatic leaf area. The presence of stem (blackarm) or boll infections automatically elevates the assessment to at least 'moderate'."
+  },
+  "symptoms": {
+    "leaves": [
+      "Small, water-soaked spots on the underside of the leaf, initially appearing translucent.",
+      "Lesions become angular (vein-limited) as they expand.",
+      "Spots turn dark brown to black and may look greasy.",
+      "Lesions can coalesce along major veins, causing 'vein blight' and necrosis.",
+      "A faint yellow halo may surround older lesions.",
+      "Infected leaves may become distorted, tattered, and shed prematurely."
+    ],
+    "stems": [
+      "Elongated, sunken, dark brown to black lesions, a phase known as 'blackarm'.",
+      "Stem girdling by lesions can cause wilting and death of the plant part above."
+    ],
+    "fruit": [
+      "Circular, water-soaked spots on bolls (fruit capsules).",
+      "Boll lesions become sunken, turn black, and may feel firm.",
+      "Infection can penetrate the boll, causing internal rot and staining of the lint.",
+      "Young, infected bolls may drop from the plant."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Seedling infection causes water-soaked lesions on cotyledons, potentially leading to 'damping-off'.",
+      "Severe infections lead to stunted growth and reduced plant vigor."
+    ],
+    "signs_microscopic_or_visible": [
+      "Under high humidity, bacterial ooze (slime) may be visible on the surface of fresh lesions."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "Alternaria Leaf Spot",
+      "condition_id": "cotton.disease_fungal.alternaria_leaf_spot",
+      "key_differences": [
+        "Alternaria lesions are circular with characteristic concentric 'target-like' rings, not angular and vein-limited.",
+        "Alternaria spots often have a tan or gray center with a dark or purplish border.",
+        "Bacterial blight lesions appear water-soaked or greasy when fresh, while Alternaria spots are typically dry."
+      ]
+    },
+    {
+      "condition_name": "Verticillium Wilt",
+      "condition_id": "cotton.disease_fungal.verticillium_wilt",
+      "key_differences": [
+        "Verticillium causes large areas of interveinal chlorosis and necrosis, often starting at the leaf margin, not distinct, small spots.",
+        "Foliar symptoms from wilt often appear on only one side of a leaf or one side of the plant.",
+        "Bacterial blight does not cause the characteristic brown or black discoloration of the vascular tissue seen when a wilt-infected stem is cut open."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Plant certified, disease-free seed.",
+      "Use acid-delinted seed to remove surface bacteria.",
+      "Select and plant resistant cotton varieties.",
+      "Promote good air circulation through proper plant spacing.",
+      "Avoid overhead irrigation to minimize leaf wetness.",
+      "Plow under crop debris after harvest to speed decomposition.",
+      "Rotate with non-host crops for at least one year."
+    ],
+    "biological": [
+      "Some products containing *Bacillus* species are marketed for suppression, but efficacy varies."
+    ],
+    "chemical": [
+      "Use of bactericidal seed treatments.",
+      "Preventative foliar sprays with copper-based bactericides can reduce spread but are not curative."
+    ],
+    "notes": "An integrated approach using resistant cultivars and clean seed is the most effective and economical control strategy."
+  }
+}

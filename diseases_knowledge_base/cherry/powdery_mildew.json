@@ -1,0 +1,120 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "cherry.disease_fungal.powdery_mildew",
+  "aliases": [
+    "cherry powdery mildew",
+    "white mold on cherry"
+  ],
+  "crop": {
+    "common_name": "cherry",
+    "scientific_name": "Prunus spp.",
+    "family": "Rosaceae"
+  },
+  "condition": {
+    "common_name": "powdery mildew",
+    "scientific_name": "Podosphaera clandestina",
+    "alt_names": [
+      "white mold"
+    ],
+    "pathogen": {
+      "type": "fungus",
+      "taxonomy": {
+        "kingdom": "Fungi",
+        "phylum": "Ascomycota",
+        "class": "Leotiomycetes",
+        "order": "Erysiphales",
+        "family": "Erysiphaceae",
+        "genus": "Podosphaera",
+        "species": "clandestina"
+      }
+    }
+  },
+  "issue_type": "disease_fungal",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [
+      "wind-borne conidia"
+    ],
+    "overwintering": [
+      "as chasmothecia (fruiting bodies) on bark, fallen leaves, or in dormant buds"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "high humidity (but not free water)",
+      "moderate temperatures",
+      "dense canopy with poor air circulation",
+      "succulent new growth"
+    ],
+    "temp_c_day": [
+      18,
+      25
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      70,
+      95
+    ],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "1-10% of leaf or fruit surface area covered by white mycelium.",
+    "moderate": "11-40% of leaf or fruit surface area covered; some leaf curling or distortion may be present.",
+    "severe": ">40% of leaf or fruit surface area covered; significant leaf distortion, yellowing, defoliation, or fruit cracking/russeting.",
+    "notes": "Severity is assessed by estimating the percentage of the visible surface area of symptomatic leaves or fruit that is covered by the white, powdery fungal growth. Powdery mildew does not require free water (leaf wetness) to infect, hence the threshold is 0."
+  },
+  "symptoms": {
+    "leaves": [
+      "White, powdery, circular patches appear on the upper or lower leaf surface.",
+      "Patches can coalesce to cover the entire leaf surface.",
+      "Infected young leaves may become distorted, twisted, or curled upwards.",
+      "The white fungal growth can be rubbed off, revealing the leaf tissue underneath.",
+      "Older, established infections may cause leaves to yellow and drop prematurely."
+    ],
+    "stems": [
+      "White mycelial growth can develop on young, succulent shoots and suckers."
+    ],
+    "fruit": [
+      "White, circular lesions appear on the fruit surface, often near the stem end.",
+      "Infected areas on developing fruit may stop growing, leading to pitting or deformation.",
+      "On mature fruit, infection causes circular to irregular, leathery, russeted patches.",
+      "Severe fruit infections can lead to cracking."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Reduced vigor and stunted growth, especially in heavily infected young trees."
+    ],
+    "signs_microscopic_or_visible": [
+      "Visible white to grayish, powdery mycelium and conidia on plant surfaces."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "healthy",
+      "condition_id": "cherry.healthy.none",
+      "key_differences": [
+        "Healthy leaves are uniformly green without any white, powdery coating.",
+        "Healthy leaves have a smooth, flat surface, whereas infected leaves may be curled or distorted.",
+        "Healthy fruit has a smooth, glossy, unblemished skin, unlike the pitted or russeted surface of infected fruit."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Prune to improve air circulation and light penetration within the canopy.",
+      "Remove and destroy infected shoots and suckers during the growing season.",
+      "Avoid excessive nitrogen fertilization, which promotes susceptible new growth.",
+      "Select more resistant cherry varieties if available."
+    ],
+    "biological": [
+      "Application of bio-fungicides containing *Bacillus subtilis* or potassium bicarbonate.",
+      "Neem oil or horticultural oils can be effective but may cause phytotoxicity in hot weather."
+    ],
+    "chemical": [
+      "Application of protective or systemic fungicides (e.g., sulfur, strobilurins, DMIs) beginning at petal fall or first sign of disease.",
+      "Rotate fungicide classes (FRAC groups) to prevent the development of resistance."
+    ],
+    "notes": "Management is most effective when initiated preventatively based on weather conditions, disease models, and orchard history."
+  }
+}

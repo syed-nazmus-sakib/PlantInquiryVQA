@@ -1,0 +1,148 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "arabian.unknown.jasmine_pest_damage",
+  "aliases": [
+    "Jasmine insect damage",
+    "Jasmine mite damage",
+    "Arabian jasmine pest feeding"
+  ],
+  "crop": {
+    "common_name": "Arabian jasmine",
+    "scientific_name": "Jasminum sambac",
+    "family": "Oleaceae"
+  },
+  "condition": {
+    "common_name": "Jasmine Pest Damage",
+    "scientific_name": "",
+    "alt_names": [
+      "Insect feeding injury",
+      "Mite damage"
+    ],
+    "pathogen": {
+      "type": "pest",
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "",
+        "class": "",
+        "order": "",
+        "family": "",
+        "genus": "",
+        "species": ""
+      }
+    }
+  },
+  "issue_type": "unknown",
+  "transmission": {
+    "vectors": [
+      "Infected plant material",
+      "Human activity (tools, clothing)"
+    ],
+    "dispersal": [
+      "Flying (for adult winged insects)",
+      "Crawling",
+      "Wind dispersal (e.g., spider mites)"
+    ],
+    "overwintering": [
+      "In plant debris",
+      "In soil near the host plant",
+      "On the host plant as eggs, pupae, or adults"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "Warm, dry, and dusty conditions (favors spider mites)",
+      "High humidity (favors some caterpillars and scale)",
+      "Presence of tender new growth",
+      "Lack of natural predators",
+      "Sheltered locations with poor air circulation"
+    ],
+    "temp_c_day": [
+      24,
+      32
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "1-10% of leaf area shows damage (e.g., stippling, minor chewing). Pests are difficult to find.",
+    "moderate": "11-40% of leaf area is affected. Visible webbing on some leaves; leaf curling or distortion is apparent. Pests are visible upon inspection.",
+    "severe": ">40% of leaf area is damaged. Extensive webbing covers stems and leaves; significant defoliation or leaf browning; visible pest colonies.",
+    "notes": "Severity is estimated as the percentage of total leaf surface area showing signs of pest activity, including stippling, chewing, mining, webbing, or heavy sooty mold coverage."
+  },
+  "symptoms": {
+    "leaves": [
+      "Fine, pale yellow or white stippling on the upper leaf surface.",
+      "Leaves appear bronzed, silvery, or bleached from widespread stippling.",
+      "Irregular holes, notches, or skeletonized areas from chewing.",
+      "Winding, discolored trails (mines) are visible within the leaf tissue.",
+      "Leaves are curled, cupped, distorted, or stunted.",
+      "A sticky, clear substance (honeydew) coats leaf surfaces.",
+      "Black, soot-like fungal growth (sooty mold) develops on honeydew."
+    ],
+    "stems": [
+      "Fine, silk-like webbing may cover stems and new growth.",
+      "Visible scale insects or mealybugs are clustered on stems, particularly at nodes."
+    ],
+    "fruit": [],
+    "roots": [],
+    "whole_plant": [
+      "Stunted growth or reduced plant vigor.",
+      "Premature leaf drop (defoliation) in heavy infestations."
+    ],
+    "signs_microscopic_or_visible": [
+      "Tiny moving specks (mites) on the underside of leaves, sometimes with fine webbing.",
+      "Small, winged insects (e.g., whiteflies, thrips) that fly up when the plant is disturbed.",
+      "Visible caterpillars, aphids, or scale insects on leaves and stems.",
+      "Presence of frass (insect excrement), eggs, or cast skins."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "Jasmine Leaf Spot",
+      "condition_id": "arabian.fungal.jasmine_leaf_spot",
+      "key_differences": [
+        "Leaf spots are discrete, often circular lesions with defined, sometimes darker, borders, whereas pest damage is typically stippling, irregular chewing, or trails.",
+        "Pest damage may include physical signs like webbing, frass, or the pests themselves, which are absent in fungal leaf spots.",
+        "Pest stippling is a pattern of tiny discolored dots; leaf spots are solid necrotic lesions that can have concentric rings."
+      ]
+    },
+    {
+      "condition_name": "Jasmine Chlorosis",
+      "condition_id": "arabian.abiotic.jasmine_chlorosis",
+      "key_differences": [
+        "Chlorosis is a more uniform yellowing, often in an interveinal pattern, while pest damage appears as discrete stipples, holes, or mines.",
+        "Chlorosis often affects entire leaves or follows a pattern (e.g., only new growth), whereas pest damage is distributed randomly where the pest has fed.",
+        "No physical signs like webbing, holes, or insects are present with chlorosis."
+      ]
+    },
+    {
+      "condition_name": "Jasmine Leaf Blight",
+      "condition_id": "arabian.fungal.jasmine_leaf_blight",
+      "key_differences": [
+        "Blight appears as large, rapidly expanding necrotic blotches, often starting at leaf tips or margins, unlike the smaller, more distinct damage from most pests.",
+        "Blighted areas often appear water-soaked before turning brown or black, a feature not seen with pest feeding.",
+        "Blight can cause rapid dieback of entire shoots, which is a more severe outcome than typical initial pest infestations."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Regularly inspect plants, especially the undersides of leaves, for early detection.",
+      "Prune and destroy heavily infested plant parts.",
+      "Use a strong jet of water to dislodge pests like aphids and spider mites.",
+      "Encourage natural predators by planting diverse species and avoiding broad-spectrum insecticides."
+    ],
+    "biological": [
+      "Introduce or conserve predatory insects such as ladybugs, lacewings, and predatory mites.",
+      "Use microbial insecticides like Bacillus thuringiensis (Bt) for caterpillar control."
+    ],
+    "chemical": [
+      "Apply insecticidal soaps or horticultural oils, ensuring thorough coverage of leaf undersides.",
+      "Use neem oil as a repellent and growth regulator for many pests.",
+      "For severe infestations, use targeted systemic or contact insecticides based on proper pest identification."
+    ],
+    "notes": "Always identify the specific pest before applying chemical controls to ensure effectiveness and minimize harm to beneficial insects."
+  }
+}

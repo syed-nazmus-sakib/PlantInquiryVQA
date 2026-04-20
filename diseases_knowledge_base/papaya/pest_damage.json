@@ -1,0 +1,145 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "papaya.unknown.pest_damage",
+  "aliases": [
+    "insect damage",
+    "arthropod feeding injury",
+    "chewing damage",
+    "sucking damage"
+  ],
+  "crop": {
+    "common_name": "Papaya",
+    "scientific_name": "Carica papaya",
+    "family": "Caricaceae"
+  },
+  "condition": {
+    "common_name": "Pest Damage",
+    "scientific_name": null,
+    "alt_names": [
+      "Insect damage",
+      "Arthropod injury"
+    ],
+    "pathogen": {
+      "type": "insect",
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Arthropoda",
+        "class": "",
+        "order": "",
+        "family": "",
+        "genus": "",
+        "species": ""
+      }
+    }
+  },
+  "issue_type": "unknown",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [
+      "Active flight/crawling of pest",
+      "Wind",
+      "Contaminated equipment",
+      "Movement of infested plant material"
+    ],
+    "overwintering": [
+      "In crop debris",
+      "In soil",
+      "On alternate weed hosts",
+      "As eggs on plant surfaces"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "Warm, humid conditions",
+      "Monoculture planting",
+      "Presence of alternate host plants",
+      "Lack of natural enemies",
+      "Drought stress can make plants more susceptible to sucking pests"
+    ],
+    "temp_c_day": [
+      25,
+      32
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      60,
+      85
+    ],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "1-10% of leaf or fruit surface area shows feeding damage (e.g., holes, stippling, discoloration).",
+    "moderate": "11-40% of leaf or fruit surface area is affected; some leaf curling or distortion may be present.",
+    "severe": ">40% of leaf or fruit surface area is damaged; significant defoliation, fruit drop, or plant stunting is visible.",
+    "notes": "Severity is assessed based on the total visible area affected by feeding, stippling, webbing, or sooty mold associated with pests. For discrete damage like holes, estimate the equivalent area lost."
+  },
+  "symptoms": {
+    "leaves": [
+      "Irregularly shaped holes or chewed margins (skeletonization)",
+      "Fine, pale stippling or pinprick-like spots on the upper surface",
+      "Yellowing (chlorosis) or bronzing of leaf tissue",
+      "Distortion, curling, or puckering of new growth",
+      "Presence of fine, silk-like webbing, especially on the underside",
+      "Sticky 'honeydew' residue on leaf surfaces, which may be shiny"
+    ],
+    "stems": [
+      "Boring holes in petioles or young stems, sometimes with frass (sawdust-like excrement)",
+      "Galls or swollen areas",
+      "Presence of white, waxy, or cottony masses in leaf axils"
+    ],
+    "fruit": [
+      "Superficial scarring, scabs, or blemishes on the skin",
+      "Sunken, discolored spots, sometimes with oozing latex",
+      "Holes or tunnels leading into the fruit pulp"
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Stunted growth or lack of vigor",
+      "Presence of sooty mold, a black fungus growing on honeydew"
+    ],
+    "signs_microscopic_or_visible": [
+      "Visible insects, larvae, or eggs on plant surfaces",
+      "White, waxy, or cottony masses indicating mealybugs or scale",
+      "Tiny moving specks (mites) on the underside of leaves"
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "Spider Mites",
+      "condition_id": "papaya.pest.spider_mites",
+      "key_differences": [
+        "General pest damage can include large, chewed holes, which are absent with spider mites.",
+        "Spider mite damage is specifically fine, uniform stippling and bronzing, often accompanied by visible webbing.",
+        "The causal agents for spider mite damage are tiny, moving arachnids, unlike larger insects (e.g., caterpillars) that cause chewing damage."
+      ]
+    },
+    {
+      "condition_name": "Mealybug",
+      "condition_id": "papaya.pest.mealybug",
+      "key_differences": [
+        "Mealybug infestations are defined by the presence of distinct white, cottony, or waxy masses, a sign not present in general chewing damage.",
+        "Mealybug damage is from sap-sucking, causing yellowing and stunting, not holes or skeletonization.",
+        "Heavy sooty mold on honeydew is a strong indicator of mealybugs (or other sucking pests), but not chewing pests."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Remove and destroy infested plant parts and crop debris.",
+      "Maintain good weed control to eliminate alternate hosts.",
+      "Use reflective mulches to deter flying insects like aphids and thrips.",
+      "Ensure proper plant nutrition and irrigation to improve plant vigor and tolerance."
+    ],
+    "biological": [
+      "Encourage natural predators such as ladybugs, lacewings, and parasitic wasps by planting diverse flora.",
+      "Introduce commercially available predatory mites or insects where appropriate."
+    ],
+    "chemical": [
+      "Apply horticultural oils or insecticidal soaps for soft-bodied pests, ensuring thorough coverage.",
+      "Use targeted insecticides (e.g., Bt for caterpillars) based on positive pest identification.",
+      "Avoid broad-spectrum pesticides that harm beneficial insects and pollinators."
+    ],
+    "notes": "The specific management strategy depends heavily on identifying the exact pest causing the damage. Integrated Pest Management (IPM) is highly recommended for sustainable control."
+  }
+}

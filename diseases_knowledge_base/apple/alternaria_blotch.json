@@ -1,0 +1,113 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "apple.disease_fungal.alternaria_blotch",
+  "aliases": [
+    "Alternaria leaf blotch",
+    "Alternaria mali leaf spot"
+  ],
+  "crop": {
+    "common_name": "apple",
+    "scientific_name": "Malus domestica",
+    "family": "Rosaceae"
+  },
+  "condition": {
+    "common_name": "Alternaria Blotch",
+    "scientific_name": "Alternaria mali",
+    "alt_names": [
+      "Alternaria leaf blotch"
+    ],
+    "pathogen": {
+      "type": "disease_fungal",
+      "taxonomy": {
+        "kingdom": "Fungi",
+        "phylum": "Ascomycota",
+        "class": "Dothideomycetes",
+        "order": "Pleosporales",
+        "family": "Pleosporaceae",
+        "genus": "Alternaria",
+        "species": "mali"
+      }
+    }
+  },
+  "issue_type": "disease_fungal",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [
+      "wind-borne conidia",
+      "rain splash"
+    ],
+    "overwintering": [
+      "infected fallen leaves",
+      "lesions on twigs",
+      "dormant buds"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "High humidity and frequent rainfall",
+      "Warm temperatures, typically in mid-to-late summer",
+      "Poor air circulation within the tree canopy",
+      "Presence of susceptible cultivars (e.g., 'Delicious', 'Indo', 'Jonathan')"
+    ],
+    "temp_c_day": [
+      25,
+      30
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      85,
+      100
+    ],
+    "leaf_wetness_hours_threshold": 8
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "1-10% of leaf area affected. A few scattered, distinct lesions on some leaves. No defoliation.",
+    "moderate": "11-40% of leaf area affected. Lesions are numerous, may be starting to coalesce. Some minor yellowing and premature leaf drop may be visible.",
+    "severe": ">40% of leaf area affected. Widespread, coalesced lesions forming large necrotic blotches. Significant defoliation is evident, leading to a thin canopy.",
+    "notes": "Severity is assessed on the most affected leaves and averaged across the plant. The degree of premature defoliation is a key indicator for moderate to severe ratings."
+  },
+  "symptoms": {
+    "leaves": [
+      "Initial symptoms are small (1-5 mm), circular, tan to light brown spots.",
+      "Lesions develop a distinct, dark purple or brownish border as they mature.",
+      "The center of older lesions may turn gray or brown and become necrotic.",
+      "In some cases, the necrotic center may fall out, creating a 'shot-hole' appearance.",
+      "Lesions can coalesce to form large, irregular blotches.",
+      "Affected leaves often turn yellow (chlorotic) around the lesions before dropping.",
+      "Causes premature defoliation, especially in susceptible cultivars during wet seasons."
+    ],
+    "stems": [
+      "Symptoms on stems are uncommon."
+    ],
+    "fruit": [
+      "Small, dark, slightly sunken lesions may appear on the fruit surface.",
+      "Fruit spots are more common near the calyx (blossom end).",
+      "Infection can lead to core rot, which may not be visible externally."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "In severe cases, significant defoliation can lead to a sparse canopy and reduced tree vigor."
+    ],
+    "signs_microscopic_or_visible": [
+      "Under a hand lens and high humidity, a sparse, velvety, olive-green to black fungal growth (conidia) may be visible in the center of lesions."
+    ]
+  },
+  "lookalikes": [],
+  "management": {
+    "cultural": [
+      "Prune trees to improve air circulation and promote rapid drying of leaves.",
+      "Collect and destroy fallen leaves in the autumn to reduce the primary inoculum source.",
+      "Maintain balanced tree nutrition to avoid excessive succulent growth.",
+      "Choose resistant or less susceptible cultivars where possible."
+    ],
+    "biological": [
+      "Some bio-fungicides containing *Bacillus subtilis* may provide partial suppression when applied preventatively."
+    ],
+    "chemical": [
+      "Apply preventative fungicides (e.g., strobilurins, SDHIs, mancozeb, captan) during periods of high risk (warm, wet weather).",
+      "Follow local extension service recommendations for fungicide timing and rotation to manage resistance."
+    ],
+    "notes": "Management is most effective when integrating cultural practices to reduce inoculum with timely fungicide applications based on weather-based disease models."
+  }
+}

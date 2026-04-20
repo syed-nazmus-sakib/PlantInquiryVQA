@@ -1,0 +1,144 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "lemon.disease_bacterial.bacterial_spot",
+  "aliases": [
+    "Citrus Bacterial Spot",
+    "CBS"
+  ],
+  "crop": {
+    "common_name": "lemon",
+    "scientific_name": "Citrus limon",
+    "family": "Rutaceae"
+  },
+  "condition": {
+    "common_name": "bacterial spot",
+    "scientific_name": "Xanthomonas alfalfae subsp. citrumelonis",
+    "alt_names": [],
+    "pathogen": {
+      "type": "disease_bacterial",
+      "taxonomy": {
+        "kingdom": "Bacteria",
+        "phylum": "Pseudomonadota",
+        "class": "Gammaproteobacteria",
+        "order": "Lysobacterales",
+        "family": "Lysobacteraceae",
+        "genus": "Xanthomonas",
+        "species": "Xanthomonas alfalfae subsp. citrumelonis"
+      }
+    }
+  },
+  "issue_type": "disease_bacterial",
+  "transmission": {
+    "vectors": [
+      "Wind-driven rain",
+      "Insects (e.g., citrus leafminers creating wounds)",
+      "Contaminated pruning tools"
+    ],
+    "dispersal": [
+      "Water splash from rain or irrigation",
+      "Aerosols in windy conditions",
+      "Human activity (handling, equipment)"
+    ],
+    "overwintering": [
+      "In lesions on leaves, stems, and fruit",
+      "On plant debris on the ground"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "Prolonged periods of leaf wetness",
+      "High humidity and frequent rainfall",
+      "Warm temperatures",
+      "Presence of wounds from wind, hail, or pests"
+    ],
+    "temp_c_day": [
+      20,
+      32
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      80,
+      100
+    ],
+    "leaf_wetness_hours_threshold": 4
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "< 5% of the leaf surface is affected by lesions. No significant yellowing or leaf drop.",
+    "moderate": "5-25% of the leaf surface is affected. Some lesions may be coalescing, and minor leaf yellowing (chlorosis) is present.",
+    "severe": "> 25% of the leaf surface is affected, with large necrotic areas, significant yellowing, and/or premature leaf drop (defoliation).",
+    "notes": "Severity is assessed on representative, fully symptomatic leaves. For fruit, severity can be assessed by lesion count (e.g., mild: 1-5, moderate: 6-15, severe: >15)."
+  },
+  "symptoms": {
+    "leaves": [
+      "Initial symptoms are small, circular, water-soaked spots, often on the leaf underside.",
+      "Lesions enlarge to 1-5 mm, becoming dark brown to black.",
+      "A distinct, bright yellow halo typically surrounds the dark, necrotic center.",
+      "Spots may have a greasy or oily appearance, especially when young.",
+      "Lesions feel flat or slightly sunken, not rough or raised like canker.",
+      "In severe cases, spots merge, forming large, irregular blighted areas.",
+      "Infected leaves may yellow and drop prematurely."
+    ],
+    "stems": [
+      "Small, dark, slightly elongated lesions may form on young, green twigs, but are less common than leaf symptoms."
+    ],
+    "fruit": [
+      "Small, dark brown to black, circular pits or spots develop on the rind.",
+      "Fruit lesions are typically sunken and do not become corky or raised.",
+      "A yellow halo may be visible around spots on immature, green fruit.",
+      "Lesions are generally superficial and do not cause fruit rot."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "General thinning of the canopy due to defoliation in severe, prolonged infections."
+    ],
+    "signs_microscopic_or_visible": [
+      "Under conditions of very high humidity, bacterial ooze may be visible from the center of lesions, but this is difficult to observe in the field."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "bacterial canker",
+      "condition_id": "lemon.disease_bacterial.bacterial_canker",
+      "key_differences": [
+        "Bacterial spot lesions are typically flat or sunken and dark, while canker lesions are distinctly raised, corky, and crater-like (volcanic).",
+        "Canker lesions often have a water-soaked margin, whereas bacterial spot lesions are known for a more defined, bright yellow halo.",
+        "Canker lesions tend to be larger and more erumpent (bursting through the epidermis) than bacterial spot lesions."
+      ]
+    },
+    {
+      "condition_name": "nutritional deficiency",
+      "condition_id": "lemon.abiotic.nutritional_deficiency",
+      "key_differences": [
+        "Deficiency symptoms create patterns related to leaf veins (e.g., interveinal chlorosis, 'inverted V' shapes), while bacterial spots are randomly scattered, discrete lesions.",
+        "Bacterial spots are necrotic (dead tissue), whereas deficiency symptoms are typically chlorotic (yellowing) without distinct, dark spots.",
+        "Deficiency patterns often appear symmetrically on both halves of the leaf blade."
+      ]
+    },
+    {
+      "condition_name": "citrus_leafminer",
+      "condition_id": "lemon.pest_insect.citrus_leafminer",
+      "key_differences": [
+        "Leafminer damage consists of silvery, serpentine (winding) trails or 'mines' inside the leaf.",
+        "Bacterial spot manifests as circular, necrotic spots, not linear trails.",
+        "Leaves damaged by leafminers are often severely twisted, curled, and distorted, which is not a primary symptom of bacterial spot."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Prune trees to increase air circulation and promote faster drying of foliage.",
+      "Avoid overhead irrigation; use drip or micro-sprinklers to keep leaves dry.",
+      "Sanitize pruning equipment with a disinfectant between trees.",
+      "Remove and destroy fallen leaves and pruned branches to reduce inoculum."
+    ],
+    "biological": [
+      "Some commercial products containing *Bacillus subtilis* or other beneficial microbes may help suppress the pathogen when applied preventatively."
+    ],
+    "chemical": [
+      "Apply copper-based bactericides preventatively, especially before rainy seasons, to protect new growth.",
+      "Repeat applications may be necessary according to label instructions during periods of high disease pressure."
+    ],
+    "notes": "Management is focused on prevention. Once infection occurs, chemical sprays primarily serve to protect uninfected tissue, not to cure existing lesions."
+  }
+}

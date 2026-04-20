@@ -1,0 +1,137 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "litchi.unknown.fungal_stripe_damage",
+  "aliases": [
+    "Litchi leaf stripe",
+    "Fungal leaf stripe"
+  ],
+  "crop": {
+    "common_name": "Litchi",
+    "scientific_name": "Litchi chinensis",
+    "family": "Sapindaceae"
+  },
+  "condition": {
+    "common_name": "Fungal stripe damage",
+    "scientific_name": "",
+    "alt_names": [
+      "Leaf stripe disease"
+    ],
+    "pathogen": {
+      "type": "disease_fungal",
+      "taxonomy": {
+        "kingdom": "Fungi",
+        "phylum": "",
+        "class": "",
+        "order": "",
+        "family": "",
+        "genus": "",
+        "species": ""
+      }
+    }
+  },
+  "issue_type": "unknown",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [
+      "Wind",
+      "Rain splash",
+      "Contaminated pruning tools"
+    ],
+    "overwintering": [
+      "Infected leaf debris on the ground",
+      "On persistent infected leaves on the tree"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "High humidity (>85%)",
+      "Prolonged periods of leaf wetness",
+      "Poor air circulation within the canopy",
+      "Dense plant spacing"
+    ],
+    "temp_c_day": [
+      20,
+      30
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      85,
+      100
+    ],
+    "leaf_wetness_hours_threshold": 6
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "1-10% of the total leaf area is affected by stripes.",
+    "moderate": "11-40% of the leaf area is affected, with some stripes beginning to merge.",
+    "severe": ">40% of the leaf area is affected, stripes have coalesced into large necrotic patches, and premature leaf drop may be occurring.",
+    "notes": "Severity is assessed visually on the most affected leaves, estimating the proportion of the leaf's surface area covered by the characteristic stripes and any associated necrosis or chlorosis."
+  },
+  "symptoms": {
+    "leaves": [
+      "Elongated, linear lesions or stripes that run parallel to the secondary leaf veins.",
+      "Stripes are initially light brown or tan and darken to dark brown or black as they mature.",
+      "Lesions often have a slightly sunken or depressed appearance.",
+      "A narrow, yellowish halo may be visible around the edges of newer stripes.",
+      "Multiple discrete stripes can occur on a single leaflet.",
+      "In advanced stages, stripes may merge (coalesce) to form large, irregular necrotic areas.",
+      "The tissue within the stripes becomes dry, brittle, and papery.",
+      "Severe infections can lead to premature shedding of affected leaves."
+    ],
+    "stems": [],
+    "fruit": [],
+    "roots": [],
+    "whole_plant": [
+      "Reduced plant vigor and photosynthetic capacity in cases of severe defoliation."
+    ],
+    "signs_microscopic_or_visible": [
+      "Under magnification and high humidity, tiny black dots (fungal fruiting bodies like pycnidia or acervuli) may be visible within the necrotic stripes."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "Leaf Blight",
+      "condition_id": "litchi.fungal.leaf_blight",
+      "key_differences": [
+        "Shape: Leaf blight causes large, irregular blotches, not long, narrow stripes.",
+        "Location: Blight often starts at the leaf tip or margins and spreads inward, whereas stripes can appear anywhere on the leaf blade.",
+        "Pattern: Blight lesions may exhibit concentric rings (a target-like appearance), which is absent in fungal stripe damage."
+      ]
+    },
+    {
+      "condition_name": "Pest Damage",
+      "condition_id": "litchi.pest.pest_damage",
+      "key_differences": [
+        "Leaf miner damage appears as winding, serpentine tunnels within the leaf, not straight stripes.",
+        "Damage from chewing insects results in holes or ragged leaf edges, not necrotic stripes.",
+        "Sucking insects cause stippling (tiny discolored dots) or chlorotic spots, which are distinct from the elongated lesions of stripe damage."
+      ]
+    },
+    {
+      "condition_name": "Senescence or Dry",
+      "condition_id": "litchi.abiotic.senescence_or_dry",
+      "key_differences": [
+        "Pattern: Drying or senescence often starts uniformly at the tip or edges (marginal necrosis) and progresses inward, lacking the distinct, parallel-vein stripe pattern.",
+        "Color: Senescence is typically a uniform yellowing (chlorosis) or browning, without the distinct dark brown/black color of the fungal stripes.",
+        "Distribution: Abiotic stress often affects older, lower leaves more symmetrically, while fungal stripes can appear more randomly on leaves of various ages."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Prune trees to improve air circulation and sunlight penetration into the canopy.",
+      "Avoid overhead irrigation; use drip or micro-sprinkler irrigation to keep foliage dry.",
+      "Rake up and destroy fallen leaves and debris to reduce fungal inoculum.",
+      "Maintain balanced plant nutrition to improve overall tree health and resilience."
+    ],
+    "biological": [
+      "Application of bio-fungicides containing *Bacillus subtilis* or *Trichoderma* spp. may provide some preventative benefit."
+    ],
+    "chemical": [
+      "Apply protective fungicides (e.g., copper-based, mancozeb) prior to or at the first sign of disease, especially during warm, wet weather.",
+      "For systemic action, fungicides from the strobilurin or triazole groups can be effective, but rotation is crucial to prevent resistance.",
+      "Always follow product label instructions for application rates, timing, and pre-harvest intervals."
+    ],
+    "notes": "An integrated approach combining cultural practices with chemical control when necessary is the most effective strategy. Focus on prevention."
+  }
+}

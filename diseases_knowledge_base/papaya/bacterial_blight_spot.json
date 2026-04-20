@@ -1,0 +1,140 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "papaya.disease_bacterial.bacterial_blight_spot",
+  "aliases": [
+    "bacterial leaf spot",
+    "bacterial canker",
+    "bacterial black spot"
+  ],
+  "crop": {
+    "common_name": "papaya",
+    "scientific_name": "Carica papaya",
+    "family": "Caricaceae"
+  },
+  "condition": {
+    "common_name": "bacterial blight spot",
+    "scientific_name": "Erwinia papayae",
+    "alt_names": [
+      "bacterial leaf and fruit spot",
+      "bacterial canker of papaya"
+    ],
+    "pathogen": {
+      "type": "disease_bacterial",
+      "taxonomy": {
+        "kingdom": "Bacteria",
+        "phylum": "Proteobacteria",
+        "class": "Gammaproteobacteria",
+        "order": "Enterobacterales",
+        "family": "Erwiniaceae",
+        "genus": "Erwinia",
+        "species": "E. papayae"
+      }
+    }
+  },
+  "issue_type": "disease_bacterial",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [
+      "rain splash",
+      "wind-driven rain",
+      "contaminated pruning tools",
+      "infected seeds",
+      "irrigation water"
+    ],
+    "overwintering": [
+      "infected plant debris on the ground",
+      "active cankers on stems and petioles",
+      "infected seeds"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "high humidity",
+      "prolonged leaf wetness",
+      "warm temperatures",
+      "wounding from hail or mechanical damage",
+      "poor air circulation"
+    ],
+    "temp_c_day": [
+      25,
+      32
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      85,
+      100
+    ],
+    "leaf_wetness_hours_threshold": 10
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "< 5% of leaf or fruit surface area affected with small, isolated lesions.",
+    "moderate": "5-25% of surface area affected; some lesions may be coalescing.",
+    "severe": "> 25% of surface area affected; extensive necrosis, blight, stem cankers, or fruit rot is present.",
+    "notes": "Severity is assessed on the most affected plant part visible. The presence of large stem cankers or significant bacterial ooze may automatically classify the condition as severe."
+  },
+  "symptoms": {
+    "leaves": [
+      "Small, angular, water-soaked spots appear, often bounded by leaf veins.",
+      "Lesions enlarge and turn dark brown to black with a characteristic greasy appearance.",
+      "A distinct yellow halo frequently surrounds the dark lesions.",
+      "In severe cases, lesions merge, causing large necrotic areas, leaf shredding, and defoliation (blight).",
+      "Petioles can develop elongated, dark, water-soaked streaks or cankers."
+    ],
+    "stems": [
+      "Water-soaked, dark cankers can form on the main stem, particularly at leaf and fruit nodes.",
+      "Cankers may exude a gummy, whitish bacterial ooze in humid conditions."
+    ],
+    "fruit": [
+      "Small, circular, water-soaked spots appear on young, green fruit.",
+      "Fruit spots enlarge, become sunken, and turn dark brown to black.",
+      "A sticky, clear to whitish bacterial ooze may be present on fruit lesions.",
+      "Infected fruit often rots internally and drops from the plant prematurely."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Stunted growth and significant defoliation in severe, systemic infections.",
+      "Dieback of the growing point ('top rot') can occur."
+    ],
+    "signs_microscopic_or_visible": [
+      "Bacterial ooze (a sticky, whitish or amber-colored exudate) emerging from lesions on fruit, stems, or petioles, especially in high humidity."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "anthracnose",
+      "condition_id": "papaya.disease_fungal.anthracnose",
+      "key_differences": [
+        "Anthracnose lesions on fruit are circular, sunken, and often feature pinkish-orange spore masses (acervuli) in the center, unlike the whitish bacterial ooze of blight.",
+        "Bacterial blight spots on leaves are distinctly angular and vein-limited with a greasy look, whereas anthracnose spots are more circular or irregular.",
+        "Bacterial blight produces a characteristic foul odor in rotting tissues, which is absent in anthracnose."
+      ]
+    },
+    {
+      "condition_name": "ringspot_virus",
+      "condition_id": "papaya.disease_viral.ringspot_virus",
+      "key_differences": [
+        "Ringspot virus causes systemic mosaic, mottling, and yellowing patterns, not discrete, necrotic, water-soaked spots.",
+        "PRSV leads to severe leaf distortion and a 'shoestring' appearance in new growth, which are not symptoms of bacterial blight.",
+        "Fruit symptoms of PRSV are distinctive concentric rings or C-shaped markings, completely different from the sunken, dark, rotting spots of bacterial blight."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Use certified disease-free seeds and planting material.",
+      "Remove and destroy infected plant debris, including fallen leaves and fruit.",
+      "Improve air circulation through proper plant spacing and selective pruning.",
+      "Avoid overhead irrigation to minimize leaf wetness duration.",
+      "Disinfect pruning tools with a 10% bleach solution or alcohol between plants."
+    ],
+    "biological": [
+      "Application of microbial products containing *Bacillus subtilis* strains may provide some preventative suppression."
+    ],
+    "chemical": [
+      "Preventative applications of copper-based bactericides (e.g., copper hydroxide, copper oxychloride) can be effective if applied before rainy seasons.",
+      "Always check local regulations and extension recommendations for registered products and application timing."
+    ],
+    "notes": "Chemical treatments are primarily preventative and are often ineffective once the disease is well-established. Integrated management focusing on cultural practices is key."
+  }
+}

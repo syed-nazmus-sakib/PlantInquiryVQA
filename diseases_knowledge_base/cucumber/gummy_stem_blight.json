@@ -1,0 +1,150 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "cucumber.disease_fungal.gummy_stem_blight",
+  "aliases": [
+    "black rot",
+    "Didymella blight"
+  ],
+  "crop": {
+    "common_name": "cucumber",
+    "scientific_name": "Cucumis sativus",
+    "family": "Cucurbitaceae"
+  },
+  "condition": {
+    "common_name": "gummy stem blight",
+    "scientific_name": "Stagonosporopsis cucurbitacearum",
+    "alt_names": [
+      "Didymella bryoniae"
+    ],
+    "pathogen": {
+      "type": "disease_fungal",
+      "taxonomy": {
+        "kingdom": "Fungi",
+        "phylum": "Ascomycota",
+        "class": "Dothideomycetes",
+        "order": "Pleosporales",
+        "family": "Didymellaceae",
+        "genus": "Stagonosporopsis",
+        "species": "cucurbitacearum"
+      }
+    }
+  },
+  "issue_type": "disease_fungal",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [
+      "water_splash",
+      "wind_driven_rain",
+      "contaminated_tools",
+      "infected_seed"
+    ],
+    "overwintering": [
+      "infected_crop_debris",
+      "soil",
+      "greenhouse_structures"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "high_humidity",
+      "prolonged_leaf_wetness",
+      "cool_to_moderate_temperatures",
+      "plant_wounds_from_pruning_or_harvesting"
+    ],
+    "temp_c_day": [
+      20,
+      25
+    ],
+    "temp_c_night": [
+      16,
+      20
+    ],
+    "relative_humidity_pct": [
+      85,
+      100
+    ],
+    "leaf_wetness_hours_threshold": 4
+  },
+  "severity_rubric": {
+    "unit": "qualitative",
+    "mild": "One or two small, water-soaked stem cankers or leaf lesions; no significant wilting or vine dieback.",
+    "moderate": "Multiple stem cankers, some exuding gummy substance; significant foliar blighting (<30% of canopy); some fruit rot observed.",
+    "severe": "Extensive stem girdling leading to vine collapse or wilting above the canker; >30% of canopy blighted; widespread fruit rot.",
+    "notes": "Severity is assessed based on the most advanced symptom present, with stem girdling and vine collapse being the most critical indicators for high severity."
+  },
+  "symptoms": {
+    "leaves": [
+      "Circular, water-soaked spots, often starting at the leaf margin.",
+      "Lesions enlarge, turn tan to dark brown, and may develop a 'shot-hole' appearance as the center dries and falls out.",
+      "A yellow halo may surround older leaf lesions."
+    ],
+    "stems": [
+      "Water-soaked, greasy-looking cankers, frequently at nodes or wound sites.",
+      "Cankers become pale brown to gray, dry out, and may girdle the stem.",
+      "Amber or reddish-brown gummy ooze exudes from stem cankers, especially in high humidity.",
+      "Stem cankers may contain tiny black specks (pycnidia or perithecia)."
+    ],
+    "fruit": [
+      "Circular, water-soaked spots that enlarge and become sunken, developing into a black rot.",
+      "Fruit rot often begins at the blossom or stem end.",
+      "Tiny black specks (pycnidia) are often visible scattered across the rotted fruit surface.",
+      "Infected fruit may also exude a gummy substance."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Wilting or collapse of the entire vine above a girdling stem canker.",
+      "Damping-off of seedlings, characterized by water-soaking and constriction at the soil line."
+    ],
+    "signs_microscopic_or_visible": [
+      "Presence of small, black, flask-shaped fruiting bodies (pycnidia and/or perithecia) embedded in lesion tissue on stems, leaves, or fruit.",
+      "Viscous, gummy, amber-colored ooze from stem or fruit lesions."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "anthracnose",
+      "condition_id": "cucumber.disease_fungal.anthracnose",
+      "key_differences": [
+        "Anthracnose leaf spots are darker, almost black, and more sharply defined than the tan-brown lesions of GSB.",
+        "Anthracnose fruit lesions are distinct, black, sunken craters, often with a pinkish spore mass in the center under moist conditions, unlike the more general black rot of GSB.",
+        "Prominent gummy ooze from stem cankers is a hallmark of GSB and is less common or absent in anthracnose."
+      ]
+    },
+    {
+      "condition_name": "bacterial wilt",
+      "condition_id": "cucumber.disease_bacterial.bacterial_wilt",
+      "key_differences": [
+        "Bacterial wilt causes rapid, irreversible wilting of the entire plant without the initial leaf spots or stem cankers seen in GSB.",
+        "A key sign of bacterial wilt is stringy bacterial slime when a cut stem is pulled apart or placed in water; this is absent in GSB.",
+        "GSB causes wilting only *above* a visible, girdling stem canker, whereas bacterial wilt affects the entire plant's vascular system."
+      ]
+    },
+    {
+      "condition_name": "belly rot",
+      "condition_id": "cucumber.disease_fungal.belly_rot",
+      "key_differences": [
+        "Belly rot lesions occur primarily where the fruit contacts moist soil, while GSB fruit rot can start anywhere, often at the blossom end.",
+        "Belly rot lesions are tan, sunken, and may appear cracked or 'scabby', not the black, pycnidia-dotted rot of GSB.",
+        "Belly rot does not affect stems or leaves, whereas GSB is a whole-plant disease."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Use certified disease-free seed and resistant cultivars where available.",
+      "Practice crop rotation with non-cucurbits for at least two years.",
+      "Improve air circulation via wider spacing and pruning to promote drying.",
+      "Avoid overhead irrigation to minimize leaf wetness duration.",
+      "Promptly remove and destroy infected plant material and post-harvest debris."
+    ],
+    "biological": [
+      "Application of bio-fungicides containing strains of *Bacillus subtilis* or *Trichoderma* may suppress the pathogen."
+    ],
+    "chemical": [
+      "Apply preventative fungicides, especially before rainy or humid periods.",
+      "Rotate fungicides with different FRAC codes to manage resistance.",
+      "Ensure thorough coverage, especially on stems and developing fruit."
+    ],
+    "notes": "An integrated pest management (IPM) strategy combining cultural, biological, and chemical controls is most effective for managing gummy stem blight."
+  }
+}

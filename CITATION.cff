@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you use PlantInquiryVQA, please cite the paper."
+title: "Thinking Like a Botanist: Challenging Multimodal Language Models with Intent-Driven Chain-of-Inquiry"
+authors:
+  - family-names: Sakib
+    given-names: Syed Nazmus
+    affiliation: "Department of Robotics and Mechatronics Engineering, University of Dhaka"
+  - family-names: Haque
+    given-names: Nafiul
+    affiliation: "Department of Robotics and Mechatronics Engineering, University of Dhaka"
+  - family-names: Amin
+    given-names: Shahrear Bin
+    affiliation: "Department of Robotics and Mechatronics Engineering, University of Dhaka"
+  - family-names: Abdullah
+    given-names: Hasan Muhammad
+    affiliation: "Department of Agronomy, Bangabandhu Sheikh Mujibur Rahman Agricultural University"
+  - family-names: Hasan
+    given-names: Md Mehedi
+    affiliation: "Department of Robotics and Mechatronics Engineering, University of Dhaka"
+  - family-names: Hossain
+    given-names: Mohammad Zabed
+    affiliation: "Department of Botany, University of Dhaka"
+  - family-names: Arman
+    given-names: Shifat E.
+    affiliation: "Department of Robotics and Mechatronics Engineering, University of Dhaka"
+year: 2026
+conference:
+  name: "Findings of the Association for Computational Linguistics: ACL 2026"
+keywords:
+  - "plant disease diagnosis"
+  - "visual question answering"
+  - "multi-turn VQA"
+  - "chain-of-inquiry"
+  - "multimodal benchmark"

@@ -1,0 +1,129 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "papaya.pest_mite.spider_mites",
+  "aliases": [
+    "Red spider mite on papaya",
+    "Two-spotted spider mite on papaya"
+  ],
+  "crop": {
+    "common_name": "Papaya",
+    "scientific_name": "Carica papaya",
+    "family": "Caricaceae"
+  },
+  "condition": {
+    "common_name": "Spider Mites",
+    "scientific_name": "Tetranychus spp.",
+    "alt_names": [
+      "Red spider mite",
+      "Two-spotted spider mite"
+    ],
+    "pathogen": {
+      "type": "Arachnid",
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Arthropoda",
+        "class": "Arachnida",
+        "order": "Trombidiformes",
+        "family": "Tetranychidae",
+        "genus": "Tetranychus",
+        "species": ""
+      }
+    }
+  },
+  "issue_type": "pest_mite",
+  "transmission": {
+    "vectors": [
+      "Wind",
+      "Humans (on clothing/equipment)",
+      "Contaminated plant material"
+    ],
+    "dispersal": [
+      "Mites crawl between adjacent leaves and plants.",
+      "Wind currents carry mites over longer distances.",
+      "Movement of infested nursery stock or equipment."
+    ],
+    "overwintering": [
+      "Adult female mites overwinter in plant debris, bark crevices, or on weed hosts in and around cultivation areas."
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "Hot, dry, and dusty conditions",
+      "Low relative humidity",
+      "Water-stressed plants",
+      "Overuse of broad-spectrum insecticides that kill natural predators"
+    ],
+    "temp_c_day": [
+      25,
+      37
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      20,
+      50
+    ],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "1-10% of leaf area affected. Light stippling is visible on upper surfaces. Webbing is absent or very sparse and difficult to see.",
+    "moderate": "11-40% of leaf area affected. Stippling is dense, causing leaves to appear pale or yellowish. Fine webbing is clearly visible on leaf undersides and between petioles.",
+    "severe": ">40% of leaf area affected. Leaves are bronzed, brown, or desiccated. Dense webbing covers leaves, stems, and may enclose entire leaf clusters. Premature leaf drop is common.",
+    "notes": "Assessment is based on the total foliar surface area showing symptoms (stippling, discoloration, webbing). This can be estimated on a representative sample of leaves from the plant."
+  },
+  "symptoms": {
+    "leaves": [
+      "Fine, pale yellow or white stippling (tiny dots) on the upper leaf surface from feeding.",
+      "Leaf undersides appear dusty or sandy due to the presence of mites, eggs, and shed skins.",
+      "As damage progresses, leaves turn yellow, bronze, grey, or brown.",
+      "Fine, silk-like webbing is visible, typically starting on the leaf underside and near the petiole.",
+      "Leaf margins may curl downwards or upwards.",
+      "In severe cases, leaves become brittle, dry up, and drop prematurely."
+    ],
+    "stems": [
+      "Webbing can extend from leaves to cover petioles and young stems in heavy infestations."
+    ],
+    "fruit": [
+      "Mite feeding on the fruit surface can cause scarring, russeting, or a bronze discoloration.",
+      "Webbing may cover parts of the fruit in severe outbreaks."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Reduced plant vigor and stunted growth.",
+      "Significant defoliation under high mite pressure."
+    ],
+    "signs_microscopic_or_visible": [
+      "Tiny, moving specks (mites), often reddish or yellowish, visible on leaf undersides (a hand lens helps).",
+      "Minute, spherical, translucent eggs, often found along the midrib or within webbing.",
+      "Fine silk webbing is a definitive sign of spider mites."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "Mealybug",
+      "condition_id": "papaya.pest_insect.mealybug",
+      "key_differences": [
+        "Mealybugs are larger, visible insects covered in a white, waxy, cotton-like material, while spider mites are tiny arachnids appearing as moving dots.",
+        "Spider mites produce fine silk webbing, whereas mealybugs create clumpy, cottony masses and do not produce webbing.",
+        "Mealybugs excrete sticky honeydew, which can lead to sooty mold growth, a sign not directly associated with spider mites."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Spray plants with a strong jet of water to physically dislodge mites and break up webbing.",
+      "Maintain adequate irrigation to prevent water stress, which makes plants more susceptible.",
+      "Control dust on and around plants, as dusty conditions favor mite outbreaks.",
+      "Prune and destroy heavily infested leaves or plant parts to reduce mite populations."
+    ],
+    "biological": [
+      "Conserve and encourage natural predators such as predatory mites (e.g., Phytoseiulus persimilis), lady beetles, lacewing larvae, and minute pirate bugs.",
+      "Avoid using broad-spectrum pesticides that harm beneficial insects."
+    ],
+    "chemical": [
+      "Apply horticultural oils or insecticidal soaps, ensuring thorough coverage of all plant surfaces, especially leaf undersides.",
+      "Use selective miticides (acaricides) for severe infestations, rotating chemical groups to manage resistance."
+    ],
+    "notes": "Regularly monitor the undersides of lower, older leaves for early signs of infestation, particularly during warm, dry periods."
+  }
+}

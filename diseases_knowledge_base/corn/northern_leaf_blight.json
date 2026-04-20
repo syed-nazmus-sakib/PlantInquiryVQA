@@ -1,0 +1,142 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "corn.disease_fungal.northern_leaf_blight",
+  "aliases": [
+    "NLB",
+    "Turcicum leaf blight"
+  ],
+  "crop": {
+    "common_name": "Corn",
+    "scientific_name": "Zea mays",
+    "family": "Poaceae"
+  },
+  "condition": {
+    "common_name": "Northern Leaf Blight",
+    "scientific_name": "Exserohilum turcicum",
+    "alt_names": [
+      "Turcicum leaf blight"
+    ],
+    "pathogen": {
+      "type": "disease_fungal",
+      "taxonomy": {
+        "kingdom": "Fungi",
+        "phylum": "Ascomycota",
+        "class": "Dothideomycetes",
+        "order": "Pleosporales",
+        "family": "Pleosporaceae",
+        "genus": "Exserohilum",
+        "species": "turcicum"
+      }
+    }
+  },
+  "issue_type": "disease_fungal",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [
+      "windborne conidia",
+      "rain splash"
+    ],
+    "overwintering": [
+      "infested corn residue on soil surface",
+      "infected seed (rare)"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "high humidity",
+      "prolonged leaf wetness",
+      "moderate temperatures",
+      "susceptible hybrid",
+      "no-till or reduced tillage systems"
+    ],
+    "temp_c_day": [
+      18,
+      27
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      80,
+      100
+    ],
+    "leaf_wetness_hours_threshold": 6
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "1-5% of leaf area affected; few, scattered lesions, primarily on lower leaves.",
+    "moderate": "6-25% of leaf area affected; numerous lesions on lower and middle leaves, some coalescence.",
+    "severe": ">25% of leaf area affected; extensive lesions on all leaves, significant coalescence, and leaf death.",
+    "notes": "Severity is assessed on the whole plant, considering the percentage of total photosynthetic area destroyed by lesions. Focus on leaves at and above the ear leaf for yield impact assessment."
+  },
+  "symptoms": {
+    "leaves": [
+      "Initial lesions are small, water-soaked, and elliptical.",
+      "Mature lesions are large, cigar-shaped or elliptical, and tan-to-gray in color.",
+      "Lesions range from 2.5 to 15 cm (1 to 6 inches) in length.",
+      "Lesions typically have distinct, darker borders.",
+      "Under humid conditions, lesions appear olive-green to black due to fungal sporulation.",
+      "Lesions often start on lower leaves and progress up the plant.",
+      "Multiple lesions can coalesce, blighting large areas of the leaf.",
+      "Lesions run parallel to the leaf veins but are not strictly limited by them."
+    ],
+    "stems": [
+      "Typically unaffected."
+    ],
+    "fruit": [
+      "Husks may develop lesions in severe cases, but kernels are not directly infected."
+    ],
+    "roots": [
+      "Unaffected."
+    ],
+    "whole_plant": [
+      "In severe infections, plants appear blighted or fired, resembling frost or drought damage."
+    ],
+    "signs_microscopic_or_visible": [
+      "Dark, olive-green to black sporulation (conidia and conidiophores) visible within lesions, especially with a hand lens or under humid conditions."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "Gray Leaf Spot",
+      "condition_id": "corn.disease_fungal.gray_leaf_spot",
+      "key_differences": [
+        "GLS lesions are narrow, rectangular, and strictly limited by leaf veins, unlike the wider, cigar-shaped NLB lesions.",
+        "GLS lesions are typically gray to tan, while mature NLB lesions are tan with darker borders.",
+        "GLS lesions are generally smaller (up to 5 cm) than mature NLB lesions (up to 15 cm)."
+      ]
+    },
+    {
+      "condition_name": "Bacterial Leaf Streak",
+      "condition_id": "corn.disease_bacterial.bacterial_leaf_streak",
+      "key_differences": [
+        "Bacterial streak lesions are very narrow, have wavy edges, and appear oily or water-soaked, especially when backlit.",
+        "Bacterial streak lesions are often yellow or tan and can produce ooze, unlike the dry, cigar-shaped NLB lesions.",
+        "NLB lesions are much wider and more elliptical than the fine streaks of bacterial leaf streak."
+      ]
+    },
+    {
+      "condition_name": "Maize Lethal Necrosis",
+      "condition_id": "corn.disease_viral.maize_lethal_necrosis",
+      "key_differences": [
+        "MLN causes systemic yellowing and streaking that often starts from the leaf base or whorl, not discrete, scattered lesions like NLB.",
+        "MLN causes severe stunting of the whole plant and often leads to premature plant death ('dead heart'), which is not a primary symptom of NLB.",
+        "MLN symptoms include malformed ears and tassels, which are not caused by NLB."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Planting resistant hybrids",
+      "Crop rotation with non-host crops (e.g., soybeans, alfalfa)",
+      "Tillage to bury infected residue",
+      "Managing irrigation to reduce leaf wetness duration"
+    ],
+    "biological": [
+      "Some bio-fungicides based on Bacillus species may offer suppression."
+    ],
+    "chemical": [
+      "Foliar fungicide application (e.g., strobilurins, triazoles, SDHIs) timed around tasseling (VT) is most effective for yield protection.",
+      "Seed treatments may offer early-season protection in some cases."
+    ],
+    "notes": "Integrated management combining resistant hybrids, cultural practices, and judicious fungicide use is the most effective strategy."
+  }
+}

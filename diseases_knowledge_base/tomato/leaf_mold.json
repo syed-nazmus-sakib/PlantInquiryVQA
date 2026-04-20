@@ -1,0 +1,144 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "tomato.disease_fungal.leaf_mold",
+  "aliases": [
+    "Fulvia fulva",
+    "Cladosporium fulvum"
+  ],
+  "crop": {
+    "common_name": "tomato",
+    "scientific_name": "Solanum lycopersicum",
+    "family": "Solanaceae"
+  },
+  "condition": {
+    "common_name": "leaf mold",
+    "scientific_name": "Passalora fulva",
+    "alt_names": [
+      "Fulvia fulva",
+      "Cladosporium fulvum"
+    ],
+    "pathogen": {
+      "type": "disease_fungal",
+      "taxonomy": {
+        "kingdom": "Fungi",
+        "phylum": "Ascomycota",
+        "class": "Dothideomycetes",
+        "order": "Capnodiales",
+        "family": "Mycosphaerellaceae",
+        "genus": "Passalora",
+        "species": "P. fulva"
+      }
+    }
+  },
+  "issue_type": "disease_fungal",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [
+      "wind",
+      "rain splash",
+      "contaminated tools",
+      "clothing",
+      "infected seeds"
+    ],
+    "overwintering": [
+      "infected plant debris",
+      "soil",
+      "infected seeds",
+      "greenhouse structures"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "high relative humidity",
+      "poor air circulation",
+      "greenhouse or high tunnel production",
+      "extended periods of leaf wetness",
+      "dense plant canopy"
+    ],
+    "temp_c_day": [
+      22,
+      24
+    ],
+    "temp_c_night": [
+      15,
+      21
+    ],
+    "relative_humidity_pct": [
+      85,
+      100
+    ],
+    "leaf_wetness_hours_threshold": 10
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "1-10% of total plant foliage affected. A few pale yellow spots on upper surfaces of lower leaves, with corresponding light, sparse mold growth on the undersides.",
+    "moderate": "11-40% of total plant foliage affected. Numerous spots, some coalescing. Obvious, dense olive-green mold on undersides. Some lower leaves are bright yellow and beginning to die back.",
+    "severe": ">40% of total plant foliage affected. Widespread leaf yellowing, browning, and necrosis. Significant defoliation progressing up the plant. Mold growth is extensive and may be visible on stems or petioles.",
+    "notes": "Severity is assessed on the whole plant, not a single leaf. The combination of upper-surface chlorosis and lower-surface sporulation is key. The upward progression from older to younger leaves is a typical indicator of increasing severity."
+  },
+  "symptoms": {
+    "leaves": [
+      "Initial symptoms are pale green or yellowish spots on the upper surface of older, lower leaves.",
+      "Spots have indefinite, diffuse borders, unlike the sharp borders of other leaf spots.",
+      "As spots enlarge, the upper surface becomes a brighter yellow, but typically does not become necrotic (brown) until late stages.",
+      "The lower leaf surface, directly beneath the yellow spots, develops patches of olive-green to grayish-purple, velvety mold.",
+      "This velvety growth consists of the fungal spores (conidia) and is the most definitive diagnostic sign.",
+      "Infected leaves eventually turn brown, shrivel, curl upwards, and drop prematurely.",
+      "The disease progresses from the bottom of the plant upwards."
+    ],
+    "stems": [
+      "Stem and petiole infections are uncommon but can occur under severe disease pressure, appearing as dark, moldy patches."
+    ],
+    "fruit": [
+      "Blossom infections can occur, leading to a dark, leathery rot at the stem end of the fruit.",
+      "Direct infection of mature green or ripe fruit is rare."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Stunted growth and reduced yield due to loss of photosynthetic area from defoliation.",
+      "In severe cases, significant defoliation occurs, starting from the base of the plant."
+    ],
+    "signs_microscopic_or_visible": [
+      "The key visible sign is the velvety, olive-green to grayish-purple mold (sporulation) on the abaxial (lower) leaf surface."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "late blight",
+      "condition_id": "tomato.disease_oomycete.late_blight",
+      "key_differences": [
+        "Leaf mold has olive-green/grayish, velvety mold on the leaf *underside*; late blight has white, fuzzy/downy mold, often at the lesion edge.",
+        "Leaf mold lesions are pale yellow on top; late blight lesions are large, water-soaked, dark-green to black, and greasy-looking.",
+        "Late blight aggressively attacks stems and fruit with large, dark, firm lesions; leaf mold rarely affects these parts as severely."
+      ]
+    },
+    {
+      "condition_name": "early blight",
+      "condition_id": "tomato.disease_fungal.early_blight",
+      "key_differences": [
+        "Leaf mold spots are pale yellow with diffuse borders; early blight lesions are dark brown and have a characteristic 'target-like' pattern of concentric rings.",
+        "Leaf mold has prominent, visible mold on the leaf underside; early blight lesions do not have visible mold.",
+        "Early blight lesions are often surrounded by a distinct yellow halo, which is less defined in leaf mold."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Plant resistant cultivars, as this is the most effective control method.",
+      "Increase plant spacing and prune lower leaves to improve air circulation and reduce humidity within the canopy.",
+      "Use drip irrigation instead of overhead watering to keep foliage dry.",
+      "In greenhouses, ensure adequate ventilation to lower relative humidity, especially in the morning.",
+      "Remove and destroy infected plant debris after harvest.",
+      "Practice crop rotation with non-solanaceous crops."
+    ],
+    "biological": [
+      "Bio-fungicides containing *Bacillus subtilis* or *Trichoderma harzianum* can be used preventatively to suppress fungal growth."
+    ],
+    "chemical": [
+      "Apply preventative fungicides, especially when environmental conditions are favorable.",
+      "Effective active ingredients include chlorothalonil, mancozeb, and copper-based compounds.",
+      "For established infections, fungicides with systemic or translaminar activity may be required. Always follow label instructions and rotate fungicide classes to prevent resistance."
+    ],
+    "notes": "Integrated management combining resistant varieties, cultural practices to reduce humidity, and timely fungicide applications is crucial for effective control, particularly in protected cultivation systems."
+  }
+}

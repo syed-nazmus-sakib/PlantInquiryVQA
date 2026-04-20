@@ -1,0 +1,143 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "arabian.disease_fungal.jasmine_leaf_blight",
+  "aliases": [
+    "Alternaria leaf blight of jasmine",
+    "Jasmine target spot"
+  ],
+  "crop": {
+    "common_name": "Arabian Jasmine",
+    "scientific_name": "Jasminum sambac",
+    "family": "Oleaceae"
+  },
+  "condition": {
+    "common_name": "Jasmine Leaf Blight",
+    "scientific_name": "Alternaria jasmini",
+    "alt_names": [
+      "Alternaria leaf spot"
+    ],
+    "pathogen": {
+      "type": "disease_fungal",
+      "taxonomy": {
+        "kingdom": "Fungi",
+        "phylum": "Ascomycota",
+        "class": "Dothideomycetes",
+        "order": "Pleosporales",
+        "family": "Pleosporaceae",
+        "genus": "Alternaria",
+        "species": "jasmini"
+      }
+    }
+  },
+  "issue_type": "disease_fungal",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [
+      "Wind",
+      "Rain splash",
+      "Contaminated tools",
+      "Infected plant material"
+    ],
+    "overwintering": [
+      "Infected plant debris on the ground",
+      "On infected stems and leaves remaining on the plant"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "High humidity",
+      "Prolonged leaf wetness",
+      "Poor air circulation",
+      "Overhead irrigation",
+      "Warm temperatures"
+    ],
+    "temp_c_day": [
+      22,
+      28
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      85,
+      100
+    ],
+    "leaf_wetness_hours_threshold": 10
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "< 10% of total leaf area affected with small, scattered lesions.",
+    "moderate": "10-40% of leaf area affected, with some lesions coalescing to form larger necrotic patches.",
+    "severe": "> 40% of leaf area affected, extensive blighting, and premature leaf drop (defoliation) is evident.",
+    "notes": "Severity is assessed on individual symptomatic leaves and averaged across the plant. 'Blight' refers to the rapid browning and death of leaf tissue."
+  },
+  "symptoms": {
+    "leaves": [
+      "Initial symptoms are small, water-soaked spots.",
+      "Spots enlarge into irregular to circular lesions, 2-10 mm in diameter.",
+      "Lesions develop a tan, grayish-brown, or light brown center.",
+      "A distinct, dark brown or purplish border often surrounds the lesion center.",
+      "Concentric rings are often visible within lesions, creating a 'target' or 'bull's-eye' appearance.",
+      "A diffuse yellow halo may encircle the entire lesion.",
+      "Multiple lesions frequently coalesce, forming large, irregular blighted areas.",
+      "Infected leaves may curl, become distorted, and turn yellow before dropping.",
+      "Severe infection leads to significant premature defoliation."
+    ],
+    "stems": [
+      "In severe cases, small, dark, slightly sunken lesions may appear on young stems."
+    ],
+    "fruit": [],
+    "roots": [],
+    "whole_plant": [
+      "Reduced plant vigor and poor aesthetic quality.",
+      "Flowering may be reduced in heavily infected plants."
+    ],
+    "signs_microscopic_or_visible": [
+      "Under high humidity, a velvety, dark gray to black fungal growth (conidia and conidiophores) may be visible on the surface of lesions, often observable with a hand lens."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "Jasmine Anthracnose",
+      "condition_id": "arabian.disease_fungal.jasmine_anthracnose",
+      "key_differences": [
+        "Anthracnose lesions are typically dark brown to black and sunken, often lacking the distinct concentric 'target' rings of leaf blight.",
+        "Anthracnose frequently starts at leaf tips or margins, causing dieback, whereas blight lesions can appear anywhere on the leaf blade.",
+        "Under wet conditions, anthracnose may produce pinkish-orange spore masses, which are absent in Alternaria blight."
+      ]
+    },
+    {
+      "condition_name": "Jasmine Leaf Spot",
+      "condition_id": "arabian.disease_fungal.jasmine_leaf_spot",
+      "key_differences": [
+        "Cercospora leaf spots are generally smaller, more uniformly circular, and remain as discrete spots for longer before coalescing.",
+        "Leaf blight lesions expand more rapidly and irregularly, causing large patches of dead tissue (blight).",
+        "While both can have a gray center and dark border, the 'target' zonation is a much stronger and more common feature of Alternaria leaf blight."
+      ]
+    },
+    {
+      "condition_name": "Jasmine Pest Damage",
+      "condition_id": "arabian.damage_insect.jasmine_pest_damage",
+      "key_differences": [
+        "Pest damage often presents as stippling (tiny yellow/white dots from mites) or holes from chewing, not expanding necrotic lesions.",
+        "Check for physical evidence of pests, such as insects themselves, fine webbing (spider mites), or sticky honeydew.",
+        "Damage from pests like thrips can cause silvery patches, which look different from the zoned, brown lesions of leaf blight."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Prune to improve air circulation within the plant canopy.",
+      "Avoid overhead irrigation to minimize leaf wetness duration; use soaker hoses or drip irrigation instead.",
+      "Remove and destroy fallen leaves and infected plant debris promptly.",
+      "Ensure adequate spacing between plants."
+    ],
+    "biological": [
+      "Bio-fungicides containing *Bacillus subtilis* or *Trichoderma* species may be used preventatively to suppress fungal growth."
+    ],
+    "chemical": [
+      "Preventative applications of fungicides are most effective.",
+      "Use broad-spectrum fungicides with active ingredients such as mancozeb, chlorothalonil, or copper hydroxide.",
+      "Rotate fungicides with different modes of action to prevent pathogen resistance."
+    ],
+    "notes": "Chemical control should be initiated at the first sign of disease, especially when weather conditions are favorable for development."
+  }
+}

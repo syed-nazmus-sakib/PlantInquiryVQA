@@ -1,0 +1,121 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "potato.healthy.healthy",
+  "aliases": [
+    "normal potato",
+    "unaffected potato",
+    "disease-free potato"
+  ],
+  "crop": {
+    "common_name": "potato",
+    "scientific_name": "Solanum tuberosum",
+    "family": "Solanaceae"
+  },
+  "condition": {
+    "common_name": "healthy",
+    "scientific_name": "",
+    "alt_names": [
+      "normal",
+      "unaffected"
+    ],
+    "pathogen": {
+      "type": "none",
+      "taxonomy": {
+        "kingdom": "",
+        "phylum": "",
+        "class": "",
+        "order": "",
+        "family": "",
+        "genus": "",
+        "species": ""
+      }
+    }
+  },
+  "issue_type": "healthy",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [],
+    "overwintering": []
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "Optimal growing conditions: adequate sunlight, well-drained soil, and consistent moisture."
+    ],
+    "temp_c_day": [
+      18,
+      24
+    ],
+    "temp_c_night": [
+      12,
+      15
+    ],
+    "relative_humidity_pct": [
+      70,
+      90
+    ],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "qualitative",
+    "mild": "Not applicable. Plant is healthy.",
+    "moderate": "Not applicable. Plant is healthy.",
+    "severe": "Not applicable. Plant is healthy.",
+    "notes": "This is a binary classification; the plant is either healthy or it is not. Severity metrics apply to disease or disorder conditions."
+  },
+  "symptoms": {
+    "leaves": [
+      "Uniformly green color, which may vary from light to dark green depending on the cultivar.",
+      "Leaves are fully expanded, turgid, and appropriately sized for the growth stage.",
+      "No spots, lesions, discoloration, or necrosis.",
+      "Leaf margins are smooth and intact, without curling, crinkling, or distortion.",
+      "No yellow halos or water-soaked areas are present."
+    ],
+    "stems": [
+      "Stems are sturdy, upright, and green.",
+      "No cankers, lesions, streaks, or wilting is visible.",
+      "Internodes are of a normal length for the cultivar."
+    ],
+    "fruit": [],
+    "roots": [],
+    "whole_plant": [
+      "Exhibits vigorous, upright growth.",
+      "Canopy is dense and full, consistent with the plant's age and variety.",
+      "No general stunting, wilting, or dieback is observed."
+    ],
+    "signs_microscopic_or_visible": []
+  },
+  "lookalikes": [
+    {
+      "condition_name": "Early Blight",
+      "condition_id": "potato.fungal.early_blight",
+      "key_differences": [
+        "Healthy leaves are uniformly green, whereas early blight causes dark brown to black lesions, often with a 'target spot' or concentric ring pattern.",
+        "Early blight lesions are typically surrounded by a distinct yellow halo, which is absent on healthy leaves.",
+        "Healthy leaves are intact, while leaves with early blight become brittle, and severe infections cause lower leaves to senesce and drop prematurely."
+      ]
+    },
+    {
+      "condition_name": "Late Blight",
+      "condition_id": "potato.oomycete.late_blight",
+      "key_differences": [
+        "Healthy leaves are dry and uniformly colored; late blight lesions are large, dark green to black, and often have a water-soaked or greasy appearance.",
+        "The underside of healthy leaves is clean, whereas late blight lesions may show a fuzzy, white mold (sporangia) at the lesion margin in humid conditions.",
+        "Healthy stems are firm and green; late blight can cause large, dark brown or black lesions on stems that can girdle and kill them.",
+        "Healthy plants do not have a distinct odor, while fields with severe late blight can have a noticeable decaying vegetation smell."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Plant certified seed potatoes to ensure a disease-free start.",
+      "Practice crop rotation with non-solanaceous crops (e.g., grains, legumes) for 2-3 years.",
+      "Ensure proper plant spacing to promote air circulation and rapid drying of foliage.",
+      "Manage irrigation to avoid prolonged leaf wetness, preferably using drip irrigation or watering early in the day."
+    ],
+    "biological": [],
+    "chemical": [
+      "Use preventative fungicide applications only when disease risk is high based on weather forecasting and scouting, not as a routine practice for healthy plants."
+    ],
+    "notes": "Management for a healthy crop focuses on maintaining optimal growing conditions and preventing the introduction and spread of pathogens."
+  }
+}

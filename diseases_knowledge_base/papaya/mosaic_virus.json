@@ -1,0 +1,134 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "papaya.disease_viral.mosaic_virus",
+  "aliases": [
+    "PMV",
+    "PapMV"
+  ],
+  "crop": {
+    "common_name": "papaya",
+    "scientific_name": "Carica papaya",
+    "family": "Caricaceae"
+  },
+  "condition": {
+    "common_name": "mosaic virus",
+    "scientific_name": "Papaya mosaic virus",
+    "alt_names": [
+      "PMV"
+    ],
+    "pathogen": {
+      "type": "virus",
+      "taxonomy": {
+        "kingdom": "Orthornavirae",
+        "phylum": "Kitrinoviricota",
+        "class": "Alsuviricetes",
+        "order": "Martellivirales",
+        "family": "Potexviridae",
+        "genus": "Potexvirus",
+        "species": "Papaya mosaic virus"
+      }
+    }
+  },
+  "issue_type": "disease_viral",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [
+      "Mechanical transmission via contaminated tools (knives, pruning shears)",
+      "Contact between infected and healthy plants",
+      "Infected sap on hands or clothing"
+    ],
+    "overwintering": [
+      "Infected perennial papaya plants",
+      "Alternative host plants"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "High plant density facilitating leaf-to-leaf contact",
+      "Pruning or harvesting activities without tool sanitation",
+      "Presence of infected papaya plants nearby"
+    ],
+    "temp_c_day": [],
+    "temp_c_night": [],
+    "relative_humidity_pct": [],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "qualitative",
+    "mild": "Faint mosaic or mottling on a few young leaves; no significant stunting.",
+    "moderate": "Clear mosaic, mottling, and possible leaf distortion on multiple leaves; slight stunting of the plant may be visible.",
+    "severe": "Pronounced mosaic, severe leaf distortion, and blistering on most leaves; significant plant stunting and reduced fruit production.",
+    "notes": "Severity is assessed based on the extent and intensity of foliar symptoms and overall impact on plant growth, as quantifying percentage area for mosaic patterns is unreliable."
+  },
+  "symptoms": {
+    "leaves": [
+      "Light and dark green patches forming a mosaic or mottle pattern, especially on young leaves.",
+      "Vein-clearing or vein-banding on newly emerged leaves.",
+      "Leaves may appear slightly distorted but not severely malformed or fern-like.",
+      "No oily streaks are present on the petioles."
+    ],
+    "stems": [
+      "No distinct symptoms are typically observed on the main stem or petioles."
+    ],
+    "fruit": [
+      "Fruit may be smaller than normal.",
+      "No characteristic ringspots appear on the fruit.",
+      "Overall fruit yield is often reduced."
+    ],
+    "roots": [
+      "No external symptoms."
+    ],
+    "whole_plant": [
+      "Mild to moderate stunting of the plant.",
+      "General reduction in plant vigor."
+    ],
+    "signs_microscopic_or_visible": [
+      "None visible to the naked eye; requires laboratory testing (e.g., ELISA) for confirmation."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "ringspot virus",
+      "condition_id": "papaya.disease_viral.ringspot_virus",
+      "key_differences": [
+        "Ringspot virus causes distinct oily streaks on petioles and the upper trunk; mosaic virus does not.",
+        "Ringspot virus produces characteristic concentric rings on the fruit; mosaic virus does not.",
+        "Leaf symptoms in ringspot virus are often more severe, with shoestringing or fern-leaf appearance.",
+        "Ringspot virus is aphid-transmitted, while mosaic virus is mechanically transmitted."
+      ]
+    },
+    {
+      "condition_name": "leaf curl virus",
+      "condition_id": "papaya.disease_viral.leaf_curl_virus",
+      "key_differences": [
+        "Leaf curl causes severe upward/downward curling and crinkling of leaf margins into a cup shape; mosaic causes a flat color pattern.",
+        "Veins in leaf curl appear thickened and prominent; mosaic virus causes vein clearing or banding.",
+        "Leaf curl results in leathery, brittle leaves; mosaic leaves retain a more normal texture."
+      ]
+    },
+    {
+      "condition_name": "spider mites",
+      "condition_id": "papaya.pest.spider_mites",
+      "key_differences": [
+        "Mite damage appears as fine, yellowish stippling or bronzing, not a large-scale mosaic pattern of green shades.",
+        "Fine webbing is often visible on the underside of leaves with spider mites.",
+        "Mite damage often starts on older, lower leaves; mosaic symptoms are most prominent on young, developing leaves."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Use certified virus-free planting material.",
+      "Sanitize tools (knives, pruners) with a disinfectant like 10% bleach solution between each plant.",
+      "Remove and destroy infected plants (roguing) immediately upon detection to reduce the inoculum source.",
+      "Minimize mechanical damage to plants during field operations."
+    ],
+    "biological": [
+      "No effective biological control agents are available for the virus itself."
+    ],
+    "chemical": [
+      "No chemical treatments (virucides) are effective against plant viruses."
+    ],
+    "notes": "Management focuses entirely on prevention (phytosanitation) as there is no cure for an infected plant."
+  }
+}

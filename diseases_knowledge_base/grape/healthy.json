@@ -1,0 +1,139 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "grape.healthy.healthy",
+  "aliases": [
+    "normal",
+    "unaffected",
+    "asymptomatic"
+  ],
+  "crop": {
+    "common_name": "grape",
+    "scientific_name": "Vitis vinifera",
+    "family": "Vitaceae"
+  },
+  "condition": {
+    "common_name": "healthy",
+    "scientific_name": "",
+    "alt_names": [
+      "normal growth",
+      "no disease"
+    ],
+    "pathogen": {
+      "type": "none",
+      "taxonomy": {
+        "kingdom": "",
+        "phylum": "",
+        "class": "",
+        "order": "",
+        "family": "",
+        "genus": "",
+        "species": ""
+      }
+    }
+  },
+  "issue_type": "healthy",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [],
+    "overwintering": []
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "Full sun exposure (6-8 hours/day)",
+      "Well-drained soil",
+      "Good air circulation through the canopy",
+      "Appropriate irrigation and nutrient management"
+    ],
+    "temp_c_day": [
+      25,
+      32
+    ],
+    "temp_c_night": [
+      15,
+      20
+    ],
+    "relative_humidity_pct": [
+      40,
+      70
+    ],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "qualitative",
+    "mild": "Plant is completely free of visible symptoms of stress, disease, or pest damage.",
+    "moderate": "Not applicable for a healthy plant.",
+    "severe": "Not applicable for a healthy plant.",
+    "notes": "This rubric confirms the absence of any condition. Any deviation from 'mild' indicates a non-healthy state."
+  },
+  "symptoms": {
+    "leaves": [
+      "Uniformly green color, consistent with the cultivar.",
+      "No spots, lesions, discoloration, or necrosis.",
+      "Turgid, fully expanded leaf blades.",
+      "Smooth leaf surfaces, free of any powdery or downy growth on either side.",
+      "Leaf margins are intact and shaped according to the cultivar's characteristics."
+    ],
+    "stems": [
+      "Shoots and canes are firm and appropriately colored (green for new growth, brown/woody for mature canes).",
+      "No cankers, galls, lesions, or dieback.",
+      "Internodes are of a consistent, healthy length."
+    ],
+    "fruit": [
+      "Berries are uniform in size and color for their developmental stage.",
+      "Fruit clusters are well-formed, without shriveled, mummified, or rotted berries.",
+      "Berry skins are smooth, intact, and free from cracks or spots."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Exhibits vigorous, upright growth.",
+      "Maintains a well-distributed and appropriately dense canopy."
+    ],
+    "signs_microscopic_or_visible": [
+      "No visible fungal mycelium, spores, pycnidia, or bacterial ooze.",
+      "Absence of significant insect populations or feeding damage."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "powdery mildew",
+      "condition_id": "grape.fungal.powdery_mildew",
+      "key_differences": [
+        "Healthy leaves have a clean, uniform surface, while early powdery mildew shows faint, whitish-gray patches that look like dust.",
+        "The underside of a healthy leaf is clean, whereas powdery mildew can also appear on the underside.",
+        "Healthy plant parts are not distorted, while severe powdery mildew can cause stunted and twisted shoots and leaves."
+      ]
+    },
+    {
+      "condition_name": "downy mildew",
+      "condition_id": "grape.oomycete.downy_mildew",
+      "key_differences": [
+        "Healthy leaves are uniformly green, whereas downy mildew begins as pale yellow, oily-looking spots on the upper leaf surface.",
+        "The underside of a healthy leaf is clean, unlike downy mildew which produces a distinct white, cottony fungal growth on the underside, especially in humid conditions.",
+        "Healthy leaves remain flat and turgid, while downy mildew lesions can become sunken, brown, and necrotic over time."
+      ]
+    },
+    {
+      "condition_name": "black rot",
+      "condition_id": "grape.fungal.black_rot",
+      "key_differences": [
+        "Healthy leaves are free of lesions, while black rot causes circular, tan-to-brown lesions with a distinct dark border.",
+        "Within black rot lesions, tiny black specks (pycnidia) are visible, which are completely absent on healthy tissue.",
+        "Healthy fruit is plump and colored appropriately for the cultivar, whereas black rot causes berries to shrivel, harden, and turn black into 'mummies'."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Select disease-resistant cultivars suitable for the growing region.",
+      "Practice proper pruning and canopy management to improve air circulation and sun exposure.",
+      "Ensure proper site selection with well-drained soil.",
+      "Use balanced fertilization to avoid excessive vegetative growth.",
+      "Sanitize pruning tools between plants."
+    ],
+    "biological": [],
+    "chemical": [
+      "Preventative fungicide programs are used in commercial production to maintain health in regions with high disease pressure."
+    ],
+    "notes": "Management for a healthy plant focuses on preventative cultural practices that promote plant vigor and create an environment unfavorable to pathogens."
+  }
+}

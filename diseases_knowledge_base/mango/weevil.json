@@ -1,0 +1,144 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "mango.pest_insect.weevil",
+  "aliases": [
+    "mango seed weevil",
+    "mango nut weevil",
+    "mango stone weevil"
+  ],
+  "crop": {
+    "common_name": "mango",
+    "scientific_name": "Mangifera indica",
+    "family": "Anacardiaceae"
+  },
+  "condition": {
+    "common_name": "Mango weevil",
+    "scientific_name": "Sternochetus mangiferae",
+    "alt_names": [
+      "mango seed weevil"
+    ],
+    "pathogen": {
+      "type": "insect",
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Arthropoda",
+        "class": "Insecta",
+        "order": "Coleoptera",
+        "family": "Curculionidae",
+        "genus": "Sternochetus",
+        "species": "mangiferae"
+      }
+    }
+  },
+  "issue_type": "pest_insect",
+  "transmission": {
+    "vectors": [
+      "adult weevil"
+    ],
+    "dispersal": [
+      "infested fruit transport",
+      "adult flight"
+    ],
+    "overwintering": [
+      "adults in bark crevices",
+      "under plant debris",
+      "larvae/pupae inside fallen fruit/seeds"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "Presence of fallen, uncollected fruit",
+      "Nearby infested orchards",
+      "Poor orchard sanitation"
+    ],
+    "temp_c_day": [
+      25,
+      35
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      60,
+      90
+    ],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "qualitative",
+    "mild": "Few fruits (<10%) show single oviposition scars or minor sap ooze. Internal damage is rare upon inspection.",
+    "moderate": "Multiple fruits (10-40%) show external signs. Some premature fruit drop may be observed. Weevils found in a notable portion of cut-open fruit.",
+    "severe": "Widespread fruit damage (>40%), significant premature fruit drop. High percentage of seeds are infested. Adult weevils may be visible on the tree.",
+    "notes": "Severity is best assessed by inspecting fallen or harvested fruit, as early signs are subtle. Cutting fruit open is required for confirmation of internal damage."
+  },
+  "symptoms": {
+    "leaves": [
+      "Adult feeding may cause small, irregular notches on the edges of tender leaves."
+    ],
+    "stems": [
+      "Adult weevils may be seen resting on twigs and branches, especially at night."
+    ],
+    "fruit": [
+      "Small, dark, crescent-shaped or V-shaped oviposition scars on the skin of young fruit.",
+      "Clear, amber, or brownish sap oozing from egg-laying punctures, which later dries.",
+      "A hardened, resinous, dark brown spot on the fruit skin at the point of larval entry.",
+      "Premature drop of infested young fruit.",
+      "Internal tunneling and feeding damage within the seed/stone, visible when cut.",
+      "A large, circular exit hole (~8-10mm) in the stone and fruit pulp after the adult emerges.",
+      "Discolored, rotting pulp immediately surrounding the infested seed."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Reduced yield due to premature fruit drop and unmarketable fruit."
+    ],
+    "signs_microscopic_or_visible": [
+      "Dark grey or brown, stout-bodied, snout-nosed adult weevils (~6-9 mm long).",
+      "White, legless, C-shaped grubs (larvae) found inside the seed when cut open."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "Gall midge",
+      "condition_id": "mango.pest_insect.gall_midge",
+      "key_differences": [
+        "Gall midge causes small, raised, circular black galls on fruit skin, not crescent-shaped scars.",
+        "Gall midge damage is superficial, creating pimple-like spots, whereas weevil damage is deep, leading to the seed.",
+        "Gall midge larvae are tiny pinkish maggots found just under the skin, not large white grubs inside the seed."
+      ]
+    },
+    {
+      "condition_name": "Anthracnose",
+      "condition_id": "mango.fungal.anthracnose",
+      "key_differences": [
+        "Anthracnose causes large, dark, sunken, irregular blotches on fruit, not a small, distinct puncture mark.",
+        "Anthracnose lesions may produce pinkish spore masses in humid weather, which is absent in weevil damage.",
+        "Weevil damage originates from a single point and goes inward; anthracnose spreads across the fruit surface.",
+        "Anthracnose also causes severe leaf spotting and blossom blight, which are not primary symptoms of weevils."
+      ]
+    },
+    {
+      "condition_name": "Bacterial canker",
+      "condition_id": "mango.bacterial.canker",
+      "key_differences": [
+        "Bacterial canker causes angular, water-soaked, black lesions that crack open, unlike the sealed puncture of a weevil.",
+        "Ooze from bacterial canker is a gummy, bacterial exudate, distinct from the clearer sap from a weevil oviposition site.",
+        "The primary damage from weevil is a grub inside the seed, not a bacterial infection causing rot throughout the pulp."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Implement strict orchard sanitation by collecting and destroying all fallen fruit and seeds to break the pest's life cycle.",
+      "Prune trees to maintain an open canopy, which can deter adult weevils.",
+      "Harvest fruit as early as commercially viable to reduce the window for infestation."
+    ],
+    "biological": [
+      "Application of entomopathogenic fungi (e.g., Beauveria bassiana) to target adult weevils.",
+      "Conservation of natural enemies, such as weaver ants (Oecophylla smaragdina), which are known predators."
+    ],
+    "chemical": [
+      "Apply registered insecticides to the canopy, targeting adult weevils before they lay eggs on young fruit.",
+      "Timing of sprays is critical and should coincide with fruit development (marble to golf-ball size).",
+      "Consult local extension services for recommended active ingredients and application schedules."
+    ],
+    "notes": "Control must target the adult weevil stage, as larvae developing inside the seed are protected from most chemical treatments."
+  }
+}

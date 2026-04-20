@@ -1,0 +1,118 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "papaya.disease_fungal.anthracnose",
+  "aliases": [
+    "papaya anthracnose",
+    "ripe fruit rot",
+    "blossom-end rot"
+  ],
+  "crop": {
+    "common_name": "papaya",
+    "scientific_name": "Carica papaya",
+    "family": "Caricaceae"
+  },
+  "condition": {
+    "common_name": "Anthracnose",
+    "scientific_name": "Colletotrichum gloeosporioides",
+    "alt_names": [
+      "Ripe Fruit Rot"
+    ],
+    "pathogen": {
+      "type": "disease_fungal",
+      "taxonomy": {
+        "kingdom": "Fungi",
+        "phylum": "Ascomycota",
+        "class": "Sordariomycetes",
+        "order": "Glomerellales",
+        "family": "Glomerellaceae",
+        "genus": "Colletotrichum",
+        "species": "gloeosporioides"
+      }
+    }
+  },
+  "issue_type": "disease_fungal",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [
+      "rain splash",
+      "wind",
+      "contaminated tools",
+      "infected fruit",
+      "infected seeds"
+    ],
+    "overwintering": [
+      "infected plant debris",
+      "lesions on stems and petioles",
+      "mummified fruit"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "high humidity",
+      "frequent rainfall",
+      "warm temperatures",
+      "poor air circulation",
+      "fruit injury or bruising"
+    ],
+    "temp_c_day": [
+      25,
+      30
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      90,
+      100
+    ],
+    "leaf_wetness_hours_threshold": 12
+  },
+  "severity_rubric": {
+    "unit": "qualitative",
+    "mild": "A few small, scattered lesions on leaves; 1-2 small (<1 cm) spots on a single fruit.",
+    "moderate": "Multiple lesions on several leaves, some coalescing; several distinct lesions on fruit, covering up to 25% of the surface.",
+    "severe": "Extensive leaf spotting, blight, and defoliation; large, sunken, coalescing lesions on fruit covering >25% of the surface, often with visible pink/orange spore masses.",
+    "notes": "Severity is most critical on fruit due to marketability. A qualitative assessment is practical as it combines leaf and fruit symptoms. The presence of visible spore masses often indicates moderate to severe infection."
+  },
+  "symptoms": {
+    "leaves": [
+      "Small, water-soaked spots appear, often on older, lower leaves.",
+      "Spots enlarge into irregular, brown to black necrotic lesions.",
+      "Lesions may develop a 'shot-hole' appearance as necrotic centers fall out.",
+      "In severe infections, leaves may yellow and drop prematurely."
+    ],
+    "stems": [
+      "Elongated, sunken, dark lesions can form on petioles."
+    ],
+    "fruit": [
+      "Small, circular, water-soaked spots appear on ripening or ripe fruit.",
+      "Spots enlarge rapidly, becoming sunken, circular, and black.",
+      "Center of mature fruit lesions develops pink to orange gelatinous spore masses (acervuli), often in concentric rings.",
+      "Lesions can coalesce to cover large areas of the fruit surface.",
+      "Infection penetrates the flesh, causing a bitter rot."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Premature fruit drop may occur in heavily infected plants."
+    ],
+    "signs_microscopic_or_visible": [
+      "Visible pinkish-orange, gelatinous spore masses (acervuli) in the center of mature fruit lesions, especially under humid conditions."
+    ]
+  },
+  "lookalikes": [],
+  "management": {
+    "cultural": [
+      "Improve air circulation via proper plant spacing and pruning of lower leaves.",
+      "Practice field sanitation by removing and destroying infected plant debris and mummified fruit.",
+      "Avoid overhead irrigation to minimize leaf and fruit wetness duration.",
+      "Handle fruit carefully during harvest and transport to prevent wounds.",
+      "Harvest fruit at the mature-green stage."
+    ],
+    "biological": [
+      "Application of antagonists like *Bacillus subtilis* or *Trichoderma* species can have a suppressive effect as part of an IPM program."
+    ],
+    "chemical": [
+      "Apply preventative fungicides (e.g., mancozeb, copper-based, azoxystrobin) during weather favorable for disease development.",
+      "Post-harvest hot water treatment (e.g., 48\u00b0C for 20 minutes) or fungicide dips can control latent infections on fruit."
+    ],
+    "notes": "An integrated disease management (IDM) approach is essential, combining sanitation, cultural practices, and judicious fungicide use. Post-harvest treatments are critical for extending shelf life."
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "mango.disease_fungal.anthracnose",
+  "aliases": [
+    "mango blossom blight",
+    "mango fruit rot",
+    "mango leaf spot"
+  ],
+  "crop": {
+    "common_name": "mango",
+    "scientific_name": "Mangifera indica",
+    "family": "Anacardiaceae"
+  },
+  "condition": {
+    "common_name": "anthracnose",
+    "scientific_name": "Colletotrichum gloeosporioides",
+    "alt_names": [
+      "blossom blight",
+      "fruit rot",
+      "leaf blight",
+      "twig blight"
+    ],
+    "pathogen": {
+      "type": "disease_fungal",
+      "taxonomy": {
+        "kingdom": "Fungi",
+        "phylum": "Ascomycota",
+        "class": "Sordariomycetes",
+        "order": "Glomerellales",
+        "family": "Glomerellaceae",
+        "genus": "Colletotrichum",
+        "species": "gloeosporioides"
+      }
+    }
+  },
+  "issue_type": "disease_fungal",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [
+      "rain_splash",
+      "wind_driven_rain",
+      "irrigation_water",
+      "contaminated_tools"
+    ],
+    "overwintering": [
+      "infected_twigs",
+      "dead_leaves",
+      "mummified_fruit",
+      "plant_debris"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "high_humidity",
+      "frequent_rain",
+      "prolonged_leaf_wetness",
+      "warm_temperatures",
+      "dense_canopy"
+    ],
+    "temp_c_day": [
+      24,
+      32
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      95,
+      100
+    ],
+    "leaf_wetness_hours_threshold": 12
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "1-10% of leaf or fruit surface area affected by distinct lesions.",
+    "moderate": "11-40% of surface area affected; lesions may be coalescing; minor twig dieback or blossom blight present.",
+    "severe": ">40% of surface area affected; extensive lesion coverage, significant fruit rot, defoliation, or severe blossom blight.",
+    "notes": "Severity is assessed on the most affected plant part (leaves, fruit, or flowers). For blossom blight, severity can be estimated as the percentage of blighted panicles."
+  },
+  "symptoms": {
+    "leaves": [
+      "Small, dark brown to black, irregular or angular spots appear on young, tender leaves.",
+      "Lesions enlarge and may develop a necrotic, greyish-brown center with a dark border.",
+      "A yellow chlorotic halo may surround the spots.",
+      "In severe cases, lesion centers dry and fall out, creating a 'shot-hole' appearance.",
+      "Infected leaves may become twisted or deformed."
+    ],
+    "stems": [
+      "Elongated, dark, sunken lesions (cankers) can form on young twigs and flower stalks (panicles).",
+      "Infected flower panicles turn black, shrivel, and die, a symptom known as 'blossom blight'."
+    ],
+    "fruit": [
+      "Dark, sunken, circular lesions develop on the fruit skin, often as it begins to ripen.",
+      "Lesions enlarge and coalesce, leading to extensive fruit rot.",
+      "Under humid conditions, pinkish-orange, gelatinous spore masses (acervuli) erupt in a concentric pattern on the lesions."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Twig dieback can occur, progressing downwards from infected panicles or terminal buds."
+    ],
+    "signs_microscopic_or_visible": [
+      "Presence of salmon-pink or orange-colored spore masses (acervuli) in the center of lesions, especially on fruit."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "bacterial_canker",
+      "condition_id": "mango.disease_bacterial.bacterial_canker",
+      "key_differences": [
+        "Bacterial canker lesions are typically raised, cracked, and have water-soaked margins, whereas anthracnose lesions are sunken.",
+        "A gummy, amber-colored ooze may exude from bacterial cankers, a sign not present in anthracnose.",
+        "Bacterial leaf spots are distinctly angular and limited by veins, while anthracnose spots are more irregular or rounded."
+      ]
+    },
+    {
+      "condition_name": "sooty_mold",
+      "condition_id": "mango.disease_fungal.sooty_mold",
+      "key_differences": [
+        "Sooty mold is a superficial, black, powdery coating on the leaf/fruit surface that can be physically wiped off.",
+        "Anthracnose causes necrotic lesions that are integrated into the plant tissue and cannot be wiped off.",
+        "Sooty mold growth is always associated with the presence of honeydew from sap-sucking insects; anthracnose is a primary pathogen."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Prune trees annually to open the canopy, improving air circulation and reducing humidity.",
+      "Remove and destroy infected plant debris, including fallen leaves, twigs, and mummified fruit.",
+      "Avoid overhead irrigation that wets the canopy for prolonged periods.",
+      "Handle fruit carefully during harvest to prevent wounds that can serve as entry points for the fungus."
+    ],
+    "biological": [
+      "Application of bio-fungicides containing Bacillus subtilis or Trichoderma species can help suppress the pathogen when applied preventatively."
+    ],
+    "chemical": [
+      "Apply protective fungicides (e.g., copper-based, mancozeb, chlorothalonil) prior to and during flowering and early fruit development.",
+      "Post-harvest hot water treatment of fruit (e.g., 5 minutes at 52-55\u00b0C) can control latent infections."
+    ],
+    "notes": "Fungicide application must be timed correctly with weather forecasts, focusing on protecting new growth, flowers, and young fruit during warm, wet periods."
+  }
+}

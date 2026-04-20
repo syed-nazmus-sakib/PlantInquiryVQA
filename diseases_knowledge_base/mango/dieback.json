@@ -1,0 +1,148 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "mango.unknown.dieback",
+  "aliases": [
+    "Tip dieback",
+    "Twig blight",
+    "Gummosis"
+  ],
+  "crop": {
+    "common_name": "mango",
+    "scientific_name": "Mangifera indica",
+    "family": "Anacardiaceae"
+  },
+  "condition": {
+    "common_name": "dieback",
+    "scientific_name": "",
+    "alt_names": [
+      "Twig dieback",
+      "Branch dieback",
+      "Tip necrosis"
+    ],
+    "pathogen": {
+      "type": "unknown",
+      "taxonomy": {
+        "kingdom": "",
+        "phylum": "",
+        "class": "",
+        "order": "",
+        "family": "",
+        "genus": "",
+        "species": ""
+      }
+    }
+  },
+  "issue_type": "unknown",
+  "transmission": {
+    "vectors": [
+      "Pruning tools",
+      "Insects (borers)"
+    ],
+    "dispersal": [
+      "Wind-driven rain",
+      "Contaminated pruning tools",
+      "Infected planting material"
+    ],
+    "overwintering": [
+      "Infected dead twigs",
+      "Cankers on branches",
+      "Plant debris"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "High humidity",
+      "Prolonged rainy season",
+      "Wounds from pruning or insects",
+      "Poorly drained soils",
+      "Nutrient deficiency (e.g., copper)",
+      "Post-harvest stress"
+    ],
+    "temp_c_day": [
+      25,
+      35
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      80,
+      100
+    ],
+    "leaf_wetness_hours_threshold": 12
+  },
+  "severity_rubric": {
+    "unit": "qualitative",
+    "mild": "One or a few small terminal twigs show dieback, affecting <10% of the canopy.",
+    "moderate": "Multiple branches show dieback, progressing downwards, affecting 10-30% of the canopy.",
+    "severe": "Major limbs or the main trunk are affected, with significant canopy loss >30% and potential tree death.",
+    "notes": "Severity is measured by the percentage of the tree's canopy showing dead or dying branches, starting from the tips and progressing inwards."
+  },
+  "symptoms": {
+    "leaves": [
+      "Wilting and drooping of leaves on affected twigs.",
+      "Leaves turn brown or black, but remain attached to the dead branch for some time.",
+      "Young leaves at the tip of a branch suddenly dry out and appear scorched."
+    ],
+    "stems": [
+      "Progressive drying of twigs and branches from the tip downwards.",
+      "Affected bark turns dark brown to black.",
+      "A distinct dark, sunken band may be visible at the junction of healthy and diseased tissue.",
+      "Gum or a dark, sticky substance may exude from cracks in the bark (gummosis).",
+      "Small, black, pin-head sized fruiting bodies (pycnidia) may appear on dead twigs under moist conditions."
+    ],
+    "fruit": [
+      "Fruit on affected branches may shrivel, mummify, and remain attached."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Affected branches appear barren and dead against the healthy foliage.",
+      "In severe cases, the entire tree may die."
+    ],
+    "signs_microscopic_or_visible": [
+      "Black, pimple-like structures (pycnidia) embedded in the dead bark.",
+      "Oozing of dark, resinous gum from cankers on stems or branches."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "anthracnose",
+      "condition_id": "mango.fungal.anthracnose",
+      "key_differences": [
+        "Anthracnose also causes distinct, dark, angular spots on leaves and sunken black lesions on fruit, which are not primary symptoms of dieback.",
+        "Anthracnose leaf spots often have a 'shot-hole' appearance as the center falls out.",
+        "Dieback is a progressive death from the tip, while anthracnose twig blight can appear as discrete cankers anywhere on the stem."
+      ]
+    },
+    {
+      "condition_name": "senescence_or_dry",
+      "condition_id": "mango.abiotic.senescence_or_dry",
+      "key_differences": [
+        "Drought stress causes a more uniform yellowing and drying of leaves across the whole plant, not just starting from the tips of specific branches.",
+        "Dieback often shows a clear demarcation line between dead and living tissue, which is less common in general drying.",
+        "There is no gummosis or presence of fungal fruiting bodies with simple drought stress or senescence."
+      ]
+    },
+    {
+      "condition_name": "bacterial_canker",
+      "condition_id": "mango.bacterial.bacterial_canker",
+      "key_differences": [
+        "Bacterial canker lesions are often water-soaked initially and may exude a lighter-colored bacterial ooze, unlike the dark gum of fungal dieback.",
+        "Bacterial canker also causes distinct, angular, raised, black spots on leaves and fruit.",
+        "While both can cause branch death, bacterial cankers can form anywhere on a stem, whereas dieback characteristically progresses from the tip downwards."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Prune and destroy affected twigs and branches, cutting at least 15-20 cm into the healthy wood.",
+      "Ensure proper irrigation and balanced nutrition to maintain tree vigor.",
+      "Avoid wounding trees during cultural operations.",
+      "Sterilize pruning tools (e.g., with 10% bleach solution or alcohol) between cuts and between trees."
+    ],
+    "biological": [],
+    "chemical": [
+      "Apply protective copper-based fungicides (e.g., copper oxychloride, Bordeaux mixture) before the rainy season to protect from new infections.",
+      "After pruning, apply a fungicidal paste to the cut ends to prevent pathogen entry."
+    ],
+    "notes": "Integrated management focusing on sanitation and maintaining tree health is crucial. The exact chemical control depends on the specific pathogen identified."
+  }
+}

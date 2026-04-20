@@ -1,0 +1,140 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "eggplant.healthy.healthy",
+  "aliases": [
+    "normal",
+    "asymptomatic",
+    "no disease"
+  ],
+  "crop": {
+    "common_name": "eggplant",
+    "scientific_name": "Solanum melongena",
+    "family": "Solanaceae"
+  },
+  "condition": {
+    "common_name": "Healthy",
+    "scientific_name": "",
+    "alt_names": [
+      "Asymptomatic"
+    ],
+    "pathogen": {
+      "type": "none",
+      "taxonomy": {
+        "kingdom": "",
+        "phylum": "",
+        "class": "",
+        "order": "",
+        "family": "",
+        "genus": "",
+        "species": ""
+      }
+    }
+  },
+  "issue_type": "healthy",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [],
+    "overwintering": []
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "Optimal growing temperatures and humidity",
+      "Adequate sunlight (6-8 hours direct sun)",
+      "Well-drained, fertile soil",
+      "Good air circulation around plants"
+    ],
+    "temp_c_day": [
+      21,
+      29
+    ],
+    "temp_c_night": [
+      18,
+      24
+    ],
+    "relative_humidity_pct": [
+      60,
+      85
+    ],
+    "leaf_wetness_hours_threshold": 0
+  },
+  "severity_rubric": {
+    "unit": "qualitative",
+    "mild": "Not applicable.",
+    "moderate": "Not applicable.",
+    "severe": "Not applicable.",
+    "notes": "Severity is not applicable for a healthy plant. The plant is either healthy or it is not. Any deviation from the healthy description indicates a different condition."
+  },
+  "symptoms": {
+    "leaves": [
+      "Uniformly green color, appropriate for the cultivar, without mottling or yellowing.",
+      "Leaves are fully expanded, turgid, and show no signs of wilting, curling, or distortion.",
+      "Leaf surfaces are smooth and free of spots, lesions, holes, or powdery/fuzzy growth.",
+      "No stippling, bronzing, or webbing is visible on either the upper or lower leaf surface."
+    ],
+    "stems": [
+      "Stems are sturdy, upright, and have a consistent green or purplish color.",
+      "No cankers, lesions, dark streaks, or soft/rotted areas are present.",
+      "The base of the stem is firm and free from decay."
+    ],
+    "fruit": [
+      "Skin is smooth, glossy, and has a uniform, rich color characteristic of the variety.",
+      "Fruit is firm to the touch, not soft, shriveled, or water-soaked.",
+      "The calyx (green cap) is fresh, green, and healthy-looking, not brown or moldy.",
+      "Fruit surface is free from spots, sunken lesions, cracks, or rot."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Exhibits vigorous, upright growth.",
+      "Actively producing new leaves, flowers, and fruit appropriate for its age and season."
+    ],
+    "signs_microscopic_or_visible": [
+      "Absence of any visible pathogen signs such as mycelium, fruiting bodies, spores, or bacterial ooze."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "pest_damage",
+      "condition_id": "eggplant.pest_damage.unknown",
+      "key_differences": [
+        "Healthy leaves are whole and intact, whereas pest damage often appears as holes, chewed margins, or skeletonization.",
+        "Healthy leaf surfaces are clean, while pest damage may include stippling (tiny dots from mites), leafminer trails, or visible insects/larvae.",
+        "Healthy plants lack sticky honeydew or sooty mold, which can be present with aphid or whitefly infestations."
+      ]
+    },
+    {
+      "condition_name": "leaf_spot",
+      "condition_id": "eggplant.fungal_disorder.leaf_spot",
+      "key_differences": [
+        "Healthy leaves have a uniform green color, while leaf spot diseases cause distinct, often circular or angular, necrotic (brown/black) or chlorotic (yellow) spots.",
+        "Spots on diseased leaves may have a defined border or a yellow halo, both of which are absent on healthy leaves.",
+        "Under moist conditions, fungal leaf spots may develop visible signs like tiny black dots (pycnidia) within the lesion, which are never present on healthy tissue."
+      ]
+    },
+    {
+      "condition_name": "wilt_generic_review",
+      "condition_id": "eggplant.wilt.wilt_generic_review",
+      "key_differences": [
+        "Healthy leaves are turgid and held upright, while a wilted plant shows drooping or flagging of leaves, which may or may not recover overnight.",
+        "The entire healthy plant appears vigorous, whereas wilt often affects one side of the plant or the whole plant, leading to stunting and death.",
+        "Healthy stems are firm; stems of plants with vascular wilt often show brown discoloration in the vascular tissue when cut open."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Plant certified disease-free seeds or transplants.",
+      "Ensure proper spacing between plants to promote good air circulation.",
+      "Use drip irrigation or soaker hoses to keep foliage dry.",
+      "Practice a 3-4 year crop rotation with non-solanaceous crops.",
+      "Maintain balanced soil fertility based on soil tests."
+    ],
+    "biological": [
+      "Incorporate compost to improve soil structure and microbial activity, which can suppress some pathogens.",
+      "Encourage beneficial insects that prey on potential pest vectors."
+    ],
+    "chemical": [
+      "Not applicable for a healthy plant. Chemical controls are used preventatively or curatively for specific diseases."
+    ],
+    "notes": "Maintaining plant health focuses on preventative cultural practices that reduce stress and create an unfavorable environment for pathogens."
+  }
+}

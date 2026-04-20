@@ -1,0 +1,143 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "sunflower.disease_fungal.downy_mildew",
+  "aliases": [
+    "sunflower downy mildew"
+  ],
+  "crop": {
+    "common_name": "sunflower",
+    "scientific_name": "Helianthus annuus",
+    "family": "Asteraceae"
+  },
+  "condition": {
+    "common_name": "downy mildew",
+    "scientific_name": "Plasmopara halstedii",
+    "alt_names": [],
+    "pathogen": {
+      "type": "disease_oomycete",
+      "taxonomy": {
+        "kingdom": "Stramenopila",
+        "phylum": "Oomycota",
+        "class": "Oomycetes",
+        "order": "Peronosporales",
+        "family": "Peronosporaceae",
+        "genus": "Plasmopara",
+        "species": "P. halstedii"
+      }
+    }
+  },
+  "issue_type": "disease_fungal",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [
+      "water_splash",
+      "wind_driven_rain",
+      "contaminated_seed",
+      "contaminated_soil"
+    ],
+    "overwintering": [
+      "oospores_in_soil",
+      "mycelium_in_infected_seed",
+      "infected_plant_debris"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "high_soil_moisture_at_planting",
+      "cool_temperatures_post-emergence",
+      "prolonged_leaf_wetness",
+      "high_relative_humidity",
+      "poorly_drained_soils"
+    ],
+    "temp_c_day": [
+      15,
+      22
+    ],
+    "temp_c_night": [
+      10,
+      18
+    ],
+    "relative_humidity_pct": [
+      90,
+      100
+    ],
+    "leaf_wetness_hours_threshold": 4
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "1-10% of total plant leaf area showing symptoms (chlorosis or sporulation).",
+    "moderate": "11-40% of total plant leaf area affected; some stunting may be visible.",
+    "severe": ">40% of leaf area affected; significant stunting, plant may be dying or dead.",
+    "notes": "Severity is assessed based on the percentage of symptomatic leaf area across the entire plant. Stunting is a key indicator of systemic infection and high severity, even if leaf area affected is moderate."
+  },
+  "symptoms": {
+    "leaves": [
+      "Pale green or yellowish mosaic-like blotches on upper leaf surfaces, often bounded by major veins.",
+      "Lesions are frequently located along the midrib of young leaves.",
+      "White, cottony sporulation is visible on the underside of leaves, directly opposite the upper-surface blotches.",
+      "In systemically infected plants, chlorosis extends from the petiole into the leaf blade.",
+      "Symptomatic leaves may feel thickened or leathery."
+    ],
+    "stems": [
+      "Significant stunting (dwarfing) of the plant is a primary symptom of systemic infection.",
+      "The stem may appear thicker than normal relative to the plant's height."
+    ],
+    "fruit": [],
+    "roots": [
+      "Root system may be underdeveloped in systemically infected plants."
+    ],
+    "whole_plant": [
+      "Stunted, 'dwarfed' appearance compared to healthy neighboring plants.",
+      "The head of systemically infected plants often faces directly upright ('sky-pointing') instead of following the sun."
+    ],
+    "signs_microscopic_or_visible": [
+      "White, downy fungal-like growth (sporangiophores) on the lower leaf surface, especially in humid conditions or early morning."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "powdery mildew",
+      "condition_id": "sunflower.disease_fungal.powdery_mildew",
+      "key_differences": [
+        "Powdery mildew appears as white, dusty patches primarily on the *upper* leaf surface, while downy mildew sporulation is on the *lower* surface.",
+        "Downy mildew causes distinct, vein-limited chlorotic spots on the upper leaf surface; powdery mildew growth is more superficial and widespread.",
+        "Powdery mildew does not typically cause systemic stunting or 'sky-pointing' heads."
+      ]
+    },
+    {
+      "condition_name": "alternaria leaf spot",
+      "condition_id": "sunflower.disease_fungal.alternaria_leaf_spot",
+      "key_differences": [
+        "Alternaria spots are circular to irregular, dark brown to black, and often have a 'target-like' concentric ring pattern.",
+        "Downy mildew spots are pale green or yellow and angular, bounded by leaf veins.",
+        "Alternaria does not produce white, downy growth on the leaf underside."
+      ]
+    },
+    {
+      "condition_name": "wilted",
+      "condition_id": "sunflower.physiological_symptom.wilted",
+      "key_differences": [
+        "Wilted plants show drooping leaves and stems due to water stress, which can be temporary.",
+        "Downy mildew-stunted plants are rigid and short, not limp or drooping (unless also water-stressed).",
+        "Wilted plants lack the characteristic chlorotic leaf spots and white sporulation of downy mildew."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Use resistant cultivars.",
+      "Plant certified, disease-free seed.",
+      "Improve soil drainage to avoid waterlogging.",
+      "Practice crop rotation with non-host plants (e.g., cereals, legumes).",
+      "Remove and destroy infected plant debris after harvest."
+    ],
+    "biological": [
+      "Some soil microbe-based products may offer suppression, but efficacy varies and is not a primary control method."
+    ],
+    "chemical": [
+      "Fungicide seed treatments (e.g., metalaxyl, mefenoxam) are highly effective for preventing systemic infection.",
+      "Foliar fungicides may be used to manage secondary, localized infections, but are ineffective against established systemic infections."
+    ],
+    "notes": "Management relies heavily on preventative measures like resistant varieties and seed treatments, as systemic infections cannot be cured once established."
+  }
+}

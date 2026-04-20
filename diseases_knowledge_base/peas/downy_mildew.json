@@ -1,0 +1,146 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "peas.disease_fungal.downy_mildew",
+  "aliases": [
+    "pea downy mildew"
+  ],
+  "crop": {
+    "common_name": "Peas",
+    "scientific_name": "Pisum sativum",
+    "family": "Fabaceae"
+  },
+  "condition": {
+    "common_name": "Downy mildew",
+    "scientific_name": "Peronospora viciae f. sp. pisi",
+    "alt_names": [],
+    "pathogen": {
+      "type": "disease_oomycete",
+      "taxonomy": {
+        "kingdom": "Stramenopila",
+        "phylum": "Oomycota",
+        "class": "Oomycetes",
+        "order": "Peronosporales",
+        "family": "Peronosporaceae",
+        "genus": "Peronospora",
+        "species": "viciae"
+      }
+    }
+  },
+  "issue_type": "disease_fungal",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [
+      "windborne sporangia",
+      "rain splash",
+      "contaminated seed"
+    ],
+    "overwintering": [
+      "oospores in soil",
+      "infected crop debris",
+      "systemically infected volunteer plants",
+      "on seed"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "cool temperatures",
+      "high humidity",
+      "prolonged leaf wetness",
+      "dense plant canopies",
+      "poor air circulation"
+    ],
+    "temp_c_day": [
+      10,
+      18
+    ],
+    "temp_c_night": [
+      4,
+      10
+    ],
+    "relative_humidity_pct": [
+      90,
+      100
+    ],
+    "leaf_wetness_hours_threshold": 4
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "1-10% of total leaf area affected with lesions; a few scattered lesions on lower leaves.",
+    "moderate": "11-40% of leaf area affected; multiple lesions on lower and mid-canopy leaves; some leaf yellowing and minor defoliation.",
+    "severe": ">40% of leaf area affected; extensive lesions throughout the canopy, significant defoliation, and visible infection on stems and pods.",
+    "notes": "Severity is estimated as the percentage of the total photosynthetic area of the plant showing symptoms (chlorosis, necrosis, and visible sporulation)."
+  },
+  "symptoms": {
+    "leaves": [
+      "Irregular, pale green to yellowish blotches appear on the upper leaf surface.",
+      "Lesions are often limited by leaf veins, giving them an angular shape.",
+      "A downy, grayish-purple mold grows on the underside (abaxial surface) of leaves, corresponding to the upper surface blotches.",
+      "Infected leaves may curl, turn necrotic, and fall off prematurely.",
+      "Systemic infection in seedlings can cause a grayish discoloration and stunting."
+    ],
+    "stems": [
+      "Systemic infections can cause stunting and discoloration of the entire stem.",
+      "Lesions are less common but can appear as elongated, water-soaked areas with sporulation under high humidity."
+    ],
+    "fruit": [
+      "Pods can develop large, water-soaked, or brownish lesions.",
+      "The characteristic grayish-purple mold may grow on infected pods, especially in humid conditions.",
+      "Infected pods may become distorted or contain shriveled, undeveloped seeds."
+    ],
+    "roots": [],
+    "whole_plant": [
+      "Stunting and general yellowing (chlorosis), particularly from early, systemic infection.",
+      "Reduced plant vigor and overall yield."
+    ],
+    "signs_microscopic_or_visible": [
+      "Visible grayish-purple, fuzzy or downy growth on the abaxial (lower) leaf surfaces and other infected parts.",
+      "Microscopic view reveals dichotomously branched sporangiophores bearing lemon-shaped sporangia."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "Powdery mildew",
+      "condition_id": "peas.disease_fungal.powdery_mildew",
+      "key_differences": [
+        "Powdery mildew produces a white, powdery growth primarily on the upper leaf surface, while downy mildew's growth is grayish-purple and on the lower surface.",
+        "Downy mildew causes distinct yellow, angular lesions on the upper leaf surface; powdery mildew covers the leaf in a more uniform white fungal mat.",
+        "Downy mildew thrives in cool, moist conditions, while powdery mildew often prefers warmer, drier conditions with high ambient humidity."
+      ]
+    },
+    {
+      "condition_name": "Ascochyta blight",
+      "condition_id": "peas.disease_fungal.ascochyta_blight",
+      "key_differences": [
+        "Ascochyta lesions are circular to oval, tan to dark brown, and often have a 'target-like' appearance with tiny black dots (pycnidia) in the center.",
+        "Downy mildew lacks pycnidia and has angular, yellowish lesions on the upper surface.",
+        "Downy mildew produces a fuzzy mold on the leaf underside; Ascochyta does not."
+      ]
+    },
+    {
+      "condition_name": "Botrytis blight",
+      "condition_id": "peas.disease_fungal.botrytis_blight",
+      "key_differences": [
+        "Botrytis produces a dense, fuzzy, gray-to-brown mold, often on flowers and pods, not typically confined to the underside of distinct leaf lesions.",
+        "Botrytis lesions are rapidly expanding, water-soaked, and irregular, lacking the angular, vein-limited shape of downy mildew leaf spots.",
+        "The sporulation of downy mildew is more purplish-gray and less 'fluffy' or dense than that of Botrytis (gray mold)."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Use certified disease-free seed to prevent introduction.",
+      "Practice crop rotation with non-host crops for at least 3-4 years.",
+      "Improve air circulation through wider plant spacing and weed control.",
+      "Manage irrigation to minimize leaf wetness duration; avoid overhead watering late in the day.",
+      "Remove and destroy infected crop debris after harvest to reduce overwintering inoculum."
+    ],
+    "biological": [
+      "Bio-fungicides based on *Bacillus subtilis* or other microbes may offer some suppression when applied preventatively."
+    ],
+    "chemical": [
+      "Apply protective and systemic fungicides (e.g., metalaxyl, mancozeb, azoxystrobin) prior to or at the first sign of disease, especially during favorable weather conditions.",
+      "Fungicidal seed treatments are effective at controlling seedborne inoculum and early seedling infections."
+    ],
+    "notes": "An integrated pest management (IPM) approach is most effective. Monitor weather forecasts to time fungicide applications. Rotate fungicide modes of action to prevent resistance."
+  }
+}

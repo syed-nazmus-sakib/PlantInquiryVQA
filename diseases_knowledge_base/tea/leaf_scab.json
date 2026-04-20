@@ -1,0 +1,142 @@
+{
+  "schema_version": "1.0.0",
+  "disease_id": "tea.disease_fungal.leaf_scab",
+  "aliases": [
+    "bird's eye spot",
+    "cercospora leaf spot"
+  ],
+  "crop": {
+    "common_name": "Tea",
+    "scientific_name": "Camellia sinensis",
+    "family": "Theaceae"
+  },
+  "condition": {
+    "common_name": "Leaf Scab",
+    "scientific_name": "Elsino\u00eb theae",
+    "alt_names": [
+      "Bird's eye spot"
+    ],
+    "pathogen": {
+      "type": "disease_fungal",
+      "taxonomy": {
+        "kingdom": "Fungi",
+        "phylum": "Ascomycota",
+        "class": "Dothideomycetes",
+        "order": "Myriangiales",
+        "family": "Elsinoaceae",
+        "genus": "Elsino\u00eb",
+        "species": "E. theae"
+      }
+    }
+  },
+  "issue_type": "disease_fungal",
+  "transmission": {
+    "vectors": [],
+    "dispersal": [
+      "wind-blown rain",
+      "water splash",
+      "contaminated pruning tools"
+    ],
+    "overwintering": [
+      "infected leaves",
+      "cankers on stems",
+      "plant debris on the ground"
+    ]
+  },
+  "environmental_risk": {
+    "risk_factors": [
+      "prolonged leaf wetness",
+      "high humidity",
+      "poor air circulation in dense canopies",
+      "presence of young, susceptible flush leaves",
+      "warm temperatures"
+    ],
+    "temp_c_day": [
+      20,
+      28
+    ],
+    "temp_c_night": [],
+    "relative_humidity_pct": [
+      85,
+      100
+    ],
+    "leaf_wetness_hours_threshold": 10
+  },
+  "severity_rubric": {
+    "unit": "percent_leaf_area",
+    "mild": "1-5% of leaf area affected. A few scattered, distinct lesions on the leaf.",
+    "moderate": "6-25% of leaf area affected. Multiple lesions are present, some may be starting to merge (coalesce).",
+    "severe": ">25% of leaf area affected. Numerous lesions have coalesced into large necrotic patches, causing significant leaf distortion, yellowing, or premature defoliation.",
+    "notes": "Assessment should be based on the most symptomatic leaves on the plant. The percentage reflects the total surface area covered by lesions."
+  },
+  "symptoms": {
+    "leaves": [
+      "Initial symptoms are small, dark brown to purplish, water-soaked spots on young, tender leaves.",
+      "Lesions expand to form circular spots, typically 1-5 mm in diameter.",
+      "Mature spots develop a characteristic pale gray, tan, or whitish center.",
+      "A distinct, raised, dark brown or purplish-red border surrounds the pale center, creating a 'bird's eye' or 'frog-eye' appearance.",
+      "The center of the lesion may become thin and papery, eventually falling out to create a 'shot-hole' effect.",
+      "Under heavy infection, multiple spots can coalesce, forming large, irregular, blighted areas.",
+      "Affected leaves may become distorted, puckered, or curled.",
+      "Severe infections can lead to premature leaf drop."
+    ],
+    "stems": [
+      "On young, green stems and petioles, lesions appear as small, slightly raised, scabby cankers with similar coloration to leaf spots."
+    ],
+    "fruit": [],
+    "roots": [],
+    "whole_plant": [
+      "Reduced plant vigor and poor growth in cases of chronic, severe infection."
+    ],
+    "signs_microscopic_or_visible": [
+      "Under high humidity and with a hand lens, tiny black specks (acervuli, the fungal fruiting bodies) may be visible in the center of lesions."
+    ]
+  },
+  "lookalikes": [
+    {
+      "condition_name": "Algal Leaf Spot",
+      "condition_id": "tea.disease_algal.algal_leaf_spot",
+      "key_differences": [
+        "Algal spots are raised, superficial, and have a velvety or felt-like texture, whereas leaf scab lesions are slightly sunken.",
+        "Algal spots are typically grayish-green, yellow, or orange-red and lack the distinct pale center and dark border of leaf scab.",
+        "Algal spots can often be physically scraped off the leaf surface; leaf scab lesions are integrated into the leaf tissue."
+      ]
+    },
+    {
+      "condition_name": "Gray Blight",
+      "condition_id": "tea.disease_fungal.gray_blight",
+      "key_differences": [
+        "Gray blight lesions are much larger (often >1 cm), starting from the leaf margin or tip, while leaf scab spots are small and scattered.",
+        "Gray blight lesions are grayish-brown and often have concentric rings (zonate pattern), which is absent in leaf scab.",
+        "Leaf scab has a distinct 'bird's eye' look with a white/gray center and dark border; gray blight is more uniformly colored or zoned.",
+        "Gray blight often features tiny black dots (pycnidia) arranged in rings, a key diagnostic sign not seen in leaf scab."
+      ]
+    },
+    {
+      "condition_name": "Helopeltis Damage",
+      "condition_id": "tea.damage_insect.helopeltis_damage",
+      "key_differences": [
+        "Helopeltis damage results in angular, water-soaked lesions that turn black or dark brown, without a pale center or colored border.",
+        "Insect feeding punctures are often visible and damage may appear in a linear or clustered pattern.",
+        "The transition from the necrotic spot to healthy tissue is very sharp and abrupt with Helopeltis damage."
+      ]
+    }
+  ],
+  "management": {
+    "cultural": [
+      "Prune bushes to improve air circulation and light penetration, which helps dry leaves faster.",
+      "Remove and destroy fallen leaves and severely infected plant parts to reduce inoculum.",
+      "Avoid overhead irrigation to minimize the duration of leaf wetness.",
+      "Maintain balanced soil fertility to promote plant vigor and resistance."
+    ],
+    "biological": [
+      "Application of microbial antagonists like *Trichoderma* species can help suppress pathogen populations in the soil and on plant surfaces."
+    ],
+    "chemical": [
+      "Apply protective copper-based fungicides before or during periods of high risk (warm, wet weather).",
+      "Systemic fungicides (e.g., strobilurins, triazoles) can be effective but should be used in rotation to prevent resistance.",
+      "Timing is critical; applications should protect new, susceptible flushes of growth."
+    ],
+    "notes": "An integrated approach combining cultural practices with judicious fungicide use is most effective for long-term management."
+  }
+}
