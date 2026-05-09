@@ -146,14 +146,13 @@ ds = load_dataset("<user>/PlantInquiryVQA", split="test")
 ## Citation
 
 ```bibtex
-@inproceedings{sakib2026plantinquiryvqa,
-  title     = {Thinking Like a Botanist: Challenging Multimodal Language Models with Intent-Driven Chain-of-Inquiry},
-  author    = {Sakib, Syed Nazmus and Haque, Nafiul and Amin, Shahrear Bin and
-               Abdullah, Hasan Muhammad and Hasan, Md Mehedi and
-               Hossain, Mohammad Zabed and Arman, Shifat E.},
-  booktitle = {Findings of the Association for Computational Linguistics: ACL 2026},
-  year      = {2026}
+@article{sakib2026thinking,
+  title={Thinking Like a Botanist: Challenging Multimodal Language Models with Intent-Driven Chain-of-Inquiry},
+  author={Sakib, Syed Nazmus and Haque, Nafiul and Amin, Shahrear Bin and Abdullah, Hasan Muhammad and Hasan, Md Mehedi and Hossain, Mohammad Zabed and Arman, Shifat E},
+  journal={arXiv preprint arXiv:2604.20983},
+  year={2026}
 }
+
 ```
 
 ## Acknowledgements
